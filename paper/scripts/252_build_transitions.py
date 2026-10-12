@@ -1,10 +1,11 @@
 """Build the class-transition tables of Fig. 3b: for each gene of the two cohorts,
 its PESTO literature class at the start date and on 2026/10/11.
 
-  Epilepsy: Dinan's 61 Novel or Hypothesized genes (start class from her 2010 runs,
-  experiments/biological_proximity_pilot/replication_epigen_v2/final_cohort.tsv)
+  Epilepsy: the 73 genes Dinan screened (start class from her 2010 runs,
+  experiments/biological_proximity_pilot/replication_epigen_v2/screening_results.json)
   and the 127 genes of scripts/248_draw_epigen_extension.py (benchmark/
-  epigen_extension/pesto_2010.tsv), all scored on 2026/10/11 (pesto_2026.tsv).
+  epigen_extension/pesto_2010.tsv), all scored on 2026/10/11 (pesto_2026.tsv, and
+  pesto_2026_dinan_ee.tsv for her 12 Existing or Established genes).
   Autism: the 200 genes of scripts/245_draw_asd_denovo2014.py, scored on
   2014/09/30 and 2026/10/11 (benchmark/asd_denovo2014/pesto_{2014,2026}.tsv).
 
@@ -15,13 +16,14 @@ benchmark/asd_denovo2014/transitions.tsv (gene, c2014, c2026, asc2026).
 """
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 B = ROOT / "benchmark"
-DINAN = ROOT / "experiments" / "biological_proximity_pilot" / "replication_epigen_v2" / "final_cohort.tsv"
+DINAN = ROOT / "experiments" / "biological_proximity_pilot" / "replication_epigen_v2" / "screening_results.json"
 
 
 def classes(path, name):
@@ -29,10 +31,13 @@ def classes(path, name):
 
 
 def main():
-    din = pd.read_csv(DINAN, sep="\t")[["gene", "verdict_2010"]].rename(columns={"verdict_2010": "c2010"})
+    din = pd.DataFrame([{"gene": r["gene"], "c2010": r["verdict"]} for r in json.load(open(DINAN))
+                        if r.get("verdict")])
     epi = pd.concat([din.assign(source="dinan"),
                      classes(B / "epigen_extension" / "pesto_2010.tsv", "c2010").assign(source="added")])
-    epi = epi.merge(classes(B / "epigen_extension" / "pesto_2026.tsv", "c2026"), on="gene", how="left")
+    end = pd.concat([classes(B / "epigen_extension" / "pesto_2026.tsv", "c2026"),
+                     classes(B / "epigen_extension" / "pesto_2026_dinan_ee.tsv", "c2026")])
+    epi = epi.merge(end, on="gene", how="left")
     epi.to_csv(B / "epigen_extension" / "transitions.tsv", sep="\t", index=False)
 
     asd = classes(B / "asd_denovo2014" / "pesto_2014.tsv", "c2014").merge(

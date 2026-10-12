@@ -4,6 +4,7 @@ EPHX1	Hypothesized	dinan	Hypothesized
 GRM1	Hypothesized	dinan	Existing
 CPLX2	Novel	dinan	Hypothesized
 BCL2	Hypothesized	dinan	Hypothesized
+SCN1A	Established	dinan	Established
 HTR2A	Hypothesized	dinan	Existing
 CHRM2	Novel	dinan	Hypothesized
 CACNG4	Hypothesized	dinan	Hypothesized
@@ -13,14 +14,18 @@ KCNQ1	Hypothesized	dinan	Existing
 ACHE	Hypothesized	dinan	Hypothesized
 RPH3A	Hypothesized	dinan	Existing
 CPLX1	Hypothesized	dinan	Established
+SYN2	Existing	dinan	Existing
 GRIK3	Hypothesized	dinan	Hypothesized
 GRM8	Hypothesized	dinan	Hypothesized
 CYP3A4	Hypothesized	dinan	Existing
 SLC17A6	Hypothesized	dinan	Existing
+CLCN2	Existing	dinan	Existing
 CACNA2D2	Hypothesized	dinan	Established
 GLS	Hypothesized	dinan	Established
 CHRNB4	Hypothesized	dinan	Hypothesized
 SLC17A8	Hypothesized	dinan	Hypothesized
+KCND2	Existing	dinan	Established
+LGI4	Existing	dinan	Existing
 SV2B	Hypothesized	dinan	Hypothesized
 CACNG1	Novel	dinan	Hypothesized
 CACNA1C	Hypothesized	dinan	Established
@@ -31,6 +36,7 @@ CLCN3	Hypothesized	dinan	Established
 GABRB2	Hypothesized	dinan	Established
 GABRP	Novel	dinan	Hypothesized
 CACNA1E	Hypothesized	dinan	Established
+PDYN	Existing	dinan	Existing
 SLC12A5	Hypothesized	dinan	Established
 CHRNB3	Hypothesized	dinan	Hypothesized
 SLC28A1	Novel	dinan	Hypothesized
@@ -44,9 +50,14 @@ GABRA6	Hypothesized	dinan	Existing
 CACNA1S	Novel	dinan	Hypothesized
 SYNGR3	Novel	dinan	Novel
 SCN4A	Novel	dinan	Existing
+CACNB4	Existing	dinan	Existing
+CACNG3	Existing	dinan	Existing
 SYT2	Hypothesized	dinan	Hypothesized
+KCNMB4	Existing	dinan	Hypothesized
 ADORA2B	Novel	dinan	Hypothesized
 NT5E	Novel	dinan	Existing
+SLC1A3	Existing	dinan	Existing
+CYP2D6	Existing	dinan	Existing
 KCNC1	Hypothesized	dinan	Established
 HCN1	Hypothesized	dinan	Established
 GSTA4	Novel	dinan	Hypothesized
@@ -60,6 +71,7 @@ ADRB2	Novel	dinan	Novel
 STX7	Novel	dinan	Hypothesized
 CHRNA6	Hypothesized	dinan	Hypothesized
 RALBP1	Hypothesized	dinan	Hypothesized
+CHRNA2	Existing	dinan	Established
 SLCO1A2	Hypothesized	added	Hypothesized
 GRIA3	Hypothesized	added	Established
 GRM3	Hypothesized	added	Existing

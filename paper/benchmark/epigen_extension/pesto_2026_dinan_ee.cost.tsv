@@ -1,0 +1,61 @@
+gene	phenotype	step	model	calls	input_tokens	output_tokens	usd	cached
+CACNB4	epilepsy	Synonyms	opus5	1	342	288	0.008910	False
+CACNB4	epilepsy	Broadened	haiku	1	399	71	0.000754	False
+CACNB4	epilepsy	Bands	haiku	6	27733	1314	0.034303	False
+CACNB4	epilepsy	ProbabilityRead	opus5	1	12368	1210	0.092090	False
+CACNB4	epilepsy	total		9	40842	2883	0.136057	False
+CACNG3	epilepsy	Synonyms	opus5	1	342	341	0.010235	False
+CACNG3	epilepsy	Broadened	haiku	1	399	65	0.000724	False
+CACNG3	epilepsy	Bands	haiku	2	7296	306	0.008826	False
+CACNG3	epilepsy	ProbabilityRead	opus5	1	5046	693	0.042555	False
+CACNG3	epilepsy	total		5	13083	1405	0.062340	False
+CHRNA2	epilepsy	Synonyms	opus5	1	342	192	0.006510	False
+CHRNA2	epilepsy	Broadened	haiku	1	399	68	0.000739	False
+CHRNA2	epilepsy	Bands	haiku	7	34290	1566	0.042120	False
+CHRNA2	epilepsy	ProbabilityRead	opus5	1	13106	789	0.085255	False
+CHRNA2	epilepsy	total		10	48137	2615	0.134624	False
+CLCN2	epilepsy	Synonyms	opus5	1	342	310	0.009460	False
+CLCN2	epilepsy	Broadened	haiku	1	399	65	0.000724	False
+CLCN2	epilepsy	Bands	haiku	9	37294	1938	0.046984	False
+CLCN2	epilepsy	ProbabilityRead	opus5	1	11241	1181	0.085730	False
+CLCN2	epilepsy	total		12	49276	3494	0.142898	False
+CYP2D6	epilepsy	Synonyms	opus5	1	342	280	0.008710	False
+CYP2D6	epilepsy	Broadened	haiku	1	399	71	0.000754	False
+CYP2D6	epilepsy	Bands	haiku	9	43980	2026	0.054110	False
+CYP2D6	epilepsy	ProbabilityRead	opus5	1	13522	903	0.090185	False
+CYP2D6	epilepsy	total		12	58243	3280	0.153759	False
+KCND2	epilepsy	Synonyms	opus5	1	342	272	0.008510	False
+KCND2	epilepsy	Broadened	haiku	1	399	65	0.000724	False
+KCND2	epilepsy	Bands	haiku	7	34189	1500	0.041689	False
+KCND2	epilepsy	ProbabilityRead	opus5	1	13552	996	0.092660	False
+KCND2	epilepsy	total		10	48482	2833	0.143583	False
+KCNMB4	epilepsy	Synonyms	opus5	1	342	196	0.006610	False
+KCNMB4	epilepsy	Broadened	haiku	1	399	67	0.000734	False
+KCNMB4	epilepsy	Bands	haiku	2	9631	416	0.011711	False
+KCNMB4	epilepsy	ProbabilityRead	opus5	1	9375	833	0.067700	False
+KCNMB4	epilepsy	total		5	19747	1512	0.086755	False
+LGI4	epilepsy	Synonyms	opus5	1	342	278	0.008660	False
+LGI4	epilepsy	Broadened	haiku	1	399	66	0.000729	False
+LGI4	epilepsy	Bands	haiku	3	12905	602	0.015915	False
+LGI4	epilepsy	ProbabilityRead	opus5	1	12773	1078	0.090815	False
+LGI4	epilepsy	total		6	26419	2024	0.116119	False
+PDYN	epilepsy	Synonyms	opus5	1	342	273	0.008535	False
+PDYN	epilepsy	Broadened	haiku	1	399	68	0.000739	False
+PDYN	epilepsy	Bands	haiku	9	39018	1872	0.048378	False
+PDYN	epilepsy	ProbabilityRead	opus5	1	10479	694	0.069745	False
+PDYN	epilepsy	total		12	50238	2907	0.127397	False
+SCN1A	epilepsy	Synonyms	opus5	1	342	264	0.008310	False
+SCN1A	epilepsy	Broadened	haiku	1	399	66	0.000729	False
+SCN1A	epilepsy	Bands	haiku	10	43294	2129	0.053939	False
+SCN1A	epilepsy	ProbabilityRead	opus5	1	12421	766	0.081255	False
+SCN1A	epilepsy	total		13	56456	3225	0.144233	False
+SLC1A3	epilepsy	Synonyms	opus5	1	342	196	0.006610	False
+SLC1A3	epilepsy	Broadened	haiku	1	399	68	0.000739	False
+SLC1A3	epilepsy	Bands	haiku	9	43051	1982	0.052961	False
+SLC1A3	epilepsy	ProbabilityRead	opus5	1	12953	1154	0.093615	False
+SLC1A3	epilepsy	total		12	56745	3400	0.153925	False
+SYN2	epilepsy	Synonyms	opus5	1	342	288	0.008910	False
+SYN2	epilepsy	Broadened	haiku	1	399	65	0.000724	False
+SYN2	epilepsy	Bands	haiku	6	31335	1363	0.038150	False
+SYN2	epilepsy	ProbabilityRead	opus5	1	14429	759	0.091120	False
+SYN2	epilepsy	total		9	46505	2475	0.138904	False
