@@ -23,8 +23,14 @@ Rscript scripts/21_figure2.R
 "$PY" scripts/143_ed2_titles_data.py
 Rscript scripts/144_figure_ed2_titles.R
 
-echo "== Figure 3"
-Rscript scripts/117_figure3_chd_top5.R --loeuf-decile --brain-decile
+echo "== Figure 3, Extended Data Fig. 4, Supplementary Note 4 table"
+Rscript scripts/117_figure3_chd_top5.R --loeuf-decile --brain-decile --or --top5-brain
+Rscript scripts/198_tissue_enrichment_grid.R
+Rscript scripts/199_tissue_heatmap_from_grid.R adult kept 5% --clean
+
+echo "== Supplementary Figure 1 (pipeline schema), Supplementary Note 1 table"
+Rscript scripts/172_pipeline_detailed_schema.R
+"$PY" scripts/183_reproducibility_stats.py
 
 echo "== Supplementary Figures 1 and 2"
 Rscript scripts/122_figure2_current_vs_score.R

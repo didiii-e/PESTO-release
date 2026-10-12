@@ -1,0 +1,51 @@
+gene	phenotype	lit_run1	lit_run2	lit_run3	ot_run1	ot_run2	ot_run3	max_run1	max_run2	max_run3	score_run1	score_run2	score_run3
+ABCB4	gamma-glutamyl transferase	4	4	4	3	3	3	4	4	4	3.78	3.78	3.78
+ADAMTS3	height	3	3	3	4	4	4	4	4	4	3.08	3.03	3.0
+ALOX15	Eosinophils [#/volume] in Blood by Automated count	3	3	3	4	4	4	4	4	4	3.2	3.3	3.18
+ALOX15	Eosinophils/100 leukocytes in Blood by Automated count	4	3	4	4	4	4	4	4	4	3.55	3.19	3.51
+ANKRD11	Specific developmental disorders of scholastic skills	3	3	3	2	2	2	3	3	3	3.11	3.25	3.4
+APC	Gastric ulcer	2	2	2	2	2	2	2	2	2	1.64	1.86	1.76
+BAK1	platelets	4	4	4	4	4	4	4	4	4	3.76	3.85	3.86
+BRCA1	Decreased white blood cell count	2	2	2	2	2	2	2	2	2	2.27	1.88	2.23
+BSN	hip-circumference-mean	3	3	3	2	2	2	3	3	3	3.1	3.04	3.09
+C2	Eosinophils/100 leukocytes in Blood by Automated count	1	1	2	1	1	1	1	1	2	1.46	1.4	1.55
+CBFA2T3	Erythrocytes [#/volume] in Blood by Automated count	2	2	2	3	3	3	3	3	3	2.01	2.06	1.99
+CCNA2	weight	2	2	2	3	3	3	3	3	3	1.67	1.96	1.97
+CEBPE	basophil percentage	3	3	3	3	3	3	3	3	3	3.06	3.04	2.93
+CKAP5	WHR	1	1	1	2	2	2	2	2	2	1.14	1.14	1.14
+COL18A1	high density lipoprotein	3	3	3	4	4	4	4	4	4	3.12	2.99	3.09
+DOCK11	mean platelet volume	3	2	3	3	3	3	3	3	3	2.62	2.47	2.62
+EGLN1	Hemoglobin [Mass/volume] in Blood	4	4	4	4	4	4	4	4	4	3.91	3.85	3.86
+EMD	Atrial fibrillation and flutter	4	4	4	2	2	2	4	4	4	3.68	3.67	3.67
+FAM117A	mean corpuscular volume	2	2	1	4	4	4	4	4	4	1.57	1.51	1.48
+FLNA	platelets	4	4	4	2	2	2	4	4	4	3.93	3.93	3.94
+GIGYF1	alkaline phosphatase	2	2	2	1	1	1	2	2	2	1.77	1.83	1.73
+GMPR	Hemoglobin [Mass/volume] in Blood	3	3	3	4	4	4	4	4	4	2.89	3.0	3.0
+GOLGA6C	height	1	1	1	2	2	2	2	2	2	1.24	1.25	1.24
+GPAM	alkaline phosphatase	3	3	3	4	4	4	4	4	4	3.15	3.2	3.16
+HBA2	mean corpuscular hemoglobin concentration	3	3	3	4	4	4	4	4	4	3.3	3.2	3.26
+HDHD5	alkaline phosphatase	1	1	1	3	3	3	3	3	3	1.42	1.42	1.37
+IGF1R	weight	4	4	4	4	4	4	4	4	4	3.71	3.66	3.66
+IL17RA	monocyte percentage	3	3	3	4	4	4	4	4	4	3.05	2.93	3.15
+IRS2	Acute kidney failure	2	2	2	2	2	2	2	2	2	1.95	1.91	1.93
+IRS2	Creatinine [Mass/volume] in Serum or Plasma	3	3	2	3	3	3	3	3	3	2.93	2.52	2.39
+KIF1B	hip-circumference-mean	1	1	1	2	2	2	2	2	2	1.14	1.14	1.14
+KIF1B	weight	1	1	2	2	2	2	2	2	2	1.29	1.35	1.92
+KNL1	high density lipoprotein	1	1	1	2	2	2	2	2	2	1.06	1.12	1.05
+LCAT	red cell distribution width	3	3	2	4	4	4	4	4	4	2.58	2.53	2.45
+LMX1B	weight	4	4	4	4	4	4	4	4	4	3.78	3.81	3.78
+MARCHF8	red cell distribution width	1	1	1	4	4	4	4	4	4	1.09	1.31	1.33
+MIB1	BMI	1	1	1	2	2	2	2	2	2	1.19	1.23	1.22
+MIB1	Type 2 diabetes	2	2	2	3	3	3	3	3	3	1.65	1.66	1.71
+MICA	height	1	1	1	3	3	3	3	3	3	1.12	1.12	1.12
+MTM1	Creatinine [Mass/volume] in Serum or Plasma	2	2	2	2	2	2	2	2	2	1.5	1.6	1.61
+MYBPC3	Atrial fibrillation and flutter	3	3	3	2	4	2	3	4	3	3.35	3.27	3.33
+PARN	Erythrocytes [#/volume] in Blood by Automated count	3	3	3	3	3	3	3	3	3	2.77	2.9	2.88
+PCSK1	weight	4	4	4	4	4	4	4	4	4	3.92	3.94	3.95
+PKD1	platelets	2	2	2	2	2	2	2	2	2	2.01	1.66	2.01
+PKD2	blood-pressure-systolic-mean	3	3	3	3	2	3	3	3	3	2.98	2.95	3.16
+PLIN4	weight	4	4	4	2	2	2	4	4	4	3.79	3.71	3.75
+RB1CC1	hip-circumference-mean	2	2	2	2	2	2	2	2	2	2.13	1.92	1.88
+SCARF1	mean platelet volume	1	1	1	3	3	3	3	3	3	1.46	1.41	1.46
+SPTB	platelets	2	2	2	3	3	3	3	3	3	1.72	1.66	1.73
+STK38	mean platelet volume	1	1	1	4	4	4	4	4	4	1.43	1.4	1.42

@@ -1,0 +1,4 @@
+rule	n	ot_Novel	ot_Hypothesized	ot_Existing	ot_Established	max_Novel	max_Hypothesized	max_Existing	max_Established	max_novel_or_hyp	controls_novel_or_hyp	fisher_p	concord_exact	concord_within_one	spearman_burden_max	n_burden
+current	950	99	274	287	290	68	199	323	360	267	43/50	1.7e-16	0.418	0.829	0.4	944
+close	950	99	249	312	290	68	182	340	360	250	42/50	1.9e-16	0.412	0.826	0.392	944
+close_pc	950	99	219	342	290	68	168	354	360	236	42/50	2.4e-17	0.413	0.827	0.393	944

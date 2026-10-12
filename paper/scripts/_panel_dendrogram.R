@@ -80,7 +80,8 @@ dendrogram_panel <- function(results_dir,
                              row_mode = "tree",
                              within = "q",
                              legend = "right",
-                             as_or = FALSE) {
+                             as_or = FALSE,
+                             col_labels = NULL) {
   corr <- as.matrix(read.delim(file.path(results_dir, corr_file),
                                row.names = 1, check.names = FALSE))
   col_h <- hclust(as.dist(1 - corr), method = "average")
@@ -144,7 +145,9 @@ dendrogram_panel <- function(results_dir,
       labels = if (as_or) or_labels else waiver(),
       guide = fill_guide,
       na.value = "white") +
-    scale_x_discrete(expand = c(0, 0)) +
+    scale_x_discrete(expand = c(0, 0),
+                     labels = if (is.null(col_labels)) waiver() else
+                       function(x) ifelse(x %in% names(col_labels), col_labels[x], x)) +
     y_scale +
     labs(x = NULL, y = NULL) +
     theme_minimal(base_size = 17) +

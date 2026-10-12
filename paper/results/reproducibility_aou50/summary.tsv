@@ -1,0 +1,10 @@
+branch	n	identical_all_three	within_one_level	mean_pairwise_agreement	fleiss_kappa
+Literature	50	43	50	0.907	0.874
+Open Targets	50	48	49	0.973	0.961
+Max	50	48	50	0.973	0.96
+
+icc21	0.989
+mean_pairwise_spearman	0.982
+median_sd	0.044
+max_sd	0.348
+same_prompt_family	50

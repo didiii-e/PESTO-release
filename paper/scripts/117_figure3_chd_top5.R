@@ -9,19 +9,24 @@
 #   Rscript scripts/117_figure3_chd_top5.R --loeuf-decile
 #     → figures/figure3_ad_r50_nocc_mean_top5_chd_loeufdec.{png,pdf}
 #       panel a = Fisher OR of ≥ Existing in the lowest LOEUF decile
+#   Rscript scripts/117_figure3_chd_top5.R --loeuf-decile --brain-decile --or --top5-brain
+#     → ..._chd_loeufdec_braindec_or_top5b.{png,pdf} and figures/figure3.{png,pdf}
+#       the published Figure 3: odds ratios, panel b on the top 5% brain-specific
 #   Rscript scripts/117_figure3_chd_top5.R --loeuf-decile --brain-decile
-#     → ..._chd_loeufdec_braindec.{png,pdf} and figures/figure3.{png,pdf}
+#     → ..._chd_loeufdec_braindec.{png,pdf}
 #       panel b = Fisher OR of ≥ Existing in the top 10% adult brain-specific
 #   Rscript scripts/117_figure3_chd_top5.R --loeuf-decile --brain-decile --two-decile
 #     → ..._chd_loeufdec_braindec_top2.{png,pdf}
 #       a and b use the top two deciles (20%)
 #   Rscript scripts/117_figure3_chd_top5.R --loeuf-decile --brain-decile --or
-#     → ..._chd_loeufdec_braindec_or.{png,pdf}  (OR not log2 OR; does not
-#       overwrite figures/figure3.*)
+#     → ..._chd_loeufdec_braindec_or.{png,pdf}  (OR not log2 OR, panel b at 10%)
 LOEUF_DEC  <- "--loeuf-decile" %in% commandArgs(TRUE)
 BRAIN_DEC  <- "--brain-decile" %in% commandArgs(TRUE)
 TWO_DEC    <- "--two-decile" %in% commandArgs(TRUE)
 SHOW_OR    <- "--or" %in% commandArgs(TRUE)
+# Panel b on the top 5% of brain-specific genes (the threshold of the text and of
+# Extended Data Fig. 4); panel a keeps the lowest LOEUF decile.
+TOP5_B     <- "--top5-brain" %in% commandArgs(TRUE)
 
 suppressPackageStartupMessages({
   library(ggplot2)
@@ -283,9 +288,9 @@ brain_or_stage <- function(expr, stage) {
     filter(!is.na(score), !is.na(brain_ratio))
   bins <- d %>%
     distinct(gene, brain_ratio) %>%
-    mutate(decile = ntile(brain_ratio, 10))
+    mutate(decile = ntile(brain_ratio, if (TOP5_B) 20 else 10))
   d <- d %>% inner_join(bins %>% select(gene, decile), by = "gene")
-  fisher_or(d, top_deciles = if (TWO_DEC) 9:10 else 10) %>%
+  fisher_or(d, top_deciles = if (TOP5_B) 20 else if (TWO_DEC) 9:10 else 10) %>%
     mutate(stage = stage)
 }
 b_or <- bind_rows(
@@ -293,7 +298,9 @@ b_or <- bind_rows(
   brain_or_stage(fetal, "fetal")
 ) %>%
   mutate(stage = factor(stage, levels = c("adult", "fetal")))
-b_or_file <- if (TWO_DEC) {
+b_or_file <- if (TOP5_B) {
+  "brain_top5_enrichment.tsv"
+} else if (TWO_DEC) {
   "brain_decile_enrichment_top2.tsv"
 } else {
   "brain_decile_enrichment.tsv"
@@ -312,7 +319,9 @@ if (BRAIN_DEC) {
   panel_b <- rho_plot(
     b_plot,
     if (SHOW_OR) {
-      if (TWO_DEC) {
+      if (TOP5_B) {
+        expression(OR~(phantom()>=~Existing~"in top 5% brain-specific"))
+      } else if (TWO_DEC) {
         expression(OR~(phantom()>=~Existing~"in top 20% brain-specific"))
       } else {
         expression(OR~(phantom()>=~Existing~"in top 10% brain-specific"))
@@ -339,7 +348,8 @@ panel_c <- dendrogram_panel(
   row_mode = "blocks",
   within = "or",
   legend = "bottom",
-  as_or = SHOW_OR)
+  as_or = SHOW_OR,
+  col_labels = c(epilepsy = "EPI", bipolar = "BD"))
 
 narrow <- theme(plot.margin = margin(4, 30, 4, 14, unit = "mm"))
 top <- plot_grid(panel_a + narrow, panel_b + narrow, ncol = 2,
@@ -355,13 +365,15 @@ stem <- paste0(
   if (LOEUF_DEC) "_loeufdec" else "",
   if (BRAIN_DEC) "_braindec" else "",
   if (TWO_DEC) "_top2" else "",
-  if (SHOW_OR) "_or" else "")
+  if (SHOW_OR) "_or" else "",
+  if (TOP5_B) "_top5b" else "")
 ggsave(file.path(FIGURES, paste0(stem, ".png")), fig,
        width = 13.2, height = 16, dpi = 1200, bg = "white")
 ggsave(file.path(FIGURES, paste0(stem, ".pdf")), fig,
        width = 13.2, height = 16, bg = "white")
 message("wrote ", file.path(FIGURES, paste0(stem, ".png")), " and .pdf")
-if (LOEUF_DEC && BRAIN_DEC && !TWO_DEC && !SHOW_OR) {
+# figures/figure3.* is the published version: odds ratios, panel b at the top 5%.
+if (LOEUF_DEC && BRAIN_DEC && !TWO_DEC && SHOW_OR && TOP5_B) {
   file.copy(file.path(FIGURES, paste0(stem, ".png")),
             file.path(FIGURES, "figure3.png"), overwrite = TRUE)
   file.copy(file.path(FIGURES, paste0(stem, ".pdf")),

@@ -1,0 +1,351 @@
+gene	phenotype	step	model	calls	input_tokens	output_tokens	usd	cached
+ABCB4	gamma-glutamyl transferase	SynonymsGeneral	opus5	1	383	279	0.008890	False
+ABCB4	gamma-glutamyl transferase	Broadened	haiku	1	403	99	0.000898	False
+ABCB4	gamma-glutamyl transferase	BandsGeneral	haiku	10	48803	2232	0.059963	False
+ABCB4	gamma-glutamyl transferase	ProbabilityReadGeneral	opus5	1	14214	855	0.092445	False
+ABCB4	gamma-glutamyl transferase	ot_gate	claude-haiku-4-5	1	626	25	0.000751	False
+ABCB4	gamma-glutamyl transferase	ot_read	claude-opus-5	1	2536	873	0.034505	False
+ABCB4	gamma-glutamyl transferase	total		15	66965	4363	0.197452	False
+ADAMTS3	height	SynonymsGeneral	opus5	1	372	213	0.007185	False
+ADAMTS3	height	Broadened	haiku	1	397	77	0.000782	False
+ADAMTS3	height	BandsGeneral	haiku	7	40530	1615	0.048605	False
+ADAMTS3	height	ProbabilityReadGeneral	opus5	1	14240	841	0.092225	False
+ADAMTS3	height	ot_gate	claude-haiku-4-5	1	469	10	0.000519	False
+ADAMTS3	height	ot_read	claude-opus-5	1	2354	1134	0.040120	False
+ADAMTS3	height	total		12	58362	3890	0.189436	False
+ALOX15	Eosinophils [#/volume] in Blood by Automated count	SynonymsGeneral	opus5	1	392	372	0.011260	False
+ALOX15	Eosinophils [#/volume] in Blood by Automated count	Broadened	haiku	1	413	105	0.000938	False
+ALOX15	Eosinophils [#/volume] in Blood by Automated count	BandsGeneral	haiku	6	33010	1358	0.039800	False
+ALOX15	Eosinophils [#/volume] in Blood by Automated count	ProbabilityReadGeneral	opus5	1	15637	1082	0.105235	False
+ALOX15	Eosinophils [#/volume] in Blood by Automated count	ot_gate	claude-haiku-4-5	1	535	10	0.000585	False
+ALOX15	Eosinophils [#/volume] in Blood by Automated count	ot_read	claude-opus-5	1	2420	1374	0.046450	False
+ALOX15	Eosinophils [#/volume] in Blood by Automated count	total		11	52407	4301	0.204268	False
+ALOX15	Eosinophils/100 leukocytes in Blood by Automated count	SynonymsGeneral	opus5	1	394	340	0.010470	False
+ALOX15	Eosinophils/100 leukocytes in Blood by Automated count	Broadened	haiku	1	415	118	0.001005	False
+ALOX15	Eosinophils/100 leukocytes in Blood by Automated count	BandsGeneral	haiku	7	35006	1434	0.042176	False
+ALOX15	Eosinophils/100 leukocytes in Blood by Automated count	ProbabilityReadGeneral	opus5	1	14943	1223	0.105290	False
+ALOX15	Eosinophils/100 leukocytes in Blood by Automated count	ot_gate	claude-haiku-4-5	1	536	197	0.001521	False
+ALOX15	Eosinophils/100 leukocytes in Blood by Automated count	ot_read	claude-opus-5	1	2420	1470	0.048850	False
+ALOX15	Eosinophils/100 leukocytes in Blood by Automated count	total		12	53714	4782	0.209312	False
+ANKRD11	Specific developmental disorders of scholastic skills	Synonyms	opus5	1	353	378	0.011215	False
+ANKRD11	Specific developmental disorders of scholastic skills	Broadened	haiku	1	404	23	0.000519	False
+ANKRD11	Specific developmental disorders of scholastic skills	Bands	haiku	7	31798	1478	0.039188	False
+ANKRD11	Specific developmental disorders of scholastic skills	ProbabilityRead	opus5	1	14086	1220	0.100930	False
+ANKRD11	Specific developmental disorders of scholastic skills	ot_gate	claude-haiku-4-5	1	548	25	0.000673	False
+ANKRD11	Specific developmental disorders of scholastic skills	ot_read	claude-opus-5	1	2476	1510	0.050130	False
+ANKRD11	Specific developmental disorders of scholastic skills	total		12	49665	4634	0.202655	False
+APC	Gastric ulcer	Synonyms	opus5	1	345	299	0.009200	False
+APC	Gastric ulcer	Broadened	haiku	1	401	70	0.000751	False
+APC	Gastric ulcer	Bands	haiku	7	29065	1522	0.036675	False
+APC	Gastric ulcer	ProbabilityRead	opus5	1	10775	903	0.076450	False
+APC	Gastric ulcer	ot_gate	claude-haiku-4-5	1	489	7	0.000524	False
+APC	Gastric ulcer	ot_read	claude-opus-5	1	2371	1276	0.043755	False
+APC	Gastric ulcer	total		12	43446	4077	0.167355	False
+BAK1	platelets	SynonymsGeneral	opus5	1	374	259	0.008345	False
+BAK1	platelets	Broadened	haiku	1	398	90	0.000848	False
+BAK1	platelets	BandsGeneral	haiku	9	43989	2030	0.054139	False
+BAK1	platelets	ProbabilityReadGeneral	opus5	1	14293	928	0.094665	False
+BAK1	platelets	ot_gate	claude-haiku-4-5	1	545	13	0.000610	False
+BAK1	platelets	ot_read	claude-opus-5	1	2438	1433	0.048015	False
+BAK1	platelets	total		14	62037	4753	0.206622	False
+BRCA1	Decreased white blood cell count	SynonymsGeneral	opus5	1	381	336	0.010305	False
+BRCA1	Decreased white blood cell count	Broadened	haiku	1	402	82	0.000812	False
+BRCA1	Decreased white blood cell count	BandsGeneral	haiku	9	45861	1916	0.055441	False
+BRCA1	Decreased white blood cell count	ProbabilityReadGeneral	opus5	1	20700	1310	0.136250	False
+BRCA1	Decreased white blood cell count	ot_gate	claude-haiku-4-5	1	528	7	0.000563	False
+BRCA1	Decreased white blood cell count	ot_read	claude-opus-5	1	2428	1298	0.044590	False
+BRCA1	Decreased white blood cell count	total		14	70300	4949	0.247961	False
+BSN	hip-circumference-mean	SynonymsGeneral	opus5	1	380	287	0.009075	False
+BSN	hip-circumference-mean	Broadened	haiku	1	402	99	0.000897	False
+BSN	hip-circumference-mean	BandsGeneral	haiku	7	32396	1500	0.039896	False
+BSN	hip-circumference-mean	ProbabilityReadGeneral	opus5	1	13461	880	0.089305	False
+BSN	hip-circumference-mean	ot_gate	claude-haiku-4-5	1	494	40	0.000694	False
+BSN	hip-circumference-mean	ot_read	claude-opus-5	1	2385	908	0.034625	False
+BSN	hip-circumference-mean	total		12	49518	3714	0.174492	False
+C2	Eosinophils/100 leukocytes in Blood by Automated count	SynonymsGeneral	opus5	1	394	410	0.012220	False
+C2	Eosinophils/100 leukocytes in Blood by Automated count	Broadened	haiku	1	415	118	0.001005	False
+C2	Eosinophils/100 leukocytes in Blood by Automated count	BandsGeneral	haiku	8	40924	1818	0.050014	False
+C2	Eosinophils/100 leukocytes in Blood by Automated count	ProbabilityReadGeneral	opus5	1	11187	581	0.070460	False
+C2	Eosinophils/100 leukocytes in Blood by Automated count	ot_gate	claude-haiku-4-5	1	475	16	0.000555	False
+C2	Eosinophils/100 leukocytes in Blood by Automated count	ot_read	claude-opus-5	1	2346	362	0.020780	False
+C2	Eosinophils/100 leukocytes in Blood by Automated count	total		13	55741	3305	0.155034	False
+CBFA2T3	Erythrocytes [#/volume] in Blood by Automated count	SynonymsGeneral	opus5	1	393	304	0.009565	False
+CBFA2T3	Erythrocytes [#/volume] in Blood by Automated count	Broadened	haiku	1	412	119	0.001007	False
+CBFA2T3	Erythrocytes [#/volume] in Blood by Automated count	BandsGeneral	haiku	8	39843	1730	0.048493	False
+CBFA2T3	Erythrocytes [#/volume] in Blood by Automated count	ProbabilityReadGeneral	opus5	1	12063	893	0.082640	False
+CBFA2T3	Erythrocytes [#/volume] in Blood by Automated count	ot_gate	claude-haiku-4-5	1	549	16	0.000629	False
+CBFA2T3	Erythrocytes [#/volume] in Blood by Automated count	ot_read	claude-opus-5	1	2437	1044	0.038285	False
+CBFA2T3	Erythrocytes [#/volume] in Blood by Automated count	total		13	55697	4106	0.180619	False
+CCNA2	weight	SynonymsGeneral	opus5	1	373	233	0.007690	False
+CCNA2	weight	Broadened	haiku	1	397	79	0.000792	False
+CCNA2	weight	BandsGeneral	haiku	8	45190	1796	0.054170	False
+CCNA2	weight	ProbabilityReadGeneral	opus5	1	17011	732	0.103355	False
+CCNA2	weight	ot_gate	claude-haiku-4-5	1	477	22	0.000587	False
+CCNA2	weight	ot_read	claude-opus-5	1	2357	1228	0.042485	False
+CCNA2	weight	total		13	65805	4090	0.209079	False
+CEBPE	basophil percentage	SynonymsGeneral	opus5	1	377	290	0.009135	False
+CEBPE	basophil percentage	Broadened	haiku	1	400	93	0.000865	False
+CEBPE	basophil percentage	BandsGeneral	haiku	6	29128	1226	0.035258	False
+CEBPE	basophil percentage	ProbabilityReadGeneral	opus5	1	14555	685	0.089900	False
+CEBPE	basophil percentage	ot_gate	claude-haiku-4-5	1	572	10	0.000622	False
+CEBPE	basophil percentage	ot_read	claude-opus-5	1	2463	1148	0.041015	False
+CEBPE	basophil percentage	total		11	47495	3452	0.176795	False
+CKAP5	WHR	SynonymsGeneral	opus5	1	374	419	0.012345	False
+CKAP5	WHR	Broadened	haiku	1	398	81	0.000803	False
+CKAP5	WHR	BandsGeneral	haiku	6	27363	1226	0.033493	False
+CKAP5	WHR	ProbabilityReadGeneral	opus5	1	12625	571	0.077400	False
+CKAP5	WHR	ot_gate	claude-haiku-4-5	1	495	22	0.000605	False
+CKAP5	WHR	ot_read	claude-opus-5	1	2380	936	0.035300	False
+CKAP5	WHR	total		11	43635	3255	0.159946	False
+COL18A1	high density lipoprotein	SynonymsGeneral	opus5	1	379	363	0.010970	False
+COL18A1	high density lipoprotein	Broadened	haiku	1	402	110	0.000952	False
+COL18A1	high density lipoprotein	BandsGeneral	haiku	8	39986	1708	0.048526	False
+COL18A1	high density lipoprotein	ProbabilityReadGeneral	opus5	1	13268	492	0.078640	False
+COL18A1	high density lipoprotein	ot_gate	claude-haiku-4-5	1	571	88	0.001011	False
+COL18A1	high density lipoprotein	ot_read	claude-opus-5	1	2498	1303	0.045065	False
+COL18A1	high density lipoprotein	total		13	57104	4064	0.185164	False
+DOCK11	mean platelet volume	SynonymsGeneral	opus5	1	378	213	0.007215	False
+DOCK11	mean platelet volume	Broadened	haiku	1	400	76	0.000780	False
+DOCK11	mean platelet volume	BandsGeneral	haiku	7	32718	1566	0.040548	False
+DOCK11	mean platelet volume	ProbabilityReadGeneral	opus5	1	6860	1098	0.061750	False
+DOCK11	mean platelet volume	ot_gate	claude-haiku-4-5	1	386	10	0.000436	False
+DOCK11	mean platelet volume	ot_read	claude-opus-5	1	2228	333	0.019465	False
+DOCK11	mean platelet volume	total		12	42970	3296	0.130194	False
+EGLN1	Hemoglobin [Mass/volume] in Blood	SynonymsGeneral	opus5	1	390	330	0.010200	False
+EGLN1	Hemoglobin [Mass/volume] in Blood	Broadened	haiku	1	408	88	0.000848	False
+EGLN1	Hemoglobin [Mass/volume] in Blood	BandsGeneral	haiku	9	42501	1926	0.052131	False
+EGLN1	Hemoglobin [Mass/volume] in Blood	ProbabilityReadGeneral	opus5	1	14600	1127	0.101175	False
+EGLN1	Hemoglobin [Mass/volume] in Blood	ot_gate	claude-haiku-4-5	1	522	16	0.000602	False
+EGLN1	Hemoglobin [Mass/volume] in Blood	ot_read	claude-opus-5	1	2413	1226	0.042715	False
+EGLN1	Hemoglobin [Mass/volume] in Blood	total		14	60834	4713	0.207671	False
+EMD	Atrial fibrillation and flutter	Synonyms	opus5	1	350	317	0.009675	False
+EMD	Atrial fibrillation and flutter	Broadened	haiku	1	405	25	0.000530	False
+EMD	Atrial fibrillation and flutter	Bands	haiku	10	48918	2198	0.059908	False
+EMD	Atrial fibrillation and flutter	ProbabilityRead	opus5	1	13944	1052	0.096020	False
+EMD	Atrial fibrillation and flutter	ot_gate	claude-haiku-4-5	1	595	13	0.000660	False
+EMD	Atrial fibrillation and flutter	ot_read	claude-opus-5	1	2491	1199	0.042430	False
+EMD	Atrial fibrillation and flutter	total		15	66703	4804	0.209223	False
+FAM117A	mean corpuscular volume	SynonymsGeneral	opus5	1	380	317	0.009825	False
+FAM117A	mean corpuscular volume	Broadened	haiku	1	401	84	0.000821	False
+FAM117A	mean corpuscular volume	BandsGeneral	haiku	1	1860	76	0.002240	False
+FAM117A	mean corpuscular volume	ProbabilityReadGeneral	opus5	1	1143	452	0.017015	False
+FAM117A	mean corpuscular volume	ot_gate	claude-haiku-4-5	1	539	25	0.000664	False
+FAM117A	mean corpuscular volume	ot_read	claude-opus-5	1	2442	1146	0.040860	False
+FAM117A	mean corpuscular volume	total		6	6765	2100	0.071425	False
+FLNA	platelets	SynonymsGeneral	opus5	1	374	259	0.008345	False
+FLNA	platelets	Broadened	haiku	1	398	90	0.000848	False
+FLNA	platelets	BandsGeneral	haiku	8	36282	1818	0.045372	False
+FLNA	platelets	ProbabilityReadGeneral	opus5	1	11011	709	0.072780	False
+FLNA	platelets	ot_gate	claude-haiku-4-5	1	522	22	0.000632	False
+FLNA	platelets	ot_read	claude-opus-5	1	2415	816	0.032475	False
+FLNA	platelets	total		13	51002	3714	0.160452	False
+GIGYF1	alkaline phosphatase	SynonymsGeneral	opus5	1	380	386	0.011550	False
+GIGYF1	alkaline phosphatase	Broadened	haiku	1	401	101	0.000906	False
+GIGYF1	alkaline phosphatase	BandsGeneral	haiku	3	14246	646	0.017476	False
+GIGYF1	alkaline phosphatase	ProbabilityReadGeneral	opus5	1	13403	945	0.090640	False
+GIGYF1	alkaline phosphatase	ot_gate	claude-haiku-4-5	1	535	13	0.000600	False
+GIGYF1	alkaline phosphatase	ot_read	claude-opus-5	1	2437	1179	0.041660	False
+GIGYF1	alkaline phosphatase	total		8	31402	3270	0.162832	False
+GMPR	Hemoglobin [Mass/volume] in Blood	SynonymsGeneral	opus5	1	390	326	0.010100	False
+GMPR	Hemoglobin [Mass/volume] in Blood	Broadened	haiku	1	408	88	0.000848	False
+GMPR	Hemoglobin [Mass/volume] in Blood	BandsGeneral	haiku	3	15931	645	0.019156	False
+GMPR	Hemoglobin [Mass/volume] in Blood	ProbabilityReadGeneral	opus5	1	13985	783	0.089500	False
+GMPR	Hemoglobin [Mass/volume] in Blood	ot_gate	claude-haiku-4-5	1	522	13	0.000587	False
+GMPR	Hemoglobin [Mass/volume] in Blood	ot_read	claude-opus-5	1	2411	1123	0.040130	False
+GMPR	Hemoglobin [Mass/volume] in Blood	total		8	33647	2978	0.160321	False
+GOLGA6C	height	SynonymsGeneral	opus5	1	372	257	0.008285	False
+GOLGA6C	height	Broadened	haiku	1	397	77	0.000782	False
+GOLGA6C	height	BandsGeneral	haiku	1	1245	219	0.002340	False
+GOLGA6C	height	ProbabilityReadGeneral	opus5	1	1107	384	0.015135	False
+GOLGA6C	height	ot_gate	claude-haiku-4-5	1	391	13	0.000456	False
+GOLGA6C	height	ot_read	claude-opus-5	1	2238	353	0.020015	False
+GOLGA6C	height	total		6	5750	1303	0.047013	False
+GPAM	alkaline phosphatase	SynonymsGeneral	opus5	1	380	399	0.011875	False
+GPAM	alkaline phosphatase	Broadened	haiku	1	401	101	0.000906	False
+GPAM	alkaline phosphatase	BandsGeneral	haiku	5	28930	1150	0.034680	False
+GPAM	alkaline phosphatase	ProbabilityReadGeneral	opus5	1	15771	913	0.101680	False
+GPAM	alkaline phosphatase	ot_gate	claude-haiku-4-5	1	596	16	0.000676	False
+GPAM	alkaline phosphatase	ot_read	claude-opus-5	1	2503	924	0.035615	False
+GPAM	alkaline phosphatase	total		10	48581	3503	0.185432	False
+HBA2	mean corpuscular hemoglobin concentration	SynonymsGeneral	opus5	1	387	229	0.007660	False
+HBA2	mean corpuscular hemoglobin concentration	Broadened	haiku	1	405	108	0.000945	False
+HBA2	mean corpuscular hemoglobin concentration	BandsGeneral	haiku	9	46849	2052	0.057109	False
+HBA2	mean corpuscular hemoglobin concentration	ProbabilityReadGeneral	opus5	1	16777	1489	0.121110	False
+HBA2	mean corpuscular hemoglobin concentration	ot_gate	claude-haiku-4-5	1	518	10	0.000568	False
+HBA2	mean corpuscular hemoglobin concentration	ot_read	claude-opus-5	1	2410	1776	0.056450	False
+HBA2	mean corpuscular hemoglobin concentration	total		14	67346	5664	0.243842	False
+HDHD5	alkaline phosphatase	SynonymsGeneral	opus5	1	380	383	0.011475	False
+HDHD5	alkaline phosphatase	Broadened	haiku	1	401	101	0.000906	False
+HDHD5	alkaline phosphatase	BandsGeneral	haiku	1	1669	54	0.001939	False
+HDHD5	alkaline phosphatase	ProbabilityReadGeneral	opus5	1	1955	608	0.024975	False
+HDHD5	alkaline phosphatase	ot_gate	claude-haiku-4-5	1	527	13	0.000592	False
+HDHD5	alkaline phosphatase	ot_read	claude-opus-5	1	2434	218	0.017620	False
+HDHD5	alkaline phosphatase	total		6	7366	1377	0.057507	False
+IGF1R	weight	SynonymsGeneral	opus5	1	373	215	0.007240	False
+IGF1R	weight	Broadened	haiku	1	397	79	0.000792	False
+IGF1R	weight	BandsGeneral	haiku	14	70121	3115	0.085696	False
+IGF1R	weight	ProbabilityReadGeneral	opus5	1	14773	1234	0.104715	False
+IGF1R	weight	ot_gate	claude-haiku-4-5	1	466	16	0.000546	False
+IGF1R	weight	ot_read	claude-opus-5	1	2333	1555	0.050540	False
+IGF1R	weight	total		19	88463	6214	0.249529	False
+IL17RA	monocyte percentage	SynonymsGeneral	opus5	1	378	299	0.009365	False
+IL17RA	monocyte percentage	Broadened	haiku	1	400	108	0.000940	False
+IL17RA	monocyte percentage	BandsGeneral	haiku	8	42014	1840	0.051214	False
+IL17RA	monocyte percentage	ProbabilityReadGeneral	opus5	1	15391	784	0.096555	False
+IL17RA	monocyte percentage	ot_gate	claude-haiku-4-5	1	569	13	0.000634	False
+IL17RA	monocyte percentage	ot_read	claude-opus-5	1	2461	1679	0.054280	False
+IL17RA	monocyte percentage	total		13	61213	4723	0.212988	False
+IRS2	Acute kidney failure	Synonyms	opus5	1	345	210	0.006975	False
+IRS2	Acute kidney failure	Broadened	haiku	1	400	61	0.000705	False
+IRS2	Acute kidney failure	Bands	haiku	6	31981	1380	0.038881	False
+IRS2	Acute kidney failure	ProbabilityRead	opus5	1	14252	696	0.088660	False
+IRS2	Acute kidney failure	ot_gate	claude-haiku-4-5	1	508	19	0.000603	False
+IRS2	Acute kidney failure	ot_read	claude-opus-5	1	2399	987	0.036670	False
+IRS2	Acute kidney failure	total		11	49885	3353	0.172494	False
+IRS2	Creatinine [Mass/volume] in Serum or Plasma	SynonymsGeneral	opus5	1	393	233	0.007790	False
+IRS2	Creatinine [Mass/volume] in Serum or Plasma	Broadened	haiku	1	412	122	0.001022	False
+IRS2	Creatinine [Mass/volume] in Serum or Plasma	BandsGeneral	haiku	6	32638	1380	0.039538	False
+IRS2	Creatinine [Mass/volume] in Serum or Plasma	ProbabilityReadGeneral	opus5	1	15819	1043	0.105170	False
+IRS2	Creatinine [Mass/volume] in Serum or Plasma	ot_gate	claude-haiku-4-5	1	505	28	0.000645	False
+IRS2	Creatinine [Mass/volume] in Serum or Plasma	ot_read	claude-opus-5	1	2399	811	0.032270	False
+IRS2	Creatinine [Mass/volume] in Serum or Plasma	total		11	52166	3617	0.186435	False
+KIF1B	hip-circumference-mean	SynonymsGeneral	opus5	1	380	318	0.009850	False
+KIF1B	hip-circumference-mean	Broadened	haiku	1	402	99	0.000897	False
+KIF1B	hip-circumference-mean	BandsGeneral	haiku	6	27843	1336	0.034523	False
+KIF1B	hip-circumference-mean	ProbabilityReadGeneral	opus5	1	12163	462	0.072365	False
+KIF1B	hip-circumference-mean	ot_gate	claude-haiku-4-5	1	500	25	0.000625	False
+KIF1B	hip-circumference-mean	ot_read	claude-opus-5	1	2388	1425	0.047565	False
+KIF1B	hip-circumference-mean	total		11	43676	3665	0.165825	False
+KIF1B	weight	SynonymsGeneral	opus5	1	373	212	0.007165	False
+KIF1B	weight	Broadened	haiku	1	397	79	0.000792	False
+KIF1B	weight	BandsGeneral	haiku	7	33278	1566	0.041108	False
+KIF1B	weight	ProbabilityReadGeneral	opus5	1	12545	648	0.078925	False
+KIF1B	weight	ot_gate	claude-haiku-4-5	1	479	16	0.000559	False
+KIF1B	weight	ot_read	claude-opus-5	1	2371	1232	0.042655	False
+KIF1B	weight	total		12	49443	3753	0.171204	False
+KNL1	high density lipoprotein	SynonymsGeneral	opus5	1	379	360	0.010895	False
+KNL1	high density lipoprotein	Broadened	haiku	1	402	110	0.000952	False
+KNL1	high density lipoprotein	BandsGeneral	haiku	7	29996	1586	0.037926	False
+KNL1	high density lipoprotein	ProbabilityReadGeneral	opus5	1	13766	502	0.081380	False
+KNL1	high density lipoprotein	ot_gate	claude-haiku-4-5	1	532	31	0.000687	False
+KNL1	high density lipoprotein	ot_read	claude-opus-5	1	2435	667	0.028850	False
+KNL1	high density lipoprotein	total		12	47510	3256	0.160690	False
+LCAT	red cell distribution width	SynonymsGeneral	opus5	1	378	278	0.008840	False
+LCAT	red cell distribution width	Broadened	haiku	1	400	85	0.000825	False
+LCAT	red cell distribution width	BandsGeneral	haiku	9	39032	1905	0.048557	False
+LCAT	red cell distribution width	ProbabilityReadGeneral	opus5	1	11831	1105	0.086780	False
+LCAT	red cell distribution width	ot_gate	claude-haiku-4-5	1	527	7	0.000562	False
+LCAT	red cell distribution width	ot_read	claude-opus-5	1	2421	776	0.031505	False
+LCAT	red cell distribution width	total		14	54589	4156	0.177069	False
+LMX1B	weight	SynonymsGeneral	opus5	1	373	204	0.006965	False
+LMX1B	weight	Broadened	haiku	1	397	79	0.000792	False
+LMX1B	weight	BandsGeneral	haiku	7	30929	1500	0.038429	False
+LMX1B	weight	ProbabilityReadGeneral	opus5	1	12961	723	0.082880	False
+LMX1B	weight	ot_gate	claude-haiku-4-5	1	459	19	0.000554	False
+LMX1B	weight	ot_read	claude-opus-5	1	2324	1292	0.043920	False
+LMX1B	weight	total		12	47443	3817	0.173540	False
+MARCHF8	red cell distribution width	SynonymsGeneral	opus5	1	378	300	0.009390	False
+MARCHF8	red cell distribution width	Broadened	haiku	1	400	85	0.000825	False
+MARCHF8	red cell distribution width	BandsGeneral	haiku	7	36962	1610	0.045012	False
+MARCHF8	red cell distribution width	ProbabilityReadGeneral	opus5	1	14201	815	0.091380	False
+MARCHF8	red cell distribution width	ot_gate	claude-haiku-4-5	1	508	13	0.000573	False
+MARCHF8	red cell distribution width	ot_read	claude-opus-5	1	2409	1142	0.040595	False
+MARCHF8	red cell distribution width	total		12	54858	3965	0.187775	False
+MIB1	BMI	SynonymsGeneral	opus5	1	374	164	0.005970	False
+MIB1	BMI	Broadened	haiku	1	398	81	0.000803	False
+MIB1	BMI	BandsGeneral	haiku	7	36761	1588	0.044701	False
+MIB1	BMI	ProbabilityReadGeneral	opus5	1	7193	787	0.055640	False
+MIB1	BMI	ot_gate	claude-haiku-4-5	1	518	7	0.000553	False
+MIB1	BMI	ot_read	claude-opus-5	1	2422	1137	0.040535	False
+MIB1	BMI	total		12	47666	3764	0.148202	False
+MIB1	Type 2 diabetes	Synonyms	opus5	1	346	229	0.007455	False
+MIB1	Type 2 diabetes	Broadened	haiku	1	401	101	0.000906	False
+MIB1	Type 2 diabetes	Bands	haiku	7	33441	1434	0.040611	False
+MIB1	Type 2 diabetes	ProbabilityRead	opus5	1	7932	799	0.059635	False
+MIB1	Type 2 diabetes	ot_gate	claude-haiku-4-5	1	549	13	0.000614	False
+MIB1	Type 2 diabetes	ot_read	claude-opus-5	1	2458	262	0.018840	False
+MIB1	Type 2 diabetes	total		12	45127	2838	0.128061	False
+MICA	height	SynonymsGeneral	opus5	1	372	226	0.007510	False
+MICA	height	Broadened	haiku	1	397	77	0.000782	False
+MICA	height	BandsGeneral	haiku	10	46685	2168	0.057525	False
+MICA	height	ProbabilityReadGeneral	opus5	1	15580	456	0.089300	False
+MICA	height	ot_gate	claude-haiku-4-5	1	483	13	0.000548	False
+MICA	height	ot_read	claude-opus-5	1	2357	765	0.030910	False
+MICA	height	total		15	65874	3705	0.186575	False
+MTM1	Creatinine [Mass/volume] in Serum or Plasma	SynonymsGeneral	opus5	1	393	257	0.008390	False
+MTM1	Creatinine [Mass/volume] in Serum or Plasma	Broadened	haiku	1	412	122	0.001022	False
+MTM1	Creatinine [Mass/volume] in Serum or Plasma	BandsGeneral	haiku	8	38077	1796	0.047057	False
+MTM1	Creatinine [Mass/volume] in Serum or Plasma	ProbabilityReadGeneral	opus5	1	13923	647	0.085790	False
+MTM1	Creatinine [Mass/volume] in Serum or Plasma	ot_gate	claude-haiku-4-5	1	601	7	0.000636	False
+MTM1	Creatinine [Mass/volume] in Serum or Plasma	ot_read	claude-opus-5	1	2519	1053	0.038920	False
+MTM1	Creatinine [Mass/volume] in Serum or Plasma	total		13	55925	3882	0.181815	False
+MYBPC3	Atrial fibrillation and flutter	Synonyms	opus5	1	350	304	0.009350	False
+MYBPC3	Atrial fibrillation and flutter	Broadened	haiku	1	405	25	0.000530	False
+MYBPC3	Atrial fibrillation and flutter	Bands	haiku	9	49344	2058	0.059634	False
+MYBPC3	Atrial fibrillation and flutter	ProbabilityRead	opus5	1	17627	1164	0.117235	False
+MYBPC3	Atrial fibrillation and flutter	ot_gate	claude-haiku-4-5	1	595	7	0.000630	False
+MYBPC3	Atrial fibrillation and flutter	ot_read	claude-opus-5	1	2486	1115	0.040305	False
+MYBPC3	Atrial fibrillation and flutter	total		14	70807	4673	0.227684	False
+PARN	Erythrocytes [#/volume] in Blood by Automated count	SynonymsGeneral	opus5	1	393	307	0.009640	False
+PARN	Erythrocytes [#/volume] in Blood by Automated count	Broadened	haiku	1	412	119	0.001007	False
+PARN	Erythrocytes [#/volume] in Blood by Automated count	BandsGeneral	haiku	7	30053	1456	0.037333	False
+PARN	Erythrocytes [#/volume] in Blood by Automated count	ProbabilityReadGeneral	opus5	1	11417	906	0.079735	False
+PARN	Erythrocytes [#/volume] in Blood by Automated count	ot_gate	claude-haiku-4-5	1	554	16	0.000634	False
+PARN	Erythrocytes [#/volume] in Blood by Automated count	ot_read	claude-opus-5	1	2457	720	0.030285	False
+PARN	Erythrocytes [#/volume] in Blood by Automated count	total		12	45286	3524	0.158634	False
+PCSK1	weight	SynonymsGeneral	opus5	1	373	205	0.006990	False
+PCSK1	weight	Broadened	haiku	1	397	79	0.000792	False
+PCSK1	weight	BandsGeneral	haiku	11	54683	2369	0.066528	False
+PCSK1	weight	ProbabilityReadGeneral	opus5	1	14457	738	0.090735	False
+PCSK1	weight	ot_gate	claude-haiku-4-5	1	460	7	0.000495	False
+PCSK1	weight	ot_read	claude-opus-5	1	2330	1439	0.047625	False
+PCSK1	weight	total		16	72700	4837	0.213165	False
+PKD1	platelets	SynonymsGeneral	opus5	1	374	259	0.008345	False
+PKD1	platelets	Broadened	haiku	1	398	90	0.000848	False
+PKD1	platelets	BandsGeneral	haiku	8	37719	1686	0.046149	False
+PKD1	platelets	ProbabilityReadGeneral	opus5	1	14062	915	0.093185	False
+PKD1	platelets	ot_gate	claude-haiku-4-5	1	500	7	0.000535	False
+PKD1	platelets	ot_read	claude-opus-5	1	2384	966	0.036070	False
+PKD1	platelets	total		13	55437	3923	0.185132	False
+PKD2	blood-pressure-systolic-mean	SynonymsGeneral	opus5	1	384	289	0.009145	False
+PKD2	blood-pressure-systolic-mean	Broadened	haiku	1	404	100	0.000904	False
+PKD2	blood-pressure-systolic-mean	BandsGeneral	haiku	7	37543	1610	0.045593	False
+PKD2	blood-pressure-systolic-mean	ProbabilityReadGeneral	opus5	1	15274	1066	0.103020	False
+PKD2	blood-pressure-systolic-mean	ot_gate	claude-haiku-4-5	1	521	19	0.000616	False
+PKD2	blood-pressure-systolic-mean	ot_read	claude-opus-5	1	2423	1151	0.040890	False
+PKD2	blood-pressure-systolic-mean	total		12	56549	4235	0.200168	False
+PLIN4	weight	SynonymsGeneral	opus5	1	373	205	0.006990	False
+PLIN4	weight	Broadened	haiku	1	397	79	0.000792	False
+PLIN4	weight	BandsGeneral	haiku	5	27911	1155	0.033686	False
+PLIN4	weight	ProbabilityReadGeneral	opus5	1	14881	944	0.098005	False
+PLIN4	weight	ot_gate	claude-haiku-4-5	1	506	28	0.000646	False
+PLIN4	weight	ot_read	claude-opus-5	1	2399	1256	0.043395	False
+PLIN4	weight	total		10	46467	3667	0.183514	False
+RB1CC1	hip-circumference-mean	SynonymsGeneral	opus5	1	380	265	0.008525	False
+RB1CC1	hip-circumference-mean	Broadened	haiku	1	402	99	0.000897	False
+RB1CC1	hip-circumference-mean	BandsGeneral	haiku	7	43515	1588	0.051455	False
+RB1CC1	hip-circumference-mean	ProbabilityReadGeneral	opus5	1	18658	922	0.116340	False
+RB1CC1	hip-circumference-mean	ot_gate	claude-haiku-4-5	1	530	22	0.000640	False
+RB1CC1	hip-circumference-mean	ot_read	claude-opus-5	1	2430	813	0.032475	False
+RB1CC1	hip-circumference-mean	total		12	65915	3709	0.210332	False
+SCARF1	mean platelet volume	SynonymsGeneral	opus5	1	378	235	0.007765	False
+SCARF1	mean platelet volume	Broadened	haiku	1	400	76	0.000780	False
+SCARF1	mean platelet volume	BandsGeneral	haiku	4	17630	727	0.021265	False
+SCARF1	mean platelet volume	ProbabilityReadGeneral	opus5	1	10920	699	0.072075	False
+SCARF1	mean platelet volume	ot_gate	claude-haiku-4-5	1	553	16	0.000633	False
+SCARF1	mean platelet volume	ot_read	claude-opus-5	1	2453	679	0.029240	False
+SCARF1	mean platelet volume	total		9	32334	2432	0.131758	False
+SPTB	platelets	SynonymsGeneral	opus5	1	374	259	0.008345	False
+SPTB	platelets	Broadened	haiku	1	398	90	0.000848	False
+SPTB	platelets	BandsGeneral	haiku	6	27278	1336	0.033958	False
+SPTB	platelets	ProbabilityReadGeneral	opus5	1	12200	947	0.084675	False
+SPTB	platelets	ot_gate	claude-haiku-4-5	1	518	19	0.000613	False
+SPTB	platelets	ot_read	claude-opus-5	1	2388	1444	0.048040	False
+SPTB	platelets	total		11	43156	4095	0.176479	False
+STK38	mean platelet volume	SynonymsGeneral	opus5	1	378	245	0.008015	False
+STK38	mean platelet volume	Broadened	haiku	1	400	76	0.000780	False
+STK38	mean platelet volume	BandsGeneral	haiku	7	31047	1578	0.038937	False
+STK38	mean platelet volume	ProbabilityReadGeneral	opus5	1	12628	684	0.080240	False
+STK38	mean platelet volume	ot_gate	claude-haiku-4-5	1	504	28	0.000644	False
+STK38	mean platelet volume	ot_read	claude-opus-5	1	2378	930	0.035140	False
+STK38	mean platelet volume	total		12	47335	3541	0.163756	False

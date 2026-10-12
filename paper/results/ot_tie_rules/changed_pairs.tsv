@@ -1,0 +1,81 @@
+rule	gene	phenotype	deciding_tag	literature	ot_before	ot_after	max_before	max_after
+close	ANKRD12	Monocytes [#/volume] in Blood by Automated count	CLOSE_VERY	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close	CCND3	mean corpuscular volume	CLOSE_VERY	Established	Hypothesized	Existing	Established	Established
+close	CDH4	Mild cognitive impairment	CLOSE_VERY	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close	CEACAM1	aspartate aminotransferase	CLOSE_VERY	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close	DGKH	Essential hypertension	CLOSE_VERY	Novel	Hypothesized	Existing	Hypothesized	Existing
+close	HBB	reticulocyte percentage	CLOSE_VERY	Existing	Hypothesized	Existing	Existing	Existing
+close	KIF1B	hip-circumference-mean	CLOSE_VERY	Novel	Hypothesized	Existing	Hypothesized	Existing
+close	KIF1B	waist-circumference-mean	CLOSE_VERY	Novel	Hypothesized	Existing	Hypothesized	Existing
+close	LY75-CD302	mean platelet volume	CLOSE_VERY	Novel	Hypothesized	Existing	Hypothesized	Existing
+close	MEN1	Calcium [Mass/volume] in Serum or Plasma	CLOSE_VERY	Established	Hypothesized	Existing	Established	Established
+close	MON2	WHR	CLOSE_VERY	Novel	Hypothesized	Existing	Hypothesized	Existing
+close	RASAL3	Eosinophils/100 leukocytes in Blood by Automated count	CLOSE_VERY	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close	SP100	monocyte percentage	CLOSE_VERY	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close	SPECC1	mean corpuscular volume	CLOSE_VERY	Novel	Hypothesized	Existing	Hypothesized	Existing
+close	TET2	Elevated white blood cell count [Leukocytosis]	CLOSE_VERY	Existing	Hypothesized	Existing	Existing	Existing
+close	TRIM58	mean platelet volume	CLOSE_VERY	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close	XKR6	Obesity	CLOSE_VERY	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close	ANKRD12	Chronic obstructive pulmonary disease	CLOSE_VERY	Existing	Hypothesized	Existing	Existing	Existing
+close	APC	Benign and in situ intestinal neoplasms	CLOSE_VERY	Established	Hypothesized	Existing	Established	Established
+close	CCNA2	Body mass index	CLOSE_VERY	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close	G6PC1	Gout	CLOSE_VERY	Established	Hypothesized	Existing	Established	Established
+close	PKD1	Aspartate aminotransferase	CLOSE_VERY	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close	TNPO3	Hypertension	CLOSE_VERY	Novel	Hypothesized	Existing	Hypothesized	Existing
+close	TTN	Alanine transaminase	CLOSE_VERY	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close	YLPM1	Body mass index	CLOSE_VERY	Existing	Hypothesized	Existing	Existing	Existing
+close_pc	ANKRD11	Specific developmental disorders of scholastic skills	PARENT_FIRST	Existing	Hypothesized	Existing	Existing	Existing
+close_pc	ANKRD12	Monocytes [#/volume] in Blood by Automated count	CLOSE_VERY	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close_pc	CCND3	mean corpuscular volume	CLOSE_VERY	Established	Hypothesized	Existing	Established	Established
+close_pc	CDH4	Mild cognitive impairment	CLOSE_VERY	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close_pc	CEACAM1	aspartate aminotransferase	CLOSE_VERY	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close_pc	CHD2	Leukocytes [#/volume] in Blood by Automated count	CHILD_FIRST	Novel	Hypothesized	Existing	Hypothesized	Existing
+close_pc	COL9A3	Retinal detachments and breaks	CHILD_FIRST	Established	Hypothesized	Existing	Established	Established
+close_pc	CUL3	WHR	PARENT_FIRST	Novel	Hypothesized	Existing	Hypothesized	Existing
+close_pc	DGKH	Essential hypertension	PARENT_FIRST	Novel	Hypothesized	Existing	Hypothesized	Existing
+close_pc	DYRK2	Nicotine dependence (current and history of)	PARENT_FIRST	Novel	Hypothesized	Existing	Hypothesized	Existing
+close_pc	HBB	reticulocyte percentage	CLOSE_VERY	Existing	Hypothesized	Existing	Existing	Existing
+close_pc	ICE1	weight	PARENT_FIRST	Novel	Hypothesized	Existing	Hypothesized	Existing
+close_pc	KIF1B	BMI	PARENT_FIRST	Novel	Hypothesized	Existing	Hypothesized	Existing
+close_pc	KIF1B	hip-circumference-mean	CLOSE_VERY	Novel	Hypothesized	Existing	Hypothesized	Existing
+close_pc	KIF1B	waist-circumference-mean	CLOSE_VERY	Novel	Hypothesized	Existing	Hypothesized	Existing
+close_pc	LY75-CD302	mean platelet volume	CLOSE_VERY	Novel	Hypothesized	Existing	Hypothesized	Existing
+close_pc	MEN1	Calcium [Mass/volume] in Serum or Plasma	CLOSE_VERY	Established	Hypothesized	Existing	Established	Established
+close_pc	MIB1	BMI	PARENT_FIRST	Novel	Hypothesized	Existing	Hypothesized	Existing
+close_pc	MON2	WHR	CLOSE_VERY	Novel	Hypothesized	Existing	Hypothesized	Existing
+close_pc	NOTCH1	Monocytes [#/volume] in Blood by Automated count	PARENT_FIRST	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close_pc	PKP2	Atrial fibrillation and flutter	CHILD_FIRST	Existing	Hypothesized	Existing	Existing	Existing
+close_pc	PLIN4	weight	PARENT_FIRST	Existing	Hypothesized	Existing	Existing	Existing
+close_pc	RASAL3	Eosinophils/100 leukocytes in Blood by Automated count	CLOSE_VERY	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close_pc	SLC4A1	Leukocytes [#/volume] in Blood by Automated count	CHILD_FIRST	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close_pc	SP100	monocyte percentage	CLOSE_VERY	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close_pc	SPECC1	mean corpuscular volume	CLOSE_VERY	Novel	Hypothesized	Existing	Hypothesized	Existing
+close_pc	TET2	Bacteremia, Sepsis, and SIRS	CHILD_FIRST	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close_pc	TET2	Elevated white blood cell count [Leukocytosis]	PARENT_FIRST	Existing	Hypothesized	Existing	Existing	Existing
+close_pc	TRIM58	mean platelet volume	PARENT_FIRST	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close_pc	XKR6	Obesity	CLOSE_VERY	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close_pc	ANKRD12	Chronic obstructive pulmonary disease	CLOSE_VERY	Existing	Hypothesized	Existing	Existing	Existing
+close_pc	APC	Benign and in situ intestinal neoplasms	CHILD_FIRST	Established	Hypothesized	Existing	Established	Established
+close_pc	APC	Inflammatory bowel disease	CHILD_FIRST	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close_pc	APC	Pancreatitis	PARENT_FIRST	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close_pc	CCNA2	Body mass index	CLOSE_VERY	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close_pc	DNAJB11	Chronic renal failure	CHILD_FIRST	Established	Hypothesized	Existing	Established	Established
+close_pc	FBN1	Non-rheumatic valvular heart disease	PARENT_FIRST	Established	Hypothesized	Existing	Established	Established
+close_pc	FBN1	Rheumatic heart disease	PARENT_FIRST	Novel	Hypothesized	Existing	Hypothesized	Existing
+close_pc	FLNA	Non-rheumatic valvular heart disease	CHILD_FIRST	Established	Hypothesized	Existing	Established	Established
+close_pc	G6PC1	Gout	CLOSE_VERY	Established	Hypothesized	Existing	Established	Established
+close_pc	IFT140	Chronic renal failure	PARENT_FIRST	Established	Hypothesized	Existing	Established	Established
+close_pc	MEN1	Urolithiasis	CHILD_FIRST	Existing	Hypothesized	Existing	Existing	Existing
+close_pc	MLH1	Benign and in situ intestinal neoplasms	CHILD_FIRST	Existing	Hypothesized	Existing	Existing	Existing
+close_pc	MSH2	Benign and in situ intestinal neoplasms	CHILD_FIRST	Existing	Hypothesized	Existing	Existing	Existing
+close_pc	MSH6	Benign and in situ intestinal neoplasms	CHILD_FIRST	Existing	Hypothesized	Existing	Existing	Existing
+close_pc	PKD1	Aspartate aminotransferase	CLOSE_VERY	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close_pc	PTEN	Benign and in situ intestinal neoplasms	CHILD_FIRST	Established	Hypothesized	Existing	Established	Established
+close_pc	RICTOR	Height	CHILD_FIRST	Existing	Hypothesized	Existing	Existing	Existing
+close_pc	RTEL1	Interstitial lung disease and pulmonary sarcoidosis	CHILD_FIRST	Established	Hypothesized	Existing	Established	Established
+close_pc	TBC1D4	Total cholesterol	CHILD_FIRST	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close_pc	TERT	Interstitial lung disease and pulmonary sarcoidosis	PARENT_FIRST	Established	Hypothesized	Existing	Established	Established
+close_pc	TNPO3	Hypertension	CLOSE_VERY	Novel	Hypothesized	Existing	Hypothesized	Existing
+close_pc	TTN	Alanine transaminase	CLOSE_VERY	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close_pc	TTN	Non-rheumatic valvular heart disease	CHILD_FIRST	Hypothesized	Hypothesized	Existing	Hypothesized	Existing
+close_pc	YLPM1	Body mass index	CLOSE_VERY	Existing	Hypothesized	Existing	Existing	Existing

@@ -25,7 +25,11 @@ This calls no model and needs no API key. It takes about two minutes.
 | Supplementary Table 1 | `145_supplementary_table1.py` | `results/supplementary_table1.xlsx` |
 | Figure 2 | `21_figure2.R` | `figures/figure2.png` |
 | Extended Data Fig. 2 | `143_ed2_titles_data.py`, `144_figure_ed2_titles.R` | `figures/figure_ed2_titles.png` |
-| Figure 3 | `117_figure3_chd_top5.R --loeuf-decile --brain-decile` (+ `_panel_dendrogram.R`) | `figures/figure3.png` |
+| Figure 3 | `117_figure3_chd_top5.R --loeuf-decile --brain-decile --or --top5-brain` (+ `_panel_dendrogram.R`) | `figures/figure3.png` |
+| Extended Data Fig. 4 | `198_tissue_enrichment_grid.R`, `199_tissue_heatmap_from_grid.R adult kept 5% --clean` | `figures/figure_ed4_tissue_enrichment.png` |
+| Supplementary Note 4, sensitivity of the tissue analyses (table) | `198_tissue_enrichment_grid.R` | `results/tissue_enrichment/grid_key.tsv` |
+| Supplementary Figure 1 (the pipeline, step by step) | `172_pipeline_detailed_schema.R` (+ `pipeline_schema.R`) | `figures/pipeline_detailed.png` |
+| Supplementary Note 1, run-to-run variability (table) | `183_reproducibility_stats.py` | `results/reproducibility_aou50/summary.tsv` |
 | Supplementary Figure 1 | `122_figure2_current_vs_score.R` | `figures/figure2_current_vs_score.png` |
 | Supplementary Figure 2 | `127_fig2_roc_candidate.py`, `128_figure2_roc_candidate.R` | `figures/figure2_roc_candidate.png` |
 | Supplementary Figure 3 | `150_bodyonly_data.py`, `151_figure_supp_bodyonly.R` | `figures/figure_supp_bodyonly.png` |
@@ -66,6 +70,8 @@ will not reproduce each answer exactly.
 | Figure 3 gene universe and enrichments | `82_fig3_four_phenos.py`, `92_fig3_random50.py`, `104_fig3_alzheimer.py`, `106_fig3_random50b.py`, `115_fig3_chd.py`, `108_fig3_go_nocc.py`, `110_fig3_nocc_meancall.py`, `113_fig3_top5_parent.py`, `116_fig3_chd_top5.py`, `86_go_matrix_5pheno.py`, `42_fig3_cd_bars.py` |
 | Supplementary Figures 1 and 2 | `121_score_fig2ab.py`, `125_bare_fig2ab.py`, `126_open_fig2ab.py` |
 | Supplementary Figure 3 benchmark | `139_build_bench_bodyonly.py` (first 22 pairs), `153_extend_bench_bodyonly.py` (18 more, same criteria), `138_score_bodyonly.py` |
+| Supplementary Note 1, run-to-run variability | `181_reproducibility_aou50.py` (three fresh runs of 50 All of Us–GeneBass associations; only each run's `pesto.tsv` and `cost.tsv` are kept here) |
+| Supplementary Note 1, Open Targets tie rules (sensitivity) | `188_ot_tie_rules.py` (replays the stored Open Targets grades, no model call; reads `results/auto_cohort_ot_v7/` and `results/auto_fig1c_absent50_hgnc_v7/` from Zenodo, writes `results/ot_tie_rules/`) |
 
 Their inputs and the saved model answers (one JSON per pair, with the corpus,
 the prompts and the response) are on Zenodo,
