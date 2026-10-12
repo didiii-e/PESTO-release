@@ -4399,3 +4399,843 @@ ZNF865	developmental disorder	3.2	Existing	Existing	Existing	True	asc_ref299
 ZNF865	epilepsy	2.43	Hypothesized	Existing	Hypothesized	False	asc_ref299	
 ZNF865	schizophrenia	1.34	Novel	Novel	Novel	False	asc_ref299	
 ZNF865	type 2 diabetes	1.13	Novel	Novel	Novel	False	asc_ref299	
+GCK	bipolar disorder	1.06	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+GCK	Alzheimer's disease	1.9	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+IRS2	epilepsy	2.7	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	t2d_zhao2025
+IGF1R	Alzheimer's disease	2.61	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	t2d_zhao2025
+HNF1A	Alzheimer's disease	1.97	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+HNF1A	congenital heart disease	1.21	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+HNF4A	Autism Spectrum Disorder	1.41	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+HNF1A	schizophrenia	1.83	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+HNF4A	bipolar disorder	1.52	Hypothesized	Novel	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+HNF1A	type 2 diabetes	3.67	Established	Established	Established	True	fig3_add_t2d_bipex2	t2d_zhao2025
+HNF4A	Alzheimer's disease	1.95	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+HNF4A	congenital heart disease	1.21	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+IGF1R	type 2 diabetes	3.42	Existing	Established	Existing	True	fig3_add_t2d_bipex2	t2d_zhao2025
+GCK	schizophrenia	2.62	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	t2d_zhao2025
+HNF1A	bipolar disorder	2.03	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+IGF1R	bipolar disorder	2.07	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+HNF4A	schizophrenia	2.06	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+GCK	congenital heart disease	1.12	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+IGF1R	Autism Spectrum Disorder	2.68	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	t2d_zhao2025
+IGF1R	congenital heart disease	2.36	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+HNF1A	Autism Spectrum Disorder	1.55	Hypothesized	Novel	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+IRS2	Autism Spectrum Disorder	2.47	Hypothesized	Existing	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+GCK	Autism Spectrum Disorder	1.12	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+HNF1A	epilepsy	2.14	Hypothesized	Existing	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+GCK	epilepsy	2.87	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	t2d_zhao2025
+HNF4A	epilepsy	2.73	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	t2d_zhao2025
+IRS2	schizophrenia	2.72	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	t2d_zhao2025
+IGF1R	schizophrenia	2.5	Hypothesized	Existing	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+IGF1R	epilepsy	2.19	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+IRS2	bipolar disorder	2.07	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+IRS2	congenital heart disease	1.44	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+GCK	type 2 diabetes	3.33	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	t2d_zhao2025
+HNF4A	type 2 diabetes	3.44	Existing	Established	Existing	True	fig3_add_t2d_bipex2	t2d_zhao2025
+IRS2	Alzheimer's disease	2.53	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	t2d_zhao2025
+IRS2	type 2 diabetes	2.87	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	t2d_zhao2025
+UBR3	Autism Spectrum Disorder	2.75	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	t2d_zhao2025
+RMC1	Autism Spectrum Disorder	1.65	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+UBR3	bipolar disorder	1.12	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+IP6K1	epilepsy	2.01	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+UBR3	type 2 diabetes	2.94	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	t2d_zhao2025
+RMC1	type 2 diabetes	1.42	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+RMC1	Alzheimer's disease	1.36	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+UBR3	congenital heart disease	1.59	Hypothesized	Novel	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+UBR3	epilepsy	2.14	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+UBR3	schizophrenia	1.69	Hypothesized	Novel	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+IP6K1	Alzheimer's disease	1.83	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+AKR7L	Autism Spectrum Disorder	1.09	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+UBR3	Alzheimer's disease	1.33	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+AKR7L	schizophrenia	1.09	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+UBB	Autism Spectrum Disorder	1.56	Hypothesized	Novel	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+RMC1	congenital heart disease	1.17	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+UBB	congenital heart disease	1.38	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+RMC1	epilepsy	1.46	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+RMC1	bipolar disorder	1.36	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+AKR7L	epilepsy	1.12	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+RMC1	schizophrenia	1.3	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+IP6K1	type 2 diabetes	2.46	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+UBB	type 2 diabetes	1.74	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+IP6K1	congenital heart disease	1.24	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+UBB	Alzheimer's disease	2.55	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	t2d_zhao2025
+IP6K1	schizophrenia	1.69	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+IP6K1	bipolar disorder	1.49	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+UBB	epilepsy	1.29	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+UBB	bipolar disorder	1.17	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+UBB	schizophrenia	1.17	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	t2d_zhao2025
+IP6K1	Autism Spectrum Disorder	1.66	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	t2d_zhao2025
+AKR7L	bipolar disorder	1.1	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+AKR7L	Alzheimer's disease	1.12	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+AKR7L	congenital heart disease	1.09	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+AKR7L	type 2 diabetes	1.12	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+FRYL	type 2 diabetes	1.09	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+FRYL	epilepsy	2.63	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+FRYL	congenital heart disease	2.31	Hypothesized	Existing	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+KIAA1211L	schizophrenia	2.39	Hypothesized	Existing	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+DOP1A	Autism Spectrum Disorder	2.36	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+NBPF14	Autism Spectrum Disorder	2.52	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+DOP1A	epilepsy	2.36	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+DOP1A	Alzheimer's disease	1.36	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+DOP1A	schizophrenia	1.74	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+KIAA1211L	congenital heart disease	1.09	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+DOP1A	congenital heart disease	1.11	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+FRYL	schizophrenia	1.46	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+FRYL	bipolar disorder	1.26	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+KIAA1211L	epilepsy	1.14	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+KIAA1211L	Alzheimer's disease	1.07	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+DOP1A	type 2 diabetes	1.22	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+FRYL	Alzheimer's disease	1.17	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+KIAA1211L	Autism Spectrum Disorder	1.26	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+DOP1A	bipolar disorder	1.46	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+KIAA1211L	bipolar disorder	1.39	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+NBPF14	bipolar disorder	2.04	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+KIAA1211L	type 2 diabetes	1.09	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+NBPF14	epilepsy	1.59	Hypothesized	Novel	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+NBPF14	Alzheimer's disease	1.33	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+FRYL	Autism Spectrum Disorder	2.52	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+NBPF14	congenital heart disease	1.46	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+NBPF14	schizophrenia	1.91	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+NBPF14	type 2 diabetes	1.12	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+PCDHGA8	schizophrenia	2.36	Hypothesized	Existing	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+PCDHGA8	Autism Spectrum Disorder	1.59	Hypothesized	Novel	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+PCDHGA8	epilepsy	1.28	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+POU2F1	epilepsy	1.33	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+POU2F1	Autism Spectrum Disorder	1.35	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+PCDHGA8	Alzheimer's disease	1.12	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+PCDHGA8	bipolar disorder	1.42	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+POU2F1	schizophrenia	1.91	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+PCDHGA8	type 2 diabetes	1.09	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+PCDHGA8	congenital heart disease	1.12	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+POU2F1	type 2 diabetes	2.94	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+ST18	Alzheimer's disease	2.7	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+POU2F1	congenital heart disease	2.18	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+POU2F1	Alzheimer's disease	2.79	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+POU2F1	bipolar disorder	1.7	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+SHANK1	type 2 diabetes	1.89	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+SHANK1	schizophrenia	2.65	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+ST18	schizophrenia	2.67	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+SHANK1	epilepsy	2.77	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+TCF7L1	Autism Spectrum Disorder	1.56	Hypothesized	Novel	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+ST18	type 2 diabetes	2.44	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+ST18	congenital heart disease	1.06	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+SHANK1	bipolar disorder	1.79	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+SHANK1	Alzheimer's disease	2.26	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+ST18	epilepsy	1.17	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+ST18	bipolar disorder	1.54	Hypothesized	Novel	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+SHANK1	congenital heart disease	1.33	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+ST18	Autism Spectrum Disorder	1.54	Hypothesized	Novel	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+TCF7L1	schizophrenia	1.49	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+TCF7L1	bipolar disorder	1.32	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+TCF7L1	epilepsy	1.45	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+SHANK1	Autism Spectrum Disorder	3.43	Existing	Established	Existing	True	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+TCF7L1	congenital heart disease	1.48	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+TCF7L1	Alzheimer's disease	2.48	Hypothesized	Existing	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+TCF7L1	type 2 diabetes	2.04	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+TERF2	Autism Spectrum Disorder	1.95	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+TERF2	epilepsy	1.97	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+TERF2	type 2 diabetes	2.88	Existing	Existing	Existing	True	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+TERF2	bipolar disorder	1.37	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+TERF2	schizophrenia	1.22	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+TERF2	Alzheimer's disease	2.31	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+TERF2	congenital heart disease	1.38	Novel	Novel	Novel	False	fig3_add_t2d_bipex2	bipex2_ptv_fdr05
+ACTA2	epilepsy	2.88	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+CD1C	bipolar disorder	1.32	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ARL13B	congenital heart disease	1.82	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+C10ORF90	Alzheimer's disease	2.24	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+C10ORF90	congenital heart disease	1.39	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ADRB2	congenital heart disease	1.77	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+ADRB2	Alzheimer's disease	2.24	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+ARL13B	Alzheimer's disease	1.64	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+ACTA2	congenital heart disease	3.45	Existing	Established	Existing	True	fig3_add_random100	random100_oct
+CAPN3	Alzheimer's disease	1.59	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+ARL13B	bipolar disorder	1.32	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+C10ORF90	schizophrenia	1.31	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ACTA2	Autism Spectrum Disorder	1.38	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CD1C	Autism Spectrum Disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CAPN3	epilepsy	2.84	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+CD1C	schizophrenia	1.22	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ACTA2	schizophrenia	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CAPN3	bipolar disorder	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CD1C	epilepsy	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ADGRB2	epilepsy	1.59	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+ACTA2	type 2 diabetes	2.45	Hypothesized	Existing	Hypothesized	False	fig3_add_random100	random100_oct
+ADRB2	type 2 diabetes	3.01	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+ACTA2	bipolar disorder	2.04	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+CAPN3	schizophrenia	1.14	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ADRB2	Autism Spectrum Disorder	2.81	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+ARL13B	epilepsy	2.89	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+C10ORF90	bipolar disorder	1.22	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ACTA2	Alzheimer's disease	2.09	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+ARL13B	type 2 diabetes	1.24	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CAPN3	Autism Spectrum Disorder	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CCDC33	type 2 diabetes	1.48	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ADRB2	bipolar disorder	2.64	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+ARL13B	Autism Spectrum Disorder	2.18	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+ADRB2	epilepsy	1.31	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ADRB2	schizophrenia	2.35	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+C10ORF90	epilepsy	1.28	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CCDC33	Alzheimer's disease	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CAPN3	type 2 diabetes	2.24	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+C10ORF90	Autism Spectrum Disorder	1.31	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CDHR5	Alzheimer's disease	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ABHD10	schizophrenia	1.28	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CD1C	congenital heart disease	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ADGRB2	congenital heart disease	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ADGRB2	schizophrenia	2.49	Hypothesized	Existing	Hypothesized	False	fig3_add_random100	random100_oct
+CDHR5	epilepsy	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ADGRB2	bipolar disorder	2.22	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+CD1C	type 2 diabetes	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ADGRB2	Autism Spectrum Disorder	2.16	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+CDHR5	schizophrenia	1.33	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CDHR5	Autism Spectrum Disorder	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CD1C	Alzheimer's disease	2.04	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+CAPN3	congenital heart disease	1.51	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+C10ORF90	type 2 diabetes	1.38	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ADGRB2	Alzheimer's disease	1.88	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+ABHD10	epilepsy	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ARL13B	schizophrenia	1.66	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+ADGRB2	type 2 diabetes	1.77	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+ABHD10	Alzheimer's disease	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ABHD10	Autism Spectrum Disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ABHD10	bipolar disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CCDC33	schizophrenia	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CDHR5	congenital heart disease	1.08	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ABHD10	congenital heart disease	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ABHD10	type 2 diabetes	1.22	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CCDC33	bipolar disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CCDC33	Autism Spectrum Disorder	1.1	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CCDC33	epilepsy	1.57	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+CCDC33	congenital heart disease	1.66	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+CHRNA9	Autism Spectrum Disorder	1.53	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+CHRNA9	epilepsy	1.45	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CDHR5	type 2 diabetes	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CHRNA9	bipolar disorder	1.53	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+CHRNA9	schizophrenia	1.65	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+CDHR5	bipolar disorder	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CNTF	schizophrenia	2.71	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+CNTF	bipolar disorder	1.84	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+CNTF	epilepsy	2.09	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+CNTF	Autism Spectrum Disorder	2.13	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+CNTF	type 2 diabetes	2.19	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+CENATAC	Autism Spectrum Disorder	1.31	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CNTF	Alzheimer's disease	2.14	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+CHRNA9	Alzheimer's disease	1.43	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CORO1A	congenital heart disease	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DAD1	schizophrenia	1.16	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CORO1A	bipolar disorder	1.22	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CORO1A	epilepsy	1.46	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CENATAC	epilepsy	1.49	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CORO1A	schizophrenia	1.47	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DAD1	epilepsy	1.44	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DAD1	Autism Spectrum Disorder	2.04	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+CORO1A	Autism Spectrum Disorder	2.2	Hypothesized	Existing	Hypothesized	False	fig3_add_random100	random100_oct
+CENATAC	schizophrenia	1.16	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DAD1	Alzheimer's disease	1.89	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+DAD1	type 2 diabetes	1.84	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+CORO1A	type 2 diabetes	2.46	Hypothesized	Existing	Hypothesized	False	fig3_add_random100	random100_oct
+DDX55	bipolar disorder	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CENATAC	Alzheimer's disease	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CENATAC	bipolar disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DNAI1	Autism Spectrum Disorder	1.14	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DAD1	congenital heart disease	1.51	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+CENATAC	type 2 diabetes	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CORO1A	Alzheimer's disease	1.81	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+CENATAC	congenital heart disease	1.95	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+CHRNA9	congenital heart disease	1.08	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DNAI1	bipolar disorder	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DNAI1	epilepsy	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DNAI1	schizophrenia	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CNTF	congenital heart disease	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DNAI1	type 2 diabetes	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+CHRNA9	type 2 diabetes	1.31	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DNAI1	Alzheimer's disease	1.1	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DNAJC5	epilepsy	3.86	Established	Established	Established	True	fig3_add_random100	random100_oct
+DNAI1	congenital heart disease	2.86	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+DNAJC5	type 2 diabetes	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DAD1	bipolar disorder	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+EPN3	schizophrenia	1.35	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DNAJC5	Alzheimer's disease	2.0	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+DDX55	epilepsy	1.04	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DDX55	Autism Spectrum Disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DDX55	Alzheimer's disease	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DDX55	schizophrenia	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DDX55	congenital heart disease	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DDX55	type 2 diabetes	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+EPN3	type 2 diabetes	1.08	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ERN2	schizophrenia	1.44	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ERN2	Autism Spectrum Disorder	1.53	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+ERN2	bipolar disorder	1.27	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ESR2	epilepsy	1.8	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+ESR2	Autism Spectrum Disorder	2.8	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+DNAJC5	Autism Spectrum Disorder	1.24	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ERN2	Alzheimer's disease	1.49	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ESR2	Alzheimer's disease	2.97	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+ESR2	schizophrenia	2.16	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+EPN3	Autism Spectrum Disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ESR2	bipolar disorder	2.03	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+ESR2	congenital heart disease	1.35	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+FMNL1	Autism Spectrum Disorder	2.67	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+DNAJC5	bipolar disorder	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+EPN3	epilepsy	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DNAJC5	schizophrenia	1.44	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+DNAJC5	congenital heart disease	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ERN2	type 2 diabetes	1.51	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+EPN3	bipolar disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+EXTL3	Alzheimer's disease	1.98	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+GEMIN5	Alzheimer's disease	2.02	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+ESR2	type 2 diabetes	2.36	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+EXTL3	type 2 diabetes	2.04	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+ERN2	congenital heart disease	1.11	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+EPN3	congenital heart disease	1.19	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+EPN3	Alzheimer's disease	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GEMIN5	epilepsy	3.01	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+ERN2	epilepsy	1.16	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+EXTL3	Autism Spectrum Disorder	2.27	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+FMNL1	congenital heart disease	1.39	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+EXTL3	schizophrenia	1.36	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+EXTL3	bipolar disorder	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+FMNL1	type 2 diabetes	1.68	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+FMNL1	schizophrenia	1.28	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+EXTL3	congenital heart disease	1.38	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+EXTL3	epilepsy	2.26	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+FMNL1	epilepsy	1.33	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GEMIN5	Autism Spectrum Disorder	2.26	Hypothesized	Existing	Hypothesized	False	fig3_add_random100	random100_oct
+FMNL1	bipolar disorder	1.34	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GFM2	Autism Spectrum Disorder	1.55	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+FMNL1	Alzheimer's disease	1.33	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GEMIN5	schizophrenia	1.36	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GEMIN5	bipolar disorder	1.22	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GEMIN5	congenital heart disease	1.08	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GEMIN5	type 2 diabetes	1.11	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GLOD4	Alzheimer's disease	2.41	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+GFM2	schizophrenia	1.16	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GFM2	epilepsy	2.56	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+GFM2	bipolar disorder	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GFM2	Alzheimer's disease	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GFM2	type 2 diabetes	2.04	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+GFM2	congenital heart disease	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GPRIN1	Autism Spectrum Disorder	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GPRIN1	type 2 diabetes	1.24	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GPRIN1	schizophrenia	1.2	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GPRIN1	bipolar disorder	1.24	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GRK3	Autism Spectrum Disorder	1.46	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GPRIN1	Alzheimer's disease	1.65	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+GLOD4	Autism Spectrum Disorder	1.41	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GPRIN1	epilepsy	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GRK3	Alzheimer's disease	1.41	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GLOD4	epilepsy	1.27	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GRK3	type 2 diabetes	1.91	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+GRK3	congenital heart disease	1.63	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+HPSE2	epilepsy	1.14	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GLOD4	type 2 diabetes	1.7	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+HPSE2	bipolar disorder	1.52	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+HPSE2	Alzheimer's disease	2.44	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+HPSE2	congenital heart disease	1.14	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+HPSE2	type 2 diabetes	1.29	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GLOD4	schizophrenia	1.46	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GRK3	schizophrenia	2.29	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+HSP90AB1	Autism Spectrum Disorder	1.91	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+GLOD4	bipolar disorder	1.44	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GLOD4	congenital heart disease	1.29	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+HSP90AB1	epilepsy	2.02	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+GRK3	bipolar disorder	2.99	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+GOLGA8G	Autism Spectrum Disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GOLGA8G	epilepsy	1.08	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GOLGA8G	schizophrenia	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GOLGA8G	bipolar disorder	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GOLGA8G	Alzheimer's disease	1.08	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+HSP90AB1	Alzheimer's disease	2.12	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+GOLGA8G	congenital heart disease	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+HSP90AB1	congenital heart disease	1.32	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+HPSE2	Autism Spectrum Disorder	1.14	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+HSP90AB1	bipolar disorder	1.6	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+GRK3	epilepsy	1.25	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+GPRIN1	congenital heart disease	1.11	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+HSP90AB1	type 2 diabetes	2.09	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+GOLGA8G	type 2 diabetes	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+HPSE2	schizophrenia	1.16	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+IFI27L1	Alzheimer's disease	1.87	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+KIFAP3	schizophrenia	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+KIFAP3	epilepsy	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+KHK	congenital heart disease	1.26	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+KIFAP3	Alzheimer's disease	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+KHK	Alzheimer's disease	1.68	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+KIFAP3	congenital heart disease	1.94	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+KLF15	schizophrenia	1.29	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+KIFAP3	Autism Spectrum Disorder	1.89	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+HSP90AB1	schizophrenia	1.22	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+KLF15	Alzheimer's disease	2.01	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+KHK	type 2 diabetes	2.21	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+KIFAP3	type 2 diabetes	2.16	Hypothesized	Existing	Hypothesized	False	fig3_add_random100	random100_oct
+KLF15	type 2 diabetes	2.44	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+IFI27L1	type 2 diabetes	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+L3MBTL4	schizophrenia	1.1	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LAMB3	Autism Spectrum Disorder	2.44	Hypothesized	Existing	Hypothesized	False	fig3_add_random100	random100_oct
+IFI27L1	congenital heart disease	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+IFI27L1	Autism Spectrum Disorder	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+IFI27L1	epilepsy	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+IFI27L1	schizophrenia	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+KHK	Autism Spectrum Disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+IFI27L1	bipolar disorder	1.49	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+KHK	epilepsy	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+KHK	schizophrenia	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+KHK	bipolar disorder	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LAMB3	Alzheimer's disease	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LCOR	Autism Spectrum Disorder	1.14	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LAMB3	type 2 diabetes	2.74	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+KLF15	congenital heart disease	2.18	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+KIFAP3	bipolar disorder	1.16	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+KLF15	Autism Spectrum Disorder	1.16	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+KLF15	bipolar disorder	1.29	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LCOR	congenital heart disease	1.19	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+KLRC4	type 2 diabetes	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+KLRC4	Autism Spectrum Disorder	1.04	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+KLF15	epilepsy	1.29	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LGALS3BP	epilepsy	2.61	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+LGALS3BP	Autism Spectrum Disorder	2.36	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+LCOR	Alzheimer's disease	1.84	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+KLRC4	epilepsy	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+KLRC4	schizophrenia	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+KLRC4	Alzheimer's disease	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+KLRC4	bipolar disorder	1.04	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+L3MBTL4	Autism Spectrum Disorder	1.44	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+L3MBTL4	congenital heart disease	1.48	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+L3MBTL4	epilepsy	1.1	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LGALS3BP	schizophrenia	2.24	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+KLRC4	congenital heart disease	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+L3MBTL4	bipolar disorder	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LGALS3BP	Alzheimer's disease	2.13	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+L3MBTL4	Alzheimer's disease	1.6	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+LAMB3	epilepsy	1.21	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LAMB3	schizophrenia	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LAMB3	bipolar disorder	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LGALS3BP	type 2 diabetes	2.29	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+L3MBTL4	type 2 diabetes	1.2	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LAMB3	congenital heart disease	2.19	Hypothesized	Existing	Hypothesized	False	fig3_add_random100	random100_oct
+MATR3	Autism Spectrum Disorder	1.99	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+LCOR	bipolar disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LCOR	epilepsy	1.07	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LCOR	schizophrenia	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LCOR	type 2 diabetes	1.33	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+MATR3	congenital heart disease	2.69	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+MDFIC	epilepsy	1.25	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+MDFIC	bipolar disorder	1.35	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+MDFIC	schizophrenia	1.77	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+MDFIC	Alzheimer's disease	1.39	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LGALS3BP	congenital heart disease	1.53	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+MATR3	Alzheimer's disease	1.91	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+MDFIC	congenital heart disease	2.16	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+METTL21C	Autism Spectrum Disorder	2.75	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+MDFIC	Autism Spectrum Disorder	1.32	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+MTAP	epilepsy	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+MDFIC	type 2 diabetes	2.07	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+LGALS3BP	bipolar disorder	2.13	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+MTAP	Autism Spectrum Disorder	1.1	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+MTAP	schizophrenia	1.25	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+MTAP	bipolar disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LRRIQ1	Autism Spectrum Disorder	1.08	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+MTAP	Alzheimer's disease	1.1	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LRRIQ1	schizophrenia	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LRRIQ1	epilepsy	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LRRIQ1	Alzheimer's disease	1.2	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+MTAP	congenital heart disease	1.37	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LRRIQ1	bipolar disorder	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LRRIQ1	type 2 diabetes	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+LRRIQ1	congenital heart disease	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+MTAP	type 2 diabetes	2.26	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+MATR3	epilepsy	1.22	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+MATR3	bipolar disorder	1.07	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+MATR3	schizophrenia	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+MATR3	type 2 diabetes	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+NPAP1	epilepsy	1.5	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+NPAP1	Autism Spectrum Disorder	2.01	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+METTL21C	epilepsy	1.24	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR10C1	Autism Spectrum Disorder	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+MYOM1	congenital heart disease	2.51	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+OR10C1	epilepsy	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+METTL21C	schizophrenia	1.43	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+METTL21C	bipolar disorder	1.22	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+MYOM1	type 2 diabetes	1.61	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+METTL21C	Alzheimer's disease	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+METTL21C	congenital heart disease	1.08	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR10C1	bipolar disorder	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR10C1	schizophrenia	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+MYOM1	Autism Spectrum Disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+METTL21C	type 2 diabetes	1.64	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+MYOM1	bipolar disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+NDUFAF8	Autism Spectrum Disorder	1.22	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+MYOM1	epilepsy	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+MYOM1	Alzheimer's disease	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR10C1	type 2 diabetes	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+MYOM1	schizophrenia	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR10C1	Alzheimer's disease	1.16	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR10C1	congenital heart disease	1.1	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+NDUFAF8	schizophrenia	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+NDUFAF8	bipolar disorder	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+NDUFAF8	epilepsy	2.62	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+NDUFAF8	congenital heart disease	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+NDUFAF8	type 2 diabetes	1.27	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+NPAP1	congenital heart disease	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+NDUFAF8	Alzheimer's disease	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+NPAP1	bipolar disorder	1.46	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+NPAP1	Alzheimer's disease	1.08	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+NPAP1	schizophrenia	1.49	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+NPAP1	type 2 diabetes	1.22	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OTOR	schizophrenia	1.08	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OTOR	Autism Spectrum Disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OTOR	epilepsy	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OTOR	bipolar disorder	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OTOR	Alzheimer's disease	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OTOR	congenital heart disease	1.44	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR10P1	Autism Spectrum Disorder	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR10P1	epilepsy	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR10P1	type 2 diabetes	1.99	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+OTOR	type 2 diabetes	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PACS2	Autism Spectrum Disorder	3.02	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+OR10P1	bipolar disorder	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR4X1	epilepsy	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR4X1	Autism Spectrum Disorder	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR10P1	schizophrenia	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PACS2	epilepsy	3.97	Established	Established	Established	True	fig3_add_random100	random100_oct
+OR10P1	congenital heart disease	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR4X1	bipolar disorder	1.11	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR4X1	schizophrenia	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR10P1	Alzheimer's disease	1.57	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+PARVA	type 2 diabetes	2.71	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+OR4X1	Alzheimer's disease	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR4X1	type 2 diabetes	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR4X1	congenital heart disease	1.1	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PACS2	Alzheimer's disease	2.04	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+OR52A5	Alzheimer's disease	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PARVA	Alzheimer's disease	1.26	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR52A5	schizophrenia	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR52A5	congenital heart disease	1.07	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR52A5	epilepsy	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR52A5	Autism Spectrum Disorder	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+OR52A5	bipolar disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PARVA	congenital heart disease	1.66	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+PACS2	type 2 diabetes	1.97	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+PIGR	Alzheimer's disease	2.01	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+PIGR	Autism Spectrum Disorder	2.07	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+PIGR	type 2 diabetes	1.97	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+OR52A5	type 2 diabetes	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PACS2	congenital heart disease	1.98	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+PACS2	bipolar disorder	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PACS2	schizophrenia	1.31	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PARVA	bipolar disorder	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PARVA	Autism Spectrum Disorder	1.5	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+PIGR	bipolar disorder	1.38	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PIGR	congenital heart disease	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PARVA	schizophrenia	1.36	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PARVA	epilepsy	1.18	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PIGR	schizophrenia	1.27	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PNPLA1	Autism Spectrum Disorder	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PIGR	epilepsy	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PLA2G2C	Autism Spectrum Disorder	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PLA2G2C	congenital heart disease	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PLA2G2C	epilepsy	1.04	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+POLR2I	schizophrenia	1.19	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PLA2G2C	schizophrenia	1.3	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+POLR2I	congenital heart disease	2.21	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+PPAN	Autism Spectrum Disorder	1.24	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PLA2G2C	bipolar disorder	1.16	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PLA2G2C	Alzheimer's disease	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+POLR2I	Alzheimer's disease	1.81	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+PNPLA1	epilepsy	1.04	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PPAN	epilepsy	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PPAN	bipolar disorder	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PLA2G2C	type 2 diabetes	1.45	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PPAN	Alzheimer's disease	1.16	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PPAN	type 2 diabetes	1.08	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PPP1R3B	Autism Spectrum Disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PNPLA1	bipolar disorder	1.02	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PNPLA1	schizophrenia	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PPAN	congenital heart disease	1.29	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PPP1R3B	Alzheimer's disease	2.73	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+PPP1R3B	epilepsy	1.31	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PPP1R3B	schizophrenia	1.25	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PPP1R3B	bipolar disorder	1.14	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PPP1R3B	congenital heart disease	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PNPLA1	congenital heart disease	1.04	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PNPLA1	Alzheimer's disease	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PRAM1	Alzheimer's disease	1.93	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+PNPLA1	type 2 diabetes	1.53	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+PPP1R3B	type 2 diabetes	3.01	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+POLR2I	Autism Spectrum Disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+POLR2I	epilepsy	1.08	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PRKDC	schizophrenia	2.69	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+PRKDC	epilepsy	2.82	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+POLR3GL	Autism Spectrum Disorder	1.48	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+POLR2I	bipolar disorder	1.07	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PRKDC	Alzheimer's disease	2.48	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+PRKDC	type 2 diabetes	2.05	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+POLR2I	type 2 diabetes	1.22	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PPAN	schizophrenia	1.08	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+POLR3GL	schizophrenia	1.15	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+POLR3GL	epilepsy	1.68	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+POLR3GL	Alzheimer's disease	1.1	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PRAM1	epilepsy	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PRAM1	schizophrenia	1.19	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+POLR3GL	congenital heart disease	1.45	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PRAM1	Autism Spectrum Disorder	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PRSS23	Alzheimer's disease	2.2	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+PRAM1	bipolar disorder	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PRAM1	congenital heart disease	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PRAM1	type 2 diabetes	1.1	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+POLR3GL	type 2 diabetes	1.92	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+POLR3GL	bipolar disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PRKDC	Autism Spectrum Disorder	1.25	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PSMB7	Autism Spectrum Disorder	1.41	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PRKDC	congenital heart disease	1.26	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PSMB7	epilepsy	1.33	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PSMB7	schizophrenia	1.36	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PSMB7	congenital heart disease	1.24	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PSMB7	type 2 diabetes	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PSPN	schizophrenia	1.44	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PSPN	bipolar disorder	1.2	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PRKDC	bipolar disorder	1.22	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PSPN	Autism Spectrum Disorder	1.29	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PSMB7	Alzheimer's disease	2.08	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+PTPRN2	Autism Spectrum Disorder	2.82	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+PSPN	congenital heart disease	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PSMB7	bipolar disorder	1.78	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+PRSS23	Autism Spectrum Disorder	1.07	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PTPRN2	epilepsy	2.04	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+PSPN	epilepsy	1.16	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PRSS23	epilepsy	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PSMC3	Autism Spectrum Disorder	2.67	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+PSPN	Alzheimer's disease	1.51	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+PSPN	type 2 diabetes	1.14	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PSMC3	type 2 diabetes	1.38	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PSMC3	Alzheimer's disease	2.8	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+PRSS23	schizophrenia	1.07	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PTPRN2	congenital heart disease	1.25	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PRSS23	congenital heart disease	2.04	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+PRSS23	bipolar disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PTPRN2	bipolar disorder	2.19	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+PTPRN2	Alzheimer's disease	2.09	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+PRSS23	type 2 diabetes	1.31	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PTPRN2	type 2 diabetes	2.54	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+RAB5IF	Autism Spectrum Disorder	2.06	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+RAB5IF	Alzheimer's disease	1.27	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RAD54L	Autism Spectrum Disorder	2.26	Hypothesized	Existing	Hypothesized	False	fig3_add_random100	random100_oct
+PTPRN2	schizophrenia	2.31	Hypothesized	Existing	Hypothesized	False	fig3_add_random100	random100_oct
+RAB5IF	type 2 diabetes	1.34	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PSMC3	congenital heart disease	1.36	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+REPIN1	schizophrenia	1.04	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PSMC3	schizophrenia	1.91	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+PSMC3	bipolar disorder	1.36	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+PSMC3	epilepsy	2.38	Hypothesized	Existing	Hypothesized	False	fig3_add_random100	random100_oct
+REPIN1	Alzheimer's disease	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+REPIN1	epilepsy	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+REPIN1	type 2 diabetes	2.66	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+RIN2	epilepsy	1.54	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+RIN2	Alzheimer's disease	2.0	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+RAB5IF	schizophrenia	1.38	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RAB5IF	bipolar disorder	1.69	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+RAB5IF	epilepsy	1.7	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+RAD54L	schizophrenia	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RAD54L	epilepsy	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+REPIN1	Autism Spectrum Disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RAD54L	type 2 diabetes	1.08	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RAD54L	Alzheimer's disease	1.11	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RAD54L	bipolar disorder	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RAD54L	congenital heart disease	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RAB5IF	congenital heart disease	1.88	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+REPIN1	bipolar disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+REPIN1	congenital heart disease	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RMND5A	Alzheimer's disease	1.24	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RGP1	schizophrenia	1.08	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RGP1	epilepsy	1.24	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RNF150	Alzheimer's disease	1.59	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+ROBO2	Alzheimer's disease	1.96	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+ROBO2	epilepsy	1.72	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+ROBO2	congenital heart disease	2.89	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+RGP1	Autism Spectrum Disorder	1.34	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RGP1	congenital heart disease	1.16	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ROBO2	bipolar disorder	2.7	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+ROBO2	type 2 diabetes	2.05	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+ROBO2	Autism Spectrum Disorder	2.38	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+RGP1	bipolar disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SEC24B	epilepsy	2.41	Hypothesized	Existing	Hypothesized	False	fig3_add_random100	random100_oct
+SEC24B	Alzheimer's disease	1.73	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+ROBO2	schizophrenia	2.72	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+RGP1	Alzheimer's disease	1.49	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RGP1	type 2 diabetes	1.5	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+RIN2	Autism Spectrum Disorder	1.51	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+SHQ1	epilepsy	3.79	Established	Established	Established	True	fig3_add_random100	random100_oct
+RIN2	type 2 diabetes	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RIN2	schizophrenia	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RIN2	bipolar disorder	1.11	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RIN2	congenital heart disease	1.52	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+RMND5A	Autism Spectrum Disorder	1.6	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+RNF150	Autism Spectrum Disorder	1.2	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RNF150	schizophrenia	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RMND5A	epilepsy	1.57	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+RMND5A	schizophrenia	1.36	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RMND5A	bipolar disorder	1.2	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RNF150	type 2 diabetes	1.18	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RNF150	bipolar disorder	1.48	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RMND5A	type 2 diabetes	1.61	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+RMND5A	congenital heart disease	2.15	Hypothesized	Existing	Hypothesized	False	fig3_add_random100	random100_oct
+RNF150	epilepsy	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SEC24B	Autism Spectrum Disorder	1.41	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+RNF150	congenital heart disease	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SEC24B	schizophrenia	1.27	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SEC24B	congenital heart disease	2.01	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+SEC24B	bipolar disorder	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SHQ1	Autism Spectrum Disorder	2.14	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+SLC22A2	congenital heart disease	1.26	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC22A2	epilepsy	1.24	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC22A2	schizophrenia	1.41	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SEC24B	type 2 diabetes	1.36	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SHQ1	schizophrenia	1.36	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC22A2	Alzheimer's disease	2.03	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+SLC22A2	Autism Spectrum Disorder	1.66	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+SHQ1	bipolar disorder	1.24	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SHQ1	Alzheimer's disease	1.16	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC22A2	type 2 diabetes	2.58	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+SLC7A13	type 2 diabetes	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC2A11	Alzheimer's disease	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SMYD1	Autism Spectrum Disorder	1.29	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC2A11	type 2 diabetes	1.93	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+SLC2A11	epilepsy	2.12	Hypothesized	Existing	Hypothesized	False	fig3_add_random100	random100_oct
+SMYD1	schizophrenia	1.44	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SMYD1	congenital heart disease	3.05	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+SMYD1	type 2 diabetes	1.29	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SHQ1	congenital heart disease	1.08	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SHQ1	type 2 diabetes	1.16	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SMYD1	Alzheimer's disease	2.05	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+SLC26A11	Autism Spectrum Disorder	1.31	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC26A11	schizophrenia	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC22A2	bipolar disorder	1.68	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+SPDYE2	Autism Spectrum Disorder	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+STK31	epilepsy	1.98	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+SPDYE2	epilepsy	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC26A11	epilepsy	1.59	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+SPDYE2	schizophrenia	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC26A11	type 2 diabetes	1.66	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+SLC26A11	bipolar disorder	1.07	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC26A11	Alzheimer's disease	1.16	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC2A11	Autism Spectrum Disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC26A11	congenital heart disease	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC7A13	congenital heart disease	1.19	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SPDYE2	bipolar disorder	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SPDYE2	Alzheimer's disease	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SPDYE2	congenital heart disease	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC7A13	Autism Spectrum Disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC7A13	Alzheimer's disease	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC7A13	bipolar disorder	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC7A13	epilepsy	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC7A13	schizophrenia	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC2A11	congenital heart disease	1.49	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC2A11	bipolar disorder	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+SLC2A11	schizophrenia	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+STX1A	epilepsy	3.14	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+SPDYE2	type 2 diabetes	1.07	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+STX1A	Alzheimer's disease	2.67	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+SMYD1	epilepsy	1.35	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+STX1A	congenital heart disease	2.32	Hypothesized	Existing	Hypothesized	False	fig3_add_random100	random100_oct
+STX1A	schizophrenia	2.75	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+TACC1	schizophrenia	2.48	Hypothesized	Existing	Hypothesized	False	fig3_add_random100	random100_oct
+SMYD1	bipolar disorder	1.41	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+STX1A	bipolar disorder	2.12	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+TACC1	epilepsy	1.88	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+STX1A	Autism Spectrum Disorder	3.17	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+STX1A	type 2 diabetes	2.84	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+STK31	Autism Spectrum Disorder	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+STK31	bipolar disorder	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+STK31	schizophrenia	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+STK31	Alzheimer's disease	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+STK31	congenital heart disease	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TAS2R41	Alzheimer's disease	2.66	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+STK31	type 2 diabetes	1.1	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TACC1	Autism Spectrum Disorder	1.16	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TACC1	congenital heart disease	1.22	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TACC1	bipolar disorder	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TMPRSS6	bipolar disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TMPRSS6	epilepsy	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TACC1	Alzheimer's disease	1.1	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TACC1	type 2 diabetes	1.08	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TMPRSS6	Autism Spectrum Disorder	1.48	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TMPRSS6	schizophrenia	1.1	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TMPRSS6	congenital heart disease	1.27	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TMPRSS6	Alzheimer's disease	1.97	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+TMPRSS6	type 2 diabetes	2.92	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+TAS2R41	Autism Spectrum Disorder	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TNC	bipolar disorder	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TNC	epilepsy	2.64	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+TNC	Autism Spectrum Disorder	2.57	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+TNC	congenital heart disease	1.79	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+TSPYL5	Alzheimer's disease	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TNC	schizophrenia	2.12	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+TNC	type 2 diabetes	2.07	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+TAS2R41	epilepsy	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TAS2R41	schizophrenia	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TAS2R41	congenital heart disease	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TAS2R41	bipolar disorder	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TMEM135	Autism Spectrum Disorder	1.67	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+TMEM135	epilepsy	1.29	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TNC	Alzheimer's disease	2.28	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+UBP1	epilepsy	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+USP36	type 2 diabetes	2.67	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+UBP1	Alzheimer's disease	1.82	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+TAS2R41	type 2 diabetes	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TMEM135	bipolar disorder	1.22	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TMEM135	congenital heart disease	1.7	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+TMEM135	schizophrenia	1.45	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TMEM135	Alzheimer's disease	1.46	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+UTRN	epilepsy	2.01	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+UTRN	schizophrenia	2.5	Hypothesized	Existing	Hypothesized	False	fig3_add_random100	random100_oct
+UTRN	Autism Spectrum Disorder	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+UTRN	bipolar disorder	1.99	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+TMEM135	type 2 diabetes	1.94	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+UTRN	Alzheimer's disease	2.55	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+UTRN	type 2 diabetes	2.44	Hypothesized	Existing	Hypothesized	False	fig3_add_random100	random100_oct
+UTRN	congenital heart disease	1.36	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+YME1L1	Autism Spectrum Disorder	2.75	Existing	Existing	Existing	True	fig3_add_random100	random100_oct
+TSPYL5	bipolar disorder	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+UBP1	Autism Spectrum Disorder	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TSPYL5	schizophrenia	1.24	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TSPYL5	Autism Spectrum Disorder	1.35	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TSPYL5	epilepsy	1.49	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TSPYL5	congenital heart disease	1.25	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+TSPYL5	type 2 diabetes	1.39	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+UBP1	bipolar disorder	1.05	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+USP36	Autism Spectrum Disorder	1.56	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+UBP1	schizophrenia	1.06	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+USP36	epilepsy	1.88	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+USP36	schizophrenia	1.27	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+USP36	bipolar disorder	1.27	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+USP36	congenital heart disease	1.75	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+UBP1	congenital heart disease	1.49	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+USP36	Alzheimer's disease	1.41	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+UBP1	type 2 diabetes	1.42	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ZNF551	epilepsy	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ZNF551	Autism Spectrum Disorder	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ZNF551	congenital heart disease	1.09	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ZNF551	bipolar disorder	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ZNF551	Alzheimer's disease	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ZNF551	type 2 diabetes	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ZNF551	schizophrenia	1.13	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+YME1L1	Alzheimer's disease	2.06	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+ZKSCAN5	type 2 diabetes	1.97	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+ZC3H8	bipolar disorder	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ZC3H8	schizophrenia	1.1	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ZC3H8	epilepsy	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ZKSCAN5	epilepsy	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+YME1L1	epilepsy	1.97	Hypothesized	Hypothesized	Hypothesized	False	fig3_add_random100	random100_oct
+YME1L1	type 2 diabetes	1.41	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+YME1L1	schizophrenia	1.36	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ZC3H8	Autism Spectrum Disorder	1.17	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ZKSCAN5	schizophrenia	1.1	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+YME1L1	congenital heart disease	1.36	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ZKSCAN5	bipolar disorder	1.12	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ZC3H8	Alzheimer's disease	1.3	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ZC3H8	congenital heart disease	1.44	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ZKSCAN5	congenital heart disease	1.51	Hypothesized	Novel	Hypothesized	False	fig3_add_random100	random100_oct
+ZC3H8	type 2 diabetes	1.36	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+YME1L1	bipolar disorder	1.36	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ZKSCAN5	Autism Spectrum Disorder	1.45	Novel	Novel	Novel	False	fig3_add_random100	random100_oct
+ZKSCAN5	Alzheimer's disease	1.42	Novel	Novel	Novel	False	fig3_add_random100	random100_oct

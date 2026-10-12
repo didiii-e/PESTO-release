@@ -27,6 +27,9 @@ SHOW_OR    <- "--or" %in% commandArgs(TRUE)
 # Panel b on the top 5% of brain-specific genes (the threshold of the text and of
 # Extended Data Fig. 4); panel a keeps the lowest LOEUF decile.
 TOP5_B     <- "--top5-brain" %in% commandArgs(TRUE)
+# Panel c becomes the cell-type heatmap of scripts/214_cell_type_heatmaps.R (13
+# rows, from results/biology/cell_types_grid.tsv) and the GO heatmap panel d.
+CELLS      <- "--cell-panel" %in% commandArgs(TRUE)
 
 suppressPackageStartupMessages({
   library(ggplot2)
@@ -60,6 +63,9 @@ PH_SHORT <- c("Autism Spectrum Disorder" = "ASD",
               "bipolar disorder" = "bipolar disorder",
               "type 2 diabetes" = "type 2 diabetes",
               "Alzheimer's disease" = "Alzheimer's disease")
+# Three panels share the top row in --cell-panel, so a and b use the column names
+# of the heatmaps.
+if (CELLS) PH_SHORT[] <- c("ASD", "EPI", "CHD", "SCZ", "BD", "T2D", "AD")
 SCOL <- c(adult = "#2E5F4F", fetal = "#C47A3A")
 
 base_theme <- theme_classic(base_size = 18) +
@@ -352,13 +358,56 @@ panel_c <- dendrogram_panel(
   col_labels = c(epilepsy = "EPI", bipolar = "BD"))
 
 narrow <- theme(plot.margin = margin(4, 30, 4, 14, unit = "mm"))
-top <- plot_grid(panel_a + narrow, panel_b + narrow, ncol = 2,
-                 align = "h", axis = "tb",
-                 labels = c("a", "b"), label_size = 24, label_fontface = "bold")
-bot <- plot_grid(panel_c, ncol = 1,
-                 labels = "c", label_size = 24, label_fontface = "bold")
+if (CELLS) {
+  cell_rows <- c("brain excitatory neurons", "brain inhibitory neurons", "astrocytes",
+                 "oligodendrocytes", "oligodendrocyte progenitor cells", "microglia",
+                 "cardiomyocytes", "pancreatic islet cells", "hepatocytes",
+                 "proximal tubule cells", "enterocytes", "t-cells", "schwann cells")
+  cell_lab <- c("Excit. neurons", "Inhib. neurons", "Astrocytes", "Oligodend.",
+                "Oligodend. prec.", "Microglia", "Cardiomyoc.",
+                "Islet cells", "Hepatocytes", "Kidney prox. tub.",
+                "Enterocytes", "T cells", "Schwann cells")
+  cells <- read_tsv(file.path(RESULTS, "biology", "cell_types_grid.tsv"), show_col_types = FALSE) %>%
+    filter(cell_type %in% cell_rows) %>%
+    mutate(phenotype = factor(phenotype, levels = c("ASD", "EPI", "SCZ", "BD", "AD", "CHD", "T2D")),
+           group = factor(ifelse(cell_type %in% cell_rows[1:6], "Brain", "Other"),
+                          levels = c("Brain", "Other")),
+           cell = factor(cell_lab[match(cell_type, cell_rows)], levels = rev(cell_lab)),
+           l2 = pmax(pmin(log2(pmax(or, 1e-3)), 3), -3),
+           mark = ifelse(fdr < 0.05, "**", ifelse(p < 0.05, "*", "")))
+  panel_cells <- ggplot(cells, aes(phenotype, cell, fill = l2)) +
+    geom_tile(colour = "white", linewidth = 0.5) +
+    geom_text(aes(label = mark), size = 6, vjust = 0.75) +
+    facet_grid(group ~ ., scales = "free_y", space = "free_y", switch = "y") +
+    scale_fill_gradient2(low = "#2C6E8F", mid = "grey96", high = "#B33A3A", midpoint = 0,
+                         limits = c(-3, 3), breaks = log2(c(0.125, 1, 8)),
+                         labels = c("1/8", "1", "8"), name = "odds ratio") +
+    scale_x_discrete(position = "top", expand = c(0, 0)) + scale_y_discrete(expand = c(0, 0)) +
+    labs(x = NULL, y = NULL) +
+    guides(fill = guide_colourbar(title.position = "top", title.hjust = 0.5)) +
+    theme_minimal(base_size = 17) +
+    theme(panel.grid = element_blank(), axis.text = element_text(colour = "black"),
+          axis.text.x = element_text(face = "bold", size = 13), legend.position = "bottom",
+          legend.key.width = unit(10, "mm"),
+          strip.placement = "outside", strip.text.y.left = element_text(angle = 90, face = "bold"),
+          panel.spacing.y = unit(6, "pt"), plot.margin = margin(4, 8, 4, 6, unit = "mm"))
+  tight <- theme(plot.margin = margin(4, 4, 4, 6, unit = "mm"))
+  top <- plot_grid(panel_a + labs(x = "OR (\u2265 Existing)\nin lowest LOEUF decile") + tight,
+                   panel_b + labs(x = "OR (\u2265 Existing)\nin top 5% brain-specific") + tight,
+                   panel_cells, ncol = 3,
+                   rel_widths = c(0.95, 0.95, 1.35), align = "h", axis = "tb",
+                   labels = c("a", "b", "c"), label_size = 24, label_fontface = "bold")
+  bot <- plot_grid(panel_c, ncol = 1,
+                   labels = "d", label_size = 24, label_fontface = "bold")
+} else {
+  top <- plot_grid(panel_a + narrow, panel_b + narrow, ncol = 2,
+                   align = "h", axis = "tb",
+                   labels = c("a", "b"), label_size = 24, label_fontface = "bold")
+  bot <- plot_grid(panel_c, ncol = 1,
+                   labels = "c", label_size = 24, label_fontface = "bold")
+}
 fig <- plot_grid(top, bot, ncol = 1,
-                 rel_heights = c(1, 1.90), align = "none")
+                 rel_heights = if (CELLS) c(1, 2.15) else c(1, 1.90), align = "none")
 
 stem <- paste0(
   "figure3_ad_r50_nocc_mean_top5_chd",
@@ -366,14 +415,19 @@ stem <- paste0(
   if (BRAIN_DEC) "_braindec" else "",
   if (TWO_DEC) "_top2" else "",
   if (SHOW_OR) "_or" else "",
-  if (TOP5_B) "_top5b" else "")
+  if (TOP5_B) "_top5b" else "",
+  if (CELLS) "_cells" else "")
+# --cell-panel keeps the width of the published figure; its GO panel has a seventh
+# block (T2D), hence the extra height.
+height <- if (CELLS) 17.5 else 16
 ggsave(file.path(FIGURES, paste0(stem, ".png")), fig,
-       width = 13.2, height = 16, dpi = 1200, bg = "white")
+       width = 13.2, height = height, dpi = if (CELLS) 600 else 1200, bg = "white")
 ggsave(file.path(FIGURES, paste0(stem, ".pdf")), fig,
-       width = 13.2, height = 16, bg = "white")
+       width = 13.2, height = height, bg = "white")
 message("wrote ", file.path(FIGURES, paste0(stem, ".png")), " and .pdf")
-# figures/figure3.* is the published version: odds ratios, panel b at the top 5%.
-if (LOEUF_DEC && BRAIN_DEC && !TWO_DEC && SHOW_OR && TOP5_B) {
+# figures/figure3.* is the published version: odds ratios, panel b at the top 5%,
+# cell types in c.
+if (LOEUF_DEC && BRAIN_DEC && !TWO_DEC && SHOW_OR && TOP5_B && CELLS) {
   file.copy(file.path(FIGURES, paste0(stem, ".png")),
             file.path(FIGURES, "figure3.png"), overwrite = TRUE)
   file.copy(file.path(FIGURES, paste0(stem, ".pdf")),

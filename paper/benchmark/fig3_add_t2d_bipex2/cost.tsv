@@ -1,0 +1,701 @@
+gene	phenotype	step	model	calls	input_tokens	output_tokens	usd	cached
+AKR7L	Alzheimer's disease	Synonyms	opus5	1	346	378	0.011180	False
+AKR7L	Alzheimer's disease	Broadened	haiku	1	401	74	0.000771	False
+AKR7L	Alzheimer's disease	Bands	haiku	1	771	32	0.000931	False
+AKR7L	Alzheimer's disease	ProbabilityRead	opus5	1	1131	390	0.015405	False
+AKR7L	Alzheimer's disease	total		4	2649	874	0.028287	False
+AKR7L	Autism Spectrum Disorder	Synonyms	opus5	1	349	302	0.009295	False
+AKR7L	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+AKR7L	Autism Spectrum Disorder	Bands	haiku	1	751	32	0.000911	False
+AKR7L	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1149	242	0.011795	False
+AKR7L	Autism Spectrum Disorder	total		4	2651	660	0.022823	False
+AKR7L	bipolar disorder	Synonyms	opus5	1	344	204	0.006820	False
+AKR7L	bipolar disorder	Broadened	haiku	1	399	64	0.000719	False
+AKR7L	bipolar disorder	Bands	haiku	1	744	32	0.000904	False
+AKR7L	bipolar disorder	ProbabilityRead	opus5	1	1119	293	0.012920	False
+AKR7L	bipolar disorder	total		4	2606	593	0.021363	False
+AKR7L	congenital heart disease	Synonyms	opus5	1	344	338	0.010170	False
+AKR7L	congenital heart disease	Broadened	haiku	1	401	68	0.000741	False
+AKR7L	congenital heart disease	Bands	haiku	1	768	32	0.000928	False
+AKR7L	congenital heart disease	ProbabilityRead	opus5	1	1119	238	0.011545	False
+AKR7L	congenital heart disease	total		4	2632	676	0.023384	False
+AKR7L	epilepsy	Synonyms	opus5	1	342	260	0.008210	False
+AKR7L	epilepsy	Broadened	haiku	1	399	71	0.000754	False
+AKR7L	epilepsy	Bands	haiku	1	731	32	0.000891	False
+AKR7L	epilepsy	ProbabilityRead	opus5	1	1107	303	0.013110	False
+AKR7L	epilepsy	total		4	2579	666	0.022965	False
+AKR7L	schizophrenia	Synonyms	opus5	1	343	260	0.008215	False
+AKR7L	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+AKR7L	schizophrenia	Bands	haiku	1	747	32	0.000907	False
+AKR7L	schizophrenia	ProbabilityRead	opus5	1	1113	252	0.011865	False
+AKR7L	schizophrenia	total		4	2604	615	0.021743	False
+AKR7L	type 2 diabetes	Synonyms	opus5	1	345	222	0.007275	False
+AKR7L	type 2 diabetes	Broadened	haiku	1	401	104	0.000921	False
+AKR7L	type 2 diabetes	Bands	haiku	1	760	32	0.000920	False
+AKR7L	type 2 diabetes	ProbabilityRead	opus5	1	1125	302	0.013175	False
+AKR7L	type 2 diabetes	total		4	2631	660	0.022291	False
+DOP1A	Alzheimer's disease	Synonyms	opus5	1	346	229	0.007455	False
+DOP1A	Alzheimer's disease	Broadened	haiku	1	401	70	0.000751	False
+DOP1A	Alzheimer's disease	Bands	haiku	1	3282	164	0.004102	False
+DOP1A	Alzheimer's disease	ProbabilityRead	opus5	1	2849	607	0.029420	False
+DOP1A	Alzheimer's disease	total		4	6878	1070	0.041728	False
+DOP1A	Autism Spectrum Disorder	Synonyms	opus5	1	349	344	0.010345	False
+DOP1A	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+DOP1A	Autism Spectrum Disorder	Bands	haiku	1	3273	164	0.004093	False
+DOP1A	Autism Spectrum Disorder	ProbabilityRead	opus5	1	2867	854	0.035685	False
+DOP1A	Autism Spectrum Disorder	total		4	6891	1446	0.050945	False
+DOP1A	bipolar disorder	Synonyms	opus5	1	344	334	0.010070	False
+DOP1A	bipolar disorder	Broadened	haiku	1	399	64	0.000719	False
+DOP1A	bipolar disorder	Bands	haiku	1	3260	164	0.004080	False
+DOP1A	bipolar disorder	ProbabilityRead	opus5	1	2837	657	0.030610	False
+DOP1A	bipolar disorder	total		4	6840	1219	0.045479	False
+DOP1A	congenital heart disease	Synonyms	opus5	1	344	337	0.010145	False
+DOP1A	congenital heart disease	Broadened	haiku	1	401	68	0.000741	False
+DOP1A	congenital heart disease	Bands	haiku	1	3281	164	0.004101	False
+DOP1A	congenital heart disease	ProbabilityRead	opus5	1	2837	521	0.027210	False
+DOP1A	congenital heart disease	total		4	6863	1090	0.042197	False
+DOP1A	epilepsy	Synonyms	opus5	1	342	280	0.008710	False
+DOP1A	epilepsy	Broadened	haiku	1	399	71	0.000754	False
+DOP1A	epilepsy	Bands	haiku	1	3248	164	0.004068	False
+DOP1A	epilepsy	ProbabilityRead	opus5	1	2825	874	0.035975	False
+DOP1A	epilepsy	total		4	6814	1389	0.049507	False
+DOP1A	schizophrenia	Synonyms	opus5	1	343	299	0.009190	False
+DOP1A	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+DOP1A	schizophrenia	Bands	haiku	1	3265	164	0.004085	False
+DOP1A	schizophrenia	ProbabilityRead	opus5	1	2831	598	0.029105	False
+DOP1A	schizophrenia	total		4	6840	1132	0.043136	False
+DOP1A	type 2 diabetes	Synonyms	opus5	1	345	222	0.007275	False
+DOP1A	type 2 diabetes	Broadened	haiku	1	401	101	0.000906	False
+DOP1A	type 2 diabetes	Bands	haiku	1	3271	164	0.004091	False
+DOP1A	type 2 diabetes	ProbabilityRead	opus5	1	2843	571	0.028490	False
+DOP1A	type 2 diabetes	total		4	6860	1058	0.040762	False
+FRYL	Alzheimer's disease	Synonyms	opus5	1	346	355	0.010605	False
+FRYL	Alzheimer's disease	Broadened	haiku	1	401	74	0.000771	False
+FRYL	Alzheimer's disease	Bands	haiku	3	10018	536	0.012698	False
+FRYL	Alzheimer's disease	ProbabilityRead	opus5	1	6445	530	0.045475	False
+FRYL	Alzheimer's disease	total		6	17210	1495	0.069549	False
+FRYL	Autism Spectrum Disorder	Synonyms	opus5	1	349	317	0.009670	False
+FRYL	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+FRYL	Autism Spectrum Disorder	Bands	haiku	3	9964	536	0.012644	False
+FRYL	Autism Spectrum Disorder	ProbabilityRead	opus5	1	7195	814	0.056325	False
+FRYL	Autism Spectrum Disorder	total		6	17910	1751	0.079461	False
+FRYL	bipolar disorder	Synonyms	opus5	1	344	296	0.009120	False
+FRYL	bipolar disorder	Broadened	haiku	1	399	64	0.000719	False
+FRYL	bipolar disorder	Bands	haiku	3	9919	536	0.012599	False
+FRYL	bipolar disorder	ProbabilityRead	opus5	1	5735	522	0.041725	False
+FRYL	bipolar disorder	total		6	16397	1418	0.064163	False
+FRYL	congenital heart disease	Synonyms	opus5	1	344	218	0.007170	False
+FRYL	congenital heart disease	Broadened	haiku	1	401	77	0.000786	False
+FRYL	congenital heart disease	Bands	haiku	3	10008	514	0.012578	False
+FRYL	congenital heart disease	ProbabilityRead	opus5	1	6792	844	0.055060	False
+FRYL	congenital heart disease	total		6	17545	1653	0.075594	False
+FRYL	epilepsy	Synonyms	opus5	1	342	304	0.009310	False
+FRYL	epilepsy	Broadened	haiku	1	399	71	0.000754	False
+FRYL	epilepsy	Bands	haiku	3	9425	492	0.011885	False
+FRYL	epilepsy	ProbabilityRead	opus5	1	5244	927	0.049395	False
+FRYL	epilepsy	total		6	15410	1794	0.071344	False
+FRYL	schizophrenia	Synonyms	opus5	1	343	262	0.008265	False
+FRYL	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+FRYL	schizophrenia	Bands	haiku	3	9949	536	0.012629	False
+FRYL	schizophrenia	ProbabilityRead	opus5	1	6015	604	0.045175	False
+FRYL	schizophrenia	total		6	16708	1473	0.066825	False
+FRYL	type 2 diabetes	Synonyms	opus5	1	345	365	0.010850	False
+FRYL	type 2 diabetes	Broadened	haiku	1	401	97	0.000886	False
+FRYL	type 2 diabetes	Bands	haiku	3	9612	514	0.012182	False
+FRYL	type 2 diabetes	ProbabilityRead	opus5	1	5802	530	0.042260	False
+FRYL	type 2 diabetes	total		6	16160	1506	0.066178	False
+GCK	Alzheimer's disease	Synonyms	opus5	1	346	230	0.007480	False
+GCK	Alzheimer's disease	Broadened	haiku	1	401	70	0.000751	False
+GCK	Alzheimer's disease	Bands	haiku	8	24696	1708	0.033236	False
+GCK	Alzheimer's disease	ProbabilityRead	opus5	1	4760	729	0.042025	False
+GCK	Alzheimer's disease	total		11	30203	2737	0.083492	False
+GCK	Autism Spectrum Disorder	Synonyms	opus5	1	349	312	0.009545	False
+GCK	Autism Spectrum Disorder	Broadened	haiku	1	402	89	0.000847	False
+GCK	Autism Spectrum Disorder	Bands	haiku	8	27647	1774	0.036517	False
+GCK	Autism Spectrum Disorder	ProbabilityRead	opus5	1	7232	556	0.050060	False
+GCK	Autism Spectrum Disorder	total		11	35630	2731	0.096969	False
+GCK	bipolar disorder	Synonyms	opus5	1	344	311	0.009495	False
+GCK	bipolar disorder	Broadened	haiku	1	399	64	0.000719	False
+GCK	bipolar disorder	Bands	haiku	6	19027	1270	0.025377	False
+GCK	bipolar disorder	ProbabilityRead	opus5	1	10172	475	0.062735	False
+GCK	bipolar disorder	total		9	29942	2120	0.098326	False
+GCK	congenital heart disease	Synonyms	opus5	1	344	333	0.010045	False
+GCK	congenital heart disease	Broadened	haiku	1	401	68	0.000741	False
+GCK	congenital heart disease	Bands	haiku	7	23698	1500	0.031198	False
+GCK	congenital heart disease	ProbabilityRead	opus5	1	9226	630	0.061880	False
+GCK	congenital heart disease	total		10	33669	2531	0.103864	False
+GCK	epilepsy	Synonyms	opus5	1	342	282	0.008760	False
+GCK	epilepsy	Broadened	haiku	1	399	65	0.000724	False
+GCK	epilepsy	Bands	haiku	7	24806	1610	0.032856	False
+GCK	epilepsy	ProbabilityRead	opus5	1	10090	977	0.074875	False
+GCK	epilepsy	total		10	35637	2934	0.117215	False
+GCK	schizophrenia	Synonyms	opus5	1	343	284	0.008815	False
+GCK	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+GCK	schizophrenia	Bands	haiku	6	21446	1358	0.028236	False
+GCK	schizophrenia	ProbabilityRead	opus5	1	4170	814	0.041200	False
+GCK	schizophrenia	total		9	26360	2527	0.079007	False
+GCK	type 2 diabetes	Synonyms	opus5	1	345	328	0.009925	False
+GCK	type 2 diabetes	Broadened	haiku	1	401	101	0.000906	False
+GCK	type 2 diabetes	Bands	haiku	12	40498	2606	0.053528	False
+GCK	type 2 diabetes	ProbabilityRead	opus5	1	10213	1383	0.085640	False
+GCK	type 2 diabetes	total		15	51457	4418	0.149999	False
+HNF1A	Alzheimer's disease	Synonyms	opus5	1	346	233	0.007555	False
+HNF1A	Alzheimer's disease	Broadened	haiku	1	401	70	0.000751	False
+HNF1A	Alzheimer's disease	Bands	haiku	7	24774	1439	0.031969	False
+HNF1A	Alzheimer's disease	ProbabilityRead	opus5	1	3609	704	0.035645	False
+HNF1A	Alzheimer's disease	total		10	29130	2446	0.075920	False
+HNF1A	Autism Spectrum Disorder	Synonyms	opus5	1	349	349	0.010470	False
+HNF1A	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+HNF1A	Autism Spectrum Disorder	Bands	haiku	6	22205	1358	0.028995	False
+HNF1A	Autism Spectrum Disorder	ProbabilityRead	opus5	1	6859	880	0.056295	False
+HNF1A	Autism Spectrum Disorder	total		9	29815	2671	0.096582	False
+HNF1A	bipolar disorder	Synonyms	opus5	1	344	285	0.008845	False
+HNF1A	bipolar disorder	Broadened	haiku	1	399	64	0.000719	False
+HNF1A	bipolar disorder	Bands	haiku	7	23590	1537	0.031275	False
+HNF1A	bipolar disorder	ProbabilityRead	opus5	1	4459	818	0.042745	False
+HNF1A	bipolar disorder	total		10	28792	2704	0.083584	False
+HNF1A	congenital heart disease	Synonyms	opus5	1	344	220	0.007220	False
+HNF1A	congenital heart disease	Broadened	haiku	1	401	68	0.000741	False
+HNF1A	congenital heart disease	Bands	haiku	6	21251	1336	0.027931	False
+HNF1A	congenital heart disease	ProbabilityRead	opus5	1	9437	665	0.063810	False
+HNF1A	congenital heart disease	total		9	31433	2289	0.099702	False
+HNF1A	epilepsy	Synonyms	opus5	1	342	302	0.009260	False
+HNF1A	epilepsy	Broadened	haiku	1	399	65	0.000724	False
+HNF1A	epilepsy	Bands	haiku	7	22715	1412	0.029775	False
+HNF1A	epilepsy	ProbabilityRead	opus5	1	8088	1112	0.068240	False
+HNF1A	epilepsy	total		10	31544	2891	0.107999	False
+HNF1A	schizophrenia	Synonyms	opus5	1	343	251	0.007990	False
+HNF1A	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+HNF1A	schizophrenia	Bands	haiku	6	19735	1314	0.026305	False
+HNF1A	schizophrenia	ProbabilityRead	opus5	1	5723	852	0.049915	False
+HNF1A	schizophrenia	total		9	26202	2488	0.084966	False
+HNF1A	type 2 diabetes	Synonyms	opus5	1	345	222	0.007275	False
+HNF1A	type 2 diabetes	Broadened	haiku	1	401	101	0.000906	False
+HNF1A	type 2 diabetes	Bands	haiku	11	40060	2408	0.052100	False
+HNF1A	type 2 diabetes	ProbabilityRead	opus5	1	11849	1145	0.087870	False
+HNF1A	type 2 diabetes	total		14	52655	3876	0.148151	False
+HNF4A	Alzheimer's disease	Synonyms	opus5	1	346	233	0.007555	False
+HNF4A	Alzheimer's disease	Broadened	haiku	1	401	70	0.000751	False
+HNF4A	Alzheimer's disease	Bands	haiku	8	29768	1642	0.037978	False
+HNF4A	Alzheimer's disease	ProbabilityRead	opus5	1	8850	644	0.060350	False
+HNF4A	Alzheimer's disease	total		11	39365	2589	0.106634	False
+HNF4A	Autism Spectrum Disorder	Synonyms	opus5	1	349	196	0.006645	False
+HNF4A	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+HNF4A	Autism Spectrum Disorder	Bands	haiku	7	28140	1566	0.035970	False
+HNF4A	Autism Spectrum Disorder	ProbabilityRead	opus5	1	4866	612	0.039630	False
+HNF4A	Autism Spectrum Disorder	total		10	33757	2458	0.083067	False
+HNF4A	bipolar disorder	Synonyms	opus5	1	344	315	0.009595	False
+HNF4A	bipolar disorder	Broadened	haiku	1	399	19	0.000494	False
+HNF4A	bipolar disorder	Bands	haiku	6	23135	1314	0.029705	False
+HNF4A	bipolar disorder	ProbabilityRead	opus5	1	9592	693	0.065285	False
+HNF4A	bipolar disorder	total		9	33470	2341	0.105079	False
+HNF4A	congenital heart disease	Synonyms	opus5	1	344	322	0.009770	False
+HNF4A	congenital heart disease	Broadened	haiku	1	401	68	0.000741	False
+HNF4A	congenital heart disease	Bands	haiku	6	21861	1270	0.028211	False
+HNF4A	congenital heart disease	ProbabilityRead	opus5	1	10388	650	0.068190	False
+HNF4A	congenital heart disease	total		9	32994	2310	0.106912	False
+HNF4A	epilepsy	Synonyms	opus5	1	342	288	0.008910	False
+HNF4A	epilepsy	Broadened	haiku	1	399	71	0.000754	False
+HNF4A	epilepsy	Bands	haiku	9	32809	1916	0.042389	False
+HNF4A	epilepsy	ProbabilityRead	opus5	1	9818	1155	0.077965	False
+HNF4A	epilepsy	total		12	43368	3430	0.130018	False
+HNF4A	schizophrenia	Synonyms	opus5	1	343	278	0.008665	False
+HNF4A	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+HNF4A	schizophrenia	Bands	haiku	6	23801	1336	0.030481	False
+HNF4A	schizophrenia	ProbabilityRead	opus5	1	6914	812	0.054870	False
+HNF4A	schizophrenia	total		9	31459	2497	0.094772	False
+HNF4A	type 2 diabetes	Synonyms	opus5	1	345	345	0.010350	False
+HNF4A	type 2 diabetes	Broadened	haiku	1	401	102	0.000911	False
+HNF4A	type 2 diabetes	Bands	haiku	11	41108	2464	0.053428	False
+HNF4A	type 2 diabetes	ProbabilityRead	opus5	1	12774	1273	0.095695	False
+HNF4A	type 2 diabetes	total		14	54628	4184	0.160384	False
+IGF1R	Alzheimer's disease	Synonyms	opus5	1	346	244	0.007830	False
+IGF1R	Alzheimer's disease	Broadened	haiku	1	401	75	0.000776	False
+IGF1R	Alzheimer's disease	Bands	haiku	10	43339	2244	0.054559	False
+IGF1R	Alzheimer's disease	ProbabilityRead	opus5	1	11565	852	0.079125	False
+IGF1R	Alzheimer's disease	total		13	55651	3415	0.142290	False
+IGF1R	Autism Spectrum Disorder	Synonyms	opus5	1	349	333	0.010070	False
+IGF1R	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+IGF1R	Autism Spectrum Disorder	Bands	haiku	7	28882	1588	0.036822	False
+IGF1R	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13048	801	0.085265	False
+IGF1R	Autism Spectrum Disorder	total		10	42681	2806	0.132979	False
+IGF1R	bipolar disorder	Synonyms	opus5	1	344	304	0.009320	False
+IGF1R	bipolar disorder	Broadened	haiku	1	399	64	0.000719	False
+IGF1R	bipolar disorder	Bands	haiku	7	29130	1588	0.037070	False
+IGF1R	bipolar disorder	ProbabilityRead	opus5	1	11941	736	0.078105	False
+IGF1R	bipolar disorder	total		10	41814	2692	0.125214	False
+IGF1R	congenital heart disease	Synonyms	opus5	1	344	219	0.007195	False
+IGF1R	congenital heart disease	Broadened	haiku	1	401	68	0.000741	False
+IGF1R	congenital heart disease	Bands	haiku	7	26539	1500	0.034039	False
+IGF1R	congenital heart disease	ProbabilityRead	opus5	1	10451	1094	0.079605	False
+IGF1R	congenital heart disease	total		10	37735	2881	0.121580	False
+IGF1R	epilepsy	Synonyms	opus5	1	342	289	0.008935	False
+IGF1R	epilepsy	Broadened	haiku	1	399	71	0.000754	False
+IGF1R	epilepsy	Bands	haiku	7	28534	1588	0.036474	False
+IGF1R	epilepsy	ProbabilityRead	opus5	1	12120	976	0.085000	False
+IGF1R	epilepsy	total		10	41395	2924	0.131163	False
+IGF1R	schizophrenia	Synonyms	opus5	1	343	290	0.008965	False
+IGF1R	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+IGF1R	schizophrenia	Bands	haiku	8	30578	1686	0.039008	False
+IGF1R	schizophrenia	ProbabilityRead	opus5	1	11533	1073	0.084490	False
+IGF1R	schizophrenia	total		11	42855	3120	0.133219	False
+IGF1R	type 2 diabetes	Synonyms	opus5	1	345	222	0.007275	False
+IGF1R	type 2 diabetes	Broadened	haiku	1	401	101	0.000906	False
+IGF1R	type 2 diabetes	Bands	haiku	11	44613	2530	0.057263	False
+IGF1R	type 2 diabetes	ProbabilityRead	opus5	1	10389	1138	0.080395	False
+IGF1R	type 2 diabetes	total		14	55748	3991	0.145839	False
+IP6K1	Alzheimer's disease	Synonyms	opus5	1	346	352	0.010530	False
+IP6K1	Alzheimer's disease	Broadened	haiku	1	401	70	0.000751	False
+IP6K1	Alzheimer's disease	Bands	haiku	2	8435	399	0.010430	False
+IP6K1	Alzheimer's disease	ProbabilityRead	opus5	1	8774	898	0.066320	False
+IP6K1	Alzheimer's disease	total		5	17956	1719	0.088031	False
+IP6K1	Autism Spectrum Disorder	Synonyms	opus5	1	349	333	0.010070	False
+IP6K1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+IP6K1	Autism Spectrum Disorder	Bands	haiku	2	8001	416	0.010081	False
+IP6K1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	9068	661	0.061865	False
+IP6K1	Autism Spectrum Disorder	total		5	17820	1494	0.082838	False
+IP6K1	bipolar disorder	Synonyms	opus5	1	344	313	0.009545	False
+IP6K1	bipolar disorder	Broadened	haiku	1	399	64	0.000719	False
+IP6K1	bipolar disorder	Bands	haiku	2	7995	416	0.010075	False
+IP6K1	bipolar disorder	ProbabilityRead	opus5	1	9516	687	0.064755	False
+IP6K1	bipolar disorder	total		5	18254	1480	0.085094	False
+IP6K1	congenital heart disease	Synonyms	opus5	1	344	219	0.007195	False
+IP6K1	congenital heart disease	Broadened	haiku	1	401	75	0.000776	False
+IP6K1	congenital heart disease	Bands	haiku	2	8157	438	0.010347	False
+IP6K1	congenital heart disease	ProbabilityRead	opus5	1	9883	592	0.064215	False
+IP6K1	congenital heart disease	total		5	18785	1324	0.082533	False
+IP6K1	epilepsy	Synonyms	opus5	1	342	287	0.008885	False
+IP6K1	epilepsy	Broadened	haiku	1	399	68	0.000739	False
+IP6K1	epilepsy	Bands	haiku	2	7114	350	0.008864	False
+IP6K1	epilepsy	ProbabilityRead	opus5	1	4810	518	0.037000	False
+IP6K1	epilepsy	total		5	12665	1223	0.055488	False
+IP6K1	schizophrenia	Synonyms	opus5	1	343	283	0.008790	False
+IP6K1	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+IP6K1	schizophrenia	Bands	haiku	2	7991	416	0.010071	False
+IP6K1	schizophrenia	ProbabilityRead	opus5	1	9032	747	0.063835	False
+IP6K1	schizophrenia	total		5	17767	1517	0.083452	False
+IP6K1	type 2 diabetes	Synonyms	opus5	1	345	222	0.007275	False
+IP6K1	type 2 diabetes	Broadened	haiku	1	401	101	0.000906	False
+IP6K1	type 2 diabetes	Bands	haiku	3	10699	514	0.013269	False
+IP6K1	type 2 diabetes	ProbabilityRead	opus5	1	11504	990	0.082270	False
+IP6K1	type 2 diabetes	total		6	22949	1827	0.103720	False
+IRS2	Alzheimer's disease	Synonyms	opus5	1	346	243	0.007805	False
+IRS2	Alzheimer's disease	Broadened	haiku	1	401	70	0.000751	False
+IRS2	Alzheimer's disease	Bands	haiku	9	38812	1987	0.048747	False
+IRS2	Alzheimer's disease	ProbabilityRead	opus5	1	13433	964	0.091265	False
+IRS2	Alzheimer's disease	total		12	52992	3264	0.148568	False
+IRS2	Autism Spectrum Disorder	Synonyms	opus5	1	349	311	0.009520	False
+IRS2	Autism Spectrum Disorder	Broadened	haiku	1	402	88	0.000842	False
+IRS2	Autism Spectrum Disorder	Bands	haiku	7	29299	1434	0.036469	False
+IRS2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12608	952	0.086840	False
+IRS2	Autism Spectrum Disorder	total		10	42658	2785	0.133671	False
+IRS2	bipolar disorder	Synonyms	opus5	1	344	287	0.008895	False
+IRS2	bipolar disorder	Broadened	haiku	1	399	64	0.000719	False
+IRS2	bipolar disorder	Bands	haiku	7	27575	1456	0.034855	False
+IRS2	bipolar disorder	ProbabilityRead	opus5	1	12350	776	0.081150	False
+IRS2	bipolar disorder	total		10	40668	2583	0.125619	False
+IRS2	congenital heart disease	Synonyms	opus5	1	344	318	0.009670	False
+IRS2	congenital heart disease	Broadened	haiku	1	401	68	0.000741	False
+IRS2	congenital heart disease	Bands	haiku	6	26810	1380	0.033710	False
+IRS2	congenital heart disease	ProbabilityRead	opus5	1	13055	794	0.085125	False
+IRS2	congenital heart disease	total		9	40610	2560	0.129246	False
+IRS2	epilepsy	Synonyms	opus5	1	342	163	0.005785	False
+IRS2	epilepsy	Broadened	haiku	1	399	66	0.000729	False
+IRS2	epilepsy	Bands	haiku	6	27287	1380	0.034187	False
+IRS2	epilepsy	ProbabilityRead	opus5	1	13176	808	0.086080	False
+IRS2	epilepsy	total		9	41204	2417	0.126781	False
+IRS2	schizophrenia	Synonyms	opus5	1	343	280	0.008715	False
+IRS2	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+IRS2	schizophrenia	Bands	haiku	7	29138	1456	0.036418	False
+IRS2	schizophrenia	ProbabilityRead	opus5	1	11542	761	0.076735	False
+IRS2	schizophrenia	total		10	41424	2568	0.122624	False
+IRS2	type 2 diabetes	Synonyms	opus5	1	345	231	0.007500	False
+IRS2	type 2 diabetes	Broadened	haiku	1	401	101	0.000906	False
+IRS2	type 2 diabetes	Bands	haiku	12	51262	2672	0.064622	False
+IRS2	type 2 diabetes	ProbabilityRead	opus5	1	13265	815	0.086700	False
+IRS2	type 2 diabetes	total		15	65273	3819	0.159728	False
+KIAA1211L	Alzheimer's disease	Synonyms	opus5	1	346	366	0.010880	False
+KIAA1211L	Alzheimer's disease	Broadened	haiku	1	401	70	0.000751	False
+KIAA1211L	Alzheimer's disease	Bands	haiku	1	1873	98	0.002363	False
+KIAA1211L	Alzheimer's disease	ProbabilityRead	opus5	1	1774	291	0.016145	False
+KIAA1211L	Alzheimer's disease	total		4	4394	825	0.030139	False
+KIAA1211L	Autism Spectrum Disorder	Synonyms	opus5	1	349	311	0.009520	False
+KIAA1211L	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+KIAA1211L	Autism Spectrum Disorder	Bands	haiku	1	1850	98	0.002340	False
+KIAA1211L	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1687	388	0.018135	False
+KIAA1211L	Autism Spectrum Disorder	total		4	4288	882	0.030822	False
+KIAA1211L	bipolar disorder	Synonyms	opus5	1	344	314	0.009570	False
+KIAA1211L	bipolar disorder	Broadened	haiku	1	399	64	0.000719	False
+KIAA1211L	bipolar disorder	Bands	haiku	1	1851	98	0.002341	False
+KIAA1211L	bipolar disorder	ProbabilityRead	opus5	1	1657	497	0.020710	False
+KIAA1211L	bipolar disorder	total		4	4251	973	0.033340	False
+KIAA1211L	congenital heart disease	Synonyms	opus5	1	344	314	0.009570	False
+KIAA1211L	congenital heart disease	Broadened	haiku	1	401	68	0.000741	False
+KIAA1211L	congenital heart disease	Bands	haiku	1	1868	98	0.002358	False
+KIAA1211L	congenital heart disease	ProbabilityRead	opus5	1	1131	248	0.011855	False
+KIAA1211L	congenital heart disease	total		4	3744	728	0.024524	False
+KIAA1211L	epilepsy	Synonyms	opus5	1	342	256	0.008110	False
+KIAA1211L	epilepsy	Broadened	haiku	1	399	66	0.000729	False
+KIAA1211L	epilepsy	Bands	haiku	1	1826	98	0.002316	False
+KIAA1211L	epilepsy	ProbabilityRead	opus5	1	1645	400	0.018225	False
+KIAA1211L	epilepsy	total		4	4212	820	0.029380	False
+KIAA1211L	schizophrenia	Synonyms	opus5	1	343	263	0.008290	False
+KIAA1211L	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+KIAA1211L	schizophrenia	Bands	haiku	1	1846	98	0.002336	False
+KIAA1211L	schizophrenia	ProbabilityRead	opus5	1	1856	710	0.027030	False
+KIAA1211L	schizophrenia	total		4	4446	1142	0.038412	False
+KIAA1211L	type 2 diabetes	Synonyms	opus5	1	345	369	0.010950	False
+KIAA1211L	type 2 diabetes	Broadened	haiku	1	401	101	0.000906	False
+KIAA1211L	type 2 diabetes	Bands	haiku	1	1860	98	0.002350	False
+KIAA1211L	type 2 diabetes	ProbabilityRead	opus5	1	1768	385	0.018465	False
+KIAA1211L	type 2 diabetes	total		4	4374	953	0.032671	False
+NBPF14	Alzheimer's disease	Synonyms	opus5	1	346	236	0.007630	False
+NBPF14	Alzheimer's disease	Broadened	haiku	1	401	74	0.000771	False
+NBPF14	Alzheimer's disease	Bands	haiku	1	1824	98	0.002314	False
+NBPF14	Alzheimer's disease	ProbabilityRead	opus5	1	2356	531	0.025055	False
+NBPF14	Alzheimer's disease	total		4	4927	939	0.035770	False
+NBPF14	Autism Spectrum Disorder	Synonyms	opus5	1	349	218	0.007195	False
+NBPF14	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+NBPF14	Autism Spectrum Disorder	Bands	haiku	1	1803	98	0.002293	False
+NBPF14	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1973	739	0.028340	False
+NBPF14	Autism Spectrum Disorder	total		4	4527	1139	0.038650	False
+NBPF14	bipolar disorder	Synonyms	opus5	1	344	297	0.009145	False
+NBPF14	bipolar disorder	Broadened	haiku	1	399	19	0.000494	False
+NBPF14	bipolar disorder	Bands	haiku	1	2170	120	0.002770	False
+NBPF14	bipolar disorder	ProbabilityRead	opus5	1	2339	608	0.026895	False
+NBPF14	bipolar disorder	total		4	5252	1044	0.039304	False
+NBPF14	congenital heart disease	Synonyms	opus5	1	344	327	0.009895	False
+NBPF14	congenital heart disease	Broadened	haiku	1	401	68	0.000741	False
+NBPF14	congenital heart disease	Bands	haiku	1	1812	98	0.002302	False
+NBPF14	congenital heart disease	ProbabilityRead	opus5	1	2344	655	0.028095	False
+NBPF14	congenital heart disease	total		4	4901	1148	0.041033	False
+NBPF14	epilepsy	Synonyms	opus5	1	342	167	0.005885	False
+NBPF14	epilepsy	Broadened	haiku	1	399	65	0.000724	False
+NBPF14	epilepsy	Bands	haiku	1	1774	98	0.002264	False
+NBPF14	epilepsy	ProbabilityRead	opus5	1	1762	558	0.022760	False
+NBPF14	epilepsy	total		4	4277	888	0.031633	False
+NBPF14	schizophrenia	Synonyms	opus5	1	343	317	0.009640	False
+NBPF14	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+NBPF14	schizophrenia	Bands	haiku	1	1795	98	0.002285	False
+NBPF14	schizophrenia	ProbabilityRead	opus5	1	1768	682	0.025890	False
+NBPF14	schizophrenia	total		4	4307	1168	0.038571	False
+NBPF14	type 2 diabetes	Synonyms	opus5	1	345	359	0.010700	False
+NBPF14	type 2 diabetes	Broadened	haiku	1	401	101	0.000906	False
+NBPF14	type 2 diabetes	Bands	haiku	1	1805	98	0.002295	False
+NBPF14	type 2 diabetes	ProbabilityRead	opus5	1	2350	375	0.021125	False
+NBPF14	type 2 diabetes	total		4	4901	933	0.035026	False
+PCDHGA8	Alzheimer's disease	Synonyms	opus5	1	346	243	0.007805	False
+PCDHGA8	Alzheimer's disease	Broadened	haiku	1	401	70	0.000751	False
+PCDHGA8	Alzheimer's disease	Bands	haiku	1	1180	54	0.001450	False
+PCDHGA8	Alzheimer's disease	ProbabilityRead	opus5	1	1592	383	0.017535	False
+PCDHGA8	Alzheimer's disease	total		4	3519	750	0.027541	False
+PCDHGA8	Autism Spectrum Disorder	Synonyms	opus5	1	349	331	0.010020	False
+PCDHGA8	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+PCDHGA8	Autism Spectrum Disorder	Bands	haiku	1	1148	54	0.001418	False
+PCDHGA8	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1610	547	0.021725	False
+PCDHGA8	Autism Spectrum Disorder	total		4	3509	1016	0.033985	False
+PCDHGA8	bipolar disorder	Synonyms	opus5	1	344	336	0.010120	False
+PCDHGA8	bipolar disorder	Broadened	haiku	1	399	19	0.000494	False
+PCDHGA8	bipolar disorder	Bands	haiku	1	1154	54	0.001424	False
+PCDHGA8	bipolar disorder	ProbabilityRead	opus5	1	1580	492	0.020200	False
+PCDHGA8	bipolar disorder	total		4	3477	901	0.032238	False
+PCDHGA8	congenital heart disease	Synonyms	opus5	1	344	335	0.010095	False
+PCDHGA8	congenital heart disease	Broadened	haiku	1	401	68	0.000741	False
+PCDHGA8	congenital heart disease	Bands	haiku	1	1168	54	0.001438	False
+PCDHGA8	congenital heart disease	ProbabilityRead	opus5	1	1580	374	0.017250	False
+PCDHGA8	congenital heart disease	total		4	3493	831	0.029524	False
+PCDHGA8	epilepsy	Synonyms	opus5	1	342	271	0.008485	False
+PCDHGA8	epilepsy	Broadened	haiku	1	399	65	0.000724	False
+PCDHGA8	epilepsy	Bands	haiku	1	1132	54	0.001402	False
+PCDHGA8	epilepsy	ProbabilityRead	opus5	1	1568	504	0.020440	False
+PCDHGA8	epilepsy	total		4	3441	894	0.031051	False
+PCDHGA8	schizophrenia	Synonyms	opus5	1	343	345	0.010340	False
+PCDHGA8	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+PCDHGA8	schizophrenia	Bands	haiku	1	1143	54	0.001413	False
+PCDHGA8	schizophrenia	ProbabilityRead	opus5	1	1574	595	0.022745	False
+PCDHGA8	schizophrenia	total		4	3461	1065	0.035254	False
+PCDHGA8	type 2 diabetes	Synonyms	opus5	1	345	222	0.007275	False
+PCDHGA8	type 2 diabetes	Broadened	haiku	1	401	101	0.000906	False
+PCDHGA8	type 2 diabetes	Bands	haiku	1	1158	54	0.001428	False
+PCDHGA8	type 2 diabetes	ProbabilityRead	opus5	1	1586	361	0.016955	False
+PCDHGA8	type 2 diabetes	total		4	3490	738	0.026564	False
+POU2F1	Alzheimer's disease	Synonyms	opus5	1	346	244	0.007830	False
+POU2F1	Alzheimer's disease	Broadened	haiku	1	401	70	0.000751	False
+POU2F1	Alzheimer's disease	Bands	haiku	8	33309	1757	0.042094	False
+POU2F1	Alzheimer's disease	ProbabilityRead	opus5	1	8956	654	0.061130	False
+POU2F1	Alzheimer's disease	total		11	43012	2725	0.111805	False
+POU2F1	Autism Spectrum Disorder	Synonyms	opus5	1	349	325	0.009870	False
+POU2F1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+POU2F1	Autism Spectrum Disorder	Bands	haiku	6	25763	1358	0.032553	False
+POU2F1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	6131	594	0.045505	False
+POU2F1	Autism Spectrum Disorder	total		9	32645	2361	0.088750	False
+POU2F1	bipolar disorder	Synonyms	opus5	1	344	333	0.010045	False
+POU2F1	bipolar disorder	Broadened	haiku	1	399	64	0.000719	False
+POU2F1	bipolar disorder	Bands	haiku	7	29663	1610	0.037713	False
+POU2F1	bipolar disorder	ProbabilityRead	opus5	1	7362	960	0.060810	False
+POU2F1	bipolar disorder	total		10	37768	2967	0.109287	False
+POU2F1	congenital heart disease	Synonyms	opus5	1	344	332	0.010020	False
+POU2F1	congenital heart disease	Broadened	haiku	1	401	75	0.000776	False
+POU2F1	congenital heart disease	Bands	haiku	6	25897	1363	0.032712	False
+POU2F1	congenital heart disease	ProbabilityRead	opus5	1	8461	870	0.064055	False
+POU2F1	congenital heart disease	total		9	35103	2640	0.107563	False
+POU2F1	epilepsy	Synonyms	opus5	1	342	171	0.005985	False
+POU2F1	epilepsy	Broadened	haiku	1	399	71	0.000754	False
+POU2F1	epilepsy	Bands	haiku	7	27513	1456	0.034793	False
+POU2F1	epilepsy	ProbabilityRead	opus5	1	10387	606	0.067085	False
+POU2F1	epilepsy	total		10	38641	2304	0.108617	False
+POU2F1	schizophrenia	Synonyms	opus5	1	343	299	0.009190	False
+POU2F1	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+POU2F1	schizophrenia	Bands	haiku	8	32313	1708	0.040853	False
+POU2F1	schizophrenia	ProbabilityRead	opus5	1	10550	1020	0.078250	False
+POU2F1	schizophrenia	total		11	43607	3098	0.129049	False
+POU2F1	type 2 diabetes	Synonyms	opus5	1	345	230	0.007475	False
+POU2F1	type 2 diabetes	Broadened	haiku	1	401	101	0.000906	False
+POU2F1	type 2 diabetes	Bands	haiku	11	45740	2464	0.058060	False
+POU2F1	type 2 diabetes	ProbabilityRead	opus5	1	12719	657	0.080020	False
+POU2F1	type 2 diabetes	total		14	59205	3452	0.146461	False
+RMC1	Alzheimer's disease	Synonyms	opus5	1	346	226	0.007380	False
+RMC1	Alzheimer's disease	Broadened	haiku	1	401	70	0.000751	False
+RMC1	Alzheimer's disease	Bands	haiku	6	28562	1270	0.034912	False
+RMC1	Alzheimer's disease	ProbabilityRead	opus5	1	4057	695	0.037660	False
+RMC1	Alzheimer's disease	total		9	33366	2261	0.080703	False
+RMC1	Autism Spectrum Disorder	Synonyms	opus5	1	349	313	0.009570	False
+RMC1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+RMC1	Autism Spectrum Disorder	Bands	haiku	6	28812	1336	0.035492	False
+RMC1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	3333	628	0.032365	False
+RMC1	Autism Spectrum Disorder	total		9	32896	2361	0.078249	False
+RMC1	bipolar disorder	Synonyms	opus5	1	344	334	0.010070	False
+RMC1	bipolar disorder	Broadened	haiku	1	399	70	0.000749	False
+RMC1	bipolar disorder	Bands	haiku	6	28242	1292	0.034702	False
+RMC1	bipolar disorder	ProbabilityRead	opus5	1	3141	565	0.029830	False
+RMC1	bipolar disorder	total		9	32126	2261	0.075351	False
+RMC1	congenital heart disease	Synonyms	opus5	1	344	334	0.010070	False
+RMC1	congenital heart disease	Broadened	haiku	1	401	68	0.000741	False
+RMC1	congenital heart disease	Bands	haiku	7	30681	1434	0.037851	False
+RMC1	congenital heart disease	ProbabilityRead	opus5	1	3141	493	0.028030	False
+RMC1	congenital heart disease	total		10	34567	2329	0.076692	False
+RMC1	epilepsy	Synonyms	opus5	1	342	360	0.010710	False
+RMC1	epilepsy	Broadened	haiku	1	399	65	0.000724	False
+RMC1	epilepsy	Bands	haiku	6	28291	1314	0.034861	False
+RMC1	epilepsy	ProbabilityRead	opus5	1	3129	608	0.030845	False
+RMC1	epilepsy	total		9	32161	2347	0.077140	False
+RMC1	schizophrenia	Synonyms	opus5	1	343	274	0.008565	False
+RMC1	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+RMC1	schizophrenia	Bands	haiku	6	28321	1314	0.034891	False
+RMC1	schizophrenia	ProbabilityRead	opus5	1	3135	567	0.029850	False
+RMC1	schizophrenia	total		9	32200	2226	0.074062	False
+RMC1	type 2 diabetes	Synonyms	opus5	1	345	222	0.007275	False
+RMC1	type 2 diabetes	Broadened	haiku	1	401	101	0.000906	False
+RMC1	type 2 diabetes	Bands	haiku	7	29833	1412	0.036893	False
+RMC1	type 2 diabetes	ProbabilityRead	opus5	1	4051	689	0.037480	False
+RMC1	type 2 diabetes	total		10	34630	2424	0.082554	False
+SHANK1	Alzheimer's disease	Synonyms	opus5	1	346	229	0.007455	False
+SHANK1	Alzheimer's disease	Broadened	haiku	1	401	74	0.000771	False
+SHANK1	Alzheimer's disease	Bands	haiku	7	29270	1478	0.036660	False
+SHANK1	Alzheimer's disease	ProbabilityRead	opus5	1	11656	1165	0.087405	False
+SHANK1	Alzheimer's disease	total		10	41673	2946	0.132291	False
+SHANK1	Autism Spectrum Disorder	Synonyms	opus5	1	349	354	0.010595	False
+SHANK1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+SHANK1	Autism Spectrum Disorder	Bands	haiku	7	30914	1610	0.038964	False
+SHANK1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	10467	1624	0.092935	False
+SHANK1	Autism Spectrum Disorder	total		10	42132	3672	0.143316	False
+SHANK1	bipolar disorder	Synonyms	opus5	1	344	310	0.009470	False
+SHANK1	bipolar disorder	Broadened	haiku	1	399	64	0.000719	False
+SHANK1	bipolar disorder	Bands	haiku	6	25675	1292	0.032135	False
+SHANK1	bipolar disorder	ProbabilityRead	opus5	1	12007	977	0.084460	False
+SHANK1	bipolar disorder	total		9	38425	2643	0.126784	False
+SHANK1	congenital heart disease	Synonyms	opus5	1	344	218	0.007170	False
+SHANK1	congenital heart disease	Broadened	haiku	1	401	68	0.000741	False
+SHANK1	congenital heart disease	Bands	haiku	7	29432	1456	0.036712	False
+SHANK1	congenital heart disease	ProbabilityRead	opus5	1	12608	850	0.084290	False
+SHANK1	congenital heart disease	total		10	42785	2592	0.128913	False
+SHANK1	epilepsy	Synonyms	opus5	1	342	281	0.008735	False
+SHANK1	epilepsy	Broadened	haiku	1	399	68	0.000739	False
+SHANK1	epilepsy	Bands	haiku	6	26481	1358	0.033271	False
+SHANK1	epilepsy	ProbabilityRead	opus5	1	11941	946	0.083355	False
+SHANK1	epilepsy	total		9	39163	2653	0.126100	False
+SHANK1	schizophrenia	Synonyms	opus5	1	343	268	0.008415	False
+SHANK1	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+SHANK1	schizophrenia	Bands	haiku	6	27447	1380	0.034347	False
+SHANK1	schizophrenia	ProbabilityRead	opus5	1	11759	998	0.083745	False
+SHANK1	schizophrenia	total		9	39950	2717	0.127263	False
+SHANK1	type 2 diabetes	Synonyms	opus5	1	345	331	0.010000	False
+SHANK1	type 2 diabetes	Broadened	haiku	1	401	102	0.000911	False
+SHANK1	type 2 diabetes	Bands	haiku	6	25533	1270	0.031883	False
+SHANK1	type 2 diabetes	ProbabilityRead	opus5	1	11474	801	0.077395	False
+SHANK1	type 2 diabetes	total		9	37753	2504	0.120189	False
+ST18	Alzheimer's disease	Synonyms	opus5	1	346	229	0.007455	False
+ST18	Alzheimer's disease	Broadened	haiku	1	401	70	0.000751	False
+ST18	Alzheimer's disease	Bands	haiku	5	20083	1128	0.025723	False
+ST18	Alzheimer's disease	ProbabilityRead	opus5	1	3563	640	0.033815	False
+ST18	Alzheimer's disease	total		8	24393	2067	0.067744	False
+ST18	Autism Spectrum Disorder	Synonyms	opus5	1	349	314	0.009595	False
+ST18	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+ST18	Autism Spectrum Disorder	Bands	haiku	6	23858	1336	0.030538	False
+ST18	Autism Spectrum Disorder	ProbabilityRead	opus5	1	8223	859	0.062590	False
+ST18	Autism Spectrum Disorder	total		9	32832	2593	0.103545	False
+ST18	bipolar disorder	Synonyms	opus5	1	344	406	0.011870	False
+ST18	bipolar disorder	Broadened	haiku	1	399	64	0.000719	False
+ST18	bipolar disorder	Bands	haiku	6	21723	1226	0.027853	False
+ST18	bipolar disorder	ProbabilityRead	opus5	1	7613	713	0.055890	False
+ST18	bipolar disorder	total		9	30079	2409	0.096332	False
+ST18	congenital heart disease	Synonyms	opus5	1	344	331	0.009995	False
+ST18	congenital heart disease	Broadened	haiku	1	401	68	0.000741	False
+ST18	congenital heart disease	Bands	haiku	6	21813	1226	0.027943	False
+ST18	congenital heart disease	ProbabilityRead	opus5	1	6390	544	0.045550	False
+ST18	congenital heart disease	total		9	28948	2169	0.084229	False
+ST18	epilepsy	Synonyms	opus5	1	342	290	0.008960	False
+ST18	epilepsy	Broadened	haiku	1	399	65	0.000724	False
+ST18	epilepsy	Bands	haiku	6	22604	1292	0.029064	False
+ST18	epilepsy	ProbabilityRead	opus5	1	7074	662	0.051920	False
+ST18	epilepsy	total		9	30419	2309	0.090668	False
+ST18	schizophrenia	Synonyms	opus5	1	343	275	0.008590	False
+ST18	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+ST18	schizophrenia	Bands	haiku	5	19880	1128	0.025520	False
+ST18	schizophrenia	ProbabilityRead	opus5	1	10415	774	0.071425	False
+ST18	schizophrenia	total		8	31039	2248	0.106291	False
+ST18	type 2 diabetes	Synonyms	opus5	1	345	222	0.007275	False
+ST18	type 2 diabetes	Broadened	haiku	1	401	104	0.000921	False
+ST18	type 2 diabetes	Bands	haiku	6	21873	1248	0.028113	False
+ST18	type 2 diabetes	ProbabilityRead	opus5	1	8021	949	0.063830	False
+ST18	type 2 diabetes	total		9	30640	2523	0.100139	False
+TCF7L1	Alzheimer's disease	Synonyms	opus5	1	346	229	0.007455	False
+TCF7L1	Alzheimer's disease	Broadened	haiku	1	401	70	0.000751	False
+TCF7L1	Alzheimer's disease	Bands	haiku	7	27150	1456	0.034430	False
+TCF7L1	Alzheimer's disease	ProbabilityRead	opus5	1	9536	1098	0.075130	False
+TCF7L1	Alzheimer's disease	total		10	37433	2853	0.117766	False
+TCF7L1	Autism Spectrum Disorder	Synonyms	opus5	1	349	348	0.010445	False
+TCF7L1	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+TCF7L1	Autism Spectrum Disorder	Bands	haiku	7	28248	1544	0.035968	False
+TCF7L1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	7451	898	0.059705	False
+TCF7L1	Autism Spectrum Disorder	total		10	36450	2875	0.106945	False
+TCF7L1	bipolar disorder	Synonyms	opus5	1	344	318	0.009670	False
+TCF7L1	bipolar disorder	Broadened	haiku	1	399	64	0.000719	False
+TCF7L1	bipolar disorder	Bands	haiku	7	27243	1500	0.034743	False
+TCF7L1	bipolar disorder	ProbabilityRead	opus5	1	10313	727	0.069740	False
+TCF7L1	bipolar disorder	total		10	38299	2609	0.114872	False
+TCF7L1	congenital heart disease	Synonyms	opus5	1	344	314	0.009570	False
+TCF7L1	congenital heart disease	Broadened	haiku	1	401	68	0.000741	False
+TCF7L1	congenital heart disease	Bands	haiku	7	28068	1500	0.035568	False
+TCF7L1	congenital heart disease	ProbabilityRead	opus5	1	9712	891	0.070835	False
+TCF7L1	congenital heart disease	total		10	38525	2773	0.116714	False
+TCF7L1	epilepsy	Synonyms	opus5	1	342	280	0.008710	False
+TCF7L1	epilepsy	Broadened	haiku	1	399	71	0.000754	False
+TCF7L1	epilepsy	Bands	haiku	7	27007	1478	0.034397	False
+TCF7L1	epilepsy	ProbabilityRead	opus5	1	9607	713	0.065860	False
+TCF7L1	epilepsy	total		10	37355	2542	0.109721	False
+TCF7L1	schizophrenia	Synonyms	opus5	1	343	284	0.008815	False
+TCF7L1	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+TCF7L1	schizophrenia	Bands	haiku	7	28286	1544	0.036006	False
+TCF7L1	schizophrenia	ProbabilityRead	opus5	1	9163	1023	0.071390	False
+TCF7L1	schizophrenia	total		10	38193	2922	0.116967	False
+TCF7L1	type 2 diabetes	Synonyms	opus5	1	345	328	0.009925	False
+TCF7L1	type 2 diabetes	Broadened	haiku	1	401	101	0.000906	False
+TCF7L1	type 2 diabetes	Bands	haiku	7	26669	1544	0.034389	False
+TCF7L1	type 2 diabetes	ProbabilityRead	opus5	1	9816	892	0.071380	False
+TCF7L1	type 2 diabetes	total		10	37231	2865	0.116600	False
+TERF2	Alzheimer's disease	Synonyms	opus5	1	346	357	0.010655	False
+TERF2	Alzheimer's disease	Broadened	haiku	1	401	75	0.000776	False
+TERF2	Alzheimer's disease	Bands	haiku	7	29645	1615	0.037720	False
+TERF2	Alzheimer's disease	ProbabilityRead	opus5	1	12291	1010	0.086705	False
+TERF2	Alzheimer's disease	total		10	42683	3057	0.135856	False
+TERF2	Autism Spectrum Disorder	Synonyms	opus5	1	349	302	0.009295	False
+TERF2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+TERF2	Autism Spectrum Disorder	Bands	haiku	7	28229	1522	0.035839	False
+TERF2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	11546	657	0.074155	False
+TERF2	Autism Spectrum Disorder	total		10	40526	2565	0.120111	False
+TERF2	bipolar disorder	Synonyms	opus5	1	344	326	0.009870	False
+TERF2	bipolar disorder	Broadened	haiku	1	399	64	0.000719	False
+TERF2	bipolar disorder	Bands	haiku	6	25135	1380	0.032035	False
+TERF2	bipolar disorder	ProbabilityRead	opus5	1	10866	650	0.070580	False
+TERF2	bipolar disorder	total		9	36744	2420	0.113204	False
+TERF2	congenital heart disease	Synonyms	opus5	1	344	344	0.010320	False
+TERF2	congenital heart disease	Broadened	haiku	1	401	75	0.000776	False
+TERF2	congenital heart disease	Bands	haiku	8	31729	1730	0.040379	False
+TERF2	congenital heart disease	ProbabilityRead	opus5	1	11823	777	0.078540	False
+TERF2	congenital heart disease	total		11	44297	2926	0.130015	False
+TERF2	epilepsy	Synonyms	opus5	1	342	313	0.009535	False
+TERF2	epilepsy	Broadened	haiku	1	399	65	0.000724	False
+TERF2	epilepsy	Bands	haiku	6	25412	1380	0.032312	False
+TERF2	epilepsy	ProbabilityRead	opus5	1	12386	627	0.077605	False
+TERF2	epilepsy	total		9	38539	2385	0.120176	False
+TERF2	schizophrenia	Synonyms	opus5	1	343	268	0.008415	False
+TERF2	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+TERF2	schizophrenia	Bands	haiku	7	27746	1500	0.035246	False
+TERF2	schizophrenia	ProbabilityRead	opus5	1	11009	529	0.068270	False
+TERF2	schizophrenia	total		10	39499	2368	0.112687	False
+TERF2	type 2 diabetes	Synonyms	opus5	1	345	231	0.007500	False
+TERF2	type 2 diabetes	Broadened	haiku	1	401	101	0.000906	False
+TERF2	type 2 diabetes	Bands	haiku	7	26792	1434	0.033962	False
+TERF2	type 2 diabetes	ProbabilityRead	opus5	1	12434	610	0.077420	False
+TERF2	type 2 diabetes	total		10	39972	2376	0.119788	False
+UBB	Alzheimer's disease	Synonyms	opus5	1	346	368	0.010930	False
+UBB	Alzheimer's disease	Broadened	haiku	1	401	75	0.000776	False
+UBB	Alzheimer's disease	Bands	haiku	7	29567	1566	0.037397	False
+UBB	Alzheimer's disease	ProbabilityRead	opus5	1	11574	1064	0.084470	False
+UBB	Alzheimer's disease	total		10	41888	3073	0.133573	False
+UBB	Autism Spectrum Disorder	Synonyms	opus5	1	349	330	0.009995	False
+UBB	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+UBB	Autism Spectrum Disorder	Bands	haiku	7	28040	1434	0.035210	False
+UBB	Autism Spectrum Disorder	ProbabilityRead	opus5	1	11871	846	0.080505	False
+UBB	Autism Spectrum Disorder	total		10	40662	2694	0.126532	False
+UBB	bipolar disorder	Synonyms	opus5	1	344	312	0.009520	False
+UBB	bipolar disorder	Broadened	haiku	1	399	64	0.000719	False
+UBB	bipolar disorder	Bands	haiku	7	27568	1412	0.034628	False
+UBB	bipolar disorder	ProbabilityRead	opus5	1	11445	597	0.072150	False
+UBB	bipolar disorder	total		10	39756	2385	0.117017	False
+UBB	congenital heart disease	Synonyms	opus5	1	344	222	0.007270	False
+UBB	congenital heart disease	Broadened	haiku	1	401	68	0.000741	False
+UBB	congenital heart disease	Bands	haiku	6	24654	1248	0.030894	False
+UBB	congenital heart disease	ProbabilityRead	opus5	1	11311	713	0.074380	False
+UBB	congenital heart disease	total		9	36710	2251	0.113285	False
+UBB	epilepsy	Synonyms	opus5	1	342	206	0.006860	False
+UBB	epilepsy	Broadened	haiku	1	399	71	0.000754	False
+UBB	epilepsy	Bands	haiku	6	26390	1380	0.033290	False
+UBB	epilepsy	ProbabilityRead	opus5	1	11773	649	0.075090	False
+UBB	epilepsy	total		9	38904	2306	0.115994	False
+UBB	schizophrenia	Synonyms	opus5	1	343	260	0.008215	False
+UBB	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+UBB	schizophrenia	Bands	haiku	6	26112	1358	0.032902	False
+UBB	schizophrenia	ProbabilityRead	opus5	1	11076	672	0.072180	False
+UBB	schizophrenia	total		9	37932	2361	0.114053	False
+UBB	type 2 diabetes	Synonyms	opus5	1	345	370	0.010975	False
+UBB	type 2 diabetes	Broadened	haiku	1	401	101	0.000906	False
+UBB	type 2 diabetes	Bands	haiku	6	24666	1270	0.031016	False
+UBB	type 2 diabetes	ProbabilityRead	opus5	1	11680	856	0.079800	False
+UBB	type 2 diabetes	total		9	37092	2597	0.122697	False
+UBR3	Alzheimer's disease	Synonyms	opus5	1	346	365	0.010855	False
+UBR3	Alzheimer's disease	Broadened	haiku	1	401	70	0.000751	False
+UBR3	Alzheimer's disease	Bands	haiku	2	7675	438	0.009865	False
+UBR3	Alzheimer's disease	ProbabilityRead	opus5	1	5517	826	0.048235	False
+UBR3	Alzheimer's disease	total		5	13939	1699	0.069706	False
+UBR3	Autism Spectrum Disorder	Synonyms	opus5	1	349	204	0.006845	False
+UBR3	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+UBR3	Autism Spectrum Disorder	Bands	haiku	2	7355	438	0.009545	False
+UBR3	Autism Spectrum Disorder	ProbabilityRead	opus5	1	4211	776	0.040455	False
+UBR3	Autism Spectrum Disorder	total		5	12317	1503	0.057672	False
+UBR3	bipolar disorder	Synonyms	opus5	1	344	331	0.009995	False
+UBR3	bipolar disorder	Broadened	haiku	1	399	19	0.000494	False
+UBR3	bipolar disorder	Bands	haiku	2	7647	438	0.009837	False
+UBR3	bipolar disorder	ProbabilityRead	opus5	1	4931	577	0.039080	False
+UBR3	bipolar disorder	total		5	13321	1365	0.059406	False
+UBR3	congenital heart disease	Synonyms	opus5	1	344	321	0.009745	False
+UBR3	congenital heart disease	Broadened	haiku	1	401	77	0.000786	False
+UBR3	congenital heart disease	Bands	haiku	2	8236	460	0.010536	False
+UBR3	congenital heart disease	ProbabilityRead	opus5	1	6118	961	0.054615	False
+UBR3	congenital heart disease	total		5	15099	1819	0.075682	False
+UBR3	epilepsy	Synonyms	opus5	1	342	260	0.008210	False
+UBR3	epilepsy	Broadened	haiku	1	399	71	0.000754	False
+UBR3	epilepsy	Bands	haiku	2	7591	438	0.009781	False
+UBR3	epilepsy	ProbabilityRead	opus5	1	4473	974	0.046715	False
+UBR3	epilepsy	total		5	12805	1743	0.065460	False
+UBR3	schizophrenia	Synonyms	opus5	1	343	288	0.008915	False
+UBR3	schizophrenia	Broadened	haiku	1	401	71	0.000756	False
+UBR3	schizophrenia	Bands	haiku	2	7625	438	0.009815	False
+UBR3	schizophrenia	ProbabilityRead	opus5	1	6073	919	0.053340	False
+UBR3	schizophrenia	total		5	14442	1716	0.072826	False
+UBR3	type 2 diabetes	Synonyms	opus5	1	345	370	0.010975	False
+UBR3	type 2 diabetes	Broadened	haiku	1	401	102	0.000911	False
+UBR3	type 2 diabetes	Bands	haiku	2	7359	438	0.009549	False
+UBR3	type 2 diabetes	ProbabilityRead	opus5	1	6582	700	0.050410	False
+UBR3	type 2 diabetes	total		5	14687	1610	0.071845	False

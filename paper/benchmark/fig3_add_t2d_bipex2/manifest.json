@@ -1,0 +1,15 @@
+{
+ "written": "2026-10-11",
+ "purpose": "Genes to add to the 550-gene panel of Fig. 3: the 12 type 2 diabetes genes of Zhao et al., Nat. Genet. 57, 2436-2444 (2025), and the 16 BipEx 2.0 genes at Benjamini-Hochberg FDR < 0.05 on the protein-truncating variant P value (the rule of Supplementary Note 4); 8 of the 28 were already in the panel, so 20 genes x 7 phenotypes are run here.",
+ "arm": "current, with --abstracts-first-section",
+ "fingerprint": "fee4cd168b3b",
+ "fingerprint_without_date": "ff136250f372, that of the Fig. 1 and Fig. 3 runs: abstracts cut to their first section, as every run before 22 September 2026",
+ "max_date": "2026/09/01, the end of the Fig. 3 runs (14 August to 1 September 2026), with --no-date-note so the reading prompt is the one Fig. 3 sent",
+ "open_targets": "not run (--max-date); Fig. 3 uses the literature branch only",
+ "command": "pestop --bench benchmark/fig3_add_t2d_bipex2/pairs.tsv --arm current --abstracts-first-section --max-date 2026/09/01 --no-date-note --workers 30 --data-dir benchmark/fig3_add_t2d_bipex2/runs --out benchmark/fig3_add_t2d_bipex2/pesto.tsv",
+ "where": "GCE VM pesto-add20 (n2-standard-32, us-east1-b, guez-sandbox-aedc), deleted after the run; anthropic 0.103.1, as locally",
+ "git_head": "75e14abc",
+ "pairs": 140,
+ "errors": 0,
+ "cost_usd": 12.2
+}

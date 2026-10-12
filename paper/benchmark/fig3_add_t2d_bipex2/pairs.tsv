@@ -1,0 +1,141 @@
+gene	phenotype	set
+GCK	Autism Spectrum Disorder	t2d_zhao2025
+GCK	epilepsy	t2d_zhao2025
+GCK	schizophrenia	t2d_zhao2025
+GCK	bipolar disorder	t2d_zhao2025
+GCK	Alzheimer's disease	t2d_zhao2025
+GCK	congenital heart disease	t2d_zhao2025
+GCK	type 2 diabetes	t2d_zhao2025
+HNF1A	Autism Spectrum Disorder	t2d_zhao2025
+HNF1A	epilepsy	t2d_zhao2025
+HNF1A	schizophrenia	t2d_zhao2025
+HNF1A	bipolar disorder	t2d_zhao2025
+HNF1A	Alzheimer's disease	t2d_zhao2025
+HNF1A	congenital heart disease	t2d_zhao2025
+HNF1A	type 2 diabetes	t2d_zhao2025
+HNF4A	Autism Spectrum Disorder	t2d_zhao2025
+HNF4A	epilepsy	t2d_zhao2025
+HNF4A	schizophrenia	t2d_zhao2025
+HNF4A	bipolar disorder	t2d_zhao2025
+HNF4A	Alzheimer's disease	t2d_zhao2025
+HNF4A	congenital heart disease	t2d_zhao2025
+HNF4A	type 2 diabetes	t2d_zhao2025
+IGF1R	Autism Spectrum Disorder	t2d_zhao2025
+IGF1R	epilepsy	t2d_zhao2025
+IGF1R	schizophrenia	t2d_zhao2025
+IGF1R	bipolar disorder	t2d_zhao2025
+IGF1R	Alzheimer's disease	t2d_zhao2025
+IGF1R	congenital heart disease	t2d_zhao2025
+IGF1R	type 2 diabetes	t2d_zhao2025
+IRS2	Autism Spectrum Disorder	t2d_zhao2025
+IRS2	epilepsy	t2d_zhao2025
+IRS2	schizophrenia	t2d_zhao2025
+IRS2	bipolar disorder	t2d_zhao2025
+IRS2	Alzheimer's disease	t2d_zhao2025
+IRS2	congenital heart disease	t2d_zhao2025
+IRS2	type 2 diabetes	t2d_zhao2025
+UBR3	Autism Spectrum Disorder	t2d_zhao2025
+UBR3	epilepsy	t2d_zhao2025
+UBR3	schizophrenia	t2d_zhao2025
+UBR3	bipolar disorder	t2d_zhao2025
+UBR3	Alzheimer's disease	t2d_zhao2025
+UBR3	congenital heart disease	t2d_zhao2025
+UBR3	type 2 diabetes	t2d_zhao2025
+RMC1	Autism Spectrum Disorder	t2d_zhao2025
+RMC1	epilepsy	t2d_zhao2025
+RMC1	schizophrenia	t2d_zhao2025
+RMC1	bipolar disorder	t2d_zhao2025
+RMC1	Alzheimer's disease	t2d_zhao2025
+RMC1	congenital heart disease	t2d_zhao2025
+RMC1	type 2 diabetes	t2d_zhao2025
+IP6K1	Autism Spectrum Disorder	t2d_zhao2025
+IP6K1	epilepsy	t2d_zhao2025
+IP6K1	schizophrenia	t2d_zhao2025
+IP6K1	bipolar disorder	t2d_zhao2025
+IP6K1	Alzheimer's disease	t2d_zhao2025
+IP6K1	congenital heart disease	t2d_zhao2025
+IP6K1	type 2 diabetes	t2d_zhao2025
+UBB	Autism Spectrum Disorder	t2d_zhao2025
+UBB	epilepsy	t2d_zhao2025
+UBB	schizophrenia	t2d_zhao2025
+UBB	bipolar disorder	t2d_zhao2025
+UBB	Alzheimer's disease	t2d_zhao2025
+UBB	congenital heart disease	t2d_zhao2025
+UBB	type 2 diabetes	t2d_zhao2025
+AKR7L	Autism Spectrum Disorder	bipex2_ptv_fdr05
+AKR7L	epilepsy	bipex2_ptv_fdr05
+AKR7L	schizophrenia	bipex2_ptv_fdr05
+AKR7L	bipolar disorder	bipex2_ptv_fdr05
+AKR7L	Alzheimer's disease	bipex2_ptv_fdr05
+AKR7L	congenital heart disease	bipex2_ptv_fdr05
+AKR7L	type 2 diabetes	bipex2_ptv_fdr05
+DOP1A	Autism Spectrum Disorder	bipex2_ptv_fdr05
+DOP1A	epilepsy	bipex2_ptv_fdr05
+DOP1A	schizophrenia	bipex2_ptv_fdr05
+DOP1A	bipolar disorder	bipex2_ptv_fdr05
+DOP1A	Alzheimer's disease	bipex2_ptv_fdr05
+DOP1A	congenital heart disease	bipex2_ptv_fdr05
+DOP1A	type 2 diabetes	bipex2_ptv_fdr05
+FRYL	Autism Spectrum Disorder	bipex2_ptv_fdr05
+FRYL	epilepsy	bipex2_ptv_fdr05
+FRYL	schizophrenia	bipex2_ptv_fdr05
+FRYL	bipolar disorder	bipex2_ptv_fdr05
+FRYL	Alzheimer's disease	bipex2_ptv_fdr05
+FRYL	congenital heart disease	bipex2_ptv_fdr05
+FRYL	type 2 diabetes	bipex2_ptv_fdr05
+KIAA1211L	Autism Spectrum Disorder	bipex2_ptv_fdr05
+KIAA1211L	epilepsy	bipex2_ptv_fdr05
+KIAA1211L	schizophrenia	bipex2_ptv_fdr05
+KIAA1211L	bipolar disorder	bipex2_ptv_fdr05
+KIAA1211L	Alzheimer's disease	bipex2_ptv_fdr05
+KIAA1211L	congenital heart disease	bipex2_ptv_fdr05
+KIAA1211L	type 2 diabetes	bipex2_ptv_fdr05
+NBPF14	Autism Spectrum Disorder	bipex2_ptv_fdr05
+NBPF14	epilepsy	bipex2_ptv_fdr05
+NBPF14	schizophrenia	bipex2_ptv_fdr05
+NBPF14	bipolar disorder	bipex2_ptv_fdr05
+NBPF14	Alzheimer's disease	bipex2_ptv_fdr05
+NBPF14	congenital heart disease	bipex2_ptv_fdr05
+NBPF14	type 2 diabetes	bipex2_ptv_fdr05
+PCDHGA8	Autism Spectrum Disorder	bipex2_ptv_fdr05
+PCDHGA8	epilepsy	bipex2_ptv_fdr05
+PCDHGA8	schizophrenia	bipex2_ptv_fdr05
+PCDHGA8	bipolar disorder	bipex2_ptv_fdr05
+PCDHGA8	Alzheimer's disease	bipex2_ptv_fdr05
+PCDHGA8	congenital heart disease	bipex2_ptv_fdr05
+PCDHGA8	type 2 diabetes	bipex2_ptv_fdr05
+POU2F1	Autism Spectrum Disorder	bipex2_ptv_fdr05
+POU2F1	epilepsy	bipex2_ptv_fdr05
+POU2F1	schizophrenia	bipex2_ptv_fdr05
+POU2F1	bipolar disorder	bipex2_ptv_fdr05
+POU2F1	Alzheimer's disease	bipex2_ptv_fdr05
+POU2F1	congenital heart disease	bipex2_ptv_fdr05
+POU2F1	type 2 diabetes	bipex2_ptv_fdr05
+SHANK1	Autism Spectrum Disorder	bipex2_ptv_fdr05
+SHANK1	epilepsy	bipex2_ptv_fdr05
+SHANK1	schizophrenia	bipex2_ptv_fdr05
+SHANK1	bipolar disorder	bipex2_ptv_fdr05
+SHANK1	Alzheimer's disease	bipex2_ptv_fdr05
+SHANK1	congenital heart disease	bipex2_ptv_fdr05
+SHANK1	type 2 diabetes	bipex2_ptv_fdr05
+ST18	Autism Spectrum Disorder	bipex2_ptv_fdr05
+ST18	epilepsy	bipex2_ptv_fdr05
+ST18	schizophrenia	bipex2_ptv_fdr05
+ST18	bipolar disorder	bipex2_ptv_fdr05
+ST18	Alzheimer's disease	bipex2_ptv_fdr05
+ST18	congenital heart disease	bipex2_ptv_fdr05
+ST18	type 2 diabetes	bipex2_ptv_fdr05
+TCF7L1	Autism Spectrum Disorder	bipex2_ptv_fdr05
+TCF7L1	epilepsy	bipex2_ptv_fdr05
+TCF7L1	schizophrenia	bipex2_ptv_fdr05
+TCF7L1	bipolar disorder	bipex2_ptv_fdr05
+TCF7L1	Alzheimer's disease	bipex2_ptv_fdr05
+TCF7L1	congenital heart disease	bipex2_ptv_fdr05
+TCF7L1	type 2 diabetes	bipex2_ptv_fdr05
+TERF2	Autism Spectrum Disorder	bipex2_ptv_fdr05
+TERF2	epilepsy	bipex2_ptv_fdr05
+TERF2	schizophrenia	bipex2_ptv_fdr05
+TERF2	bipolar disorder	bipex2_ptv_fdr05
+TERF2	Alzheimer's disease	bipex2_ptv_fdr05
+TERF2	congenital heart disease	bipex2_ptv_fdr05
+TERF2	type 2 diabetes	bipex2_ptv_fdr05

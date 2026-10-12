@@ -25,8 +25,8 @@ This calls no model and needs no API key. It takes about two minutes.
 | Supplementary Table 1 | `145_supplementary_table1.py` | `results/supplementary_table1.xlsx` |
 | Figure 2 | `21_figure2.R` | `figures/figure2.png` |
 | Extended Data Fig. 2 | `143_ed2_titles_data.py`, `144_figure_ed2_titles.R` | `figures/figure_ed2_titles.png` |
-| Figure 3 | `117_figure3_chd_top5.R --loeuf-decile --brain-decile --or --top5-brain` (+ `_panel_dendrogram.R`) | `figures/figure3.png` |
-| Extended Data Fig. 4 | `198_tissue_enrichment_grid.R`, `199_tissue_heatmap_from_grid.R adult kept 5% --clean` | `figures/figure_ed4_tissue_enrichment.png` |
+| Figure 3 | `117_figure3_chd_top5.R --loeuf-decile --brain-decile --or --top5-brain --cell-panel` (+ `_panel_dendrogram.R`; panel c reads `results/biology/cell_types_grid.tsv`) | `figures/figure3.png` |
+| Extended Data Fig. 4a (tissues) | `198_tissue_enrichment_grid.R`, `199_tissue_heatmap_from_grid.R adult kept 5% --clean` | `figures/figure_ed4_tissue_enrichment.png` |
 | Supplementary Note 4, sensitivity of the tissue analyses (table) | `198_tissue_enrichment_grid.R` | `results/tissue_enrichment/grid_key.tsv` |
 | Supplementary Figure 1 (the pipeline, step by step) | `172_pipeline_detailed_schema.R` (+ `pipeline_schema.R`) | `figures/pipeline_detailed.png` |
 | Supplementary Note 1, run-to-run variability (table) | `183_reproducibility_stats.py` | `results/reproducibility_aou50/summary.tsv` |
@@ -68,6 +68,8 @@ will not reproduce each answer exactly.
 | Figure 2 benchmarks | `draw_figure2_benchmark.py`, `score_figure2_uncontested.py`, `16_consolidate_benchmark.py`, `123_fig2a_extra30.py`, `85_`/`94_`/`100_draw_fig2a_absent*.py`, `86_`/`95_`/`101_score_fig2a_absent*.py`, `80_prior_year_sample.py`, `102_prior_year10_extra10bin.py`, `103_prior_year10_fill3year.py`, `40_ablation_fig2.py` |
 | Extended Data Fig. 2 | `104_score_fig2a_absent70_titles.py`, `78_fig2_ed5_data.py` |
 | Figure 3 gene universe and enrichments | `82_fig3_four_phenos.py`, `92_fig3_random50.py`, `104_fig3_alzheimer.py`, `106_fig3_random50b.py`, `115_fig3_chd.py`, `108_fig3_go_nocc.py`, `110_fig3_nocc_meancall.py`, `113_fig3_top5_parent.py`, `116_fig3_chd_top5.py`, `86_go_matrix_5pheno.py`, `42_fig3_cd_bars.py` |
+| Figure 3, the 670-gene panel | `benchmark/fig3_add_t2d_bipex2/` (the type 2 diabetes and BipEx 2.0 genes) and `benchmark/fig3_add_random100/` (`234_draw_random100.py`) scored with `--max-date 2026/09/01`; `233_run_panel570.sh` appends them to the 550-gene table and reruns the analyses, giving `results/fig3_universe550_meancall_scores.tsv` (670 genes despite its name) |
+| Figure 3c, cell types | `211_cell_type_specificity.py` (+ `_biology_panel.py`, `202_subthreshold_signal.py`); reads the Human Protein Atlas single-cell table `rna_single_cell_type.tsv.zip` (proteinatlas.org, not redistributed) and writes `results/biology/cell_types_grid.tsv` |
 | Supplementary Figures 1 and 2 | `121_score_fig2ab.py`, `125_bare_fig2ab.py`, `126_open_fig2ab.py` |
 | Supplementary Figure 3 benchmark | `139_build_bench_bodyonly.py` (first 22 pairs), `153_extend_bench_bodyonly.py` (18 more, same criteria), `138_score_bodyonly.py` |
 | Supplementary Note 1, run-to-run variability | `181_reproducibility_aou50.py` (three fresh runs of 50 All of Us–GeneBass associations; only each run's `pesto.tsv` and `cost.tsv` are kept here) |

@@ -1,0 +1,701 @@
+gene	phenotype	set
+ABHD10	Autism Spectrum Disorder	random100_oct
+ABHD10	epilepsy	random100_oct
+ABHD10	schizophrenia	random100_oct
+ABHD10	bipolar disorder	random100_oct
+ABHD10	Alzheimer's disease	random100_oct
+ABHD10	congenital heart disease	random100_oct
+ABHD10	type 2 diabetes	random100_oct
+ACTA2	Autism Spectrum Disorder	random100_oct
+ACTA2	epilepsy	random100_oct
+ACTA2	schizophrenia	random100_oct
+ACTA2	bipolar disorder	random100_oct
+ACTA2	Alzheimer's disease	random100_oct
+ACTA2	congenital heart disease	random100_oct
+ACTA2	type 2 diabetes	random100_oct
+ADGRB2	Autism Spectrum Disorder	random100_oct
+ADGRB2	epilepsy	random100_oct
+ADGRB2	schizophrenia	random100_oct
+ADGRB2	bipolar disorder	random100_oct
+ADGRB2	Alzheimer's disease	random100_oct
+ADGRB2	congenital heart disease	random100_oct
+ADGRB2	type 2 diabetes	random100_oct
+ADRB2	Autism Spectrum Disorder	random100_oct
+ADRB2	epilepsy	random100_oct
+ADRB2	schizophrenia	random100_oct
+ADRB2	bipolar disorder	random100_oct
+ADRB2	Alzheimer's disease	random100_oct
+ADRB2	congenital heart disease	random100_oct
+ADRB2	type 2 diabetes	random100_oct
+ARL13B	Autism Spectrum Disorder	random100_oct
+ARL13B	epilepsy	random100_oct
+ARL13B	schizophrenia	random100_oct
+ARL13B	bipolar disorder	random100_oct
+ARL13B	Alzheimer's disease	random100_oct
+ARL13B	congenital heart disease	random100_oct
+ARL13B	type 2 diabetes	random100_oct
+C10ORF90	Autism Spectrum Disorder	random100_oct
+C10ORF90	epilepsy	random100_oct
+C10ORF90	schizophrenia	random100_oct
+C10ORF90	bipolar disorder	random100_oct
+C10ORF90	Alzheimer's disease	random100_oct
+C10ORF90	congenital heart disease	random100_oct
+C10ORF90	type 2 diabetes	random100_oct
+CAPN3	Autism Spectrum Disorder	random100_oct
+CAPN3	epilepsy	random100_oct
+CAPN3	schizophrenia	random100_oct
+CAPN3	bipolar disorder	random100_oct
+CAPN3	Alzheimer's disease	random100_oct
+CAPN3	congenital heart disease	random100_oct
+CAPN3	type 2 diabetes	random100_oct
+CCDC33	Autism Spectrum Disorder	random100_oct
+CCDC33	epilepsy	random100_oct
+CCDC33	schizophrenia	random100_oct
+CCDC33	bipolar disorder	random100_oct
+CCDC33	Alzheimer's disease	random100_oct
+CCDC33	congenital heart disease	random100_oct
+CCDC33	type 2 diabetes	random100_oct
+CD1C	Autism Spectrum Disorder	random100_oct
+CD1C	epilepsy	random100_oct
+CD1C	schizophrenia	random100_oct
+CD1C	bipolar disorder	random100_oct
+CD1C	Alzheimer's disease	random100_oct
+CD1C	congenital heart disease	random100_oct
+CD1C	type 2 diabetes	random100_oct
+CDHR5	Autism Spectrum Disorder	random100_oct
+CDHR5	epilepsy	random100_oct
+CDHR5	schizophrenia	random100_oct
+CDHR5	bipolar disorder	random100_oct
+CDHR5	Alzheimer's disease	random100_oct
+CDHR5	congenital heart disease	random100_oct
+CDHR5	type 2 diabetes	random100_oct
+CENATAC	Autism Spectrum Disorder	random100_oct
+CENATAC	epilepsy	random100_oct
+CENATAC	schizophrenia	random100_oct
+CENATAC	bipolar disorder	random100_oct
+CENATAC	Alzheimer's disease	random100_oct
+CENATAC	congenital heart disease	random100_oct
+CENATAC	type 2 diabetes	random100_oct
+CHRNA9	Autism Spectrum Disorder	random100_oct
+CHRNA9	epilepsy	random100_oct
+CHRNA9	schizophrenia	random100_oct
+CHRNA9	bipolar disorder	random100_oct
+CHRNA9	Alzheimer's disease	random100_oct
+CHRNA9	congenital heart disease	random100_oct
+CHRNA9	type 2 diabetes	random100_oct
+CNTF	Autism Spectrum Disorder	random100_oct
+CNTF	epilepsy	random100_oct
+CNTF	schizophrenia	random100_oct
+CNTF	bipolar disorder	random100_oct
+CNTF	Alzheimer's disease	random100_oct
+CNTF	congenital heart disease	random100_oct
+CNTF	type 2 diabetes	random100_oct
+CORO1A	Autism Spectrum Disorder	random100_oct
+CORO1A	epilepsy	random100_oct
+CORO1A	schizophrenia	random100_oct
+CORO1A	bipolar disorder	random100_oct
+CORO1A	Alzheimer's disease	random100_oct
+CORO1A	congenital heart disease	random100_oct
+CORO1A	type 2 diabetes	random100_oct
+DAD1	Autism Spectrum Disorder	random100_oct
+DAD1	epilepsy	random100_oct
+DAD1	schizophrenia	random100_oct
+DAD1	bipolar disorder	random100_oct
+DAD1	Alzheimer's disease	random100_oct
+DAD1	congenital heart disease	random100_oct
+DAD1	type 2 diabetes	random100_oct
+DDX55	Autism Spectrum Disorder	random100_oct
+DDX55	epilepsy	random100_oct
+DDX55	schizophrenia	random100_oct
+DDX55	bipolar disorder	random100_oct
+DDX55	Alzheimer's disease	random100_oct
+DDX55	congenital heart disease	random100_oct
+DDX55	type 2 diabetes	random100_oct
+DNAI1	Autism Spectrum Disorder	random100_oct
+DNAI1	epilepsy	random100_oct
+DNAI1	schizophrenia	random100_oct
+DNAI1	bipolar disorder	random100_oct
+DNAI1	Alzheimer's disease	random100_oct
+DNAI1	congenital heart disease	random100_oct
+DNAI1	type 2 diabetes	random100_oct
+DNAJC5	Autism Spectrum Disorder	random100_oct
+DNAJC5	epilepsy	random100_oct
+DNAJC5	schizophrenia	random100_oct
+DNAJC5	bipolar disorder	random100_oct
+DNAJC5	Alzheimer's disease	random100_oct
+DNAJC5	congenital heart disease	random100_oct
+DNAJC5	type 2 diabetes	random100_oct
+EPN3	Autism Spectrum Disorder	random100_oct
+EPN3	epilepsy	random100_oct
+EPN3	schizophrenia	random100_oct
+EPN3	bipolar disorder	random100_oct
+EPN3	Alzheimer's disease	random100_oct
+EPN3	congenital heart disease	random100_oct
+EPN3	type 2 diabetes	random100_oct
+ERN2	Autism Spectrum Disorder	random100_oct
+ERN2	epilepsy	random100_oct
+ERN2	schizophrenia	random100_oct
+ERN2	bipolar disorder	random100_oct
+ERN2	Alzheimer's disease	random100_oct
+ERN2	congenital heart disease	random100_oct
+ERN2	type 2 diabetes	random100_oct
+ESR2	Autism Spectrum Disorder	random100_oct
+ESR2	epilepsy	random100_oct
+ESR2	schizophrenia	random100_oct
+ESR2	bipolar disorder	random100_oct
+ESR2	Alzheimer's disease	random100_oct
+ESR2	congenital heart disease	random100_oct
+ESR2	type 2 diabetes	random100_oct
+EXTL3	Autism Spectrum Disorder	random100_oct
+EXTL3	epilepsy	random100_oct
+EXTL3	schizophrenia	random100_oct
+EXTL3	bipolar disorder	random100_oct
+EXTL3	Alzheimer's disease	random100_oct
+EXTL3	congenital heart disease	random100_oct
+EXTL3	type 2 diabetes	random100_oct
+FMNL1	Autism Spectrum Disorder	random100_oct
+FMNL1	epilepsy	random100_oct
+FMNL1	schizophrenia	random100_oct
+FMNL1	bipolar disorder	random100_oct
+FMNL1	Alzheimer's disease	random100_oct
+FMNL1	congenital heart disease	random100_oct
+FMNL1	type 2 diabetes	random100_oct
+GEMIN5	Autism Spectrum Disorder	random100_oct
+GEMIN5	epilepsy	random100_oct
+GEMIN5	schizophrenia	random100_oct
+GEMIN5	bipolar disorder	random100_oct
+GEMIN5	Alzheimer's disease	random100_oct
+GEMIN5	congenital heart disease	random100_oct
+GEMIN5	type 2 diabetes	random100_oct
+GFM2	Autism Spectrum Disorder	random100_oct
+GFM2	epilepsy	random100_oct
+GFM2	schizophrenia	random100_oct
+GFM2	bipolar disorder	random100_oct
+GFM2	Alzheimer's disease	random100_oct
+GFM2	congenital heart disease	random100_oct
+GFM2	type 2 diabetes	random100_oct
+GLOD4	Autism Spectrum Disorder	random100_oct
+GLOD4	epilepsy	random100_oct
+GLOD4	schizophrenia	random100_oct
+GLOD4	bipolar disorder	random100_oct
+GLOD4	Alzheimer's disease	random100_oct
+GLOD4	congenital heart disease	random100_oct
+GLOD4	type 2 diabetes	random100_oct
+GOLGA8G	Autism Spectrum Disorder	random100_oct
+GOLGA8G	epilepsy	random100_oct
+GOLGA8G	schizophrenia	random100_oct
+GOLGA8G	bipolar disorder	random100_oct
+GOLGA8G	Alzheimer's disease	random100_oct
+GOLGA8G	congenital heart disease	random100_oct
+GOLGA8G	type 2 diabetes	random100_oct
+GPRIN1	Autism Spectrum Disorder	random100_oct
+GPRIN1	epilepsy	random100_oct
+GPRIN1	schizophrenia	random100_oct
+GPRIN1	bipolar disorder	random100_oct
+GPRIN1	Alzheimer's disease	random100_oct
+GPRIN1	congenital heart disease	random100_oct
+GPRIN1	type 2 diabetes	random100_oct
+GRK3	Autism Spectrum Disorder	random100_oct
+GRK3	epilepsy	random100_oct
+GRK3	schizophrenia	random100_oct
+GRK3	bipolar disorder	random100_oct
+GRK3	Alzheimer's disease	random100_oct
+GRK3	congenital heart disease	random100_oct
+GRK3	type 2 diabetes	random100_oct
+HPSE2	Autism Spectrum Disorder	random100_oct
+HPSE2	epilepsy	random100_oct
+HPSE2	schizophrenia	random100_oct
+HPSE2	bipolar disorder	random100_oct
+HPSE2	Alzheimer's disease	random100_oct
+HPSE2	congenital heart disease	random100_oct
+HPSE2	type 2 diabetes	random100_oct
+HSP90AB1	Autism Spectrum Disorder	random100_oct
+HSP90AB1	epilepsy	random100_oct
+HSP90AB1	schizophrenia	random100_oct
+HSP90AB1	bipolar disorder	random100_oct
+HSP90AB1	Alzheimer's disease	random100_oct
+HSP90AB1	congenital heart disease	random100_oct
+HSP90AB1	type 2 diabetes	random100_oct
+IFI27L1	Autism Spectrum Disorder	random100_oct
+IFI27L1	epilepsy	random100_oct
+IFI27L1	schizophrenia	random100_oct
+IFI27L1	bipolar disorder	random100_oct
+IFI27L1	Alzheimer's disease	random100_oct
+IFI27L1	congenital heart disease	random100_oct
+IFI27L1	type 2 diabetes	random100_oct
+KHK	Autism Spectrum Disorder	random100_oct
+KHK	epilepsy	random100_oct
+KHK	schizophrenia	random100_oct
+KHK	bipolar disorder	random100_oct
+KHK	Alzheimer's disease	random100_oct
+KHK	congenital heart disease	random100_oct
+KHK	type 2 diabetes	random100_oct
+KIFAP3	Autism Spectrum Disorder	random100_oct
+KIFAP3	epilepsy	random100_oct
+KIFAP3	schizophrenia	random100_oct
+KIFAP3	bipolar disorder	random100_oct
+KIFAP3	Alzheimer's disease	random100_oct
+KIFAP3	congenital heart disease	random100_oct
+KIFAP3	type 2 diabetes	random100_oct
+KLF15	Autism Spectrum Disorder	random100_oct
+KLF15	epilepsy	random100_oct
+KLF15	schizophrenia	random100_oct
+KLF15	bipolar disorder	random100_oct
+KLF15	Alzheimer's disease	random100_oct
+KLF15	congenital heart disease	random100_oct
+KLF15	type 2 diabetes	random100_oct
+KLRC4	Autism Spectrum Disorder	random100_oct
+KLRC4	epilepsy	random100_oct
+KLRC4	schizophrenia	random100_oct
+KLRC4	bipolar disorder	random100_oct
+KLRC4	Alzheimer's disease	random100_oct
+KLRC4	congenital heart disease	random100_oct
+KLRC4	type 2 diabetes	random100_oct
+L3MBTL4	Autism Spectrum Disorder	random100_oct
+L3MBTL4	epilepsy	random100_oct
+L3MBTL4	schizophrenia	random100_oct
+L3MBTL4	bipolar disorder	random100_oct
+L3MBTL4	Alzheimer's disease	random100_oct
+L3MBTL4	congenital heart disease	random100_oct
+L3MBTL4	type 2 diabetes	random100_oct
+LAMB3	Autism Spectrum Disorder	random100_oct
+LAMB3	epilepsy	random100_oct
+LAMB3	schizophrenia	random100_oct
+LAMB3	bipolar disorder	random100_oct
+LAMB3	Alzheimer's disease	random100_oct
+LAMB3	congenital heart disease	random100_oct
+LAMB3	type 2 diabetes	random100_oct
+LCOR	Autism Spectrum Disorder	random100_oct
+LCOR	epilepsy	random100_oct
+LCOR	schizophrenia	random100_oct
+LCOR	bipolar disorder	random100_oct
+LCOR	Alzheimer's disease	random100_oct
+LCOR	congenital heart disease	random100_oct
+LCOR	type 2 diabetes	random100_oct
+LGALS3BP	Autism Spectrum Disorder	random100_oct
+LGALS3BP	epilepsy	random100_oct
+LGALS3BP	schizophrenia	random100_oct
+LGALS3BP	bipolar disorder	random100_oct
+LGALS3BP	Alzheimer's disease	random100_oct
+LGALS3BP	congenital heart disease	random100_oct
+LGALS3BP	type 2 diabetes	random100_oct
+LRRIQ1	Autism Spectrum Disorder	random100_oct
+LRRIQ1	epilepsy	random100_oct
+LRRIQ1	schizophrenia	random100_oct
+LRRIQ1	bipolar disorder	random100_oct
+LRRIQ1	Alzheimer's disease	random100_oct
+LRRIQ1	congenital heart disease	random100_oct
+LRRIQ1	type 2 diabetes	random100_oct
+MATR3	Autism Spectrum Disorder	random100_oct
+MATR3	epilepsy	random100_oct
+MATR3	schizophrenia	random100_oct
+MATR3	bipolar disorder	random100_oct
+MATR3	Alzheimer's disease	random100_oct
+MATR3	congenital heart disease	random100_oct
+MATR3	type 2 diabetes	random100_oct
+MDFIC	Autism Spectrum Disorder	random100_oct
+MDFIC	epilepsy	random100_oct
+MDFIC	schizophrenia	random100_oct
+MDFIC	bipolar disorder	random100_oct
+MDFIC	Alzheimer's disease	random100_oct
+MDFIC	congenital heart disease	random100_oct
+MDFIC	type 2 diabetes	random100_oct
+METTL21C	Autism Spectrum Disorder	random100_oct
+METTL21C	epilepsy	random100_oct
+METTL21C	schizophrenia	random100_oct
+METTL21C	bipolar disorder	random100_oct
+METTL21C	Alzheimer's disease	random100_oct
+METTL21C	congenital heart disease	random100_oct
+METTL21C	type 2 diabetes	random100_oct
+MTAP	Autism Spectrum Disorder	random100_oct
+MTAP	epilepsy	random100_oct
+MTAP	schizophrenia	random100_oct
+MTAP	bipolar disorder	random100_oct
+MTAP	Alzheimer's disease	random100_oct
+MTAP	congenital heart disease	random100_oct
+MTAP	type 2 diabetes	random100_oct
+MYOM1	Autism Spectrum Disorder	random100_oct
+MYOM1	epilepsy	random100_oct
+MYOM1	schizophrenia	random100_oct
+MYOM1	bipolar disorder	random100_oct
+MYOM1	Alzheimer's disease	random100_oct
+MYOM1	congenital heart disease	random100_oct
+MYOM1	type 2 diabetes	random100_oct
+NDUFAF8	Autism Spectrum Disorder	random100_oct
+NDUFAF8	epilepsy	random100_oct
+NDUFAF8	schizophrenia	random100_oct
+NDUFAF8	bipolar disorder	random100_oct
+NDUFAF8	Alzheimer's disease	random100_oct
+NDUFAF8	congenital heart disease	random100_oct
+NDUFAF8	type 2 diabetes	random100_oct
+NPAP1	Autism Spectrum Disorder	random100_oct
+NPAP1	epilepsy	random100_oct
+NPAP1	schizophrenia	random100_oct
+NPAP1	bipolar disorder	random100_oct
+NPAP1	Alzheimer's disease	random100_oct
+NPAP1	congenital heart disease	random100_oct
+NPAP1	type 2 diabetes	random100_oct
+OR10C1	Autism Spectrum Disorder	random100_oct
+OR10C1	epilepsy	random100_oct
+OR10C1	schizophrenia	random100_oct
+OR10C1	bipolar disorder	random100_oct
+OR10C1	Alzheimer's disease	random100_oct
+OR10C1	congenital heart disease	random100_oct
+OR10C1	type 2 diabetes	random100_oct
+OR10P1	Autism Spectrum Disorder	random100_oct
+OR10P1	epilepsy	random100_oct
+OR10P1	schizophrenia	random100_oct
+OR10P1	bipolar disorder	random100_oct
+OR10P1	Alzheimer's disease	random100_oct
+OR10P1	congenital heart disease	random100_oct
+OR10P1	type 2 diabetes	random100_oct
+OR4X1	Autism Spectrum Disorder	random100_oct
+OR4X1	epilepsy	random100_oct
+OR4X1	schizophrenia	random100_oct
+OR4X1	bipolar disorder	random100_oct
+OR4X1	Alzheimer's disease	random100_oct
+OR4X1	congenital heart disease	random100_oct
+OR4X1	type 2 diabetes	random100_oct
+OR52A5	Autism Spectrum Disorder	random100_oct
+OR52A5	epilepsy	random100_oct
+OR52A5	schizophrenia	random100_oct
+OR52A5	bipolar disorder	random100_oct
+OR52A5	Alzheimer's disease	random100_oct
+OR52A5	congenital heart disease	random100_oct
+OR52A5	type 2 diabetes	random100_oct
+OTOR	Autism Spectrum Disorder	random100_oct
+OTOR	epilepsy	random100_oct
+OTOR	schizophrenia	random100_oct
+OTOR	bipolar disorder	random100_oct
+OTOR	Alzheimer's disease	random100_oct
+OTOR	congenital heart disease	random100_oct
+OTOR	type 2 diabetes	random100_oct
+PACS2	Autism Spectrum Disorder	random100_oct
+PACS2	epilepsy	random100_oct
+PACS2	schizophrenia	random100_oct
+PACS2	bipolar disorder	random100_oct
+PACS2	Alzheimer's disease	random100_oct
+PACS2	congenital heart disease	random100_oct
+PACS2	type 2 diabetes	random100_oct
+PARVA	Autism Spectrum Disorder	random100_oct
+PARVA	epilepsy	random100_oct
+PARVA	schizophrenia	random100_oct
+PARVA	bipolar disorder	random100_oct
+PARVA	Alzheimer's disease	random100_oct
+PARVA	congenital heart disease	random100_oct
+PARVA	type 2 diabetes	random100_oct
+PIGR	Autism Spectrum Disorder	random100_oct
+PIGR	epilepsy	random100_oct
+PIGR	schizophrenia	random100_oct
+PIGR	bipolar disorder	random100_oct
+PIGR	Alzheimer's disease	random100_oct
+PIGR	congenital heart disease	random100_oct
+PIGR	type 2 diabetes	random100_oct
+PLA2G2C	Autism Spectrum Disorder	random100_oct
+PLA2G2C	epilepsy	random100_oct
+PLA2G2C	schizophrenia	random100_oct
+PLA2G2C	bipolar disorder	random100_oct
+PLA2G2C	Alzheimer's disease	random100_oct
+PLA2G2C	congenital heart disease	random100_oct
+PLA2G2C	type 2 diabetes	random100_oct
+PNPLA1	Autism Spectrum Disorder	random100_oct
+PNPLA1	epilepsy	random100_oct
+PNPLA1	schizophrenia	random100_oct
+PNPLA1	bipolar disorder	random100_oct
+PNPLA1	Alzheimer's disease	random100_oct
+PNPLA1	congenital heart disease	random100_oct
+PNPLA1	type 2 diabetes	random100_oct
+POLR2I	Autism Spectrum Disorder	random100_oct
+POLR2I	epilepsy	random100_oct
+POLR2I	schizophrenia	random100_oct
+POLR2I	bipolar disorder	random100_oct
+POLR2I	Alzheimer's disease	random100_oct
+POLR2I	congenital heart disease	random100_oct
+POLR2I	type 2 diabetes	random100_oct
+POLR3GL	Autism Spectrum Disorder	random100_oct
+POLR3GL	epilepsy	random100_oct
+POLR3GL	schizophrenia	random100_oct
+POLR3GL	bipolar disorder	random100_oct
+POLR3GL	Alzheimer's disease	random100_oct
+POLR3GL	congenital heart disease	random100_oct
+POLR3GL	type 2 diabetes	random100_oct
+PPAN	Autism Spectrum Disorder	random100_oct
+PPAN	epilepsy	random100_oct
+PPAN	schizophrenia	random100_oct
+PPAN	bipolar disorder	random100_oct
+PPAN	Alzheimer's disease	random100_oct
+PPAN	congenital heart disease	random100_oct
+PPAN	type 2 diabetes	random100_oct
+PPP1R3B	Autism Spectrum Disorder	random100_oct
+PPP1R3B	epilepsy	random100_oct
+PPP1R3B	schizophrenia	random100_oct
+PPP1R3B	bipolar disorder	random100_oct
+PPP1R3B	Alzheimer's disease	random100_oct
+PPP1R3B	congenital heart disease	random100_oct
+PPP1R3B	type 2 diabetes	random100_oct
+PRAM1	Autism Spectrum Disorder	random100_oct
+PRAM1	epilepsy	random100_oct
+PRAM1	schizophrenia	random100_oct
+PRAM1	bipolar disorder	random100_oct
+PRAM1	Alzheimer's disease	random100_oct
+PRAM1	congenital heart disease	random100_oct
+PRAM1	type 2 diabetes	random100_oct
+PRKDC	Autism Spectrum Disorder	random100_oct
+PRKDC	epilepsy	random100_oct
+PRKDC	schizophrenia	random100_oct
+PRKDC	bipolar disorder	random100_oct
+PRKDC	Alzheimer's disease	random100_oct
+PRKDC	congenital heart disease	random100_oct
+PRKDC	type 2 diabetes	random100_oct
+PRSS23	Autism Spectrum Disorder	random100_oct
+PRSS23	epilepsy	random100_oct
+PRSS23	schizophrenia	random100_oct
+PRSS23	bipolar disorder	random100_oct
+PRSS23	Alzheimer's disease	random100_oct
+PRSS23	congenital heart disease	random100_oct
+PRSS23	type 2 diabetes	random100_oct
+PSMB7	Autism Spectrum Disorder	random100_oct
+PSMB7	epilepsy	random100_oct
+PSMB7	schizophrenia	random100_oct
+PSMB7	bipolar disorder	random100_oct
+PSMB7	Alzheimer's disease	random100_oct
+PSMB7	congenital heart disease	random100_oct
+PSMB7	type 2 diabetes	random100_oct
+PSMC3	Autism Spectrum Disorder	random100_oct
+PSMC3	epilepsy	random100_oct
+PSMC3	schizophrenia	random100_oct
+PSMC3	bipolar disorder	random100_oct
+PSMC3	Alzheimer's disease	random100_oct
+PSMC3	congenital heart disease	random100_oct
+PSMC3	type 2 diabetes	random100_oct
+PSPN	Autism Spectrum Disorder	random100_oct
+PSPN	epilepsy	random100_oct
+PSPN	schizophrenia	random100_oct
+PSPN	bipolar disorder	random100_oct
+PSPN	Alzheimer's disease	random100_oct
+PSPN	congenital heart disease	random100_oct
+PSPN	type 2 diabetes	random100_oct
+PTPRN2	Autism Spectrum Disorder	random100_oct
+PTPRN2	epilepsy	random100_oct
+PTPRN2	schizophrenia	random100_oct
+PTPRN2	bipolar disorder	random100_oct
+PTPRN2	Alzheimer's disease	random100_oct
+PTPRN2	congenital heart disease	random100_oct
+PTPRN2	type 2 diabetes	random100_oct
+RAB5IF	Autism Spectrum Disorder	random100_oct
+RAB5IF	epilepsy	random100_oct
+RAB5IF	schizophrenia	random100_oct
+RAB5IF	bipolar disorder	random100_oct
+RAB5IF	Alzheimer's disease	random100_oct
+RAB5IF	congenital heart disease	random100_oct
+RAB5IF	type 2 diabetes	random100_oct
+RAD54L	Autism Spectrum Disorder	random100_oct
+RAD54L	epilepsy	random100_oct
+RAD54L	schizophrenia	random100_oct
+RAD54L	bipolar disorder	random100_oct
+RAD54L	Alzheimer's disease	random100_oct
+RAD54L	congenital heart disease	random100_oct
+RAD54L	type 2 diabetes	random100_oct
+REPIN1	Autism Spectrum Disorder	random100_oct
+REPIN1	epilepsy	random100_oct
+REPIN1	schizophrenia	random100_oct
+REPIN1	bipolar disorder	random100_oct
+REPIN1	Alzheimer's disease	random100_oct
+REPIN1	congenital heart disease	random100_oct
+REPIN1	type 2 diabetes	random100_oct
+RGP1	Autism Spectrum Disorder	random100_oct
+RGP1	epilepsy	random100_oct
+RGP1	schizophrenia	random100_oct
+RGP1	bipolar disorder	random100_oct
+RGP1	Alzheimer's disease	random100_oct
+RGP1	congenital heart disease	random100_oct
+RGP1	type 2 diabetes	random100_oct
+RIN2	Autism Spectrum Disorder	random100_oct
+RIN2	epilepsy	random100_oct
+RIN2	schizophrenia	random100_oct
+RIN2	bipolar disorder	random100_oct
+RIN2	Alzheimer's disease	random100_oct
+RIN2	congenital heart disease	random100_oct
+RIN2	type 2 diabetes	random100_oct
+RMND5A	Autism Spectrum Disorder	random100_oct
+RMND5A	epilepsy	random100_oct
+RMND5A	schizophrenia	random100_oct
+RMND5A	bipolar disorder	random100_oct
+RMND5A	Alzheimer's disease	random100_oct
+RMND5A	congenital heart disease	random100_oct
+RMND5A	type 2 diabetes	random100_oct
+RNF150	Autism Spectrum Disorder	random100_oct
+RNF150	epilepsy	random100_oct
+RNF150	schizophrenia	random100_oct
+RNF150	bipolar disorder	random100_oct
+RNF150	Alzheimer's disease	random100_oct
+RNF150	congenital heart disease	random100_oct
+RNF150	type 2 diabetes	random100_oct
+ROBO2	Autism Spectrum Disorder	random100_oct
+ROBO2	epilepsy	random100_oct
+ROBO2	schizophrenia	random100_oct
+ROBO2	bipolar disorder	random100_oct
+ROBO2	Alzheimer's disease	random100_oct
+ROBO2	congenital heart disease	random100_oct
+ROBO2	type 2 diabetes	random100_oct
+SEC24B	Autism Spectrum Disorder	random100_oct
+SEC24B	epilepsy	random100_oct
+SEC24B	schizophrenia	random100_oct
+SEC24B	bipolar disorder	random100_oct
+SEC24B	Alzheimer's disease	random100_oct
+SEC24B	congenital heart disease	random100_oct
+SEC24B	type 2 diabetes	random100_oct
+SHQ1	Autism Spectrum Disorder	random100_oct
+SHQ1	epilepsy	random100_oct
+SHQ1	schizophrenia	random100_oct
+SHQ1	bipolar disorder	random100_oct
+SHQ1	Alzheimer's disease	random100_oct
+SHQ1	congenital heart disease	random100_oct
+SHQ1	type 2 diabetes	random100_oct
+SLC22A2	Autism Spectrum Disorder	random100_oct
+SLC22A2	epilepsy	random100_oct
+SLC22A2	schizophrenia	random100_oct
+SLC22A2	bipolar disorder	random100_oct
+SLC22A2	Alzheimer's disease	random100_oct
+SLC22A2	congenital heart disease	random100_oct
+SLC22A2	type 2 diabetes	random100_oct
+SLC26A11	Autism Spectrum Disorder	random100_oct
+SLC26A11	epilepsy	random100_oct
+SLC26A11	schizophrenia	random100_oct
+SLC26A11	bipolar disorder	random100_oct
+SLC26A11	Alzheimer's disease	random100_oct
+SLC26A11	congenital heart disease	random100_oct
+SLC26A11	type 2 diabetes	random100_oct
+SLC2A11	Autism Spectrum Disorder	random100_oct
+SLC2A11	epilepsy	random100_oct
+SLC2A11	schizophrenia	random100_oct
+SLC2A11	bipolar disorder	random100_oct
+SLC2A11	Alzheimer's disease	random100_oct
+SLC2A11	congenital heart disease	random100_oct
+SLC2A11	type 2 diabetes	random100_oct
+SLC7A13	Autism Spectrum Disorder	random100_oct
+SLC7A13	epilepsy	random100_oct
+SLC7A13	schizophrenia	random100_oct
+SLC7A13	bipolar disorder	random100_oct
+SLC7A13	Alzheimer's disease	random100_oct
+SLC7A13	congenital heart disease	random100_oct
+SLC7A13	type 2 diabetes	random100_oct
+SMYD1	Autism Spectrum Disorder	random100_oct
+SMYD1	epilepsy	random100_oct
+SMYD1	schizophrenia	random100_oct
+SMYD1	bipolar disorder	random100_oct
+SMYD1	Alzheimer's disease	random100_oct
+SMYD1	congenital heart disease	random100_oct
+SMYD1	type 2 diabetes	random100_oct
+SPDYE2	Autism Spectrum Disorder	random100_oct
+SPDYE2	epilepsy	random100_oct
+SPDYE2	schizophrenia	random100_oct
+SPDYE2	bipolar disorder	random100_oct
+SPDYE2	Alzheimer's disease	random100_oct
+SPDYE2	congenital heart disease	random100_oct
+SPDYE2	type 2 diabetes	random100_oct
+STK31	Autism Spectrum Disorder	random100_oct
+STK31	epilepsy	random100_oct
+STK31	schizophrenia	random100_oct
+STK31	bipolar disorder	random100_oct
+STK31	Alzheimer's disease	random100_oct
+STK31	congenital heart disease	random100_oct
+STK31	type 2 diabetes	random100_oct
+STX1A	Autism Spectrum Disorder	random100_oct
+STX1A	epilepsy	random100_oct
+STX1A	schizophrenia	random100_oct
+STX1A	bipolar disorder	random100_oct
+STX1A	Alzheimer's disease	random100_oct
+STX1A	congenital heart disease	random100_oct
+STX1A	type 2 diabetes	random100_oct
+TACC1	Autism Spectrum Disorder	random100_oct
+TACC1	epilepsy	random100_oct
+TACC1	schizophrenia	random100_oct
+TACC1	bipolar disorder	random100_oct
+TACC1	Alzheimer's disease	random100_oct
+TACC1	congenital heart disease	random100_oct
+TACC1	type 2 diabetes	random100_oct
+TAS2R41	Autism Spectrum Disorder	random100_oct
+TAS2R41	epilepsy	random100_oct
+TAS2R41	schizophrenia	random100_oct
+TAS2R41	bipolar disorder	random100_oct
+TAS2R41	Alzheimer's disease	random100_oct
+TAS2R41	congenital heart disease	random100_oct
+TAS2R41	type 2 diabetes	random100_oct
+TMEM135	Autism Spectrum Disorder	random100_oct
+TMEM135	epilepsy	random100_oct
+TMEM135	schizophrenia	random100_oct
+TMEM135	bipolar disorder	random100_oct
+TMEM135	Alzheimer's disease	random100_oct
+TMEM135	congenital heart disease	random100_oct
+TMEM135	type 2 diabetes	random100_oct
+TMPRSS6	Autism Spectrum Disorder	random100_oct
+TMPRSS6	epilepsy	random100_oct
+TMPRSS6	schizophrenia	random100_oct
+TMPRSS6	bipolar disorder	random100_oct
+TMPRSS6	Alzheimer's disease	random100_oct
+TMPRSS6	congenital heart disease	random100_oct
+TMPRSS6	type 2 diabetes	random100_oct
+TNC	Autism Spectrum Disorder	random100_oct
+TNC	epilepsy	random100_oct
+TNC	schizophrenia	random100_oct
+TNC	bipolar disorder	random100_oct
+TNC	Alzheimer's disease	random100_oct
+TNC	congenital heart disease	random100_oct
+TNC	type 2 diabetes	random100_oct
+TSPYL5	Autism Spectrum Disorder	random100_oct
+TSPYL5	epilepsy	random100_oct
+TSPYL5	schizophrenia	random100_oct
+TSPYL5	bipolar disorder	random100_oct
+TSPYL5	Alzheimer's disease	random100_oct
+TSPYL5	congenital heart disease	random100_oct
+TSPYL5	type 2 diabetes	random100_oct
+UBP1	Autism Spectrum Disorder	random100_oct
+UBP1	epilepsy	random100_oct
+UBP1	schizophrenia	random100_oct
+UBP1	bipolar disorder	random100_oct
+UBP1	Alzheimer's disease	random100_oct
+UBP1	congenital heart disease	random100_oct
+UBP1	type 2 diabetes	random100_oct
+USP36	Autism Spectrum Disorder	random100_oct
+USP36	epilepsy	random100_oct
+USP36	schizophrenia	random100_oct
+USP36	bipolar disorder	random100_oct
+USP36	Alzheimer's disease	random100_oct
+USP36	congenital heart disease	random100_oct
+USP36	type 2 diabetes	random100_oct
+UTRN	Autism Spectrum Disorder	random100_oct
+UTRN	epilepsy	random100_oct
+UTRN	schizophrenia	random100_oct
+UTRN	bipolar disorder	random100_oct
+UTRN	Alzheimer's disease	random100_oct
+UTRN	congenital heart disease	random100_oct
+UTRN	type 2 diabetes	random100_oct
+YME1L1	Autism Spectrum Disorder	random100_oct
+YME1L1	epilepsy	random100_oct
+YME1L1	schizophrenia	random100_oct
+YME1L1	bipolar disorder	random100_oct
+YME1L1	Alzheimer's disease	random100_oct
+YME1L1	congenital heart disease	random100_oct
+YME1L1	type 2 diabetes	random100_oct
+ZC3H8	Autism Spectrum Disorder	random100_oct
+ZC3H8	epilepsy	random100_oct
+ZC3H8	schizophrenia	random100_oct
+ZC3H8	bipolar disorder	random100_oct
+ZC3H8	Alzheimer's disease	random100_oct
+ZC3H8	congenital heart disease	random100_oct
+ZC3H8	type 2 diabetes	random100_oct
+ZKSCAN5	Autism Spectrum Disorder	random100_oct
+ZKSCAN5	epilepsy	random100_oct
+ZKSCAN5	schizophrenia	random100_oct
+ZKSCAN5	bipolar disorder	random100_oct
+ZKSCAN5	Alzheimer's disease	random100_oct
+ZKSCAN5	congenital heart disease	random100_oct
+ZKSCAN5	type 2 diabetes	random100_oct
+ZNF551	Autism Spectrum Disorder	random100_oct
+ZNF551	epilepsy	random100_oct
+ZNF551	schizophrenia	random100_oct
+ZNF551	bipolar disorder	random100_oct
+ZNF551	Alzheimer's disease	random100_oct
+ZNF551	congenital heart disease	random100_oct
+ZNF551	type 2 diabetes	random100_oct

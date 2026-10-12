@@ -1,0 +1,15 @@
+{
+ "written": "2026-10-11",
+ "purpose": "100 more random genes for the Fig. 3 panel, drawn by the rule of the 200 already in it (scripts/234_draw_random100.py, seed 20261011, excluding the 570-gene panel), to bring the panel near half disease-list and half random genes.",
+ "arm": "current, with --abstracts-first-section",
+ "fingerprint": "fee4cd168b3b",
+ "fingerprint_without_date": "ff136250f372, that of the Fig. 1 and Fig. 3 runs",
+ "max_date": "2026/09/01, with --no-date-note",
+ "open_targets": "not run (--max-date)",
+ "command": "pestop --bench benchmark/fig3_add_random100/pairs.tsv --arm current --abstracts-first-section --max-date 2026/09/01 --no-date-note --workers 60 --data-dir benchmark/fig3_add_random100/runs --out benchmark/fig3_add_random100/pesto.tsv",
+ "where": "GCE VM pesto-random100 (n2-standard-64, us-east1-b, guez-sandbox-aedc), deleted after the run; anthropic 0.103.1",
+ "git_head": "688f7025",
+ "pairs": 700,
+ "errors": 0,
+ "cost_usd": 60.5
+}
