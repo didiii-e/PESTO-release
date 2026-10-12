@@ -1,0 +1,18 @@
+
+== epilepsy: 166 genes, 118 Hypothesized
+  median articles at start: Novel 32, Hypothesized 53 (Mann-Whitney P = 0.00022)
+  unadjusted:               OR 6.27 (95% CI 2.60-15.10), one-sided P = 2.1e-05
+  adjusted for articles:    OR 5.31 (95% CI 2.16-13.05), one-sided P = 0.00013
+  CMH over article tertiles: OR 5.37, one-sided P = 4.4e-05
+
+== autism: 189 genes, 47 Hypothesized
+  median articles at start: Novel 27, Hypothesized 74 (Mann-Whitney P = 3.6e-07)
+  unadjusted:               OR 6.32 (95% CI 3.07-13.00), one-sided P = 2.8e-07
+  adjusted for articles:    OR 4.60 (95% CI 2.12-9.95), one-sided P = 5.4e-05
+  CMH over article tertiles: OR 4.68, one-sided P = 1.8e-05
+
+== pooled: 355 genes, 165 Hypothesized
+  median articles at start: Novel 28, Hypothesized 56 (Mann-Whitney P = 2.8e-12)
+  unadjusted:               OR 6.30 (95% CI 3.60-11.00), one-sided P = 5.1e-11
+  adjusted for articles:    OR 4.96 (95% CI 2.77-8.86), one-sided P = 3.3e-08
+  CMH over article tertiles: OR 5.00, one-sided P = 6.5e-09

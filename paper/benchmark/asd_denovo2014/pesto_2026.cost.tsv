@@ -1,0 +1,1000 @@
+gene	phenotype	step	model	calls	input_tokens	output_tokens	usd	cached
+ACOX2	Autism Spectrum Disorder	Synonyms	opus5	1	349	295	0.009120	False
+ACOX2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+ACOX2	Autism Spectrum Disorder	Bands	haiku	4	20905	854	0.025175	False
+ACOX2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	14306	719	0.089505	False
+ACOX2	Autism Spectrum Disorder	total		7	35962	1952	0.124622	False
+ADAMTS10	Autism Spectrum Disorder	Synonyms	opus5	1	349	335	0.010120	False
+ADAMTS10	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+ADAMTS10	Autism Spectrum Disorder	Bands	haiku	6	28098	1270	0.034448	False
+ADAMTS10	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13869	619	0.084820	False
+ADAMTS10	Autism Spectrum Disorder	total		9	42718	2308	0.130210	False
+ADCY9	Autism Spectrum Disorder	Synonyms	opus5	1	349	321	0.009770	False
+ADCY9	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+ADCY9	Autism Spectrum Disorder	Bands	haiku	6	30533	1270	0.036883	False
+ADCY9	Autism Spectrum Disorder	ProbabilityRead	opus5	1	7741	795	0.058580	False
+ADCY9	Autism Spectrum Disorder	total		9	39025	2470	0.106055	False
+ADGRB1	Autism Spectrum Disorder	Synonyms	opus5	1	349	311	0.009520	False
+ADGRB1	Autism Spectrum Disorder	Broadened	haiku	1	402	89	0.000847	False
+ADGRB1	Autism Spectrum Disorder	Bands	haiku	4	17975	788	0.021915	False
+ADGRB1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	10600	800	0.073000	False
+ADGRB1	Autism Spectrum Disorder	total		7	29326	1988	0.105282	False
+ADNP	Autism Spectrum Disorder	Synonyms	opus5	1	349	335	0.010120	False
+ADNP	Autism Spectrum Disorder	Broadened	haiku	1	402	19	0.000497	False
+ADNP	Autism Spectrum Disorder	Bands	haiku	10	47739	2168	0.058579	False
+ADNP	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13895	787	0.089150	False
+ADNP	Autism Spectrum Disorder	total		13	62385	3309	0.158346	False
+ANK2	Autism Spectrum Disorder	Synonyms	opus5	1	349	303	0.009320	False
+ANK2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+ANK2	Autism Spectrum Disorder	Bands	haiku	8	36312	1774	0.045182	False
+ANK2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13436	1069	0.093905	False
+ANK2	Autism Spectrum Disorder	total		11	50499	3230	0.149229	False
+ANKFN1	Autism Spectrum Disorder	Synonyms	opus5	1	349	312	0.009545	False
+ANKFN1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+ANKFN1	Autism Spectrum Disorder	Bands	haiku	2	6618	284	0.008038	False
+ANKFN1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	2244	675	0.028095	False
+ANKFN1	Autism Spectrum Disorder	total		5	9613	1355	0.046500	False
+ANKRD11	Autism Spectrum Disorder	Synonyms	opus5	1	349	351	0.010520	False
+ANKRD11	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+ANKRD11	Autism Spectrum Disorder	Bands	haiku	8	37011	1796	0.045991	False
+ANKRD11	Autism Spectrum Disorder	ProbabilityRead	opus5	1	14720	1319	0.106575	False
+ANKRD11	Autism Spectrum Disorder	total		11	52482	3550	0.163908	False
+ARID5B	Autism Spectrum Disorder	Synonyms	opus5	1	349	319	0.009720	False
+ARID5B	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+ARID5B	Autism Spectrum Disorder	Bands	haiku	6	29119	1270	0.035469	False
+ARID5B	Autism Spectrum Disorder	ProbabilityRead	opus5	1	3919	591	0.034370	False
+ARID5B	Autism Spectrum Disorder	total		9	33789	2264	0.080381	False
+ARMC2	Autism Spectrum Disorder	Synonyms	opus5	1	349	322	0.009795	False
+ARMC2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+ARMC2	Autism Spectrum Disorder	Bands	haiku	2	7991	328	0.009631	False
+ARMC2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	8624	552	0.056920	False
+ARMC2	Autism Spectrum Disorder	total		5	17366	1286	0.077168	False
+ASB17	Autism Spectrum Disorder	Synonyms	opus5	1	349	299	0.009220	False
+ASB17	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+ASB17	Autism Spectrum Disorder	Bands	haiku	1	937	181	0.001842	False
+ASB17	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1221	218	0.011555	False
+ASB17	Autism Spectrum Disorder	total		4	2909	782	0.023439	False
+AXL	Autism Spectrum Disorder	Synonyms	opus5	1	349	320	0.009745	False
+AXL	Autism Spectrum Disorder	Broadened	haiku	1	402	89	0.000847	False
+AXL	Autism Spectrum Disorder	Bands	haiku	7	30427	1456	0.037707	False
+AXL	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12006	722	0.078080	False
+AXL	Autism Spectrum Disorder	total		10	43184	2587	0.126379	False
+B4GALNT1	Autism Spectrum Disorder	Synonyms	opus5	1	349	370	0.010995	False
+B4GALNT1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+B4GALNT1	Autism Spectrum Disorder	Bands	haiku	5	23769	1040	0.028969	False
+B4GALNT1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12424	777	0.081545	False
+B4GALNT1	Autism Spectrum Disorder	total		8	36944	2271	0.122331	False
+BCL11A	Autism Spectrum Disorder	Synonyms	opus5	1	349	349	0.010470	False
+BCL11A	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+BCL11A	Autism Spectrum Disorder	Bands	haiku	8	35823	1730	0.044473	False
+BCL11A	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12301	1092	0.088805	False
+BCL11A	Autism Spectrum Disorder	total		11	48875	3255	0.144570	False
+BIRC6	Autism Spectrum Disorder	Synonyms	opus5	1	349	206	0.006895	False
+BIRC6	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+BIRC6	Autism Spectrum Disorder	Bands	haiku	7	56963	1531	0.064618	False
+BIRC6	Autism Spectrum Disorder	ProbabilityRead	opus5	1	30542	825	0.173335	False
+BIRC6	Autism Spectrum Disorder	total		10	88256	2646	0.245670	False
+BRCA1	Autism Spectrum Disorder	Synonyms	opus5	1	349	379	0.011220	False
+BRCA1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+BRCA1	Autism Spectrum Disorder	Bands	haiku	7	28726	1478	0.036116	False
+BRCA1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12154	922	0.083820	False
+BRCA1	Autism Spectrum Disorder	total		10	41631	2863	0.131978	False
+BRSK2	Autism Spectrum Disorder	Synonyms	opus5	1	349	196	0.006645	False
+BRSK2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+BRSK2	Autism Spectrum Disorder	Bands	haiku	4	21282	898	0.025772	False
+BRSK2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13715	788	0.088275	False
+BRSK2	Autism Spectrum Disorder	total		7	35748	1966	0.121514	False
+BTRC	Autism Spectrum Disorder	Synonyms	opus5	1	349	326	0.009895	False
+BTRC	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+BTRC	Autism Spectrum Disorder	Bands	haiku	6	30909	1336	0.037589	False
+BTRC	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13968	807	0.090015	False
+BTRC	Autism Spectrum Disorder	total		9	45628	2554	0.138326	False
+CAMK2A	Autism Spectrum Disorder	Synonyms	opus5	1	349	310	0.009495	False
+CAMK2A	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+CAMK2A	Autism Spectrum Disorder	Bands	haiku	8	41388	1730	0.050038	False
+CAMK2A	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13291	1169	0.095680	False
+CAMK2A	Autism Spectrum Disorder	total		11	55430	3293	0.156035	False
+CAPN8	Autism Spectrum Disorder	Synonyms	opus5	1	349	209	0.006970	False
+CAPN8	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+CAPN8	Autism Spectrum Disorder	Bands	haiku	3	11803	492	0.014263	False
+CAPN8	Autism Spectrum Disorder	ProbabilityRead	opus5	1	3179	402	0.025945	False
+CAPN8	Autism Spectrum Disorder	total		6	15733	1187	0.048000	False
+CASP8AP2	Autism Spectrum Disorder	Synonyms	opus5	1	349	299	0.009220	False
+CASP8AP2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+CASP8AP2	Autism Spectrum Disorder	Bands	haiku	9	41653	1982	0.051563	False
+CASP8AP2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13000	644	0.081100	False
+CASP8AP2	Autism Spectrum Disorder	total		12	55404	3009	0.142705	False
+CCDC171	Autism Spectrum Disorder	Synonyms	opus5	1	349	321	0.009770	False
+CCDC171	Autism Spectrum Disorder	Broadened	haiku	1	402	88	0.000842	False
+CCDC171	Autism Spectrum Disorder	Bands	haiku	1	3843	164	0.004663	False
+CCDC171	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1227	255	0.012510	False
+CCDC171	Autism Spectrum Disorder	total		4	5821	828	0.027785	False
+CCPG1	Autism Spectrum Disorder	Synonyms	opus5	1	349	204	0.006845	False
+CCPG1	Autism Spectrum Disorder	Broadened	haiku	1	402	89	0.000847	False
+CCPG1	Autism Spectrum Disorder	Bands	haiku	2	13511	416	0.015591	False
+CCPG1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	16015	932	0.103375	False
+CCPG1	Autism Spectrum Disorder	total		5	30277	1641	0.126658	False
+CD163L1	Autism Spectrum Disorder	Synonyms	opus5	1	349	204	0.006845	False
+CD163L1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+CD163L1	Autism Spectrum Disorder	Bands	haiku	7	35976	1527	0.043611	False
+CD163L1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	10423	738	0.070565	False
+CD163L1	Autism Spectrum Disorder	total		10	47150	2553	0.121843	False
+CHD8	Autism Spectrum Disorder	Synonyms	opus5	1	349	204	0.006845	False
+CHD8	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+CHD8	Autism Spectrum Disorder	Bands	haiku	10	40428	2102	0.050938	False
+CHD8	Autism Spectrum Disorder	ProbabilityRead	opus5	1	11112	883	0.077635	False
+CHD8	Autism Spectrum Disorder	total		13	52291	3273	0.136240	False
+CMPK2	Autism Spectrum Disorder	Synonyms	opus5	1	349	310	0.009495	False
+CMPK2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+CMPK2	Autism Spectrum Disorder	Bands	haiku	8	38639	1691	0.047094	False
+CMPK2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13117	690	0.082835	False
+CMPK2	Autism Spectrum Disorder	total		11	52507	2775	0.140246	False
+CNGB3	Autism Spectrum Disorder	Synonyms	opus5	1	349	334	0.010095	False
+CNGB3	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+CNGB3	Autism Spectrum Disorder	Bands	haiku	7	36040	1588	0.043980	False
+CNGB3	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12808	495	0.076415	False
+CNGB3	Autism Spectrum Disorder	total		10	49599	2501	0.131312	False
+COL25A1	Autism Spectrum Disorder	Synonyms	opus5	1	349	309	0.009470	False
+COL25A1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+COL25A1	Autism Spectrum Disorder	Bands	haiku	4	13735	874	0.018105	False
+COL25A1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	10879	1225	0.085020	False
+COL25A1	Autism Spectrum Disorder	total		7	25365	2492	0.113417	False
+CRYBG3	Autism Spectrum Disorder	Synonyms	opus5	1	349	204	0.006845	False
+CRYBG3	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+CRYBG3	Autism Spectrum Disorder	Bands	haiku	1	3683	164	0.004503	False
+CRYBG3	Autism Spectrum Disorder	ProbabilityRead	opus5	1	4884	575	0.038795	False
+CRYBG3	Autism Spectrum Disorder	total		4	9318	1027	0.050965	False
+CSMD2	Autism Spectrum Disorder	Synonyms	opus5	1	349	310	0.009495	False
+CSMD2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+CSMD2	Autism Spectrum Disorder	Bands	haiku	3	13423	541	0.016128	False
+CSMD2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	7566	971	0.062105	False
+CSMD2	Autism Spectrum Disorder	total		6	21740	1906	0.088550	False
+CSTF2T	Autism Spectrum Disorder	Synonyms	opus5	1	349	343	0.010320	False
+CSTF2T	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+CSTF2T	Autism Spectrum Disorder	Bands	haiku	3	11826	514	0.014396	False
+CSTF2T	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12337	908	0.084385	False
+CSTF2T	Autism Spectrum Disorder	total		6	24914	1849	0.109923	False
+CUBN	Autism Spectrum Disorder	Synonyms	opus5	1	349	284	0.008845	False
+CUBN	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+CUBN	Autism Spectrum Disorder	Bands	haiku	6	29895	1292	0.036355	False
+CUBN	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12802	852	0.085310	False
+CUBN	Autism Spectrum Disorder	total		9	43448	2512	0.131332	False
+CUL3	Autism Spectrum Disorder	Synonyms	opus5	1	349	295	0.009120	False
+CUL3	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+CUL3	Autism Spectrum Disorder	Bands	haiku	9	39769	1894	0.049239	False
+CUL3	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12332	935	0.085035	False
+CUL3	Autism Spectrum Disorder	total		12	52852	3209	0.144221	False
+DBX2	Autism Spectrum Disorder	Synonyms	opus5	1	349	318	0.009695	False
+DBX2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+DBX2	Autism Spectrum Disorder	Bands	haiku	2	6239	284	0.007659	False
+DBX2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	5551	862	0.049305	False
+DBX2	Autism Spectrum Disorder	total		5	12541	1548	0.067481	False
+DDX60	Autism Spectrum Disorder	Synonyms	opus5	1	349	358	0.010695	False
+DDX60	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+DDX60	Autism Spectrum Disorder	Bands	haiku	2	9736	394	0.011706	False
+DDX60	Autism Spectrum Disorder	ProbabilityRead	opus5	1	9499	688	0.064695	False
+DDX60	Autism Spectrum Disorder	total		5	19986	1524	0.087918	False
+DENND5A	Autism Spectrum Disorder	Synonyms	opus5	1	349	317	0.009670	False
+DENND5A	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+DENND5A	Autism Spectrum Disorder	Bands	haiku	1	3370	142	0.004080	False
+DENND5A	Autism Spectrum Disorder	ProbabilityRead	opus5	1	4518	886	0.044740	False
+DENND5A	Autism Spectrum Disorder	total		4	8639	1429	0.059312	False
+DESI2	Autism Spectrum Disorder	Synonyms	opus5	1	349	333	0.010070	False
+DESI2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+DESI2	Autism Spectrum Disorder	Bands	haiku	1	4761	208	0.005801	False
+DESI2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1221	235	0.011980	False
+DESI2	Autism Spectrum Disorder	total		4	6733	860	0.028673	False
+DHX29	Autism Spectrum Disorder	Synonyms	opus5	1	349	324	0.009845	False
+DHX29	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+DHX29	Autism Spectrum Disorder	Bands	haiku	1	4063	164	0.004883	False
+DHX29	Autism Spectrum Disorder	ProbabilityRead	opus5	1	5432	705	0.044785	False
+DHX29	Autism Spectrum Disorder	total		4	10246	1278	0.060340	False
+DNMT3A	Autism Spectrum Disorder	Synonyms	opus5	1	349	220	0.007245	False
+DNMT3A	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+DNMT3A	Autism Spectrum Disorder	Bands	haiku	9	39544	1938	0.049234	False
+DNMT3A	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12932	862	0.086210	False
+DNMT3A	Autism Spectrum Disorder	total		12	53227	3104	0.143511	False
+DOCK8	Autism Spectrum Disorder	Synonyms	opus5	1	349	195	0.006620	False
+DOCK8	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+DOCK8	Autism Spectrum Disorder	Bands	haiku	6	27969	1363	0.034784	False
+DOCK8	Autism Spectrum Disorder	ProbabilityRead	opus5	1	14574	884	0.094970	False
+DOCK8	Autism Spectrum Disorder	total		9	43294	2527	0.137201	False
+DPP3	Autism Spectrum Disorder	Synonyms	opus5	1	349	306	0.009395	False
+DPP3	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+DPP3	Autism Spectrum Disorder	Bands	haiku	2	11724	438	0.013914	False
+DPP3	Autism Spectrum Disorder	ProbabilityRead	opus5	1	8748	505	0.056365	False
+DPP3	Autism Spectrum Disorder	total		5	21223	1333	0.080496	False
+DPP4	Autism Spectrum Disorder	Synonyms	opus5	1	349	341	0.010270	False
+DPP4	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+DPP4	Autism Spectrum Disorder	Bands	haiku	8	36885	1708	0.045425	False
+DPP4	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12951	934	0.088105	False
+DPP4	Autism Spectrum Disorder	total		11	50587	3067	0.144622	False
+DSG3	Autism Spectrum Disorder	Synonyms	opus5	1	349	195	0.006620	False
+DSG3	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+DSG3	Autism Spectrum Disorder	Bands	haiku	8	39674	1774	0.048544	False
+DSG3	Autism Spectrum Disorder	ProbabilityRead	opus5	1	11233	447	0.067340	False
+DSG3	Autism Spectrum Disorder	total		11	51658	2500	0.123326	False
+DYNLT2	Autism Spectrum Disorder	Synonyms	opus5	1	349	325	0.009870	False
+DYNLT2	Autism Spectrum Disorder	Broadened	haiku	1	402	89	0.000847	False
+DYNLT2	Autism Spectrum Disorder	Bands	haiku	2	5671	262	0.006981	False
+DYNLT2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	2941	753	0.033530	False
+DYNLT2	Autism Spectrum Disorder	total		5	9363	1429	0.051228	False
+EMSY	Autism Spectrum Disorder	Synonyms	opus5	1	349	342	0.010295	False
+EMSY	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+EMSY	Autism Spectrum Disorder	Bands	haiku	6	29587	1319	0.036182	False
+EMSY	Autism Spectrum Disorder	ProbabilityRead	opus5	1	5464	433	0.038145	False
+EMSY	Autism Spectrum Disorder	total		9	35802	2179	0.085449	False
+ENTR1	Autism Spectrum Disorder	Synonyms	opus5	1	349	335	0.010120	False
+ENTR1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+ENTR1	Autism Spectrum Disorder	Bands	haiku	2	7120	262	0.008430	False
+ENTR1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	3846	556	0.033130	False
+ENTR1	Autism Spectrum Disorder	total		5	11717	1237	0.052502	False
+EP400	Autism Spectrum Disorder	Synonyms	opus5	1	349	192	0.006545	False
+EP400	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+EP400	Autism Spectrum Disorder	Bands	haiku	8	36561	1708	0.045101	False
+EP400	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13770	999	0.093825	False
+EP400	Autism Spectrum Disorder	total		11	51082	2983	0.146293	False
+EPHB2	Autism Spectrum Disorder	Synonyms	opus5	1	349	306	0.009395	False
+EPHB2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+EPHB2	Autism Spectrum Disorder	Bands	haiku	13	63181	2792	0.077141	False
+EPHB2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13250	912	0.089050	False
+EPHB2	Autism Spectrum Disorder	total		16	77182	4094	0.176408	False
+ERBIN	Autism Spectrum Disorder	Synonyms	opus5	1	349	219	0.007220	False
+ERBIN	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+ERBIN	Autism Spectrum Disorder	Bands	haiku	6	27862	1336	0.034542	False
+ERBIN	Autism Spectrum Disorder	ProbabilityRead	opus5	1	14881	858	0.095855	False
+ERBIN	Autism Spectrum Disorder	total		9	43494	2498	0.138444	False
+ETFB	Autism Spectrum Disorder	Synonyms	opus5	1	349	343	0.010320	False
+ETFB	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+ETFB	Autism Spectrum Disorder	Bands	haiku	6	31777	1380	0.038677	False
+ETFB	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13232	543	0.079735	False
+ETFB	Autism Spectrum Disorder	total		9	45760	2350	0.129554	False
+FAM168B	Autism Spectrum Disorder	Synonyms	opus5	1	349	350	0.010495	False
+FAM168B	Autism Spectrum Disorder	Broadened	haiku	1	402	88	0.000842	False
+FAM168B	Autism Spectrum Disorder	Bands	haiku	2	8658	394	0.010628	False
+FAM168B	Autism Spectrum Disorder	ProbabilityRead	opus5	1	3039	789	0.034920	False
+FAM168B	Autism Spectrum Disorder	total		5	12448	1621	0.056885	False
+FAM169A	Autism Spectrum Disorder	Synonyms	opus5	1	349	207	0.006920	False
+FAM169A	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+FAM169A	Autism Spectrum Disorder	Bands	haiku	6	27145	1385	0.034070	False
+FAM169A	Autism Spectrum Disorder	ProbabilityRead	opus5	1	2445	362	0.021275	False
+FAM169A	Autism Spectrum Disorder	total		9	30341	2038	0.063087	False
+FARP1	Autism Spectrum Disorder	Synonyms	opus5	1	349	334	0.010095	False
+FARP1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+FARP1	Autism Spectrum Disorder	Bands	haiku	2	8768	394	0.010738	False
+FARP1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	5426	1003	0.052205	False
+FARP1	Autism Spectrum Disorder	total		5	14945	1815	0.073860	False
+FRYL	Autism Spectrum Disorder	Synonyms	opus5	1	349	303	0.009320	False
+FRYL	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+FRYL	Autism Spectrum Disorder	Bands	haiku	3	11883	536	0.014563	False
+FRYL	Autism Spectrum Disorder	ProbabilityRead	opus5	1	3656	892	0.040580	False
+FRYL	Autism Spectrum Disorder	total		6	16290	1815	0.065285	False
+GABRB3	Autism Spectrum Disorder	Synonyms	opus5	1	349	300	0.009245	False
+GABRB3	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+GABRB3	Autism Spectrum Disorder	Bands	haiku	11	56720	2513	0.069285	False
+GABRB3	Autism Spectrum Disorder	ProbabilityRead	opus5	1	15243	999	0.101190	False
+GABRB3	Autism Spectrum Disorder	total		14	72714	3896	0.180542	False
+GALNT18	Autism Spectrum Disorder	Synonyms	opus5	1	349	303	0.009320	False
+GALNT18	Autism Spectrum Disorder	Broadened	haiku	1	402	19	0.000497	False
+GALNT18	Autism Spectrum Disorder	Bands	haiku	2	10676	416	0.012756	False
+GALNT18	Autism Spectrum Disorder	ProbabilityRead	opus5	1	3300	437	0.027425	False
+GALNT18	Autism Spectrum Disorder	total		5	14727	1175	0.049998	False
+GIMAP8	Autism Spectrum Disorder	Synonyms	opus5	1	349	328	0.009945	False
+GIMAP8	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+GIMAP8	Autism Spectrum Disorder	Bands	haiku	1	5423	208	0.006463	False
+GIMAP8	Autism Spectrum Disorder	ProbabilityRead	opus5	1	5475	446	0.038525	False
+GIMAP8	Autism Spectrum Disorder	total		4	11649	1066	0.055755	False
+GRIA2	Autism Spectrum Disorder	Synonyms	opus5	1	349	300	0.009245	False
+GRIA2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+GRIA2	Autism Spectrum Disorder	Bands	haiku	9	47025	2070	0.057375	False
+GRIA2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	10983	1022	0.080465	False
+GRIA2	Autism Spectrum Disorder	total		12	58759	3476	0.147907	False
+GSDMC	Autism Spectrum Disorder	Synonyms	opus5	1	349	351	0.010520	False
+GSDMC	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+GSDMC	Autism Spectrum Disorder	Bands	haiku	4	18857	810	0.022907	False
+GSDMC	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12774	567	0.078045	False
+GSDMC	Autism Spectrum Disorder	total		7	32382	1812	0.112294	False
+HECTD1	Autism Spectrum Disorder	Synonyms	opus5	1	349	312	0.009545	False
+HECTD1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+HECTD1	Autism Spectrum Disorder	Bands	haiku	3	15024	602	0.018034	False
+HECTD1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	14816	824	0.094680	False
+HECTD1	Autism Spectrum Disorder	total		6	30591	1822	0.123081	False
+HECTD4	Autism Spectrum Disorder	Synonyms	opus5	1	349	362	0.010795	False
+HECTD4	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+HECTD4	Autism Spectrum Disorder	Bands	haiku	4	17028	727	0.020663	False
+HECTD4	Autism Spectrum Disorder	ProbabilityRead	opus5	1	2739	743	0.032270	False
+HECTD4	Autism Spectrum Disorder	total		7	20518	1916	0.064550	False
+HGF	Autism Spectrum Disorder	Synonyms	opus5	1	349	298	0.009195	False
+HGF	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+HGF	Autism Spectrum Disorder	Bands	haiku	9	41264	2026	0.051394	False
+HGF	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13482	1051	0.093685	False
+HGF	Autism Spectrum Disorder	total		12	55497	3459	0.155096	False
+HSPA13	Autism Spectrum Disorder	Synonyms	opus5	1	349	328	0.009945	False
+HSPA13	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+HSPA13	Autism Spectrum Disorder	Bands	haiku	2	9260	416	0.011340	False
+HSPA13	Autism Spectrum Disorder	ProbabilityRead	opus5	1	6526	763	0.051705	False
+HSPA13	Autism Spectrum Disorder	total		5	16537	1591	0.073812	False
+IFI44L	Autism Spectrum Disorder	Synonyms	opus5	1	349	349	0.010470	False
+IFI44L	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+IFI44L	Autism Spectrum Disorder	Bands	haiku	5	26291	1128	0.031931	False
+IFI44L	Autism Spectrum Disorder	ProbabilityRead	opus5	1	14765	725	0.091950	False
+IFI44L	Autism Spectrum Disorder	total		8	41807	2286	0.135173	False
+IFNA10	Autism Spectrum Disorder	Synonyms	opus5	1	349	355	0.010620	False
+IFNA10	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+IFNA10	Autism Spectrum Disorder	Bands	haiku	2	9163	394	0.011133	False
+IFNA10	Autism Spectrum Disorder	ProbabilityRead	opus5	1	8227	596	0.056035	False
+IFNA10	Autism Spectrum Disorder	total		5	18141	1429	0.078610	False
+IGSF3	Autism Spectrum Disorder	Synonyms	opus5	1	349	326	0.009895	False
+IGSF3	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+IGSF3	Autism Spectrum Disorder	Bands	haiku	7	39515	1588	0.047455	False
+IGSF3	Autism Spectrum Disorder	ProbabilityRead	opus5	1	5072	636	0.041260	False
+IGSF3	Autism Spectrum Disorder	total		10	45338	2634	0.099432	False
+IL17RA	Autism Spectrum Disorder	Synonyms	opus5	1	349	311	0.009520	False
+IL17RA	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+IL17RA	Autism Spectrum Disorder	Bands	haiku	7	32769	1478	0.040159	False
+IL17RA	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13533	931	0.090940	False
+IL17RA	Autism Spectrum Disorder	total		10	47053	2804	0.141441	False
+IL27	Autism Spectrum Disorder	Synonyms	opus5	1	349	319	0.009720	False
+IL27	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+IL27	Autism Spectrum Disorder	Bands	haiku	7	36317	1544	0.044037	False
+IL27	Autism Spectrum Disorder	ProbabilityRead	opus5	1	14213	1066	0.097715	False
+IL27	Autism Spectrum Disorder	total		10	51281	3013	0.152294	False
+IQGAP2	Autism Spectrum Disorder	Synonyms	opus5	1	349	327	0.009920	False
+IQGAP2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+IQGAP2	Autism Spectrum Disorder	Bands	haiku	4	21454	876	0.025834	False
+IQGAP2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13309	734	0.084895	False
+IQGAP2	Autism Spectrum Disorder	total		7	35514	2021	0.121471	False
+JADE2	Autism Spectrum Disorder	Synonyms	opus5	1	349	328	0.009945	False
+JADE2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+JADE2	Autism Spectrum Disorder	Bands	haiku	2	7462	328	0.009102	False
+JADE2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	3785	684	0.036025	False
+JADE2	Autism Spectrum Disorder	total		5	11998	1424	0.055894	False
+JUP	Autism Spectrum Disorder	Synonyms	opus5	1	349	340	0.010245	False
+JUP	Autism Spectrum Disorder	Broadened	haiku	1	402	19	0.000497	False
+JUP	Autism Spectrum Disorder	Bands	haiku	9	47992	2048	0.058232	False
+JUP	Autism Spectrum Disorder	ProbabilityRead	opus5	1	14413	628	0.087765	False
+JUP	Autism Spectrum Disorder	total		12	63156	3035	0.156739	False
+KDM1B	Autism Spectrum Disorder	Synonyms	opus5	1	349	324	0.009845	False
+KDM1B	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+KDM1B	Autism Spectrum Disorder	Bands	haiku	2	9224	416	0.011304	False
+KDM1B	Autism Spectrum Disorder	ProbabilityRead	opus5	1	6079	654	0.046745	False
+KDM1B	Autism Spectrum Disorder	total		5	16054	1478	0.068716	False
+KDM6B	Autism Spectrum Disorder	Synonyms	opus5	1	349	204	0.006845	False
+KDM6B	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+KDM6B	Autism Spectrum Disorder	Bands	haiku	7	34726	1522	0.042336	False
+KDM6B	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12428	1586	0.101790	False
+KDM6B	Autism Spectrum Disorder	total		10	47905	3396	0.151793	False
+KIF21A	Autism Spectrum Disorder	Synonyms	opus5	1	349	323	0.009820	False
+KIF21A	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+KIF21A	Autism Spectrum Disorder	Bands	haiku	6	24891	1248	0.031131	False
+KIF21A	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13048	987	0.089915	False
+KIF21A	Autism Spectrum Disorder	total		9	38690	2642	0.131688	False
+KLC1	Autism Spectrum Disorder	Synonyms	opus5	1	349	312	0.009545	False
+KLC1	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+KLC1	Autism Spectrum Disorder	Bands	haiku	7	31647	1434	0.038817	False
+KLC1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	14325	1072	0.098425	False
+KLC1	Autism Spectrum Disorder	total		10	46723	2903	0.147614	False
+KMT2A	Autism Spectrum Disorder	Synonyms	opus5	1	349	328	0.009945	False
+KMT2A	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+KMT2A	Autism Spectrum Disorder	Bands	haiku	9	39117	2019	0.049212	False
+KMT2A	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13903	1154	0.098365	False
+KMT2A	Autism Spectrum Disorder	total		12	53771	3585	0.158344	False
+KMT2C	Autism Spectrum Disorder	Synonyms	opus5	1	349	296	0.009145	False
+KMT2C	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+KMT2C	Autism Spectrum Disorder	Bands	haiku	8	36994	1708	0.045534	False
+KMT2C	Autism Spectrum Disorder	ProbabilityRead	opus5	1	14270	1192	0.101150	False
+KMT2C	Autism Spectrum Disorder	total		11	52015	3280	0.156651	False
+KMT5B	Autism Spectrum Disorder	Synonyms	opus5	1	349	348	0.010445	False
+KMT5B	Autism Spectrum Disorder	Broadened	haiku	1	402	88	0.000842	False
+KMT5B	Autism Spectrum Disorder	Bands	haiku	5	21778	1084	0.027198	False
+KMT5B	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12022	925	0.083235	False
+KMT5B	Autism Spectrum Disorder	total		8	34551	2445	0.121720	False
+L1CAM	Autism Spectrum Disorder	Synonyms	opus5	1	349	297	0.009170	False
+L1CAM	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+L1CAM	Autism Spectrum Disorder	Bands	haiku	8	34667	1708	0.043207	False
+L1CAM	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12319	1250	0.092845	False
+L1CAM	Autism Spectrum Disorder	total		11	47737	3339	0.146044	False
+LARP4B	Autism Spectrum Disorder	Synonyms	opus5	1	349	319	0.009720	False
+LARP4B	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+LARP4B	Autism Spectrum Disorder	Bands	haiku	2	9113	416	0.011193	False
+LARP4B	Autism Spectrum Disorder	ProbabilityRead	opus5	1	5357	1037	0.052710	False
+LARP4B	Autism Spectrum Disorder	total		5	15221	1856	0.074445	False
+LDB1	Autism Spectrum Disorder	Synonyms	opus5	1	349	308	0.009445	False
+LDB1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+LDB1	Autism Spectrum Disorder	Bands	haiku	6	28866	1314	0.035436	False
+LDB1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13053	1151	0.094040	False
+LDB1	Autism Spectrum Disorder	total		9	42670	2857	0.139743	False
+LEO1	Autism Spectrum Disorder	Synonyms	opus5	1	349	312	0.009545	False
+LEO1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+LEO1	Autism Spectrum Disorder	Bands	haiku	3	13785	668	0.017125	False
+LEO1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12686	1077	0.090355	False
+LEO1	Autism Spectrum Disorder	total		6	27222	2141	0.117847	False
+LMTK3	Autism Spectrum Disorder	Synonyms	opus5	1	349	314	0.009595	False
+LMTK3	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+LMTK3	Autism Spectrum Disorder	Bands	haiku	3	12753	514	0.015323	False
+LMTK3	Autism Spectrum Disorder	ProbabilityRead	opus5	1	9979	750	0.068645	False
+LMTK3	Autism Spectrum Disorder	total		6	23483	1662	0.094385	False
+LRFN2	Autism Spectrum Disorder	Synonyms	opus5	1	349	347	0.010420	False
+LRFN2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+LRFN2	Autism Spectrum Disorder	Bands	haiku	3	12399	514	0.014969	False
+LRFN2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	9077	783	0.064960	False
+LRFN2	Autism Spectrum Disorder	total		6	22227	1728	0.091171	False
+LRP6	Autism Spectrum Disorder	Synonyms	opus5	1	349	196	0.006645	False
+LRP6	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+LRP6	Autism Spectrum Disorder	Bands	haiku	7	30452	1434	0.037622	False
+LRP6	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12314	700	0.079070	False
+LRP6	Autism Spectrum Disorder	total		10	43517	2414	0.124159	False
+LRRFIP1	Autism Spectrum Disorder	Synonyms	opus5	1	349	300	0.009245	False
+LRRFIP1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+LRRFIP1	Autism Spectrum Disorder	Bands	haiku	8	39703	1756	0.048483	False
+LRRFIP1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13099	1047	0.091670	False
+LRRFIP1	Autism Spectrum Disorder	total		11	53553	3187	0.150220	False
+LRRTM2	Autism Spectrum Disorder	Synonyms	opus5	1	349	206	0.006895	False
+LRRTM2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+LRRTM2	Autism Spectrum Disorder	Bands	haiku	3	13101	558	0.015891	False
+LRRTM2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	14124	804	0.090720	False
+LRRTM2	Autism Spectrum Disorder	total		6	27976	1652	0.114328	False
+LYPD4	Autism Spectrum Disorder	Synonyms	opus5	1	349	204	0.006845	False
+LYPD4	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+LYPD4	Autism Spectrum Disorder	Bands	haiku	1	2358	98	0.002848	False
+LYPD4	Autism Spectrum Disorder	ProbabilityRead	opus5	1	3743	602	0.033765	False
+LYPD4	Autism Spectrum Disorder	total		4	6852	989	0.044285	False
+MAP3K14	Autism Spectrum Disorder	Synonyms	opus5	1	349	220	0.007245	False
+MAP3K14	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+MAP3K14	Autism Spectrum Disorder	Bands	haiku	9	43363	2004	0.053383	False
+MAP3K14	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13183	956	0.089815	False
+MAP3K14	Autism Spectrum Disorder	total		12	57297	3265	0.151270	False
+MDN1	Autism Spectrum Disorder	Synonyms	opus5	1	349	219	0.007220	False
+MDN1	Autism Spectrum Disorder	Broadened	haiku	1	402	89	0.000847	False
+MDN1	Autism Spectrum Disorder	Bands	haiku	3	14845	690	0.018295	False
+MDN1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	9387	923	0.070010	False
+MDN1	Autism Spectrum Disorder	total		6	24983	1921	0.096372	False
+MED13	Autism Spectrum Disorder	Synonyms	opus5	1	349	300	0.009245	False
+MED13	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+MED13	Autism Spectrum Disorder	Bands	haiku	6	28847	1358	0.035637	False
+MED13	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12349	1106	0.089395	False
+MED13	Autism Spectrum Disorder	total		9	41947	2848	0.135099	False
+MEGF6	Autism Spectrum Disorder	Synonyms	opus5	1	349	204	0.006845	False
+MEGF6	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+MEGF6	Autism Spectrum Disorder	Bands	haiku	2	7101	421	0.009206	False
+MEGF6	Autism Spectrum Disorder	ProbabilityRead	opus5	1	2904	290	0.021770	False
+MEGF6	Autism Spectrum Disorder	total		5	10756	999	0.038643	False
+MORC3	Autism Spectrum Disorder	Synonyms	opus5	1	349	333	0.010070	False
+MORC3	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+MORC3	Autism Spectrum Disorder	Bands	haiku	4	19503	854	0.023773	False
+MORC3	Autism Spectrum Disorder	ProbabilityRead	opus5	1	9247	710	0.063985	False
+MORC3	Autism Spectrum Disorder	total		7	29501	1982	0.098655	False
+MTMR12	Autism Spectrum Disorder	Synonyms	opus5	1	349	301	0.009270	False
+MTMR12	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+MTMR12	Autism Spectrum Disorder	Bands	haiku	2	7129	306	0.008659	False
+MTMR12	Autism Spectrum Disorder	ProbabilityRead	opus5	1	4056	860	0.041780	False
+MTMR12	Autism Spectrum Disorder	total		5	11936	1551	0.060531	False
+MTUS1	Autism Spectrum Disorder	Synonyms	opus5	1	349	193	0.006570	False
+MTUS1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+MTUS1	Autism Spectrum Disorder	Bands	haiku	7	29586	1434	0.036756	False
+MTUS1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13610	717	0.085975	False
+MTUS1	Autism Spectrum Disorder	total		10	43947	2428	0.130123	False
+MUC21	Autism Spectrum Disorder	Synonyms	opus5	1	349	300	0.009245	False
+MUC21	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+MUC21	Autism Spectrum Disorder	Bands	haiku	3	13830	580	0.016730	False
+MUC21	Autism Spectrum Disorder	ProbabilityRead	opus5	1	7669	607	0.053520	False
+MUC21	Autism Spectrum Disorder	total		6	22250	1571	0.080317	False
+MYH10	Autism Spectrum Disorder	Synonyms	opus5	1	349	326	0.009895	False
+MYH10	Autism Spectrum Disorder	Broadened	haiku	1	402	89	0.000847	False
+MYH10	Autism Spectrum Disorder	Bands	haiku	6	29662	1270	0.036012	False
+MYH10	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13355	1045	0.092900	False
+MYH10	Autism Spectrum Disorder	total		9	43768	2730	0.139654	False
+MYH2	Autism Spectrum Disorder	Synonyms	opus5	1	349	298	0.009195	False
+MYH2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+MYH2	Autism Spectrum Disorder	Bands	haiku	7	33084	1456	0.040364	False
+MYH2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12628	744	0.081740	False
+MYH2	Autism Spectrum Disorder	total		10	46463	2582	0.132121	False
+MYO1E	Autism Spectrum Disorder	Synonyms	opus5	1	349	306	0.009395	False
+MYO1E	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+MYO1E	Autism Spectrum Disorder	Bands	haiku	6	28897	1270	0.035247	False
+MYO1E	Autism Spectrum Disorder	ProbabilityRead	opus5	1	11498	880	0.079490	False
+MYO1E	Autism Spectrum Disorder	total		9	41146	2540	0.124954	False
+MYOC	Autism Spectrum Disorder	Synonyms	opus5	1	349	349	0.010470	False
+MYOC	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+MYOC	Autism Spectrum Disorder	Bands	haiku	8	39408	1774	0.048278	False
+MYOC	Autism Spectrum Disorder	ProbabilityRead	opus5	1	8988	560	0.058940	False
+MYOC	Autism Spectrum Disorder	total		11	49147	2767	0.118510	False
+NACC1	Autism Spectrum Disorder	Synonyms	opus5	1	349	313	0.009570	False
+NACC1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+NACC1	Autism Spectrum Disorder	Bands	haiku	6	26353	1182	0.032263	False
+NACC1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	11315	1367	0.090750	False
+NACC1	Autism Spectrum Disorder	total		9	38419	2946	0.133405	False
+NAPRT	Autism Spectrum Disorder	Synonyms	opus5	1	349	334	0.010095	False
+NAPRT	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+NAPRT	Autism Spectrum Disorder	Bands	haiku	4	19313	854	0.023583	False
+NAPRT	Autism Spectrum Disorder	ProbabilityRead	opus5	1	15686	664	0.095030	False
+NAPRT	Autism Spectrum Disorder	total		7	35750	1936	0.129530	False
+NBEA	Autism Spectrum Disorder	Synonyms	opus5	1	349	345	0.010370	False
+NBEA	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+NBEA	Autism Spectrum Disorder	Bands	haiku	7	33494	1588	0.041434	False
+NBEA	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13050	1098	0.092700	False
+NBEA	Autism Spectrum Disorder	total		10	47295	3115	0.145326	False
+NIN	Autism Spectrum Disorder	Synonyms	opus5	1	349	206	0.006895	False
+NIN	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+NIN	Autism Spectrum Disorder	Bands	haiku	6	29227	1357	0.036012	False
+NIN	Autism Spectrum Disorder	ProbabilityRead	opus5	1	9446	1057	0.073655	False
+NIN	Autism Spectrum Disorder	total		9	39424	2705	0.117389	False
+NINL	Autism Spectrum Disorder	Synonyms	opus5	1	349	355	0.010620	False
+NINL	Autism Spectrum Disorder	Broadened	haiku	1	402	89	0.000847	False
+NINL	Autism Spectrum Disorder	Bands	haiku	8	36562	1751	0.045317	False
+NINL	Autism Spectrum Disorder	ProbabilityRead	opus5	1	11564	639	0.073795	False
+NINL	Autism Spectrum Disorder	total		11	48877	2834	0.130579	False
+NOTCH1	Autism Spectrum Disorder	Synonyms	opus5	1	349	359	0.010720	False
+NOTCH1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+NOTCH1	Autism Spectrum Disorder	Bands	haiku	8	35259	1801	0.044264	False
+NOTCH1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	14391	1008	0.097155	False
+NOTCH1	Autism Spectrum Disorder	total		11	50401	3252	0.152961	False
+NR3C2	Autism Spectrum Disorder	Synonyms	opus5	1	349	324	0.009845	False
+NR3C2	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+NR3C2	Autism Spectrum Disorder	Bands	haiku	12	57454	2694	0.070924	False
+NR3C2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12936	972	0.088980	False
+NR3C2	Autism Spectrum Disorder	total		15	71141	4075	0.170576	False
+NRG4	Autism Spectrum Disorder	Synonyms	opus5	1	349	334	0.010095	False
+NRG4	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+NRG4	Autism Spectrum Disorder	Bands	haiku	5	21570	974	0.026440	False
+NRG4	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13871	716	0.087255	False
+NRG4	Autism Spectrum Disorder	total		8	36192	2108	0.124612	False
+NSD2	Autism Spectrum Disorder	Synonyms	opus5	1	349	336	0.010145	False
+NSD2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+NSD2	Autism Spectrum Disorder	Bands	haiku	6	26666	1336	0.033346	False
+NSD2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12391	1171	0.091230	False
+NSD2	Autism Spectrum Disorder	total		9	39808	2927	0.135543	False
+NUDT6	Autism Spectrum Disorder	Synonyms	opus5	1	349	347	0.010420	False
+NUDT6	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+NUDT6	Autism Spectrum Disorder	Bands	haiku	4	20998	920	0.025598	False
+NUDT6	Autism Spectrum Disorder	ProbabilityRead	opus5	1	10207	740	0.069535	False
+NUDT6	Autism Spectrum Disorder	total		7	31956	2091	0.106375	False
+OR10Z1	Autism Spectrum Disorder	Synonyms	opus5	1	349	312	0.009545	False
+OR10Z1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+OR10Z1	Autism Spectrum Disorder	Bands	haiku	1	1824	54	0.002094	False
+OR10Z1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1233	216	0.011565	False
+OR10Z1	Autism Spectrum Disorder	total		4	3808	666	0.024026	False
+OR52M1	Autism Spectrum Disorder	Synonyms	opus5	1	349	195	0.006620	False
+OR52M1	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+OR52M1	Autism Spectrum Disorder	Bands	haiku	1	2060	76	0.002440	False
+OR52M1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	2514	561	0.026595	False
+OR52M1	Autism Spectrum Disorder	total		4	5325	917	0.036482	False
+OSBPL3	Autism Spectrum Disorder	Synonyms	opus5	1	349	336	0.010145	False
+OSBPL3	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+OSBPL3	Autism Spectrum Disorder	Bands	haiku	3	13750	602	0.016760	False
+OSBPL3	Autism Spectrum Disorder	ProbabilityRead	opus5	1	8494	552	0.056270	False
+OSBPL3	Autism Spectrum Disorder	total		6	22995	1574	0.083997	False
+OSBPL8	Autism Spectrum Disorder	Synonyms	opus5	1	349	318	0.009695	False
+OSBPL8	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+OSBPL8	Autism Spectrum Disorder	Bands	haiku	2	11377	416	0.013457	False
+OSBPL8	Autism Spectrum Disorder	ProbabilityRead	opus5	1	10804	599	0.068995	False
+OSBPL8	Autism Spectrum Disorder	total		5	22932	1417	0.092969	False
+OVOL1	Autism Spectrum Disorder	Synonyms	opus5	1	349	313	0.009570	False
+OVOL1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+OVOL1	Autism Spectrum Disorder	Bands	haiku	4	16024	766	0.019854	False
+OVOL1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12585	581	0.077450	False
+OVOL1	Autism Spectrum Disorder	total		7	29360	1744	0.107696	False
+P2RX5-TAX1BP3	Autism Spectrum Disorder	Synonyms	opus5	1	349	328	0.009945	False
+P2RX5-TAX1BP3	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+P2RX5-TAX1BP3	Autism Spectrum Disorder	Bands	haiku	1	1266	32	0.001426	False
+P2RX5-TAX1BP3	Autism Spectrum Disorder	ProbabilityRead	opus5	1	2031	370	0.019405	False
+P2RX5-TAX1BP3	Autism Spectrum Disorder	total		4	4048	814	0.031598	False
+PCDHA13	Autism Spectrum Disorder	Synonyms	opus5	1	349	344	0.010345	False
+PCDHA13	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+PCDHA13	Autism Spectrum Disorder	Bands	haiku	1	3350	142	0.004060	False
+PCDHA13	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1233	353	0.014990	False
+PCDHA13	Autism Spectrum Disorder	total		4	5334	923	0.030217	False
+PCSK2	Autism Spectrum Disorder	Synonyms	opus5	1	349	310	0.009495	False
+PCSK2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+PCSK2	Autism Spectrum Disorder	Bands	haiku	7	33795	1461	0.041100	False
+PCSK2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	14225	835	0.092000	False
+PCSK2	Autism Spectrum Disorder	total		10	48771	2690	0.143417	False
+PFKFB2	Autism Spectrum Disorder	Synonyms	opus5	1	349	345	0.010370	False
+PFKFB2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+PFKFB2	Autism Spectrum Disorder	Bands	haiku	3	14884	558	0.017674	False
+PFKFB2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	15794	477	0.090895	False
+PFKFB2	Autism Spectrum Disorder	total		6	31429	1464	0.119761	False
+PHF3	Autism Spectrum Disorder	Synonyms	opus5	1	349	340	0.010245	False
+PHF3	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+PHF3	Autism Spectrum Disorder	Bands	haiku	2	8545	350	0.010295	False
+PHF3	Autism Spectrum Disorder	ProbabilityRead	opus5	1	3199	575	0.030370	False
+PHF3	Autism Spectrum Disorder	total		5	12495	1349	0.051732	False
+PLA1A	Autism Spectrum Disorder	Synonyms	opus5	1	349	310	0.009495	False
+PLA1A	Autism Spectrum Disorder	Broadened	haiku	1	402	89	0.000847	False
+PLA1A	Autism Spectrum Disorder	Bands	haiku	2	10223	460	0.012523	False
+PLA1A	Autism Spectrum Disorder	ProbabilityRead	opus5	1	8009	751	0.058820	False
+PLA1A	Autism Spectrum Disorder	total		5	18983	1610	0.081685	False
+PLAAT3	Autism Spectrum Disorder	Synonyms	opus5	1	349	329	0.009970	False
+PLAAT3	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+PLAAT3	Autism Spectrum Disorder	Bands	haiku	4	17152	788	0.021092	False
+PLAAT3	Autism Spectrum Disorder	ProbabilityRead	opus5	1	7484	895	0.059795	False
+PLAAT3	Autism Spectrum Disorder	total		7	25387	2096	0.091679	False
+PLCD4	Autism Spectrum Disorder	Synonyms	opus5	1	349	195	0.006620	False
+PLCD4	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+PLCD4	Autism Spectrum Disorder	Bands	haiku	2	7299	306	0.008829	False
+PLCD4	Autism Spectrum Disorder	ProbabilityRead	opus5	1	9078	771	0.064665	False
+PLCD4	Autism Spectrum Disorder	total		5	17128	1357	0.080941	False
+PLXNB1	Autism Spectrum Disorder	Synonyms	opus5	1	349	294	0.009095	False
+PLXNB1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+PLXNB1	Autism Spectrum Disorder	Bands	haiku	9	43922	1872	0.053282	False
+PLXNB1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	14958	964	0.098890	False
+PLXNB1	Autism Spectrum Disorder	total		12	59631	3214	0.162089	False
+PNPLA7	Autism Spectrum Disorder	Synonyms	opus5	1	349	204	0.006845	False
+PNPLA7	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+PNPLA7	Autism Spectrum Disorder	Bands	haiku	2	7639	328	0.009279	False
+PNPLA7	Autism Spectrum Disorder	ProbabilityRead	opus5	1	6699	977	0.057920	False
+PNPLA7	Autism Spectrum Disorder	total		5	15089	1593	0.074866	False
+POLRMT	Autism Spectrum Disorder	Synonyms	opus5	1	349	328	0.009945	False
+POLRMT	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+POLRMT	Autism Spectrum Disorder	Bands	haiku	4	19153	898	0.023643	False
+POLRMT	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13216	811	0.086355	False
+POLRMT	Autism Spectrum Disorder	total		7	33120	2121	0.120765	False
+POM121	Autism Spectrum Disorder	Synonyms	opus5	1	349	318	0.009695	False
+POM121	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+POM121	Autism Spectrum Disorder	Bands	haiku	3	15120	668	0.018460	False
+POM121	Autism Spectrum Disorder	ProbabilityRead	opus5	1	14023	944	0.093715	False
+POM121	Autism Spectrum Disorder	total		6	29894	2015	0.122697	False
+POTEH	Autism Spectrum Disorder	Synonyms	opus5	1	349	347	0.010420	False
+POTEH	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+POTEH	Autism Spectrum Disorder	Bands	haiku	1	1531	54	0.001801	False
+POTEH	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1215	246	0.012225	False
+POTEH	Autism Spectrum Disorder	total		4	3497	731	0.025268	False
+PRKAR1B	Autism Spectrum Disorder	Synonyms	opus5	1	349	219	0.007220	False
+PRKAR1B	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+PRKAR1B	Autism Spectrum Disorder	Bands	haiku	4	18606	832	0.022766	False
+PRKAR1B	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12397	772	0.081285	False
+PRKAR1B	Autism Spectrum Disorder	total		7	31754	1907	0.112093	False
+PTK7	Autism Spectrum Disorder	Synonyms	opus5	1	349	318	0.009695	False
+PTK7	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+PTK7	Autism Spectrum Disorder	Bands	haiku	8	36405	1664	0.044725	False
+PTK7	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13280	1027	0.092075	False
+PTK7	Autism Spectrum Disorder	total		11	50436	3093	0.147317	False
+PTPRR	Autism Spectrum Disorder	Synonyms	opus5	1	349	223	0.007320	False
+PTPRR	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+PTPRR	Autism Spectrum Disorder	Bands	haiku	7	34685	1522	0.042295	False
+PTPRR	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13912	879	0.091535	False
+PTPRR	Autism Spectrum Disorder	total		10	49348	2709	0.141977	False
+PYHIN1	Autism Spectrum Disorder	Synonyms	opus5	1	349	204	0.006845	False
+PYHIN1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+PYHIN1	Autism Spectrum Disorder	Bands	haiku	2	10845	438	0.013035	False
+PYHIN1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	7576	745	0.056505	False
+PYHIN1	Autism Spectrum Disorder	total		5	19172	1471	0.077207	False
+RAD21L1	Autism Spectrum Disorder	Synonyms	opus5	1	349	323	0.009820	False
+RAD21L1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+RAD21L1	Autism Spectrum Disorder	Bands	haiku	2	8710	372	0.010570	False
+RAD21L1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	9366	855	0.068205	False
+RAD21L1	Autism Spectrum Disorder	total		5	18827	1634	0.089417	False
+RANBP17	Autism Spectrum Disorder	Synonyms	opus5	1	349	321	0.009770	False
+RANBP17	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+RANBP17	Autism Spectrum Disorder	Bands	haiku	2	8151	350	0.009901	False
+RANBP17	Autism Spectrum Disorder	ProbabilityRead	opus5	1	2780	584	0.028500	False
+RANBP17	Autism Spectrum Disorder	total		5	11682	1339	0.048993	False
+RANBP2	Autism Spectrum Disorder	Synonyms	opus5	1	349	310	0.009495	False
+RANBP2	Autism Spectrum Disorder	Broadened	haiku	1	402	88	0.000842	False
+RANBP2	Autism Spectrum Disorder	Bands	haiku	6	28642	1358	0.035432	False
+RANBP2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	11597	1090	0.085235	False
+RANBP2	Autism Spectrum Disorder	total		9	40990	2846	0.131004	False
+RAPGEF3	Autism Spectrum Disorder	Synonyms	opus5	1	349	313	0.009570	False
+RAPGEF3	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+RAPGEF3	Autism Spectrum Disorder	Bands	haiku	6	29456	1336	0.036136	False
+RAPGEF3	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13271	1067	0.093030	False
+RAPGEF3	Autism Spectrum Disorder	total		9	43478	2800	0.139558	False
+RAPGEF4	Autism Spectrum Disorder	Synonyms	opus5	1	349	350	0.010495	False
+RAPGEF4	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+RAPGEF4	Autism Spectrum Disorder	Bands	haiku	3	14118	690	0.017568	False
+RAPGEF4	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12189	842	0.081995	False
+RAPGEF4	Autism Spectrum Disorder	total		6	27058	1966	0.110880	False
+REPIN1	Autism Spectrum Disorder	Synonyms	opus5	1	349	195	0.006620	False
+REPIN1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+REPIN1	Autism Spectrum Disorder	Bands	haiku	7	30936	1412	0.037996	False
+REPIN1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	7853	559	0.053240	False
+REPIN1	Autism Spectrum Disorder	total		10	39540	2250	0.098678	False
+REXO1	Autism Spectrum Disorder	Synonyms	opus5	1	349	359	0.010720	False
+REXO1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+REXO1	Autism Spectrum Disorder	Bands	haiku	1	2585	98	0.003075	False
+REXO1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1221	251	0.012380	False
+REXO1	Autism Spectrum Disorder	total		4	4557	792	0.026997	False
+RFX7	Autism Spectrum Disorder	Synonyms	opus5	1	349	328	0.009945	False
+RFX7	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+RFX7	Autism Spectrum Disorder	Bands	haiku	2	7798	328	0.009438	False
+RFX7	Autism Spectrum Disorder	ProbabilityRead	opus5	1	4579	1160	0.051895	False
+RFX7	Autism Spectrum Disorder	total		5	13128	1900	0.072100	False
+RGS2	Autism Spectrum Disorder	Synonyms	opus5	1	349	320	0.009745	False
+RGS2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+RGS2	Autism Spectrum Disorder	Bands	haiku	7	37462	1610	0.045512	False
+RGS2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	14044	868	0.091920	False
+RGS2	Autism Spectrum Disorder	total		10	52257	2882	0.147999	False
+RIMBP2	Autism Spectrum Disorder	Synonyms	opus5	1	349	343	0.010320	False
+RIMBP2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+RIMBP2	Autism Spectrum Disorder	Bands	haiku	4	19676	903	0.024191	False
+RIMBP2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	9583	878	0.069865	False
+RIMBP2	Autism Spectrum Disorder	total		7	30010	2208	0.105198	False
+RIMS1	Autism Spectrum Disorder	Synonyms	opus5	1	349	312	0.009545	False
+RIMS1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+RIMS1	Autism Spectrum Disorder	Bands	haiku	8	37332	1669	0.045677	False
+RIMS1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13672	1074	0.095210	False
+RIMS1	Autism Spectrum Disorder	total		11	51755	3139	0.151254	False
+RIPPLY1	Autism Spectrum Disorder	Synonyms	opus5	1	349	335	0.010120	False
+RIPPLY1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+RIPPLY1	Autism Spectrum Disorder	Bands	haiku	1	4317	186	0.005247	False
+RIPPLY1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	4253	1043	0.047340	False
+RIPPLY1	Autism Spectrum Disorder	total		4	9321	1648	0.063529	False
+RNF146	Autism Spectrum Disorder	Synonyms	opus5	1	349	218	0.007195	False
+RNF146	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+RNF146	Autism Spectrum Disorder	Bands	haiku	3	11964	492	0.014424	False
+RNF146	Autism Spectrum Disorder	ProbabilityRead	opus5	1	9548	533	0.061065	False
+RNF146	Autism Spectrum Disorder	total		6	22263	1327	0.083506	False
+RNF38	Autism Spectrum Disorder	Synonyms	opus5	1	349	391	0.011520	False
+RNF38	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+RNF38	Autism Spectrum Disorder	Bands	haiku	2	6177	262	0.007487	False
+RNF38	Autism Spectrum Disorder	ProbabilityRead	opus5	1	4195	615	0.036350	False
+RNF38	Autism Spectrum Disorder	total		5	11123	1352	0.056179	False
+RP1L1	Autism Spectrum Disorder	Synonyms	opus5	1	349	321	0.009770	False
+RP1L1	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+RP1L1	Autism Spectrum Disorder	Bands	haiku	6	28228	1182	0.034138	False
+RP1L1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1724	458	0.020070	False
+RP1L1	Autism Spectrum Disorder	total		9	30703	2046	0.064805	False
+RPL12	Autism Spectrum Disorder	Synonyms	opus5	1	349	339	0.010220	False
+RPL12	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+RPL12	Autism Spectrum Disorder	Bands	haiku	8	41807	1752	0.050567	False
+RPL12	Autism Spectrum Disorder	ProbabilityRead	opus5	1	11749	802	0.078795	False
+RPL12	Autism Spectrum Disorder	total		11	54307	2977	0.140404	False
+S100G	Autism Spectrum Disorder	Synonyms	opus5	1	349	312	0.009545	False
+S100G	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+S100G	Autism Spectrum Disorder	Bands	haiku	8	37397	1642	0.045607	False
+S100G	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12342	853	0.083035	False
+S100G	Autism Spectrum Disorder	total		11	50490	2891	0.139009	False
+SCARA3	Autism Spectrum Disorder	Synonyms	opus5	1	349	218	0.007195	False
+SCARA3	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+SCARA3	Autism Spectrum Disorder	Bands	haiku	7	29593	1434	0.036763	False
+SCARA3	Autism Spectrum Disorder	ProbabilityRead	opus5	1	5686	584	0.043030	False
+SCARA3	Autism Spectrum Disorder	total		10	36030	2320	0.087810	False
+SCNN1D	Autism Spectrum Disorder	Synonyms	opus5	1	349	325	0.009870	False
+SCNN1D	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+SCNN1D	Autism Spectrum Disorder	Bands	haiku	2	8149	350	0.009899	False
+SCNN1D	Autism Spectrum Disorder	ProbabilityRead	opus5	1	8220	690	0.058350	False
+SCNN1D	Autism Spectrum Disorder	total		5	17120	1449	0.078941	False
+SETD5	Autism Spectrum Disorder	Synonyms	opus5	1	349	347	0.010420	False
+SETD5	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+SETD5	Autism Spectrum Disorder	Bands	haiku	6	29406	1380	0.036306	False
+SETD5	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13282	1061	0.092935	False
+SETD5	Autism Spectrum Disorder	total		9	43439	2872	0.140483	False
+SH3D19	Autism Spectrum Disorder	Synonyms	opus5	1	349	309	0.009470	False
+SH3D19	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+SH3D19	Autism Spectrum Disorder	Bands	haiku	8	37342	1818	0.046432	False
+SH3D19	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1708	331	0.016815	False
+SH3D19	Autism Spectrum Disorder	total		11	39801	2542	0.073539	False
+SIK3	Autism Spectrum Disorder	Synonyms	opus5	1	349	209	0.006970	False
+SIK3	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+SIK3	Autism Spectrum Disorder	Bands	haiku	6	29987	1336	0.036667	False
+SIK3	Autism Spectrum Disorder	ProbabilityRead	opus5	1	14615	682	0.090125	False
+SIK3	Autism Spectrum Disorder	total		9	45353	2311	0.134584	False
+SKI	Autism Spectrum Disorder	Synonyms	opus5	1	349	327	0.009920	False
+SKI	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+SKI	Autism Spectrum Disorder	Bands	haiku	9	40379	1894	0.049849	False
+SKI	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12850	1005	0.089375	False
+SKI	Autism Spectrum Disorder	total		12	53980	3310	0.149966	False
+SKIDA1	Autism Spectrum Disorder	Synonyms	opus5	1	349	316	0.009645	False
+SKIDA1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+SKIDA1	Autism Spectrum Disorder	Bands	haiku	1	4101	164	0.004921	False
+SKIDA1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1233	228	0.011865	False
+SKIDA1	Autism Spectrum Disorder	total		4	6085	792	0.027253	False
+SLC33A2	Autism Spectrum Disorder	Synonyms	opus5	1	349	206	0.006895	False
+SLC33A2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+SLC33A2	Autism Spectrum Disorder	Bands	haiku	1	1629	54	0.001899	False
+SLC33A2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1233	223	0.011740	False
+SLC33A2	Autism Spectrum Disorder	total		4	3613	567	0.021356	False
+SMAP2	Autism Spectrum Disorder	Synonyms	opus5	1	349	317	0.009670	False
+SMAP2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+SMAP2	Autism Spectrum Disorder	Bands	haiku	1	4922	230	0.006072	False
+SMAP2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	5061	693	0.042630	False
+SMAP2	Autism Spectrum Disorder	total		4	10734	1324	0.059194	False
+SMARCC2	Autism Spectrum Disorder	Synonyms	opus5	1	349	352	0.010545	False
+SMARCC2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+SMARCC2	Autism Spectrum Disorder	Bands	haiku	6	27330	1204	0.033350	False
+SMARCC2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13846	1494	0.106580	False
+SMARCC2	Autism Spectrum Disorder	total		9	41927	3134	0.151297	False
+SPARCL1	Autism Spectrum Disorder	Synonyms	opus5	1	349	302	0.009295	False
+SPARCL1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+SPARCL1	Autism Spectrum Disorder	Bands	haiku	4	19781	876	0.024161	False
+SPARCL1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13755	918	0.091725	False
+SPARCL1	Autism Spectrum Disorder	total		7	34287	2180	0.126003	False
+SPTBN1	Autism Spectrum Disorder	Synonyms	opus5	1	349	205	0.006870	False
+SPTBN1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+SPTBN1	Autism Spectrum Disorder	Bands	haiku	6	32511	1324	0.039131	False
+SPTBN1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	15306	800	0.096530	False
+SPTBN1	Autism Spectrum Disorder	total		9	48568	2413	0.143353	False
+SRPK2	Autism Spectrum Disorder	Synonyms	opus5	1	349	192	0.006545	False
+SRPK2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+SRPK2	Autism Spectrum Disorder	Bands	haiku	3	11412	622	0.014522	False
+SRPK2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	4036	823	0.040755	False
+SRPK2	Autism Spectrum Disorder	total		6	16199	1721	0.062644	False
+SRRM2	Autism Spectrum Disorder	Synonyms	opus5	1	349	359	0.010720	False
+SRRM2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+SRRM2	Autism Spectrum Disorder	Bands	haiku	5	21789	974	0.026659	False
+SRRM2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12842	1053	0.090535	False
+SRRM2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12842	1006	0.089360	False
+SRRM2	Autism Spectrum Disorder	total		9	48224	3476	0.218096	False
+ST20-MTHFS	Autism Spectrum Disorder	Synonyms	opus5	1	349	204	0.006845	False
+ST20-MTHFS	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+ST20-MTHFS	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1245	277	0.013150	False
+ST20-MTHFS	Autism Spectrum Disorder	total		3	1996	565	0.020817	False
+STARD10	Autism Spectrum Disorder	Synonyms	opus5	1	349	349	0.010470	False
+STARD10	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+STARD10	Autism Spectrum Disorder	Bands	haiku	2	8760	350	0.010510	False
+STARD10	Autism Spectrum Disorder	ProbabilityRead	opus5	1	5352	450	0.038010	False
+STARD10	Autism Spectrum Disorder	total		5	14863	1233	0.059812	False
+STARD9	Autism Spectrum Disorder	Synonyms	opus5	1	349	330	0.009995	False
+STARD9	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+STARD9	Autism Spectrum Disorder	Bands	haiku	2	10165	438	0.012355	False
+STARD9	Autism Spectrum Disorder	ProbabilityRead	opus5	1	4626	1142	0.051680	False
+STARD9	Autism Spectrum Disorder	total		5	15542	1995	0.074857	False
+STMN4	Autism Spectrum Disorder	Synonyms	opus5	1	349	206	0.006895	False
+STMN4	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+STMN4	Autism Spectrum Disorder	Bands	haiku	3	16562	695	0.020037	False
+STMN4	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12610	894	0.085400	False
+STMN4	Autism Spectrum Disorder	total		6	29923	1879	0.113154	False
+STRIP1	Autism Spectrum Disorder	Synonyms	opus5	1	349	223	0.007320	False
+STRIP1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+STRIP1	Autism Spectrum Disorder	Bands	haiku	2	7376	328	0.009016	False
+STRIP1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	8359	734	0.060145	False
+STRIP1	Autism Spectrum Disorder	total		5	16486	1369	0.077303	False
+STXBP5	Autism Spectrum Disorder	Synonyms	opus5	1	349	312	0.009545	False
+STXBP5	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+STXBP5	Autism Spectrum Disorder	Bands	haiku	5	25677	1084	0.031097	False
+STXBP5	Autism Spectrum Disorder	ProbabilityRead	opus5	1	14714	869	0.095295	False
+STXBP5	Autism Spectrum Disorder	total		8	41142	2349	0.136759	False
+SUCLG2	Autism Spectrum Disorder	Synonyms	opus5	1	349	315	0.009620	False
+SUCLG2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+SUCLG2	Autism Spectrum Disorder	Bands	haiku	4	17999	874	0.022369	False
+SUCLG2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13438	781	0.086715	False
+SUCLG2	Autism Spectrum Disorder	total		7	32188	2054	0.119526	False
+SVIL	Autism Spectrum Disorder	Synonyms	opus5	1	349	219	0.007220	False
+SVIL	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+SVIL	Autism Spectrum Disorder	Bands	haiku	5	23135	1094	0.028605	False
+SVIL	Autism Spectrum Disorder	ProbabilityRead	opus5	1	11511	491	0.069830	False
+SVIL	Autism Spectrum Disorder	total		8	35397	1888	0.106477	False
+SYNGAP1	Autism Spectrum Disorder	Synonyms	opus5	1	349	320	0.009745	False
+SYNGAP1	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+SYNGAP1	Autism Spectrum Disorder	Bands	haiku	11	49938	2354	0.061708	False
+SYNGAP1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12799	981	0.088520	False
+SYNGAP1	Autism Spectrum Disorder	total		14	63488	3739	0.160795	False
+TCF3	Autism Spectrum Disorder	Synonyms	opus5	1	349	334	0.010095	False
+TCF3	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+TCF3	Autism Spectrum Disorder	Bands	haiku	8	61573	1828	0.070713	False
+TCF3	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13873	878	0.091315	False
+TCF3	Autism Spectrum Disorder	total		11	76197	3124	0.172945	False
+TCF4	Autism Spectrum Disorder	Synonyms	opus5	1	349	209	0.006970	False
+TCF4	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+TCF4	Autism Spectrum Disorder	Bands	haiku	10	45679	2212	0.056739	False
+TCF4	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12438	1245	0.093315	False
+TCF4	Autism Spectrum Disorder	total		13	58868	3750	0.157846	False
+TGM1	Autism Spectrum Disorder	Synonyms	opus5	1	349	307	0.009420	False
+TGM1	Autism Spectrum Disorder	Broadened	haiku	1	402	88	0.000842	False
+TGM1	Autism Spectrum Disorder	Bands	haiku	10	52376	2223	0.063491	False
+TGM1	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12473	806	0.082515	False
+TGM1	Autism Spectrum Disorder	total		13	65600	3424	0.156268	False
+TM4SF19-DYNLT2B	Autism Spectrum Disorder	Synonyms	opus5	1	349	285	0.008870	False
+TM4SF19-DYNLT2B	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+TM4SF19-DYNLT2B	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1275	254	0.012725	False
+TM4SF19-DYNLT2B	Autism Spectrum Disorder	total		3	2026	623	0.022417	False
+TNRC6B	Autism Spectrum Disorder	Synonyms	opus5	1	349	327	0.009920	False
+TNRC6B	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+TNRC6B	Autism Spectrum Disorder	Bands	haiku	4	20698	815	0.024773	False
+TNRC6B	Autism Spectrum Disorder	ProbabilityRead	opus5	1	11489	1141	0.085970	False
+TNRC6B	Autism Spectrum Disorder	total		7	32938	2367	0.121485	False
+TOR1AIP2	Autism Spectrum Disorder	Synonyms	opus5	1	349	336	0.010145	False
+TOR1AIP2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+TOR1AIP2	Autism Spectrum Disorder	Bands	haiku	2	8712	460	0.011012	False
+TOR1AIP2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	10465	660	0.068825	False
+TOR1AIP2	Autism Spectrum Disorder	total		5	19928	1540	0.090804	False
+TPTE	Autism Spectrum Disorder	Synonyms	opus5	1	349	358	0.010695	False
+TPTE	Autism Spectrum Disorder	Broadened	haiku	1	402	85	0.000827	False
+TPTE	Autism Spectrum Disorder	Bands	haiku	6	27587	1248	0.033827	False
+TPTE	Autism Spectrum Disorder	ProbabilityRead	opus5	1	10089	914	0.073295	False
+TPTE	Autism Spectrum Disorder	total		9	38427	2605	0.118644	False
+TRIM37	Autism Spectrum Disorder	Synonyms	opus5	1	349	317	0.009670	False
+TRIM37	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+TRIM37	Autism Spectrum Disorder	Bands	haiku	8	41462	1818	0.050552	False
+TRIM37	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13643	710	0.085965	False
+TRIM37	Autism Spectrum Disorder	total		11	55856	2929	0.147009	False
+TRPM3	Autism Spectrum Disorder	Synonyms	opus5	1	349	216	0.007145	False
+TRPM3	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+TRPM3	Autism Spectrum Disorder	Bands	haiku	7	29881	1412	0.036941	False
+TRPM3	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12124	1260	0.092120	False
+TRPM3	Autism Spectrum Disorder	total		10	42756	2972	0.137028	False
+TTK	Autism Spectrum Disorder	Synonyms	opus5	1	349	331	0.010020	False
+TTK	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+TTK	Autism Spectrum Disorder	Bands	haiku	6	29619	1380	0.036519	False
+TTK	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12367	450	0.073085	False
+TTK	Autism Spectrum Disorder	total		9	42737	2245	0.120446	False
+TTN	Autism Spectrum Disorder	Synonyms	opus5	1	349	331	0.010020	False
+TTN	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+TTN	Autism Spectrum Disorder	Bands	haiku	7	34645	1610	0.042695	False
+TTN	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12976	658	0.081330	False
+TTN	Autism Spectrum Disorder	total		10	48372	2683	0.134867	False
+UBAP2L	Autism Spectrum Disorder	Synonyms	opus5	1	349	346	0.010395	False
+UBAP2L	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+UBAP2L	Autism Spectrum Disorder	Bands	haiku	2	9078	416	0.011158	False
+UBAP2L	Autism Spectrum Disorder	ProbabilityRead	opus5	1	9607	934	0.071385	False
+UBAP2L	Autism Spectrum Disorder	total		5	19436	1780	0.093760	False
+UBN2	Autism Spectrum Disorder	Synonyms	opus5	1	349	335	0.010120	False
+UBN2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+UBN2	Autism Spectrum Disorder	Bands	haiku	2	7008	284	0.008428	False
+UBN2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	7781	664	0.055505	False
+UBN2	Autism Spectrum Disorder	total		5	15540	1367	0.074875	False
+UGT1A10	Autism Spectrum Disorder	Synonyms	opus5	1	349	345	0.010370	False
+UGT1A10	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+UGT1A10	Autism Spectrum Disorder	Bands	haiku	4	24456	920	0.029056	False
+UGT1A10	Autism Spectrum Disorder	ProbabilityRead	opus5	1	16172	491	0.093135	False
+UGT1A10	Autism Spectrum Disorder	total		7	41379	1840	0.133383	False
+UGT1A5	Autism Spectrum Disorder	Synonyms	opus5	1	349	324	0.009845	False
+UGT1A5	Autism Spectrum Disorder	Broadened	haiku	1	402	89	0.000847	False
+UGT1A5	Autism Spectrum Disorder	Bands	haiku	2	7071	262	0.008381	False
+UGT1A5	Autism Spectrum Disorder	ProbabilityRead	opus5	1	6801	550	0.047755	False
+UGT1A5	Autism Spectrum Disorder	total		5	14623	1225	0.066828	False
+UGT1A6	Autism Spectrum Disorder	Synonyms	opus5	1	349	219	0.007220	False
+UGT1A6	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+UGT1A6	Autism Spectrum Disorder	Bands	haiku	8	43575	1669	0.051920	False
+UGT1A6	Autism Spectrum Disorder	ProbabilityRead	opus5	1	14823	706	0.091765	False
+UGT1A6	Autism Spectrum Disorder	total		11	59149	2678	0.151727	False
+UGT1A7	Autism Spectrum Disorder	Synonyms	opus5	1	349	322	0.009795	False
+UGT1A7	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+UGT1A7	Autism Spectrum Disorder	Bands	haiku	7	41692	1566	0.049522	False
+UGT1A7	Autism Spectrum Disorder	ProbabilityRead	opus5	1	15840	549	0.092925	False
+UGT1A7	Autism Spectrum Disorder	total		10	58283	2521	0.153064	False
+UGT1A9	Autism Spectrum Disorder	Synonyms	opus5	1	349	374	0.011095	False
+UGT1A9	Autism Spectrum Disorder	Broadened	haiku	1	402	88	0.000842	False
+UGT1A9	Autism Spectrum Disorder	Bands	haiku	8	44066	1642	0.052276	False
+UGT1A9	Autism Spectrum Disorder	ProbabilityRead	opus5	1	15649	783	0.097820	False
+UGT1A9	Autism Spectrum Disorder	total		11	60466	2887	0.162033	False
+UNC80	Autism Spectrum Disorder	Synonyms	opus5	1	349	365	0.010870	False
+UNC80	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+UNC80	Autism Spectrum Disorder	Bands	haiku	5	20430	974	0.025300	False
+UNC80	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12174	1258	0.092320	False
+UNC80	Autism Spectrum Disorder	total		8	33355	2681	0.129312	False
+USP15	Autism Spectrum Disorder	Synonyms	opus5	1	349	338	0.010195	False
+USP15	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+USP15	Autism Spectrum Disorder	Bands	haiku	5	24047	1084	0.029467	False
+USP15	Autism Spectrum Disorder	ProbabilityRead	opus5	1	12959	891	0.087070	False
+USP15	Autism Spectrum Disorder	total		8	37757	2397	0.127554	False
+UTP6	Autism Spectrum Disorder	Synonyms	opus5	1	349	204	0.006845	False
+UTP6	Autism Spectrum Disorder	Broadened	haiku	1	402	88	0.000842	False
+UTP6	Autism Spectrum Disorder	Bands	haiku	2	7077	306	0.008607	False
+UTP6	Autism Spectrum Disorder	ProbabilityRead	opus5	1	6279	778	0.050845	False
+UTP6	Autism Spectrum Disorder	total		5	14107	1376	0.067139	False
+VSIG4	Autism Spectrum Disorder	Synonyms	opus5	1	349	379	0.011220	False
+VSIG4	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+VSIG4	Autism Spectrum Disorder	Bands	haiku	4	21384	898	0.025874	False
+VSIG4	Autism Spectrum Disorder	ProbabilityRead	opus5	1	6946	515	0.047605	False
+VSIG4	Autism Spectrum Disorder	total		7	29081	1876	0.085521	False
+XKR6	Autism Spectrum Disorder	Synonyms	opus5	1	349	322	0.009795	False
+XKR6	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+XKR6	Autism Spectrum Disorder	Bands	haiku	3	15026	602	0.018036	False
+XKR6	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1221	250	0.012355	False
+XKR6	Autism Spectrum Disorder	total		6	16998	1258	0.041008	False
+ZC3H11A	Autism Spectrum Disorder	Synonyms	opus5	1	349	219	0.007220	False
+ZC3H11A	Autism Spectrum Disorder	Broadened	haiku	1	402	88	0.000842	False
+ZC3H11A	Autism Spectrum Disorder	Bands	haiku	1	4708	230	0.005858	False
+ZC3H11A	Autism Spectrum Disorder	ProbabilityRead	opus5	1	4409	516	0.034945	False
+ZC3H11A	Autism Spectrum Disorder	total		4	9868	1053	0.048865	False
+ZFAND5	Autism Spectrum Disorder	Synonyms	opus5	1	349	348	0.010445	False
+ZFAND5	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+ZFAND5	Autism Spectrum Disorder	Bands	haiku	2	7015	306	0.008545	False
+ZFAND5	Autism Spectrum Disorder	ProbabilityRead	opus5	1	7532	973	0.061985	False
+ZFAND5	Autism Spectrum Disorder	total		5	15298	1711	0.081797	False
+ZMYND11	Autism Spectrum Disorder	Synonyms	opus5	1	349	358	0.010695	False
+ZMYND11	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+ZMYND11	Autism Spectrum Disorder	Bands	haiku	5	23304	1150	0.029054	False
+ZMYND11	Autism Spectrum Disorder	ProbabilityRead	opus5	1	13179	1378	0.100345	False
+ZMYND11	Autism Spectrum Disorder	total		8	37234	2970	0.140916	False
+ZNF462	Autism Spectrum Disorder	Synonyms	opus5	1	349	363	0.010820	False
+ZNF462	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+ZNF462	Autism Spectrum Disorder	Bands	haiku	3	13052	668	0.016392	False
+ZNF462	Autism Spectrum Disorder	ProbabilityRead	opus5	1	11741	1198	0.088655	False
+ZNF462	Autism Spectrum Disorder	total		6	25544	2313	0.116689	False
+ZNF490	Autism Spectrum Disorder	Synonyms	opus5	1	349	300	0.009245	False
+ZNF490	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+ZNF490	Autism Spectrum Disorder	Bands	haiku	1	2088	76	0.002468	False
+ZNF490	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1227	228	0.011835	False
+ZNF490	Autism Spectrum Disorder	total		4	4066	688	0.024370	False

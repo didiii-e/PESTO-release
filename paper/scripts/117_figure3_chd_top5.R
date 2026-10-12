@@ -10,8 +10,8 @@
 #     → figures/figure3_ad_r50_nocc_mean_top5_chd_loeufdec.{png,pdf}
 #       panel a = Fisher OR of ≥ Existing in the lowest LOEUF decile
 #   Rscript scripts/117_figure3_chd_top5.R --loeuf-decile --brain-decile --or --top5-brain
-#     → ..._chd_loeufdec_braindec_or_top5b.{png,pdf} and figures/figure3.{png,pdf}
-#       the published Figure 3: odds ratios, panel b on the top 5% brain-specific
+#     → ..._chd_loeufdec_braindec_or_top5b.{png,pdf} and figures/figure4.{png,pdf} (Figure 4 since v3)
+#       the published Figure 4 (Figure 3 before v3): odds ratios, panel b on the top 5% brain-specific
 #   Rscript scripts/117_figure3_chd_top5.R --loeuf-decile --brain-decile
 #     → ..._chd_loeufdec_braindec.{png,pdf}
 #       panel b = Fisher OR of ≥ Existing in the top 10% adult brain-specific
@@ -425,14 +425,14 @@ ggsave(file.path(FIGURES, paste0(stem, ".png")), fig,
 ggsave(file.path(FIGURES, paste0(stem, ".pdf")), fig,
        width = 13.2, height = height, bg = "white")
 message("wrote ", file.path(FIGURES, paste0(stem, ".png")), " and .pdf")
-# figures/figure3.* is the published version: odds ratios, panel b at the top 5%,
+# figures/figure4.* (Figure 4 since v3) is the published version: odds ratios, panel b at the top 5%,
 # cell types in c.
 if (LOEUF_DEC && BRAIN_DEC && !TWO_DEC && SHOW_OR && TOP5_B && CELLS) {
   file.copy(file.path(FIGURES, paste0(stem, ".png")),
-            file.path(FIGURES, "figure3.png"), overwrite = TRUE)
+            file.path(FIGURES, "figure4.png"), overwrite = TRUE)
   file.copy(file.path(FIGURES, paste0(stem, ".pdf")),
-            file.path(FIGURES, "figure3.pdf"), overwrite = TRUE)
-  message("wrote ", file.path(FIGURES, "figure3.png"), " and .pdf")
+            file.path(FIGURES, "figure4.pdf"), overwrite = TRUE)
+  message("wrote ", file.path(FIGURES, "figure4.png"), " and .pdf")
 }
 if (LOEUF_DEC) print(as.data.frame(a_or)) else print(as.data.frame(a_dat))
 if (BRAIN_DEC) print(as.data.frame(b_or))

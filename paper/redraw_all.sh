@@ -23,7 +23,10 @@ Rscript scripts/21_figure2.R
 "$PY" scripts/143_ed2_titles_data.py
 Rscript scripts/144_figure_ed2_titles.R
 
-echo "== Figure 3, Extended Data Fig. 4, Supplementary Note 4 table"
+echo "== Figure 3"
+Rscript scripts/250_figure_temporal.R
+
+echo "== Figure 4, Extended Data Fig. 4, Supplementary Note 5 table"
 Rscript scripts/117_figure3_chd_top5.R --loeuf-decile --brain-decile --or --top5-brain --cell-panel
 Rscript scripts/198_tissue_enrichment_grid.R
 Rscript scripts/199_tissue_heatmap_from_grid.R adult kept 5% --clean

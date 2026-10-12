@@ -1,0 +1,84 @@
+# Illustrative PESTO trajectories for six pairs of the two baseline-class cohorts,
+# one per outcome type: in epilepsy KCNC1 (Hypothesized, then Established), CHRNA1
+# (Novel throughout) and TRAPPC4 (Novel, then Established); in autism GRIA2
+# (Hypothesized, then Established), MYH2 (Novel throughout) and LRRTM2 (Hypothesized
+# throughout). Each pair is scored with PubMed capped at Dinan's grid of dates
+# (every five years 1975-2005, every two years 2010-2024; benchmark/trajectories6/),
+# plus the cohort runs at the autism start date (2014/09/30) and on 2026/10/11. The
+# score is the confidence-weighted mean of the four levels (1 Novel to 4
+# Established); the dashed line marks the start date of the cohort.
+#
+#   Rscript scripts/249_figure_trajectories6.R
+#     -> figures/figure_trajectories6.{png,pdf}
+
+suppressPackageStartupMessages({
+  library(ggplot2)
+  library(dplyr)
+  library(readr)
+})
+
+root <- normalizePath(file.path(dirname(sub("--file=", "",
+         grep("--file=", commandArgs(FALSE), value = TRUE)[1])), ".."))
+B <- file.path(root, "benchmark")
+
+score_of <- function(d) {
+  d %>% mutate(score = (p_novel + 2 * p_hypothesized + 3 * p_existing + 4 * p_established) /
+                 (p_novel + p_hypothesized + p_existing + p_established))
+}
+read_run <- function(path, when) {
+  read_tsv(path, show_col_types = FALSE) %>% score_of() %>%
+    transmute(gene, phenotype, when = when, score, class = lit_mean)
+}
+
+grid <- bind_rows(lapply(Sys.glob(file.path(B, "trajectories6", "pesto_[0-9][0-9][0-9][0-9].tsv")), function(f) {
+  read_run(f, as.numeric(sub(".*pesto_([0-9]{4}).tsv", "\\1", f)) + 1)
+}))
+genes <- unique(grid$gene)
+extra <- bind_rows(
+  read_run(file.path(B, "asd_denovo2014", "pesto_2014.tsv"), 2014 + 9 / 12),
+  read_run(file.path(B, "asd_denovo2014", "pesto_2026.tsv"), 2026 + 9.4 / 12),
+  read_run(file.path(B, "epigen_extension", "pesto_2026.tsv"), 2026 + 9.4 / 12)
+) %>% filter(gene %in% genes) %>% semi_join(distinct(grid, gene, phenotype), by = c("gene", "phenotype"))
+d <- bind_rows(grid, extra) %>% arrange(gene, when)
+
+start <- c(epilepsy = 2011, "Autism Spectrum Disorder" = 2014 + 9 / 12)
+d <- d %>%
+  mutate(disease = factor(ifelse(phenotype == "epilepsy", "Epilepsy", "Autism"), levels = c("Epilepsy", "Autism")),
+         t0 = start[phenotype]) %>%
+  group_by(gene) %>%
+  mutate(start_class = class[which.min(abs(when - t0))]) %>%
+  ungroup()
+print(as.data.frame(d %>% distinct(gene, disease, start_class)))
+
+nudge <- c(KCNC1 = 0.13, TRAPPC4 = -0.13)
+ends <- d %>% group_by(gene) %>% slice_max(when, n = 1) %>% ungroup() %>%
+  mutate(label_y = score + ifelse(gene %in% names(nudge), nudge[gene], 0))
+vlines <- tibble(disease = factor(c("Epilepsy", "Autism"), levels = c("Epilepsy", "Autism")),
+                 t0 = c(2011, 2014 + 9 / 12))
+cols <- c(Novel = "#A9573F", Hypothesized = "#BFA45C")
+
+fig <- ggplot(d, aes(when, score, group = gene, colour = start_class)) +
+  geom_hline(yintercept = 1:4, colour = "grey92", linewidth = 0.4) +
+  geom_vline(data = vlines, aes(xintercept = t0), linetype = "dashed", colour = "grey45",
+             linewidth = 0.5, inherit.aes = FALSE) +
+  geom_line(linewidth = 1) +
+  geom_point(size = 2) +
+  geom_text(data = ends, aes(y = label_y, label = gene), hjust = -0.15, size = 4.4, fontface = "italic",
+            show.legend = FALSE) +
+  facet_wrap(~disease, nrow = 1) +
+  scale_colour_manual(values = cols, name = "Class at the start date") +
+  scale_x_continuous(breaks = c(1975, 1985, 1995, 2005, 2015, 2025),
+                     expand = expansion(mult = c(0.01, 0.02))) +
+  scale_y_continuous(breaks = 1:4, labels = c("Novel", "Hypothesized", "Existing", "Established"),
+                     limits = c(0.9, 4.15)) +
+  coord_cartesian(clip = "off") +
+  labs(x = "Literature published up to", y = NULL) +
+  theme_classic(base_size = 15) +
+  theme(strip.background = element_blank(), strip.text = element_text(face = "bold", size = 15),
+        axis.text = element_text(colour = "black"), legend.position = "top",
+        panel.spacing = unit(22, "mm"), plot.margin = margin(5, 22, 5, 5, unit = "mm"))
+
+out <- file.path(root, "figures", "figure_trajectories6")
+ggsave(paste0(out, ".png"), fig, width = 10, height = 4.8, dpi = 300, bg = "white")
+ggsave(paste0(out, ".pdf"), fig, width = 10, height = 4.8, bg = "white", device = cairo_pdf)
+message("wrote ", out, ".{png,pdf}")

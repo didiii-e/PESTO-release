@@ -1,0 +1,25 @@
+gene	phenotype	step	model	calls	input_tokens	output_tokens	usd	cached
+CHRNA1	epilepsy	Synonyms	opus5	1	342	273	0.008535	False
+CHRNA1	epilepsy	Broadened	haiku	1	399	66	0.000729	False
+CHRNA1	epilepsy	ProbabilityRead	opus5	1	1191	276	0.012855	False
+CHRNA1	epilepsy	total		3	1932	615	0.022119	False
+GRIA2	Autism Spectrum Disorder	Synonyms	opus5	1	349	336	0.010145	False
+GRIA2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+GRIA2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1227	274	0.012985	False
+GRIA2	Autism Spectrum Disorder	total		3	1978	694	0.023952	False
+KCNC1	epilepsy	Synonyms	opus5	1	342	280	0.008710	False
+KCNC1	epilepsy	Broadened	haiku	1	399	68	0.000739	False
+KCNC1	epilepsy	ProbabilityRead	opus5	1	1185	235	0.011800	False
+KCNC1	epilepsy	total		3	1926	583	0.021249	False
+LRRTM2	Autism Spectrum Disorder	Synonyms	opus5	1	349	218	0.007195	False
+LRRTM2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+LRRTM2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1233	225	0.011790	False
+LRRTM2	Autism Spectrum Disorder	total		3	1984	527	0.019807	False
+MYH2	Autism Spectrum Disorder	Synonyms	opus5	1	349	345	0.010370	False
+MYH2	Autism Spectrum Disorder	Broadened	haiku	1	402	84	0.000822	False
+MYH2	Autism Spectrum Disorder	ProbabilityRead	opus5	1	1221	199	0.011080	False
+MYH2	Autism Spectrum Disorder	total		3	1972	628	0.022272	False
+TRAPPC4	epilepsy	Synonyms	opus5	1	342	197	0.006635	False
+TRAPPC4	epilepsy	Broadened	haiku	1	399	65	0.000724	False
+TRAPPC4	epilepsy	ProbabilityRead	opus5	1	1197	241	0.012010	False
+TRAPPC4	epilepsy	total		3	1938	503	0.019369	False
