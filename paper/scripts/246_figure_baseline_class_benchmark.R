@@ -59,7 +59,7 @@ print(as.data.frame(d))
 p_lab <- function(p) {
   if (p >= 0.001) return(sprintf("P == %.3f", p))
   e <- floor(log10(p))
-  sprintf("P == %.1f %%*%% 10^%d", p / 10^e, e)
+  sprintf('P == "%.1f" %%*%% 10^%d', p / 10^e, e)
 }
 tests <- d %>% distinct(cohort, fisher) %>% mutate(lab = vapply(fisher, p_lab, ""))
 
@@ -76,13 +76,14 @@ fig <- ggplot(d, aes(start, p, colour = start)) +
   geom_text(data = tests, aes(x = 1.5, y = 0.955, label = lab), parse = TRUE, inherit.aes = FALSE,
             size = 4.6, colour = "grey20") +
   facet_wrap(~cohort, nrow = 1) +
-  scale_colour_manual(values = c(Novel = "#A9573F", Hypothesized = "#BFA45C"), guide = "none") +
+  scale_colour_manual(values = c(Novel = "#A9573F", Hypothesized = "#BFA45C"), name = "Category at baseline") +
   scale_y_continuous(labels = function(x) paste0(100 * x, "%"), limits = c(0, 1),
                      breaks = seq(0, 1, 0.2), expand = expansion(mult = c(0, 0.02))) +
-  labs(x = "PESTO class at the start date", y = "Existing or Established at the end date") +
+  labs(x = "PESTO category at baseline", y = "Existing or Established in 2026") +
   theme_classic(base_size = 15) +
-  theme(strip.background = element_blank(), strip.text = element_text(face = "bold", size = 14),
-        axis.text = element_text(colour = "black"), panel.spacing = unit(10, "mm"))
+  theme(strip.background = element_blank(), strip.text = element_text(face = "bold", size = 15),
+        axis.text = element_text(colour = "black"), panel.spacing = unit(22, "mm"),
+        legend.position = "top")
 
 out <- file.path(root, "figures", "figure_baseline_class_benchmark")
 ggsave(paste0(out, ".png"), fig, width = 9, height = 5.2, dpi = 300, bg = "white")

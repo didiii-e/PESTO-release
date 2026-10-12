@@ -6,7 +6,8 @@
 # (every five years 1975-2005, every two years 2010-2024; benchmark/trajectories6/),
 # plus the cohort runs at the autism start date (2014/09/30) and on 2026/10/11. The
 # score is the confidence-weighted mean of the four levels (1 Novel to 4
-# Established); the dashed line marks the start date of the cohort.
+# Established), on the category bands of Fig. 2c; the dashed line marks the start date
+# of the cohort.
 #
 #   Rscript scripts/249_figure_trajectories6.R
 #     -> figures/figure_trajectories6.{png,pdf}
@@ -55,27 +56,35 @@ ends <- d %>% group_by(gene) %>% slice_max(when, n = 1) %>% ungroup() %>%
   mutate(label_y = score + ifelse(gene %in% names(nudge), nudge[gene], 0))
 vlines <- tibble(disease = factor(c("Epilepsy", "Autism"), levels = c("Epilepsy", "Autism")),
                  t0 = c(2011, 2014 + 9 / 12))
-cols <- c(Novel = "#A9573F", Hypothesized = "#BFA45C")
+# Category bands as in Fig. 2c: the verdict is the rounded score, so the bands
+# change at 1.5, 2.5 and 3.5; pairs share one neutral colour, the class at
+# baseline being shown in panel b.
+bands <- tibble(ymin = c(0.9, 1.5, 2.5, 3.5), ymax = c(1.5, 2.5, 3.5, 4.1),
+                fill = c("#F3F3F3", "#E8E8E8", "#F3F3F3", "#E8E8E8"))
+LINE <- "#3E5468"
 
-fig <- ggplot(d, aes(when, score, group = gene, colour = start_class)) +
-  geom_hline(yintercept = 1:4, colour = "grey92", linewidth = 0.4) +
+fig <- ggplot(d, aes(when, score, group = gene)) +
+  geom_rect(data = bands, aes(xmin = -Inf, xmax = Inf, ymin = ymin, ymax = ymax, fill = fill),
+            inherit.aes = FALSE, colour = NA) +
+  scale_fill_identity() +
+  geom_hline(yintercept = c(1.5, 2.5, 3.5), linewidth = 0.25, colour = "grey78") +
   geom_vline(data = vlines, aes(xintercept = t0), linetype = "dashed", colour = "grey45",
              linewidth = 0.5, inherit.aes = FALSE) +
-  geom_line(linewidth = 1) +
-  geom_point(size = 2) +
+  geom_line(linewidth = 1, colour = LINE) +
+  geom_point(size = 2, colour = LINE) +
   geom_text(data = ends, aes(y = label_y, label = gene), hjust = -0.15, size = 4.4, fontface = "italic",
-            show.legend = FALSE) +
+            colour = LINE) +
   facet_wrap(~disease, nrow = 1) +
-  scale_colour_manual(values = cols, name = "Class at the start date") +
   scale_x_continuous(breaks = c(1975, 1985, 1995, 2005, 2015, 2025),
                      expand = expansion(mult = c(0.01, 0.02))) +
-  scale_y_continuous(breaks = 1:4, labels = c("Novel", "Hypothesized", "Existing", "Established"),
-                     limits = c(0.9, 4.15)) +
-  coord_cartesian(clip = "off") +
-  labs(x = "Literature published up to", y = NULL) +
+  scale_y_continuous(breaks = c(1.2, 2, 3, 3.8), labels = c("Novel", "Hypothesized", "Existing", "Established"),
+                     expand = expansion(mult = c(0, 0))) +
+  coord_cartesian(ylim = c(0.9, 4.1), clip = "off") +
+  labs(x = "Publication cutoff year", y = NULL) +
   theme_classic(base_size = 15) +
   theme(strip.background = element_blank(), strip.text = element_text(face = "bold", size = 15),
-        axis.text = element_text(colour = "black"), legend.position = "top",
+        axis.text = element_text(colour = "black"), axis.ticks.y = element_blank(),
+        axis.title.x = element_text(margin = margin(t = 8)),
         panel.spacing = unit(22, "mm"), plot.margin = margin(5, 22, 5, 5, unit = "mm"))
 
 out <- file.path(root, "figures", "figure_trajectories6")

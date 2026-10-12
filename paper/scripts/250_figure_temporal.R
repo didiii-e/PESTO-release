@@ -23,7 +23,7 @@ a <- panel("249_figure_trajectories6.R")
 b <- panel("246_figure_baseline_class_benchmark.R") +
   theme(plot.margin = margin(5, 22, 5, 5, unit = "mm"))
 
-fig <- plot_grid(a, b, ncol = 1, rel_heights = c(1, 1.05), labels = c("a", "b"),
+fig <- plot_grid(a, b, ncol = 1, rel_heights = c(1, 1.05), labels = c("a", "b"), align = "v", axis = "lr",
                  label_size = 20, label_fontface = "bold")
 out <- file.path(root, "figures", "figure_temporal")
 ggsave(paste0(out, ".png"), fig, width = 10, height = 10, dpi = 300, bg = "white")
