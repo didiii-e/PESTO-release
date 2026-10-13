@@ -95,7 +95,7 @@ mean_call <- function(score) {
 # Plot labels. The sheet says autism known / autism candidate / ID known;
 # ID known is folded into ASD candidate at draw time, the table keeps both.
 ASD_CATS <- c("ASD known", "ASD candidate", "Novel candidate")
-B_CATS <- c(ASD_CATS, "Not in ASD gene list")
+B_CATS <- c(ASD_CATS, "Not in ASD list")
 asd_group <- function(classification) {
   dplyr::recode(classification,
     `autism known` = "ASD known",
@@ -133,7 +133,7 @@ not_in_asc_pesto <- function(exclude) {
 not_in_asc <- function(exclude) {
   rows <- not_in_asc_pesto(exclude)
   if (is.null(rows) || !nrow(rows)) return(NULL)
-  rows %>% transmute(group = factor("Not in ASD gene list", levels = B_CATS),
+  rows %>% transmute(group = factor("Not in ASD list", levels = B_CATS),
                      verdict = as_verdict(lit_mean))
 }
 
@@ -144,7 +144,7 @@ panel_B <- function() {
     d <- read_tsv(f, show_col_types = FALSE) %>%
       mutate(group = factor(dplyr::recode(group,
                               `novel candidate` = "Novel candidate",
-                              `not in ASC` = "Not in ASD gene list"),
+                              `not in ASC` = "Not in ASD list"),
                             levels = B_CATS),
              verdict = as_verdict(lit_mean)) %>%
       filter(!is.na(group), lit_mean %in% VERDICTS) %>%
@@ -965,13 +965,18 @@ fig <- if (IS_HAIKU) {
     plot_layout(widths = c(1, 1), heights = c(1, 1))
 } else {
   yb <- year_bin_prep()
-  top <- (panel_C() | panel_B()) +
-    plot_layout(guides = "collect") &
-    theme(legend.position = "bottom",
-          legend.box.margin = margin(t = -6, b = 0),
-          legend.key.size = unit(0.55, "cm"))
-  (top / (panel_year_score(yb) | panel_year_ap(yb))) +
-    plot_layout(widths = c(1, 1), heights = c(1, 1))
+  # One grid for the four panels, the shared legend of a and b on a row of its
+  # own, so that b and d share a column and line up.
+  pa <- panel_C()
+  legend <- cowplot::get_legend(pa + theme(legend.position = "bottom",
+                                           legend.key.size = unit(0.55, "cm")))
+  nolegend <- theme(legend.position = "none")
+  # b's tilted labels run longer than a's, so a's axis title is lowered to the same line.
+  wrap_plots(A = pa + nolegend + theme(axis.title.x = element_text(margin = margin(t = 22))),
+             B = panel_B() + nolegend, G = wrap_elements(full = legend, ignore_tag = TRUE),
+             C = panel_year_score(yb), D = panel_year_ap(yb),
+             design = "AB\nGG\nCD") +
+    plot_layout(heights = c(1, 0.1, 1))
 }
 fig <- fig +
   plot_annotation(tag_levels = "a") &
