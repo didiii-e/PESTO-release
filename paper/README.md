@@ -29,6 +29,7 @@ This calls no model and needs no API key. It takes about two minutes.
 | Figure 4 | `117_figure3_chd_top5.R --loeuf-decile --brain-decile --or --top5-brain --cell-panel` (+ `_panel_dendrogram.R`; panel c reads `results/biology/cell_types_grid.tsv`) | `figures/figure4.png` |
 | Extended Data Fig. 4a (tissues) | `198_tissue_enrichment_grid.R`, `199_tissue_heatmap_from_grid.R adult kept 5% --clean` | `figures/figure_ed4_tissue_enrichment.png` |
 | Supplementary Note 5, sensitivity of the tissue analyses (table) | `198_tissue_enrichment_grid.R` | `results/tissue_enrichment/grid_key.tsv` |
+| Supplementary Note 5, adjustment for publications per gene (table) | `269_publication_adjusted_enrichment.py` (+ `_biology_panel.py`, `202_subthreshold_signal.py`; needs the ASC gene list `data/raw/ASC_GeneList_12082026.txt`, not redistributed) | `results/biology/publication_adjusted_enrichment.tsv` |
 | Supplementary Figure 1 (the pipeline, step by step) | `172_pipeline_detailed_schema.R` (+ `pipeline_schema.R`) | `figures/pipeline_detailed.png` |
 | Supplementary Note 1, run-to-run variability (table) | `183_reproducibility_stats.py` | `results/reproducibility_aou50/summary.tsv` |
 | Supplementary Figure 1 | `122_figure2_current_vs_score.R` | `figures/figure2_current_vs_score.png` |

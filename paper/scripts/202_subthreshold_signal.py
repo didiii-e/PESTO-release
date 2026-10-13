@@ -99,7 +99,7 @@ def epi25_genes(ref):
 
 def disease_list_genes(ref, scores):
     asc = pd.read_csv(os.path.join(DATA, "raw", "ASC_GeneList_12082026.txt"))["Gene"].str.strip()
-    other = scores.loc[scores["set"].isin(["pcgc_sig60", "gencc9_ad"]), "gene"]
+    other = scores.loc[scores["set"].isin(["pcgc_sig60", "gencc9_ad", "t2d_zhao2025", "bipex2_ptv_fdr05"]), "gene"]
     return set(asc) | set(ref["schema_scz"]) | epi25_genes(ref) | set(other)
 
 
@@ -188,6 +188,9 @@ def nonlinear(d, disease):
     return pd.DataFrame(rows)
 
 
+BIPEX2_LIST = set(pd.read_csv(os.path.join(ROOT, "benchmark", "fig3_add_t2d_bipex2", "manifest_bipex2_genes.txt"), header=None)[0])
+
+
 def studies(ref):
     new = os.path.join(DATA, "genelists", "browser_2026")
     schema = pd.read_csv(os.path.join(new, "SCHEMA2_gene_results.tsv.bgz"), sep="\t", compression="gzip")
@@ -210,7 +213,7 @@ def studies(ref):
     return [
         ("SCHEMA2", "schizophrenia", schema, set(ref["schema_scz"])),
         ("Epi25", "epilepsy", epi[["gene_id", "p"]], epi25_genes(ref)),
-        ("BipEx2", "bipolar disorder", bip[["gene_id", "p"]], set()),
+        ("BipEx2", "bipolar disorder", bip[["gene_id", "p"]], BIPEX2_LIST),
         ("ASC2", "Autism Spectrum Disorder", asc[["gene_id", "p"]], asc_sig),
     ]
 

@@ -30,6 +30,11 @@ echo "== Figure 4, Extended Data Fig. 4, Supplementary Note 5 table"
 Rscript scripts/117_figure3_chd_top5.R --loeuf-decile --brain-decile --or --top5-brain --cell-panel
 Rscript scripts/198_tissue_enrichment_grid.R
 Rscript scripts/199_tissue_heatmap_from_grid.R adult kept 5% --clean
+if [ -f data/raw/ASC_GeneList_12082026.txt ]; then
+  "$PY" scripts/269_publication_adjusted_enrichment.py
+else
+  echo "skip 269_publication_adjusted_enrichment.py: needs data/raw/ASC_GeneList_12082026.txt"
+fi
 
 echo "== Supplementary Figure 1 (pipeline schema), Supplementary Note 1 table"
 Rscript scripts/172_pipeline_detailed_schema.R
