@@ -30,6 +30,9 @@ TOP5_B     <- "--top5-brain" %in% commandArgs(TRUE)
 # Panel c becomes the cell-type heatmap of scripts/214_cell_type_heatmaps.R (13
 # rows, from results/biology/cell_types_grid.tsv) and the GO heatmap panel d.
 CELLS      <- "--cell-panel" %in% commandArgs(TRUE)
+# --genome-decile defines the LOEUF deciles over every gene of the gnomAD v4 table
+# rather than within the scored panel.
+GENOME_DEC <- "--genome-decile" %in% commandArgs(TRUE)
 
 suppressPackageStartupMessages({
   library(ggplot2)
@@ -176,9 +179,11 @@ loeuf <- read_tsv(LOEUF_SRC, show_col_types = FALSE) %>%
 joined <- scores %>%
   inner_join(loeuf, by = "gene") %>%
   filter(!is.na(score), !is.na(loeuf))
-bins <- joined %>%
-  distinct(gene, loeuf) %>%
-  mutate(decile = ntile(loeuf, 10))
+bins <- if (GENOME_DEC) {
+  loeuf %>% mutate(decile = ntile(loeuf, 10))
+} else {
+  joined %>% distinct(gene, loeuf) %>% mutate(decile = ntile(loeuf, 10))
+}
 joined <- joined %>% inner_join(bins %>% select(gene, decile), by = "gene")
 
 a_dat <- joined %>% rho_ci(score, loeuf)
@@ -211,11 +216,9 @@ fisher_or <- function(d, top_deciles = 1) {
 }
 
 a_or <- fisher_or(joined, top_deciles = if (TWO_DEC) 1:2 else 1)
-a_or_file <- if (TWO_DEC) {
-  "loeuf_decile_enrichment_top2.tsv"
-} else {
-  "loeuf_decile_enrichment.tsv"
-}
+a_or_file <- paste0(
+  if (TWO_DEC) "loeuf_decile_enrichment_top2" else "loeuf_decile_enrichment",
+  if (GENOME_DEC) "_genome" else "", ".tsv")
 write_tsv(a_or, file.path(AD_RES, a_or_file))
 
 if (LOEUF_DEC) {
@@ -384,15 +387,19 @@ if (CELLS) {
                          labels = c("1/8", "1", "8"), name = "odds ratio") +
     scale_x_discrete(position = "top", expand = c(0, 0)) + scale_y_discrete(expand = c(0, 0)) +
     labs(x = NULL, y = NULL) +
-    guides(fill = guide_colourbar(title.position = "top", title.hjust = 0.5)) +
+    guides(fill = guide_colourbar(barwidth = 12, barheight = 0.7, title.position = "left",
+                                  title.vjust = 1, direction = "horizontal")) +
     theme_minimal(base_size = 17) +
     theme(panel.grid = element_blank(), axis.text = element_text(colour = "black"),
           axis.text.x = element_text(face = "bold", size = 13), legend.position = "bottom",
-          legend.key.width = unit(10, "mm"),
+          legend.title = element_text(size = 15), legend.text = element_text(size = 14),
+          legend.box.spacing = unit(6, "mm"), legend.margin = margin(0, 0, 0, 0),
           strip.placement = "outside", strip.text.y.left = element_text(angle = 90, face = "bold"),
           panel.spacing.y = unit(6, "pt"), plot.margin = margin(4, 8, 4, 6, unit = "mm"))
   tight <- theme(plot.margin = margin(4, 4, 4, 6, unit = "mm"))
-  top <- plot_grid(panel_a + labs(x = "OR (\u2265 Existing)\nin lowest LOEUF decile") + tight,
+  a_lab <- if (GENOME_DEC) "OR (\u2265 Existing) in lowest\ngenome-wide LOEUF decile" else
+    "OR (\u2265 Existing)\nin top 10% constrained"
+  top <- plot_grid(panel_a + labs(x = a_lab) + tight,
                    panel_b + labs(x = "OR (\u2265 Existing)\nin top 5% brain-specific") + tight,
                    panel_cells, ncol = 3,
                    rel_widths = c(0.95, 0.95, 1.35), align = "h", axis = "tb",
@@ -412,6 +419,7 @@ fig <- plot_grid(top, bot, ncol = 1,
 stem <- paste0(
   "figure3_ad_r50_nocc_mean_top5_chd",
   if (LOEUF_DEC) "_loeufdec" else "",
+  if (GENOME_DEC) "_gwdec" else "",
   if (BRAIN_DEC) "_braindec" else "",
   if (TWO_DEC) "_top2" else "",
   if (SHOW_OR) "_or" else "",
@@ -427,7 +435,7 @@ ggsave(file.path(FIGURES, paste0(stem, ".pdf")), fig,
 message("wrote ", file.path(FIGURES, paste0(stem, ".png")), " and .pdf")
 # figures/figure4.* (Figure 4 since v3) is the published version: odds ratios, panel b at the top 5%,
 # cell types in c.
-if (LOEUF_DEC && BRAIN_DEC && !TWO_DEC && SHOW_OR && TOP5_B && CELLS) {
+if (LOEUF_DEC && BRAIN_DEC && !TWO_DEC && SHOW_OR && TOP5_B && CELLS && !GENOME_DEC) {
   file.copy(file.path(FIGURES, paste0(stem, ".png")),
             file.path(FIGURES, "figure4.png"), overwrite = TRUE)
   file.copy(file.path(FIGURES, paste0(stem, ".pdf")),
