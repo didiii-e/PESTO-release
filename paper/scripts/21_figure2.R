@@ -4,6 +4,7 @@
 # Layout:
 #   A B
 #   C D
+#   E F
 #
 #   A  ClinGen+G2P literature, one hundred pairs in each curated class (30 of
 #      the original ladder plus the extra30 and extra40 draws) and 100 random
@@ -12,6 +13,9 @@
 #      novel candidate, plus genes drawn at random and absent from ASC
 #   C  mean score of Limited pairs by 3-year first-report bin (2010 aside)
 #   D  average precision of those bins vs 100 random Absents (Fig. 2a-style)
+#   E  the same pairs: citations that include a GenCC-curated PMID
+#   F  Existing/Established calls backed by a cited paper with human genetic
+#      evidence (scripts/_panel_citations.R)
 #
 # Former C and D (40 Limited 2023–2025 vs 40 adjacent Absent) are
 # Supplementary Figure 1.
@@ -805,11 +809,11 @@ panel_year_score <- function(yb) {
     base_theme +
     theme(legend.position = "none",
           strip.background = element_blank(),
-          strip.text = element_text(size = 15, face = "bold"),
+          strip.text = element_text(size = 13, face = "bold"),
           axis.ticks.y = element_blank(),
           aspect.ratio = 2,
           axis.text.x = element_text(angle = 45, hjust = 1),
-          panel.spacing = unit(0.7, "lines"))
+          panel.spacing = unit(1.1, "lines"))
 }
 
 panel_year_ap <- function(yb) {
@@ -972,11 +976,21 @@ fig <- if (IS_HAIKU) {
                                            legend.key.size = unit(0.55, "cm")))
   nolegend <- theme(legend.position = "none")
   # b's tilted labels run longer than a's, so a's axis title is lowered to the same line.
+  source(file.path(root, "scripts", "_panel_citations.R"))
+  cd <- citation_data(RESULTS)
+  pe <- citation_panel_e(cd, base_theme)
+  cit_legend <- cowplot::get_legend(pe + theme(legend.position = "bottom",
+                                               legend.direction = "horizontal",
+                                               legend.key.size = unit(0.55, "cm"),
+                                               legend.key.spacing.x = unit(0.9, "cm")) +
+                                      guides(fill = guide_legend(nrow = 1)))
   wrap_plots(A = pa + nolegend + theme(axis.title.x = element_text(margin = margin(t = 22))),
              B = panel_B() + nolegend, G = wrap_elements(full = legend, ignore_tag = TRUE),
              C = panel_year_score(yb), D = panel_year_ap(yb),
-             design = "AB\nGG\nCD") +
-    plot_layout(heights = c(1, 0.1, 1))
+             E = pe + nolegend, F = citation_panel_f(cd, base_theme) + nolegend,
+             H = wrap_elements(full = cit_legend, ignore_tag = TRUE),
+             design = "AB\nGG\nCD\nEF\nHH") +
+    plot_layout(heights = c(1, 0.1, 1, 1, 0.1))
 }
 fig <- fig +
   plot_annotation(tag_levels = "a") &
@@ -984,8 +998,71 @@ fig <- fig +
         plot.tag.position = c(0, 1))
 
 fig2_stem <- if (IS_HAIKU) "figure2_haiku" else "figure2"
+fig2_height <- if (IS_HAIKU) 11.2 else 16.4
 ggsave(file.path(FIGURES, paste0(fig2_stem, ".png")), fig,
-       width = 11, height = 11.2, dpi = 600, bg = "white")
+       width = 11, height = fig2_height, dpi = 600, bg = "white")
 ggsave(file.path(FIGURES, paste0(fig2_stem, ".pdf")), fig,
-       width = 11, height = 11.2, bg = "white")
+       width = 11, height = fig2_height, bg = "white")
 cat("Wrote", file.path(FIGURES, paste0(fig2_stem, ".png")), "and .pdf\n")
+
+if (!IS_HAIKU) {
+  supp <- (panel_limited_absent_bars() | panel_limited_adjacent_found()) +
+    plot_annotation(tag_levels = "a") &
+    theme(plot.tag = element_text(face = "bold", size = 20),
+          plot.tag.position = c(0, 1))
+  ggsave(file.path(FIGURES, "figure_supp_1.png"), supp,
+         width = 12.5, height = 4.6, dpi = 600, bg = "white")
+  ggsave(file.path(FIGURES, "figure_supp_1.pdf"), supp,
+         width = 12.5, height = 4.6, bg = "white")
+  cat("Wrote", file.path(FIGURES, "figure_supp_1.png"), "and .pdf\n")
+}
+if (IS_HAIKU) quit(save = "no")
+
+# Literature against max(literature, Open Targets) on the same consensus
+# labels. Not a main-text panel: Open Targets hypothesizes neighboring
+# traits and eats the candidate / novel-candidate columns.
+W <- c(Novel = 1, Hypothesized = 2, Existing = 3, Established = 4)
+asd <- read_tsv(file.path(RESULTS, "bench_asd_current.tsv"), show_col_types = FALSE) %>%
+  mutate(group = factor(asd_group(classification), levels = ASD_CATS)) %>%
+  filter(!is.na(group)) %>%
+  mutate(
+    both = case_when(
+      lit_mean %in% VERDICTS & ot_verdict %in% VERDICTS ~
+        if_else(W[lit_mean] >= W[ot_verdict], lit_mean, ot_verdict),
+      lit_mean %in% VERDICTS ~ lit_mean,
+      TRUE ~ NA_character_))
+
+bars <- function(col, title) {
+  asd %>% filter(.data[[col]] %in% VERDICTS) %>%
+    count(group, verdict = as_verdict(.data[[col]])) %>%
+    group_by(group) %>% mutate(pct = 100 * n / sum(n), cls_n = sum(n)) %>%
+    ungroup() %>%
+    ggplot(aes(x = group, y = pct, fill = verdict)) +
+    geom_col(width = 0.72) +
+    geom_text(aes(x = group, y = 101, label = paste0("n=", cls_n)),
+              data = ~ distinct(.x, group, cls_n), inherit.aes = FALSE,
+              size = 3.4, colour = "grey35", vjust = 0) +
+    scale_fill_manual(values = VCOL) +
+    scale_y_continuous(expand = expansion(mult = c(0, 0.07))) +
+    labs(x = NULL, y = "% of genes", title = title) +
+    base_theme +
+    theme(legend.position = "right",
+          plot.title = element_text(size = 12, hjust = 0.5),
+          axis.text.x = element_text(angle = 25, hjust = 1))
+}
+
+ot_fig <- (bars("lit_mean", "Literature") | bars("both", "max(literature, Open Targets)")) +
+  plot_layout(guides = "collect")
+ggsave(file.path(FIGURES, "figure2b_lit_vs_max.png"), ot_fig,
+       width = 12.5, height = 4.6, dpi = 320, bg = "white")
+ggsave(file.path(FIGURES, "figure2b_lit_vs_max.pdf"), ot_fig,
+       width = 12.5, height = 4.6, bg = "white")
+cat("Wrote", file.path(FIGURES, "figure2b_lit_vs_max.png"), "and .pdf\n")
+
+# Extended Data 4 - the precision-recall comparison that left the main text.
+ed4 <- panel_D()
+ggsave(file.path(FIGURES, "figure_ed4.png"), ed4, width = 6.2, height = 4.8,
+       dpi = 320, bg = "white")
+ggsave(file.path(FIGURES, "figure_ed4.pdf"), ed4, width = 6.2, height = 4.8,
+       bg = "white")
+cat("Wrote", file.path(FIGURES, "figure_ed4.png"), "and .pdf\n")

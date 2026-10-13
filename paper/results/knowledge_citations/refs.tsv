@@ -1,0 +1,642 @@
+year	gene	phenotype	rank	pmid	first_author	year	journal	title
+2019	ADAMTS9	ciliopathy	1	30827498	Choi YJ	2019	American Journal of Human Genetics	Mutations of ADAMTS9 Cause Nephronophthisis-Related Ciliopathy
+2019	ADAMTS9	ciliopathy	2	31015426	Nandadasa S	2019	Nature Communications	Secreted metalloproteases ADAMTS9 and ADAMTS20 have a non-canonical role in ciliary vesicle growth during ciliogenesis
+2021	ADAMTS9	ciliopathy	3		Nandadasa S	2021	Matrix Biology / Frontiers	ADAMTS proteases, extracellular matrix and ciliogenesis (review of ADAMTS9 ciliary function)
+2013	C19orf12	hereditary spastic paraplegia 43	1	23269600	Landouré G	2013	Neurology	Hereditary spastic paraplegia type 43 (SPG43) is caused by mutation in C19orf12
+2010	C19orf12	hereditary spastic paraplegia 43	2	20668882	Meilleur KG	2010	Neurogenetics	Clinical and genetic characterization of a Malian family with autosomal recessive hereditary spastic paraplegia (SPG43)
+2011	C19orf12	hereditary spastic paraplegia 43	3	21981780	Hartig MB	2011	American Journal of Human Genetics	Absence of an orphan mitochondrial protein, C19orf12, causes a distinct clinical subtype of neurodegeneration with brain iron accumulation
+2013	C19orf12	hereditary spastic paraplegia 43	4	23857047	Hogarth P	2013	Neurology	New NBIA subtype: genetic, clinical, pathologic, and radiographic features of MPAN
+2012	C19orf12	hereditary spastic paraplegia 43	5	27217339	Panteghini C	2012	Annals of Neurology	C19orf12 and FA2H mutations are rare in Italian patients with neurodegeneration with brain iron accumulation
+2010	DIAPH3	auditory neuropathy	1	20650873	Schoen CJ	2010	Proc Natl Acad Sci U S A	Increased activity of Diaphanous homolog 3 (DIAPH3)/diaphanous causes hearing defects in humans with auditory neuropathy and in Drosophila
+2004	DIAPH3	auditory neuropathy	2	15254018	Kim TB	2004	Journal of Medical Genetics	A gene responsible for autosomal dominant auditory neuropathy (AUNA1) maps to 13q14-21
+2003	DIAPH3	auditory neuropathy	3		Starr A	2003	J Assoc Res Otolaryngol	A dominantly inherited progressive deafness affecting distal auditory nerve and hair cells
+2013	DIAPH3	auditory neuropathy	4		Schoen CJ	2013	Human Molecular Genetics	Elevated levels of Diaphanous homolog 3 (DIAPH3) cause hearing loss in a transgenic mouse model of auditory neuropathy
+2014	IRAG1	achalasia	1	24997987	Gockel I	2014	Nature Genetics	Common variants in the HLA-DQ region confer susceptibility to idiopathic achalasia
+2004	IRAG1	achalasia	2	15014447	Geiselhöringer A	2004	EMBO Journal	IRAG is essential for relaxation of receptor-triggered smooth muscle contraction by cGMP kinase
+2010	IRAG1	achalasia	3		Desch M	2010	Cardiovascular Research	IRAG determines nitric oxide- and atrial natriuretic peptide-mediated smooth muscle relaxation
+2012	IRAG1	achalasia	4	22306652	Feenstra B	2012	Nature Genetics	Common variants near MBNL1 and NKX2-5 are associated with infantile hypertrophic pyloric stenosis
+2014	LAS1L	X-linked syndromic intellectual disability	1		Philips AK	2014	Orphanet Journal of Rare Diseases	X-exome sequencing in Finnish families with intellectual disability—four novel mutations and two novel syndromic phenotypes
+2014	LAS1L	X-linked syndromic intellectual disability	2	24598718	Butterfield RJ	2014	Neurology	Congenital lethal motor neuron disease with a novel defect in ribosome biogenesis
+2016	LAS1L	X-linked syndromic intellectual disability	3	25644381	Hu H	2016	Molecular Psychiatry	X-exome sequencing of 405 unresolved families identifies seven novel intellectual disability genes
+2012	LAS1L	X-linked syndromic intellectual disability	4		Castle JC	2012	PLoS One	LAS1L interacts with the mammalian Rix1 complex to regulate ribosome biogenesis
+2019	PDGFRA	congenital heart disease	1			2019	Scientific Reports	PDGFRA gene, maternal binge drinking and obstructive heart defects
+2001	PDGFRA	congenital heart disease	2	11242106	Joosten PH	2001	Nature Genetics	Promoter haplotype combinations of the platelet-derived growth factor alpha-receptor gene predispose to human neural tube defects
+2007	PDGFRA	congenital heart disease	3	17825270	Richarte AM	2007	Developmental Biology	Cooperation between the PDGF receptors in cardiac neural crest cell migration
+1992	PDGFRA	congenital heart disease	4	1333968	Orr-Urtreger A	1992	Development	Platelet-derived growth factor-A and its receptor are expressed in separate, but adjacent cell layers of the mouse embryo; Patch mutation
+2011	PDGFRA	congenital heart disease	5	22209856	Smith CL	2011	Circulation Research	Epicardial-derived cell epithelial-to-mesenchymal transition and fate specification require PDGF receptor signaling
+2010	SHANK3	schizophrenia 15	1	20385823	Gauthier J	2010	Proc Natl Acad Sci USA	De novo mutations in the gene encoding the synaptic scaffolding protein SHANK3 in patients ascertained for schizophrenia
+2014	SHANK3	schizophrenia 15	2	24709060	Guilmatre A	2014	Developmental Neurobiology	The emerging role of SHANK genes in neuropsychiatric disorders
+2012	SHANK3	schizophrenia 15	3		Verhoeven WMA	2012	Neuropsychiatric Disease and Treatment	Phelan-McDermid syndrome in two adult brothers: atypical bipolar disorder as its psychopathological phenotype?
+2012	SHANK3	schizophrenia 15	4		Denayer A	2012	Molecular Syndromology	Neuropsychopathology in 7 patients with the 22q13 deletion syndrome: presence of bipolar disorder and progressive loss of skills
+2007	SHANK3	schizophrenia 15	5	17173049	Durand CM	2007	Nature Genetics	Mutations in the gene encoding the synaptic scaffolding protein SHANK3 are associated with autism spectrum disorders
+2010	SLC34A1	Fanconi renotubular syndrome 2	1	20335586	Magen D	2010	New England Journal of Medicine	A loss-of-function mutation in NaPi-IIa and renal Fanconi's syndrome
+2016	SLC34A1	Fanconi renotubular syndrome 2	2	26047794	Schlingmann KP	2016	Journal of the American Society of Nephrology	Autosomal-recessive mutations in SLC34A1 encoding sodium-phosphate cotransporter 2A cause idiopathic infantile hypercalcemia
+2002	SLC34A1	Fanconi renotubular syndrome 2	3	12324554	Prié D	2002	New England Journal of Medicine	Nephrolithiasis and osteoporosis associated with hypophosphatemia caused by mutations in the type 2a sodium-phosphate cotransporter
+2017	SLC34A1	Fanconi renotubular syndrome 2	4		Demir K	2017	Journal of Clinical Research in Pediatric Endocrinology / JCEM	Genetic and clinical spectrum of SLC34A1 mutations in children with hypophosphatemia and nephrocalcinosis
+1998	SLC34A1	Fanconi renotubular syndrome 2	5	9770521	Beck L	1998	PNAS	Targeted inactivation of Npt2 in mice leads to severe renal phosphate wasting, hypercalciuria, and skeletal abnormalities
+2010	SOBP	intellectual disability, anterior maxillary protrusion, and strabismus	1	20887962	Birk E	2010	American Journal of Human Genetics	SOBP is mutated in syndromic and nonsyndromic intellectual disability and is highly expressed in the brain limbic system
+2008	SOBP	intellectual disability, anterior maxillary protrusion, and strabismus	2		Chen Z	2008	Developmental Biology / Mammalian Genome	Sobp (jackson circler) mouse mutant: inner ear and neurodevelopmental phenotype
+2017	SOBP	intellectual disability, anterior maxillary protrusion, and strabismus	3		Anazi S	2017	Molecular Psychiatry	Clinical genomics expands the morbid genome of intellectual disability and offers a high diagnostic yield
+2022	SPTAN1	hereditary spastic paraplegia	1		Van de Vondel	2022	Journal of Human Genetics	SPTAN1 variants as a potential cause for autosomal recessive hereditary spastic paraplegia
+2019	SPTAN1	hereditary spastic paraplegia	2	30535138	Beijer	2019	Brain	Nonsense mutations in alpha-II spectrin in three families with juvenile onset hereditary motor neuropathy
+2010	SPTAN1	hereditary spastic paraplegia	3	20493457	Saitsu	2010	American Journal of Human Genetics	Dominant-negative mutations in alpha-II spectrin cause West syndrome with severe cerebral hypomyelination, spastic quadriplegia, and developmental delay
+2017	SPTAN1	hereditary spastic paraplegia	4		Syrbe	2017	Brain	Delineating SPTAN1 associated phenotypes: from isolated epilepsy to encephalopathy with progressive brain atrophy
+2017	SPTAN1	hereditary spastic paraplegia	5		Huang	2017	Journal of Neuroscience	αII spectrin forms a periodic cytoskeleton at the axon initial segment and is required for nervous system function
+2013	AKT1	Cowden syndrome 6	1	23246288	Orloff MS	2013	American Journal of Human Genetics	Germline PIK3CA and AKT1 mutations in Cowden and Cowden-like syndromes
+2011	AKT1	Cowden syndrome 6	2	21793738	Lindhurst MJ	2011	New England Journal of Medicine	A mosaic activating mutation in AKT1 associated with the Proteus syndrome
+2012	AKT1	Cowden syndrome 6	3	22252256	Mester J	2012	Journal of the National Comprehensive Cancer Network / related review	Cowden syndrome: recognizing and managing a not-so-rare hereditary cancer syndrome
+2019	AKT1	Cowden syndrome 6	4		Yehia L	2019	Annual Review of Medicine	PTEN hamartoma tumor syndrome and beyond: the PI3K/AKT/mTOR axis in germline predisposition
+2019	ARL14EP	neurodevelopmental disorder	1		Lin Q	2019	Journal of Clinical Investigation	C11orf46/ARL14EP, a WAGR region gene, regulates corpus callosum development through chromatin-mediated repression of axon guidance genes (Sema6a)
+2019	ARL14EP	neurodevelopmental disorder	2	28397838	Hu H	2019	Molecular Psychiatry	Genetics of intellectual disability in consanguineous families
+2012	CNKSR1	neurodevelopmental disorder	1	25401298	Houge	2012	Molecular Syndromology	B3 lacking CNKSR2 (X-linked intellectual disability) — paralog evidence for CNK-family scaffolds in neurodevelopment
+2014	CNKSR1	neurodevelopmental disorder	2		Vaags	2014	Journal of Medical Genetics	Absent CNKSR2 causes seizures and intellectual, attention, and language deficits
+2016	CNKSR1	neurodevelopmental disorder	3		Fritz	2016	Oncogene/Cell Signalling	CNK1 scaffold protein in Ras/MAPK and insulin signalling
+2018	COQ5	neurodevelopmental disorder	1	29044765	Malicdan MCV	2018	Human Mutation	A novel inborn error of the coenzyme Q10 biosynthesis pathway: cerebellar ataxia and static encephalomyopathy due to COQ5 C-methyltransferase deficiency
+2014	COQ5	neurodevelopmental disorder	2	24270043	Nguyen TPT	2014	Biochimica et Biophysica Acta	Molecular characterization of the human COQ5 C-methyltransferase in coenzyme Q10 biosynthesis
+2018	COQ5	neurodevelopmental disorder	3		Alcázar-Fabra M	2018	Molecular Syndromology / Biochim Biophys Acta	Clinical syndromes associated with coenzyme Q10 deficiency
+2012	CRYGB	cataract 39 multiple types	1	23283385	AlFadhli S	2012	Molecular Vision	Molecular analysis of a novel CRYGB mutation in a Kuwaiti family with autosomal dominant congenital cataract
+2004	CRYGB	cataract 39 multiple types	2		Graw J	2004	Investigative Ophthalmology & Visual Science	Characterization of a new, dominant V124E mutation in the mouse alphaA-crystallin-encoding gene and related Cryg mutations causing nuclear opacities
+2002	CRYGB	cataract 39 multiple types	3		Santhiya ST	2002	Journal of Medical Genetics	Novel mutations in the gamma-crystallin genes cause autosomal dominant congenital cataracts
+2020	H3-4	neurodevelopmental disorder	1	33159882	Bryant L	2020	American Journal of Human Genetics	Histone H3.3 beyond cancer: Germline mutations in H3F3A and H3F3B cause a previously unidentified neurodegenerative disorder in 46 patients
+2022	H3-4	neurodevelopmental disorder	2		Tessadori F	2022	American Journal of Human Genetics	Recurrent de novo missense variants across multiple histone H4 genes underlie a neurodevelopmental disorder
+2017	H3-4	neurodevelopmental disorder	3		Tessadori F	2017	Nature Genetics	Germline mutations affecting the histone H4 core cause a developmental syndrome by altering DNA damage response and cell cycle control
+2017	H3-4	neurodevelopmental disorder	4		Tatton-Brown K	2017	American Journal of Human Genetics	Mutations in epigenetic regulation genes including HIST1H1E are a major cause of overgrowth with intellectual disability
+2020	H3-4	neurodevelopmental disorder	5		Kaplanis J	2020	Nature	Evidence for 28 genetic disorders discovered by combining healthcare and research data
+2011	MOG	narcolepsy 7	1	21907016	Hor H	2011	American Journal of Human Genetics	A missense mutation in myelin oligodendrocyte glycoprotein as a cause of familial narcolepsy with cataplexy
+2013	MOG	narcolepsy 7	2		Mahlios J	2013	Current Opinion in Neurobiology	The autoimmune basis of narcolepsy
+2008	MYBPC3	congenital heart disease	1	18506004	Klaassen S	2008	Circulation	Mutations in sarcomere protein genes in left ventricular noncompaction
+2010	MYBPC3	congenital heart disease	2	20530761	Hoedemaekers YM	2010	Circulation: Cardiovascular Genetics	The importance of genetic counseling, DNA diagnostics, and cardiologic family screening in left ventricular noncompaction cardiomyopathy
+2013	MYBPC3	congenital heart disease	3	23665959	Zaidi S	2013	Nature	De novo mutations in histone-modifying genes in congenital heart disease
+2017	MYBPC3	congenital heart disease	4	28991257	Jin SC	2017	Nature Genetics	Contribution of rare inherited and de novo variants in 2,871 congenital heart disease probands
+2015	MYBPC3	congenital heart disease	5		Wessels MW	2015	European Journal of Human Genetics	Compound heterozygous or homozygous truncating MYBPC3 mutations cause lethal cardiomyopathy with features of noncompaction and septal defects
+2021	NDUFA12	Leigh syndrome	1		Torraco A	2021	Human Mutation	Novel NDUFA12 variants are associated with isolated complex I defect and variable clinical manifestation
+2011	NDUFA12	Leigh syndrome	2		Ostergaard E	2011	Journal of Medical Genetics / Mol Genet Metab	Mitochondrial complex I deficiency caused by nuclear-encoded accessory subunit defects
+2005	NDUFA12	Leigh syndrome	3	16200211	Ogilvie I	2005	Journal of Clinical Investigation	A molecular chaperone for mitochondrial complex I assembly is mutated in a progressive encephalopathy (NDUFA12L/NDUFAF2)
+2009	PECR	neurodevelopmental disorder	1	19581569	Treutlein J	2009	Archives of General Psychiatry	Genome-wide association study of alcohol dependence
+2013	PRICKLE2	complex neurodevelopmental disorder	1	23711981	Sowers LP	2013	Molecular Psychiatry	Disruption of the non-canonical Wnt gene PRICKLE2 leads to autism-like behaviors with reduced synaptic connectivity
+2011	PRICKLE2	complex neurodevelopmental disorder	2	21276947	Tao H	2011	American Journal of Human Genetics	Mutations in prickle orthologs cause seizures in flies, mice, and humans
+2013	PRICKLE2	complex neurodevelopmental disorder	3		Paemka L	2013	PLoS ONE	PRICKLE1 interaction with SYNAPSIN I reveals a role in autism spectrum disorders
+2014	PRICKLE2	complex neurodevelopmental disorder	4		Okumura A	2014	American Journal of Medical Genetics A	Deletion of 3p14 involving PRICKLE2 in a patient with developmental delay and epilepsy
+2008	PRICKLE2	complex neurodevelopmental disorder	5		Bassuk AG	2008	American Journal of Human Genetics	A homozygous mutation in human PRICKLE1 causes an autosomal-recessive progressive myoclonus epilepsy-ataxia syndrome
+2012	SEPTIN12	spermatogenic failure 10	1	22275165	Kuo YC	2012	Human Mutation	SEPT12 mutations cause male infertility with defective sperm annulus
+2009	SEPTIN12	spermatogenic failure 10	2		Lin YH	2009	American Journal of Pathology	The expression level of septin12 is critical for spermiogenesis
+2011	SEPTIN12	spermatogenic failure 10	3		Lin YH	2011	Fertility and Sterility	SEPT12 deficiency causes sperm nucleus damage and developmental arrest of preimplantation embryos
+2015	SEPTIN12	spermatogenic failure 10	4		Kuo YC	2015	Journal of Cell Science	SEPT12 orchestrates the formation of mammalian sperm annulus by organizing core octameric complexes with other SEPT proteins
+2012	SEPTIN12	spermatogenic failure 10	5		Lin YH	2012	PLoS ONE	SEPT12 deficiency causes sperm defects and male infertility
+2011	TECR	intellectual disability	1	21212097	Çalışkan M	2011	Human Molecular Genetics	Exome sequencing reveals a novel mutation for autosomal recessive non-syndromic mental retardation in the TECR gene on chromosome 19p13
+2008	TECR	intellectual disability	2		Moheb LA	2008	European Journal of Human Genetics	Identification of a nonsense mutation in the very low-density lipoprotein receptor gene (VLDLR) / mapping of autosomal recessive intellectual disability loci (contextual MRT locus mapping)
+2013	TECR	intellectual disability	3		Abe K	2013	Journal of Biological Chemistry	Role of trans-2-enoyl-CoA reductase (TECR) in very-long-chain fatty acid elongation
+2019	TRIM69	hereditary predisposition to infections	1	31231042	Rihn SJ	2019	PLoS Pathogens	TRIM69 inhibits vesicular stomatitis Indiana virus
+2019	TRIM69	hereditary predisposition to infections	2	31317869	Kueck T	2019	eLife	Vesicular stomatitis virus transcription is inhibited by TRIM69 in the interferon-induced antiviral state
+2018	TRIM69	hereditary predisposition to infections	3	29899097	Wang K	2018	Journal of Virology	TRIM69 inhibits dengue virus replication by ubiquitination-dependent degradation of viral NS3 protein
+2012	ABCB6	microphthalmia, isolated, with coloboma 7	1	22226084	Wang, L.	2012	American Journal of Human Genetics	ABCB6 mutations cause ocular coloboma
+2013	ABCB6	microphthalmia, isolated, with coloboma 7	2	23251426	Zhang, C.	2013	American Journal of Human Genetics	Mutations in ABCB6 cause dyschromatosis universalis hereditaria
+2012	ABCB6	microphthalmia, isolated, with coloboma 7	3	23243274	Helias, V.	2012	Nature Genetics	ABCB6 is dispensable for erythropoiesis and specifies the new blood group system Langereis
+2013	ABCB6	microphthalmia, isolated, with coloboma 7	4	23510902	Andolfo, I.	2013	Blood	Missense mutations in the ABCB6 transporter cause dominant familial pseudohyperkalemia
+2007	CFHR3	hemolytic uremic syndrome, atypical, susceptibility to, 1	1	17367211	Zipfel	2007	PLoS Genetics	Deletion of complement factor H-related genes CFHR1 and CFHR3 is associated with atypical hemolytic uremic syndrome
+2008	CFHR3	hemolytic uremic syndrome, atypical, susceptibility to, 1	2	18796626	Józsi	2008	Blood	Factor H autoantibodies in atypical hemolytic uremic syndrome correlate with CFHR1/CFHR3 deficiency
+2010	CFHR3	hemolytic uremic syndrome, atypical, susceptibility to, 1	3	20530286	Moore	2010	Blood	Association of factor H autoantibodies with deletions of CFHR1, CFHR3, CFHR4, and with mutations in CFH, CFI, CD46, and C3 in patients with atypical hemolytic uremic syndrome
+2010	CFHR3	hemolytic uremic syndrome, atypical, susceptibility to, 1	4	20595679	Dragon-Durey	2010	Journal of the American Society of Nephrology	Clinical features of anti-factor H autoantibody-associated hemolytic uremic syndrome
+2009	CFHR3	hemolytic uremic syndrome, atypical, susceptibility to, 1	5	19846853	Józsi	2009	Trends in Immunology	Factor H-related proteins determine complement-activating surfaces
+2012	CPA6	familial temporal lobe epilepsy 5	1		Salzmann A	2012	Human Mutation	Carboxypeptidase A6 gene (CPA6) mutations in a recessive familial form of febrile seizures and temporal lobe epilepsy and in sporadic temporal lobe epilepsy
+2015	CPA6	familial temporal lobe epilepsy 5	2		Sapio MR	2015	PLoS ONE	Novel carboxypeptidase A6 (CPA6) mutations identified in patients with juvenile myoclonic epilepsy or febrile seizures
+2008	CPA6	familial temporal lobe epilepsy 5	3		Lyons PJ	2008	Journal of Biological Chemistry	Characterization of carboxypeptidase A6, an extracellular matrix peptidase
+2013	CTNNA3	arrhythmogenic right ventricular cardiomyopathy	1	23136403	van Hengel J	2013	European Heart Journal	Mutations in the area composita protein αT-catenin are associated with arrhythmogenic right ventricular cardiomyopathy
+2021	CTNNA3	arrhythmogenic right ventricular cardiomyopathy	2	33831308	James CA	2021	Circulation: Genomic and Precision Medicine	International Evidence Based Reappraisal of Genes Associated With Arrhythmogenic Right Ventricular Cardiomyopathy Using the Clinical Genome Resource Framework
+2012	CTNNA3	arrhythmogenic right ventricular cardiomyopathy	3	23152493	Li J	2012	Journal of Molecular and Cellular Cardiology	Loss of αT-catenin alters the hybrid adhering junctions in the heart and leads to dilated cardiomyopathy and ventricular arrhythmia following acute ischemia
+2011	CTNNA3	arrhythmogenic right ventricular cardiomyopathy	4		Christensen AH	2011	Clinical Genetics	Mutation analysis and evaluation of the cardiac localization of TMEM43 and other desmosomal/area composita genes in arrhythmogenic right ventricular cardiomyopathy
+2006	FOXD3	anterior segment dysgenesis	1	16423341	Stewart, R.A.	2006	Developmental Biology	Zebrafish foxd3 is selectively required for neural crest specification, migration and survival
+2008	FOXD3	anterior segment dysgenesis	2	18256198	Teng, L.	2008	Development	Requirement for Foxd3 in the maintenance of neural crest progenitors
+2005	FOXD3	anterior segment dysgenesis	3	16303978	Gage, P.J.	2005	Investigative Ophthalmology & Visual Science	Fate maps of neural crest and mesoderm in the mammalian eye
+2005	FOXD3	anterior segment dysgenesis	4	15829504	Alkhateeb, A.	2005	American Journal of Human Genetics	Mapping of an autoimmunity susceptibility locus (AIS1) to chromosome 1p31.3-p32.2 / FOXD3 promoter variant in familial vitiligo
+2012	FUS	tremor, hereditary essential, 4	1	22863194	Merner ND	2012	American Journal of Human Genetics	Exome sequencing identifies FUS mutations as a cause of essential tremor
+2013	FUS	tremor, hereditary essential, 4	2		Labbé C	2013	Parkinsonism & Related Disorders	Investigating FUS variation in essential tremor
+2013	FUS	tremor, hereditary essential, 4	3		Parmalee N	2013	Journal of the Neurological Sciences	Genetic analysis of the FUS/TLS gene in essential tremor
+2014	FUS	tremor, hereditary essential, 4	4		Rajput A	2014	European Journal of Neurology	Identification of FUS p.R377W in essential tremor
+2013	FUS	tremor, hereditary essential, 4	5		Hopfner F	2013	Parkinsonism & Related Disorders	Lack of FUS mutations in a large cohort of essential tremor patients
+2012	KCTD13	neurodevelopmental disorder	1	22596160	Golzio C	2012	Nature	KCTD13 is a major driver of mirrored neuroanatomical phenotypes of the 16p11.2 copy number variant
+2011	KCTD13	neurodevelopmental disorder	2	21308978	Crepel A	2011	American Journal of Medical Genetics Part B	Narrowing the critical deletion region for autism spectrum disorders on 16p11.2
+2015	KCTD13	neurodevelopmental disorder	3	26637798	Lin GN	2015	Neuron	Spatiotemporal 16p11.2 protein network implicates cortical late mid-fetal brain development and KCTD13-Cul3-RhoA pathway in psychiatric diseases
+2017	KCTD13	neurodevelopmental disorder	4	28965780	Escamilla CO	2017	Nature	Kctd13 deletion reduces synaptic transmission via increased RhoA
+2019	KCTD13	neurodevelopmental disorder	5	30914523	Arbogast T	2019	PLoS Genetics	Kctd13-deficient mice display short-term memory impairment and sex-dependent genetic interactions
+2011	SLC4A8	schizophrenia	1	21525268	Sinning	2011	Journal of Neuroscience	Synaptic glutamate release is modulated by the Na+-driven Cl-/HCO3- exchanger Slc4a8
+2008	SLC4A8	schizophrenia	2		Chen	2008	American Journal of Physiology - Cell Physiology	Expression and localization of Na-driven Cl-HCO3- exchanger (SLC4A8) in rodent CNS
+2011	TNIK	non-syndromic intellectual disability	1	21937992	Najmabadi H	2011	Nature	Deep sequencing reveals 50 novel genes for recessive cognitive disorders
+2017	TNIK	non-syndromic intellectual disability	2	27457812	Anazi S	2017	Molecular Psychiatry	Clinical genomics expands the morbid genome of intellectual disability and offers a high diagnostic yield
+2019	TNIK	non-syndromic intellectual disability	3	30405169	Hu H	2019	Molecular Psychiatry	Genetics of intellectual disability in consanguineous families
+2012	TNIK	non-syndromic intellectual disability	4	22171046	Coba MP	2012	Journal of Neuroscience	TNiK is required for postsynaptic and nuclear signaling pathways and cognitive function
+2009	TNIK	non-syndromic intellectual disability	5	19571179	Potkin SG	2009	Molecular Psychiatry	A genome-wide association study of schizophrenia using brain activation as a quantitative phenotype (TNIK locus)
+2013	ABCB6	familial pseudohyperkalemia	1		Andolfo I	2013	American Journal of Hematology	Missense mutations in the ABCB6 transporter cause dominant familial pseudohyperkalemia
+1998	ABCB6	familial pseudohyperkalemia	2		Carella M	1998	American Journal of Human Genetics	Genomewide search for dehydrated hereditary stomatocytosis (hereditary xerocytosis)/familial pseudohyperkalemia: mapping studies
+2016	ABCB6	familial pseudohyperkalemia	3		Andolfo I	2016	Haematologica	Hereditary stomatocytosis: an underdiagnosed condition
+1999	ABCB6	familial pseudohyperkalemia	4		Iolascon A	1999	British Journal of Haematology	Familial pseudohyperkalaemia: clinical and genetic characterization
+2012	ABCB6	familial pseudohyperkalemia	5		Helias V	2012	Nature Genetics	ABCB6 is dispensable for erythropoiesis and specifies the new blood group system Langereis
+2013	AGBL1	corneal dystrophy, Fuchs endothelial, 8	1	24094747	Riazuddin, S. A.	2013	American Journal of Human Genetics	Mutations in AGBL1 cause dominant late-onset Fuchs corneal dystrophy and alter protein-protein interaction with TCF4
+2014	AGBL1	corneal dystrophy, Fuchs endothelial, 8	2		Vithana, E. N. / Nakano, M. (various)	2014	Investigative Ophthalmology & Visual Science / Human Genetics	Screening of AGBL1 and other candidate genes in Fuchs endothelial corneal dystrophy cohorts
+2013	CDK6	microcephaly 12, primary, autosomal recessive	1	23918663	Hussain, M.S.	2013	Human Molecular Genetics	CDK6 associates with the centrosome during mitosis and is mutated in a large Pakistani family with primary microcephaly
+2015	CDK6	microcephaly 12, primary, autosomal recessive	2		Faheem, M.	2015	BMC Medical Genomics	Molecular genetics of human primary microcephaly: an overview
+2018	CDK6	microcephaly 12, primary, autosomal recessive	3		Jayaraman, D.	2018	Annual Review of Genomics and Human Genetics	The Genetics of Primary Microcephaly
+2013	DDX59	ciliopathy	1	23142443	Shamseldin HE	2013	J Med Genet	Mutations in DDX59 implicate RNA helicase in the pathogenesis of orofaciodigital syndrome
+2018	DDX59	ciliopathy	2		Salpietro V	2018	Am J Med Genet A / Hum Genet	A homozygous loss-of-function mutation in DDX59 implicates a conserved DEAD-box RNA helicase in orofaciodigital syndrome and nervous system development
+2017	DDX59	ciliopathy	3		Faily S	2017	Clin Genet	Confirmation of DDX59 as a cause of orofaciodigital syndrome
+2013	DNM2	fetal akinesia-cerebral and retinal hemorrhage syndrome	1	23092955	Koutsopoulos OS	2013	European Journal of Human Genetics	Dynamin 2 homozygous mutation in humans with a lethal congenital syndrome
+2011	DNM2	fetal akinesia-cerebral and retinal hemorrhage syndrome	2		Koutsopoulos OS	2011	Human Mutation	Mild functional differences of dynamin 2 mutations associated with centronuclear myopathy and Charcot-Marie-Tooth neuropathy
+2005	DNM2	fetal akinesia-cerebral and retinal hemorrhage syndrome	3	16227997	Bitoun M	2005	Nature Genetics	Mutations in dynamin 2 cause dominant centronuclear myopathy
+2013	ELMOD3	nonsyndromic genetic hearing loss	1	23993664	Jaworek TJ	2013	PLoS Genetics	An alteration in ELMOD3, an Arl2 GTPase-activating protein, is associated with hearing impairment in humans
+2018	ELMOD3	nonsyndromic genetic hearing loss	2		Li J	2018	Journal of Human Genetics / Gene	A novel ELMOD3 variant identified in a Chinese family with autosomal dominant nonsyndromic hearing loss (DFNA81)
+2018	ELMOD3	nonsyndromic genetic hearing loss	3		Azaiez H	2018	American Journal of Human Genetics	Genomic Landscape and Mutational Signatures of Deafness-Associated Genes
+2019	ELMOD3	nonsyndromic genetic hearing loss	4		Li W	2019	Frontiers in Molecular Neuroscience / Cell Death & Disease	Elmod3 deficiency in mice causes hearing loss with stereocilia degeneration in cochlear hair cells
+2019	ELMOD3	nonsyndromic genetic hearing loss	5		DiStefano MT	2019	Genetics in Medicine	ClinGen expert clinical validity curation of 164 hearing loss gene-disease pairs
+2013	FLRT3	hypogonadotropic hypogonadism 21 with or without anosmia	1	23643382	Miraoui H	2013	American Journal of Human Genetics	Mutations in FGF17, IL17RD, DUSP6, SPRY4, and FLRT3 are identified in individuals with congenital hypogonadotropic hypogonadism
+2015	FLRT3	hypogonadotropic hypogonadism 21 with or without anosmia	2	25947037	Boehm U	2015	Nature Reviews Endocrinology	Expert consensus document: European Consensus Statement on congenital hypogonadotropic hypogonadism—pathogenesis, diagnosis and treatment
+2004	FLRT3	hypogonadotropic hypogonadism 21 with or without anosmia	3	15156152	Böttcher RT	2004	Nature Cell Biology	The transmembrane protein XFLRT3 forms a complex with FGF receptors and promotes FGF signalling
+2006	MAP2K2	Noonan syndrome	1	16439621	Rodriguez-Viciana P	2006	Science	Germline mutations in genes within the MAPK pathway cause cardio-facio-cutaneous syndrome
+2007	MAP2K2	Noonan syndrome	2	17056636	Nava C	2007	Journal of Medical Genetics	Cardio-facio-cutaneous and Noonan syndromes due to mutations in the RAS/MAPK signalling pathway: genotype-phenotype relationships and overlap with Costello syndrome
+2009	MAP2K2	Noonan syndrome	3	19293843	Dentici ML	2009	European Journal of Human Genetics	Spectrum of MEK1 and MEK2 gene mutations in cardio-facio-cutaneous syndrome and genotype-phenotype correlations
+2008	MAP2K2	Noonan syndrome	4	18042262	Schulz AL	2008	Clinical Genetics	Mutation and phenotypic spectrum in patients with cardio-facio-cutaneous and Costello syndrome
+2007	MAP2K2	Noonan syndrome	5		Narumi Y	2007	American Journal of Medical Genetics A	Molecular and clinical characterization of cardio-facio-cutaneous (CFC) syndrome: overlapping clinical manifestations with Costello syndrome
+2013	MRPL12	combined oxidative phosphorylation deficiency 45	1	23603806	Serre V	2013	Biochimica et Biophysica Acta	Mutations in mitochondrial ribosomal protein MRPL12 leads to growth retardation, neurological deterioration and mitochondrial translation deficiency
+2007	MRPL12	combined oxidative phosphorylation deficiency 45	2	17157258	Wang Z	2007	Journal of Biological Chemistry	Human mitochondrial ribosomal protein MRPL12 interacts directly with mitochondrial RNA polymerase to modulate mitochondrial gene expression
+2013	NPPA	atrial standstill 2	1	23275345	Disertori M	2013	Circulation: Cardiovascular Genetics	Autosomal recessive atrial dilated cardiomyopathy with standstill evolution associated with mutation of Natriuretic Peptide Precursor A
+2008	NPPA	atrial standstill 2	2	18650513	Hodgson-Zingman DM	2008	New England Journal of Medicine	Atrial natriuretic peptide frameshift mutation in familial atrial fibrillation
+1987	NPPA	atrial standstill 2	3		Abrahams C	1987		Familial atrial standstill/atrial cardiomyopathy clinical descriptions (background phenotype literature)
+2013	SIRT1	autoimmune disease	1	23473037	Biason-Lauber A	2013	Cell Metabolism	Identification of a SIRT1 mutation in a family with type 1 diabetes
+2015	SIRT1	autoimmune disease	2		Lim HW	2015	Journal of Experimental Medicine	SIRT1 deacetylates RORγt and enhances Th17 cell generation
+2011	SIRT1	autoimmune disease	3	21245374	Beier UH	2011	Molecular and Cellular Biology	Sirtuin-1 targeting promotes Foxp3+ T-regulatory cell function and prolongs allograft survival
+2014	SIRT1	autoimmune disease	4		Hu N	2014	Clinical/Experimental Immunology (lupus studies)	SIRT1 expression and function in systemic lupus erythematosus T cells and lupus-prone mice
+2013	STT3B	congenital disorder of glycosylation	1	23842455	Shrimal S	2013	Human Molecular Genetics	Mutations in STT3A and STT3B cause two congenital disorders of glycosylation
+2019	STT3B	congenital disorder of glycosylation	2		Ng BG	2019	Human Mutation / Journal of Inherited Metabolic Disease	Expanding the molecular and clinical spectrum of oligosaccharyltransferase-related congenital disorders of glycosylation
+2016	STT3B	congenital disorder of glycosylation	3		Cherepanova NA	2016	Current Opinion in Cell Biology	N-linked glycosylation and homeostasis of the endoplasmic reticulum (STT3A/STT3B isoform function)
+2013	TNK2	genetic generalized epilepsy	1	23674308	Hitomi Y	2013	Annals of Neurology	Mutations in TNK2 in severe autosomal recessive infantile onset epilepsy
+2018	TNK2	genetic generalized epilepsy	2		International League Against Epilepsy Consortium on Complex Epilepsies	2018	Nature Communications	Genome-wide mega-analysis identifies 16 loci and highlights diverse biological mechanisms in the common epilepsies
+2014	ABCA5	gingival fibromatosis-hypertrichosis syndrome	1	24135036	DeStefano GM	2014	Human Molecular Genetics	Mutations in the cholesterol transporter gene ABCA5 provide evidence for a role of lysosomal cholesterol transport in hypertrichosis
+2009	ABCA5	gingival fibromatosis-hypertrichosis syndrome	2	19463983	Sun M	2009	American Journal of Human Genetics	Copy-number mutations on chromosome 17q24.2-q24.3 in congenital generalized hypertrichosis terminalis with or without gingival hyperplasia
+2014	ADCY1	nonsyndromic genetic hearing loss	1	24482543	Santos-Cortez RLP	2014	Human Molecular Genetics	Adenylate cyclase 1 (ADCY1) mutations cause recessive hearing impairment in humans and defects in hair cell function and hearing in zebrafish
+2003	ADCY1	nonsyndromic genetic hearing loss	2		Ansar M	2003	Clinical Genetics / Journal of Human Genetics	A novel autosomal recessive nonsyndromic deafness locus (DFNB44) maps to chromosome 7p14.1-q11.22
+2019	ADCY1	nonsyndromic genetic hearing loss	3		DiStefano MT	2019	Genetics in Medicine	ClinGen expert clinical validity curation of 164 hearing loss gene-disease pairs
+2012	BMP7	isolated craniosynostosis	1	22561519	Justice CM	2012	Nature Genetics	A genome-wide association study identifies susceptibility loci for nonsyndromic sagittal craniosynostosis near BMP2 and within BBS9
+2016	BMP7	isolated craniosynostosis	2	27606499	Timberlake AT	2016	eLife	Two locus inheritance of non-syndromic midline craniosynostosis via rare SMAD6 and common BMP2 alleles
+2017	BMP7	isolated craniosynostosis	3	29018095	Timberlake AT	2017	PNAS	De novo mutations in inhibitors of Wnt, BMP, and Ras/ERK signaling pathways in non-syndromic midline craniosynostosis
+1998	BMP7	isolated craniosynostosis	4	9435304	Kim HJ	1998	Development	FGF-, BMP- and Shh-mediated signalling pathways in the regulation of cranial suture morphogenesis and calvarial bone development
+2013	BMP7	isolated craniosynostosis	5	23633490	Komatsu Y	2013	Journal of Bone and Mineral Research	Augmentation of Smad-dependent BMP signaling in neural crest cells causes craniosynostosis in mice
+2020	DNAH8	primary ciliary dyskinesia	1	32619401	Liu C	2020	American Journal of Human Genetics	Bi-allelic DNAH8 Variants Lead to Multiple Morphological Abnormalities of the Sperm Flagella and Primary Male Infertility
+2000	DNAH8	primary ciliary dyskinesia	2		Maiti AK	2000	Cytogenetics and Cell Genetics	Genomic structure of DNAH8, an axonemal dynein heavy chain gene, a candidate for primary ciliary dyskinesia mapping to 6p21.3
+2019	DNAH8	primary ciliary dyskinesia	3		Whitfield M	2019	American Journal of Human Genetics	Mutations in DNAH17, encoding a sperm-specific axonemal outer dynein arm heavy chain, cause isolated male infertility due to asthenozoospermia (context for testis-specific dynein heavy chains versus PCD)
+2011	DNAH8	primary ciliary dyskinesia	4		Zariwala MA	2011	Annual Review of Physiology / GeneReviews	Genetic defects in ciliary structure and function (review of PCD genes, DNAH family candidates)
+2016	FBXO32	dilated cardiomyopathy	1		Al-Yacoub N	2016	Genome Biology	FBXO32, encoding a member of the SCF complex, is mutated in dilated cardiomyopathy
+2021	FBXO32	dilated cardiomyopathy	2		Al-Yacoub N	2021	Communications Biology / Cell Death & Disease	FBXO32 mutation causes dilated cardiomyopathy through endoplasmic reticulum stress-mediated apoptosis
+2004	FBXO32	dilated cardiomyopathy	3	15372108	Li HH	2004	Journal of Clinical Investigation	Atrogin-1/muscle atrophy F-box inhibits calcineurin-dependent cardiac hypertrophy by participating in an SCF ubiquitin ligase complex
+2014	FBXO32	dilated cardiomyopathy	4		Zaglia T	2014	Journal of Clinical Investigation	Atrogin-1 deficiency promotes cardiomyopathy and premature death via impaired autophagy
+2021	FBXO32	dilated cardiomyopathy	5		Jordan E	2021	Circulation	Evidence-based assessment of genes in dilated cardiomyopathy
+2018	IARS2	Leigh syndrome	1	29174502	Takezawa Y	2018	Brain & Development	Novel IARS2 mutations in Japanese siblings with CAGSSS, Leigh, and West syndrome
+2014	IARS2	Leigh syndrome	2	24482476	Schwartzentruber J	2014	Human Mutation	Mutation in the nuclear-encoded mitochondrial isoleucyl-tRNA synthetase IARS2 in patients with cataracts, growth hormone deficiency with short stature, partial sensorineural deafness, and peripheral neuropathy or with Leigh syndrome
+2017	IARS2	Leigh syndrome	3		Moosa S	2017	American Journal of Medical Genetics A	Confirmation of CAGSSS syndrome as a distinct entity in a patient with biallelic IARS2 mutations
+2018	IARS2	Leigh syndrome	4		Vona B	2018	Clinical Genetics / European Journal of Medical Genetics	Biallelic IARS2 variants in patients with mitochondrial disease including Leigh-like presentation
+2014	KIF4A	complex neurodevelopmental disorder with or without congenital anomalies	1	24812067	Willemsen MH	2014	Journal of Medical Genetics	Involvement of the kinesin family members KIF4A and KIF5C in intellectual disability and synaptic function
+2016	KIF4A	complex neurodevelopmental disorder with or without congenital anomalies	2	26350204	Hu H	2016	Molecular Psychiatry	X-exome sequencing of 405 unresolved families identifies seven novel intellectual disability genes
+2021	KIF4A	complex neurodevelopmental disorder with or without congenital anomalies	3		Ouyang	2021	Clinical Genetics / Frontiers in Genetics	KIF4A variants in patients with X-linked intellectual disability and epilepsy (case report)
+2006	KIF4A	complex neurodevelopmental disorder with or without congenital anomalies	4		Midorikawa R	2006	Cell	KIF4 motor regulates activity-dependent neuronal survival by suppressing PARP-1 enzymatic activity
+2012	KPNA7	epilepsy	1	22279524	Puffenberger EG	2012	PLoS One	Genetic mapping and exome sequencing identify variants associated with five novel diseases
+2017	KPNA7	epilepsy	2		Vuorinen EM	2017	PLoS One / J Cell Sci	Functional characterization of KPNA7 and disease-associated mutations affecting nuclear import
+2018	KPNA7	epilepsy	3		Paakkola T	2018	Human Molecular Genetics / Clinical Genetics	Biallelic KPNA7 variants in patients with developmental delay, epilepsy and dysmorphic features
+2023	RGS6	neurodevelopmental disorder	1		Maroofian, R. (recalled, unverified)	2023		Bi-allelic loss-of-function variants in RGS6 cause a neurodevelopmental disorder with hyperkinetic movement disorder and cerebellar atrophy
+2014	RGS6	neurodevelopmental disorder	2	24516405	Bifsha, P.	2014	PLoS Genetics	Rgs6 is required for adult maintenance of dopaminergic neurons in the ventral substantia nigra
+2015	RGS6	neurodevelopmental disorder	3		Stewart, A.	2015	PNAS	Regulator of G protein signaling 6 is a critical mediator of both reward-related behavioral and pathological responses to alcohol
+2014	RGS6	neurodevelopmental disorder	4		Stewart, A.	2014	Nature Neuroscience	Regulator of G-protein signaling 6 (RGS6) promotes anxiety and depression by attenuating serotonin-mediated activation of the 5-HT1A receptor-adenylyl cyclase axis
+2014	RPS20	Lynch syndrome	1	24941021	Nieminen TT	2014	Gastroenterology	Germline mutation of RPS20 in a familial colorectal cancer predisposition
+2017	RPS20	Lynch syndrome	2		Broderick P	2017	Gastroenterology	Validation of Recently Proposed Colorectal Cancer Susceptibility Gene Variants in an Analysis of Families and Patients—a Systematic Review
+2020	RPS20	Lynch syndrome	3		Djursby M	2020	Frontiers in Genetics	New Pathogenic Germline Variants in Very Early Onset and Familial Colorectal Cancer Patients
+2016	RPS20	Lynch syndrome	4		Thutkawkorapin J	2016	BMC Medical Genetics / Familial Cancer	Exome sequencing in one familial colorectal cancer type X family
+2019	SETD1A	epilepsy, early-onset, with or without developmental delay	1	31372903	Yu	2019	Neuroscience Bulletin	De Novo and Inherited SETD1A Variants in Early-onset Epilepsy
+2021	SETD1A	epilepsy, early-onset, with or without developmental delay	2	32346159	Kummeling	2021	Molecular Psychiatry	Characterization of SETD1A haploinsufficiency in humans and Drosophila defines a novel neurodevelopmental syndrome
+2016	SETD1A	epilepsy, early-onset, with or without developmental delay	3	27018473	Singh	2016	Nature Neuroscience	Rare loss-of-function variants in SETD1A are associated with schizophrenia and developmental disorders
+2017	SETD1A	epilepsy, early-onset, with or without developmental delay	4	28135719	Deciphering Developmental Disorders Study	2017	Nature	Prevalence and architecture of de novo mutations in developmental disorders
+2019	SETD1A	epilepsy, early-onset, with or without developmental delay	5		Epi25 Collaborative	2019	American Journal of Human Genetics	Ultra-rare genetic variation in the epilepsies: a whole-exome sequencing study of 17,606 individuals
+2008	SIX2	congenital anomaly of kidney and urinary tract	1	18199800	Weber S	2008	J Am Soc Nephrol	SIX2 and BMP4 mutations associate with anomalous kidney development
+2014	SIX2	congenital anomaly of kidney and urinary tract	2	25229338	Hwang DY	2014	Kidney Int	Mutations in 12 known dominant disease-causing genes clarify many congenital anomalies of the kidney and urinary tract
+2008	SIX2	congenital anomaly of kidney and urinary tract	3	18977319	Kobayashi A	2008	Cell Stem Cell	Six2 defines and regulates a multipotent self-renewing nephron progenitor population throughout mammalian kidney development
+2006	SIX2	congenital anomaly of kidney and urinary tract	4	16458856	Self M	2006	EMBO J	Six2 is required for suppression of nephrogenesis and progenitor renewal in the developing kidney
+2018	SIX2	congenital anomaly of kidney and urinary tract	5		van der Ven AT	2018	J Am Soc Nephrol	Whole-exome sequencing identifies causative mutations in families with congenital anomalies of the kidney and urinary tract
+2014	TBXT	sacral agenesis-abnormal ossification of the vertebral bodies-persistent notochordal canal syndrome	1	24603426	Postma AV	2014	Journal of Medical Genetics	Mutations in the T (brachyury) gene cause a novel syndrome consisting of sacral agenesis, abnormal ossification of the vertebral bodies and a persistent notochordal canal
+2008	TBXT	sacral agenesis-abnormal ossification of the vertebral bodies-persistent notochordal canal syndrome	2	17409277	Ghebranious N	2008	American Journal of Medical Genetics Part A	A missense T (Brachyury) mutation contributes to vertebral malformations
+1999	TBXT	sacral agenesis-abnormal ossification of the vertebral bodies-persistent notochordal canal syndrome	3	17409277	Papapetrou C	1999	FEBS Letters	The T transcription factor and its role in human embryogenesis/neural tube defects
+2008	TSEN54	cerebellar ataxia	1	18711368	Budde BS	2008	Nature Genetics	tRNA splicing endonuclease mutations cause pontocerebellar hypoplasia
+2011	TSEN54	cerebellar ataxia	2	21378097	Namavar Y	2011	Brain	Clinical, neuroradiological and genetic findings in pontocerebellar hypoplasia
+2009 (updated)	TSEN54	cerebellar ataxia	3	20301968	Namavar Y	2009 (updated)	GeneReviews	TSEN54-Related Pontocerebellar Hypoplasia
+2014	TSEN54	cerebellar ataxia	4	24524299	Sánchez-Albisua I	2014	Orphanet Journal of Rare Diseases	Natural course of pontocerebellar hypoplasia type 2A
+2010	TSEN54	cerebellar ataxia	5	20940555	Cassandrini D	2010	Journal of Child Neurology	Pontocerebellar hypoplasia type 2: clinical, neuroimaging and genetic findings
+2015	APC2	intellectual developmental disorder, autosomal recessive 74	1	25959143	Almuriekhi	2015	Cell Reports	Loss-of-Function Mutation in APC2 Causes Sotos Syndrome Features
+2022	APC2	intellectual developmental disorder, autosomal recessive 74	2		Lee	2022	Genetics in Medicine	Biallelic APC2 variants cause a neurodevelopmental disorder with intellectual disability and cortical malformations
+2009	APC2	intellectual developmental disorder, autosomal recessive 74	3	19846714	Shintani	2009	Journal of Neuroscience	APC2 plays an essential role in axonal projections through the regulation of microtubule stability
+2012	APC2	intellectual developmental disorder, autosomal recessive 74	4		Shintani	2012	Journal of Neuroscience Research / Dev Neurobiol	Apc2 deficiency causes abnormal cortical lamination and impaired learning in mice
+2005	ASPN	osteoarthritis susceptibility 3	1	15640800	Kizawa H	2005	Nature Genetics	An aspartic acid repeat polymorphism in asporin inhibits chondrogenesis and increases susceptibility to osteoarthritis
+2006	ASPN	osteoarthritis susceptibility 3	2	16447239	Jiang Q	2006	Arthritis and Rheumatism	Replication of the association of the aspartic acid repeat polymorphism in the asporin gene with knee-osteoarthritis susceptibility in Han Chinese
+2005	ASPN	osteoarthritis susceptibility 3	3	16258892	Mustafa Z	2005	Arthritis and Rheumatism	Investigating the aspartic acid (D) repeat of asporin as a risk factor for osteoarthritis in a UK Caucasian population
+2006	ASPN	osteoarthritis susceptibility 3	4	16837490	Rodriguez-Lopez J	2006	Annals of the Rheumatic Diseases	Lack of association of a variable number of aspartic acid residues in the asporin gene with osteoarthritis susceptibility: case-control studies in Spanish Caucasians
+2008	ASPN	osteoarthritis susceptibility 3	5	18668547	Song YQ	2008	Human Genetics	Association of the asporin D14 allele with lumbar-disc degeneration in Asians
+2015	CLPB	Leigh syndrome	1	26510951	Wortmann, S.B.	2015	Nature Genetics	CLPB mutations cause 3-methylglutaconic aciduria, progressive brain atrophy, intellectual disability, congenital neutropenia, cataracts, movement disorder
+2015	CLPB	Leigh syndrome	2	26637980	Saunders, C.	2015	American Journal of Human Genetics	CLPB variants associated with autosomal-recessive mitochondrial disorder with cataract, neutropenia, epilepsy, and methylglutaconic aciduria
+2015	CLPB	Leigh syndrome	3	26566882	Capo-Chichi, J.M.	2015	Journal of Medical Genetics	Disruption of CLPB is associated with congenital microcephaly, severe encephalopathy and 3-methylglutaconic aciduria
+2022	CLPB	Leigh syndrome	4	35830597	Warren, J.T.	2022	Blood	Heterozygous variants of CLPB are a cause of severe congenital neutropenia
+2021	CLPB	Leigh syndrome	5		Wortmann, S.B.	2021	Journal of Inherited Metabolic Disease	Review: CLPB deficiency — clinical and biochemical spectrum
+2015	KITLG	Waardenburg syndrome 2F	1	26522471	Zazo Seco C	2015	American Journal of Human Genetics	Allelic Mutations of KITLG, Encoding KIT Ligand, Cause Asymmetric and Unilateral Hearing Loss and Waardenburg Syndrome Type 2
+2009	KITLG	Waardenburg syndrome 2F	2	19185281	Wang ZQ	2009	American Journal of Human Genetics	Mutations in KITLG (SCF) cause familial progressive hyper- and hypopigmentation
+2010	KITLG	Waardenburg syndrome 2F	3		Pingault V	2010	Human Mutation	Review and update of mutations causing Waardenburg syndrome
+2015	KLC4	early-childhood-onset neurodegeneration with retinitis pigmentosa, sensorineural hearing loss, and demyelinating peripheral neuropathy	1		Bayrakli F	2015	Journal of Human Genetics	Hereditary spastic paraplegia with recessive trait caused by mutation in KLC4 gene
+2003	NDUFV2	Leigh syndrome	1	12754703	Bénit P	2003	Human Mutation	Mutant NDUFV2 subunit of mitochondrial complex I causes early onset hypertrophic cardiomyopathy and encephalopathy
+2016	NDUFV2	Leigh syndrome	2	26506407	Lake NJ	2016	Annals of Neurology	Leigh syndrome: One disorder, more than 75 monogenic causes
+2017	NDUFV2	Leigh syndrome	3		Rahman S	2017	Journal of Inherited Metabolic Disease	Leigh syndrome: clinical features, biochemical and DNA abnormalities (review of nuclear complex I subunit genes)
+2008	PRICKLE1	epilepsy	1	18976727	Bassuk AG	2008	American Journal of Human Genetics	A homozygous mutation in human PRICKLE1 causes an autosomal-recessive progressive myoclonus epilepsy-ataxia syndrome
+2011	PRICKLE1	epilepsy	2	21276947	Tao H	2011	American Journal of Human Genetics	Mutations in prickle orthologs cause seizures in flies, mice, and humans
+2013	PRICKLE1	epilepsy	3		Paemka L	2013	PLoS ONE	PRICKLE1 interaction with SYNAPSIN I reveals a role in autism spectrum disorders
+2018	PRICKLE1	epilepsy	4		Mastrangelo M	2018	Seizure / Brain & Development	Progressive myoclonus epilepsy and PRICKLE1-related disorders: clinical review
+2018	PRICKLE1	epilepsy	5		Helbig KL	2018	Genetics in Medicine	Gene curation and the ClinGen Epilepsy Gene Curation Expert Panel
+2015	PRIMA1	epilepsy	1		Hildebrand MS	2015	Annals of Clinical and Translational Neurology	PRIMA1 mutation: a new cause of nocturnal frontal lobe epilepsy
+2002	PRIMA1	epilepsy	2		Perrier AL	2002	Neuron	PRiMA: the membrane anchor of acetylcholinesterase in the brain
+2009	PRIMA1	epilepsy	3		Dobbertin A	2009	Journal of Neuroscience	Targeting of acetylcholinesterase in neurons in vivo: a dual processing function for the proline-rich membrane anchor subunit and the attachment domain on the catalytic subunit
+2015	PRIMA1	frontal lobe epilepsy	1	26339677	Hildebrand MS	2015	Annals of Clinical and Translational Neurology	PRIMA1 mutation: a new cause of nocturnal frontal lobe epilepsy
+2019	SPP2	retinitis pigmentosa	1		Liu	2019	Human Molecular Genetics	SPP2 mutations cause autosomal dominant retinitis pigmentosa
+2000	TNNI1	childhood-onset nemaline myopathy	1	11053688	Johnston JJ	2000	American Journal of Human Genetics	A novel nemaline myopathy in the Amish caused by a mutation in troponin T1
+2019	TNNI1	childhood-onset nemaline myopathy	2		Sewry CA	2019	Neuromuscular Disorders	Nemaline myopathies: a current view
+2016	USP27X	X-linked intellectual disability	1	26350204	Hu H	2016	Molecular Psychiatry	X-exome sequencing of 405 unresolved families identifies seven novel intellectual disability genes
+2016	USP27X	X-linked intellectual disability	2		Kochinke K	2016	American Journal of Human Genetics	Systematic phenomics analysis deconvolutes genes mutated in intellectual disability into biologically coherent modules (SysID database)
+2009	CDK16	intellectual disability	1	19377476	Tarpey	2009	Nature Genetics	A systematic, large-scale resequencing screen of X-chromosome coding exons in mental retardation
+2010	CDK16	intellectual disability	2		Giannandrea	2010	American Journal of Human Genetics	Mutations in the small GTPase gene RAB39B are responsible for X-linked mental retardation associated with autism, epilepsy, and macrocephaly (Xp11 region context)
+2002	CDK16	intellectual disability	3	16609150	Cheng	2002	Journal of Biological Chemistry	PCTAIRE1 is activated by p35/CDK5 pathway components in neurons
+2012	CDK16	intellectual disability	4	22700971	Mikolcevic	2012	Molecular and Cellular Biology	Cyclin-dependent kinase 16/PCTAIRE kinase 1 is activated by cyclin Y and is essential for spermatogenesis
+2016	IFT57	orofaciodigital syndrome 18	1		Thevenon J	2016	Clinical Genetics	Autosomal recessive IFT57 hypomorphic mutation cause ciliary transport defect in unclassified oral-facial-digital syndrome with short stature and brachymesophalangia
+2006	IFT57	orofaciodigital syndrome 18	2		Houde C	2006	Developmental Biology	Hippi is essential for node cilia assembly and Sonic hedgehog signaling
+2025	ITSN1	complex neurodevelopmental disorder	1		Bhandari	2025	Cell Reports Medicine	Loss-of-function variants in ITSN1 confer high risk of Parkinson's disease
+2014	ITSN1	complex neurodevelopmental disorder	2		Iossifov	2014	Nature	The contribution of de novo coding mutations to autism spectrum disorder
+2011	ITSN1	complex neurodevelopmental disorder	3		Hunter	2011	Biochemical Journal / Mol Biol Cell	Intersectin 1 contributes to phenotypes in vivo: implications for Down's syndrome
+2008	ITSN1	complex neurodevelopmental disorder	4		Yu	2008	Molecular Biology of the Cell	Mice deficient for the chromosome 21 ortholog Itsn1 exhibit vesicle-trafficking abnormalities
+2017	ITSN1	complex neurodevelopmental disorder	5		Jakob	2017	Nature Communications	Intersectin 1 is a modifier of endocytosis and neuronal signaling
+2016	MRPS23	combined oxidative phosphorylation deficiency 46	1	26741492	Kohda M	2016	PLoS Genetics	A Comprehensive Genomic Analysis Reveals the Genetic Landscape of Mitochondrial Respiratory Chain Complex Deficiencies
+2017	MRPS23	combined oxidative phosphorylation deficiency 46	2		Ferrari A	2017	Proceedings of the National Academy of Sciences	Hmm: Functional characterization of mitoribosomal small subunit proteins and assembly intermediates
+2015	PNPLA4	mitochondrial disease	1	25539947	Saunders	2015	American Journal of Human Genetics	CLPB variants associated with autosomal-recessive mitochondrial disorder with cataract, neutropenia, epilepsy, and methylglutaconic aciduria (companion PNPLA8 literature context)
+2016	PNPLA4	mitochondrial disease	2	26666268	Mandel	2016	Journal of Medical Genetics	Mutation in PNPLA8 encoding calcium-independent phospholipase A2γ causes a mitochondriopathy with elevated plasma lactate
+2004	PNPLA4	mitochondrial disease	3	15364929	Gao	2004	Journal of Lipid Research	Identification of a novel keratinocyte retinyl ester hydrolase as a transacylase and lipase (GS2/PNPLA4)
+2004	SEMA3E	CHARGE syndrome	1	14985391	Lalani SR	2004	Journal of Medical Genetics	SEMA3E mutation in a patient with CHARGE syndrome
+2004	SEMA3E	CHARGE syndrome	2	15300250	Vissers LELM	2004	Nature Genetics	Mutations in a new member of the chromodomain gene family cause CHARGE syndrome
+2006	SEMA3E	CHARGE syndrome	3	16400610	Lalani SR	2006	American Journal of Human Genetics	Spectrum of CHD7 mutations in 110 individuals with CHARGE syndrome and genotype-phenotype correlation
+2005	SEMA3E	CHARGE syndrome	4		Gu C	2005	Science	Semaphorin 3E and plexin-D1 control vascular pattern independently of neuropilins
+2015	SEMA3E	CHARGE syndrome	5		Cariboni A	2015	Journal of Clinical Investigation	Dysfunctional SEMA3E signaling underlies gonadotropin-releasing hormone neuron deficiency in Kallmann syndrome
+1995	SLC14A1	blood group, kidd system	1	7797559	Olivès B	1995	J Biol Chem	Kidd blood group and urea transport function of human erythrocytes are carried by the same protein
+1998	SLC14A1	blood group, kidd system	2	9830031	Lucien N	1998	J Biol Chem	Characterization of the gene encoding the human Kidd blood group/urea transporter protein. Evidence for splice site mutations in Jknull individuals
+2002	SLC14A1	blood group, kidd system	3	12385410	Irshaid NM	2002	Transfusion	Genomic characterization of the kidd blood group gene: different molecular basis of the Jk(a-b-) phenotype in Polynesians and Finns
+2002	SLC14A1	blood group, kidd system	4		Lucien N	2002	J Biol Chem	Antigenic and functional properties of the human red blood cell urea transporter hUT-B1
+2000	SLC14A1	blood group, kidd system	5		Sidoux-Walter F	2000	J Biol Chem	At physiological expression levels the Kidd blood group/urea transporter protein is not a water channel
+2009	SMARCA1	schizophrenia	1	19297400	Koga M	2009	Human Molecular Genetics	Involvement of SMARCA2/BRM in the SWI/SNF chromatin-remodeling complex in schizophrenia
+2012	SMARCA1	schizophrenia	2	22434868	Yip DJ	2012	Developmental Cell	Snf2l regulates Foxg1-dependent progenitor cell expansion in the developing brain
+2022	SPTBN5	neurodevelopmental disorder	1		Ali	2022	Frontiers in Molecular Neuroscience	SPTBN5, Encoding the βV-Spectrin Protein, Leads to a Syndrome of Intellectual Disability, Developmental Delay, and Seizures
+2021	SPTBN5	neurodevelopmental disorder	2	33483716	Cousin	2021	Nature Genetics	Pathogenic SPTBN1 variants cause an autosomal dominant neurodevelopmental syndrome
+2017	SPTBN5	neurodevelopmental disorder	3	28686858	Knierim	2017	Journal of Neurology	A recessive mutation in beta-IV-spectrin (SPTBN4) associates with congenital myopathy, neuropathy, and central deafness
+2016	TCF7L1	combined pituitary hormone deficiencies, genetic form	1	26764381	Gaston-Massuet C	2016	Proceedings of the National Academy of Sciences USA	Transcription factor 7-like 1 is involved in hypothalamo-pituitary axis development in mice and humans
+2019	TCF7L1	combined pituitary hormone deficiencies, genetic form	2		Gregory LC	2019	Clinical Endocrinology / Best Practice & Research Clinical Endocrinology & Metabolism	Genetic causes of congenital hypopituitarism and septo-optic dysplasia (review including TCF7L1)
+2018	TOP6BL	hydatidiform mole, recurrent, 4	1	30388401	Nguyen NMP	2018	American Journal of Human Genetics	Causative Mutations and Mechanism of Androgenetic Hydatidiform Moles
+2020	TOP6BL	hydatidiform mole, recurrent, 4	2		Slim R	2020	Journal of Medical Genetics / Reviews	Recurrent hydatidiform moles: genetic causes and mechanisms (review covering NLRP7, KHDC3L, MEI1, TOP6BL, REC114)
+2016	TOP6BL	hydatidiform mole, recurrent, 4	3	27151869	Robert T	2016	Science	The TopoVIB-Like protein family is required for meiotic DNA double-strand break formation
+2016	WBP2	hearing loss, autosomal recessive	1	27	Buniello A	2016	EMBO Molecular Medicine	Wbp2 is required for normal glutamatergic synapses in the cochlea and is crucial for hearing
+	WBP2	hearing loss, autosomal recessive	2				OMIM	Deafness, autosomal recessive 107 (DFNB107); WBP2 entry
+2017	ATAD3C	pontocerebellar hypoplasia, hypotonia, and respiratory insufficiency syndrome, neonatal lethal	1	28549128	Desai	2017	Brain	ATAD3 gene cluster deletions cause cerebellar dysfunction associated with altered mitochondrial DNA and cholesterol metabolism
+2020	ATAD3C	pontocerebellar hypoplasia, hypotonia, and respiratory insufficiency syndrome, neonatal lethal	2	32640852	Gunning	2020	American Journal of Human Genetics	Recurrent de novo NAHR reciprocal duplications in the ATAD3 gene cluster cause a neurogenetic trait with perturbed cholesterol and mitochondrial metabolism
+2016	ATAD3C	pontocerebellar hypoplasia, hypotonia, and respiratory insufficiency syndrome, neonatal lethal	3	26924529	Harel	2016	American Journal of Human Genetics	Recurrent de novo and biallelic variation of ATAD3A, encoding a mitochondrial membrane protein, results in distinct neurological syndromes
+2021	ATAD3C	pontocerebellar hypoplasia, hypotonia, and respiratory insufficiency syndrome, neonatal lethal	4	33869118	Frazier	2021	Human Molecular Genetics	Fatal perinatal mitochondrial cardiac failure caused by recurrent de novo duplications in the ATAD3 locus
+2018	ATAD3C	pontocerebellar hypoplasia, hypotonia, and respiratory insufficiency syndrome, neonatal lethal	5	30309407	Peralta	2018	Human Molecular Genetics	ATAD3 controls mitochondrial cristae structure, influencing mtDNA replication and cholesterol trafficking
+	CENPT	short stature and microcephaly with genital anomalies	1				Journal of Human Genetics / Clinical Genetics	Biallelic CENPT variant in siblings with short stature, microcephaly, developmental delay and genital anomalies (with functional centromere-localization studies)
+2001	DTNA	dilated cardiomyopathy	1	11509531	Ichida F	2001	Circulation	Novel gene mutations in patients with left ventricular noncompaction or Barth syndrome
+1999	DTNA	dilated cardiomyopathy	2	10559868	Grady RM	1999	Nature Cell Biology	Role for alpha-dystrobrevin in the pathogenesis of dystrophin-dependent muscular dystrophies
+2021	DTNA	dilated cardiomyopathy	3	33831308	Jordan E	2021	Circulation	Evidence-Based Assessment of Genes in Dilated Cardiomyopathy
+2004	DTNA	dilated cardiomyopathy	4		Hermida-Prieto M	2004	American Journal of Cardiology	Familial dilated cardiomyopathy and isolated left ventricular noncompaction associated with lamin A/C gene mutations
+2017	ERBIN	autosomal dominant combined immunodeficiency due to ERBIN deficiency	1	27577878	Lyons JJ	2017	J Allergy Clin Immunol	ERBIN deficiency links STAT3 and TGF-β pathway defects with atopy in humans
+2022	ERBIN	autosomal dominant combined immunodeficiency due to ERBIN deficiency	2		Tangye SG	2022	J Clin Immunol	Human Inborn Errors of Immunity: 2022 Update on the Classification from the IUIS Expert Committee
+2013	ERBIN	autosomal dominant combined immunodeficiency due to ERBIN deficiency	3		Frischmeyer-Guerrerio PA	2013	Sci Transl Med	TGFβ receptor mutations impose a strong predisposition for human allergic disease
+2011	IL37	inflammatory bowel disease (infantile ulcerative colitis) 31, autosomal recessive	1	21844351	McNamee EN	2011	Proc Natl Acad Sci USA	Interleukin 37 expression protects mice from colitis
+2010	IL37	inflammatory bowel disease (infantile ulcerative colitis) 31, autosomal recessive	2	20935647	Nold MF	2010	Nature Immunology	IL-37 is a fundamental inhibitor of innate immunity
+2017	INTS8	neurodevelopmental disorder with cerebellar hypoplasia and spasticity	1	28542170	Oegema R	2017	PLoS Genetics	Human mutations in integrator complex subunits link transcriptome integrity to brain development
+2019	INTS8	neurodevelopmental disorder with cerebellar hypoplasia and spasticity	2	30250217	Krall M	2019	European Journal of Human Genetics	Biallelic sequence variants in INTS1 in patients with developmental delays, cataracts, and craniofacial anomalies
+2022	KIF15	braddock-carey syndrome 2	1			2022		Biallelic KIF15 variants cause a Braddock-Carey-like syndrome with congenital thrombocytopenia, Pierre Robin sequence and corpus callosum anomalies
+1994	KIF15	braddock-carey syndrome 2	2		Braddock	1994	American Journal of Medical Genetics	Congenital thrombocytopenia, Robin sequence, agenesis of the corpus callosum, distinctive facies and developmental delay (Braddock-Carey syndrome)
+2008	KIF17	microphthalmia, isolated, with coloboma	1	18094260	Insinna C	2008	Developmental Biology	Intraflagellar transport and the sensory outer segment of vertebrate photoreceptors
+2009	KIF17	microphthalmia, isolated, with coloboma	2	19073170	Insinna C	2009	Developmental Dynamics	Different roles for KIF17 and kinesin II in photoreceptor development and maintenance
+2004	SNAI1	congenital heart disease	1	14701881	Timmerman LA	2004	Genes & Development	Notch promotes epithelial-mesenchymal transition during cardiac development and oncogenic transformation
+2008	SNAI1	congenital heart disease	2	18268107	Niessen K	2008	Journal of Cell Biology	Slug is a direct Notch target required for initiation of cardiac cushion cellularization
+2011	SNAI1	congenital heart disease	3	21777574	Tao G	2011	Developmental Biology	Mmp15 is a direct target of Snai1 during endothelial to mesenchymal transformation and endocardial cushion development
+2010	SNAI1	congenital heart disease	4	20890045	Luna-Zurita L	2010	Journal of Clinical Investigation	Integration of a Notch-dependent mesenchymal gene program and Bmp2-driven cell invasiveness regulates murine cardiac valve formation
+2001	SNAI1	congenital heart disease	5	11564889	Carver EA	2001	Molecular and Cellular Biology	The mouse snail gene encodes a key regulator of the epithelial-mesenchymal transition
+2000	TNNT1	nemaline myopathy 5C, autosomal dominant	1	10932196	Johnston JJ	2000	American Journal of Human Genetics	A novel nemaline myopathy in the Amish caused by a mutation in troponin T1
+2017	TNNT1	nemaline myopathy 5C, autosomal dominant	2		Konersman CG	2017	Neuromuscular Disorders	Novel autosomal recessive TNNT1 mutation causing nemaline myopathy
+2020	TNNT1	nemaline myopathy 5C, autosomal dominant	3		Pellerin D	2020	Journal of Neuromuscular Diseases / Neuromuscular Disorders	Novel recessive TNNT1 congenital core-rod myopathy in French Canadians
+2014	TNNT1	nemaline myopathy 5C, autosomal dominant	4		van der Pol WL	2014	Journal of Medical Genetics	Nemaline myopathy caused by TNNT1 mutations in a Dutch pedigree
+2016	TNNT1	nemaline myopathy 5C, autosomal dominant	5		de Winter JM	2016	Journal of Medical Genetics / Human Molecular Genetics	Troponin T mutations and thin filament dysfunction in nemaline myopathy
+2017	TRIM36	anencephaly 1	1	28087737	Singh, N.	2017	Human Molecular Genetics	Homozygous mutation in TRIM36 causes autosomal recessive anencephaly in an Indian family
+2009	TRIM36	anencephaly 1	2	19570982	Cuykendall, T.N.	2009	Development	Vegetally localized Xenopus trim36 regulates cortical rotation and dorsal axis formation
+2009	TRIM36	anencephaly 1	3		Miyajima, N.	2009	Journal of Biological Chemistry	TRIM36 interacts with the kinetochore protein CENP-H and delays cell cycle progression
+2018	ATP5F1D	mitochondrial disease	1	29478781	Oláhová M	2018	American Journal of Human Genetics	Biallelic Mutations in ATP5F1D, which Encodes a Subunit of ATP Synthase, Cause a Metabolic Disorder
+2018	CALCRL	lymphatic malformation 8	1	29789627	Mackie DI	2018	Journal of Experimental Medicine	hCALCRL mutation causes autosomal recessive nonimmune hydrops fetalis with lymphatic dysplasia
+2008	CALCRL	lymphatic malformation 8	2	18188453	Fritz-Six KL	2008	Journal of Clinical Investigation	Adrenomedullin signaling is necessary for murine lymphatic vascular development
+2006	CALCRL	lymphatic malformation 8	3	16801555	Dackor RT	2006	Molecular and Cellular Biology	Hydrops fetalis, cardiovascular defects, and embryonic lethality in mice lacking the calcitonin receptor-like receptor gene
+2013	CALCRL	lymphatic malformation 8	4		Karpinich NO	2013	Journal of Clinical Investigation	Adrenomedullin gene dosage correlates with tumor and lymph node lymphangiogenesis
+2020	CEP112	spermatogenic failure 44	1	32569787	Sha Y	2020	Life Sciences	Biallelic mutations of CEP112 lead to male infertility characterized by head-tail detachment of spermatozoa
+2024	CEP112	spermatogenic failure 44	2		Wang	2024	Nature Communications / Cell Reports	CEP112 regulates translation of essential genes during spermiogenesis (mouse model and human variants)
+2018	CLCC1	retinitis pigmentosa	1	30148828	Li L	2018	PLoS Genetics	Mutation in the intracellular chloride channel CLCC1 associated with autosomal recessive retinitis pigmentosa
+2005	CLCC1	retinitis pigmentosa	2		Zhang Q	2005	Molecular Vision / Investigative Ophthalmology	A novel locus (RP32) for autosomal recessive retinitis pigmentosa maps to chromosome 1p21.3-13.3
+2015	CLCC1	retinitis pigmentosa	3		Jia Y	2015	PLoS Genetics / Journal of Neuroscience	Clcc1 is required for neuronal and retinal homeostasis in mouse models
+2018	GATC	inborn mitochondrial metabolism disorder	1	30283131	Friederich MW	2018	Nature Communications	Pathogenic variants in glutamyl-tRNA(Gln) amidotransferase subunits cause a lethal mitochondrial cardiomyopathy disorder
+2009	GATC	inborn mitochondrial metabolism disorder	2		Nagao A	2009	Proc Natl Acad Sci USA	Biogenesis of glutaminyl-mt tRNAGln in human mitochondria
+2014	HKDC1	retinitis pigmentosa	1	25190649	Sullivan LS	2014	Investigative Ophthalmology & Visual Science	A dominant mutation in hexokinase 1 (HK1) causes retinitis pigmentosa
+2016	HKDC1	retinitis pigmentosa	2	27885319	Wang X	2016	Journal of Medical Genetics	Comprehensive molecular diagnosis of a large cohort of patients with inherited retinal diseases by next-generation sequencing
+2015	HKDC1	retinitis pigmentosa	3	25648650	Guo C	2015	Diabetes	Coordinated regulatory variation associated with gestational hyperglycaemia regulates expression of the novel hexokinase HKDC1
+2021	HKDC1	retinitis pigmentosa 92	1			2021		Biallelic variants in HKDC1 identified in autosomal recessive retinitis pigmentosa (basis of OMIM RP92, #619614)
+2022	IFT74	spermatogenic failure 58	1		Zhang	2022		Bi-allelic variants in IFT74 associated with male infertility/asthenoteratozoospermia (spermatogenic failure)
+2022	IFT74	spermatogenic failure 58	2		Shi	2022	Biology of Reproduction / Developmental Biology	Intraflagellar transport protein IFT74 is essential for spermiogenesis and male fertility in mice
+2016	IFT74	spermatogenic failure 58	3	26697887	Lindstrand	2016	American Journal of Human Genetics	Copy-number variation contributes to the mutational load of Bardet-Biedl syndrome (IFT74/BBS20)
+1996	MYL3	arrhythmogenic right ventricular cardiomyopathy	1	8673105	Poetter K	1996	Nature Genetics	Mutations in either the essential or regulatory light chains of myosin are associated with a rare myopathy in human heart and skeletal muscle
+2011	MYL3	arrhythmogenic right ventricular cardiomyopathy	2	21636032	Kapplinger JD	2011	Journal of the American College of Cardiology	Distinguishing arrhythmogenic right ventricular cardiomyopathy/dysplasia-associated mutations from background genetic noise
+2019	MYL3	arrhythmogenic right ventricular cardiomyopathy	3	31028357	Towbin JA	2019	Heart Rhythm	2019 HRS expert consensus statement on evaluation, risk stratification, and management of arrhythmogenic cardiomyopathy
+2022	PDHA2	spermatogenic failure 70	1			2022		Bi-allelic variants in PDHA2 identified in men with spermatogenic failure/oligoasthenozoospermia
+1990	PDHA2	spermatogenic failure 70	2	2174700	Dahl HH	1990	Genomics	A testis-specific form of the human pyruvate dehydrogenase E1 alpha subunit is coded for by an intronless gene on chromosome 4
+2012	PDHA2	spermatogenic failure 70	3		Pinheiro	2012		Pyruvate dehydrogenase complex (PDHA2) expression in human spermatogenic cells and sperm metabolism
+2020	PLCB3	spondylometaphyseal dysplasia with corneal dystrophy	1			2020		Biallelic variants in PLCB3 cause spondylometaphyseal dysplasia with corneal dystrophy
+2023	STK33	spermatogenic failure 93	1		Ma, H.	2023	Nature Communications	Bi-allelic variants in human STK33 cause male infertility with oligoasthenoteratozoospermia
+2018	STK33	spermatogenic failure 93	2		Martins, L.R.	2018	Developmental Biology	Stk33 is required for spermatid differentiation and male fertility in mice
+2005	STK33	spermatogenic failure 93	3		Mujica, A.O.	2005	Mammalian Genome	Differential expression pattern of the novel serine/threonine kinase, STK33, in mice and men
+2013	WDR5	congenital heart disease	1	23665959	Zaidi S	2013	Nature	De novo mutations in histone-modifying genes in congenital heart disease
+2015	WDR5	congenital heart disease	2	26785492	Homsy J	2015	Science	De novo mutations in congenital heart disease with neurodevelopmental and other congenital anomalies
+2017	WDR5	congenital heart disease	3		Jin SC	2017	Nature Genetics	Contribution of rare inherited and de novo variants in 2,871 congenital heart disease probands
+2018	ZFHX2	indifference to pain, congenital, autosomal dominant	1	29253101	Habib AM	2018	Brain	A novel human pain insensitivity disorder caused by a point mutation in ZFHX2
+2006	ZFHX2	indifference to pain, congenital, autosomal dominant	2		Komine Y	2006	Journal of Neuroscience Research / Genes Cells	Zfh-4/Zfhx family zinc finger homeodomain protein expression in the developing nervous system
+2013	ABCC1	autosomal dominant nonsyndromic hearing loss	1	23588304	Pussegoda K	2013	Clinical Pharmacology and Therapeutics	Replication of TPMT and ABCC3 genetic variants highly associated with cisplatin-induced hearing loss in children
+2009	ABCC1	autosomal dominant nonsyndromic hearing loss	2	19898482	Ross CJ	2009	Nature Genetics	Genetic variants in TPMT and COMT are associated with hearing loss in children receiving cisplatin chemotherapy
+2001	ABCC1	autosomal dominant nonsyndromic hearing loss	3		Saito T	2001	Hearing Research	Expression of multidrug resistance-associated protein (MRP) in the inner ear
+2014	ARL6IP6	cutis marmorata telangiectatica congenita	1		Abdel-Salam GMH	2014	European Journal of Medical Genetics / American Journal of Medical Genetics A	Homozygous ARL6IP6 variant in a consanguineous family with cutis marmorata telangiectatica congenita, intracranial vascular anomalies and stroke (report details uncertain)
+2016	ARL6IP6	cutis marmorata telangiectatica congenita	2	27189011	Thomas AC	2016	Journal of Investigative Dermatology	Mosaic Activating Mutations in GNA11 and GNAQ Are Associated with Phakomatosis Pigmentovascularis and Extensive Dermal Melanocytosis / cutis marmorata telangiectatica congenita
+2023	CLDN2	azoospermia, obstructive, with nephrolithiasis	1			2023		Hemizygous loss-of-function variants in CLDN2 cause X-linked obstructive azoospermia with nephrolithiasis
+2010	CLDN2	azoospermia, obstructive, with nephrolithiasis	2		Muto	2010	Proc Natl Acad Sci U S A	Claudin-2-deficient mice are defective in the leaky and cation-selective paracellular permeability properties of renal proximal tubule
+2012	CLDN2	azoospermia, obstructive, with nephrolithiasis	3		Whitcomb	2012	Nature Genetics	Common genetic variants in the CLDN2 and PRSS1-PRSS2 loci alter risk for alcohol-related and sporadic pancreatitis
+2020	GIGYF1	neurodevelopmental disorder	1	31981491	Satterstrom	2020	Cell	Large-Scale Exome Sequencing Study Implicates Both Developmental and Functional Changes in the Neurobiology of Autism
+2022	GIGYF1	neurodevelopmental disorder	2	35982160	Fu	2022	Nature Genetics	Rare coding variation provides insight into the genetic architecture and phenotypic context of autism
+2022	GIGYF1	neurodevelopmental disorder	3	35982159	Zhou	2022	Nature Genetics	Integrating de novo and inherited variants in 42,607 autism cases identifies mutations in new moderate-risk genes
+2022	GIGYF1	neurodevelopmental disorder	4		Chen	2022	Journal of Clinical Investigation	GIGYF1 disruption associates with autism and impaired IGF-1R signaling
+2021	GIGYF1	neurodevelopmental disorder	5	34183837	Deaton	2021	Nature Medicine	Gene-level analysis of rare variants in 379,066 whole exome sequences identifies an association of GIGYF1 loss of function with type 2 diabetes
+2016	HIVEP1	complex neurodevelopmental disorder	1	26740508	Srivastava S	2016	Human Mutation	Loss-of-function variants in HIVEP2 are a cause of intellectual disability
+2016	HIVEP1	complex neurodevelopmental disorder	2	26785492	Steinfeld H	2016	Neurogenetics	Mutations in HIVEP2 are associated with developmental delay, intellectual disability, and dysmorphic features
+2014	HIVEP1	complex neurodevelopmental disorder	3	24705253	Takagi T	2014	Neuropsychopharmacology (Mol Brain / related)	Schnurri-2 (Hivep2) knockout mice as a model of neurodevelopmental/psychiatric disorder
+2010	HIVEP1	complex neurodevelopmental disorder	4		Morange PE	2010	American Journal of Human Genetics	HIVEP1 is a candidate gene for venous thrombosis: results from a genome-wide association study
+2019	HS6ST2	Paganini-Miozzo syndrome	1	30471092	Paganini L	2019	Clinical Genetics	A HS6ST2 gene variant associated with X-linked intellectual disability and severe myopia in two male twins
+2019	MRPS14	mitochondrial disease	1	30911807	Jackson CB	2019	Human Genetics	A variant in MRPS14 (uS14m) causes perinatal hypertrophic cardiomyopathy with neonatal lactic acidosis, growth retardation, dysmorphic features and neurological involvement
+2019	MRPS25	combined oxidative phosphorylation deficiency 50	1	31039582	Bugiardini E	2019	Human Molecular Genetics	MRPS25 mutations impair mitochondrial translation and cause encephalomyopathy
+2008	NOTCH3	inherited thrombocytopenia	1	18371350	Mercher T	2008	Cell Stem Cell	Notch signaling specifies megakaryocyte development from hematopoietic stem cells
+1996	NOTCH3	inherited thrombocytopenia	2	8878478	Joutel A	1996	Nature	Notch3 mutations in CADASIL, a hereditary adult-onset condition causing stroke and dementia
+2004	TLR4	inflammatory bowel disease	1	15194649	Franchimont D	2004	Gut	Deficient host-bacteria interactions in inflammatory bowel disease? The toll-like receptor (TLR)-4 Asp299gly polymorphism is associated with Crohn's disease and ulcerative colitis
+2004	TLR4	inflammatory bowel disease	2		Török HP	2004	Clinical Immunology	Polymorphisms of the lipopolysaccharide-signaling complex in inflammatory bowel disease: association of a mutation in the Toll-like receptor 4 gene with ulcerative colitis
+2007	TLR4	inflammatory bowel disease	3		Browning BL	2007	American Journal of Gastroenterology	Has toll-like receptor 4 been prematurely dismissed as an inflammatory bowel disease gene? Association study combined with meta-analysis shows strong evidence for association
+2010	TLR4	inflammatory bowel disease	4		Shen X	2010	Inflammatory Bowel Diseases	Meta-analysis: Toll-like receptor 4 polymorphisms and risk of inflammatory bowel disease
+2000	TLR4	inflammatory bowel disease	5	10899828	Cario E	2000	Infection and Immunity	Differential alteration in intestinal epithelial cell expression of toll-like receptor 3 (TLR3) and TLR4 in inflammatory bowel disease
+2019	XRCC2	premature ovarian failure 17	1	30467832	Zhang Y-X	2019	Clinical Genetics	XRCC2 mutation causes premature ovarian insufficiency as well as non-obstructive azoospermia in humans
+2018	XRCC2	premature ovarian failure 17	2	29459086	Yang Y	2018	Journal of Medical Genetics	XRCC2 mutation causes meiotic arrest, azoospermia and infertility
+2016	XRCC2	premature ovarian failure 17	3	27503917	Park J-Y	2016	American Journal of Human Genetics	Complementation of hypersensitivity to DNA interstrand crosslinking agents demonstrates that XRCC2 is a Fanconi anaemia gene
+2000	XRCC2	premature ovarian failure 17	4		Deans B	2000	Molecular and Cellular Biology	Xrcc2 is required for genetic stability, embryonic neurogenesis and viability in mice
+2016	BOD1	syndromic intellectual disability	1	27148967	Esmaeeli-Nieh	2016	PLoS Genetics	BOD1 Is Required for Cognitive Function in Humans and Drosophila
+2011	BOD1	syndromic intellectual disability	2		Najmabadi	2011	Nature	Deep sequencing reveals 50 novel genes for recessive cognitive disorders
+2014	BOD1	syndromic intellectual disability	3		Musante	2014	Trends in Genetics	Genetics of recessive cognitive disorders
+2020	CAV1	amyotrophic lateral sclerosis	1	33264629	Cooper-Knock J	2020	Cell Reports	Rare Variant Burden Analysis within Enhancers Identifies CAV1 as an ALS Risk Gene
+2019	CAV1	amyotrophic lateral sclerosis	2		Sawada A	2019	Journal of Neuroscience Research / Neurobiology of Disease	Neuron-targeted caveolin-1 (SynCav1) gene therapy improves motor function and survival in SOD1 mutant mice
+2011	CAV1	amyotrophic lateral sclerosis	3		Head BP	2011	PLoS ONE / Journal of Biological Chemistry	Caveolin-1 expression is essential for neuronal membrane/lipid raft organization and neurotrophic receptor signalling
+2020	EMC10	global developmental delay with or without impaired intellectual development	1	32869850	Umair M	2020	Clinical Genetics	EMC10 homozygous variant identified in a family with global developmental delay, mild intellectual disability, and speech delay
+2021	EMC10	global developmental delay with or without impaired intellectual development	2		Shao DD	2021	American Journal of Medical Genetics / Genetics in Medicine	Biallelic EMC10 loss-of-function variants in a neurodevelopmental disorder (additional families)
+2022	EMC10	global developmental delay with or without impaired intellectual development	3		Marquardt I	2022	European Journal of Medical Genetics	Expanding the phenotype of EMC10-related neurodevelopmental disorder
+2015	GPR161	pituitary stalk interruption syndrome	1	25636053	Karaca E	2015	J Clin Endocrinol Metab	Whole-exome sequencing identifies homozygous GPR161 mutation in a family with pituitary stalk interruption syndrome
+2013	GPR161	pituitary stalk interruption syndrome	2	23332756	Mukhopadhyay S	2013	Cell	The ciliary G-protein-coupled receptor Gpr161 negatively regulates the Sonic hedgehog pathway via cAMP signaling
+2008	GPR161	pituitary stalk interruption syndrome	3	18287022	Matteson PG	2008	Proc Natl Acad Sci USA	The orphan G protein-coupled receptor, Gpr161, encodes the vacuolated lens locus and controls neurulation and lens development
+2020	GPR161	pituitary stalk interruption syndrome	4		Brauner R	2020	PLoS One / Front Endocrinol	Clinical and genetic analysis of pituitary stalk interruption syndrome cohorts
+1998	KCNAB3	neurodevelopmental disorder	1	9560252	Leicher T	1998	Journal of Biological Chemistry	Structural and functional characterization of human potassium channel subunit beta 1 (KCNA1B)
+2001	KCNAB3	neurodevelopmental disorder	2		Heilstedt HA	2001	American Journal of Human Genetics	Loss of the potassium channel beta-subunit gene, KCNAB2, is associated with epilepsy in patients with 1p36 deletion syndrome
+2020	LAMA5	bent bone dysplasia syndrome 2	1		Barad M	2020	EBioMedicine	Biallelic mutations in LAMA5 disrupt a skeletal noncanonical focal adhesion pathway and produce a distinct bent bone dysplasia
+2012	LAMA5	bent bone dysplasia syndrome 2	2	22560091	Merrill AE	2012	American Journal of Human Genetics	Bent bone dysplasia-FGFR2 type, a distinct skeletal disorder, has deficient canonical FGF signaling
+2021	RIOK2	male infertility with azoospermia or oligozoospermia due to single gene mutation	1	33974684	Houston	2021	Human Reproduction Update	A systematic review of the validity of non-syndromic male infertility candidate genes
+2013	RIOK2	male infertility with azoospermia or oligozoospermia due to single gene mutation	2	23434593	Read	2013	PLoS Genetics	A kinome-wide RNAi screen in Drosophila glia reveals that the RIO kinases mediate cell proliferation and survival through TORC2-Akt signaling in glioblastoma
+2020	SLC51A	cholestasis, progressive familial intrahepatic, 6	1		Gao E	2020	Hepatology	Organic Solute Transporter Alpha Deficiency: A Disorder With Cholestasis, Liver Fibrosis, and Congenital Diarrhea
+2018	SLC51A	cholestasis, progressive familial intrahepatic, 6	2	29470289	Sultan N	2018	Journal of Pediatric Gastroenterology and Nutrition	Organic Solute Transporter-β (SLC51B) Deficiency in Two Brothers With Congenital Diarrhea and Features of Cholestasis
+2005	SLC51A	cholestasis, progressive familial intrahepatic, 6	3		Ballatori N	2005	Hepatology	OSTalpha-OSTbeta: a major basolateral bile acid and steroid transporter in human intestinal, renal, and biliary epithelia
+2008	SLC51A	cholestasis, progressive familial intrahepatic, 6	4		Rao A	2008	PNAS	The organic solute transporter alpha-beta, Ostalpha-Ostbeta, is essential for intestinal bile acid transport and homeostasis
+2007	SOD2	microvascular complications of diabetes, susceptibility to, 6	1	17327454	Möllsten A	2007	Diabetes	A functional polymorphism in the manganese superoxide dismutase gene and diabetic nephropathy
+2003	SOD2	microvascular complications of diabetes, susceptibility to, 6	2	12624725	Nomiyama T	2003	Journal of Human Genetics	The polymorphism of manganese superoxide dismutase is associated with diabetic nephropathy in Japanese type 2 diabetic patients
+2009	SOD2	microvascular complications of diabetes, susceptibility to, 6	3	19727659	Möllsten A	2009	Diabetologia	The V16A polymorphism in SOD2 is associated with increased risk of diabetic nephropathy and cardiovascular disease in type 1 diabetes
+2006	SOD2	microvascular complications of diabetes, susceptibility to, 6	4		Lee SJ	2006	Diabetes Research and Clinical Practice	Manganese superoxide dismutase gene polymorphism (V16A) is associated with stages of albuminuria in Korean type 2 diabetic patients
+2000	SOD2	microvascular complications of diabetes, susceptibility to, 6	5	10866038	Nishikawa T	2000	Nature	Normalizing mitochondrial superoxide production blocks three pathways of hyperglycaemic damage
+2020	TKFC	triokinase and FMN cyclase deficiency syndrome	1		Wortmann SB	2020	American Journal of Human Genetics	Biallelic variants in TKFC encoding triokinase/FMN cyclase are associated with cataracts and multisystem disease
+2005	TKFC	triokinase and FMN cyclase deficiency syndrome	2		Cabezas A	2005	Biochemical Journal	Identification of human triokinase as FAD-AMP lyase (cyclic FMN forming)
+2017	VPS26C	neurodevelopmental disorder	1	29085077	McNally KE	2017	Nature Cell Biology	Retriever is a multiprotein complex for retromer-independent endosomal cargo recycling
+2020	VPS26C	neurodevelopmental disorder	2		Kato K	2020	Journal of Medical Genetics	Biallelic VPS35L pathogenic variants cause 3C/Ritscher-Schinzel-like syndrome through dysfunction of retriever complex
+1997	VPS26C	neurodevelopmental disorder	3		Nakamura A	1997	Genomics/Biochem Biophys Res Commun	Molecular cloning and characterization of a novel human gene (DSCR3) in the Down syndrome critical region of chromosome 21q22.2
+2012	VPS26C	neurodevelopmental disorder	4		Voineagu I	2012	Human Molecular Genetics	CCDC22: a novel candidate gene for syndromic X-linked intellectual disability (related CCC/Retriever pathway)
+2020	YPEL2	retinitis pigmentosa	1	32531202	de Bruijn SE	2020	American Journal of Human Genetics	Structural Variants Create New Topological-Associated Domains and Ectopic Retinal Enhancer-Gene Contact in Dominant Retinitis Pigmentosa
+1995	YPEL2	retinitis pigmentosa	2		Bardien S	1995	Human Molecular Genetics / Nature Genetics	A new locus for autosomal dominant retinitis pigmentosa on chromosome 17q (RP17)
+1997	YPEL2	retinitis pigmentosa	3		Bardien S	1997	American Journal of Human Genetics	Novel mutations/refinement of the RP17 locus on chromosome 17q22
+2007	DLG5	ciliopathy	1	17336910	Nechiporuk T	2007	Developmental Cell	ETL/mDlg5 is required for... epithelial tube maintenance; loss causes hydrocephalus and renal cysts in mice
+2015	DLG5	ciliopathy	2		Chong YC	2015	Genes & Development	Bifurcating action of Smoothened in Hedgehog signaling is mediated by Dlg5
+	DLG5	ciliopathy	3					Reports of biallelic DLG5 variants in patients/fetuses with congenital hydrocephalus and renal cystic dysplasia (ciliopathy-like multisystem phenotype)
+2019	DLST	pheochromocytoma/paraganglioma syndrome 7	1	30929736	Remacha L	2019	American Journal of Human Genetics	Recurrent Germline DLST Mutations in Individuals with Multiple Pheochromocytomas and Paragangliomas
+2020	DLST	pheochromocytoma/paraganglioma syndrome 7	2		Buffet A	2020	Endocrine-Related Cancer / Hormone and Metabolic Research	Germline mutations in TCA cycle genes and their role in pheochromocytoma and paraganglioma predisposition (review)
+2017	DLST	pheochromocytoma/paraganglioma syndrome 7	3		Dahia PLM	2017	Nature Reviews Endocrinology / Endocrine Reviews	Pheochromocytomas and paragangliomas: learning from genetic heterogeneity
+2008	ETV2	congenital heart disease	1	18371448	Lee D	2008	Cell Stem Cell	ER71 acts downstream from BMP, Notch, and Wnt signaling in blood and vessel progenitor specification
+2009	ETV2	congenital heart disease	2	19805097	Ferdous A	2009	Proceedings of the National Academy of Sciences USA	Nkx2-5 transactivates the Ets-related protein 71 gene and specifies an endothelial/endocardial fate in the developing embryo
+2011	ETV2	congenital heart disease	3	21831922	Palencia-Desai S	2011	Development	Vascular endothelial and endocardial progenitors differentiate as cardiomyocytes in the absence of Etsrp/Etv2 function
+2006	ETV2	congenital heart disease	4	17297510	Sumanas S	2006	PLoS Biology	Ets1-related protein is a key regulator of vasculogenesis in zebrafish
+2019	FBN2	carpal tunnel syndrome	1	31101977	Wiberg	2019	Nature Communications	A genome-wide association analysis identifies 16 novel susceptibility loci for carpal tunnel syndrome
+2022	FBN2	carpal tunnel syndrome	2		Skuladottir	2022	Communications Biology	A genome-wide meta-analysis identifies 50 genes associated with carpal tunnel syndrome
+1995	FBN2	carpal tunnel syndrome	3	7695699	Putnam	1995	Nature Genetics	Fibrillin-2 (FBN2) mutations result in the Marfan-like disorder, congenital contractural arachnodactyly
+2007	ILK	familial dilated cardiomyopathy	1	17646580	Knöll R	2007	Circulation	Laminin-alpha4 and integrin-linked kinase mutations cause human cardiomyopathy via simultaneous defects in cardiomyocytes and endothelial cells
+2006	ILK	familial dilated cardiomyopathy	2	16452504	Bendig G	2006	Genes & Development	Integrin-linked kinase, a novel component of the cardiac mechanical stretch sensor, controls contractility in the zebrafish heart
+2006	ILK	familial dilated cardiomyopathy	3	16702408	White DE	2006	Genes & Development	Targeted ablation of ILK from the murine heart results in dilated cardiomyopathy and spontaneous heart failure
+2021	ILK	familial dilated cardiomyopathy	4	33831308	Jordan E	2021	Circulation	Evidence-Based Assessment of Genes in Dilated Cardiomyopathy
+2007	LAMA4	familial dilated cardiomyopathy	1	17646580	Knöll R	2007	Circulation	Laminin-alpha4 and integrin-linked kinase mutations cause human cardiomyopathy via simultaneous defects in cardiomyocytes and endothelial cells
+2021	LAMA4	familial dilated cardiomyopathy	2	33500337	Jordan E	2021	Circulation	Evidence-Based Assessment of Genes in Dilated Cardiomyopathy
+2006	LAMA4	familial dilated cardiomyopathy	3	16731532	Wang J	2006	Journal of Biological Chemistry	Cardiomyopathy associated with microcirculation dysfunction in laminin alpha4 chain-deficient mice
+2017	MAST2	thrombotic disease	1	28152055		2017	PLoS Genetics	A rare coding mutation in the MAST2 gene causes venous thrombosis in a French family with unexplained thrombophilia
+2019	MAST2	thrombotic disease	2		Morange	2019	Journal of Thrombosis and Haemostasis / Thrombosis Research	MAST2 and the endothelial regulation of thrombomodulin and t-PA expression in venous thrombosis
+2011	MYH7	congenital heart disease	1	21127202	Postma AV	2011	Circulation: Cardiovascular Genetics	Mutations in the sarcomere gene MYH7 in Ebstein anomaly
+2007	MYH7	congenital heart disease	2		Budde BS	2007	PLoS ONE	Noncompaction of the ventricular myocardium is associated with a de novo mutation in the beta-myosin heavy chain gene
+2013	MYH7	congenital heart disease	3	23665959	Zaidi S	2013	Nature	De novo mutations in histone-modifying genes in congenital heart disease
+2013	MYH7	congenital heart disease	4		Bettinelli AL	2013	American Journal of Medical Genetics Part A	Familial Ebstein anomaly, left ventricular hypertrabeculation, and ventricular septal defect associated with a MYH7 mutation
+2010	MYH7	congenital heart disease	5		Hoedemaekers YM	2010	Circulation: Cardiovascular Genetics	The importance of genetic counseling, DNA diagnostics, and cardiologic family screening in left ventricular noncompaction cardiomyopathy
+2020	NCOA3	autosomal dominant nonsyndromic hearing loss	1	32770211	Salazar-Silva, R.	2020	Human Molecular Genetics	NCOA3 identified as a new candidate to explain autosomal dominant progressive hearing loss
+2010	NEBL	familial dilated cardiomyopathy	1	20951326	Purevjav E	2010	Journal of the American College of Cardiology	Nebulette mutations are associated with dilated cardiomyopathy and endocardial fibroelastosis
+2000	NEBL	familial dilated cardiomyopathy	2	10987652	Arimura T	2000	Human Genetics	Characterization of the human nebulette gene: a polymorphism in an actin-binding motif is associated with nonfamilial idiopathic dilated cardiomyopathy
+2021	NEBL	familial dilated cardiomyopathy	3	33500337	Jordan E	2021	Circulation	Evidence-Based Assessment of Genes in Dilated Cardiomyopathy
+2015	NEBL	familial dilated cardiomyopathy	4		Mastrototaro G	2015	Cardiovascular Research	Nebulette knockout mice have normal cardiac function, but show Z-line widening and up-regulation of cardiac stress markers
+2013	NEBL	familial dilated cardiomyopathy	5		Maiellaro-Rafferty K	2013	Journal of Molecular and Cellular Cardiology	Altered regional cardiac wall mechanics are associated with differential cardiomyocyte calcium handling due to nebulette mutations in preclinical inherited dilated cardiomyopathy
+2010	SLIRP	inborn mitochondrial metabolism disorder	1	20410488	Sasarman F	2010	Molecular Biology of the Cell	LRPPRC and SLIRP interact in a ribonucleoprotein complex that regulates posttranscriptional gene expression in mitochondria
+2012	SLIRP	inborn mitochondrial metabolism disorder	2	22735702	Chujo T	2012	Nucleic Acids Research	LRPPRC/SLIRP suppresses PNPase-mediated mRNA decay and promotes polyadenylation in human mitochondria
+2015	SLIRP	inborn mitochondrial metabolism disorder	3	26222235	Lagouge M	2015	PLoS Genetics	SLIRP regulates the rate of mitochondrial protein synthesis and protects LRPPRC from degradation
+2024	SLIRP	inborn mitochondrial metabolism disorder	4		Baruffini E	2024		Biallelic SLIRP variants associated with mitochondrial disease (recalled report; details uncertain)
+2019	C18orf32	glycosylphosphatidylinositol biosynthesis defect 25	1		Chu Q	2019	Nature Communications	Regulation of the ER stress response by a mitochondrial microprotein (PIGBOS/C18orf32)
+2023	CCDC34	spermatogenic failure 76	1			2023	Journal of Medical Genetics	Bi-allelic variants in CCDC34 cause male infertility with oligoasthenoteratozoospermia in humans and mice
+2009	GTF3A	herpes simplex encephalitis	1	19631370	Chiu YH	2009	Cell	RNA polymerase III detects cytosolic DNA and induces type I interferons through the RIG-I pathway
+2017	GTF3A	herpes simplex encephalitis	2	28714463	Ogunjimi B	2017	Journal of Clinical Investigation	Inborn errors in RNA polymerase III underlie severe varicella zoster virus infections
+2019	GTF3A	herpes simplex encephalitis	3	31723259	Lafaille FG	2019	Nature	Human SNORA31 variations impair cortical neuron-intrinsic immunity to HSV-1 and underlie herpes simplex encephalitis
+2018	GTF3A	herpes simplex encephalitis	4	30193112	Zhang SY	2018	Cell	Inborn errors of RNA lariat metabolism in humans with brainstem viral infection
+2007	GTF3A	herpes simplex encephalitis	5	17872438	Zhang SY	2007	Science	TLR3 deficiency in patients with herpes simplex encephalitis
+2016	LHX8	inherited primary ovarian failure	1		Bouilly J	2016	Journal of Clinical Endocrinology and Metabolism	Identification of multiple gene mutations accounts for a new genetic architecture of primary ovarian insufficiency
+2006	LHX8	inherited primary ovarian failure	2	16687579	Pangas SA	2006	Proceedings of the National Academy of Sciences USA	Oogenesis requires germ cell-specific transcriptional regulators Sohlh1 and Lhx8
+2008	LHX8	inherited primary ovarian failure	3	18160683	Choi Y	2008	Biology of Reproduction	Lim homeobox gene, Lhx8, is essential for mouse oocyte differentiation and survival
+2015	LHX8	inherited primary ovarian failure	4		Qin Y	2015	Human Reproduction Update	Genetics of primary ovarian insufficiency: new developments and opportunities
+2008	LHX8	inherited primary ovarian failure	5		Qin Y	2008	Fertility and Sterility	Mutation analysis of germ-cell-specific transcription factor genes in women with premature ovarian failure
+2007	MAD1L1	familial prostate carcinoma	1	17210678	Iwanaga Y	2007	Cancer Research	Heterozygous deletion of mitotic arrest-deficient protein 1 (MAD1) increases the incidence of tumors in mice
+2001	MAD1L1	familial prostate carcinoma	2	11593436	Tsukasaki K	2001	Oncogene	Mutations in the mitotic check point gene, MAD1L1, in human cancers
+2000	NFATC2	joint contractures, osteochondromas, and B-cell lymphoma	1	10620604	Ranger AM	2000	Journal of Experimental Medicine	The nuclear factor of activated T cells (NFAT) transcription factor NFATp (NFATc2) is a repressor of chondrogenesis
+1996	NFATC2	joint contractures, osteochondromas, and B-cell lymphoma	2	8673701	Hodge MR	1996	Immunity	Hyperproliferation and dysregulation of IL-4 expression in NF-ATp-deficient mice
+	NFATC2	joint contractures, osteochondromas, and B-cell lymphoma	3					Report of biallelic NFATC2 loss-of-function variants in patients with joint contractures, osteochondromas and B-cell lymphoma (exact citation not recalled)
+2017	NFE2L1	syndromic disease	1	28864777	Tomlin FM	2017	ACS Central Science	Inhibition of NGLY1 Inactivates the Transcription Factor Nrf1 and Potentiates Proteasome Inhibitor Cytotoxicity
+2016	NFE2L1	syndromic disease	2	27528192	Lehrbach NJ	2016	eLife	Proteasome dysfunction triggers activation of SKN-1A/Nrf1 by the aspartic protease DDI-1
+2010	NFE2L1	syndromic disease	3	20682791	Radhakrishnan SK	2010	Molecular Cell	Transcription factor Nrf1 mediates the proteasome recovery pathway after proteasome inhibition in mammalian cells
+2011	NFE2L1	syndromic disease	4	21555591	Kobayashi A	2011	Genes to Cells	Central nervous system-specific deletion of transcription factor Nrf1 causes progressive motor neuronal dysfunction
+2017	NFE2L1	syndromic disease	5	28369459	Huppke P	2017	Nature Communications	Activating de novo mutations in NFE2L2 encoding NRF2 cause a multisystem disorder
+2022	NPTX1	autosomal dominant cerebellar ataxia	1		Zeng	2022	Brain	NPTX1 mutations trigger endoplasmic reticulum stress and cause autosomal dominant cerebellar ataxia
+2023	NPTX1	autosomal dominant cerebellar ataxia	2		Xia	2023	Journal of Medical Genetics / Cerebellum (screening cohort)	Screening of NPTX1 variants in patients with spinocerebellar ataxia of unknown genetic cause
+2007	NPTX1	autosomal dominant cerebellar ataxia	3		Sia	2007	Neuron	Interaction of the N-terminal domain of the AMPA receptor GluR4 subunit with the neuronal pentraxin NP1 mediates GluR4 synaptic recruitment
+2004	NRG1	peripheral neuropathy	1	15550673	Michailov GV	2004	Science	Axonal neuregulin-1 regulates myelin sheath thickness
+2005	NRG1	peripheral neuropathy	2	16129398	Taveggia C	2005	Neuron	Neuregulin-1 type III determines the ensheathment fate of axons
+2014	NRG1	peripheral neuropathy	3	24784232	Fledrich R	2014	Nature Medicine	Soluble neuregulin-1 modulates disease pathogenesis in rodent models of Charcot-Marie-Tooth disease 1A
+2013	NRG1	peripheral neuropathy	4	23292683	Stassart RM	2013	Nature Neuroscience	A role for Schwann cell-derived neuregulin-1 in remyelination
+2007	NRG1	peripheral neuropathy	5	17701904	Narkis G	2007	American Journal of Human Genetics	Lethal congenital contractural syndrome type 2 (LCCS2)/ERBB3 and hypomyelination of peripheral nerves
+1998	SLC11A1	Mycobacterium tuberculosis, susceptibility	1	9486992	Bellamy R	1998	New England Journal of Medicine	Variations in the NRAMP1 gene and susceptibility to tuberculosis in West Africans
+2000	SLC11A1	Mycobacterium tuberculosis, susceptibility	2	10712219	Greenwood CM	2000	American Journal of Human Genetics	Linkage of tuberculosis to chromosome 2q35 loci, including NRAMP1, in a large aboriginal Canadian family
+2005	SLC11A1	Mycobacterium tuberculosis, susceptibility	3	16093305	Malik S	2005	Proceedings of the National Academy of Sciences USA	Alleles of the NRAMP1 gene are risk factors for pediatric tuberculosis disease
+2006	SLC11A1	Mycobacterium tuberculosis, susceptibility	4	16466030	Li HT	2006	International Journal of Tuberculosis and Lung Disease	SLC11A1 (formerly NRAMP1) gene polymorphisms and tuberculosis susceptibility: a meta-analysis
+1993	SLC11A1	Mycobacterium tuberculosis, susceptibility	5	8453665	Vidal SM	1993	Cell	Natural resistance to infection with intracellular parasites: isolation of a candidate for Bcg
+2011	TRIM47	genetic cerebral small vessel disease	1	21531186	Fornage M	2011	Annals of Neurology	Genome-wide association studies of cerebral white matter lesion burden: the CHARGE consortium
+2015	TRIM47	genetic cerebral small vessel disease	2	25663218	Verhaaren BFJ	2015	Circulation: Cardiovascular Genetics	Multiethnic genome-wide association study of cerebral white matter hyperintensities on MRI
+2020	TRIM47	genetic cerebral small vessel disease	3	33244000	Sargurupremraj M	2020	Nature Communications	Cerebral small vessel disease genomics and its implications across the lifespan
+2023	TRIM47	genetic cerebral small vessel disease	4		Duperron MG	2023	Nature Medicine	Genomics of perivascular space burden unravels early mechanisms of cerebral small vessel disease
+2023	TRIM47	genetic cerebral small vessel disease	5		Yang/Quenault (consortium)	2023	Circulation Research (bioRxiv preprint)	TRIM47 is a critical regulator of cerebral small vessel disease / brain endothelial barrier function
+2022	ZNF862	hereditary gingival fibromatosis	1			2022	Journal of Dental Research	ZNF862 variant identified in a family with hereditary gingival fibromatosis (whole-exome sequencing study with functional analysis in gingival fibroblasts)
+2017	ZNF862	hereditary gingival fibromatosis	2	28067909	Bayram Y	2017	American Journal of Human Genetics	REST Final-Exon-Truncating Mutations Cause Hereditary Gingival Fibromatosis
+2002	ZNF862	hereditary gingival fibromatosis	3	11836498	Hart TC	2002	American Journal of Human Genetics	A mutation in the SOS1 gene causes hereditary gingival fibromatosis type 1
+2009	ATG9A	immunodeficiency disease	1	19910529	Saitoh T	2009	Proceedings of the National Academy of Sciences USA	Atg9a controls dsDNA-driven dynamic translocation of STING and the innate immune response
+2021	ATG9A	immunodeficiency disease	2	33106654	Claude-Taupin A	2021	Nature Cell Biology	ATG9A protects the plasma membrane from programmed and incidental permeabilization
+2019	ATG9A	immunodeficiency disease	3	30842662	Gui X	2019	Nature	Autophagy induction via STING trafficking is a primordial function of the cGAS pathway
+2021	ATG9A	immunodeficiency disease	4			2021		Biallelic loss-of-function variants in ATG9A cause a severe multisystem neurodevelopmental disorder (Vici-syndrome-like features)
+2013	ATG9A	immunodeficiency disease	5	23266561	Cullup T	2013	Nature Genetics	Recessive mutations in EPG5 cause Vici syndrome, a multisystem disorder with defective autophagy (immunodeficiency as a core feature)
+2009	GTF2IRD1	neurodevelopmental disorder	1	19215044	Dai L	2009	Am J Med Genet A	Is it Williams syndrome? GTF2IRD1 implicated in visual-spatial construction and GTF2I in sociability revealed by high resolution arrays
+2005	GTF2IRD1	neurodevelopmental disorder	2	16151010	Tassabehji M	2005	Science	GTF2IRD1 in craniofacial development of humans and mice
+2003	GTF2IRD1	neurodevelopmental disorder	3	12746390	Morris CA	2003	Am J Med Genet A	GTF2I hemizygosity implicated in mental retardation in Williams syndrome: genotype-phenotype analysis of five families with deletions in the Williams syndrome region
+2007	GTF2IRD1	neurodevelopmental disorder	4	17399986	van Hagen JM	2007	Neurobiol Dis	Contribution of CYLN2 and GTF2IRD1 to neurological and cognitive symptoms in Williams syndrome
+2008	GTF2IRD1	neurodevelopmental disorder	5	18182070	Young EJ	2008	Genes Brain Behav	Reduced fear and aggression and altered serotonin metabolism in Gtf2ird1-targeted mice
+2009	IL1R1	chronic recurrent multifocal osteomyelitis 3	1	19494219	Aksentijevich I	2009	New England Journal of Medicine	An autoinflammatory disease with deficiency of the interleukin-1-receptor antagonist
+2005	IL1R1	chronic recurrent multifocal osteomyelitis 3	2	16050561	Ferguson PJ	2005	Journal of Medical Genetics	Homozygous mutations in LPIN2 are responsible for the syndrome of chronic recurrent multifocal osteomyelitis and congenital dyserythropoietic anaemia (Majeed syndrome)
+2012	IL1R1	chronic recurrent multifocal osteomyelitis 3	3	22442201	Lukens JR	2012	Proceedings of the National Academy of Sciences	Inflammasome-derived IL-1beta regulates the production of GM-CSF by CD4+ T cells and gammadelta T cells (IL-1R signaling in Pstpip2-deficient osteomyelitis)
+2002	LY96	inborn error of immunity	1	11912492	Nagai Y	2002	Nature Immunology	Essential role of MD-2 in LPS responsiveness and TLR4 distribution
+1999	LY96	inborn error of immunity	2	10359581	Shimazu R	1999	Journal of Experimental Medicine	MD-2, a molecule that confers lipopolysaccharide responsiveness on Toll-like receptor 4
+2007	LY96	inborn error of immunity	3		Gu W	2007	Critical Care Medicine / Cytokine	Association of a functional polymorphism in the MD-2 (LY96) gene promoter with sepsis in trauma patients
+2007	LY96	inborn error of immunity	4	17633018	Picard C	2007	Current Opinion in Allergy and Clinical Immunology	Inherited disorders of the TLR/IL-1R signalling pathways in humans
+2009	MIR145	multisystemic smooth muscle dysfunction syndrome	1	19578358	Cordes KR	2009	Nature	miR-145 and miR-143 regulate smooth muscle cell fate and plasticity
+2009	MIR145	multisystemic smooth muscle dysfunction syndrome	2	19696146	Xin M	2009	Genes & Development	MicroRNAs miR-143 and miR-145 modulate cytoskeletal dynamics and responsiveness of smooth muscle cells to injury
+2009	MIR145	multisystemic smooth muscle dysfunction syndrome	3	19726871	Boettger T	2009	Journal of Clinical Investigation	Acquisition of the contractile phenotype by murine arterial smooth muscle cells depends on the Mir143/145 gene cluster
+2009	MIR145	multisystemic smooth muscle dysfunction syndrome	4	19542014	Elia L	2009	Cell Death and Differentiation	The knockout of miR-143 and -145 alters smooth muscle cell maintenance and vascular homeostasis in mice: correlates with human disease
+2007	MIR145	multisystemic smooth muscle dysfunction syndrome	5	17994018	Guo DC	2007	Nature Genetics	Mutations in smooth muscle alpha-actin (ACTA2) lead to thoracic aortic aneurysms and dissections
+2012	MPC2	metabolic disease	1	22628558	Bricker DK	2012	Science	A mitochondrial pyruvate carrier required for pyruvate uptake in yeast, Drosophila, and humans
+2019	MPC2	metabolic disease	2		Oonthonpan L	2019	JCI Insight	Two human patient mitochondrial pyruvate carrier mutations reveal distinct molecular mechanisms of dysfunction
+2014	MPC2	metabolic disease	3		Vigueira PA	2014	Cell Reports	Mitochondrial pyruvate carrier 2 hypomorphism in mice leads to defects in glucose-stimulated insulin secretion
+2015	MPC2	metabolic disease	4		McCommis KS	2015	Cell Metabolism	Loss of mitochondrial pyruvate carrier 2 in the liver leads to defects in gluconeogenesis and compensation via pyruvate-alanine cycling
+2015	MPC2	metabolic disease	5		Gray LR	2015	Cell Metabolism	Hepatic mitochondrial pyruvate carrier 1 is required for efficient regulation of gluconeogenesis and whole-body glucose homeostasis
+2013	NALCN	temporal lobe epilepsy	1	23749988	Al-Sayed MD	2013	American Journal of Human Genetics	Mutations in NALCN cause an autosomal-recessive syndrome with severe hypotonia, speech impairment, and cognitive delay
+2015	NALCN	temporal lobe epilepsy	2	25683120	Chong JX	2015	American Journal of Human Genetics	De novo mutations in NALCN cause a syndrome characterized by congenital contractures of the limbs and face, hypotonia, and developmental delay
+2007	NALCN	temporal lobe epilepsy	3	17448991	Lu B	2007	Cell	The neuronal channel NALCN contributes resting sodium permeability and is required for normal respiratory rhythm
+2019	NALCN	temporal lobe epilepsy	4	31191221	Bouasse M	2019	Scientific Reports	Functional expression of CLIFAHDD and IHPRF pathogenic variants of the NALCN channel in neuronal cells reveals both gain- and loss-of-function properties
+2013	NALCN	temporal lobe epilepsy	5	23303949	Xie L	2013	Journal of Neuroscience	NLF-1 delivers a sodium leak channel to regulate neuronal excitability and modulate rhythmic locomotion
+2022	NUP50	amyotrophic lateral sclerosis	1			2022		Rare variants in NUP50 in amyotrophic lateral sclerosis patients (rare-variant screening with functional validation)
+2015	NUP50	amyotrophic lateral sclerosis	2	26308891	Freibaum	2015	Nature	GGGGCC repeat expansion in C9orf72 compromises nucleocytoplasmic transport
+2015	NUP50	amyotrophic lateral sclerosis	3	26308899	Zhang	2015	Nature	The C9orf72 repeat expansion disrupts nucleocytoplasmic transport
+2018	NUP50	amyotrophic lateral sclerosis	4	29556029	Chou	2018	Nature Neuroscience	TDP-43 pathology disrupts nuclear pore complexes and nucleocytoplasmic transport in ALS/FTD
+2015	NUP50	amyotrophic lateral sclerosis	5	26406374	Jovicic	2015	Nature Neuroscience	Modifiers of C9orf72 dipeptide repeat toxicity connect nucleocytoplasmic transport defects to FTD/ALS
+2007	PHF10	multiple congenital anomalies/dysmorphic syndrome	1	17640523	Lessard J	2007	Neuron	An essential switch in subunit composition of a chromatin remodeling complex during neural development (BAF45a/PHF10)
+2018	PHF10	multiple congenital anomalies/dysmorphic syndrome	2	29429572	Vasileiou G	2018	American Journal of Human Genetics	Mutations in the BAF-Complex Subunit DPF2 Are Associated with Coffin-Siris Syndrome
+2013	PHF10	multiple congenital anomalies/dysmorphic syndrome	3	23525077	Kadoch C	2013	Nature Genetics	Proteomic and bioinformatic analysis of mammalian SWI/SNF complexes identifies extensive roles in human malignancy
+2012	PHF10	multiple congenital anomalies/dysmorphic syndrome	4	22426308	Santen GWE	2012	Nature Genetics	Mutations in SWI/SNF chromatin remodeling complex gene ARID1B cause Coffin-Siris syndrome
+2018	PPCDC	dilated cardiomyopathy	1	29754768	Iuso A	2018	American Journal of Human Genetics	Mutations in PPCS, Encoding Phosphopantothenoylcysteine Synthetase, Cause Autosomal-Recessive Dilated Cardiomyopathy
+2014	PPCDC	dilated cardiomyopathy	2		Dusi S	2014	American Journal of Human Genetics	Exome sequence reveals mutations in CoA synthase as a cause of neurodegeneration with brain iron accumulation
+2001	PPCDC	dilated cardiomyopathy	3		Zhou B	2001	Nature Genetics	A novel pantothenate kinase gene (PANK2) is defective in Hallervorden-Spatz syndrome
+2012	RAB35	neurodevelopmental disorder	1	22891260	Kobayashi H	2012	Journal of Cell Science	Rab35 regulates Arf6 activity through centaurin-β2 (ACAP2) during neurite outgrowth
+2011	RAB35	neurodevelopmental disorder	2	21725319	Dambournet D	2011	Nature Cell Biology	Rab35 GTPase and OCRL phosphatase remodel lipids and F-actin for successful cytokinesis
+2006	RAB35	neurodevelopmental disorder	3	17084697	Kouranti I	2006	Current Biology	Rab35 regulates an endocytic recycling pathway essential for the terminal steps of cytokinesis
+2014	RAB35	neurodevelopmental disorder	4	25400543	Villarroel-Campos D	2014	Small GTPases	Rab-mediated trafficking role in neurite formation
+2010	RAB35	neurodevelopmental disorder	5	20937701	Allaire PD	2010	Molecular Cell	The Connecdenn DENN domain: a GEF for Rab35 mediating cargo-specific exit from early endosomes
+2000	TRPV1	channelopathy-associated congenital insensitivity to pain, autosomal recessive	1	10764638	Caterina MJ	2000	Science	Impaired nociception and pain sensation in mice lacking the capsaicin receptor
+2000	TRPV1	channelopathy-associated congenital insensitivity to pain, autosomal recessive	2	10764639	Davis JB	2000	Nature	Vanilloid receptor-1 is essential for inflammatory thermal hyperalgesia
+2007	TRPV1	channelopathy-associated congenital insensitivity to pain, autosomal recessive	3	17499506	Kim H	2007	Journal of Medical Genetics	Genetic predictors for acute experimental cold and heat pain sensitivity in humans
+2007	TRPV1	channelopathy-associated congenital insensitivity to pain, autosomal recessive	4	17157999	Park JJ	2007	Neuroscience Letters	Association between genetic variation in the TRPV1 gene and cold pain sensitivity
+2006	TRPV1	channelopathy-associated congenital insensitivity to pain, autosomal recessive	5	17167479	Cox JJ	2006	Nature	An SCN9A channelopathy causes congenital inability to experience pain
+2007	TUFM	inherited primary ovarian failure	1	17160893	Valente L	2007	American Journal of Human Genetics	Infantile encephalopathy and defective mitochondrial DNA translation in patients with mutations of mitochondrial elongation factors EFG1 and EFTu
+2018	TUFM	inherited primary ovarian failure	2	30299453	Chen A	2018	Journal of Clinical Endocrinology and Metabolism	Mutations in the mitochondrial ribosomal protein MRPS22 lead to primary ovarian insufficiency
+2013	TUFM	inherited primary ovarian failure	3	23541342	Pierce SB	2013	American Journal of Human Genetics	Mutations in LARS2, encoding mitochondrial leucyl-tRNA synthetase, lead to premature ovarian failure and hearing loss in Perrault syndrome
+2011	TUFM	inherited primary ovarian failure	4	21464306	Pierce SB	2011	Proceedings of the National Academy of Sciences	Mutations in mitochondrial histidyl tRNA synthetase HARS2 cause ovarian dysgenesis and sensorineural hearing loss of Perrault syndrome
+2022	TUFM	inherited primary ovarian failure	5	35123262	Heddar A	2022	EBioMedicine	Genetic landscape of a large cohort of primary ovarian insufficiency: new genes and pathways and implications for personalized medicine
+2005	VEZF1	cardiomyopathy, dilated, 100	1	15744049	Kuhnert F	2005	Development	Dosage-dependent requirement for mouse Vezf1 in vascular system development
+2001	VEZF1	cardiomyopathy, dilated, 100	2	11278823	Aitsebaomo J	2001	Journal of Biological Chemistry	Vezf1/DB1 is an endothelial cell-specific transcription factor that regulates expression of the endothelin-1 promoter
+1999	VEZF1	cardiomyopathy, dilated, 100	3	9637684	Xiong JW	1999	Developmental Dynamics	Vezf1: A Zn finger transcription factor restricted to endothelial cells and their precursors
+2021	VPS50	hydrocephalus	1	34163010	Schneeberger P.E.	2021	Brain	Bi-allelic variants in the vesicle transport protein VPS50 cause a neurodevelopmental disorder with neonatal cholestasis
+2020	VPS50	hydrocephalus	2		Jin S.C.	2020	Nature Medicine	Exome sequencing implicates genetic disruption of prenatal neuro-gliogenesis in sporadic congenital hydrocephalus
+1999	AFDN	cleft lip/palate	1	10531006	Zhadanov AB	1999	Current Biology	Absence of the tight junctional protein AF-6 disrupts epithelial cell-cell junctions and cell polarity during mouse development
+2000	AFDN	cleft lip/palate	2	10835642	Suzuki K	2000	Nature Genetics	Mutations of PVRL1, encoding a cell-cell adhesion molecule/herpesvirus receptor, in cleft lip/palate-ectodermal dysplasia
+1999	AFDN	cleft lip/palate	3		Ikeda W	1999	Journal of Cell Biology	Afadin: a key molecule essential for structural organization of cell-cell junctions of polarized epithelia during embryogenesis
+2010	AFDN	cleft lip/palate	4		Yoshida T	2010	Developmental Dynamics	Afadin requirement for cytokine expressions and epithelial integrity during development
+2012	APOA4	autosomal dominant medullary cystic kidney disease with or without hyperuricemia	1	21900877	Sethi S	2012	Kidney International	Medullary amyloidosis associated with apolipoprotein A-IV deposition
+2016	APOA4	autosomal dominant medullary cystic kidney disease with or without hyperuricemia	2		Dasari S	2016	Amyloid	Clinical, biopsy, and mass spectrometry characteristics of renal apolipoprotein A-IV amyloidosis
+2019	APOA4	autosomal dominant medullary cystic kidney disease with or without hyperuricemia	3		Sethi S	2019	Kidney International Reports	Hereditary apolipoprotein A-IV amyloidosis presenting as a tubulointerstitial/medullary kidney disease
+2017	APOA4	autosomal dominant medullary cystic kidney disease with or without hyperuricemia	4		Bleyer AJ	2017	Nature Reviews Nephrology / GeneReviews	Autosomal dominant tubulointerstitial kidney disease (review of causative genes)
+2018	ATP6V1C1	neurodevelopmental disorder	1	29668857	Fassio A	2018	Brain	De novo mutations of the ATP6V1A gene cause developmental encephalopathy with epilepsy
+2023	ATP6V1C1	neurodevelopmental disorder	2		Mattison KA	2023	Brain	ATP6V0C variants impair V-ATPase function causing a neurodevelopmental disorder often associated with epilepsy
+2021	ATP6V1C1	neurodevelopmental disorder	3		Aoto K	2021	American Journal of Human Genetics	ATP6V0A1 encoding the a1-subunit of the V0 domain of vacuolar H+-ATPases is essential for brain development in humans and mice
+2015	ATP6V1C1	neurodevelopmental disorder	4		Kortüm F	2015	Nature Genetics	Mutations in KCNH1 and ATP6V1B2 cause Zimmermann-Laband syndrome
+2012	CCDC91	punctate palmoplantar keratoderma	1	22561519	Pohler	2012	Nature Genetics	Haploinsufficiency for AAGAB causes clinically heterogeneous forms of punctate palmoplantar keratoderma
+2012	CCDC91	punctate palmoplantar keratoderma	2	22652693	Giehl	2012	Journal of Medical Genetics	Nonsense mutations in AAGAB cause punctate palmoplantar keratoderma type Buschke-Fischer-Brauer
+2012	CCDC91	punctate palmoplantar keratoderma	3	23103230	Guo	2012	Journal of Medical Genetics	Exome sequencing identifies a COL14A1 mutation in a large Chinese pedigree with punctate palmoplantar keratoderma
+2004	CCDC91	punctate palmoplantar keratoderma	4	14627716	Mattera	2004	Journal of Biological Chemistry	The trihelical bundle subdomain of the GGA proteins interacts with multiple partners through overlapping but distinct sites (p56/CCDC91)
+2006	CCT4	complex neurodevelopmental disorder	1	16399879	Bouhouche	2006	Journal of Medical Genetics	Mutation in the epsilon subunit of the cytosolic chaperonin-containing t-complex peptide-1 (Cct5) gene causes autosomal recessive mutilating sensory neuropathy with spastic paraplegia
+2018	CCT4	complex neurodevelopmental disorder	2		Minegishi	2018	Human Molecular Genetics	CCT2 mutations evoke Leber congenital amaurosis due to chaperone complex instability
+2003	CCT4	complex neurodevelopmental disorder	3		Lee	2003	Nature Genetics	A mutation in the chaperonin subunit Cct4 (Dcct4) causes sensory neuropathy in the mutilated foot (mf) rat
+2007	CCT4	complex neurodevelopmental disorder	4		Rajcan-Separovic	2007	Journal of Medical Genetics	Clinical and molecular cytogenetic characterisation of a newly recognised microdeletion syndrome involving 2p15-16.1
+2006	CCT7	complex neurodevelopmental disorder	1	16399879	Bouhouche	2006	Journal of Medical Genetics	Mutation in the epsilon subunit of the cytosolic chaperonin-containing t-complex peptide-1 (Cct5) gene causes autosomal recessive mutilating sensory neuropathy with spastic paraplegia
+2016	CCT7	complex neurodevelopmental disorder	2		Minegishi	2016	Human Molecular Genetics	CCT2 mutations evoke Leber congenital amaurosis due to chaperone complex instability
+2017	CCT7	complex neurodevelopmental disorder	3		Deciphering Developmental Disorders Study	2017	Nature	Prevalence and architecture of de novo mutations in developmental disorders
+2016	CELSR1	hydrops fetalis	1	26855770	Gonzalez-Garay ML	2016	Vascular Cell	A novel mutation in CELSR1 is associated with hereditary lymphedema
+2019	CELSR1	hydrops fetalis	2		Maltese PE	2019	Lymphatic Research and Biology	Increasing evidence of hereditary lymphedema caused by CELSR1 loss-of-function variants
+2013	CELSR1	hydrops fetalis	3	24229647	Tatin F	2013	Developmental Cell	Planar cell polarity protein Celsr1 regulates endothelial adherens junctions and directed cell rearrangements during valve morphogenesis
+2019	CELSR1	hydrops fetalis	4		Erickson RP	2019	American Journal of Medical Genetics A	Exome sequencing in non-immune hydrops fetalis and lymphatic dysplasia
+2020	CELSR1	hydrops fetalis	5	33095526	Sparks TN	2020	New England Journal of Medicine	Exome sequencing for prenatal diagnosis in nonimmune hydrops fetalis
+2021	CFAP47	polycystic kidney disease	1	33567251	Liu C	2021	American Journal of Human Genetics	Deleterious variants in X-linked CFAP47 induce asthenoteratozoospermia and primary male infertility
+2022	CFAP47	polycystic kidney disease	2		Song B	2022	Journal of Medical Genetics / Human Reproduction	Novel hemizygous CFAP47 variants in patients with asthenoteratozoospermia
+2024	CIAO1	multiple mitochondrial dysfunctions syndrome 10	1			2024	Genetics in Medicine	CIAO1 and MMS19 deficiency: a lethal neurodegenerative phenotype caused by cytosolic Fe-S cluster protein assembly disorders
+2024	CIAO1	multiple mitochondrial dysfunctions syndrome 10	2			2024	OMIM	Multiple mitochondrial dysfunctions syndrome 10 (MMDS10), CIAO1
+2008	IRAK2	immune dysregulation, autoimmunity, and autoinflammation	1	18297073	Kawagoe T	2008	Nature Immunology	Sequential control of Toll-like receptor-dependent responses by IRAK1 and IRAK2
+2013	IRAK2	immune dysregulation, autoimmunity, and autoinflammation	2	23913964	Pauls E	2013	Journal of Immunology	Two phases of inflammatory mediator production defined by the study of IRAK2 and IRAK1 knock-in mice
+2009	IRAK2	immune dysregulation, autoimmunity, and autoinflammation	3	19592493	Wan Y	2009	Journal of Biological Chemistry	Interleukin-1 receptor-associated kinase 2 is critical for lipopolysaccharide-mediated post-transcriptional control
+2010	IRAK2	immune dysregulation, autoimmunity, and autoinflammation	4		Flannery S	2010	Biochemical Pharmacology	The interleukin-1 receptor-associated kinases: critical regulators of innate immune signalling
+2004	MARK4	neurodevelopmental disorder	1	15009667	Trinczek B	2004	Journal of Biological Chemistry	MARK4 is a novel microtubule-associated protein/microtubule affinity-regulating kinase that binds to the cellular microtubule network and to centrosomes
+2009	MARK4	neurodevelopmental disorder	2	19955187	Magnani I	2009	Journal of Cellular Physiology	Reciprocal expression of MARK4 and nestin/CD133 in neural progenitors and glioma cells
+2008	MARK4	neurodevelopmental disorder	3	18562474	Sapir T	2008	Journal of Neuroscience	Accurate balance of the polarity kinase MARK2/Par-1 is required for proper cortical neuronal migration
+2014	MARK4	neurodevelopmental disorder	4		Rovina D	2014	Biology Open / Journal of Cell Science	Microtubule-associated protein/microtubule affinity-regulating kinase 4 (MARK4) plays a role in cell cycle progression and cytoskeletal dynamics
+2023	MARK4	neurodevelopmental disorder	5	36630954	Chen Y	2023	American Journal of Human Genetics / Molecular Psychiatry	Loss-of-function variants in the MARK2 gene cause a neurodevelopmental disorder with autism (family-member context, not MARK4)
+2012	MMS19	neurodegenerative disease	1	22678362	Stehling O	2012	Science	MMS19 assembles iron-sulfur proteins required for DNA metabolism and genomic integrity
+2012	MMS19	neurodegenerative disease	2	22678361	Gari K	2012	Science	MMS19 links cytoplasmic iron-sulfur cluster assembly to DNA metabolism
+2024	MMS19	neurodegenerative disease	3		Kaiyrzhanov R	2024	Brain	Bi-allelic variants in CIAO1 (cytosolic iron-sulfur assembly component) cause a neuromuscular disorder
+2017	MMS19	neurodegenerative disease	4		Odermatt DC	2017	Trends in Biochemical Sciences	Cytosolic iron-sulphur cluster assembly and the MMS19 targeting complex
+2010	MMS19	neurodegenerative disease	5		Ito S	2010	Molecular Cell	MMXD, a TFIIH-independent XPD-MMS19 protein complex involved in chromosome segregation
+2015	PRMT9	Mendelian neurodevelopmental disorder	1	26531182	Yang Y	2015	Nature Communications	PRMT9 is a type II methyltransferase that methylates the splicing factor SAP145
+2023	PRMT9	Mendelian neurodevelopmental disorder	2		Hu H	2023	Cell Reports / Science Advances	Neuronal loss of PRMT9 alters RNA splicing and causes learning and autism-like behavioral deficits in mice
+2015	PRMT9	Mendelian neurodevelopmental disorder	3	26571461	Akawi N	2015	Nature Genetics	Discovery of four recessive developmental disorders using probabilistic genotype and phenotype matching among 4,125 families (PRMT7)
+2008	SUPT7L	lipodystrophy	1	18838386	Wang YL	2008	Journal of Biological Chemistry	Human ATAC is a GCN5/PCAF-containing acetylase complex with a novel NC2-like histone fold module that interacts with the TATA-binding protein
+2010	SUPT7L	lipodystrophy	2	20686565	Teslovich TM	2010	Nature	Biological, clinical and population relevance of 95 loci for blood lipids
+2023	ZFTRAF1	neurodevelopmental disorder	1		Maroofian	2023	Genetics in Medicine	Bi-allelic variants in ZFTRAF1 (C15orf39) cause a neurodevelopmental disorder with developmental delay, hypotonia, microcephaly and seizures
+1992	BMP5	skeletal dysplasia	1	1555242	Kingsley DM	1992	Cell	The mouse short ear skeletal morphogenesis locus is associated with defects in a bone morphogenetic member of the TGF beta superfamily
+2012	BMP5	skeletal dysplasia	2	22763110	arcOGEN Consortium (Zeggini E)	2012	Lancet	Identification of new susceptibility loci for osteoarthritis (arcOGEN): a genome-wide association study
+2018	BMP5	skeletal dysplasia	3		Baird DA	2018	Arthritis & Rheumatology	Identification of novel loci associated with hip shape: a meta-analysis of genome-wide association studies
+2012	BMP5	skeletal dysplasia	4		Estrada K	2012	Nature Genetics	Genome-wide meta-analysis identifies 56 bone mineral density loci and reveals 14 loci associated with risk of fracture
+1995	BMP5	skeletal dysplasia	5		Mikic B	1995	Journal of Orthopaedic Research	Long bone geometry and strength in adult BMP-5 deficient mice
+2013	LRRC45	complex neurodevelopmental disorder	1	24075996	He	2013	Cell Reports	LRRC45 is a centrosome linker component required for centrosome cohesion
+2018	LRRC45	complex neurodevelopmental disorder	2		Kurtulmus	2018	Journal of Cell Science	LRRC45 contributes to early steps of axoneme extension
+2018	LRRC45	complex neurodevelopmental disorder	3		Nigg	2018	Nature Reviews Molecular Cell Biology	Once and only once: mechanisms of centriole duplication and their deregulation in disease
+2005	ME2	inborn disorder of energy metabolism	1	15685544	Greenberg DA	2005	American Journal of Human Genetics	Malic enzyme 2 may underlie susceptibility to adolescent-onset idiopathic generalized epilepsy
+2019	ME2	inborn disorder of energy metabolism	2		Lee WD	2019	Cell Reports / Metabolism-related	Malic enzyme couples mitochondria with aerobic glycolysis and contributes to cellular metabolism

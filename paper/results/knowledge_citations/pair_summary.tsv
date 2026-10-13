@@ -1,0 +1,421 @@
+year	bin	gene	phenotype	arm	verdict	present	n_cited	n_real	n_unresolved	n_pmid_wrong	n_gencc	gencc_found	gencc_exact_pmid	any_gencc	any_gencc_exact_pmid	any_A	any_AB
+2010	2010	IRAG1	achalasia	pesto	Existing	True	6	6	0	0	2	1	1	True	True	True	True
+2010	2010	IRAG1	achalasia	knowledge	Hypothesized	False	4	4	0	2	2	1	0	True	False	False	True
+2010	2010	ADAMTS9	ciliopathy	pesto	Established	True	7	7	0	0	4	2	2	True	True	True	True
+2010	2010	ADAMTS9	ciliopathy	knowledge	Existing	True	3	2	1	2	4	1	0	True	False	True	True
+2010	2010	SLC34A1	Fanconi renotubular syndrome 2	pesto	Existing	True	7	7	0	0	1	0	0	False	False	True	True
+2010	2010	SLC34A1	Fanconi renotubular syndrome 2	knowledge	Existing	True	5	4	1	1	1	1	1	True	True	True	True
+2010	2010	SPTAN1	hereditary spastic paraplegia	pesto	Established	True	6	6	0	0	6	1	1	True	True	True	True
+2010	2010	SPTAN1	hereditary spastic paraplegia	knowledge	Existing	True	5	4	1	1	6	2	1	True	True	False	True
+2010	2010	PDGFRA	congenital heart disease	pesto	Existing	True	1	1	0	0	2	1	1	True	True	True	True
+2010	2010	PDGFRA	congenital heart disease	knowledge	Hypothesized	False	5	4	1	4	2	0	0	False	False	True	True
+2010	2010	SHANK3	schizophrenia 15	pesto	Existing	True	3	3	0	0	4	1	1	True	True	True	True
+2010	2010	SHANK3	schizophrenia 15	knowledge	Existing	True	5	5	0	1	4	2	1	True	True	True	True
+2010	2010	LAS1L	X-linked syndromic intellectual disability	pesto	Established	True	9	9	0	0	8	2	2	True	True	True	True
+2010	2010	LAS1L	X-linked syndromic intellectual disability	knowledge	Existing	True	4	4	0	1	8	3	1	True	True	True	True
+2010	2010	SOBP	intellectual disability, anterior maxillary protrusion, and strabismus	pesto	Existing	True	6	6	0	0	1	1	1	True	True	True	True
+2010	2010	SOBP	intellectual disability, anterior maxillary protrusion, and strabismus	knowledge	Established	True	3	2	1	1	1	1	0	True	False	True	True
+2010	2010	C19orf12	hereditary spastic paraplegia 43	pesto	Established	True	7	7	0	0	4	3	3	True	True	True	True
+2010	2010	C19orf12	hereditary spastic paraplegia 43	knowledge	Established	True	5	4	1	4	4	1	0	True	False	True	True
+2010	2010	DIAPH3	auditory neuropathy	pesto	Established	True	8	8	0	0	2	1	1	True	True	True	True
+2010	2010	DIAPH3	auditory neuropathy	knowledge	Established	True	4	4	0	2	2	2	0	True	False	True	True
+2011	2011-2013	TRIM69	hereditary predisposition to infections	pesto	Hypothesized	False	6	6	0	0	1	0	0	False	False	False	True
+2011	2011-2013	TRIM69	hereditary predisposition to infections	knowledge	Hypothesized	False	3	3	0	3	1	0	0	False	False	False	True
+2011	2011-2013	MOG	narcolepsy 7	pesto	Existing	True	3	3	0	0	1	1	1	True	True	True	True
+2011	2011-2013	MOG	narcolepsy 7	knowledge	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2011	2011-2013	TECR	intellectual disability	pesto	Established	True	9	9	0	0	3	2	2	True	True	True	True
+2011	2011-2013	TECR	intellectual disability	knowledge	Existing	True	3	1	2	0	3	1	1	True	True	True	True
+2011	2011-2013	CRYGB	cataract 39 multiple types	pesto	Existing	True	12	12	0	0	2	2	2	True	True	True	True
+2011	2011-2013	CRYGB	cataract 39 multiple types	knowledge	Existing	True	3	2	1	1	2	1	0	True	False	True	True
+2011	2011-2013	PECR	neurodevelopmental disorder	pesto	Novel	False	1	1	0	0	1	0	0	False	False	False	False
+2011	2011-2013	PECR	neurodevelopmental disorder	knowledge	Hypothesized	False	1	1	0	0	1	0	0	False	False	False	False
+2011	2011-2013	ARL14EP	neurodevelopmental disorder	pesto	Hypothesized	False	4	4	0	0	1	0	0	False	False	True	True
+2011	2011-2013	ARL14EP	neurodevelopmental disorder	knowledge	Hypothesized	False	2	1	1	1	1	0	0	False	False	False	False
+2011	2011-2013	H3-4	neurodevelopmental disorder	pesto	Existing	True	5	5	0	0	1	0	0	False	False	True	True
+2011	2011-2013	H3-4	neurodevelopmental disorder	knowledge	Hypothesized	False	5	3	2	1	1	0	0	False	False	False	True
+2011	2011-2013	AKT1	Cowden syndrome 6	pesto	Existing	True	5	5	0	0	3	1	1	True	True	True	True
+2011	2011-2013	AKT1	Cowden syndrome 6	knowledge	Existing	True	4	3	1	1	3	1	1	True	True	True	True
+2011	2011-2013	SEPTIN12	spermatogenic failure 10	pesto	Existing	True	10	10	0	0	6	3	3	True	True	True	True
+2011	2011-2013	SEPTIN12	spermatogenic failure 10	knowledge	Existing	True	5	4	1	0	6	2	1	True	True	True	True
+2011	2011-2013	NDUFA12	Leigh syndrome	pesto	Established	True	8	8	0	0	3	1	1	True	True	True	True
+2011	2011-2013	NDUFA12	Leigh syndrome	knowledge	Established	True	3	3	0	0	3	1	0	True	False	True	True
+2012	2011-2013	CFHR3	hemolytic uremic syndrome, atypical, susceptibility to, 1	pesto	Existing	True	8	8	0	0	1	0	0	False	False	True	True
+2012	2011-2013	CFHR3	hemolytic uremic syndrome, atypical, susceptibility to, 1	knowledge	Established	True	5	4	1	4	1	0	0	False	False	True	True
+2012	2011-2013	FOXD3	anterior segment dysgenesis	pesto	Existing	True	8	8	0	0	1	1	1	True	True	True	True
+2012	2011-2013	FOXD3	anterior segment dysgenesis	knowledge	Hypothesized	False	4	3	1	4	1	0	0	False	False	False	True
+2012	2011-2013	FUS	tremor, hereditary essential, 4	pesto	Existing	True	6	6	0	0	5	0	0	False	False	False	True
+2012	2011-2013	FUS	tremor, hereditary essential, 4	knowledge	Existing	True	5	4	1	0	5	2	1	True	True	True	True
+2012	2011-2013	RNLS	cataract	pesto	Existing	True	5	5	0	0	1	1	1	True	True	True	True
+2012	2011-2013	RNLS	cataract	knowledge	Novel	False	0	0	0	0	1	0	0	False	False	False	False
+2012	2011-2013	KCTD13	neurodevelopmental disorder	pesto	Existing	True	13	13	0	0	3	3	3	True	True	True	True
+2012	2011-2013	KCTD13	neurodevelopmental disorder	knowledge	Hypothesized	False	5	5	0	4	3	2	1	True	True	True	True
+2012	2011-2013	TNIK	non-syndromic intellectual disability	pesto	Existing	True	8	8	0	0	3	2	2	True	True	True	True
+2012	2011-2013	TNIK	non-syndromic intellectual disability	knowledge	Existing	True	5	5	0	4	3	1	0	True	False	False	True
+2012	2011-2013	AP2A2	schizophrenia	pesto	Novel	False	7	7	0	0	1	0	0	False	False	False	False
+2012	2011-2013	AP2A2	schizophrenia	knowledge	Novel	False	0	0	0	0	1	0	0	False	False	False	False
+2012	2011-2013	CTNNA3	arrhythmogenic right ventricular cardiomyopathy	pesto	Existing	True	11	11	0	0	2	1	1	True	True	True	True
+2012	2011-2013	CTNNA3	arrhythmogenic right ventricular cardiomyopathy	knowledge	Existing	True	4	4	0	1	2	2	1	True	True	True	True
+2012	2011-2013	CPA6	familial temporal lobe epilepsy 5	pesto	Established	True	5	5	0	0	7	3	3	True	True	True	True
+2012	2011-2013	CPA6	familial temporal lobe epilepsy 5	knowledge	Existing	True	3	3	0	0	7	2	0	True	False	True	True
+2012	2011-2013	ABCB6	microphthalmia, isolated, with coloboma 7	pesto	Existing	True	8	8	0	0	4	2	2	True	True	True	True
+2012	2011-2013	ABCB6	microphthalmia, isolated, with coloboma 7	knowledge	Existing	True	4	4	0	3	4	1	1	True	True	True	True
+2013	2011-2013	MRPL12	combined oxidative phosphorylation deficiency 45	pesto	Existing	True	1	1	0	0	1	1	1	True	True	True	True
+2013	2011-2013	MRPL12	combined oxidative phosphorylation deficiency 45	knowledge	Existing	True	2	2	0	1	1	1	1	True	True	True	True
+2013	2011-2013	ELMOD3	nonsyndromic genetic hearing loss	pesto	Established	True	8	8	0	0	4	4	4	True	True	True	True
+2013	2011-2013	ELMOD3	nonsyndromic genetic hearing loss	knowledge	Existing	True	5	5	0	1	4	3	0	True	False	True	True
+2013	2011-2013	NPPA	atrial standstill 2	pesto	Established	True	6	6	0	0	1	1	1	True	True	True	True
+2013	2011-2013	NPPA	atrial standstill 2	knowledge	Existing	True	3	2	1	1	1	1	1	True	True	True	True
+2013	2011-2013	STT3B	congenital disorder of glycosylation	pesto	Established	True	6	6	0	0	3	2	2	True	True	True	True
+2013	2011-2013	STT3B	congenital disorder of glycosylation	knowledge	Existing	True	3	2	1	0	3	1	1	True	True	True	True
+2013	2011-2013	AGBL1	corneal dystrophy, Fuchs endothelial, 8	pesto	Existing	True	10	10	0	0	2	2	2	True	True	True	True
+2013	2011-2013	AGBL1	corneal dystrophy, Fuchs endothelial, 8	knowledge	Existing	True	2	1	1	0	2	1	1	True	True	True	True
+2013	2011-2013	DTHD1	LCAT deficiency	pesto	Novel	False	2	2	0	0	1	1	1	True	True	False	False
+2013	2011-2013	DTHD1	LCAT deficiency	knowledge	Novel	False	0	0	0	0	1	0	0	False	False	False	False
+2013	2011-2013	CDK6	microcephaly 12, primary, autosomal recessive	pesto	Established	True	8	8	0	0	1	1	1	True	True	True	True
+2013	2011-2013	CDK6	microcephaly 12, primary, autosomal recessive	knowledge	Existing	True	3	3	0	0	1	1	1	True	True	True	True
+2013	2011-2013	MAP2K2	Noonan syndrome	pesto	Existing	True	6	6	0	0	3	1	1	True	True	True	True
+2013	2011-2013	MAP2K2	Noonan syndrome	knowledge	Existing	True	5	5	0	2	3	0	0	False	False	True	True
+2013	2011-2013	DNM2	fetal akinesia-cerebral and retinal hemorrhage syndrome	pesto	Existing	True	4	4	0	0	1	1	1	True	True	True	True
+2013	2011-2013	DNM2	fetal akinesia-cerebral and retinal hemorrhage syndrome	knowledge	Existing	True	3	3	0	0	1	1	1	True	True	True	True
+2013	2011-2013	ABCB6	familial pseudohyperkalemia	pesto	Established	True	10	10	0	0	1	1	1	True	True	True	True
+2013	2011-2013	ABCB6	familial pseudohyperkalemia	knowledge	Established	True	5	3	2	0	1	1	0	True	False	True	True
+2014	2014-2016	TBXT	sacral agenesis-abnormal ossification of the vertebral bodies-persistent notochordal canal syndrome	pesto	Existing	True	5	5	0	0	2	0	0	False	False	True	True
+2014	2014-2016	TBXT	sacral agenesis-abnormal ossification of the vertebral bodies-persistent notochordal canal syndrome	knowledge	Existing	True	3	2	1	3	2	1	0	True	False	True	True
+2014	2014-2016	ABCA5	gingival fibromatosis-hypertrichosis syndrome	pesto	Established	True	3	3	0	0	1	1	1	True	True	True	True
+2014	2014-2016	ABCA5	gingival fibromatosis-hypertrichosis syndrome	knowledge	Existing	True	2	2	0	1	1	1	0	True	False	False	True
+2014	2014-2016	KPNA7	epilepsy	pesto	Existing	True	2	2	0	0	3	2	2	True	True	True	True
+2014	2014-2016	KPNA7	epilepsy	knowledge	Existing	True	3	1	2	0	3	0	0	False	False	False	False
+2014	2014-2016	TSEN54	cerebellar ataxia	pesto	Existing	True	9	9	0	0	1	1	1	True	True	True	True
+2014	2014-2016	TSEN54	cerebellar ataxia	knowledge	Established	True	5	5	0	4	1	0	0	False	False	True	True
+2014	2014-2016	KIF4A	complex neurodevelopmental disorder with or without congenital anomalies	pesto	Established	True	9	9	0	0	3	3	3	True	True	True	True
+2014	2014-2016	KIF4A	complex neurodevelopmental disorder with or without congenital anomalies	knowledge	Existing	True	4	3	1	1	3	1	1	True	True	True	True
+2014	2014-2016	DNAH8	primary ciliary dyskinesia	pesto	Existing	True	9	9	0	0	1	1	1	True	True	True	True
+2014	2014-2016	DNAH8	primary ciliary dyskinesia	knowledge	Hypothesized	False	4	2	2	0	1	0	0	False	False	False	True
+2014	2014-2016	BMP7	isolated craniosynostosis	pesto	Existing	True	5	5	0	0	3	1	1	True	True	True	True
+2014	2014-2016	BMP7	isolated craniosynostosis	knowledge	Hypothesized	False	5	4	1	4	3	0	0	False	False	False	True
+2014	2014-2016	RGS6	neurodevelopmental disorder	pesto	Existing	True	2	2	0	0	2	2	2	True	True	True	True
+2014	2014-2016	RGS6	neurodevelopmental disorder	knowledge	Hypothesized	False	4	3	1	1	2	0	0	False	False	False	True
+2014	2014-2016	RPS20	Lynch syndrome	pesto	Existing	True	9	9	0	0	3	3	3	True	True	True	True
+2014	2014-2016	RPS20	Lynch syndrome	knowledge	Existing	True	4	3	1	0	3	2	1	True	True	False	True
+2014	2014-2016	FBXO32	dilated cardiomyopathy	pesto	Established	True	4	4	0	0	4	2	2	True	True	True	True
+2014	2014-2016	FBXO32	dilated cardiomyopathy	knowledge	Existing	True	5	5	0	1	4	2	0	True	False	True	True
+2015	2014-2016	KITLG	Waardenburg syndrome 2F	pesto	Existing	True	9	9	0	0	2	2	2	True	True	True	True
+2015	2014-2016	KITLG	Waardenburg syndrome 2F	knowledge	Established	True	3	3	0	1	2	1	1	True	True	True	True
+2015	2014-2016	PRIMA1	frontal lobe epilepsy	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2015	2014-2016	PRIMA1	frontal lobe epilepsy	knowledge	Existing	True	1	1	0	1	1	1	0	True	False	True	True
+2015	2014-2016	APC2	intellectual developmental disorder, autosomal recessive 74	pesto	Established	True	5	5	0	0	1	1	1	True	True	True	True
+2015	2014-2016	APC2	intellectual developmental disorder, autosomal recessive 74	knowledge	Established	True	4	3	1	2	1	1	0	True	False	False	True
+2015	2014-2016	KLC4	early-childhood-onset neurodegeneration with retinitis pigmentosa, sensorineural hearing loss, and demyelinating peripheral neuropathy	pesto	Existing	True	4	4	0	0	1	1	1	True	True	False	True
+2015	2014-2016	KLC4	early-childhood-onset neurodegeneration with retinitis pigmentosa, sensorineural hearing loss, and demyelinating peripheral neuropathy	knowledge	Existing	True	1	1	0	0	1	1	0	True	False	False	True
+2015	2014-2016	PRICKLE1	epilepsy	pesto	Established	True	8	8	0	0	6	4	4	True	True	True	True
+2015	2014-2016	PRICKLE1	epilepsy	knowledge	Established	True	5	4	1	0	6	0	0	False	False	True	True
+2015	2014-2016	TNNI1	childhood-onset nemaline myopathy	pesto	Existing	True	4	4	0	0	3	1	1	True	True	True	True
+2015	2014-2016	TNNI1	childhood-onset nemaline myopathy	knowledge	Hypothesized	False	2	2	0	1	3	0	0	False	False	False	False
+2015	2014-2016	SPP2	retinitis pigmentosa	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2015	2014-2016	SPP2	retinitis pigmentosa	knowledge	Existing	True	1	0	1	0	1	0	0	False	False	False	False
+2015	2014-2016	PRIMA1	epilepsy	pesto	Existing	True	5	5	0	0	1	1	1	True	True	True	True
+2015	2014-2016	PRIMA1	epilepsy	knowledge	Existing	True	3	3	0	0	1	1	0	True	False	True	True
+2015	2014-2016	ASPN	osteoarthritis susceptibility 3	pesto	Existing	True	10	10	0	0	1	0	0	False	False	True	True
+2015	2014-2016	ASPN	osteoarthritis susceptibility 3	knowledge	Existing	True	5	5	0	4	1	0	0	False	False	True	True
+2015	2014-2016	NDUFV2	Leigh syndrome	pesto	Existing	True	8	8	0	0	2	1	1	True	True	True	True
+2015	2014-2016	NDUFV2	Leigh syndrome	knowledge	Existing	True	3	2	1	0	2	0	0	False	False	False	True
+2016	2014-2016	TCF7L1	combined pituitary hormone deficiencies, genetic form	pesto	Existing	True	6	6	0	0	1	1	1	True	True	True	True
+2016	2014-2016	TCF7L1	combined pituitary hormone deficiencies, genetic form	knowledge	Existing	True	2	1	1	0	1	1	1	True	True	True	True
+2016	2014-2016	TOP6BL	hydatidiform mole, recurrent, 4	pesto	Existing	True	5	5	0	0	2	1	1	True	True	True	True
+2016	2014-2016	TOP6BL	hydatidiform mole, recurrent, 4	knowledge	Existing	True	3	2	1	1	2	2	1	True	True	True	True
+2016	2014-2016	PNPLA4	mitochondrial disease	pesto	Existing	True	7	7	0	0	1	1	1	True	True	True	True
+2016	2014-2016	PNPLA4	mitochondrial disease	knowledge	Novel	False	3	0	3	3	1	0	0	False	False	False	False
+2016	2014-2016	SPTBN5	neurodevelopmental disorder	pesto	Existing	True	5	5	0	0	3	1	1	True	True	True	True
+2016	2014-2016	SPTBN5	neurodevelopmental disorder	knowledge	Existing	True	3	3	0	2	3	1	0	True	False	True	True
+2016	2014-2016	IFT57	orofaciodigital syndrome 18	pesto	Existing	True	3	3	0	0	3	2	2	True	True	True	True
+2016	2014-2016	IFT57	orofaciodigital syndrome 18	knowledge	Existing	True	2	2	0	0	3	1	0	True	False	False	True
+2016	2014-2016	SMARCA1	schizophrenia	pesto	Existing	True	9	9	0	0	1	1	1	True	True	True	True
+2016	2014-2016	SMARCA1	schizophrenia	knowledge	Hypothesized	False	2	2	0	2	1	0	0	False	False	False	False
+2016	2014-2016	SEMA3E	CHARGE syndrome	pesto	Existing	True	7	7	0	0	7	0	0	False	False	True	True
+2016	2014-2016	SEMA3E	CHARGE syndrome	knowledge	Existing	True	5	5	0	1	7	0	0	False	False	True	True
+2016	2014-2016	CDK16	intellectual disability	pesto	Existing	True	6	6	0	0	2	2	2	True	True	True	True
+2016	2014-2016	CDK16	intellectual disability	knowledge	Hypothesized	False	4	2	2	2	2	0	0	False	False	False	False
+2016	2014-2016	SLC22A4	hearing loss, autosomal recessive	pesto	Established	True	4	4	0	0	2	2	2	True	True	True	True
+2016	2014-2016	SLC22A4	hearing loss, autosomal recessive	knowledge	Novel	False	0	0	0	0	2	0	0	False	False	False	False
+2016	2014-2016	SLC14A1	blood group, kidd system	pesto	Established	True	8	8	0	0	2	1	1	True	True	True	True
+2016	2014-2016	SLC14A1	blood group, kidd system	knowledge	Established	True	5	4	1	3	2	0	0	False	False	True	True
+2017	2017-2019	FAM120A	Tourette syndrome	pesto	Novel	False	3	3	0	0	1	0	0	False	False	False	False
+2017	2017-2019	FAM120A	Tourette syndrome	knowledge	Novel	False	0	0	0	0	1	0	0	False	False	False	False
+2017	2017-2019	SNAI1	congenital heart disease	pesto	Hypothesized	False	9	9	0	0	3	0	0	False	False	False	True
+2017	2017-2019	SNAI1	congenital heart disease	knowledge	Hypothesized	False	5	5	0	4	3	0	0	False	False	False	True
+2017	2017-2019	ATAD3C	pontocerebellar hypoplasia, hypotonia, and respiratory insufficiency syndrome, neonatal lethal	pesto	Existing	True	7	7	0	0	3	2	2	True	True	True	True
+2017	2017-2019	ATAD3C	pontocerebellar hypoplasia, hypotonia, and respiratory insufficiency syndrome, neonatal lethal	knowledge	Hypothesized	False	5	4	1	4	3	2	1	True	True	True	True
+2017	2017-2019	KIF17	microphthalmia, isolated, with coloboma	pesto	Existing	True	5	5	0	0	3	2	2	True	True	True	True
+2017	2017-2019	KIF17	microphthalmia, isolated, with coloboma	knowledge	Novel	False	2	2	0	2	3	0	0	False	False	False	True
+2017	2017-2019	ERBIN	autosomal dominant combined immunodeficiency due to ERBIN deficiency	pesto	Existing	True	6	6	0	0	2	1	1	True	True	False	True
+2017	2017-2019	ERBIN	autosomal dominant combined immunodeficiency due to ERBIN deficiency	knowledge	Existing	True	3	3	0	1	2	1	0	True	False	False	True
+2017	2017-2019	TNNT1	nemaline myopathy 5C, autosomal dominant	pesto	Established	True	4	4	0	0	1	1	1	True	True	True	True
+2017	2017-2019	TNNT1	nemaline myopathy 5C, autosomal dominant	knowledge	Established	True	5	4	1	1	1	1	0	True	False	True	True
+2017	2017-2019	TRIM36	anencephaly 1	pesto	Existing	True	3	3	0	0	1	1	1	True	True	True	True
+2017	2017-2019	TRIM36	anencephaly 1	knowledge	Existing	True	3	3	0	1	1	1	1	True	True	True	True
+2017	2017-2019	KIF15	braddock-carey syndrome 2	pesto	Existing	True	1	1	0	0	4	1	1	True	True	True	True
+2017	2017-2019	KIF15	braddock-carey syndrome 2	knowledge	Established	True	2	1	1	0	4	0	0	False	False	False	False
+2017	2017-2019	DTNA	dilated cardiomyopathy	pesto	Existing	True	10	10	0	0	3	1	1	True	True	True	True
+2017	2017-2019	DTNA	dilated cardiomyopathy	knowledge	Hypothesized	False	4	4	0	3	3	0	0	False	False	True	True
+2017	2017-2019	IL37	inflammatory bowel disease (infantile ulcerative colitis) 31, autosomal recessive	pesto	Existing	True	4	4	0	0	3	1	1	True	True	True	True
+2017	2017-2019	IL37	inflammatory bowel disease (infantile ulcerative colitis) 31, autosomal recessive	knowledge	Existing	True	2	2	0	1	3	0	0	False	False	False	True
+2018	2017-2019	CLCC1	retinitis pigmentosa	pesto	Existing	True	3	3	0	0	1	1	1	True	True	True	True
+2018	2017-2019	CLCC1	retinitis pigmentosa	knowledge	Existing	True	3	1	2	1	1	1	0	True	False	True	True
+2018	2017-2019	MYL3	arrhythmogenic right ventricular cardiomyopathy	pesto	Novel	False	7	7	0	0	1	1	1	True	True	True	True
+2018	2017-2019	MYL3	arrhythmogenic right ventricular cardiomyopathy	knowledge	Novel	False	3	3	0	1	1	0	0	False	False	False	True
+2018	2017-2019	MARK3	visual impairment and progressive phthisis bulbi	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2018	2017-2019	MARK3	visual impairment and progressive phthisis bulbi	knowledge	Novel	False	0	0	0	0	1	0	0	False	False	False	False
+2018	2017-2019	PDHA2	spermatogenic failure 70	pesto	Existing	True	7	7	0	0	2	2	2	True	True	True	True
+2018	2017-2019	PDHA2	spermatogenic failure 70	knowledge	Existing	True	3	2	1	1	2	0	0	False	False	False	True
+2018	2017-2019	CEP112	spermatogenic failure 44	pesto	Established	True	4	4	0	0	2	1	1	True	True	True	True
+2018	2017-2019	CEP112	spermatogenic failure 44	knowledge	Existing	True	2	1	1	1	2	1	0	True	False	True	True
+2018	2017-2019	ATP5F1D	mitochondrial disease	pesto	Existing	True	11	11	0	0	2	1	1	True	True	True	True
+2018	2017-2019	ATP5F1D	mitochondrial disease	knowledge	Established	True	1	1	0	0	2	1	1	True	True	True	True
+2018	2017-2019	PLCB3	spondylometaphyseal dysplasia	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2018	2017-2019	PLCB3	spondylometaphyseal dysplasia	knowledge	Existing	True	0	0	0	0	1	0	0	False	False	False	False
+2018	2017-2019	PLCB3	spondylometaphyseal dysplasia with corneal dystrophy	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2018	2017-2019	PLCB3	spondylometaphyseal dysplasia with corneal dystrophy	knowledge	Existing	True	1	0	1	0	1	0	0	False	False	False	False
+2018	2017-2019	WDR5	congenital heart disease	pesto	Existing	True	5	5	0	0	3	1	1	True	True	True	True
+2018	2017-2019	WDR5	congenital heart disease	knowledge	Existing	True	3	3	0	0	3	0	0	False	False	False	True
+2018	2017-2019	ZFHX2	indifference to pain, congenital, autosomal dominant	pesto	Existing	True	5	5	0	0	1	1	1	True	True	True	True
+2018	2017-2019	ZFHX2	indifference to pain, congenital, autosomal dominant	knowledge	Existing	True	2	1	1	0	1	1	1	True	True	True	True
+2019	2017-2019	STXBP3	arthrogryposis syndrome	pesto	Novel	False	3	3	0	0	2	0	0	False	False	False	False
+2019	2017-2019	STXBP3	arthrogryposis syndrome	knowledge	Novel	False	0	0	0	0	2	0	0	False	False	False	False
+2019	2017-2019	GIGYF1	neurodevelopmental disorder	pesto	Established	True	5	5	0	0	4	2	2	True	True	True	True
+2019	2017-2019	GIGYF1	neurodevelopmental disorder	knowledge	Established	True	5	5	0	1	4	1	0	True	False	True	True
+2019	2017-2019	ARL6IP6	cutis marmorata telangiectatica congenita	pesto	Existing	True	5	5	0	0	1	0	0	False	False	True	True
+2019	2017-2019	ARL6IP6	cutis marmorata telangiectatica congenita	knowledge	Existing	True	2	0	2	1	1	0	0	False	False	False	False
+2019	2017-2019	MRPS25	combined oxidative phosphorylation deficiency 50	pesto	Existing	True	3	3	0	0	1	1	1	True	True	True	True
+2019	2017-2019	MRPS25	combined oxidative phosphorylation deficiency 50	knowledge	Existing	True	1	1	0	0	1	1	1	True	True	True	True
+2019	2017-2019	HS6ST2	Paganini-Miozzo syndrome	pesto	Established	True	5	5	0	0	1	1	1	True	True	True	True
+2019	2017-2019	HS6ST2	Paganini-Miozzo syndrome	knowledge	Existing	True	1	1	0	1	1	1	0	True	False	False	False
+2019	2017-2019	CLDN2	azoospermia, obstructive, with nephrolithiasis	pesto	Existing	True	5	5	0	0	2	2	2	True	True	False	True
+2019	2017-2019	CLDN2	azoospermia, obstructive, with nephrolithiasis	knowledge	Existing	True	3	2	1	0	2	0	0	False	False	False	True
+2019	2017-2019	ABCC1	autosomal dominant nonsyndromic hearing loss	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2019	2017-2019	ABCC1	autosomal dominant nonsyndromic hearing loss	knowledge	Hypothesized	False	3	2	1	0	1	0	0	False	False	False	False
+2019	2017-2019	NOTCH3	inherited thrombocytopenia	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2019	2017-2019	NOTCH3	inherited thrombocytopenia	knowledge	Novel	False	2	2	0	1	1	0	0	False	False	False	True
+2019	2017-2019	XRCC2	premature ovarian failure 17	pesto	Existing	True	5	5	0	0	1	1	1	True	True	True	True
+2019	2017-2019	XRCC2	premature ovarian failure 17	knowledge	Existing	True	4	4	0	3	1	1	0	True	False	True	True
+2019	2017-2019	MRPS14	mitochondrial disease	pesto	Established	True	3	3	0	0	2	1	1	True	True	True	True
+2019	2017-2019	MRPS14	mitochondrial disease	knowledge	Existing	True	1	1	0	1	2	1	0	True	False	True	True
+2020	2020-2022	EMC10	global developmental delay with or without impaired intellectual development	pesto	Established	True	8	8	0	0	1	1	1	True	True	True	True
+2020	2020-2022	EMC10	global developmental delay with or without impaired intellectual development	knowledge	Established	True	3	2	1	1	1	1	0	True	False	True	True
+2020	2020-2022	RIOK2	male infertility with azoospermia or oligozoospermia due to single gene mutation	pesto	Novel	False	9	9	0	0	1	0	0	False	False	False	False
+2020	2020-2022	RIOK2	male infertility with azoospermia or oligozoospermia due to single gene mutation	knowledge	Novel	False	2	1	1	2	1	0	0	False	False	False	False
+2020	2020-2022	GPR161	pituitary stalk interruption syndrome	pesto	Existing	True	6	6	0	0	1	0	0	False	False	True	True
+2020	2020-2022	GPR161	pituitary stalk interruption syndrome	knowledge	Existing	True	4	3	1	2	1	0	0	False	False	True	True
+2020	2020-2022	TKFC	triokinase and FMN cyclase deficiency syndrome	pesto	Established	True	4	4	0	0	1	1	1	True	True	True	True
+2020	2020-2022	TKFC	triokinase and FMN cyclase deficiency syndrome	knowledge	Established	True	2	1	1	0	1	1	0	True	False	True	True
+2020	2020-2022	CAV1	amyotrophic lateral sclerosis	pesto	Existing	True	12	12	0	0	2	1	1	True	True	True	True
+2020	2020-2022	CAV1	amyotrophic lateral sclerosis	knowledge	Existing	True	3	3	0	1	2	0	0	False	False	True	True
+2020	2020-2022	VPS26C	neurodevelopmental disorder	pesto	Existing	True	8	8	0	0	1	1	1	True	True	True	True
+2020	2020-2022	VPS26C	neurodevelopmental disorder	knowledge	Hypothesized	False	4	2	2	1	1	0	0	False	False	False	False
+2020	2020-2022	KCNAB3	neurodevelopmental disorder	pesto	Existing	True	4	4	0	0	3	2	2	True	True	True	True
+2020	2020-2022	KCNAB3	neurodevelopmental disorder	knowledge	Hypothesized	False	2	1	1	1	3	0	0	False	False	False	False
+2020	2020-2022	BOD1	syndromic intellectual disability	pesto	Established	True	4	4	0	0	1	1	1	True	True	True	True
+2020	2020-2022	BOD1	syndromic intellectual disability	knowledge	Existing	True	3	3	0	1	1	0	0	False	False	True	True
+2020	2020-2022	SOD2	microvascular complications of diabetes, susceptibility to, 6	pesto	Existing	True	4	4	0	0	1	0	0	False	False	True	True
+2020	2020-2022	SOD2	microvascular complications of diabetes, susceptibility to, 6	knowledge	Existing	True	5	5	0	3	1	0	0	False	False	True	True
+2020	2020-2022	YPEL2	retinitis pigmentosa	pesto	Existing	True	1	1	0	0	1	1	1	True	True	True	True
+2020	2020-2022	YPEL2	retinitis pigmentosa	knowledge	Existing	True	3	1	2	1	1	1	0	True	False	True	True
+2021	2020-2022	ATP5MC3	mitochondrial disease	pesto	Existing	True	5	5	0	0	3	2	2	True	True	True	True
+2021	2020-2022	ATP5MC3	mitochondrial disease	knowledge	Existing	True	0	0	0	0	3	0	0	False	False	False	False
+2021	2020-2022	MYH7	congenital heart disease	pesto	Established	True	5	5	0	0	3	1	1	True	True	True	True
+2021	2020-2022	MYH7	congenital heart disease	knowledge	Established	True	5	5	0	0	3	0	0	False	False	True	True
+2021	2020-2022	NCOA3	autosomal dominant nonsyndromic hearing loss	pesto	Established	True	2	2	0	0	1	1	1	True	True	True	True
+2021	2020-2022	NCOA3	autosomal dominant nonsyndromic hearing loss	knowledge	Existing	True	1	1	0	1	1	1	0	True	False	True	True
+2021	2020-2022	LAMA4	familial dilated cardiomyopathy	pesto	Existing	True	10	10	0	0	1	0	0	False	False	True	True
+2021	2020-2022	LAMA4	familial dilated cardiomyopathy	knowledge	Existing	True	3	3	0	2	1	1	0	True	False	True	True
+2021	2020-2022	DLG5	ciliopathy	pesto	Established	True	5	5	0	0	1	1	1	True	True	True	True
+2021	2020-2022	DLG5	ciliopathy	knowledge	Hypothesized	False	3	2	1	1	1	0	0	False	False	False	True
+2021	2020-2022	MAST2	thrombotic disease	pesto	Existing	True	1	1	0	0	1	1	1	True	True	True	True
+2021	2020-2022	MAST2	thrombotic disease	knowledge	Existing	True	2	0	2	1	1	0	0	False	False	False	False
+2021	2020-2022	ETV2	congenital heart disease	pesto	Existing	True	6	6	0	0	1	1	1	True	True	True	True
+2021	2020-2022	ETV2	congenital heart disease	knowledge	Hypothesized	False	4	4	0	4	1	0	0	False	False	False	True
+2021	2020-2022	DLST	pheochromocytoma/paraganglioma syndrome 7	pesto	Established	True	8	8	0	0	1	1	1	True	True	True	True
+2021	2020-2022	DLST	pheochromocytoma/paraganglioma syndrome 7	knowledge	Existing	True	3	2	1	0	1	0	0	False	False	True	True
+2021	2020-2022	FBN2	carpal tunnel syndrome	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2021	2020-2022	FBN2	carpal tunnel syndrome	knowledge	Existing	True	3	2	1	2	1	0	0	False	False	False	False
+2021	2020-2022	MYADML2	connective tissue disorder	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2021	2020-2022	MYADML2	connective tissue disorder	knowledge	Novel	False	0	0	0	0	1	0	0	False	False	False	False
+2022	2020-2022	MAD1L1	familial prostate carcinoma	pesto	Existing	True	4	4	0	0	1	1	1	True	True	True	True
+2022	2020-2022	MAD1L1	familial prostate carcinoma	knowledge	Hypothesized	False	2	2	0	2	1	0	0	False	False	False	True
+2022	2020-2022	ATP5PB	hypermetabolism due to uncoupled mitochondrial oxidative phosphorylation 2	pesto	Hypothesized	False	7	7	0	0	1	0	0	False	False	False	True
+2022	2020-2022	ATP5PB	hypermetabolism due to uncoupled mitochondrial oxidative phosphorylation 2	knowledge	Existing	True	0	0	0	0	1	0	0	False	False	False	False
+2022	2020-2022	NFATC2	joint contractures, osteochondromas, and B-cell lymphoma	pesto	Existing	True	8	8	0	0	1	1	1	True	True	True	True
+2022	2020-2022	NFATC2	joint contractures, osteochondromas, and B-cell lymphoma	knowledge	Existing	True	3	2	1	2	1	0	0	False	False	False	True
+2022	2020-2022	DNAH14	neurodevelopmental disorder	pesto	Existing	True	4	4	0	0	1	1	1	True	True	True	True
+2022	2020-2022	DNAH14	neurodevelopmental disorder	knowledge	Existing	True	0	0	0	0	1	0	0	False	False	False	False
+2022	2020-2022	NFE2L1	syndromic disease	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2022	2020-2022	NFE2L1	syndromic disease	knowledge	Hypothesized	False	5	5	0	4	1	0	0	False	False	False	True
+2022	2020-2022	C18orf32	glycosylphosphatidylinositol biosynthesis defect 25	pesto	Existing	True	2	2	0	0	1	1	1	True	True	False	True
+2022	2020-2022	C18orf32	glycosylphosphatidylinositol biosynthesis defect 25	knowledge	Existing	True	1	0	1	0	1	0	0	False	False	False	False
+2022	2020-2022	LHX8	inherited primary ovarian failure	pesto	Existing	True	9	9	0	0	1	1	1	True	True	True	True
+2022	2020-2022	LHX8	inherited primary ovarian failure	knowledge	Hypothesized	False	5	5	0	2	1	0	0	False	False	True	True
+2022	2020-2022	DNAH14	complex neurodevelopmental disorder	pesto	Existing	True	5	5	0	0	2	2	2	True	True	True	True
+2022	2020-2022	DNAH14	complex neurodevelopmental disorder	knowledge	Hypothesized	False	0	0	0	0	2	0	0	False	False	False	False
+2022	2020-2022	SLC11A1	Mycobacterium tuberculosis, susceptibility	pesto	Established	True	11	11	0	0	1	1	1	True	True	True	True
+2022	2020-2022	SLC11A1	Mycobacterium tuberculosis, susceptibility	knowledge	Existing	True	5	5	0	3	1	0	0	False	False	True	True
+2022	2020-2022	CCDC34	spermatogenic failure 76	pesto	Established	True	2	2	0	0	1	1	1	True	True	True	True
+2022	2020-2022	CCDC34	spermatogenic failure 76	knowledge	Existing	True	1	0	1	0	1	0	0	False	False	False	False
+2023	2023-2025	TBC1D31	congenital anomaly of kidney and urinary tract	pesto	Existing	True	4	4	0	0	1	1	1	True	True	True	True
+2023	2023-2025	TBC1D31	congenital anomaly of kidney and urinary tract	knowledge	Hypothesized	False	0	0	0	0	1	0	0	False	False	False	False
+2023	2023-2025	IL1R1	chronic recurrent multifocal osteomyelitis 3	pesto	Existing	True	3	3	0	0	1	1	1	True	True	True	True
+2023	2023-2025	IL1R1	chronic recurrent multifocal osteomyelitis 3	knowledge	Existing	True	3	2	1	3	1	0	0	False	False	False	True
+2023	2023-2025	GTF2IRD1	neurodevelopmental disorder	pesto	Existing	True	11	11	0	0	1	1	1	True	True	True	True
+2023	2023-2025	GTF2IRD1	neurodevelopmental disorder	knowledge	Existing	True	5	5	0	5	1	0	0	False	False	True	True
+2023	2023-2025	NUP50	amyotrophic lateral sclerosis	pesto	Existing	True	3	3	0	0	1	1	1	True	True	True	True
+2023	2023-2025	NUP50	amyotrophic lateral sclerosis	knowledge	Existing	True	5	4	1	2	1	0	0	False	False	False	True
+2023	2023-2025	MPC2	metabolic disease	pesto	Existing	True	8	8	0	0	1	1	1	True	True	True	True
+2023	2023-2025	MPC2	metabolic disease	knowledge	Hypothesized	False	5	5	0	0	1	0	0	False	False	False	True
+2023	2023-2025	MIR145	multisystemic smooth muscle dysfunction syndrome	pesto	Existing	True	4	4	0	0	1	1	1	True	True	True	True
+2023	2023-2025	MIR145	multisystemic smooth muscle dysfunction syndrome	knowledge	Hypothesized	False	5	5	0	3	1	0	0	False	False	False	True
+2023	2023-2025	LY96	inborn error of immunity	pesto	Existing	True	6	6	0	0	1	1	1	True	True	True	True
+2023	2023-2025	LY96	inborn error of immunity	knowledge	Hypothesized	False	4	2	2	2	1	0	0	False	False	False	True
+2023	2023-2025	TUFM	inherited primary ovarian failure	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2023	2023-2025	TUFM	inherited primary ovarian failure	knowledge	Hypothesized	False	5	5	0	2	1	0	0	False	False	False	False
+2023	2023-2025	TRPV1	channelopathy-associated congenital insensitivity to pain, autosomal recessive	pesto	Existing	True	6	6	0	0	2	1	1	True	True	True	True
+2023	2023-2025	TRPV1	channelopathy-associated congenital insensitivity to pain, autosomal recessive	knowledge	Hypothesized	False	5	4	1	3	2	0	0	False	False	False	True
+2023	2023-2025	PLXNC1	cerebral cortical dysplasia	pesto	Hypothesized	False	6	6	0	0	1	0	0	False	False	False	True
+2023	2023-2025	PLXNC1	cerebral cortical dysplasia	knowledge	Novel	False	0	0	0	0	1	0	0	False	False	False	False
+2024	2023-2025	SUPT7L	lipodystrophy	pesto	Existing	True	3	3	0	0	1	1	1	True	True	True	True
+2024	2023-2025	SUPT7L	lipodystrophy	knowledge	Hypothesized	False	2	2	0	0	1	0	0	False	False	False	False
+2024	2023-2025	SGSM3	intellectual disability	pesto	Existing	True	3	3	0	0	1	1	1	True	True	True	True
+2024	2023-2025	SGSM3	intellectual disability	knowledge	Novel	False	0	0	0	0	1	0	0	False	False	False	False
+2024	2023-2025	APOA4	autosomal dominant medullary cystic kidney disease with or without hyperuricemia	pesto	Existing	True	5	5	0	0	1	1	1	True	True	False	True
+2024	2023-2025	APOA4	autosomal dominant medullary cystic kidney disease with or without hyperuricemia	knowledge	Existing	True	4	2	2	1	1	0	0	False	False	False	True
+2024	2023-2025	CCDC91	punctate palmoplantar keratoderma	pesto	Existing	True	1	1	0	0	1	1	1	True	True	False	True
+2024	2023-2025	CCDC91	punctate palmoplantar keratoderma	knowledge	Hypothesized	False	4	4	0	4	1	0	0	False	False	False	False
+2024	2023-2025	CELSR1	hydrops fetalis	pesto	Existing	True	6	6	0	0	1	1	1	True	True	True	True
+2024	2023-2025	CELSR1	hydrops fetalis	knowledge	Existing	True	5	4	1	2	1	0	0	False	False	False	True
+2024	2023-2025	CIAO1	multiple mitochondrial dysfunctions syndrome 10	pesto	Established	True	9	9	0	0	2	2	2	True	True	True	True
+2024	2023-2025	CIAO1	multiple mitochondrial dysfunctions syndrome 10	knowledge	Established	True	2	1	1	0	2	1	0	True	False	False	True
+2024	2023-2025	CCT7	complex neurodevelopmental disorder	pesto	Novel	False	6	6	0	0	1	0	0	False	False	False	True
+2024	2023-2025	CCT7	complex neurodevelopmental disorder	knowledge	Hypothesized	False	3	3	0	0	1	0	0	False	False	False	False
+2024	2023-2025	MARK4	neurodevelopmental disorder	pesto	Existing	True	4	4	0	0	1	1	1	True	True	True	True
+2024	2023-2025	MARK4	neurodevelopmental disorder	knowledge	Hypothesized	False	5	4	1	4	1	0	0	False	False	False	True
+2024	2023-2025	PRMT9	Mendelian neurodevelopmental disorder	pesto	Established	True	4	4	0	0	1	1	1	True	True	True	True
+2024	2023-2025	PRMT9	Mendelian neurodevelopmental disorder	knowledge	Hypothesized	False	3	2	1	2	1	0	0	False	False	False	True
+2024	2023-2025	CCT4	complex neurodevelopmental disorder	pesto	Hypothesized	False	9	9	0	0	1	0	0	False	False	False	True
+2024	2023-2025	CCT4	complex neurodevelopmental disorder	knowledge	Hypothesized	False	4	2	2	0	1	0	0	False	False	False	True
+2024	2023-2025	IRAK2	immune dysregulation, autoimmunity, and autoinflammation	pesto	Established	True	9	9	0	0	1	1	1	True	True	True	True
+2024	2023-2025	IRAK2	immune dysregulation, autoimmunity, and autoinflammation	knowledge	Hypothesized	False	4	4	0	3	1	0	0	False	False	False	True
+2024	2023-2025	ZFTRAF1	neurodevelopmental disorder	pesto	Existing	True	1	1	0	0	1	1	1	True	True	True	True
+2024	2023-2025	ZFTRAF1	neurodevelopmental disorder	knowledge	Established	True	1	0	1	0	1	0	0	False	False	False	False
+2024	2023-2025	ATP6V1C1	neurodevelopmental disorder	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2024	2023-2025	ATP6V1C1	neurodevelopmental disorder	knowledge	Hypothesized	False	4	4	0	0	1	0	0	False	False	False	False
+2024	2023-2025	MMS19	neurodegenerative disease	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2024	2023-2025	MMS19	neurodegenerative disease	knowledge	Hypothesized	False	5	3	2	0	1	0	0	False	False	False	True
+2024	2023-2025	CFAP47	polycystic kidney disease	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2024	2023-2025	CFAP47	polycystic kidney disease	knowledge	Novel	False	2	1	1	1	1	0	0	False	False	False	False
+2024	2023-2025	KAT2B	steroid-resistant nephrotic syndrome	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2024	2023-2025	KAT2B	steroid-resistant nephrotic syndrome	knowledge	Novel	False	0	0	0	0	1	0	0	False	False	False	False
+2024	2023-2025	AFDN	cleft lip/palate	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2024	2023-2025	AFDN	cleft lip/palate	knowledge	Hypothesized	False	4	3	1	2	1	0	0	False	False	False	True
+2025	2023-2025	ME2	inborn disorder of energy metabolism	pesto	Existing	True	7	7	0	0	1	1	1	True	True	False	True
+2025	2023-2025	ME2	inborn disorder of energy metabolism	knowledge	Hypothesized	False	2	2	0	1	1	0	0	False	False	False	True
+2025	2023-2025	LRRC45	complex neurodevelopmental disorder	pesto	Existing	True	3	3	0	0	1	1	1	True	True	True	True
+2025	2023-2025	LRRC45	complex neurodevelopmental disorder	knowledge	Hypothesized	False	3	3	0	1	1	0	0	False	False	False	True
+2025	2023-2025	BMP5	skeletal dysplasia	pesto	Existing	True	9	9	0	0	1	1	1	True	True	True	True
+2025	2023-2025	BMP5	skeletal dysplasia	knowledge	Hypothesized	False	5	4	1	1	1	0	0	False	False	False	True
+2012	2011-2013	SLC4A8	schizophrenia	pesto	Novel	False	2	2	0	0	1	0	0	False	False	False	False
+2012	2011-2013	SLC4A8	schizophrenia	knowledge	Hypothesized	False	2	2	0	1	1	0	0	False	False	False	True
+2013	2011-2013	TNK2	genetic generalized epilepsy	pesto	Existing	True	4	4	0	0	3	2	2	True	True	True	True
+2013	2011-2013	TNK2	genetic generalized epilepsy	knowledge	Existing	True	2	2	0	1	3	1	0	True	False	False	True
+2011	2011-2013	COQ5	neurodevelopmental disorder	pesto	Established	True	3	3	0	0	1	0	0	False	False	True	True
+2011	2011-2013	COQ5	neurodevelopmental disorder	knowledge	Existing	True	3	3	0	1	1	0	0	False	False	True	True
+2011	2011-2013	MYBPC3	congenital heart disease	pesto	Existing	True	6	6	0	0	9	4	4	True	True	True	True
+2011	2011-2013	MYBPC3	congenital heart disease	knowledge	Hypothesized	False	5	5	0	0	9	1	1	True	True	True	True
+2011	2011-2013	CNKSR1	neurodevelopmental disorder	pesto	Existing	True	2	2	0	0	1	0	0	False	False	True	True
+2011	2011-2013	CNKSR1	neurodevelopmental disorder	knowledge	Hypothesized	False	3	1	2	1	1	0	0	False	False	False	False
+2013	2011-2013	SIRT1	autoimmune disease	pesto	Existing	True	7	7	0	0	1	1	1	True	True	True	True
+2013	2011-2013	SIRT1	autoimmune disease	knowledge	Existing	True	4	3	1	1	1	1	1	True	True	True	True
+2011	2011-2013	PRICKLE2	complex neurodevelopmental disorder	pesto	Existing	True	5	5	0	0	3	2	2	True	True	True	True
+2011	2011-2013	PRICKLE2	complex neurodevelopmental disorder	knowledge	Existing	True	5	5	0	0	3	1	1	True	True	True	True
+2013	2011-2013	DDX59	ciliopathy	pesto	Established	True	5	5	0	0	3	3	3	True	True	True	True
+2013	2011-2013	DDX59	ciliopathy	knowledge	Established	True	3	3	0	1	3	3	0	True	False	True	True
+2013	2011-2013	FLRT3	hypogonadotropic hypogonadism 21 with or without anosmia	pesto	Existing	True	9	9	0	0	2	2	2	True	True	True	True
+2013	2011-2013	FLRT3	hypogonadotropic hypogonadism 21 with or without anosmia	knowledge	Existing	True	3	3	0	2	2	1	1	True	True	True	True
+2011	2011-2013	ZBTB40	neurodevelopmental disorder	pesto	Novel	False	7	7	0	0	1	0	0	False	False	False	False
+2011	2011-2013	ZBTB40	neurodevelopmental disorder	knowledge	Novel	False	0	0	0	0	1	0	0	False	False	False	False
+2015	2014-2016	HNRNPA0	Tourette syndrome	pesto	Novel	False	3	3	0	0	3	0	0	False	False	False	False
+2015	2014-2016	HNRNPA0	Tourette syndrome	knowledge	Novel	False	0	0	0	0	3	0	0	False	False	False	False
+2016	2014-2016	ITSN1	complex neurodevelopmental disorder	pesto	Established	True	6	6	0	0	2	0	0	False	False	True	True
+2016	2014-2016	ITSN1	complex neurodevelopmental disorder	knowledge	Hypothesized	False	5	5	0	0	2	0	0	False	False	False	True
+2015	2014-2016	USP27X	X-linked intellectual disability	pesto	Established	True	7	7	0	0	3	1	1	True	True	True	True
+2015	2014-2016	USP27X	X-linked intellectual disability	knowledge	Existing	True	2	2	0	1	3	1	0	True	False	True	True
+2017	2017-2019	INTS8	neurodevelopmental disorder with cerebellar hypoplasia and spasticity	pesto	Existing	True	7	7	0	0	1	1	1	True	True	False	True
+2017	2017-2019	INTS8	neurodevelopmental disorder with cerebellar hypoplasia and spasticity	knowledge	Existing	True	2	2	0	1	1	1	1	True	True	False	True
+2014	2014-2016	SETD1A	epilepsy, early-onset, with or without developmental delay	pesto	Existing	True	4	4	0	0	3	1	1	True	True	True	True
+2014	2014-2016	SETD1A	epilepsy, early-onset, with or without developmental delay	knowledge	Established	True	5	5	0	2	3	1	0	True	False	True	True
+2016	2014-2016	WBP2	hearing loss, autosomal recessive	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2016	2014-2016	WBP2	hearing loss, autosomal recessive	knowledge	Existing	True	2	1	1	1	1	1	0	True	False	True	True
+2014	2014-2016	IARS2	Leigh syndrome	pesto	Established	True	5	5	0	0	4	2	2	True	True	True	True
+2014	2014-2016	IARS2	Leigh syndrome	knowledge	Existing	True	4	4	0	2	4	2	0	True	False	True	True
+2016	2014-2016	MRPS23	combined oxidative phosphorylation deficiency 46	pesto	Established	True	9	9	0	0	1	1	1	True	True	True	True
+2016	2014-2016	MRPS23	combined oxidative phosphorylation deficiency 46	knowledge	Existing	True	2	1	1	0	1	1	1	True	True	True	True
+2015	2014-2016	CLPB	Leigh syndrome	pesto	Hypothesized	False	10	10	0	0	4	1	1	True	True	False	True
+2015	2014-2016	CLPB	Leigh syndrome	knowledge	Hypothesized	False	5	4	1	4	4	3	0	True	False	False	True
+2017	2017-2019	CENPT	short stature and microcephaly with genital anomalies	pesto	Existing	True	1	1	0	0	1	1	1	True	True	False	True
+2017	2017-2019	CENPT	short stature and microcephaly with genital anomalies	knowledge	Existing	True	1	0	1	0	1	0	0	False	False	False	False
+2019	2017-2019	HIVEP1	complex neurodevelopmental disorder	pesto	Novel	False	3	3	0	0	1	0	0	False	False	False	False
+2019	2017-2019	HIVEP1	complex neurodevelopmental disorder	knowledge	Hypothesized	False	4	2	2	3	1	0	0	False	False	False	False
+2018	2017-2019	IFT74	spermatogenic failure 58	pesto	Existing	True	8	8	0	0	3	1	1	True	True	True	True
+2018	2017-2019	IFT74	spermatogenic failure 58	knowledge	Existing	True	3	1	2	1	3	0	0	False	False	False	False
+2021	2020-2022	ILK	familial dilated cardiomyopathy	pesto	Existing	True	9	9	0	0	1	0	0	False	False	True	True
+2021	2020-2022	ILK	familial dilated cardiomyopathy	knowledge	Existing	True	4	4	0	3	1	1	0	True	False	True	True
+2018	2017-2019	GATC	inborn mitochondrial metabolism disorder	pesto	Existing	True	1	1	0	0	1	1	1	True	True	True	True
+2018	2017-2019	GATC	inborn mitochondrial metabolism disorder	knowledge	Established	True	2	2	0	0	1	1	1	True	True	True	True
+2018	2017-2019	CALCRL	lymphatic malformation 8	pesto	Existing	True	1	1	0	0	1	1	1	True	True	True	True
+2018	2017-2019	CALCRL	lymphatic malformation 8	knowledge	Existing	True	4	4	0	3	1	1	0	True	False	True	True
+2021	2020-2022	NEBL	familial dilated cardiomyopathy	pesto	Existing	True	9	9	0	0	1	0	0	False	False	True	True
+2021	2020-2022	NEBL	familial dilated cardiomyopathy	knowledge	Existing	True	5	5	0	2	1	1	0	True	False	True	True
+2018	2017-2019	HKDC1	retinitis pigmentosa	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2018	2017-2019	HKDC1	retinitis pigmentosa	knowledge	Novel	False	3	2	1	1	1	0	0	False	False	False	False
+2018	2017-2019	STK33	spermatogenic failure 93	pesto	Established	True	5	5	0	0	2	1	1	True	True	True	True
+2018	2017-2019	STK33	spermatogenic failure 93	knowledge	Existing	True	3	2	1	0	2	1	0	True	False	False	True
+2020	2020-2022	SLC51A	cholestasis, progressive familial intrahepatic, 6	pesto	Existing	True	10	10	0	0	1	0	0	False	False	True	True
+2020	2020-2022	SLC51A	cholestasis, progressive familial intrahepatic, 6	knowledge	Existing	True	4	4	0	1	1	1	0	True	False	True	True
+2018	2017-2019	HKDC1	retinitis pigmentosa 92	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2018	2017-2019	HKDC1	retinitis pigmentosa 92	knowledge	Existing	True	1	0	1	0	1	0	0	False	False	False	False
+2024	2023-2025	SERPINA11	hydrops fetalis	pesto	Existing	True	3	3	0	0	1	1	1	True	True	True	True
+2024	2023-2025	SERPINA11	hydrops fetalis	knowledge	Novel	False	0	0	0	0	1	0	0	False	False	False	False
+2023	2023-2025	RAB35	neurodevelopmental disorder	pesto	Existing	True	5	5	0	0	2	1	1	True	True	True	True
+2023	2023-2025	RAB35	neurodevelopmental disorder	knowledge	Hypothesized	False	5	5	0	5	2	0	0	False	False	False	True
+2023	2023-2025	ATG9A	immunodeficiency disease	pesto	Existing	True	8	8	0	0	1	1	1	True	True	True	True
+2023	2023-2025	ATG9A	immunodeficiency disease	knowledge	Hypothesized	False	5	3	2	3	1	0	0	False	False	False	True
+2023	2023-2025	VEZF1	cardiomyopathy, dilated, 100	pesto	Existing	True	5	5	0	0	1	1	1	True	True	True	True
+2023	2023-2025	VEZF1	cardiomyopathy, dilated, 100	knowledge	Novel	False	3	3	0	3	1	0	0	False	False	False	True
+2022	2020-2022	ZNF862	hereditary gingival fibromatosis	pesto	Existing	True	3	3	0	0	1	1	1	True	True	True	True
+2022	2020-2022	ZNF862	hereditary gingival fibromatosis	knowledge	Existing	True	3	2	1	2	1	0	0	False	False	False	False
+2023	2023-2025	MCF2L	vascular malformation	pesto	Existing	True	6	6	0	0	1	1	1	True	True	True	True
+2023	2023-2025	MCF2L	vascular malformation	knowledge	Novel	False	0	0	0	0	1	0	0	False	False	False	False
+2022	2020-2022	GTF3A	herpes simplex encephalitis	pesto	Existing	True	4	4	0	0	1	1	1	True	True	True	True
+2022	2020-2022	GTF3A	herpes simplex encephalitis	knowledge	Novel	False	5	5	0	3	1	0	0	False	False	False	False
+2022	2020-2022	TRIM47	genetic cerebral small vessel disease	pesto	Existing	True	9	9	0	0	1	1	1	True	True	True	True
+2022	2020-2022	TRIM47	genetic cerebral small vessel disease	knowledge	Existing	True	5	4	1	2	1	0	0	False	False	True	True
+2022	2020-2022	NRG1	peripheral neuropathy	pesto	Existing	True	8	8	0	0	1	1	1	True	True	True	True
+2022	2020-2022	NRG1	peripheral neuropathy	knowledge	Hypothesized	False	5	5	0	3	1	0	0	False	False	False	True
+2022	2020-2022	NPTX1	autosomal dominant cerebellar ataxia	pesto	Established	True	6	6	0	0	3	3	3	True	True	True	True
+2022	2020-2022	NPTX1	autosomal dominant cerebellar ataxia	knowledge	Existing	True	3	2	1	0	3	1	0	True	False	True	True
+2014	2014-2016	SIX2	congenital anomaly of kidney and urinary tract	pesto	Existing	True	9	9	0	0	1	1	1	True	True	True	True
+2014	2014-2016	SIX2	congenital anomaly of kidney and urinary tract	knowledge	Existing	True	5	5	0	4	1	1	0	True	False	True	True
+2014	2014-2016	ADCY1	nonsyndromic genetic hearing loss	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2014	2014-2016	ADCY1	nonsyndromic genetic hearing loss	knowledge	Existing	True	3	2	1	0	1	1	1	True	True	True	True
+2019	2017-2019	TLR4	inflammatory bowel disease	pesto	Existing	True	11	11	0	0	3	0	0	False	False	True	True
+2019	2017-2019	TLR4	inflammatory bowel disease	knowledge	Existing	True	5	5	0	1	3	0	0	False	False	True	True
+2020	2020-2022	LAMA5	bent bone dysplasia syndrome 2	pesto	Existing	True	1	1	0	0	1	1	1	True	True	True	True
+2020	2020-2022	LAMA5	bent bone dysplasia syndrome 2	knowledge	Existing	True	2	2	0	1	1	1	0	True	False	True	True
+2021	2020-2022	SLIRP	inborn mitochondrial metabolism disorder	pesto	Existing	True	2	2	0	0	1	1	1	True	True	True	True
+2021	2020-2022	SLIRP	inborn mitochondrial metabolism disorder	knowledge	Hypothesized	False	4	3	1	3	1	0	0	False	False	False	True
+2023	2023-2025	DAAM2	androgen insensitivity syndrome	pesto	Existing	True	3	3	0	0	1	1	1	True	True	True	True
+2023	2023-2025	DAAM2	androgen insensitivity syndrome	knowledge	Novel	False	0	0	0	0	1	0	0	False	False	False	False
+2023	2023-2025	PPCDC	dilated cardiomyopathy	pesto	Existing	True	3	3	0	0	1	1	1	True	True	True	True
+2023	2023-2025	PPCDC	dilated cardiomyopathy	knowledge	Hypothesized	False	3	3	0	0	1	0	0	False	False	False	False
+2023	2023-2025	VPS50	hydrocephalus	pesto	Hypothesized	False	5	5	0	0	1	0	0	False	False	False	True
+2023	2023-2025	VPS50	hydrocephalus	knowledge	Hypothesized	False	2	2	0	1	1	0	0	False	False	False	True
+2023	2023-2025	PHF10	multiple congenital anomalies/dysmorphic syndrome	pesto	Existing	True	6	6	0	0	1	0	0	False	False	True	True
+2023	2023-2025	PHF10	multiple congenital anomalies/dysmorphic syndrome	knowledge	Hypothesized	False	4	4	0	2	1	0	0	False	False	False	True
+2023	2023-2025	NALCN	temporal lobe epilepsy	pesto	Existing	True	4	4	0	0	1	1	1	True	True	True	True
+2023	2023-2025	NALCN	temporal lobe epilepsy	knowledge	Hypothesized	False	5	5	0	4	1	0	0	False	False	False	True

@@ -23,7 +23,7 @@ This calls no model and needs no API key. It takes about two minutes.
 | Extended Data Fig. 1 | `25_figure_ed1.R` | `figures/figure_ed1.png` |
 | Extended Data Table 1 | `19_build_ed1_v2_table.py`, `22_figure_ed1_v3.R` | `figures/table_ed1_v3.png` |
 | Supplementary Table 1 | `145_supplementary_table1.py` | `results/supplementary_table1.xlsx` |
-| Figure 2 | `21_figure2.R` | `figures/figure2.png` |
+| Figure 2 | `21_figure2.R` (+ `_panel_citations.R` for e,f; reads `results/knowledge_citations/pair_summary.tsv` and `ref_checks.tsv`) | `figures/figure2.png` |
 | Extended Data Fig. 2 | `143_ed2_titles_data.py`, `144_figure_ed2_titles.R` | `figures/figure_ed2_titles.png` |
 | Figure 3 | `250_figure_temporal.R` (draws `249_figure_trajectories6.R` for a and `246_figure_baseline_class_benchmark.R` for b; reads `benchmark/trajectories6/`, `benchmark/epigen_extension/` and `benchmark/asd_denovo2014/`) | `figures/figure3.png` |
 | Figure 4 | `117_figure3_chd_top5.R --loeuf-decile --brain-decile --or --top5-brain --cell-panel` (+ `_panel_dendrogram.R`; panel c reads `results/biology/cell_types_grid.tsv`) | `figures/figure4.png` |
@@ -68,6 +68,7 @@ will not reproduce each answer exactly.
 | One arm over a table of pairs | `run_arm.py` (or `pesto --bench`) |
 | Figure 1 cohort and negative controls | `11_build_all_runs_auto.py`, `12_draw_cohort_absent.py`, `13_draw_random_absent.py`, `14_replay_ot.py`, `16_rematch_ot_cohort.py`, `17_replay_ot_prompt.py`, `00_aggregate_runs.py` (rebuilds `results/all_runs.tsv` from earlier runs that are not included; the table itself is) |
 | Figure 2 benchmarks | `draw_figure2_benchmark.py`, `score_figure2_uncontested.py`, `16_consolidate_benchmark.py`, `123_fig2a_extra30.py`, `85_`/`94_`/`100_draw_fig2a_absent*.py`, `86_`/`95_`/`101_score_fig2a_absent*.py`, `80_prior_year_sample.py`, `102_prior_year10_extra10bin.py`, `103_prior_year10_fill3year.py`, `40_ablation_fig2.py` |
+| Figure 2e,f, references named by each arm | `272_knowledge_citations.py` (the closed-book model asked for its references on the 210 dated GenCC Limited pairs), `273_verify_citations.py` (each reference resolved against PubMed and judged for relevance; reads the `current` runs of Fig. 2c from Zenodo), `275_judge_audit_sample.py` (sample of the relevance judgments for a human check); writes `results/knowledge_citations/` |
 | Extended Data Fig. 2 | `104_score_fig2a_absent70_titles.py`, `78_fig2_ed5_data.py` |
 | Figure 4 gene universe and enrichments | `82_fig3_four_phenos.py`, `92_fig3_random50.py`, `104_fig3_alzheimer.py`, `106_fig3_random50b.py`, `115_fig3_chd.py`, `108_fig3_go_nocc.py`, `110_fig3_nocc_meancall.py`, `113_fig3_top5_parent.py`, `116_fig3_chd_top5.py`, `86_go_matrix_5pheno.py`, `42_fig3_cd_bars.py` |
 | Figure 3, the two cohorts | `248_draw_epigen_extension.py` (200 EPIGEN epilepsy genes: the 73 of D. Elsyad's frozen order in `experiments/biological_proximity_pilot/replication_epigen_v2/` and 127 more) and `245_draw_asd_denovo2014.py` (200 of the 480 autism de novo loss-of-function genes of 2014; reads denovo-db 1.6.1, not redistributed), scored with `--max-date` at the start date and 2026/10/11; `252_build_transitions.py` builds `transitions.tsv`; `247_baseline_class_adjusted.py` adjusts for articles per gene (reads NCBI `gene2pubmed.gz`, not redistributed) and writes `results/baseline_class_adjusted.tsv` |
