@@ -1,0 +1,8 @@
+a	b	ap_difference	p_a_better	p_b_better	p_two_sided
+PESTO	PESTO-titles	-0.0307	0.62662	0.37343	0.74686
+PESTO-titles	Model knowledge	0.2495	0.0004	0.99965	0.0008
+PESTO	Model knowledge	0.2188	0.00145	0.9986	0.0029
+PESTO full text	PESTO	0.0125	0.18319	0.81686	0.36638
+PESTO full text	Model knowledge	0.2314	0.0018	0.99825	0.0036
+PESTO	PESTO (published)	-0.016	0.73601	0.26404	0.52807
+PESTO-titles	PESTO-titles (published)	0.0426	0.36593	0.63412	0.73186

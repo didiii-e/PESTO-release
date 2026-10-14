@@ -20,24 +20,28 @@ This calls no model and needs no API key. It takes about two minutes.
 |---|---|---|
 | Figure 1 | `20_figure1.R` (+ `pipeline_schema.R`) | `figures/figure1_v7.png` |
 | Numbers quoted for Figure 1 | `142_fig1_text_numbers.py` | `results/fig1_text_numbers.txt` |
-| Extended Data Fig. 1 | `25_figure_ed1.R` | `figures/figure_ed1.png` |
-| Extended Data Table 1 | `19_build_ed1_v2_table.py`, `22_figure_ed1_v3.R` | `figures/table_ed1_v3.png` |
-| Supplementary Table 1 | `145_supplementary_table1.py` | `results/supplementary_table1.xlsx` |
 | Figure 2 | `21_figure2.R` (+ `_panel_citations.R` for e,f; reads `results/knowledge_citations/pair_summary.tsv` and `ref_checks.tsv`) | `figures/figure2.png` |
-| Extended Data Fig. 2 | `143_ed2_titles_data.py`, `144_figure_ed2_titles.R` | `figures/figure_ed2_titles.png` |
 | Figure 3 | `250_figure_temporal.R` (draws `249_figure_trajectories6.R` for a and `246_figure_baseline_class_benchmark.R` for b; reads `benchmark/trajectories6/`, `benchmark/epigen_extension/` and `benchmark/asd_denovo2014/`) | `figures/figure3.png` |
 | Figure 4 | `117_figure3_chd_top5.R --loeuf-decile --brain-decile --or --top5-brain --cell-panel` (+ `_panel_dendrogram.R`; panel c reads `results/biology/cell_types_grid.tsv`) | `figures/figure4.png` |
-| Extended Data Fig. 4a (tissues) | `198_tissue_enrichment_grid.R`, `199_tissue_heatmap_from_grid.R adult kept 5% --clean` | `figures/figure_ed4_tissue_enrichment.png` |
+| Extended Data Table 1 | `19_build_ed1_v2_table.py`, `22_figure_ed1_v3.R` | `figures/table_ed1_v3.png` |
+| Extended Data Fig. 1 | `25_figure_ed1.R` | `figures/figure_ed1.png` |
+| Extended Data Fig. 2 | `143_ed2_titles_data.py`, `144_figure_ed2_titles.R` | `figures/figure_ed2_titles.png` |
+| Extended Data Fig. 3 | `127_fig2_roc_candidate.py`, `128_figure2_roc_candidate.R` | `figures/figure2_roc_candidate.png` |
+| Extended Data Figs. 4 and 5 | `236_extended_data_panel670.R .` (reads `results/tissue_enrichment/grid.tsv`, built by `198_tissue_enrichment_grid.R`, and `results/biology/cell_types_grid.tsv` and `fetal_cell_types_grid.tsv`) | `figures/figure_ed4.png`, `figures/figure_ed5.png` |
+| Supplementary Table 1 | `145_supplementary_table1.py` | `results/supplementary_table1.xlsx` |
+| Supplementary Figure 1 (the pipeline, step by step) | `172_pipeline_detailed_schema.R` (+ `pipeline_schema.R`) | `figures/pipeline_detailed.png` |
+| Supplementary Figure 2 | `156_figure_supp_abstract_fix.R` (reads `results/abstract_fix_check.tsv`) | `figures/figure_supp_abstract_fix.png` |
+| Supplementary Figure 3 | `122_figure2_current_vs_score.R` | `figures/figure2_current_vs_score.png` |
+| Supplementary Figure 4 | `150_bodyonly_data.py`, `170_figure_supp_fulltext.R` (+ `172_pipeline_detailed_schema.R` for a; e reads `results/modes_benchmark_140/`) | `figures/figure_supp_fulltext.png` |
+| Supplementary Figure 5 | screenshots of `pesto browser`, not drawn by a script | — |
+| Supplementary Figure 6 | `231_fetal_cell_type_heatmap.R` (reads `results/biology/fetal_cell_types_grid.tsv`) | `figures/figure_fetal_cell_types.png` |
+| Supplementary Note 1, run-to-run variability (table) | `183_reproducibility_stats.py` | `results/reproducibility_aou50/summary.tsv` |
 | Supplementary Note 5, sensitivity of the tissue analyses (table) | `198_tissue_enrichment_grid.R` | `results/tissue_enrichment/grid_key.tsv` |
 | Supplementary Note 5, adjustment for publications per gene (table) | `269_publication_adjusted_enrichment.py` (+ `_biology_panel.py`, `202_subthreshold_signal.py`; needs the ASC gene list `data/raw/ASC_GeneList_12082026.txt`, not redistributed) | `results/biology/publication_adjusted_enrichment.tsv` |
-| Supplementary Figure 1 (the pipeline, step by step) | `172_pipeline_detailed_schema.R` (+ `pipeline_schema.R`) | `figures/pipeline_detailed.png` |
-| Supplementary Note 1, run-to-run variability (table) | `183_reproducibility_stats.py` | `results/reproducibility_aou50/summary.tsv` |
-| Supplementary Figure 3 | `122_figure2_current_vs_score.R` | `figures/figure2_current_vs_score.png` |
-| Extended Data Fig. 3 | `127_fig2_roc_candidate.py`, `128_figure2_roc_candidate.R` | `figures/figure2_roc_candidate.png` |
-| Supplementary Figure 4b–d | `150_bodyonly_data.py`, `151_figure_supp_bodyonly.R` | `figures/figure_supp_bodyonly.png` |
 
-Redrawn here, Figures 2, 3 and 4 are identical pixel for pixel to the versions in
-the manuscript (checked on 13 October 2026). Figure 1 and Extended Data Fig. 1
+Redrawn here, Figures 2, 3 and 4, Extended Data Figs. 4 and 5 and Supplementary
+Figures 2, 4 and 6 are identical pixel for pixel to the versions in the manuscript
+(checked on 13 October 2026). Figure 1 and Extended Data Fig. 1
 differ only in where the jittered points fall, which was random and is now seeded.
 The Supplementary Figures differ only in their labels, which carry the arms'
 current names. Some scripts still name a figure by the number it had in an earlier
@@ -75,10 +79,13 @@ will not reproduce each answer exactly.
 | Figure 4 gene universe and enrichments | `82_fig3_four_phenos.py`, `92_fig3_random50.py`, `104_fig3_alzheimer.py`, `106_fig3_random50b.py`, `115_fig3_chd.py`, `108_fig3_go_nocc.py`, `110_fig3_nocc_meancall.py`, `113_fig3_top5_parent.py`, `116_fig3_chd_top5.py`, `86_go_matrix_5pheno.py`, `42_fig3_cd_bars.py` |
 | Figure 3, the two cohorts | `248_draw_epigen_extension.py` (200 EPIGEN epilepsy genes: the 73 of D. Elsyad's frozen order in `experiments/biological_proximity_pilot/replication_epigen_v2/` and 127 more) and `245_draw_asd_denovo2014.py` (200 of the 480 autism de novo loss-of-function genes of 2014; reads denovo-db 1.6.1, not redistributed), scored with `--max-date` at the start date and 2026/10/11; `252_build_transitions.py` builds `transitions.tsv`; `247_baseline_class_adjusted.py` adjusts for articles per gene (reads NCBI `gene2pubmed.gz`, not redistributed) and writes `results/baseline_class_adjusted.tsv` |
 | Figure 3a, trajectories | `benchmark/trajectories6/pairs.tsv` scored with `--max-date` at every date of the grid |
-| Figure 4, the 670-gene panel | `benchmark/fig3_add_t2d_bipex2/` (the type 2 diabetes and BipEx 2.0 genes) and `benchmark/fig3_add_random100/` (`234_draw_random100.py`) scored with `--max-date 2026/09/01`; `233_run_panel570.sh` appends them to the 550-gene table and reruns the analyses, giving `results/fig3_universe550_meancall_scores.tsv` (670 genes despite its name) |
+| Figure 4, the 670-gene panel | `benchmark/fig3_add_t2d_bipex2/` (the type 2 diabetes and BipEx 2.0 genes) and `benchmark/fig3_add_random100/` (`234_draw_random100.py`) scored with `--max-date 2026/09/01`; `233_run_panel570.sh` appends them to the 550-gene table and reruns the analyses, giving `results/fig3_universe550_meancall_scores.tsv` (670 genes despite its name); it also redraws an intermediate tissue heatmap with `199_tissue_heatmap_from_grid.R`, not a figure of the paper |
 | Figure 4c, cell types | `211_cell_type_specificity.py` (+ `_biology_panel.py`, `202_subthreshold_signal.py`); reads the Human Protein Atlas single-cell table `rna_single_cell_type.tsv.zip` (proteinatlas.org, not redistributed) and writes `results/biology/cell_types_grid.tsv` |
 | Supplementary Figure 3 and Extended Data Fig. 3 | `121_score_fig2ab.py`, `125_bare_fig2ab.py`, `126_open_fig2ab.py` |
 | Supplementary Figure 4 benchmark | `139_build_bench_bodyonly.py` (first 22 pairs), `153_extend_bench_bodyonly.py` (18 more, same criteria), `138_score_bodyonly.py` |
+| Supplementary Figure 4e | `166_modes_benchmark_140.py` (abstracts and fulltext run the same day on the 140 pairs of Fig. 2d), `167_modes_benchmark_scores.py` (no model call); writes `results/modes_benchmark_140/` |
+| Supplementary Figure 2 | `155_abstract_fix_check.py` (20 runs of Figs. 1–4 replayed on their own corpus with complete structured abstracts; reads the runs from Zenodo) writes `results/abstract_fix_check.tsv` |
+| Extended Data Fig. 5, Supplementary Figure 6 | `230_fetal_cell_types.py` (+ `_biology_panel.py`; reads the Descartes fetal atlas tracks `data/biology/descartes_fetal_cell_type.*` from the UCSC Genome Browser, not redistributed) writes `results/biology/fetal_cell_types_grid.tsv` |
 | Supplementary Note 1, run-to-run variability | `181_reproducibility_aou50.py` (three fresh runs of 50 All of Us–GeneBass associations; only each run's `pesto.tsv` and `cost.tsv` are kept here) |
 | Supplementary Note 1, Open Targets tie rules (sensitivity) | `188_ot_tie_rules.py` (replays the stored Open Targets grades, no model call; reads `results/auto_cohort_ot_v7/` and `results/auto_fig1c_absent50_hgnc_v7/` from Zenodo, writes `results/ot_tie_rules/`) |
 

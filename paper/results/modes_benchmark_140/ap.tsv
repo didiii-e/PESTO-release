@@ -1,0 +1,8 @@
+method	run	ap	lo	hi
+Model knowledge	rerun	0.6358	0.5037	0.7996
+PESTO-titles	rerun	0.8853	0.7619	0.9872
+PESTO	rerun	0.8546	0.724	0.9866
+PESTO full text	rerun	0.8672	0.7387	0.9941
+Model knowledge (published)	published	0.6767	0.528	0.8361
+PESTO-titles (published)	published	0.8427	0.7101	0.9857
+PESTO (published)	published	0.8707	0.7362	0.9921

@@ -1,0 +1,21 @@
+stratum	gene	phenotype	arm	old_fingerprint	corpus	old_mean	new_mean	old_call	new_call	read_overlap	read_longer_abstract
+Fig 1 cohort, Novel	HGH1	Alanine transaminase	current-general	20ff05471c58	12	1.17	1.12	Novel	Novel	3	0
+Fig 1 cohort, Hypothesized	HECTD1	Height	current-general	20ff05471c58	31	1.72	1.34	Hypothesized	Novel	14	0
+Fig 1 cohort, Existing	HTRA1	Height	current-general	20ff05471c58	60	3.1	3.17	Existing	Existing	17	2
+Fig 1 cohort, Established	TM6SF2	Total cholesterol	current-general	20ff05471c58	77	3.94	3.95	Established	Established	15	8
+Fig 1 negative control	EDRF1	triglycerides	current-general	20ff05471c58	4	1.14	1.14	Novel	Novel	2	0
+Fig 2a GenCC Definitive	EBP	MEND syndrome	current	ff136250f372	63	3.82	3.86	Established	Established	19	5
+Fig 2a GenCC Strong	PITX1	clubfoot	current	ff136250f372	75	3.71	3.85	Established	Established	17	3
+Fig 2a GenCC Moderate	FXYD2	renal hypomagnesemia 2	current	ff136250f372	60	3.75	3.77	Established	Established	18	4
+Fig 2a GenCC Limited	ELP2	intellectual disability, autosomal recessive 58	current	ff136250f372	42	3.92	3.92	Established	Established	18	1
+Fig 2a GenCC Absent	CASP2	Hoxha-Aliu syndrome	current	ff136250f372	60	3.69	3.83	Established	Established	16	0
+Fig 2b ASC autism known	ANK2	Autism Spectrum Disorder	current	ff136250f372	66	3.43	3.53	Existing	Established	19	3
+Fig 2b ASC autism candidate	RAB14	Autism Spectrum Disorder	current	ff136250f372	74	1.08	1.16	Novel	Novel	20	1
+Fig 2b ASC novel candidate	KBTBD6	Autism Spectrum Disorder	current	ff136250f372	3	1.12	1.27	Novel	Novel	0	0
+Fig 2b not in ASC	SLF1	Autism Spectrum Disorder	current	ff136250f372	19	1.93	1.96	Hypothesized	Hypothesized	5	0
+Fig 2c,d Limited 2011-2013	CRYGB	cataract 39 multiple types	current	ff136250f372	26	2.66	2.86	Existing	Existing	17	9
+Fig 2c,d Limited 2023-2025	DAAM2	androgen insensitivity syndrome	current	ff136250f372	32	3.05	3.01	Existing	Existing	19	3
+Fig 3 epilepsy	APOBR	epilepsy	current	ff136250f372	25	1.16	1.09	Novel	Novel	0	0
+Fig 3 schizophrenia	ZMYND8	schizophrenia	current	ff136250f372	33	2.04	2.1	Hypothesized	Hypothesized	13	2
+Fig 3 congenital heart disease	CNOT3	congenital heart disease	current	ff136250f372	50	2.54	2.66	Existing	Existing	17	3
+Fig 3 type 2 diabetes	GNRHR	type 2 diabetes	current	ff136250f372	54	1.86	1.35	Hypothesized	Novel	13	3

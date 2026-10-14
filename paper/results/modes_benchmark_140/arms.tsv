@@ -1,0 +1,561 @@
+mode	gene	phenotype	arm
+knowledge	AFDN	cleft lip/palate	knowledge
+knowledge	APOA4	autosomal dominant medullary cystic kidney disease with or without hyperuricemia	knowledge
+knowledge	ATG9A	immunodeficiency disease	knowledge
+knowledge	ATP6V1C1	neurodevelopmental disorder	knowledge
+knowledge	BMP5	skeletal dysplasia	knowledge
+knowledge	CCDC91	punctate palmoplantar keratoderma	knowledge
+knowledge	CCT4	complex neurodevelopmental disorder	knowledge
+knowledge	CCT7	complex neurodevelopmental disorder	knowledge
+knowledge	CELSR1	hydrops fetalis	knowledge
+knowledge	CFAP47	polycystic kidney disease	knowledge
+knowledge	CIAO1	multiple mitochondrial dysfunctions syndrome 10	knowledge
+knowledge	DAAM2	androgen insensitivity syndrome	knowledge
+knowledge	GTF2IRD1	neurodevelopmental disorder	knowledge
+knowledge	IL1R1	chronic recurrent multifocal osteomyelitis 3	knowledge
+knowledge	IRAK2	immune dysregulation, autoimmunity, and autoinflammation	knowledge
+knowledge	KAT2B	steroid-resistant nephrotic syndrome	knowledge
+knowledge	LRRC45	complex neurodevelopmental disorder	knowledge
+knowledge	LY96	inborn error of immunity	knowledge
+knowledge	MARK4	neurodevelopmental disorder	knowledge
+knowledge	MCF2L	vascular malformation	knowledge
+knowledge	ME2	inborn disorder of energy metabolism	knowledge
+knowledge	MIR145	multisystemic smooth muscle dysfunction syndrome	knowledge
+knowledge	MMS19	neurodegenerative disease	knowledge
+knowledge	MPC2	metabolic disease	knowledge
+knowledge	NALCN	temporal lobe epilepsy	knowledge
+knowledge	NUP50	amyotrophic lateral sclerosis	knowledge
+knowledge	PHF10	multiple congenital anomalies/dysmorphic syndrome	knowledge
+knowledge	PLXNC1	cerebral cortical dysplasia	knowledge
+knowledge	PPCDC	dilated cardiomyopathy	knowledge
+knowledge	PRMT9	Mendelian neurodevelopmental disorder	knowledge
+knowledge	RAB35	neurodevelopmental disorder	knowledge
+knowledge	SERPINA11	hydrops fetalis	knowledge
+knowledge	SGSM3	intellectual disability	knowledge
+knowledge	SUPT7L	lipodystrophy	knowledge
+knowledge	TBC1D31	congenital anomaly of kidney and urinary tract	knowledge
+knowledge	TRPV1	channelopathy-associated congenital insensitivity to pain, autosomal recessive	knowledge
+knowledge	TUFM	inherited primary ovarian failure	knowledge
+knowledge	VEZF1	cardiomyopathy, dilated, 100	knowledge
+knowledge	VPS50	hydrocephalus	knowledge
+knowledge	ZFTRAF1	neurodevelopmental disorder	knowledge
+knowledge	ADAM20	amyotrophic lateral sclerosis type 9	knowledge
+knowledge	ADCY5	3M syndrome 2	knowledge
+knowledge	AGPAT5	short-rib thoracic dysplasia 11 with or without polydactyly	knowledge
+knowledge	AMIGO2	autosomal recessive nonsyndromic hearing loss 59	knowledge
+knowledge	ANAPC1	head and neck squamous cell carcinoma	knowledge
+knowledge	ANO3	arthrogryposis multiplex congenita 2, neurogenic type	knowledge
+knowledge	APC	complement component 2 deficiency	knowledge
+knowledge	ATP11C	arterial tortuosity syndrome	knowledge
+knowledge	ATP5F1A	short stature-brachydactyly-obesity-global developmental delay syndrome	knowledge
+knowledge	BRSK2	mitochondrial pyruvate carrier deficiency	knowledge
+knowledge	C1QBP	Antley-Bixler syndrome	knowledge
+knowledge	CACNA1F	Malan overgrowth syndrome	knowledge
+knowledge	CASP2	Hoxha-Aliu syndrome	knowledge
+knowledge	CAV1	hereditary late onset Parkinson disease	knowledge
+knowledge	CDH15	familial hypobetalipoproteinemia 1	knowledge
+knowledge	CDK9	congenital myopathy 2c, severe infantile, autosomal dominant	knowledge
+knowledge	CEP120	hemochromatosis type 1	knowledge
+knowledge	CYBA	parathyroid gland carcinoma	knowledge
+knowledge	DBT	myofibrillar myopathy 5	knowledge
+knowledge	DNAJC13	craniofacial anomalies and anterior segment dysgenesis syndrome	knowledge
+knowledge	EDNRA	Charcot-Marie-Tooth disease axonal type 2CC	knowledge
+knowledge	FCGR2B	bardet-biedl syndrome 21	knowledge
+knowledge	FGF3	surfactant metabolism dysfunction, pulmonary, 4	knowledge
+knowledge	FKBP6	Charcot-Marie-Tooth disease type 2E	knowledge
+knowledge	FKTN	autosomal dominant hypophosphatemic rickets	knowledge
+knowledge	GET4	deafness-lymphedema-leukemia syndrome	knowledge
+knowledge	GGPS1	polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy 1	knowledge
+knowledge	GHR	familial long QT syndrome	knowledge
+knowledge	GYPC	ceroid lipofuscinosis, neuronal, 6B (Kufs type)	knowledge
+knowledge	HELLS	autosomal recessive spondylocostal dysostosis	knowledge
+knowledge	HLA-DRB1	congenital adrenal hyperplasia due to 11-beta-hydroxylase deficiency	knowledge
+knowledge	HPS1	myosclerosis	knowledge
+knowledge	IDH2	hereditary renal hypouricemia	knowledge
+knowledge	IFNAR2	Fuchs' endothelial dystrophy	knowledge
+knowledge	IFT54	familial isolated deficiency of vitamin E	knowledge
+knowledge	IL17RD	microphthalmia, isolated, with coloboma 6	knowledge
+knowledge	ISCA1	pulmonary hypertension, primary, 3	knowledge
+knowledge	KCND3	46,XY sex reversal 3	knowledge
+knowledge	KCNE2	epidermolysis bullosa simplex 4, localized or generalized intermediate, autosomal recessive	knowledge
+knowledge	KCNQ4	X-linked spondyloepimetaphyseal dysplasia	knowledge
+knowledge	KIF17	spinal muscular atrophy-progressive myoclonic epilepsy syndrome	knowledge
+knowledge	KREMEN1	autosomal dominant hypocalcemia 1	knowledge
+knowledge	LEPR	spastic paraplegia 83, autosomal recessive	knowledge
+knowledge	LPAR6	blepharophimosis - intellectual disability syndrome, MKB type	knowledge
+knowledge	MC2R	congenital reticular ichthyosiform erythroderma	knowledge
+knowledge	MC4R	agammaglobulinemia 2, autosomal recessive	knowledge
+knowledge	MCCC2	vitamin D-dependent rickets, type 3	knowledge
+knowledge	MRAS	gonadal dysgenesis, dysmorphic facies, retinal dystrophy, and myopathy	knowledge
+knowledge	MRPS14	robinow syndrome, autosomal recessive 2	knowledge
+knowledge	MT-CO3	gonadal dysgenesis	knowledge
+knowledge	MT-TG	minimal pigment oculocutaneous albinism type 1	knowledge
+knowledge	MTHFR	immunodeficiency 102	knowledge
+knowledge	MYO18B	hypertrophic cardiomyopathy 16	knowledge
+knowledge	NBEAL2	arrhythmogenic cardiomyopathy with wooly hair and keratoderma	knowledge
+knowledge	NFATC2	spondylometaphyseal dysplasia, 'corner fracture' type	knowledge
+knowledge	PAX9	Knobloch syndrome 2	knowledge
+knowledge	PCBD1	developmental delay, hypotonia, and impaired language	knowledge
+knowledge	PCCA	hypercholanemia, familial, 2	knowledge
+knowledge	PDCD1	polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis	knowledge
+knowledge	PDX1	arthrogryposis-renal dysfunction-cholestasis syndrome	knowledge
+knowledge	PHGDH	Joubert syndrome 33	knowledge
+knowledge	PHKG2	primary ciliary dyskinesia 33	knowledge
+knowledge	PIGC	agammaglobulinemia	knowledge
+knowledge	PLEKHM2	developmental malformations-deafness-dystonia syndrome	knowledge
+knowledge	PNKP	amyloidosis, hereditary systemic 3	knowledge
+knowledge	PNPLA1	immunodeficiency-centromeric instability-facial anomalies syndrome	knowledge
+knowledge	POU4F1	autosomal dominant polycystic kidney disease	knowledge
+knowledge	PRDM6	Long-Olsen-Distelmaier syndrome	knowledge
+knowledge	PSMB1	glycogen storage disease III	knowledge
+knowledge	PTS	3-hydroxy-3-methylglutaric aciduria	knowledge
+knowledge	RAB32	Silver-Russell syndrome 5	knowledge
+knowledge	RBFOX3	arthrogryposis, distal, with impaired proprioception and touch	knowledge
+knowledge	RNF220	myopathy, lactic acidosis, and sideroblastic anemia 1	knowledge
+knowledge	RPL3L	autosomal recessive mendelian susceptibility to mycobacterial diseases due to complete RORgamma receptor deficiency	knowledge
+knowledge	RXYLT1	cholestasis, progressive familial intrahepatic, 8	knowledge
+knowledge	SBDS	immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome	knowledge
+knowledge	SCN9A	hypogonadotropic hypogonadism	knowledge
+knowledge	SCNN1A	autosomal recessive limb-girdle muscular dystrophy type 2F	knowledge
+knowledge	SEC16B	MHC class II deficiency 3	knowledge
+knowledge	SELENBP1	neurodevelopmental disorder with spastic quadriplegia, optic atrophy, seizures, and structural brain anomalies	knowledge
+knowledge	SFRP4	Ritscher-Schinzel syndrome	knowledge
+knowledge	SLC25A13	aldosterone-producing adenoma with seizures and neurological abnormalities	knowledge
+knowledge	SLC52A2	Guttmacher syndrome	knowledge
+knowledge	SLK	degenerative myopia	knowledge
+knowledge	SMAD2	intellectual disability, X-linked 96	knowledge
+knowledge	SMC3	asthma-related traits, susceptibility to, 5	knowledge
+knowledge	STXBP2	autosomal recessive nonsyndromic hearing loss 44	knowledge
+knowledge	SYCP2L	Weiss-Kruszka syndrome	knowledge
+knowledge	TCF3	striate palmoplantar keratoderma	knowledge
+knowledge	TCTN1	congenital disorder of deglycosylation 2	knowledge
+knowledge	TFRC	congenital stationary night blindness autosomal dominant 3	knowledge
+knowledge	TNNT2	atrial septal defect 6	knowledge
+knowledge	TRHR	metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration	knowledge
+knowledge	TRPA1	early-onset progressive encephalopathy-hearing loss-pons hypoplasia-brain atrophy syndrome	knowledge
+knowledge	TSPEAR	tibial muscular dystrophy	knowledge
+knowledge	TTC21A	spinocerebellar ataxia, autosomal recessive, with axonal neuropathy 3	knowledge
+knowledge	UQCRH	hereditary spastic paraplegia 45	knowledge
+knowledge	VWA2	hypercholesterolemia, familial, 4	knowledge
+knowledge	WBP11	immunodeficiency, common variable, 3	knowledge
+knowledge	ZNF81	acromelic frontonasal dysostosis	knowledge
+titles	AFDN	cleft lip/palate	titles
+titles	APOA4	autosomal dominant medullary cystic kidney disease with or without hyperuricemia	titles
+titles	ATG9A	immunodeficiency disease	titles
+titles	ATP6V1C1	neurodevelopmental disorder	titles
+titles	BMP5	skeletal dysplasia	titles
+titles	CCDC91	punctate palmoplantar keratoderma	titles
+titles	CCT4	complex neurodevelopmental disorder	titles
+titles	CCT7	complex neurodevelopmental disorder	titles
+titles	CELSR1	hydrops fetalis	titles
+titles	CFAP47	polycystic kidney disease	titles
+titles	CIAO1	multiple mitochondrial dysfunctions syndrome 10	titles
+titles	DAAM2	androgen insensitivity syndrome	titles
+titles	GTF2IRD1	neurodevelopmental disorder	titles
+titles	IL1R1	chronic recurrent multifocal osteomyelitis 3	titles
+titles	IRAK2	immune dysregulation, autoimmunity, and autoinflammation	titles
+titles	KAT2B	steroid-resistant nephrotic syndrome	titles
+titles	LRRC45	complex neurodevelopmental disorder	titles
+titles	LY96	inborn error of immunity	titles
+titles	MARK4	neurodevelopmental disorder	titles
+titles	MCF2L	vascular malformation	titles
+titles	ME2	inborn disorder of energy metabolism	titles
+titles	MIR145	multisystemic smooth muscle dysfunction syndrome	titles
+titles	MMS19	neurodegenerative disease	titles
+titles	MPC2	metabolic disease	titles
+titles	NALCN	temporal lobe epilepsy	titles
+titles	NUP50	amyotrophic lateral sclerosis	titles
+titles	PHF10	multiple congenital anomalies/dysmorphic syndrome	titles
+titles	PLXNC1	cerebral cortical dysplasia	titles
+titles	PPCDC	dilated cardiomyopathy	titles
+titles	PRMT9	Mendelian neurodevelopmental disorder	titles
+titles	RAB35	neurodevelopmental disorder	titles
+titles	SERPINA11	hydrops fetalis	titles
+titles	SGSM3	intellectual disability	titles
+titles	SUPT7L	lipodystrophy	titles
+titles	TBC1D31	congenital anomaly of kidney and urinary tract	titles
+titles	TRPV1	channelopathy-associated congenital insensitivity to pain, autosomal recessive	titles
+titles	TUFM	inherited primary ovarian failure	titles
+titles	VEZF1	cardiomyopathy, dilated, 100	titles
+titles	VPS50	hydrocephalus	titles
+titles	ZFTRAF1	neurodevelopmental disorder	titles
+titles	ADAM20	amyotrophic lateral sclerosis type 9	titles
+titles	ADCY5	3M syndrome 2	titles
+titles	AGPAT5	short-rib thoracic dysplasia 11 with or without polydactyly	titles
+titles	AMIGO2	autosomal recessive nonsyndromic hearing loss 59	titles
+titles	ANAPC1	head and neck squamous cell carcinoma	titles
+titles	ANO3	arthrogryposis multiplex congenita 2, neurogenic type	titles
+titles	APC	complement component 2 deficiency	titles
+titles	ATP11C	arterial tortuosity syndrome	titles
+titles	ATP5F1A	short stature-brachydactyly-obesity-global developmental delay syndrome	titles
+titles	BRSK2	mitochondrial pyruvate carrier deficiency	titles
+titles	C1QBP	Antley-Bixler syndrome	titles
+titles	CACNA1F	Malan overgrowth syndrome	titles
+titles	CASP2	Hoxha-Aliu syndrome	titles
+titles	CAV1	hereditary late onset Parkinson disease	titles
+titles	CDH15	familial hypobetalipoproteinemia 1	titles
+titles	CDK9	congenital myopathy 2c, severe infantile, autosomal dominant	titles
+titles	CEP120	hemochromatosis type 1	titles
+titles	CYBA	parathyroid gland carcinoma	titles
+titles	DBT	myofibrillar myopathy 5	titles
+titles	DNAJC13	craniofacial anomalies and anterior segment dysgenesis syndrome	titles
+titles	EDNRA	Charcot-Marie-Tooth disease axonal type 2CC	titles
+titles	FCGR2B	bardet-biedl syndrome 21	titles
+titles	FGF3	surfactant metabolism dysfunction, pulmonary, 4	titles
+titles	FKBP6	Charcot-Marie-Tooth disease type 2E	titles
+titles	FKTN	autosomal dominant hypophosphatemic rickets	titles
+titles	GET4	deafness-lymphedema-leukemia syndrome	titles
+titles	GGPS1	polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy 1	titles
+titles	GHR	familial long QT syndrome	titles
+titles	GYPC	ceroid lipofuscinosis, neuronal, 6B (Kufs type)	titles
+titles	HELLS	autosomal recessive spondylocostal dysostosis	titles
+titles	HLA-DRB1	congenital adrenal hyperplasia due to 11-beta-hydroxylase deficiency	titles
+titles	HPS1	myosclerosis	titles
+titles	IDH2	hereditary renal hypouricemia	titles
+titles	IFNAR2	Fuchs' endothelial dystrophy	titles
+titles	IFT54	familial isolated deficiency of vitamin E	titles
+titles	IL17RD	microphthalmia, isolated, with coloboma 6	titles
+titles	ISCA1	pulmonary hypertension, primary, 3	titles
+titles	KCND3	46,XY sex reversal 3	titles
+titles	KCNE2	epidermolysis bullosa simplex 4, localized or generalized intermediate, autosomal recessive	titles
+titles	KCNQ4	X-linked spondyloepimetaphyseal dysplasia	titles
+titles	KIF17	spinal muscular atrophy-progressive myoclonic epilepsy syndrome	titles
+titles	KREMEN1	autosomal dominant hypocalcemia 1	titles
+titles	LEPR	spastic paraplegia 83, autosomal recessive	titles
+titles	LPAR6	blepharophimosis - intellectual disability syndrome, MKB type	titles
+titles	MC2R	congenital reticular ichthyosiform erythroderma	titles
+titles	MC4R	agammaglobulinemia 2, autosomal recessive	titles
+titles	MCCC2	vitamin D-dependent rickets, type 3	titles
+titles	MRAS	gonadal dysgenesis, dysmorphic facies, retinal dystrophy, and myopathy	titles
+titles	MRPS14	robinow syndrome, autosomal recessive 2	titles
+titles	MT-CO3	gonadal dysgenesis	titles
+titles	MT-TG	minimal pigment oculocutaneous albinism type 1	titles
+titles	MTHFR	immunodeficiency 102	titles
+titles	MYO18B	hypertrophic cardiomyopathy 16	titles
+titles	NBEAL2	arrhythmogenic cardiomyopathy with wooly hair and keratoderma	titles
+titles	NFATC2	spondylometaphyseal dysplasia, 'corner fracture' type	titles
+titles	PAX9	Knobloch syndrome 2	titles
+titles	PCBD1	developmental delay, hypotonia, and impaired language	titles
+titles	PCCA	hypercholanemia, familial, 2	titles
+titles	PDCD1	polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis	titles
+titles	PDX1	arthrogryposis-renal dysfunction-cholestasis syndrome	titles
+titles	PHGDH	Joubert syndrome 33	titles
+titles	PHKG2	primary ciliary dyskinesia 33	titles
+titles	PIGC	agammaglobulinemia	titles
+titles	PLEKHM2	developmental malformations-deafness-dystonia syndrome	titles
+titles	PNKP	amyloidosis, hereditary systemic 3	titles
+titles	PNPLA1	immunodeficiency-centromeric instability-facial anomalies syndrome	titles
+titles	POU4F1	autosomal dominant polycystic kidney disease	titles
+titles	PRDM6	Long-Olsen-Distelmaier syndrome	titles
+titles	PSMB1	glycogen storage disease III	titles
+titles	PTS	3-hydroxy-3-methylglutaric aciduria	titles
+titles	RAB32	Silver-Russell syndrome 5	titles
+titles	RBFOX3	arthrogryposis, distal, with impaired proprioception and touch	titles
+titles	RNF220	myopathy, lactic acidosis, and sideroblastic anemia 1	titles
+titles	RPL3L	autosomal recessive mendelian susceptibility to mycobacterial diseases due to complete RORgamma receptor deficiency	titles
+titles	RXYLT1	cholestasis, progressive familial intrahepatic, 8	titles
+titles	SBDS	immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome	titles
+titles	SCN9A	hypogonadotropic hypogonadism	titles
+titles	SCNN1A	autosomal recessive limb-girdle muscular dystrophy type 2F	titles
+titles	SEC16B	MHC class II deficiency 3	titles
+titles	SELENBP1	neurodevelopmental disorder with spastic quadriplegia, optic atrophy, seizures, and structural brain anomalies	titles
+titles	SFRP4	Ritscher-Schinzel syndrome	titles
+titles	SLC25A13	aldosterone-producing adenoma with seizures and neurological abnormalities	titles
+titles	SLC52A2	Guttmacher syndrome	titles
+titles	SLK	degenerative myopia	titles
+titles	SMAD2	intellectual disability, X-linked 96	titles
+titles	SMC3	asthma-related traits, susceptibility to, 5	titles
+titles	STXBP2	autosomal recessive nonsyndromic hearing loss 44	titles
+titles	SYCP2L	Weiss-Kruszka syndrome	titles
+titles	TCF3	striate palmoplantar keratoderma	titles
+titles	TCTN1	congenital disorder of deglycosylation 2	titles
+titles	TFRC	congenital stationary night blindness autosomal dominant 3	titles
+titles	TNNT2	atrial septal defect 6	titles
+titles	TRHR	metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration	titles
+titles	TRPA1	early-onset progressive encephalopathy-hearing loss-pons hypoplasia-brain atrophy syndrome	titles
+titles	TSPEAR	tibial muscular dystrophy	titles
+titles	TTC21A	spinocerebellar ataxia, autosomal recessive, with axonal neuropathy 3	titles
+titles	UQCRH	hereditary spastic paraplegia 45	titles
+titles	VWA2	hypercholesterolemia, familial, 4	titles
+titles	WBP11	immunodeficiency, common variable, 3	titles
+titles	ZNF81	acromelic frontonasal dysostosis	titles
+abstracts	AFDN	cleft lip/palate	abstracts
+abstracts	CFAP47	polycystic kidney disease	abstracts
+abstracts	CCDC91	punctate palmoplantar keratoderma	abstracts
+abstracts	CELSR1	hydrops fetalis	abstracts
+abstracts	APOA4	autosomal dominant medullary cystic kidney disease with or without hyperuricemia	abstracts
+abstracts	BMP5	skeletal dysplasia	abstracts
+abstracts	ATG9A	immunodeficiency disease	abstracts
+abstracts	ATP6V1C1	neurodevelopmental disorder	abstracts
+abstracts	CCT4	complex neurodevelopmental disorder	abstracts
+abstracts	CCT7	complex neurodevelopmental disorder	abstracts
+abstracts	CIAO1	multiple mitochondrial dysfunctions syndrome 10	abstracts
+abstracts	DAAM2	androgen insensitivity syndrome	abstracts
+abstracts	GTF2IRD1	neurodevelopmental disorder	abstracts
+abstracts	IL1R1	chronic recurrent multifocal osteomyelitis 3	abstracts
+abstracts	IRAK2	immune dysregulation, autoimmunity, and autoinflammation	abstracts-trait
+abstracts	KAT2B	steroid-resistant nephrotic syndrome	abstracts
+abstracts	LRRC45	complex neurodevelopmental disorder	abstracts
+abstracts	LY96	inborn error of immunity	abstracts
+abstracts	MARK4	neurodevelopmental disorder	abstracts
+abstracts	MCF2L	vascular malformation	abstracts
+abstracts	ME2	inborn disorder of energy metabolism	abstracts
+abstracts	MIR145	multisystemic smooth muscle dysfunction syndrome	abstracts
+abstracts	NALCN	temporal lobe epilepsy	abstracts
+abstracts	MMS19	neurodegenerative disease	abstracts
+abstracts	NUP50	amyotrophic lateral sclerosis	abstracts
+abstracts	MPC2	metabolic disease	abstracts
+abstracts	PPCDC	dilated cardiomyopathy	abstracts
+abstracts	PLXNC1	cerebral cortical dysplasia	abstracts
+abstracts	PHF10	multiple congenital anomalies/dysmorphic syndrome	abstracts
+abstracts	PRMT9	Mendelian neurodevelopmental disorder	abstracts-trait
+abstracts	RAB35	neurodevelopmental disorder	abstracts
+abstracts	SERPINA11	hydrops fetalis	abstracts
+abstracts	SUPT7L	lipodystrophy	abstracts
+abstracts	SGSM3	intellectual disability	abstracts
+abstracts	TBC1D31	congenital anomaly of kidney and urinary tract	abstracts
+abstracts	TRPV1	channelopathy-associated congenital insensitivity to pain, autosomal recessive	abstracts
+abstracts	TUFM	inherited primary ovarian failure	abstracts
+abstracts	VEZF1	cardiomyopathy, dilated, 100	abstracts
+abstracts	VPS50	hydrocephalus	abstracts
+abstracts	ZFTRAF1	neurodevelopmental disorder	abstracts
+abstracts	ADAM20	amyotrophic lateral sclerosis type 9	abstracts
+abstracts	ADCY5	3M syndrome 2	abstracts
+abstracts	AGPAT5	short-rib thoracic dysplasia 11 with or without polydactyly	abstracts
+abstracts	AMIGO2	autosomal recessive nonsyndromic hearing loss 59	abstracts
+abstracts	ANAPC1	head and neck squamous cell carcinoma	abstracts
+abstracts	ANO3	arthrogryposis multiplex congenita 2, neurogenic type	abstracts
+abstracts	APC	complement component 2 deficiency	abstracts
+abstracts	ATP11C	arterial tortuosity syndrome	abstracts
+abstracts	ATP5F1A	short stature-brachydactyly-obesity-global developmental delay syndrome	abstracts
+abstracts	BRSK2	mitochondrial pyruvate carrier deficiency	abstracts
+abstracts	C1QBP	Antley-Bixler syndrome	abstracts
+abstracts	CACNA1F	Malan overgrowth syndrome	abstracts
+abstracts	CASP2	Hoxha-Aliu syndrome	abstracts
+abstracts	CAV1	hereditary late onset Parkinson disease	abstracts
+abstracts	CDH15	familial hypobetalipoproteinemia 1	abstracts
+abstracts	CDK9	congenital myopathy 2c, severe infantile, autosomal dominant	abstracts
+abstracts	CYBA	parathyroid gland carcinoma	abstracts
+abstracts	CEP120	hemochromatosis type 1	abstracts
+abstracts	DBT	myofibrillar myopathy 5	abstracts
+abstracts	DNAJC13	craniofacial anomalies and anterior segment dysgenesis syndrome	abstracts
+abstracts	EDNRA	Charcot-Marie-Tooth disease axonal type 2CC	abstracts
+abstracts	FCGR2B	bardet-biedl syndrome 21	abstracts
+abstracts	FKBP6	Charcot-Marie-Tooth disease type 2E	abstracts
+abstracts	FGF3	surfactant metabolism dysfunction, pulmonary, 4	abstracts
+abstracts	FKTN	autosomal dominant hypophosphatemic rickets	abstracts
+abstracts	GET4	deafness-lymphedema-leukemia syndrome	abstracts
+abstracts	GGPS1	polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy 1	abstracts
+abstracts	GHR	familial long QT syndrome	abstracts
+abstracts	GYPC	ceroid lipofuscinosis, neuronal, 6B (Kufs type)	abstracts
+abstracts	HELLS	autosomal recessive spondylocostal dysostosis	abstracts
+abstracts	HLA-DRB1	congenital adrenal hyperplasia due to 11-beta-hydroxylase deficiency	abstracts
+abstracts	HPS1	myosclerosis	abstracts
+abstracts	IDH2	hereditary renal hypouricemia	abstracts
+abstracts	IFNAR2	Fuchs' endothelial dystrophy	abstracts
+abstracts	IFT54	familial isolated deficiency of vitamin E	abstracts
+abstracts	IL17RD	microphthalmia, isolated, with coloboma 6	abstracts
+abstracts	KCND3	46,XY sex reversal 3	abstracts
+abstracts	ISCA1	pulmonary hypertension, primary, 3	abstracts
+abstracts	KCNE2	epidermolysis bullosa simplex 4, localized or generalized intermediate, autosomal recessive	abstracts
+abstracts	KCNQ4	X-linked spondyloepimetaphyseal dysplasia	abstracts
+abstracts	KIF17	spinal muscular atrophy-progressive myoclonic epilepsy syndrome	abstracts
+abstracts	KREMEN1	autosomal dominant hypocalcemia 1	abstracts
+abstracts	LEPR	spastic paraplegia 83, autosomal recessive	abstracts
+abstracts	LPAR6	blepharophimosis - intellectual disability syndrome, MKB type	abstracts
+abstracts	MC2R	congenital reticular ichthyosiform erythroderma	abstracts
+abstracts	MC4R	agammaglobulinemia 2, autosomal recessive	abstracts
+abstracts	MCCC2	vitamin D-dependent rickets, type 3	abstracts
+abstracts	MRAS	gonadal dysgenesis, dysmorphic facies, retinal dystrophy, and myopathy	abstracts
+abstracts	MRPS14	robinow syndrome, autosomal recessive 2	abstracts
+abstracts	MT-CO3	gonadal dysgenesis	abstracts
+abstracts	MT-TG	minimal pigment oculocutaneous albinism type 1	abstracts
+abstracts	MTHFR	immunodeficiency 102	abstracts
+abstracts	MYO18B	hypertrophic cardiomyopathy 16	abstracts
+abstracts	NBEAL2	arrhythmogenic cardiomyopathy with wooly hair and keratoderma	abstracts
+abstracts	NFATC2	spondylometaphyseal dysplasia, 'corner fracture' type	abstracts
+abstracts	PAX9	Knobloch syndrome 2	abstracts
+abstracts	PCCA	hypercholanemia, familial, 2	abstracts
+abstracts	PCBD1	developmental delay, hypotonia, and impaired language	abstracts-trait
+abstracts	PDCD1	polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis	abstracts
+abstracts	PDX1	arthrogryposis-renal dysfunction-cholestasis syndrome	abstracts
+abstracts	PHGDH	Joubert syndrome 33	abstracts
+abstracts	PHKG2	primary ciliary dyskinesia 33	abstracts
+abstracts	PLEKHM2	developmental malformations-deafness-dystonia syndrome	abstracts
+abstracts	PIGC	agammaglobulinemia	abstracts
+abstracts	PNKP	amyloidosis, hereditary systemic 3	abstracts
+abstracts	PNPLA1	immunodeficiency-centromeric instability-facial anomalies syndrome	abstracts
+abstracts	POU4F1	autosomal dominant polycystic kidney disease	abstracts
+abstracts	PRDM6	Long-Olsen-Distelmaier syndrome	abstracts
+abstracts	PSMB1	glycogen storage disease III	abstracts
+abstracts	PTS	3-hydroxy-3-methylglutaric aciduria	abstracts
+abstracts	RAB32	Silver-Russell syndrome 5	abstracts
+abstracts	RBFOX3	arthrogryposis, distal, with impaired proprioception and touch	abstracts
+abstracts	RNF220	myopathy, lactic acidosis, and sideroblastic anemia 1	abstracts
+abstracts	RXYLT1	cholestasis, progressive familial intrahepatic, 8	abstracts
+abstracts	RPL3L	autosomal recessive mendelian susceptibility to mycobacterial diseases due to complete RORgamma receptor deficiency	abstracts
+abstracts	SBDS	immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome	abstracts
+abstracts	SCN9A	hypogonadotropic hypogonadism	abstracts
+abstracts	SCNN1A	autosomal recessive limb-girdle muscular dystrophy type 2F	abstracts
+abstracts	SEC16B	MHC class II deficiency 3	abstracts
+abstracts	SELENBP1	neurodevelopmental disorder with spastic quadriplegia, optic atrophy, seizures, and structural brain anomalies	abstracts
+abstracts	SFRP4	Ritscher-Schinzel syndrome	abstracts
+abstracts	SLC52A2	Guttmacher syndrome	abstracts
+abstracts	SLC25A13	aldosterone-producing adenoma with seizures and neurological abnormalities	abstracts
+abstracts	SMAD2	intellectual disability, X-linked 96	abstracts
+abstracts	SLK	degenerative myopia	abstracts
+abstracts	SMC3	asthma-related traits, susceptibility to, 5	abstracts-trait
+abstracts	STXBP2	autosomal recessive nonsyndromic hearing loss 44	abstracts
+abstracts	SYCP2L	Weiss-Kruszka syndrome	abstracts
+abstracts	TCF3	striate palmoplantar keratoderma	abstracts
+abstracts	TCTN1	congenital disorder of deglycosylation 2	abstracts
+abstracts	TFRC	congenital stationary night blindness autosomal dominant 3	abstracts
+abstracts	TNNT2	atrial septal defect 6	abstracts
+abstracts	TRPA1	early-onset progressive encephalopathy-hearing loss-pons hypoplasia-brain atrophy syndrome	abstracts
+abstracts	TRHR	metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration	abstracts
+abstracts	TSPEAR	tibial muscular dystrophy	abstracts
+abstracts	TTC21A	spinocerebellar ataxia, autosomal recessive, with axonal neuropathy 3	abstracts
+abstracts	UQCRH	hereditary spastic paraplegia 45	abstracts
+abstracts	VWA2	hypercholesterolemia, familial, 4	abstracts
+abstracts	WBP11	immunodeficiency, common variable, 3	abstracts
+abstracts	ZNF81	acromelic frontonasal dysostosis	abstracts
+fulltext	AFDN	cleft lip/palate	fulltext
+fulltext	CFAP47	polycystic kidney disease	fulltext
+fulltext	CCDC91	punctate palmoplantar keratoderma	fulltext
+fulltext	APOA4	autosomal dominant medullary cystic kidney disease with or without hyperuricemia	fulltext
+fulltext	ATG9A	immunodeficiency disease	fulltext
+fulltext	BMP5	skeletal dysplasia	fulltext
+fulltext	CELSR1	hydrops fetalis	fulltext
+fulltext	ATP6V1C1	neurodevelopmental disorder	fulltext
+fulltext	CCT7	complex neurodevelopmental disorder	fulltext
+fulltext	CCT4	complex neurodevelopmental disorder	fulltext
+fulltext	CIAO1	multiple mitochondrial dysfunctions syndrome 10	fulltext
+fulltext	DAAM2	androgen insensitivity syndrome	fulltext
+fulltext	GTF2IRD1	neurodevelopmental disorder	fulltext
+fulltext	IL1R1	chronic recurrent multifocal osteomyelitis 3	fulltext
+fulltext	IRAK2	immune dysregulation, autoimmunity, and autoinflammation	fulltext-trait
+fulltext	KAT2B	steroid-resistant nephrotic syndrome	fulltext
+fulltext	LRRC45	complex neurodevelopmental disorder	fulltext
+fulltext	LY96	inborn error of immunity	fulltext
+fulltext	MARK4	neurodevelopmental disorder	fulltext
+fulltext	MCF2L	vascular malformation	fulltext
+fulltext	ME2	inborn disorder of energy metabolism	fulltext
+fulltext	MIR145	multisystemic smooth muscle dysfunction syndrome	fulltext
+fulltext	MMS19	neurodegenerative disease	fulltext
+fulltext	NALCN	temporal lobe epilepsy	fulltext
+fulltext	NUP50	amyotrophic lateral sclerosis	fulltext
+fulltext	MPC2	metabolic disease	fulltext
+fulltext	PLXNC1	cerebral cortical dysplasia	fulltext
+fulltext	PPCDC	dilated cardiomyopathy	fulltext
+fulltext	PHF10	multiple congenital anomalies/dysmorphic syndrome	fulltext
+fulltext	RAB35	neurodevelopmental disorder	fulltext
+fulltext	PRMT9	Mendelian neurodevelopmental disorder	fulltext
+fulltext	SERPINA11	hydrops fetalis	fulltext
+fulltext	SGSM3	intellectual disability	fulltext
+fulltext	SUPT7L	lipodystrophy	fulltext
+fulltext	TBC1D31	congenital anomaly of kidney and urinary tract	fulltext
+fulltext	TRPV1	channelopathy-associated congenital insensitivity to pain, autosomal recessive	fulltext
+fulltext	TUFM	inherited primary ovarian failure	fulltext
+fulltext	VEZF1	cardiomyopathy, dilated, 100	fulltext
+fulltext	VPS50	hydrocephalus	fulltext
+fulltext	ZFTRAF1	neurodevelopmental disorder	fulltext
+fulltext	ADAM20	amyotrophic lateral sclerosis type 9	fulltext
+fulltext	ADCY5	3M syndrome 2	fulltext
+fulltext	AGPAT5	short-rib thoracic dysplasia 11 with or without polydactyly	fulltext
+fulltext	AMIGO2	autosomal recessive nonsyndromic hearing loss 59	fulltext
+fulltext	ANAPC1	head and neck squamous cell carcinoma	fulltext
+fulltext	ANO3	arthrogryposis multiplex congenita 2, neurogenic type	fulltext
+fulltext	APC	complement component 2 deficiency	fulltext
+fulltext	ATP11C	arterial tortuosity syndrome	fulltext
+fulltext	ATP5F1A	short stature-brachydactyly-obesity-global developmental delay syndrome	fulltext
+fulltext	BRSK2	mitochondrial pyruvate carrier deficiency	fulltext
+fulltext	C1QBP	Antley-Bixler syndrome	fulltext
+fulltext	CACNA1F	Malan overgrowth syndrome	fulltext
+fulltext	CASP2	Hoxha-Aliu syndrome	fulltext
+fulltext	CAV1	hereditary late onset Parkinson disease	fulltext
+fulltext	CDH15	familial hypobetalipoproteinemia 1	fulltext
+fulltext	CDK9	congenital myopathy 2c, severe infantile, autosomal dominant	fulltext
+fulltext	CEP120	hemochromatosis type 1	fulltext
+fulltext	CYBA	parathyroid gland carcinoma	fulltext
+fulltext	DBT	myofibrillar myopathy 5	fulltext
+fulltext	DNAJC13	craniofacial anomalies and anterior segment dysgenesis syndrome	fulltext
+fulltext	EDNRA	Charcot-Marie-Tooth disease axonal type 2CC	fulltext
+fulltext	FCGR2B	bardet-biedl syndrome 21	fulltext
+fulltext	FGF3	surfactant metabolism dysfunction, pulmonary, 4	fulltext
+fulltext	FKBP6	Charcot-Marie-Tooth disease type 2E	fulltext
+fulltext	FKTN	autosomal dominant hypophosphatemic rickets	fulltext
+fulltext	GET4	deafness-lymphedema-leukemia syndrome	fulltext
+fulltext	GGPS1	polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy 1	fulltext
+fulltext	GHR	familial long QT syndrome	fulltext
+fulltext	GYPC	ceroid lipofuscinosis, neuronal, 6B (Kufs type)	fulltext
+fulltext	HELLS	autosomal recessive spondylocostal dysostosis	fulltext
+fulltext	HLA-DRB1	congenital adrenal hyperplasia due to 11-beta-hydroxylase deficiency	fulltext
+fulltext	HPS1	myosclerosis	fulltext
+fulltext	IDH2	hereditary renal hypouricemia	fulltext
+fulltext	IFNAR2	Fuchs' endothelial dystrophy	fulltext
+fulltext	IFT54	familial isolated deficiency of vitamin E	fulltext
+fulltext	IL17RD	microphthalmia, isolated, with coloboma 6	fulltext
+fulltext	ISCA1	pulmonary hypertension, primary, 3	fulltext
+fulltext	KCND3	46,XY sex reversal 3	fulltext
+fulltext	KCNE2	epidermolysis bullosa simplex 4, localized or generalized intermediate, autosomal recessive	fulltext
+fulltext	KCNQ4	X-linked spondyloepimetaphyseal dysplasia	fulltext
+fulltext	KIF17	spinal muscular atrophy-progressive myoclonic epilepsy syndrome	fulltext
+fulltext	KREMEN1	autosomal dominant hypocalcemia 1	fulltext
+fulltext	LEPR	spastic paraplegia 83, autosomal recessive	fulltext
+fulltext	LPAR6	blepharophimosis - intellectual disability syndrome, MKB type	fulltext
+fulltext	MC2R	congenital reticular ichthyosiform erythroderma	fulltext
+fulltext	MC4R	agammaglobulinemia 2, autosomal recessive	fulltext
+fulltext	MCCC2	vitamin D-dependent rickets, type 3	fulltext
+fulltext	MRAS	gonadal dysgenesis, dysmorphic facies, retinal dystrophy, and myopathy	fulltext
+fulltext	MRPS14	robinow syndrome, autosomal recessive 2	fulltext
+fulltext	MT-CO3	gonadal dysgenesis	fulltext
+fulltext	MT-TG	minimal pigment oculocutaneous albinism type 1	fulltext
+fulltext	MTHFR	immunodeficiency 102	fulltext
+fulltext	MYO18B	hypertrophic cardiomyopathy 16	fulltext
+fulltext	NFATC2	spondylometaphyseal dysplasia, 'corner fracture' type	fulltext
+fulltext	NBEAL2	arrhythmogenic cardiomyopathy with wooly hair and keratoderma	fulltext
+fulltext	PAX9	Knobloch syndrome 2	fulltext
+fulltext	PCCA	hypercholanemia, familial, 2	fulltext
+fulltext	PCBD1	developmental delay, hypotonia, and impaired language	fulltext-trait
+fulltext	PDCD1	polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis	fulltext
+fulltext	PDX1	arthrogryposis-renal dysfunction-cholestasis syndrome	fulltext
+fulltext	PHGDH	Joubert syndrome 33	fulltext
+fulltext	PHKG2	primary ciliary dyskinesia 33	fulltext
+fulltext	PIGC	agammaglobulinemia	fulltext
+fulltext	PLEKHM2	developmental malformations-deafness-dystonia syndrome	fulltext
+fulltext	PNPLA1	immunodeficiency-centromeric instability-facial anomalies syndrome	fulltext
+fulltext	PNKP	amyloidosis, hereditary systemic 3	fulltext
+fulltext	POU4F1	autosomal dominant polycystic kidney disease	fulltext
+fulltext	PRDM6	Long-Olsen-Distelmaier syndrome	fulltext
+fulltext	PSMB1	glycogen storage disease III	fulltext
+fulltext	RAB32	Silver-Russell syndrome 5	fulltext
+fulltext	PTS	3-hydroxy-3-methylglutaric aciduria	fulltext
+fulltext	RBFOX3	arthrogryposis, distal, with impaired proprioception and touch	fulltext
+fulltext	RNF220	myopathy, lactic acidosis, and sideroblastic anemia 1	fulltext
+fulltext	RPL3L	autosomal recessive mendelian susceptibility to mycobacterial diseases due to complete RORgamma receptor deficiency	fulltext
+fulltext	RXYLT1	cholestasis, progressive familial intrahepatic, 8	fulltext
+fulltext	SBDS	immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome	fulltext
+fulltext	SCN9A	hypogonadotropic hypogonadism	fulltext
+fulltext	SCNN1A	autosomal recessive limb-girdle muscular dystrophy type 2F	fulltext
+fulltext	SEC16B	MHC class II deficiency 3	fulltext
+fulltext	SELENBP1	neurodevelopmental disorder with spastic quadriplegia, optic atrophy, seizures, and structural brain anomalies	fulltext
+fulltext	SFRP4	Ritscher-Schinzel syndrome	fulltext
+fulltext	SLC25A13	aldosterone-producing adenoma with seizures and neurological abnormalities	fulltext
+fulltext	SLK	degenerative myopia	fulltext
+fulltext	SLC52A2	Guttmacher syndrome	fulltext
+fulltext	SMAD2	intellectual disability, X-linked 96	fulltext
+fulltext	SMC3	asthma-related traits, susceptibility to, 5	fulltext-trait
+fulltext	STXBP2	autosomal recessive nonsyndromic hearing loss 44	fulltext
+fulltext	SYCP2L	Weiss-Kruszka syndrome	fulltext
+fulltext	TCF3	striate palmoplantar keratoderma	fulltext
+fulltext	TCTN1	congenital disorder of deglycosylation 2	fulltext
+fulltext	TFRC	congenital stationary night blindness autosomal dominant 3	fulltext
+fulltext	TNNT2	atrial septal defect 6	fulltext
+fulltext	TRHR	metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration	fulltext
+fulltext	TRPA1	early-onset progressive encephalopathy-hearing loss-pons hypoplasia-brain atrophy syndrome	fulltext
+fulltext	TSPEAR	tibial muscular dystrophy	fulltext
+fulltext	TTC21A	spinocerebellar ataxia, autosomal recessive, with axonal neuropathy 3	fulltext
+fulltext	UQCRH	hereditary spastic paraplegia 45	fulltext
+fulltext	VWA2	hypercholesterolemia, familial, 4	fulltext
+fulltext	WBP11	immunodeficiency, common variable, 3	fulltext
+fulltext	ZNF81	acromelic frontonasal dysostosis	fulltext

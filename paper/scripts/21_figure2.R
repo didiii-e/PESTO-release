@@ -1059,10 +1059,11 @@ ggsave(file.path(FIGURES, "figure2b_lit_vs_max.pdf"), ot_fig,
        width = 12.5, height = 4.6, bg = "white")
 cat("Wrote", file.path(FIGURES, "figure2b_lit_vs_max.png"), "and .pdf\n")
 
-# Extended Data 4 - the precision-recall comparison that left the main text.
+# The precision-recall comparison that left the main text (not a figure of the
+# paper; written as figure_pr_comparison so as not to overwrite Extended Data Fig. 4).
 ed4 <- panel_D()
-ggsave(file.path(FIGURES, "figure_ed4.png"), ed4, width = 6.2, height = 4.8,
+ggsave(file.path(FIGURES, "figure_pr_comparison.png"), ed4, width = 6.2, height = 4.8,
        dpi = 320, bg = "white")
-ggsave(file.path(FIGURES, "figure_ed4.pdf"), ed4, width = 6.2, height = 4.8,
+ggsave(file.path(FIGURES, "figure_pr_comparison.pdf"), ed4, width = 6.2, height = 4.8,
        bg = "white")
-cat("Wrote", file.path(FIGURES, "figure_ed4.png"), "and .pdf\n")
+cat("Wrote", file.path(FIGURES, "figure_pr_comparison.png"), "and .pdf\n")

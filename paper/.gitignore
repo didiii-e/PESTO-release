@@ -1,0 +1,5 @@
+
+# Side outputs of scripts/21_figure2.R that are not figures of the paper
+figures/figure2b_lit_vs_max.*
+figures/figure_supp_1.*
+figures/figure_pr_comparison.*

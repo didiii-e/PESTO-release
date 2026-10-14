@@ -26,18 +26,20 @@ Rscript scripts/144_figure_ed2_titles.R
 echo "== Figure 3"
 Rscript scripts/250_figure_temporal.R
 
-echo "== Figure 4, Extended Data Fig. 4, Supplementary Note 5 table"
+echo "== Figure 4, Extended Data Figs. 4 and 5, Supplementary Figure 6, Supplementary Note 5 tables"
 Rscript scripts/117_figure3_chd_top5.R --loeuf-decile --brain-decile --or --top5-brain --cell-panel
 Rscript scripts/198_tissue_enrichment_grid.R
-Rscript scripts/199_tissue_heatmap_from_grid.R adult kept 5% --clean
+Rscript scripts/236_extended_data_panel670.R .
+Rscript scripts/231_fetal_cell_type_heatmap.R
 if [ -f data/raw/ASC_GeneList_12082026.txt ]; then
   "$PY" scripts/269_publication_adjusted_enrichment.py
 else
   echo "skip 269_publication_adjusted_enrichment.py: needs data/raw/ASC_GeneList_12082026.txt"
 fi
 
-echo "== Supplementary Figure 1 (pipeline schema), Supplementary Note 1 table"
+echo "== Supplementary Figures 1 and 2, Supplementary Note 1 table"
 Rscript scripts/172_pipeline_detailed_schema.R
+Rscript scripts/156_figure_supp_abstract_fix.R
 "$PY" scripts/183_reproducibility_stats.py
 
 echo "== Supplementary Figure 3, Extended Data Fig. 3"
@@ -45,6 +47,6 @@ Rscript scripts/122_figure2_current_vs_score.R
 "$PY" scripts/127_fig2_roc_candidate.py
 Rscript scripts/128_figure2_roc_candidate.R
 
-echo "== Supplementary Figure 4 (body-only benchmark)"
+echo "== Supplementary Figure 4 (full-text mode)"
 "$PY" scripts/150_bodyonly_data.py
-Rscript scripts/151_figure_supp_bodyonly.R
+Rscript scripts/170_figure_supp_fulltext.R
