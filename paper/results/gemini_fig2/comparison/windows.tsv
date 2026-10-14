@@ -1,0 +1,21 @@
+window	model	method	n	mean_score	ap
+2011-2013	claude	PESTO	40	2.891	0.869
+2011-2013	claude	Model knowledge	40	2.715	0.895
+2011-2013	gemini	PESTO	40	3.016	0.898
+2011-2013	gemini	Model knowledge	40	3.155	0.95
+2014-2016	claude	PESTO	40	3.132	0.917
+2014-2016	claude	Model knowledge	40	2.847	0.919
+2014-2016	gemini	PESTO	40	3.275	0.958
+2014-2016	gemini	Model knowledge	40	3.192	0.963
+2017-2019	claude	PESTO	40	2.89	0.849
+2017-2019	claude	Model knowledge	40	2.745	0.898
+2017-2019	gemini	PESTO	40	3.005	0.925
+2017-2019	gemini	Model knowledge	40	3.231	0.956
+2020-2022	claude	PESTO	40	3.025	0.904
+2020-2022	claude	Model knowledge	40	2.665	0.864
+2020-2022	gemini	PESTO	40	3.09	0.943
+2020-2022	gemini	Model knowledge	40	2.976	0.923
+2023-2025	claude	PESTO	40	2.907	0.871
+2023-2025	claude	Model knowledge	40	2.141	0.694
+2023-2025	gemini	PESTO	40	2.844	0.906
+2023-2025	gemini	Model knowledge	40	2.477	0.848

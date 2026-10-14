@@ -1,0 +1,26 @@
+{
+ "pairs": 10,
+ "errors": 0,
+ "max_date": "2026/08/14",
+ "fingerprint": "c1a5480df225",
+ "wall_seconds": 93.4,
+ "usd": 0.3996,
+ "usd_2027": 0.7992,
+ "same_verdict_as_claude": 0,
+ "models": {
+  "gemini-4-argon": {
+   "calls": 20,
+   "input": 53936,
+   "output": 7852,
+   "thinking": 2848,
+   "empty": 0
+  },
+  "gemini-3.8-flash": {
+   "calls": 63,
+   "input": 173535,
+   "output": 22148,
+   "thinking": 8570,
+   "empty": 0
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "pairs": 300,
+ "errors": 0,
+ "max_date": "2026/08/14",
+ "fingerprint": "eb9bc6b6bb12",
+ "wall_seconds": 67.6,
+ "usd": 1.2095,
+ "usd_2027": 2.4161,
+ "same_verdict_as_claude": 0,
+ "models": {
+  "gemini-4-argon": {
+   "calls": 300,
+   "input": 171855,
+   "output": 86462,
+   "thinking": 22205,
+   "empty": 0
+  }
+ }
+}

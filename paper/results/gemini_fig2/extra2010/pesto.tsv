@@ -1,0 +1,11 @@
+gene	phenotype	truth	claude_verdict	verdict	p_established	p_existing	p_hypothesized	p_novel	found	read	usd	usd_2027	seconds	fingerprint	error
+IRAG1	achalasia	Limited 2010		Existing	0	95	5	0	23	12	0.02687	0.05374	76.0	c1a5480df225	
+SOBP	intellectual disability, anterior maxillary protrusion, and strabismus	Limited 2010		Existing	5	85	10	0	18	10	0.02333	0.04666	76.2	c1a5480df225	
+DIAPH3	auditory neuropathy	Limited 2010		Established	95	5	0	0	50	20	0.03777	0.07553	79.2	c1a5480df225	
+ADAMTS9	ciliopathy	Limited 2010		Established	95	5	0	0	56	16	0.04205	0.0841	79.9	c1a5480df225	
+LAS1L	X-linked syndromic intellectual disability	Limited 2010		Established	95	5	0	0	19	14	0.02713	0.05425	82.0	c1a5480df225	
+C19orf12	hereditary spastic paraplegia 43	Limited 2010		Established	95	5	0	0	55	20	0.04047	0.08093	83.4	c1a5480df225	
+SHANK3	schizophrenia 15	Limited 2010		Established	55	40	5	0	91	20	0.05617	0.11234	84.0	c1a5480df225	
+PDGFRA	congenital heart disease	Limited 2010		Existing	0	90	10	0	57	2	0.03706	0.07413	86.2	c1a5480df225	
+SPTAN1	hereditary spastic paraplegia	Limited 2010		Established	95	5	0	0	52	20	0.04359	0.08718	90.3	c1a5480df225	
+SLC34A1	Fanconi renotubular syndrome 2	Limited 2010		Existing	25	70	5	0	62	20	0.06517	0.13033	93.4	c1a5480df225	

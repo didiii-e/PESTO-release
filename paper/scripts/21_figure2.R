@@ -42,6 +42,9 @@ suppressPackageStartupMessages({
 root <- normalizePath(file.path(dirname(sub("--file=", "",
          grep("--file=", commandArgs(FALSE), value = TRUE)[1])), ".."))
 if (is.na(root) || !dir.exists(root)) root <- normalizePath(".")
+# A tree laid out like this repository but holding another model's results
+# (scripts/302_gemini_fig2_mirror.py) draws the same figure from them.
+root <- Sys.getenv("PESTO_FIG2_ROOT", unset = root)
 
 RESULTS <- file.path(root, "results")
 FIGURES <- file.path(root, "figures")
@@ -998,7 +1001,7 @@ fig <- fig +
   theme(plot.tag = element_text(face = "bold", size = 20),
         plot.tag.position = c(0, 1))
 
-fig2_stem <- if (IS_HAIKU) "figure2_haiku" else "figure2"
+fig2_stem <- Sys.getenv("PESTO_FIG2_STEM", if (IS_HAIKU) "figure2_haiku" else "figure2")
 fig2_height <- if (IS_HAIKU) 11.2 else 16.4
 ggsave(file.path(FIGURES, paste0(fig2_stem, ".png")), fig,
        width = 11, height = fig2_height, dpi = 600, bg = "white")

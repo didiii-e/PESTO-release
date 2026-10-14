@@ -1,0 +1,1044 @@
+gene	phenotype	panels	truth
+HAND1	congenital heart disease	a	Moderate
+ATP5MK	mitochondrial disease	a	Moderate
+TMEM63C	spastic paraplegia 87, autosomal recessive	a	Moderate
+BLVRA	hyperbiliverdinemia	a	Moderate
+RBBP5	neurodevelopmental disorder	a	Moderate
+ETS1	congenital heart disease	a	Moderate
+TUBA4A	amyotrophic lateral sclerosis type 22	a	Moderate
+PRDX3	spinocerebellar ataxia, autosomal recessive 32	a	Moderate
+CAMSAP1	cortical dysplasia, complex, with other brain malformations 12	a	Moderate
+ASPRV1	ichthyosis, lamellar, autosomal dominant	a	Moderate
+CDH11	Teebi hypertelorism syndrome 2	a	Moderate
+UBR5	neurodevelopmental disorder	a	Moderate
+SEPHS1	neurodevelopmental disorder	a	Moderate
+FXYD2	renal hypomagnesemia 2	a	Moderate
+THUMPD1	neurodevelopmental disorder with speech delay and variable ocular anomalies	a	Moderate
+JPH1	congenital myopathy 25	a	Moderate
+CPSF3	neurodevelopmental disorder with microcephaly, hypotonia, nystagmus, and seizures	a	Moderate
+INTS11	neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities	a	Moderate
+CHKA	neurodevelopmental disorder with microcephaly, movement abnormalities, and seizures	a	Moderate
+REL	immunodeficiency 92	a	Moderate
+FLI1	bleeding disorder, platelet-type, 21	a	Moderate
+SLC31A1	neurodegeneration and seizures due to copper transport defect	a	Moderate
+TRAC	TCR-alpha-beta-positive T-cell deficiency	a	Moderate
+UNG	hyper-IgM syndrome type 5	a	Moderate
+GABRD	complex neurodevelopmental disorder	a	Moderate
+ALDH1A2	diaphragmatic hernia 4, with cardiovascular defects	a	Strong
+GDF11	vertebral hypersegmentation and orofacial anomalies	a	Strong
+PRKG2	acromesomelic dysplasia 4	a	Strong
+SELENOI	spastic paraplegia 81, autosomal recessive	a	Strong
+ALPK1	retinal dystrophy, optic nerve edema, splenomegaly, anhidrosis, and migraine headache syndrome	a	Strong
+TMX2	neurodevelopmental disorder with microcephaly, cortical malformations, and spasticity	a	Strong
+SAMD11	retinitis pigmentosa	a	Strong
+PYCR2	hypomyelinating leukodystrophy 10	a	Strong
+GEMIN4	neurodevelopmental disorder with microcephaly, cataracts, and renal abnormalities	a	Strong
+RAC3	neurodevelopmental disorder with structural brain anomalies and dysmorphic facies	a	Strong
+LIPT2	encephalopathy, neonatal severe, with lactic acidosis and brain abnormalities	a	Strong
+TMEM106B	leukodystrophy, hypomyelinating, 16	a	Strong
+ATG7	spinocerebellar ataxia, autosomal recessive 31	a	Strong
+SLC6A17	progressive essential tremor-speech impairment-facial dysmorphism-intellectual disability-abnormal behavior syndrome	a	Strong
+GDAP2	spinocerebellar ataxia, autosomal recessive 27	a	Strong
+BCAS3	Hengel-Maroofian-Schols syndrome	a	Strong
+DHPS	neurodevelopmental disorder with seizures and speech and walking impairment	a	Strong
+NRXN1	Pitt-Hopkins-like syndrome 2	a	Strong
+COX16	mitochondrial complex IV deficiency, nuclear type 22	a	Strong
+THAP1	torsion dystonia 6	a	Strong
+UNC45A	osteootohepatoenteric syndrome	a	Strong
+SACS	Charlevoix-Saguenay spastic ataxia	a	Strong
+TRNT1	retinitis pigmentosa and erythrocytic microcytosis	a	Strong
+SMPD4	neurodevelopmental disorder with microcephaly, arthrogryposis, and structural brain anomalies	a	Strong
+ATG5	spinocerebellar ataxia, autosomal recessive 25	a	Limited
+TMEM135	neurodevelopmental disorder	a	Limited
+USP44	congenital heart disease	a	Limited
+EPHB2	bleeding disorder, platelet-type, 22	a	Limited
+SLC35B2	leukodystrophy, hypomyelinating, 26, with chondrodysplasia	a	Limited
+DHX34	intellectual disability	a	Limited
+SUMO1	orofacial cleft 10	a	Limited
+TRAPPC2L	encephalopathy, progressive, early-onset, with episodic rhabdomyolysis	a	Limited
+PITX1	clubfoot	a	Strong
+SCLT1	retinitis pigmentosa	a	Limited
+ASCL1	neurodevelopmental disorder	a	Limited
+CRIPTO	congenital heart disease	a	Limited
+ASB10	glaucoma 1, open angle, F	a	Limited
+DCC	gaze palsy, familial horizontal, with progressive scoliosis, 2	a	Strong
+PITX2	ring dermoid of cornea	a	Strong
+VANGL1	neural tube defects, susceptibility to	a	Limited
+POLD3	immunodeficiency 122	a	Limited
+TMOD1	dilated cardiomyopathy	a	Limited
+CCT7	complex neurodevelopmental disorder	a,cd	Limited
+TDO2	familial hypertryptophanemia	a	Limited
+ELP2	intellectual disability, autosomal recessive 58	a	Limited
+KCNT1	malignant migrating partial seizures of infancy	a	Definitive
+SS18L1	amyotrophic lateral sclerosis	a	Limited
+MT-TA	mitochondrial disease	a	Definitive
+HEY2	congenital heart disease	a	Limited
+ABCC9	hypertrichotic osteochondrodysplasia Cantu type	a	Definitive
+ERCC6L2	pancytopenia-developmental delay syndrome	a	Definitive
+AICDA	hyper-IgM syndrome type 2	a	Definitive
+IGSF1	X-linked central congenital hypothyroidism with late-onset testicular enlargement	a	Definitive
+SDHB	Carney-Stratakis syndrome	a	Definitive
+TAFAZZIN	Barth syndrome	a	Definitive
+AP3B1	Hermansky-Pudlak syndrome 2	a	Definitive
+IL11RA	craniosynostosis and dental anomalies	a	Definitive
+KIT	piebaldism	a	Definitive
+LRPAP1	myopia 23, autosomal recessive	a	Definitive
+SLC24A5	oculocutaneous albinism type 6	a	Definitive
+AKT1	Proteus syndrome	a	Definitive
+FBXO11	intellectual developmental disorder with dysmorphic facies and behavioral abnormalities	a	Definitive
+PPP1R13L	dilated cardiomyopathy	a	Definitive
+DCLRE1C	Omenn syndrome	a	Definitive
+CHD2	developmental and epileptic encephalopathy 94	a	Definitive
+CRB2	ventriculomegaly-cystic kidney disease	a	Definitive
+ASNS	congenital microcephaly - severe encephalopathy - progressive cerebral atrophy syndrome	a	Definitive
+SAMD9	MIRAGE syndrome	a	Definitive
+EBP	MEND syndrome	a	Definitive
+SRCAP	Floating-Harbor syndrome	a	Definitive
+CCDC88A	PEHO-like syndrome	a	Moderate
+PIK3R1	SHORT syndrome	a	Definitive
+ZFTRAF1	neurodevelopmental disorder	a,cd	Limited
+ATP2B1	intellectual developmental disorder, autosomal dominant 66	a	Moderate
+CFAP43	normal pressure hydrocephalus	a	Limited
+SLC38A3	developmental and epileptic encephalopathy 102	a	Strong
+KLHL24	epidermolysis bullosa simplex 6, generalized, with scarring and hair loss	a	Moderate
+ATP1A1	Charcot-Marie-tooth disease, axonal, type 2DD	a	Moderate
+RBM28	ANE syndrome	a	Limited
+TBX15	pelviscapular dysplasia	a	Definitive
+KRT71	hypotrichosis 13	a	Limited
+PHKG2	primary ciliary dyskinesia 33	a	Absent
+CALM2	catecholaminergic polymorphic ventricular tachycardia	a	Moderate
+CAMTA1	cerebellar dysfunction with variable cognitive and behavioral abnormalities	a	Definitive
+SYCP2L	Weiss-Kruszka syndrome	a	Absent
+ATP11C	arterial tortuosity syndrome	a	Absent
+JMJD1C	neurodevelopmental disorder	a	Limited
+KIF4A	complex neurodevelopmental disorder with or without congenital anomalies	a,cd	Limited
+ASAH1	Farber lipogranulomatosis	a	Definitive
+AR	Kennedy disease	a	Definitive
+FKBP6	Charcot-Marie-Tooth disease type 2E	a	Absent
+MT-CO3	gonadal dysgenesis	a	Absent
+APC	complement component 2 deficiency	a	Absent
+RBFOX3	arthrogryposis, distal, with impaired proprioception and touch	a	Absent
+PSMB1	glycogen storage disease III	a	Absent
+CDH15	familial hypobetalipoproteinemia 1	a	Absent
+ANO3	arthrogryposis multiplex congenita 2, neurogenic type	a	Absent
+SCN9A	hypogonadotropic hypogonadism	a	Absent
+SELENBP1	neurodevelopmental disorder with spastic quadriplegia, optic atrophy, seizures, and structural brain anomalies	a	Absent
+CACNA1F	Malan overgrowth syndrome	a	Absent
+GET4	deafness-lymphedema-leukemia syndrome	a	Absent
+NFATC2	spondylometaphyseal dysplasia, 'corner fracture' type	a	Absent
+KCNE2	epidermolysis bullosa simplex 4, localized or generalized intermediate, autosomal recessive	a	Absent
+RPL3L	autosomal recessive mendelian susceptibility to mycobacterial diseases due to complete RORgamma receptor deficiency	a	Absent
+CASP2	Hoxha-Aliu syndrome	a	Absent
+AMIGO2	autosomal recessive nonsyndromic hearing loss 59	a	Absent
+KCND3	46,XY sex reversal 3	a	Absent
+KCNQ4	X-linked spondyloepimetaphyseal dysplasia	a	Absent
+NBEAL2	arrhythmogenic cardiomyopathy with wooly hair and keratoderma	a	Absent
+TSPEAR	tibial muscular dystrophy	a	Absent
+TNNT2	atrial septal defect 6	a	Absent
+PCCA	hypercholanemia, familial, 2	a	Absent
+STXBP2	autosomal recessive nonsyndromic hearing loss 44	a	Absent
+UQCRH	hereditary spastic paraplegia 45	a	Absent
+MC4R	agammaglobulinemia 2, autosomal recessive	a	Absent
+CDK9	congenital myopathy 2c, severe infantile, autosomal dominant	a	Absent
+PHGDH	Joubert syndrome 33	a	Absent
+PAK1	intellectual developmental disorder with macrocephaly, seizures, and speech delay	a	Strong
+MT-TC	mitochondrial disease	a	Limited
+TOE1	pontocerebellar hypoplasia type 7	a	Strong
+PLS3	X-linked osteoporosis with fractures	a	Definitive
+ACP5	Spondyloenchondrodysplasia with immune dysregulation	a	Definitive
+MRTFB	neurodevelopmental disorder	a	Limited
+TLR5	systemic lupus erythematosus, susceptibility to, 1	a	Limited
+EYA4	dilated cardiomyopathy 1J	a	Limited
+CARD11	BENTA disease	a	Definitive
+SNRPN	Prader-Willi syndrome	a	Definitive
+EIF4A3	Richieri Costa-Pereira syndrome	a	Definitive
+KDR	pulmonary arterial hypertension	a	Definitive
+POGZ	intellectual disability-microcephaly-strabismus-behavioral abnormalities syndrome	a	Definitive
+GP6	platelet-type bleeding disorder 11	a	Definitive
+MPV17	mitochondrial DNA depletion syndrome 6 (hepatocerebral type)	a	Definitive
+WAS	Wiskott-Aldrich syndrome	a	Definitive
+MPIG6B	thrombocytopenia, anemia, and myelofibrosis	a	Definitive
+OPHN1	X-linked intellectual disability-cerebellar hypoplasia syndrome	a	Definitive
+AGK	Sengers syndrome	a	Definitive
+CLCN2	leukoencephalopathy with mild cerebellar ataxia and white matter edema	a	Definitive
+NR2F2	46,xx sex reversal 5	a	Definitive
+STRADA	polyhydramnios, megalencephaly, and symptomatic epilepsy	a	Definitive
+SLC29A3	H syndrome	a	Definitive
+SPINK5	Netherton syndrome	a	Definitive
+FLVCR2	Fowler syndrome	a	Definitive
+F12	congenital factor XII deficiency	a	Definitive
+SCARF2	van den Ende-Gupta syndrome	a	Definitive
+GATAD2B	severe intellectual disability-poor language-strabismus-grimacing face-long fingers syndrome	a	Definitive
+RB1	hereditary retinoblastoma	a	Definitive
+SLC16A2	Allan-Herndon-Dudley syndrome	a	Definitive
+CTC1	dyskeratosis congenita	a	Definitive
+SLC52A2	Brown-Vialetto-van Laere syndrome 2	a	Definitive
+GLUD1	hyperinsulinism-hyperammonemia syndrome	a	Definitive
+GALNS	mucopolysaccharidosis type 4A	a	Definitive
+PDHA1	Leigh syndrome	a	Definitive
+AFG2A	microcephaly-intellectual disability-sensorineural hearing loss-epilepsy-abnormal muscle tone syndrome	a	Definitive
+AUH	3-methylglutaconic aciduria type 1	a	Definitive
+HYCC1	leukodystrophy, hypomyelinating, 5	a	Definitive
+INTS1	neurodevelopmental disorder with cataracts, poor growth, and dysmorphic facies	a	Strong
+STAT6	hyper-IgE syndrome 6, autosomal dominant, with recurrent infections	a	Strong
+SCYL1	acute infantile liver failure-cerebellar ataxia-peripheral sensory motor neuropathy syndrome	a	Strong
+LTBP1	cutis laxa, autosomal recessive, type 2E	a	Strong
+WNT4	mullerian aplasia and hyperandrogenism	a	Strong
+ABHD16A	spastic paraplegia 86, autosomal recessive	a	Strong
+CHRNA3	urinary bladder, atony of	a	Strong
+YAP1	uveal coloboma-cleft lip and palate-intellectual disability	a	Strong
+ASPH	facial dysmorphism-lens dislocation-anterior segment abnormalities-spontaneous filtering blebs syndrome	a	Strong
+NAXE	encephalopathy, progressive, early-onset, with brain edema and/or leukoencephalopathy, 1	a	Strong
+EDEM3	congenital disorder of glycosylation, type 2v	a	Strong
+H4C3	Tessadori-van Haaften neurodevelopmental syndrome 1	a	Strong
+P3H2	myopia, high, with cataract and vitreoretinal degeneration	a	Strong
+GALNT2	congenital disorder of glycosylation, type iit	a	Strong
+CENPF	Stromme syndrome	a	Strong
+PHACTR1	developmental and epileptic encephalopathy, 70	a	Strong
+HNRNPA2B1	oculopharyngeal muscular dystrophy 2	a	Strong
+COPB2	osteoporosis, childhood- or juvenile-onset, with developmental delay	a	Strong
+HDAC4	neurodevelopmental disorder with central hypotonia and dysmorphic facies	a	Strong
+WWOX	autosomal recessive spinocerebellar ataxia 12	a	Strong
+AFF3	KINSSHIP syndrome	a	Strong
+CFAP54	ciliary dyskinesia, primary, 54	a	Strong
+BMS1	aplasia cutis congenita	a	Strong
+MIR17HG	Feingold syndrome type 2	a	Strong
+EMG1	Bowen-Conradi syndrome	a	Strong
+PHF21A	Potocki-Shaffer syndrome	a	Strong
+EPRS1	leukodystrophy, hypomyelinating, 15	a	Strong
+H4C5	Tessadori-Van Haaften neurodevelopmental syndrome 3	a	Strong
+ZNF148	global developmental delay, absent or hypoplastic corpus callosum, and dysmorphic facies	a	Strong
+SLC39A5	myopia 24, autosomal dominant	a	Strong
+MAPK1	Noonan syndrome 13	a	Moderate
+TCEAL1	neurodevelopmental disorder with gait disturbance, dysmorphic facies, and behavioral abnormalities, X-linked	a	Moderate
+SBF1	Charcot-Marie-Tooth disease type 4B3	a	Moderate
+SLF2	Atelis syndrome 1	a	Moderate
+AMFR	spastic paraplegia 89, autosomal recessive	a	Moderate
+MYLK3	dilated cardiomyopathy	a	Moderate
+TAPBP	MHC class I deficiency	a	Moderate
+UBAP2L	neurodevelopmental disorder with impaired language, behavioral abnormalities, and dysmorphic facies	a	Moderate
+MAST3	developmental and epileptic encephalopathy 108	a	Moderate
+WDR83OS	neurodevelopmental disorder with variable familial hypercholanemia	a	Moderate
+RUSC2	intellectual disability, autosomal recessive 61	a	Moderate
+IRF9	immunodeficiency 65, susceptibility to viral infections	a	Moderate
+TRIM71	hydrocephalus, congenital communicating, 1	a	Moderate
+ESAM	neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity	a	Moderate
+FOSL2	aplasia cutis-enamel dysplasia syndrome	a	Moderate
+GABBR1	neurodevelopmental disorder with language delay and variable cognitive abnormalities	a	Moderate
+IKZF3	immunodeficiency 84	a	Moderate
+NDC1	neurodevelopmental disorder with achalasia, polyneuropathy, and alacrima	a	Moderate
+RAB34	orofaciodigital syndrome 20	a	Moderate
+MYCN	megalencephaly-polydactyly syndrome	a	Moderate
+NDUFC2	Leigh syndrome	a	Moderate
+SMC5	Atelis syndrome 2	a	Moderate
+ZBTB7A	macrocephaly, neurodevelopmental delay, lymphoid hyperplasia, and persistent fetal hemoglobin	a	Moderate
+H3-3B	Bryant-Li-Bhoj neurodevelopmental syndrome 2	a	Moderate
+CFB	atypical hemolytic-uremic syndrome with B factor anomaly	a	Moderate
+TOP2B	B-cell immunodeficiency, distal limb anomalies, and urogenital malformations	a	Moderate
+CFAP74	ciliary dyskinesia, primary, 49, without situs inversus	a	Moderate
+MESP1	congenital heart disease	a	Moderate
+MDM4	bone marrow failure syndrome 6	a	Moderate
+ABCC4	qualitative platelet defect	a	Moderate
+MFSD6L	cataract	a	Limited
+GSPT2	intellectual disability	a	Limited
+HCK	autoinflammation with pulmonary and cutaneous vasculitis	a	Limited
+CCNK	intellectual developmental disorder with hypertelorism and distinctive facies	a	Limited
+PET117	Leigh syndrome	a	Limited
+AKR1E2	cataract	a	Limited
+OFD1	Simpson-Golabi-Behmel syndrome type 2	a	Limited
+AQP1	pulmonary arterial hypertension	a	Limited
+ABCD3	congenital bile acid synthesis defect 5	a	Limited
+DLG5	Yuksel-Vogel-Bauer syndrome	a	Limited
+CRELD1	atrioventricular septal defect, susceptibility to, 2	a	Limited
+PIGM	hypercoagulability syndrome due to glycosylphosphatidylinositol deficiency	a	Limited
+GUF1	developmental and epileptic encephalopathy	a	Limited
+PDE1C	autosomal dominant nonsyndromic hearing loss	a	Limited
+LTV1	inflammatory poikiloderma with hair abnormalities and acral keratoses	a	Limited
+CFAP47	spermatogenic failure, X-linked, 3	a	Limited
+CTNNA3	arrhythmogenic right ventricular cardiomyopathy	a,cd	Limited
+ILK	familial dilated cardiomyopathy	a,cd	Limited
+NUDCD3	severe combined immunodeficiency	a	Limited
+HIBADH	3-hydroxyisobutyric aciduria	a	Limited
+RAX	coloboma	a	Limited
+PHYKPL	phosphohydroxylysinuria	a	Limited
+PLOD3	bone fragility with contractures, arterial rupture, and deafness	a	Limited
+CHST8	peeling skin syndrome type A	a	Limited
+LONP1	congenital diaphragmatic hernia	a	Limited
+C1GALT1C1	hemolytic uremic syndrome, atypical, 8, with rhizomelic short stature	a	Limited
+RNF125	Tenorio syndrome	a	Limited
+GET3	cardiomyopathy, dilated, 2H	a	Limited
+TBX4	autosomal recessive amelia	a	Limited
+AKT3	microcephaly	a	Limited
+ALDOB	hereditary fructose intolerance	a	Definitive
+LEMD3	Buschke-Ollendorff syndrome	a	Definitive
+BCL11A	Dias-Logan syndrome	a	Definitive
+NDUFA12	mitochondrial complex I deficiency, nuclear type 23	a	Definitive
+ATXN2	spinocerebellar ataxia type 2	a	Definitive
+SLC39A13	Ehlers-Danlos syndrome, spondylocheirodysplastic type	a	Definitive
+HACE1	spastic paraplegia-severe developmental delay-epilepsy syndrome	a	Definitive
+YY1	Gabriele de Vries syndrome	a	Definitive
+MUTYH	familial adenomatous polyposis 2	a	Definitive
+POLD1	mandibular hypoplasia-deafness-progeroid syndrome	a	Definitive
+PKD1L1	heterotaxy, visceral, 8, autosomal	a	Definitive
+SNX14	autosomal recessive spinocerebellar ataxia 20	a	Definitive
+DHFR	constitutional megaloblastic anemia with severe neurologic disease	a	Definitive
+SLC30A2	zinc deficiency, transient neonatal	a	Definitive
+GJB2	Bart-Pumphrey syndrome	a	Definitive
+CLDN16	renal hypomagnesemia 3	a	Definitive
+SUCLA2	Leigh syndrome	a	Definitive
+AURKC	spermatogenic failure 5	a	Definitive
+HGD	alkaptonuria	a	Definitive
+DYNC1H1	autosomal dominant childhood-onset proximal spinal muscular atrophy without contractures	a	Definitive
+LTBP3	brachyolmia-amelogenesis imperfecta syndrome	a	Definitive
+RBM8A	thrombocytopenia-absent radius syndrome	a	Definitive
+C9orf72	frontotemporal dementia and/or amyotrophic lateral sclerosis 1	a	Definitive
+NDUFAF5	Leigh syndrome	a	Definitive
+VHL	von Hippel-Lindau disease	a	Definitive
+IGF2	Silver-Russell syndrome 3	a	Definitive
+SLC35A2	X-linked complex neurodevelopmental disorder	a	Definitive
+RET	pheochromocytoma	a	Definitive
+IRF4	combined immunodeficiency	a	Definitive
+SMOC1	microphthalmia with limb anomalies	a	Definitive
+SPI1	agammaglobulinemia 10, autosomal dominant	a	Definitive
+ZBTB20	Primrose syndrome	a	Definitive
+ITGA3	epidermolysis bullosa, junctional 7, with interstitial lung disease and nephrotic syndrome	a	Definitive
+FOXL2	blepharophimosis, ptosis, and epicanthus inversus syndrome	a	Definitive
+ACAT1	beta-ketothiolase deficiency	a	Definitive
+ELAC2	combined oxidative phosphorylation defect type 17	a	Definitive
+HSD3B7	congenital bile acid synthesis defect 1	a	Definitive
+TERC	dyskeratosis congenita, autosomal dominant 1	a	Definitive
+MT-TK	Leigh syndrome	a	Definitive
+AGO2	Lessel-Kreienkamp syndrome	a	Definitive
+ERBB3	lethal congenital contracture syndrome 2	a	Strong
+POLR1A	acrofacial dysostosis Cincinnati type	a	Strong
+ACBD5	retinal dystrophy with leukodystrophy	a	Strong
+GPX4	spondylometaphyseal dysplasia, Sedaghatian type	a	Strong
+KIF2A	complex cortical dysplasia with other brain malformations 3	a	Strong
+MDH2	developmental and epileptic encephalopathy, 51	a	Strong
+TUBGCP2	pachygyria, microcephaly, developmental delay, and dysmorphic facies, with or without seizures	a	Strong
+CTNNA2	cortical dysplasia, complex, with other brain malformations 9	a	Strong
+LINGO1	intellectual disability, autosomal recessive 64	a	Strong
+CD151	epidermolysis bullosa simplex 7, with nephropathy and deafness	a	Strong
+PERP	Olmsted syndrome 2	a	Strong
+SPRED2	Noonan syndrome 14	a	Strong
+KLHL7	PERCHING syndrome	a	Strong
+PLAG1	silver-russell syndrome 4	a	Strong
+GALM	galactosemia 4	a	Strong
+EIF2AK2	leukoencephalopathy, developmental delay, and episodic neurologic regression syndrome	a	Strong
+DDX59	orofaciodigital syndrome V	a	Strong
+OXR1	isolated cerebellar hypoplasia/agenesis	a	Strong
+TP73	ciliary dyskinesia, primary, 47, and lissencephaly	a	Strong
+COQ7	distal hereditary motor neuropathy	a	Strong
+PRUNE1	neurodevelopmental disorder with microcephaly, hypotonia, and variable brain anomalies	a	Strong
+UGP2	developmental and epileptic encephalopathy, 83	a	Strong
+IARS1	growth retardation, intellectual developmental disorder, hypotonia, and hepatopathy	a	Strong
+GRM1	autosomal recessive spinocerebellar ataxia 13	a	Strong
+PRKACB	cardioacrofacial dysplasia 2	a	Strong
+DCDC2	nephronophthisis 19	a	Strong
+SLC25A42	metabolic crises, recurrent, with variable encephalomyopathic features and neurologic regression	a	Strong
+NDNF	hypogonadotropic hypogonadism 25 with anosmia	a	Strong
+UNC45B	myofibrillar myopathy 11	a	Strong
+ST14	autosomal recessive congenital ichthyosis 11	a	Strong
+DSG1	severe dermatitis-multiple allergies-metabolic wasting syndrome	a	Strong
+JUP	Naxos disease	a	Strong
+RNU4-2	neurodevelopmental disorder with hypotonia, brain anomalies, distinctive facies, and absent language	a	Strong
+RBFOX2	congenital heart disease	a	Strong
+PPP1R12A	genitourinary and/or brain malformation syndrome	a	Strong
+BGN	X-linked spondyloepimetaphyseal dysplasia	a	Strong
+JAM3	porencephaly-microcephaly-bilateral congenital cataract syndrome	a	Strong
+GRM7	neurodevelopmental disorder with seizures, hypotonia, and brain imaging abnormalities	a	Strong
+MAPKAPK5	neurocardiofaciodigital syndrome	a	Strong
+GNA11	congenital hemangioma	a	Strong
+PSKH1	cholestasis, progressive familial intrahepatic, 13	a	Moderate
+BAP1	Kury-Isidor syndrome	a	Moderate
+CAT	acatalasia	a	Moderate
+MCM4	primary immunodeficiency with natural-killer cell deficiency and adrenal insufficiency	a	Moderate
+CSGALNACT1	skeletal dysplasia, mild, with joint laxity and advanced bone age	a	Moderate
+TF	atransferrinemia	a	Moderate
+ADAMTS15	arthrogryposis, distal, type 12	a	Moderate
+SUGCT	glutaric acidemia type 3	a	Moderate
+CACNA1S	malignant hyperthermia, susceptibility to, 5	a	Moderate
+NSMCE2	Seckel syndrome 10	a	Moderate
+BUB1	microcephaly 30, primary, autosomal recessive	a	Moderate
+GSC	short stature-auditory canal atresia-mandibular hypoplasia-skeletal anomalies syndrome	a	Moderate
+RNF213	Moyamoya disease 2	a	Moderate
+CYP26B1	lethal occipital encephalocele-skeletal dysplasia syndrome	a	Moderate
+DAW1	visceral heterotaxy	a	Moderate
+FOXA2	combined pituitary hormone deficiencies, genetic form	a	Moderate
+CLDN11	leukodystrophy, hypomyelinating, 22	a	Moderate
+C3orf52	hypotrichosis 15	a	Moderate
+KLF13	congenital heart disease	a	Moderate
+ERI1	spondyloepimetaphyseal dysplasia, Guo-Campeau type	a	Moderate
+GPKOW	holoprosencephaly-hypokinesia-congenital contractures syndrome	a	Moderate
+SFTPA1	interstitial lung disease 1	a	Moderate
+FASTKD5	Leigh syndrome	a	Moderate
+CADM3	Charcot-Marie-Tooth disease, axonal, type 2FF	a	Moderate
+CD28	immunodeficiency 123 with HPV-related verrucosis	a	Moderate
+FRMD5	neurodevelopmental disorder with eye movement abnormalities and ataxia	a	Moderate
+IL2RB	immunodeficiency 63 with lymphoproliferation and autoimmunity	a	Moderate
+RHOG	hemophagocytic lymphohistiocytosis due to RhoG deficiency	a	Moderate
+TDRD7	cataract 36	a	Moderate
+PMM2	hyperinsulinemic hypoglycemia with polycystic kidney disease	a	Moderate
+NME5	ciliary dyskinesia, primary, 48, without situs inversus	a	Moderate
+MAP3K20	split-foot malformation-mesoaxial polydactyly syndrome	a	Moderate
+RRAGC	Long-Olsen-Distelmaier syndrome	a	Moderate
+ADAT3	intellectual disability-strabismus syndrome	a	Moderate
+SLFN14	platelet-type bleeding disorder 20	a	Moderate
+LNPK	neurodevelopmental disorder with epilepsy and hypoplasia of the corpus callosum	a	Moderate
+MTSS2	intellectual developmental disorder with ocular anomalies and distinctive facial features	a	Moderate
+PLAU	Quebec platelet disorder	a	Moderate
+SREBF1	hereditary mucoepithelial dysplasia	a	Moderate
+ABCA2	intellectual developmental disorder with poor growth and with or without seizures or ataxia	a	Moderate
+IFT43	retinitis pigmentosa 81	a	Limited
+VIP	Asperger syndrome	a	Limited
+NSMCE3	lung disease, immunodeficiency, and chromosome breakage syndrome;	a	Limited
+TCHH	uncombable hair syndrome 3	a	Limited
+ZNF713	autism	a	Limited
+FBXO32	dilated cardiomyopathy	a,cd	Limited
+GAS1	holoprosencephaly	a	Limited
+CHD5	parenti-mignot neurodevelopmental syndrome	a	Limited
+NDRG4	achromatopsia	a	Limited
+TLL1	atrial septal defect 6	a	Limited
+DSCAML1	retinitis pigmentosa	a	Limited
+KLF10	familial hypertrophic cardiomyopathy	a	Limited
+TRAPPC10	neurodevelopmental disorder with microcephaly, short stature, and speech delay	a	Limited
+TEAD1	helicoid peripapillary chorioretinal degeneration	a	Limited
+CD81	immunodeficiency, common variable, 6	a	Limited
+EFNB2	congenital heart disease	a	Limited
+KIF1B	Charcot-Marie-Tooth disease type 2A1	a	Limited
+MARK3	visual impairment and progressive phthisis bulbi	a,cd	Limited
+NOTCH3	inherited thrombocytopenia	a,cd	Limited
+EOMES	microcephaly-polymicrogyria-corpus callosum agenesis syndrome	a	Limited
+B2M	hypoproteinemia, hypercatabolic	a	Limited
+HAS2	congenital heart disease	a	Limited
+CFAP57	primary ciliary dyskinesia	a	Limited
+GREM2	tooth agenesis, selective, 9	a	Limited
+THG1L	spinocerebellar ataxia, autosomal recessive 28	a	Limited
+DNAH7	primary ciliary dyskinesia	a	Limited
+TNFSF13	common variable immunodeficiency	a	Limited
+MAN2A2	disorder of glycosylation	a	Limited
+TNFSF12	common variable immunodeficiency	a	Limited
+CHRD	congenital heart disease	a	Limited
+SPP2	retinitis pigmentosa	a,cd	Limited
+PRDM5	Axenfeld-Rieger syndrome	a	Limited
+LEFTY2	visceral heterotaxy	a	Limited
+CIAO1	multiple mitochondrial dysfunctions syndrome 10	a,cd	Limited
+SLC30A7	Joubert syndrome	a	Limited
+KANK2	wooly hair-palmoplantar keratoderma syndrome	a	Limited
+NPM1	bone marrow failure syndrome	a	Limited
+AVIL	nephrotic syndrome, type 21	a	Limited
+MMP14	Winchester syndrome	a	Limited
+LAS1L	Wilson-Turner syndrome	a	Limited
+CYBA	parathyroid gland carcinoma	a	Absent
+DNAJC13	craniofacial anomalies and anterior segment dysgenesis syndrome	a	Absent
+MRAS	gonadal dysgenesis, dysmorphic facies, retinal dystrophy, and myopathy	a	Absent
+GHR	familial long QT syndrome	a	Absent
+POU4F1	autosomal dominant polycystic kidney disease	a	Absent
+IFNAR2	Fuchs' endothelial dystrophy	a	Absent
+CEP120	hemochromatosis type 1	a	Absent
+MT-TG	minimal pigment oculocutaneous albinism type 1	a	Absent
+GYPC	ceroid lipofuscinosis, neuronal, 6B (Kufs type)	a	Absent
+BRSK2	mitochondrial pyruvate carrier deficiency	a	Absent
+TRHR	metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration	a	Absent
+TFRC	congenital stationary night blindness autosomal dominant 3	a	Absent
+SLC25A13	aldosterone-producing adenoma with seizures and neurological abnormalities	a	Absent
+KIF17	spinal muscular atrophy-progressive myoclonic epilepsy syndrome	a	Absent
+GGPS1	polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy 1	a	Absent
+KREMEN1	autosomal dominant hypocalcemia 1	a	Absent
+C1QBP	Antley-Bixler syndrome	a	Absent
+PCBD1	developmental delay, hypotonia, and impaired language	a	Absent
+TCF3	striate palmoplantar keratoderma	a	Absent
+TCTN1	congenital disorder of deglycosylation 2	a	Absent
+ADAM20	amyotrophic lateral sclerosis type 9	a	Absent
+SLK	degenerative myopia	a	Absent
+MC2R	congenital reticular ichthyosiform erythroderma	a	Absent
+ADCY5	3M syndrome 2	a	Absent
+SMAD2	intellectual disability, X-linked 96	a	Absent
+SBDS	immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome	a	Absent
+FGF3	surfactant metabolism dysfunction, pulmonary, 4	a	Absent
+PTS	3-hydroxy-3-methylglutaric aciduria	a	Absent
+PDCD1	polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis	a	Absent
+PAX9	Knobloch syndrome 2	a	Absent
+LEPR	spastic paraplegia 83, autosomal recessive	a	Absent
+SMC3	asthma-related traits, susceptibility to, 5	a	Absent
+DBT	myofibrillar myopathy 5	a	Absent
+LPAR6	blepharophimosis - intellectual disability syndrome, MKB type	a	Absent
+SFRP4	Ritscher-Schinzel syndrome	a	Absent
+HPS1	myosclerosis	a	Absent
+IDH2	hereditary renal hypouricemia	a	Absent
+MYO18B	hypertrophic cardiomyopathy 16	a	Absent
+ATP5F1A	short stature-brachydactyly-obesity-global developmental delay syndrome	a	Absent
+IL17RD	microphthalmia, isolated, with coloboma 6	a	Absent
+FCGR2B	bardet-biedl syndrome 21	a	Absent
+MRPS14	robinow syndrome, autosomal recessive 2	a	Absent
+EDNRA	Charcot-Marie-Tooth disease axonal type 2CC	a	Absent
+HLA-DRB1	congenital adrenal hyperplasia due to 11-beta-hydroxylase deficiency	a	Absent
+SCNN1A	autosomal recessive limb-girdle muscular dystrophy type 2F	a	Absent
+RXYLT1	cholestasis, progressive familial intrahepatic, 8	a	Absent
+VWA2	hypercholesterolemia, familial, 4	a	Absent
+MTHFR	immunodeficiency 102	a	Absent
+WBP11	immunodeficiency, common variable, 3	a	Absent
+SEC16B	MHC class II deficiency 3	a	Absent
+PIGC	agammaglobulinemia	a	Absent
+AGPAT5	short-rib thoracic dysplasia 11 with or without polydactyly	a	Absent
+RNF220	myopathy, lactic acidosis, and sideroblastic anemia 1	a	Absent
+PNKP	amyloidosis, hereditary systemic 3	a	Absent
+TTC21A	spinocerebellar ataxia, autosomal recessive, with axonal neuropathy 3	a	Absent
+RAB32	Silver-Russell syndrome 5	a	Absent
+PNPLA1	immunodeficiency-centromeric instability-facial anomalies syndrome	a	Absent
+ZNF81	acromelic frontonasal dysostosis	a	Absent
+SLC52A2	Guttmacher syndrome	a	Absent
+HELLS	autosomal recessive spondylocostal dysostosis	a	Absent
+IFT54	familial isolated deficiency of vitamin E	a	Absent
+FKTN	autosomal dominant hypophosphatemic rickets	a	Absent
+PRDM6	Long-Olsen-Distelmaier syndrome	a	Absent
+TRPA1	early-onset progressive encephalopathy-hearing loss-pons hypoplasia-brain atrophy syndrome	a	Absent
+MCCC2	vitamin D-dependent rickets, type 3	a	Absent
+ANAPC1	head and neck squamous cell carcinoma	a	Absent
+PDX1	arthrogryposis-renal dysfunction-cholestasis syndrome	a	Absent
+ISCA1	pulmonary hypertension, primary, 3	a	Absent
+CAV1	hereditary late onset Parkinson disease	a	Absent
+PLEKHM2	developmental malformations-deafness-dystonia syndrome	a	Absent
+SHANK3	Autism Spectrum Disorder	b	ASD known
+SCN2A	Autism Spectrum Disorder	b	ASD known
+ADNP	Autism Spectrum Disorder	b	ASD known
+PTEN	Autism Spectrum Disorder	b	ASD known
+ARID1B	Autism Spectrum Disorder	b	ASD known
+SYNGAP1	Autism Spectrum Disorder	b	ASD known
+CHD8	Autism Spectrum Disorder	b	ASD known
+GRIN2B	Autism Spectrum Disorder	b	ASD known
+DYRK1A	Autism Spectrum Disorder	b	ASD known
+CHD2	Autism Spectrum Disorder	b	ASD known
+ANKRD11	Autism Spectrum Disorder	b	ASD known
+POGZ	Autism Spectrum Disorder	b	ASD known
+STXBP1	Autism Spectrum Disorder	b	ASD known
+FOXP1	Autism Spectrum Disorder	b	ASD known
+DEAF1	Autism Spectrum Disorder	b	ASD known
+EHMT1	Autism Spectrum Disorder	b	ASD known
+ASXL3	Autism Spectrum Disorder	b	ASD known
+KMT2A	Autism Spectrum Disorder	b	ASD known
+KDM5B	Autism Spectrum Disorder	b	ASD candidate
+TCF20	Autism Spectrum Disorder	b	ASD known
+SATB2	Autism Spectrum Disorder	b	ASD known
+DYNC1H1	Autism Spectrum Disorder	b	ASD known
+KDM6B	Autism Spectrum Disorder	b	ASD known
+NRXN1	Autism Spectrum Disorder	b	ASD known
+PPP2R5D	Autism Spectrum Disorder	b	ASD known
+TCF4	Autism Spectrum Disorder	b	ASD known
+CDK13	Autism Spectrum Disorder	b	ASD known
+TLK2	Autism Spectrum Disorder	b	ASD known
+CTCF	Autism Spectrum Disorder	b	ASD known
+MEF2C	Autism Spectrum Disorder	b	ASD known
+NAA15	Autism Spectrum Disorder	b	ASD known
+WAC	Autism Spectrum Disorder	b	ASD known
+KMT5B	Autism Spectrum Disorder	b	ASD known
+CTNNB1	Autism Spectrum Disorder	b	ASD known
+AHDC1	Autism Spectrum Disorder	b	ASD known
+GIGYF1	Autism Spectrum Disorder	b	ASD candidate
+DLG4	Autism Spectrum Disorder	b	ASD known
+NF1	Autism Spectrum Disorder	b	ASD known
+ASH1L	Autism Spectrum Disorder	b	ASD known
+EBF3	Autism Spectrum Disorder	b	ASD known
+SLC6A1	Autism Spectrum Disorder	b	ASD known
+CUL3	Autism Spectrum Disorder	b	ASD known
+HNRNPU	Autism Spectrum Disorder	b	ASD known
+MED13L	Autism Spectrum Disorder	b	ASD known
+KMT2C	Autism Spectrum Disorder	b	ASD known
+SETD5	Autism Spectrum Disorder	b	ASD known
+EP300	Autism Spectrum Disorder	b	ASD known
+TBR1	Autism Spectrum Disorder	b	ASD known
+BCL11A	Autism Spectrum Disorder	b	ASD known
+AUTS2	Autism Spectrum Disorder	b	ASD known
+MARK2	Autism Spectrum Disorder	b	ASD known
+BRAF	Autism Spectrum Disorder	b	ASD known
+MYT1L	Autism Spectrum Disorder	b	ASD known
+GABRA1	Autism Spectrum Disorder	b	ASD known
+TSC2	Autism Spectrum Disorder	b	ASD known
+SCN1A	Autism Spectrum Disorder	b	ASD known
+ZEB2	Autism Spectrum Disorder	b	ASD known
+DNMT3A	Autism Spectrum Disorder	b	ASD known
+BRSK2	Autism Spectrum Disorder	b	ASD known
+CNOT3	Autism Spectrum Disorder	b	ASD known
+GATAD2B	Autism Spectrum Disorder	b	ASD known
+MBD5	Autism Spectrum Disorder	b	ASD known
+NR3C2	Autism Spectrum Disorder	b	ASD candidate
+PPP3CA	Autism Spectrum Disorder	b	ASD known
+TRIP12	Autism Spectrum Disorder	b	ASD known
+RAI1	Autism Spectrum Disorder	b	ASD known
+TBL1XR1	Autism Spectrum Disorder	b	ASD known
+DLL1	Autism Spectrum Disorder	b	ASD known
+IRF2BPL	Autism Spectrum Disorder	b	ASD known
+SRCAP	Autism Spectrum Disorder	b	ASD known
+ACTB	Autism Spectrum Disorder	b	ASD known
+TANC2	Autism Spectrum Disorder	b	ASD known
+ZNF292	Autism Spectrum Disorder	b	ASD known
+TAOK1	Autism Spectrum Disorder	b	ASD known
+CLTC	Autism Spectrum Disorder	b	ASD known
+MED13	Autism Spectrum Disorder	b	ASD known
+AP2S1	Autism Spectrum Disorder	b	ASD known
+RORB	Autism Spectrum Disorder	b	ASD known
+KCNQ3	Autism Spectrum Disorder	b	ASD known
+SOX5	Autism Spectrum Disorder	b	ASD known
+SON	Autism Spectrum Disorder	b	ASD known
+SMAD4	Autism Spectrum Disorder	b	ASD known
+DNM1	Autism Spectrum Disorder	b	ASD known
+CIC	Autism Spectrum Disorder	b	ASD known
+SHANK2	Autism Spectrum Disorder	b	ASD known
+PTPN11	Autism Spectrum Disorder	b	ASD known
+SMARCA2	Autism Spectrum Disorder	b	ASD known
+SYNCRIP	Autism Spectrum Disorder	b	ASD known
+PUF60	Autism Spectrum Disorder	b	ASD known
+CAMTA1	Autism Spectrum Disorder	b	ASD known
+GRIN1	Autism Spectrum Disorder	b	ASD known
+ZBTB20	Autism Spectrum Disorder	b	ASD known
+POU3F3	Autism Spectrum Disorder	b	ASD known
+PHF21A	Autism Spectrum Disorder	b	ASD known
+TCF12	Autism Spectrum Disorder	b	ASD known
+WDFY3	Autism Spectrum Disorder	b	ASD known
+SMARCA4	Autism Spectrum Disorder	b	ASD known
+TM9SF4	Autism Spectrum Disorder	b	Novel candidate
+FOXP2	Autism Spectrum Disorder	b	ASD known
+CSNK2A1	Autism Spectrum Disorder	b	ASD known
+TUBB2A	Autism Spectrum Disorder	b	ASD known
+KMT2E	Autism Spectrum Disorder	b	ASD known
+SPEN	Autism Spectrum Disorder	b	ASD known
+ZMYM2	Autism Spectrum Disorder	b	ASD known
+RFX3	Autism Spectrum Disorder	b	ASD known
+RFX7	Autism Spectrum Disorder	b	ASD known
+SIN3A	Autism Spectrum Disorder	b	ASD known
+KCNQ2	Autism Spectrum Disorder	b	ASD known
+NSD1	Autism Spectrum Disorder	b	ASD known
+QRICH1	Autism Spectrum Disorder	b	ASD known
+ANK2	Autism Spectrum Disorder	b	ASD known
+SETD1A	Autism Spectrum Disorder	b	ASD known
+KCNB1	Autism Spectrum Disorder	b	ASD known
+GRIN2A	Autism Spectrum Disorder	b	ASD known
+GRIA2	Autism Spectrum Disorder	b	ASD known
+SPTBN1	Autism Spectrum Disorder	b	ASD known
+PRR12	Autism Spectrum Disorder	b	ASD known
+NR2F1	Autism Spectrum Disorder	b	ASD known
+SOX11	Autism Spectrum Disorder	b	ASD known
+SKI	Autism Spectrum Disorder	b	ASD candidate
+PACS1	Autism Spectrum Disorder	b	ASD known
+CREBBP	Autism Spectrum Disorder	b	ASD known
+TCF7L2	Autism Spectrum Disorder	b	ASD known
+CHD7	Autism Spectrum Disorder	b	ASD known
+SETD1B	Autism Spectrum Disorder	b	ASD known
+CSNK1E	Autism Spectrum Disorder	b	ASD candidate
+WDR26	Autism Spectrum Disorder	b	ASD known
+KCNMA1	Autism Spectrum Disorder	b	ASD known
+VEZF1	Autism Spectrum Disorder	b	ASD candidate
+EEF1A2	Autism Spectrum Disorder	b	ASD known
+FOXG1	Autism Spectrum Disorder	b	ASD known
+ZNF865	Autism Spectrum Disorder	b	ASD candidate
+CACNA1A	Autism Spectrum Disorder	b	ASD known
+GABRB3	Autism Spectrum Disorder	b	ASD known
+TRIO	Autism Spectrum Disorder	b	ASD known
+NBEA	Autism Spectrum Disorder	b	ASD known
+YWHAG	Autism Spectrum Disorder	b	ASD known
+PBX1	Autism Spectrum Disorder	b	ASD candidate
+ATAT1	Autism Spectrum Disorder	b	Novel candidate
+FBXW11	Autism Spectrum Disorder	b	ASD candidate
+BRD4	Autism Spectrum Disorder	b	ASD candidate
+MSL2	Autism Spectrum Disorder	b	ASD known
+NSD2	Autism Spectrum Disorder	b	ASD known
+ARF3	Autism Spectrum Disorder	b	ASD candidate
+TNRC6B	Autism Spectrum Disorder	b	ASD known
+SETBP1	Autism Spectrum Disorder	b	ASD known
+PTPRS	Autism Spectrum Disorder	b	ASD candidate
+SCN8A	Autism Spectrum Disorder	b	ASD known
+KCND3	Autism Spectrum Disorder	b	ASD candidate
+TUBB3	Autism Spectrum Disorder	b	ASD known
+HIVEP2	Autism Spectrum Disorder	b	ASD known
+ZMYND8	Autism Spectrum Disorder	b	ASD known
+USP7	Autism Spectrum Disorder	b	ASD known
+FBXO11	Autism Spectrum Disorder	b	ASD known
+YLPM1	Autism Spectrum Disorder	b	Novel candidate
+CNOT1	Autism Spectrum Disorder	b	ASD known
+ZBTB34	Autism Spectrum Disorder	b	Novel candidate
+PPP2CA	Autism Spectrum Disorder	b	ASD known
+KCNA2	Autism Spectrum Disorder	b	ASD known
+ZNF536	Autism Spectrum Disorder	b	ASD candidate
+DHDDS	Autism Spectrum Disorder	b	ASD known
+PPP2R1A	Autism Spectrum Disorder	b	ASD candidate
+H1-4	Autism Spectrum Disorder	b	ASD known
+REV3L	Autism Spectrum Disorder	b	ASD candidate
+SETD2	Autism Spectrum Disorder	b	ASD known
+DSCAM	Autism Spectrum Disorder	b	ASD candidate
+XPO1	Autism Spectrum Disorder	b	ASD known
+NR4A2	Autism Spectrum Disorder	b	ASD known
+ZFHX3	Autism Spectrum Disorder	b	ASD known
+ITSN1	Autism Spectrum Disorder	b	ASD candidate
+SCAF1	Autism Spectrum Disorder	b	ASD candidate
+ARID1A	Autism Spectrum Disorder	b	ASD candidate
+EP400	Autism Spectrum Disorder	b	ASD candidate
+MTOR	Autism Spectrum Disorder	b	ASD known
+EMC7	Autism Spectrum Disorder	b	Novel candidate
+LMTK3	Autism Spectrum Disorder	b	ASD candidate
+PHF12	Autism Spectrum Disorder	b	ASD known
+EGR3	Autism Spectrum Disorder	b	ASD candidate
+NRXN3	Autism Spectrum Disorder	b	ASD candidate
+GNB1	Autism Spectrum Disorder	b	ASD known
+NCKAP1	Autism Spectrum Disorder	b	ASD known
+PTK2	Autism Spectrum Disorder	b	Novel candidate
+KANSL1	Autism Spectrum Disorder	b	ASD known
+SMARCB1	Autism Spectrum Disorder	b	ASD candidate
+PSMC5	Autism Spectrum Disorder	b	ASD known
+PCLO	Autism Spectrum Disorder	b	ASD candidate
+RAB14	Autism Spectrum Disorder	b	ASD candidate
+KBTBD6	Autism Spectrum Disorder	b	Novel candidate
+NFIB	Autism Spectrum Disorder	b	ASD known
+YY1	Autism Spectrum Disorder	b	ASD candidate
+MAGEL2	Autism Spectrum Disorder	b	ASD known
+MAF	Autism Spectrum Disorder	b	ASD known
+ATP2B2	Autism Spectrum Disorder	b	ASD known
+PTPRT	Autism Spectrum Disorder	b	ASD candidate
+MAP1A	Autism Spectrum Disorder	b	ASD candidate
+SYT1	Autism Spectrum Disorder	b	ASD known
+CGREF1	Autism Spectrum Disorder	b	Novel candidate
+CAMK2A	Autism Spectrum Disorder	b	ASD known
+GSE1	Autism Spectrum Disorder	b	ASD candidate
+LEMD3	Autism Spectrum Disorder	b	Novel candidate
+GABBR2	Autism Spectrum Disorder	b	ASD known
+TLE3	Autism Spectrum Disorder	b	ASD candidate
+JARID2	Autism Spectrum Disorder	b	ASD known
+UBR5	Autism Spectrum Disorder	b	ASD known
+KMT2D	Autism Spectrum Disorder	b	ASD known
+CHAMP1	Autism Spectrum Disorder	b	ASD known
+EFTUD2	Autism Spectrum Disorder	b	ASD candidate
+ADGRB1	Autism Spectrum Disorder	b	ASD candidate
+PTCH1	Autism Spectrum Disorder	b	ASD candidate
+LRRC4	Autism Spectrum Disorder	b	ASD candidate
+GSK3B	Autism Spectrum Disorder	b	ASD known
+CAPRIN1	Autism Spectrum Disorder	b	ASD known
+TRIM8	Autism Spectrum Disorder	b	ASD known
+HNRNPD	Autism Spectrum Disorder	b	ASD known
+FBXW7	Autism Spectrum Disorder	b	ASD candidate
+MEIS2	Autism Spectrum Disorder	b	ASD known
+ZBTB7A	Autism Spectrum Disorder	b	ASD candidate
+RALGAPB	Autism Spectrum Disorder	b	ASD candidate
+PSMD12	Autism Spectrum Disorder	b	ASD known
+SLTM	Autism Spectrum Disorder	b	Novel candidate
+BCR	Autism Spectrum Disorder	b	Novel candidate
+TOP3B	Autism Spectrum Disorder	b	ASD candidate
+GNAI1	Autism Spectrum Disorder	b	ASD known
+TRAF7	Autism Spectrum Disorder	b	ASD known
+SPPL3	Autism Spectrum Disorder	b	Novel candidate
+ACTG1	Autism Spectrum Disorder	b	ASD candidate
+SRSF1	Autism Spectrum Disorder	b	ASD candidate
+GABRA4	Autism Spectrum Disorder	b	ASD candidate
+NACC1	Autism Spectrum Disorder	b	ASD candidate
+CERT1	Autism Spectrum Disorder	b	ASD known
+RANBP2	Autism Spectrum Disorder	b	ASD candidate
+DIP2C	Autism Spectrum Disorder	b	ASD known
+ZBTB18	Autism Spectrum Disorder	b	ASD candidate
+GNAO1	Autism Spectrum Disorder	b	ASD candidate
+PPM1D	Autism Spectrum Disorder	b	ASD known
+HSF2	Autism Spectrum Disorder	b	ASD candidate
+KIF1A	Autism Spectrum Disorder	b	ASD known
+ZNF644	Autism Spectrum Disorder	b	ASD candidate
+ZCCHC14	Autism Spectrum Disorder	b	Novel candidate
+PLXNA1	Autism Spectrum Disorder	b	ASD candidate
+BRD1	Autism Spectrum Disorder	b	ASD candidate
+MAPK8IP3	Autism Spectrum Disorder	b	ASD known
+CXXC1	Autism Spectrum Disorder	b	Novel candidate
+INTS6	Autism Spectrum Disorder	b	ASD known
+TAF4	Autism Spectrum Disorder	b	ASD candidate
+MAP1B	Autism Spectrum Disorder	b	ASD candidate
+PHF2	Autism Spectrum Disorder	b	ASD candidate
+CELF4	Autism Spectrum Disorder	b	ASD known
+EXT1	Autism Spectrum Disorder	b	ASD candidate
+BAZ2A	Autism Spectrum Disorder	b	ASD candidate
+MKX	Autism Spectrum Disorder	b	Novel candidate
+GRIK3	Autism Spectrum Disorder	b	Novel candidate
+BCAT1	Autism Spectrum Disorder	b	Novel candidate
+ACY1	Autism Spectrum Disorder	b	Not in ASD list
+C6ORF58	Autism Spectrum Disorder	b	Not in ASD list
+CACNA1H	Autism Spectrum Disorder	b	Not in ASD list
+CGGBP1	Autism Spectrum Disorder	b	Not in ASD list
+CLASP1	Autism Spectrum Disorder	b	Not in ASD list
+DCLK3	Autism Spectrum Disorder	b	Not in ASD list
+DDX28	Autism Spectrum Disorder	b	Not in ASD list
+FABP1	Autism Spectrum Disorder	b	Not in ASD list
+FAM151A	Autism Spectrum Disorder	b	Not in ASD list
+FAM81B	Autism Spectrum Disorder	b	Not in ASD list
+FGF19	Autism Spectrum Disorder	b	Not in ASD list
+FKBP1C	Autism Spectrum Disorder	b	Not in ASD list
+GAL3ST2	Autism Spectrum Disorder	b	Not in ASD list
+GOLGA6C	Autism Spectrum Disorder	b	Not in ASD list
+H4C7	Autism Spectrum Disorder	b	Not in ASD list
+HACD3	Autism Spectrum Disorder	b	Not in ASD list
+HAUS1	Autism Spectrum Disorder	b	Not in ASD list
+HEPN1	Autism Spectrum Disorder	b	Not in ASD list
+ICAM5	Autism Spectrum Disorder	b	Not in ASD list
+IFT20	Autism Spectrum Disorder	b	Not in ASD list
+L3MBTL3	Autism Spectrum Disorder	b	Not in ASD list
+LAMB4	Autism Spectrum Disorder	b	Not in ASD list
+LARGE2	Autism Spectrum Disorder	b	Not in ASD list
+LY6G5C	Autism Spectrum Disorder	b	Not in ASD list
+MFAP3L	Autism Spectrum Disorder	b	Not in ASD list
+MRPL49	Autism Spectrum Disorder	b	Not in ASD list
+MYL6B	Autism Spectrum Disorder	b	Not in ASD list
+NOL4L	Autism Spectrum Disorder	b	Not in ASD list
+NPTX1	Autism Spectrum Disorder	b	Not in ASD list
+PCBD1	Autism Spectrum Disorder	b	Not in ASD list
+PHB2	Autism Spectrum Disorder	b	Not in ASD list
+PLB1	Autism Spectrum Disorder	b	Not in ASD list
+PLOD3	Autism Spectrum Disorder	b	Not in ASD list
+POU6F2	Autism Spectrum Disorder	b	Not in ASD list
+PRDM16	Autism Spectrum Disorder	b	Not in ASD list
+PTCHD1	Autism Spectrum Disorder	b	Not in ASD list
+PTH2	Autism Spectrum Disorder	b	Not in ASD list
+RGL2	Autism Spectrum Disorder	b	Not in ASD list
+SGSM1	Autism Spectrum Disorder	b	Not in ASD list
+SIGLEC15	Autism Spectrum Disorder	b	Not in ASD list
+SKOR2	Autism Spectrum Disorder	b	Not in ASD list
+SLF1	Autism Spectrum Disorder	b	Not in ASD list
+SPR	Autism Spectrum Disorder	b	Not in ASD list
+TBC1D25	Autism Spectrum Disorder	b	Not in ASD list
+TLCD1	Autism Spectrum Disorder	b	Not in ASD list
+TPCN2	Autism Spectrum Disorder	b	Not in ASD list
+TRIM58	Autism Spectrum Disorder	b	Not in ASD list
+TSPAN2	Autism Spectrum Disorder	b	Not in ASD list
+VEPH1	Autism Spectrum Disorder	b	Not in ASD list
+ZNF653	Autism Spectrum Disorder	b	Not in ASD list
+AOC3	Autism Spectrum Disorder	b	Not in ASD list
+AMY2B	Autism Spectrum Disorder	b	Not in ASD list
+ARHGAP18	Autism Spectrum Disorder	b	Not in ASD list
+ANKFN1	Autism Spectrum Disorder	b	Not in ASD list
+BHMT2	Autism Spectrum Disorder	b	Not in ASD list
+C1QL4	Autism Spectrum Disorder	b	Not in ASD list
+C1QTNF2	Autism Spectrum Disorder	b	Not in ASD list
+CD79A	Autism Spectrum Disorder	b	Not in ASD list
+CEACAM4	Autism Spectrum Disorder	b	Not in ASD list
+CGRRF1	Autism Spectrum Disorder	b	Not in ASD list
+CETN1	Autism Spectrum Disorder	b	Not in ASD list
+CWF19L2	Autism Spectrum Disorder	b	Not in ASD list
+DGKE	Autism Spectrum Disorder	b	Not in ASD list
+ELMOD2	Autism Spectrum Disorder	b	Not in ASD list
+EGF	Autism Spectrum Disorder	b	Not in ASD list
+ELL	Autism Spectrum Disorder	b	Not in ASD list
+EPS8L2	Autism Spectrum Disorder	b	Not in ASD list
+FAM47E-STBD1	Autism Spectrum Disorder	b	Not in ASD list
+FAM189B	Autism Spectrum Disorder	b	Not in ASD list
+ERP44	Autism Spectrum Disorder	b	Not in ASD list
+FKBPL	Autism Spectrum Disorder	b	Not in ASD list
+FERD3L	Autism Spectrum Disorder	b	Not in ASD list
+FZD2	Autism Spectrum Disorder	b	Not in ASD list
+GREM1	Autism Spectrum Disorder	b	Not in ASD list
+HARS2	Autism Spectrum Disorder	b	Not in ASD list
+LIN9	Autism Spectrum Disorder	b	Not in ASD list
+LRRC3C	Autism Spectrum Disorder	b	Not in ASD list
+GRHL3	Autism Spectrum Disorder	b	Not in ASD list
+LITAF	Autism Spectrum Disorder	b	Not in ASD list
+MANEAL	Autism Spectrum Disorder	b	Not in ASD list
+MAP3K19	Autism Spectrum Disorder	b	Not in ASD list
+NTPCR	Autism Spectrum Disorder	b	Not in ASD list
+NR2F6	Autism Spectrum Disorder	b	Not in ASD list
+MIP	Autism Spectrum Disorder	b	Not in ASD list
+PIK3R5	Autism Spectrum Disorder	b	Not in ASD list
+PROSER3	Autism Spectrum Disorder	b	Not in ASD list
+PPP1CC	Autism Spectrum Disorder	b	Not in ASD list
+RNFT1	Autism Spectrum Disorder	b	Not in ASD list
+SHFL	Autism Spectrum Disorder	b	Not in ASD list
+SNN	Autism Spectrum Disorder	b	Not in ASD list
+SPATA31A6	Autism Spectrum Disorder	b	Not in ASD list
+SLC2A1	Autism Spectrum Disorder	b	Not in ASD list
+SOX21	Autism Spectrum Disorder	b	Not in ASD list
+SPIB	Autism Spectrum Disorder	b	Not in ASD list
+TTC21A	Autism Spectrum Disorder	b	Not in ASD list
+SPTSSB	Autism Spectrum Disorder	b	Not in ASD list
+TRIM34	Autism Spectrum Disorder	b	Not in ASD list
+ARHGAP5	Autism Spectrum Disorder	b	Not in ASD list
+ZNF652	Autism Spectrum Disorder	b	Not in ASD list
+ATRAID	Autism Spectrum Disorder	b	Not in ASD list
+TRIM69	hereditary predisposition to infections	cd	Limited 2011
+MOG	narcolepsy 7	cd	Limited 2011
+TECR	intellectual disability	cd	Limited 2011
+CRYGB	cataract 39 multiple types	cd	Limited 2011
+PECR	neurodevelopmental disorder	cd	Limited 2011
+ARL14EP	neurodevelopmental disorder	cd	Limited 2011
+H3-4	neurodevelopmental disorder	cd	Limited 2011
+AKT1	Cowden syndrome 6	cd	Limited 2011
+SEPTIN12	spermatogenic failure 10	cd	Limited 2011
+NDUFA12	Leigh syndrome	cd	Limited 2011
+CFHR3	hemolytic uremic syndrome, atypical, susceptibility to, 1	cd	Limited 2012
+FOXD3	anterior segment dysgenesis	cd	Limited 2012
+FUS	tremor, hereditary essential, 4	cd	Limited 2012
+RNLS	cataract	cd	Limited 2012
+KCTD13	neurodevelopmental disorder	cd	Limited 2012
+TNIK	non-syndromic intellectual disability	cd	Limited 2012
+AP2A2	schizophrenia	cd	Limited 2012
+CPA6	familial temporal lobe epilepsy 5	cd	Limited 2012
+ABCB6	microphthalmia, isolated, with coloboma 7	cd	Limited 2012
+MRPL12	combined oxidative phosphorylation deficiency 45	cd	Limited 2013
+ELMOD3	nonsyndromic genetic hearing loss	cd	Limited 2013
+NPPA	atrial standstill 2	cd	Limited 2013
+STT3B	congenital disorder of glycosylation	cd	Limited 2013
+AGBL1	corneal dystrophy, Fuchs endothelial, 8	cd	Limited 2013
+DTHD1	LCAT deficiency	cd	Limited 2013
+CDK6	microcephaly 12, primary, autosomal recessive	cd	Limited 2013
+MAP2K2	Noonan syndrome	cd	Limited 2013
+DNM2	fetal akinesia-cerebral and retinal hemorrhage syndrome	cd	Limited 2013
+ABCB6	familial pseudohyperkalemia	cd	Limited 2013
+TBXT	sacral agenesis-abnormal ossification of the vertebral bodies-persistent notochordal canal syndrome	cd	Limited 2014
+ABCA5	gingival fibromatosis-hypertrichosis syndrome	cd	Limited 2014
+KPNA7	epilepsy	cd	Limited 2014
+TSEN54	cerebellar ataxia	cd	Limited 2014
+DNAH8	primary ciliary dyskinesia	cd	Limited 2014
+BMP7	isolated craniosynostosis	cd	Limited 2014
+RGS6	neurodevelopmental disorder	cd	Limited 2014
+RPS20	Lynch syndrome	cd	Limited 2014
+KITLG	Waardenburg syndrome 2F	cd	Limited 2015
+PRIMA1	frontal lobe epilepsy	cd	Limited 2015
+APC2	intellectual developmental disorder, autosomal recessive 74	cd	Limited 2015
+KLC4	early-childhood-onset neurodegeneration with retinitis pigmentosa, sensorineural hearing loss, and demyelinating peripheral neuropathy	cd	Limited 2015
+PRICKLE1	epilepsy	cd	Limited 2015
+TNNI1	childhood-onset nemaline myopathy	cd	Limited 2015
+PRIMA1	epilepsy	cd	Limited 2015
+ASPN	osteoarthritis susceptibility 3	cd	Limited 2015
+NDUFV2	Leigh syndrome	cd	Limited 2015
+TCF7L1	combined pituitary hormone deficiencies, genetic form	cd	Limited 2016
+TOP6BL	hydatidiform mole, recurrent, 4	cd	Limited 2016
+PNPLA4	mitochondrial disease	cd	Limited 2016
+SPTBN5	neurodevelopmental disorder	cd	Limited 2016
+IFT57	orofaciodigital syndrome 18	cd	Limited 2016
+SMARCA1	schizophrenia	cd	Limited 2016
+SEMA3E	CHARGE syndrome	cd	Limited 2016
+CDK16	intellectual disability	cd	Limited 2016
+SLC22A4	hearing loss, autosomal recessive	cd	Limited 2016
+SLC14A1	blood group, kidd system	cd	Limited 2016
+FAM120A	Tourette syndrome	cd	Limited 2017
+SNAI1	congenital heart disease	cd	Limited 2017
+ATAD3C	pontocerebellar hypoplasia, hypotonia, and respiratory insufficiency syndrome, neonatal lethal	cd	Limited 2017
+KIF17	microphthalmia, isolated, with coloboma	cd	Limited 2017
+ERBIN	autosomal dominant combined immunodeficiency due to ERBIN deficiency	cd	Limited 2017
+TNNT1	nemaline myopathy 5C, autosomal dominant	cd	Limited 2017
+TRIM36	anencephaly 1	cd	Limited 2017
+KIF15	braddock-carey syndrome 2	cd	Limited 2017
+DTNA	dilated cardiomyopathy	cd	Limited 2017
+IL37	inflammatory bowel disease (infantile ulcerative colitis) 31, autosomal recessive	cd	Limited 2017
+CLCC1	retinitis pigmentosa	cd	Limited 2018
+MYL3	arrhythmogenic right ventricular cardiomyopathy	cd	Limited 2018
+PDHA2	spermatogenic failure 70	cd	Limited 2018
+CEP112	spermatogenic failure 44	cd	Limited 2018
+ATP5F1D	mitochondrial disease	cd	Limited 2018
+PLCB3	spondylometaphyseal dysplasia	cd	Limited 2018
+PLCB3	spondylometaphyseal dysplasia with corneal dystrophy	cd	Limited 2018
+WDR5	congenital heart disease	cd	Limited 2018
+ZFHX2	indifference to pain, congenital, autosomal dominant	cd	Limited 2018
+STXBP3	arthrogryposis syndrome	cd	Limited 2019
+GIGYF1	neurodevelopmental disorder	cd	Limited 2019
+ARL6IP6	cutis marmorata telangiectatica congenita	cd	Limited 2019
+MRPS25	combined oxidative phosphorylation deficiency 50	cd	Limited 2019
+HS6ST2	Paganini-Miozzo syndrome	cd	Limited 2019
+CLDN2	azoospermia, obstructive, with nephrolithiasis	cd	Limited 2019
+ABCC1	autosomal dominant nonsyndromic hearing loss	cd	Limited 2019
+XRCC2	premature ovarian failure 17	cd	Limited 2019
+MRPS14	mitochondrial disease	cd	Limited 2019
+EMC10	global developmental delay with or without impaired intellectual development	cd	Limited 2020
+RIOK2	male infertility with azoospermia or oligozoospermia due to single gene mutation	cd	Limited 2020
+GPR161	pituitary stalk interruption syndrome	cd	Limited 2020
+TKFC	triokinase and FMN cyclase deficiency syndrome	cd	Limited 2020
+CAV1	amyotrophic lateral sclerosis	cd	Limited 2020
+VPS26C	neurodevelopmental disorder	cd	Limited 2020
+KCNAB3	neurodevelopmental disorder	cd	Limited 2020
+BOD1	syndromic intellectual disability	cd	Limited 2020
+SOD2	microvascular complications of diabetes, susceptibility to, 6	cd	Limited 2020
+YPEL2	retinitis pigmentosa	cd	Limited 2020
+ATP5MC3	mitochondrial disease	cd	Limited 2021
+MYH7	congenital heart disease	cd	Limited 2021
+NCOA3	autosomal dominant nonsyndromic hearing loss	cd	Limited 2021
+LAMA4	familial dilated cardiomyopathy	cd	Limited 2021
+DLG5	ciliopathy	cd	Limited 2021
+MAST2	thrombotic disease	cd	Limited 2021
+ETV2	congenital heart disease	cd	Limited 2021
+DLST	pheochromocytoma/paraganglioma syndrome 7	cd	Limited 2021
+FBN2	carpal tunnel syndrome	cd	Limited 2021
+MYADML2	connective tissue disorder	cd	Limited 2021
+MAD1L1	familial prostate carcinoma	cd	Limited 2022
+ATP5PB	hypermetabolism due to uncoupled mitochondrial oxidative phosphorylation 2	cd	Limited 2022
+NFATC2	joint contractures, osteochondromas, and B-cell lymphoma	cd	Limited 2022
+DNAH14	neurodevelopmental disorder	cd	Limited 2022
+NFE2L1	syndromic disease	cd	Limited 2022
+C18orf32	glycosylphosphatidylinositol biosynthesis defect 25	cd	Limited 2022
+LHX8	inherited primary ovarian failure	cd	Limited 2022
+DNAH14	complex neurodevelopmental disorder	cd	Limited 2022
+SLC11A1	Mycobacterium tuberculosis, susceptibility	cd	Limited 2022
+CCDC34	spermatogenic failure 76	cd	Limited 2022
+TBC1D31	congenital anomaly of kidney and urinary tract	cd	Limited 2023
+IL1R1	chronic recurrent multifocal osteomyelitis 3	cd	Limited 2023
+GTF2IRD1	neurodevelopmental disorder	cd	Limited 2023
+NUP50	amyotrophic lateral sclerosis	cd	Limited 2023
+MPC2	metabolic disease	cd	Limited 2023
+MIR145	multisystemic smooth muscle dysfunction syndrome	cd	Limited 2023
+LY96	inborn error of immunity	cd	Limited 2023
+TUFM	inherited primary ovarian failure	cd	Limited 2023
+TRPV1	channelopathy-associated congenital insensitivity to pain, autosomal recessive	cd	Limited 2023
+PLXNC1	cerebral cortical dysplasia	cd	Limited 2023
+SUPT7L	lipodystrophy	cd	Limited 2024
+SGSM3	intellectual disability	cd	Limited 2024
+APOA4	autosomal dominant medullary cystic kidney disease with or without hyperuricemia	cd	Limited 2024
+CCDC91	punctate palmoplantar keratoderma	cd	Limited 2024
+CELSR1	hydrops fetalis	cd	Limited 2024
+MARK4	neurodevelopmental disorder	cd	Limited 2024
+PRMT9	Mendelian neurodevelopmental disorder	cd	Limited 2024
+CCT4	complex neurodevelopmental disorder	cd	Limited 2024
+IRAK2	immune dysregulation, autoimmunity, and autoinflammation	cd	Limited 2024
+ATP6V1C1	neurodevelopmental disorder	cd	Limited 2024
+MMS19	neurodegenerative disease	cd	Limited 2024
+CFAP47	polycystic kidney disease	cd	Limited 2024
+KAT2B	steroid-resistant nephrotic syndrome	cd	Limited 2024
+AFDN	cleft lip/palate	cd	Limited 2024
+ME2	inborn disorder of energy metabolism	cd	Limited 2025
+LRRC45	complex neurodevelopmental disorder	cd	Limited 2025
+BMP5	skeletal dysplasia	cd	Limited 2025
+ZBTB40	neurodevelopmental disorder	cd	Limited 2011
+CNKSR1	neurodevelopmental disorder	cd	Limited 2011
+USP27X	X-linked intellectual disability	cd	Limited 2015
+COQ5	neurodevelopmental disorder	cd	Limited 2011
+SLC4A8	schizophrenia	cd	Limited 2012
+WBP2	hearing loss, autosomal recessive	cd	Limited 2016
+MYBPC3	congenital heart disease	cd	Limited 2011
+DDX59	ciliopathy	cd	Limited 2013
+SIRT1	autoimmune disease	cd	Limited 2013
+IARS2	Leigh syndrome	cd	Limited 2014
+HNRNPA0	Tourette syndrome	cd	Limited 2015
+CENPT	short stature and microcephaly with genital anomalies	cd	Limited 2017
+HIVEP1	complex neurodevelopmental disorder	cd	Limited 2019
+INTS8	neurodevelopmental disorder with cerebellar hypoplasia and spasticity	cd	Limited 2017
+MRPS23	combined oxidative phosphorylation deficiency 46	cd	Limited 2016
+FLRT3	hypogonadotropic hypogonadism 21 with or without anosmia	cd	Limited 2013
+ITSN1	complex neurodevelopmental disorder	cd	Limited 2016
+CLPB	Leigh syndrome	cd	Limited 2015
+TNK2	genetic generalized epilepsy	cd	Limited 2013
+IFT74	spermatogenic failure 58	cd	Limited 2018
+SETD1A	epilepsy, early-onset, with or without developmental delay	cd	Limited 2014
+PRICKLE2	complex neurodevelopmental disorder	cd	Limited 2011
+GATC	inborn mitochondrial metabolism disorder	cd	Limited 2018
+HKDC1	retinitis pigmentosa	cd	Limited 2018
+NEBL	familial dilated cardiomyopathy	cd	Limited 2021
+SLC51A	cholestasis, progressive familial intrahepatic, 6	cd	Limited 2020
+HKDC1	retinitis pigmentosa 92	cd	Limited 2018
+CALCRL	lymphatic malformation 8	cd	Limited 2018
+STK33	spermatogenic failure 93	cd	Limited 2018
+ZNF862	hereditary gingival fibromatosis	cd	Limited 2022
+GTF3A	herpes simplex encephalitis	cd	Limited 2022
+VEZF1	cardiomyopathy, dilated, 100	cd	Limited 2023
+RAB35	neurodevelopmental disorder	cd	Limited 2023
+SERPINA11	hydrops fetalis	cd	Limited 2024
+NPTX1	autosomal dominant cerebellar ataxia	cd	Limited 2022
+NRG1	peripheral neuropathy	cd	Limited 2022
+TRIM47	genetic cerebral small vessel disease	cd	Limited 2022
+MCF2L	vascular malformation	cd	Limited 2023
+ATG9A	immunodeficiency disease	cd	Limited 2023
+ADCY1	nonsyndromic genetic hearing loss	cd	Limited 2014
+PPCDC	dilated cardiomyopathy	cd	Limited 2023
+DAAM2	androgen insensitivity syndrome	cd	Limited 2023
+SLIRP	inborn mitochondrial metabolism disorder	cd	Limited 2021
+SIX2	congenital anomaly of kidney and urinary tract	cd	Limited 2014
+NALCN	temporal lobe epilepsy	cd	Limited 2023
+PHF10	multiple congenital anomalies/dysmorphic syndrome	cd	Limited 2023
+TLR4	inflammatory bowel disease	cd	Limited 2019
+VPS50	hydrocephalus	cd	Limited 2023
+LAMA5	bent bone dysplasia syndrome 2	cd	Limited 2020

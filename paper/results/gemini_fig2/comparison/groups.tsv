@@ -1,0 +1,21 @@
+panel	group	model	n	Novel	Hypothesized	Existing	Established	mean_score
+a	Absent	claude	100	83.0	15.0	1.0	1.0	1.304
+a	Absent	gemini	100	92.0	4.0	3.0	1.0	1.141
+a	Definitive	claude	100	0.0	0.0	4.0	96.0	3.899
+a	Definitive	gemini	100	0.0	0.0	2.0	98.0	3.971
+a	Limited	claude	100	2.0	4.0	67.0	27.0	3.149
+a	Limited	gemini	100	2.0	4.0	56.0	38.0	3.248
+a	Moderate	claude	100	0.0	0.0	35.0	65.0	3.592
+a	Moderate	gemini	100	0.0	2.0	28.0	70.0	3.646
+a	Strong	claude	100	0.0	0.0	25.0	75.0	3.702
+a	Strong	gemini	100	0.0	0.0	26.0	74.0	3.732
+b	ASD candidate	claude	56	3.6	32.1	62.5	1.8	2.61
+b	ASD candidate	gemini	56	7.1	25.0	57.1	10.7	2.658
+b	ASD known	claude	180	0.6	3.9	58.9	36.7	3.29
+b	ASD known	gemini	180	0.6	2.2	37.8	59.4	3.51
+b	Not in ASD list	claude	100	69.0	25.0	5.0	1.0	1.462
+b	Not in ASD list	gemini	100	83.0	11.0	4.0	2.0	1.307
+b	Novel candidate	claude	17	41.2	41.2	17.6	0.0	1.805
+b	Novel candidate	gemini	17	47.1	29.4	23.5	0.0	1.748
+cd	Limited (dated)	claude	200	5.0	7.5	73.5	14.0	2.969
+cd	Limited (dated)	gemini	200	5.5	6.0	64.0	24.5	3.046

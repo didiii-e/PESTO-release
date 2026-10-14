@@ -1,0 +1,17 @@
+metric	model	value	lo	hi	n
+AUC, Definitive+Strong vs Moderate+Limited	claude	0.8267	0.7867	0.8652	400
+AUC, Definitive+Strong vs Moderate+Limited	gemini	0.8121	0.7713	0.8517	400
+AUC on verdicts, Definitive+Strong vs Moderate+Limited	claude	0.6997	0.655	0.7416	400
+AUC on verdicts, Definitive+Strong vs Moderate+Limited	gemini	0.6628	0.6185	0.7053	400
+Average precision, curated vs Absent	claude	0.9971	0.9935	0.9999	500
+Average precision, curated vs Absent	gemini	0.9982	0.9955	0.9999	500
+Spearman, score vs GenCC class	claude	0.8263	0.7903	0.8579	500
+Spearman, score vs GenCC class	gemini	0.8261	0.7867	0.8608	500
+Absent called Novel (%)	claude	83.0	76.0	90.0	100
+Absent called Novel (%)	gemini	92.0	86.0	97.0	100
+Autism candidate called Established (%)	claude	1.7857	0.0	5.3571	56
+Autism candidate called Established (%)	gemini	10.7143	3.5714	19.6429	56
+Autism known called Established (%)	claude	36.6667	30.0	43.8889	180
+Autism known called Established (%)	gemini	59.4444	52.2222	66.6667	180
+Not in ASD list called Novel (%)	claude	69.0	60.0	78.0	100
+Not in ASD list called Novel (%)	gemini	83.0	75.0	90.0	100

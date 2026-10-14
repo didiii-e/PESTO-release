@@ -40,6 +40,8 @@ fonts (`fonts-urw-base35` on Debian and Ubuntu).
 | Supplementary Figure 5 | screenshots of `pesto browser`, not drawn by a script | — |
 | Supplementary Figure 6 | `231_fetal_cell_type_heatmap.R` (reads `results/biology/fetal_cell_types_grid.tsv`) | `figures/figure_fetal_cell_types.png` |
 | Supplementary Figure 7 | `280_figure_supp_citations.R` (+ `_panel_citations.R`; reads `results/knowledge_citations/pair_summary.tsv` and `ref_checks.tsv`) | `figures/figure_supp_citations.png` |
+| Supplementary Figure 8 (Figure 2 with Gemini models) | `302_gemini_fig2_mirror.py --draw` (lays `results/gemini_fig2/` out as `21_figure2.R` reads the Claude results, in `results/gemini_fig2/fig2_root/`, and runs `21_figure2.R` on it with `PESTO_FIG2_ROOT` and `PESTO_FIG2_STEM`) | `figures/figure2_gemini.png` |
+| Supplementary Figure 9 (Claude and Gemini compared) | `303_gemini_fig2_comparison.py` (writes `results/gemini_fig2/comparison/`), `304_figure_gemini_comparison.R` | `figures/figure_supp_gemini_comparison.png` |
 | Supplementary Note 1, run-to-run variability (table) | `183_reproducibility_stats.py` | `results/reproducibility_aou50/summary.tsv` |
 | Supplementary Note 5, sensitivity of the tissue analyses (table) | `198_tissue_enrichment_grid.R` | `results/tissue_enrichment/grid_key.tsv` |
 | Supplementary Note 5, adjustment for publications per gene (table) | `269_publication_adjusted_enrichment.py` (+ `_biology_panel.py`, `202_subthreshold_signal.py`; needs the ASC gene list `data/raw/ASC_GeneList_12082026.txt`, not redistributed) | `results/biology/publication_adjusted_enrichment.tsv` |
@@ -92,6 +94,7 @@ will not reproduce each answer exactly.
 | Supplementary Figure 2 | `155_abstract_fix_check.py` (20 runs of Figs. 1–4 replayed on their own corpus with complete structured abstracts; reads the runs from Zenodo) writes `results/abstract_fix_check.tsv` |
 | Extended Data Fig. 5, Supplementary Figure 6 | `230_fetal_cell_types.py` (+ `_biology_panel.py`; reads the Descartes fetal atlas tracks `data/biology/descartes_fetal_cell_type.*` from the UCSC Genome Browser, not redistributed) writes `results/biology/fetal_cell_types_grid.tsv` |
 | Supplementary Note 1, run-to-run variability | `181_reproducibility_aou50.py` (three fresh runs of 50 All of Us–GeneBass associations; only each run's `pesto.tsv` and `cost.tsv` are kept here) |
+| Supplementary Figures 8 and 9, Figure 2 on Gemini | `300_gemini_fig2_pairs.py` (the 1,043 pairs of Fig. 2, by panel), `299_gemini_fig2_run.py` (the arm of Fig. 2 with Gemini 4 Argon in place of Claude Opus 5 and Gemini 3.8 Flash in place of Claude Haiku 4.5, through `298_gemini_pair_probe.py`, PubMed capped at 14 August 2026; `--arm prior` for the model's internal knowledge), `301_gemini_citations.py` (`272` and `273` with the Gemini models); writes `results/gemini_fig2/`, whose `runs/` are in the Zenodo archive |
 | Supplementary Note 1, Open Targets tie rules (sensitivity) | `188_ot_tie_rules.py` (replays the stored Open Targets grades, no model call; reads `results/auto_cohort_ot_v7/` and `results/auto_fig1c_absent50_hgnc_v7/` from Zenodo, writes `results/ot_tie_rules/`) |
 
 Their inputs and the saved model answers (one JSON per pair, with the corpus,
@@ -99,7 +102,8 @@ the prompts and the response) go into a Zenodo archive, whose new version is in
 preparation; `fetch_data.sh` will download it once its DOI is given here. The new
 version adds the saved model answers of the Figure 3 runs (`runs/` of
 `benchmark/asd_denovo2014/`, `benchmark/epigen_extension/` and
-`benchmark/trajectories6/`).
+`benchmark/trajectories6/`) and of Figure 2 on Gemini (`runs/` of
+`results/gemini_fig2/full/` and `results/gemini_fig2/knowledge/`).
 
 Not redistributed: the PEPPER gene features used to draw the random genes of
 Figure 4 (`92_fig3_random50.py` says where to put them), the GWAS Catalog used to

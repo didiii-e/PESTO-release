@@ -1,0 +1,301 @@
+gene	phenotype	truth	claude_verdict	verdict	p_established	p_existing	p_hypothesized	p_novel	found	read	usd	usd_2027	seconds	fingerprint	error
+KCND3	46,XY sex reversal 3	Absent		Novel	0	0	2	98	0	0	0.00333	0.00665	9.3	eb9bc6b6bb12	
+NBEAL2	arrhythmogenic cardiomyopathy with wooly hair and keratoderma	Absent		Novel	0	0	2	98	0	0	0.00321	0.00641	9.3	eb9bc6b6bb12	
+KCNQ4	X-linked spondyloepimetaphyseal dysplasia	Absent		Novel	0	0	0	100	0	0	0.00318	0.00635	9.6	eb9bc6b6bb12	
+CACNA1F	Malan overgrowth syndrome	Absent		Novel	0	0	2	98	0	0	0.00312	0.00623	9.6	eb9bc6b6bb12	
+APC	complement component 2 deficiency	Absent		Novel	0	0	2	98	0	0	0.003	0.00599	9.8	eb9bc6b6bb12	
+PCCA	hypercholanemia, familial, 2	Absent		Novel	0	0	2	98	0	0	0.00311	0.00621	9.8	eb9bc6b6bb12	
+TSPEAR	tibial muscular dystrophy	Absent		Novel	0	0	5	95	0	0	0.00392	0.00783	10.0	eb9bc6b6bb12	
+PHKG2	primary ciliary dyskinesia 33	Absent		Novel	0	0	0	100	0	0	0.00307	0.00613	10.1	eb9bc6b6bb12	
+FKBP6	Charcot-Marie-Tooth disease type 2E	Absent		Novel	0	0	2	98	0	0	0.00325	0.00649	10.2	eb9bc6b6bb12	
+RPL3L	autosomal recessive mendelian susceptibility to mycobacterial diseases due to complete RORgamma receptor deficiency	Absent		Novel	0	0	2	98	0	0	0.0033	0.00659	10.2	eb9bc6b6bb12	
+NFATC2	spondylometaphyseal dysplasia, 'corner fracture' type	Absent		Novel	0	5	35	60	0	0	0.0046	0.00919	10.4	eb9bc6b6bb12	
+UQCRH	hereditary spastic paraplegia 45	Absent		Novel	0	0	10	90	0	0	0.00345	0.00689	10.5	eb9bc6b6bb12	
+KCNE2	epidermolysis bullosa simplex 4, localized or generalized intermediate, autosomal recessive	Absent		Novel	0	0	2	98	0	0	0.00429	0.00857	10.7	eb9bc6b6bb12	
+KIF4A	complex neurodevelopmental disorder with or without congenital anomalies	Limited		Established	80	18	2	0	0	0	0.00329	0.00657	10.9	eb9bc6b6bb12	
+GET4	deafness-lymphedema-leukemia syndrome	Absent		Novel	0	0	2	98	0	0	0.00425	0.00849	11.0	eb9bc6b6bb12	
+STXBP2	autosomal recessive nonsyndromic hearing loss 44	Absent		Novel	0	0	5	95	0	0	0.00419	0.00837	11.3	eb9bc6b6bb12	
+SYCP2L	Weiss-Kruszka syndrome	Absent		Novel	0	0	5	95	0	0	0.00418	0.00835	11.4	eb9bc6b6bb12	
+CDH15	familial hypobetalipoproteinemia 1	Absent		Novel	0	0	5	95	0	0	0.00426	0.00851	11.5	eb9bc6b6bb12	
+PSMB1	glycogen storage disease III	Absent		Novel	0	0	5	95	0	0	0.00368	0.00735	11.7	eb9bc6b6bb12	
+MT-CO3	gonadal dysgenesis	Absent		Novel	0	5	25	70	0	0	0.00479	0.00957	11.8	eb9bc6b6bb12	
+RBFOX3	arthrogryposis, distal, with impaired proprioception and touch	Absent		Novel	0	2	18	80	0	0	0.00483	0.00965	12.1	eb9bc6b6bb12	
+ZFTRAF1	neurodevelopmental disorder	Limited		Novel	0	15	25	60	0	0	0.00489	0.00977	12.2	eb9bc6b6bb12	
+AMIGO2	autosomal recessive nonsyndromic hearing loss 59	Absent		Novel	0	0	5	95	0	0	0.00525	0.01049	12.4	eb9bc6b6bb12	
+CCT7	complex neurodevelopmental disorder	Limited		Existing	25	55	15	5	0	0	0.00509	0.01017	12.6	eb9bc6b6bb12	
+TNNT2	atrial septal defect 6	Absent		Hypothesized	0	10	50	40	0	0	0.00577	0.01153	12.7	eb9bc6b6bb12	
+ATP11C	arterial tortuosity syndrome	Absent		Novel	0	0	5	95	0	0	0.00492	0.00983	12.7	eb9bc6b6bb12	
+ANO3	arthrogryposis multiplex congenita 2, neurogenic type	Absent		Novel	0	5	10	85	0	0	0.00573	0.01145	13.0	eb9bc6b6bb12	
+CASP2	Hoxha-Aliu syndrome	Absent		Established	60	35	5	0	0	0	0.0054	0.01079	13.0	eb9bc6b6bb12	
+SELENBP1	neurodevelopmental disorder with spastic quadriplegia, optic atrophy, seizures, and structural brain anomalies	Absent		Novel	0	0	15	85	0	0	0.00612	0.01223	13.3	eb9bc6b6bb12	
+SCN9A	hypogonadotropic hypogonadism	Absent		Hypothesized	0	25	60	15	0	0	0.00607	0.01213	13.6	eb9bc6b6bb12	
+SPP2	retinitis pigmentosa	Limited		Existing	15	75	10	0	0	0	0.003	0.00599	4.5	eb9bc6b6bb12	
+MARK3	visual impairment and progressive phthisis bulbi	Limited		Existing	25	70	4	1	0	0	0.00329	0.00657	4.8	eb9bc6b6bb12	
+CTNNA3	arrhythmogenic right ventricular cardiomyopathy	Limited		Existing	15	75	10	0	0	0	0.00338	0.00675	5.6	eb9bc6b6bb12	
+CDK9	congenital myopathy 2c, severe infantile, autosomal dominant	Absent		Novel	0	0	10	90	0	0	0.00428	0.00855	6.0	eb9bc6b6bb12	
+MC4R	agammaglobulinemia 2, autosomal recessive	Absent		Novel	0	0	0	100	0	0	0.00341	0.00681	6.4	eb9bc6b6bb12	
+MT-TG	minimal pigment oculocutaneous albinism type 1	Absent		Novel	0	0	2	98	0	0	0.00326	0.00651	4.5	eb9bc6b6bb12	
+CYBA	parathyroid gland carcinoma	Absent		Novel	0	0	10	90	0	0	0.00322	0.00643	5.6	eb9bc6b6bb12	
+MRAS	gonadal dysgenesis, dysmorphic facies, retinal dystrophy, and myopathy	Absent		Novel	0	0	5	95	0	0	0.00365	0.00729	5.5	eb9bc6b6bb12	
+CEP120	hemochromatosis type 1	Absent		Novel	0	0	0	100	0	0	0.00316	0.00631	4.9	eb9bc6b6bb12	
+GYPC	ceroid lipofuscinosis, neuronal, 6B (Kufs type)	Absent		Novel	0	0	0	100	0	0	0.00321	0.00641	4.8	eb9bc6b6bb12	
+PHGDH	Joubert syndrome 33	Absent		Novel	0	0	2	98	0	0	0.00427	0.00853	7.0	eb9bc6b6bb12	
+FBXO32	dilated cardiomyopathy	Limited		Existing	10	70	20	0	0	0	0.00497	0.00993	6.8	eb9bc6b6bb12	
+BRSK2	mitochondrial pyruvate carrier deficiency	Absent		Novel	0	0	10	90	0	0	0.00338	0.00675	5.1	eb9bc6b6bb12	
+TRHR	metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration	Absent		Novel	0	0	5	95	0	0	0.00358	0.00715	4.9	eb9bc6b6bb12	
+POU4F1	autosomal dominant polycystic kidney disease	Absent		Novel	0	0	5	95	0	0	0.00456	0.00911	6.1	eb9bc6b6bb12	
+NOTCH3	inherited thrombocytopenia	Limited		Novel	0	5	25	70	0	0	0.00452	0.00903	7.1	eb9bc6b6bb12	
+ILK	familial dilated cardiomyopathy	Limited		Existing	5	75	20	0	0	0	0.00513	0.01025	7.4	eb9bc6b6bb12	
+TFRC	congenital stationary night blindness autosomal dominant 3	Absent		Novel	0	0	5	95	0	0	0.00326	0.00651	5.2	eb9bc6b6bb12	
+IFNAR2	Fuchs' endothelial dystrophy	Absent		Novel	0	5	25	70	0	0	0.00452	0.00903	6.3	eb9bc6b6bb12	
+KIF17	spinal muscular atrophy-progressive myoclonic epilepsy syndrome	Absent		Novel	0	5	15	80	0	0	0.00334	0.00667	5.1	eb9bc6b6bb12	
+DNAJC13	craniofacial anomalies and anterior segment dysgenesis syndrome	Absent		Novel	0	0	5	95	0	0	0.00552	0.01103	7.3	eb9bc6b6bb12	
+SLC25A13	aldosterone-producing adenoma with seizures and neurological abnormalities	Absent		Novel	0	0	5	95	0	0	0.00345	0.00689	5.5	eb9bc6b6bb12	
+PCBD1	developmental delay, hypotonia, and impaired language	Absent		Existing	15	70	15	0	0	0	0.00361	0.00721	5.1	eb9bc6b6bb12	
+GGPS1	polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy 1	Absent		Novel	0	0	10	90	0	0	0.00389	0.00777	5.5	eb9bc6b6bb12	
+GHR	familial long QT syndrome	Absent		Novel	0	0	15	85	0	0	0.00575	0.01149	7.6	eb9bc6b6bb12	
+TCTN1	congenital disorder of deglycosylation 2	Absent		Novel	0	0	5	95	0	0	0.00341	0.00681	5.1	eb9bc6b6bb12	
+KREMEN1	autosomal dominant hypocalcemia 1	Absent		Novel	0	0	2	98	0	0	0.00435	0.00869	6.1	eb9bc6b6bb12	
+CIAO1	multiple mitochondrial dysfunctions syndrome 10	Limited		Hypothesized	5	25	60	10	0	0	0.00659	0.01317	8.6	eb9bc6b6bb12	
+C1QBP	Antley-Bixler syndrome	Absent		Novel	0	0	2	98	0	0	0.00335	0.00669	6.4	eb9bc6b6bb12	
+ADAM20	amyotrophic lateral sclerosis type 9	Absent		Novel	0	0	5	95	0	0	0.00336	0.00671	4.9	eb9bc6b6bb12	
+TCF3	striate palmoplantar keratoderma	Absent		Novel	0	0	10	90	0	0	0.00512	0.01023	7.6	eb9bc6b6bb12	
+LEPR	spastic paraplegia 83, autosomal recessive	Absent		Novel	0	0	2	98	0	0	0.0033	0.00659	4.7	eb9bc6b6bb12	
+PDCD1	polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis	Absent		Novel	0	0	5	95	0	0	0.00368	0.00735	5.1	eb9bc6b6bb12	
+ADCY5	3M syndrome 2	Absent		Novel	0	0	2	98	0	0	0.00431	0.00861	6.0	eb9bc6b6bb12	
+SMAD2	intellectual disability, X-linked 96	Absent		Novel	0	0	5	95	0	0	0.00333	0.00665	5.7	eb9bc6b6bb12	
+MC2R	congenital reticular ichthyosiform erythroderma	Absent		Novel	0	0	5	95	0	0	0.00478	0.00955	6.4	eb9bc6b6bb12	
+IDH2	hereditary renal hypouricemia	Absent		Novel	0	0	5	95	0	0	0.00328	0.00655	4.8	eb9bc6b6bb12	
+DBT	myofibrillar myopathy 5	Absent		Novel	0	0	0	100	0	0	0.00322	0.00643	5.1	eb9bc6b6bb12	
+PTS	3-hydroxy-3-methylglutaric aciduria	Absent		Novel	0	0	2	98	0	0	0.00358	0.00715	5.7	eb9bc6b6bb12	
+SMC3	asthma-related traits, susceptibility to, 5	Absent		Novel	0	15	25	60	0	0	0.00385	0.00769	5.4	eb9bc6b6bb12	
+LPAR6	blepharophimosis - intellectual disability syndrome, MKB type	Absent		Novel	0	0	5	95	0	0	0.00358	0.00715	5.3	eb9bc6b6bb12	
+SLK	degenerative myopia	Absent		Novel	0	15	25	60	0	0	0.00529	0.01057	7.5	eb9bc6b6bb12	
+SFRP4	Ritscher-Schinzel syndrome	Absent		Novel	0	0	5	95	0	0	0.00373	0.00745	5.3	eb9bc6b6bb12	
+PAX9	Knobloch syndrome 2	Absent		Novel	0	0	2	98	0	0	0.00429	0.00857	5.8	eb9bc6b6bb12	
+HPS1	myosclerosis	Absent		Novel	0	0	5	95	0	0	0.00372	0.00743	5.4	eb9bc6b6bb12	
+FCGR2B	bardet-biedl syndrome 21	Absent		Novel	0	0	0	100	0	0	0.00322	0.00643	5.0	eb9bc6b6bb12	
+MRPS14	robinow syndrome, autosomal recessive 2	Absent		Novel	0	0	0	100	0	0	0.00313	0.00625	4.9	eb9bc6b6bb12	
+FGF3	surfactant metabolism dysfunction, pulmonary, 4	Absent		Novel	0	0	5	95	0	0	0.00492	0.00983	6.8	eb9bc6b6bb12	
+EDNRA	Charcot-Marie-Tooth disease axonal type 2CC	Absent		Novel	0	0	5	95	0	0	0.00321	0.00641	4.8	eb9bc6b6bb12	
+SBDS	immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome	Absent		Novel	0	2	8	90	0	0	0.00569	0.01137	7.5	eb9bc6b6bb12	
+RXYLT1	cholestasis, progressive familial intrahepatic, 8	Absent		Novel	0	0	5	95	0	0	0.00332	0.00663	4.9	eb9bc6b6bb12	
+VWA2	hypercholesterolemia, familial, 4	Absent		Novel	0	0	5	95	0	0	0.00324	0.00647	5.1	eb9bc6b6bb12	
+WBP11	immunodeficiency, common variable, 3	Absent		Novel	0	0	5	95	0	0	0.00341	0.00681	4.7	eb9bc6b6bb12	
+SEC16B	MHC class II deficiency 3	Absent		Novel	0	0	5	95	0	0	0.00325	0.00649	4.6	eb9bc6b6bb12	
+IL17RD	microphthalmia, isolated, with coloboma 6	Absent		Novel	0	5	25	70	0	0	0.00522	0.01043	7.2	eb9bc6b6bb12	
+MTHFR	immunodeficiency 102	Absent		Novel	0	0	5	95	0	0	0.00456	0.00911	6.2	eb9bc6b6bb12	
+ATP5F1A	short stature-brachydactyly-obesity-global developmental delay syndrome	Absent		Novel	0	0	5	95	0	0	0.00563	0.01125	7.6	eb9bc6b6bb12	
+SCNN1A	autosomal recessive limb-girdle muscular dystrophy type 2F	Absent		Novel	0	0	2	98	0	0	0.00484	0.00967	6.7	eb9bc6b6bb12	
+PIGC	agammaglobulinemia	Absent		Novel	0	0	10	90	0	0	0.00331	0.00661	4.6	eb9bc6b6bb12	
+MYO18B	hypertrophic cardiomyopathy 16	Absent		Hypothesized	0	25	65	10	0	0	0.00654	0.01307	8.6	eb9bc6b6bb12	
+HLA-DRB1	congenital adrenal hyperplasia due to 11-beta-hydroxylase deficiency	Absent		Novel	0	5	5	90	0	0	0.00586	0.01171	7.8	eb9bc6b6bb12	
+PNKP	amyloidosis, hereditary systemic 3	Absent		Novel	0	0	5	95	0	0	0.00349	0.00697	5.0	eb9bc6b6bb12	
+AGPAT5	short-rib thoracic dysplasia 11 with or without polydactyly	Absent		Novel	0	0	2	98	0	0	0.0041	0.00819	5.7	eb9bc6b6bb12	
+FKTN	autosomal dominant hypophosphatemic rickets	Absent		Novel	0	0	2	98	0	0	0.00315	0.00629	4.7	eb9bc6b6bb12	
+RAB32	Silver-Russell syndrome 5	Absent		Novel	0	0	2	98	0	0	0.00311	0.00621	5.5	eb9bc6b6bb12	
+IFT54	familial isolated deficiency of vitamin E	Absent		Novel	0	0	5	95	0	0	0.00332	0.00663	5.0	eb9bc6b6bb12	
+TTC21A	spinocerebellar ataxia, autosomal recessive, with axonal neuropathy 3	Absent		Novel	0	0	5	95	0	0	0.00415	0.00829	5.8	eb9bc6b6bb12	
+TRPA1	early-onset progressive encephalopathy-hearing loss-pons hypoplasia-brain atrophy syndrome	Absent		Novel	0	0	5	95	0	0	0.00369	0.00737	5.3	eb9bc6b6bb12	
+RNF220	myopathy, lactic acidosis, and sideroblastic anemia 1	Absent		Novel	0	0	2	98	0	0	0.00423	0.00845	6.4	eb9bc6b6bb12	
+ZNF81	acromelic frontonasal dysostosis	Absent		Novel	0	0	5	95	0	0	0.00426	0.00851	5.7	eb9bc6b6bb12	
+PDX1	arthrogryposis-renal dysfunction-cholestasis syndrome	Absent		Novel	0	0	5	95	0	0	0.00346	0.00691	5.0	eb9bc6b6bb12	
+PNPLA1	immunodeficiency-centromeric instability-facial anomalies syndrome	Absent		Novel	0	0	2	98	0	0	0.00426	0.00851	6.0	eb9bc6b6bb12	
+ISCA1	pulmonary hypertension, primary, 3	Absent		Hypothesized	0	15	65	20	0	0	0.00362	0.00723	5.4	eb9bc6b6bb12	
+TRIM69	hereditary predisposition to infections	Limited 2011		Hypothesized	0	10	85	5	0	0	0.00302	0.00603	4.7	eb9bc6b6bb12	
+MCCC2	vitamin D-dependent rickets, type 3	Absent		Novel	0	0	2	98	0	0	0.00456	0.00911	6.2	eb9bc6b6bb12	
+ANAPC1	head and neck squamous cell carcinoma	Absent		Hypothesized	0	40	50	10	0	0	0.00354	0.00707	5.9	eb9bc6b6bb12	
+PRDM6	Long-Olsen-Distelmaier syndrome	Absent		Novel	0	0	2	98	0	0	0.00468	0.00935	6.4	eb9bc6b6bb12	
+PLEKHM2	developmental malformations-deafness-dystonia syndrome	Absent		Novel	0	0	5	95	0	0	0.00437	0.00873	5.8	eb9bc6b6bb12	
+CAV1	hereditary late onset Parkinson disease	Absent		Hypothesized	0	15	80	5	0	0	0.00485	0.00969	6.5	eb9bc6b6bb12	
+PECR	neurodevelopmental disorder	Limited 2011		Existing	10	60	20	10	0	0	0.00323	0.00645	4.7	eb9bc6b6bb12	
+TECR	intellectual disability	Limited 2011		Established	85	15	0	0	0	0	0.00417	0.00833	5.7	eb9bc6b6bb12	
+CRYGB	cataract 39 multiple types	Limited 2011		Established	55	40	5	0	0	0	0.00406	0.00811	5.8	eb9bc6b6bb12	
+HELLS	autosomal recessive spondylocostal dysostosis	Absent		Novel	0	0	5	95	0	0	0.00482	0.00963	8.0	eb9bc6b6bb12	
+MOG	narcolepsy 7	Limited 2011		Existing	35	60	5	0	0	0	0.00461	0.00921	6.3	eb9bc6b6bb12	
+SEPTIN12	spermatogenic failure 10	Limited 2011		Established	85	15	0	0	0	0	0.00345	0.00689	4.9	eb9bc6b6bb12	
+H3-4	neurodevelopmental disorder	Limited 2011		Hypothesized	0	25	65	10	0	0	0.00346	0.00691	5.3	eb9bc6b6bb12	
+NDUFA12	Leigh syndrome	Limited 2011		Established	85	15	0	0	0	0	0.00332	0.00663	4.9	eb9bc6b6bb12	
+CFHR3	hemolytic uremic syndrome, atypical, susceptibility to, 1	Limited 2012		Established	85	15	0	0	0	0	0.00356	0.00711	5.5	eb9bc6b6bb12	
+SLC52A2	Guttmacher syndrome	Absent		Novel	0	0	2	98	0	0	0.00418	0.00835	9.7	eb9bc6b6bb12	
+RNLS	cataract	Limited 2012		Existing	0	40	30	30	0	0	0.00305	0.00609	5.1	eb9bc6b6bb12	
+KCTD13	neurodevelopmental disorder	Limited 2012		Existing	10	65	25	0	0	0	0.00349	0.00697	4.9	eb9bc6b6bb12	
+AKT1	Cowden syndrome 6	Limited 2011		Established	60	35	5	0	0	0	0.00519	0.01037	7.0	eb9bc6b6bb12	
+FUS	tremor, hereditary essential, 4	Limited 2012		Existing	20	75	5	0	0	0	0.00321	0.00641	5.6	eb9bc6b6bb12	
+MRPL12	combined oxidative phosphorylation deficiency 45	Limited 2013		Existing	25	70	5	0	0	0	0.0031	0.00619	4.8	eb9bc6b6bb12	
+TNIK	non-syndromic intellectual disability	Limited 2012		Established	80	15	5	0	0	0	0.0034	0.00679	5.3	eb9bc6b6bb12	
+ARL14EP	neurodevelopmental disorder	Limited 2011		Existing	5	45	35	15	0	0	0.00559	0.01117	7.6	eb9bc6b6bb12	
+ABCB6	microphthalmia, isolated, with coloboma 7	Limited 2012		Established	80	20	0	0	0	0	0.00352	0.00703	5.0	eb9bc6b6bb12	
+NPPA	atrial standstill 2	Limited 2013		Established	85	15	0	0	0	0	0.00338	0.00675	4.9	eb9bc6b6bb12	
+FOXD3	anterior segment dysgenesis	Limited 2012		Existing	20	65	15	0	0	0	0.00467	0.00933	6.7	eb9bc6b6bb12	
+STT3B	congenital disorder of glycosylation	Limited 2013		Established	80	20	0	0	0	0	0.00335	0.00669	4.9	eb9bc6b6bb12	
+CPA6	familial temporal lobe epilepsy 5	Limited 2012		Established	65	30	5	0	0	0	0.00411	0.00821	5.7	eb9bc6b6bb12	
+ABCB6	familial pseudohyperkalemia	Limited 2013		Established	95	5	0	0	0	0	0.00332	0.00663	4.8	eb9bc6b6bb12	
+AGBL1	corneal dystrophy, Fuchs endothelial, 8	Limited 2013		Established	65	30	5	0	0	0	0.00417	0.00833	5.9	eb9bc6b6bb12	
+AP2A2	schizophrenia	Limited 2012		Hypothesized	0	25	65	10	0	0	0.00521	0.01041	7.2	eb9bc6b6bb12	
+KPNA7	epilepsy	Limited 2014		Existing	10	80	8	2	0	0	0.00306	0.00611	4.8	eb9bc6b6bb12	
+TSEN54	cerebellar ataxia	Limited 2014		Established	85	15	0	0	0	0	0.00316	0.00631	4.8	eb9bc6b6bb12	
+ABCA5	gingival fibromatosis-hypertrichosis syndrome	Limited 2014		Existing	15	75	10	0	0	0	0.00349	0.00697	5.0	eb9bc6b6bb12	
+DTHD1	LCAT deficiency	Limited 2013		Novel	0	1	4	95	0	0	0.00432	0.00863	6.3	eb9bc6b6bb12	
+MAP2K2	Noonan syndrome	Limited 2013		Established	65	30	5	0	0	0	0.00485	0.00969	6.7	eb9bc6b6bb12	
+CDK6	microcephaly 12, primary, autosomal recessive	Limited 2013		Established	55	45	0	0	0	0	0.0052	0.01039	6.9	eb9bc6b6bb12	
+DNM2	fetal akinesia-cerebral and retinal hemorrhage syndrome	Limited 2013		Established	55	45	0	0	0	0	0.00469	0.00937	6.3	eb9bc6b6bb12	
+ELMOD3	nonsyndromic genetic hearing loss	Limited 2013		Established	65	30	5	0	0	0	0.00541	0.01081	7.8	eb9bc6b6bb12	
+DNAH8	primary ciliary dyskinesia	Limited 2014		Existing	5	60	30	5	0	0	0.00453	0.00905	6.3	eb9bc6b6bb12	
+RPS20	Lynch syndrome	Limited 2014		Existing	0	70	25	5	0	0	0.00365	0.00729	5.7	eb9bc6b6bb12	
+PRIMA1	frontal lobe epilepsy	Limited 2015		Existing	0	65	30	5	0	0	0.00333	0.00665	5.2	eb9bc6b6bb12	
+PRIMA1	epilepsy	Limited 2015		Hypothesized	0	30	65	5	0	0	0.00335	0.00669	4.9	eb9bc6b6bb12	
+TBXT	sacral agenesis-abnormal ossification of the vertebral bodies-persistent notochordal canal syndrome	Limited 2014		Established	65	35	0	0	0	0	0.00591	0.01181	8.1	eb9bc6b6bb12	
+RGS6	neurodevelopmental disorder	Limited 2014		Existing	5	45	45	5	0	0	0.00506	0.01011	7.2	eb9bc6b6bb12	
+TOP6BL	hydatidiform mole, recurrent, 4	Limited 2016		Established	80	18	2	0	0	0	0.0034	0.00679	4.9	eb9bc6b6bb12	
+ASPN	osteoarthritis susceptibility 3	Limited 2015		Established	80	20	0	0	0	0	0.00349	0.00697	5.3	eb9bc6b6bb12	
+TCF7L1	combined pituitary hormone deficiencies, genetic form	Limited 2016		Existing	15	75	10	0	0	0	0.00324	0.00647	5.3	eb9bc6b6bb12	
+KITLG	Waardenburg syndrome 2F	Limited 2015		Established	85	15	0	0	0	0	0.0048	0.00959	6.7	eb9bc6b6bb12	
+SPTBN5	neurodevelopmental disorder	Limited 2016		Existing	15	75	10	0	0	0	0.00328	0.00655	5.0	eb9bc6b6bb12	
+SMARCA1	schizophrenia	Limited 2016		Existing	5	75	15	5	0	0	0.0031	0.00619	4.5	eb9bc6b6bb12	
+APC2	intellectual developmental disorder, autosomal recessive 74	Limited 2015		Established	65	30	4	1	0	0	0.00485	0.00969	6.7	eb9bc6b6bb12	
+PNPLA4	mitochondrial disease	Limited 2016		Existing	10	65	20	5	0	0	0.00328	0.00655	5.8	eb9bc6b6bb12	
+NDUFV2	Leigh syndrome	Limited 2015		Established	85	15	0	0	0	0	0.00358	0.00715	6.3	eb9bc6b6bb12	
+TNNI1	childhood-onset nemaline myopathy	Limited 2015		Existing	15	55	25	5	0	0	0.00489	0.00977	6.7	eb9bc6b6bb12	
+SEMA3E	CHARGE syndrome	Limited 2016		Existing	10	85	5	0	0	0	0.00342	0.00683	4.9	eb9bc6b6bb12	
+PRICKLE1	epilepsy	Limited 2015		Established	90	10	0	0	0	0	0.00413	0.00825	7.4	eb9bc6b6bb12	
+SLC22A4	hearing loss, autosomal recessive	Limited 2016		Existing	10	75	10	5	0	0	0.00317	0.00633	4.9	eb9bc6b6bb12	
+SLC14A1	blood group, kidd system	Limited 2016		Established	100	0	0	0	0	0	0.0034	0.00679	5.0	eb9bc6b6bb12	
+IFT57	orofaciodigital syndrome 18	Limited 2016		Existing	45	50	5	0	0	0	0.00463	0.00925	6.5	eb9bc6b6bb12	
+KLC4	early-childhood-onset neurodegeneration with retinitis pigmentosa, sensorineural hearing loss, and demyelinating peripheral neuropathy	Limited 2015		Existing	5	45	40	10	0	0	0.00609	0.01217	7.9	eb9bc6b6bb12	
+ERBIN	autosomal dominant combined immunodeficiency due to ERBIN deficiency	Limited 2017		Existing	35	60	5	0	0	0	0.00334	0.00667	4.7	eb9bc6b6bb12	
+CDK16	intellectual disability	Limited 2016		Existing	15	60	20	5	0	0	0.00444	0.00887	6.1	eb9bc6b6bb12	
+ATAD3C	pontocerebellar hypoplasia, hypotonia, and respiratory insufficiency syndrome, neonatal lethal	Limited 2017		Established	80	15	5	0	0	0	0.00383	0.00765	5.3	eb9bc6b6bb12	
+TNNT1	nemaline myopathy 5C, autosomal dominant	Limited 2017		Established	80	20	0	0	0	0	0.00346	0.00691	5.2	eb9bc6b6bb12	
+BMP7	isolated craniosynostosis	Limited 2014		Hypothesized	5	35	55	5	0	0	0.00582	0.01163	10.6	eb9bc6b6bb12	
+KIF17	microphthalmia, isolated, with coloboma	Limited 2017		Existing	5	45	45	5	0	0	0.00387	0.00773	5.6	eb9bc6b6bb12	
+TRIM36	anencephaly 1	Limited 2017		Existing	20	75	5	0	0	0	0.00329	0.00657	4.8	eb9bc6b6bb12	
+FAM120A	Tourette syndrome	Limited 2017		Novel	0	10	15	75	0	0	0.00464	0.00927	6.3	eb9bc6b6bb12	
+MYL3	arrhythmogenic right ventricular cardiomyopathy	Limited 2018		Existing	5	70	20	5	0	0	0.00322	0.00643	4.7	eb9bc6b6bb12	
+DTNA	dilated cardiomyopathy	Limited 2017		Existing	15	70	15	0	0	0	0.00406	0.00811	5.8	eb9bc6b6bb12	
+ATP5F1D	mitochondrial disease	Limited 2018		Established	80	20	0	0	0	0	0.00318	0.00635	4.8	eb9bc6b6bb12	
+CLCC1	retinitis pigmentosa	Limited 2018		Established	90	10	0	0	0	0	0.00374	0.00747	5.2	eb9bc6b6bb12	
+SNAI1	congenital heart disease	Limited 2017		Hypothesized	5	35	55	5	0	0	0.00545	0.01089	7.8	eb9bc6b6bb12	
+PLCB3	spondylometaphyseal dysplasia	Limited 2018		Established	80	15	4	1	0	0	0.00307	0.00613	4.7	eb9bc6b6bb12	
+PDHA2	spermatogenic failure 70	Limited 2018		Established	70	25	5	0	0	0	0.00332	0.00663	5.3	eb9bc6b6bb12	
+KIF15	braddock-carey syndrome 2	Limited 2017		Established	65	35	0	0	0	0	0.00458	0.00915	6.9	eb9bc6b6bb12	
+PLCB3	spondylometaphyseal dysplasia with corneal dystrophy	Limited 2018		Established	80	20	0	0	0	0	0.00315	0.00629	5.3	eb9bc6b6bb12	
+IL37	inflammatory bowel disease (infantile ulcerative colitis) 31, autosomal recessive	Limited 2017		Existing	35	60	5	0	0	0	0.00431	0.00861	6.3	eb9bc6b6bb12	
+MRPS25	combined oxidative phosphorylation deficiency 50	Limited 2019		Existing	35	60	5	0	0	0	0.0033	0.00659	4.6	eb9bc6b6bb12	
+STXBP3	arthrogryposis syndrome	Limited 2019		Novel	0	5	20	75	0	0	0.00357	0.00713	5.1	eb9bc6b6bb12	
+WDR5	congenital heart disease	Limited 2018		Existing	15	70	15	0	0	0	0.00375	0.00749	5.3	eb9bc6b6bb12	
+ARL6IP6	cutis marmorata telangiectatica congenita	Limited 2019		Existing	10	85	4	1	0	0	0.00342	0.00683	5.0	eb9bc6b6bb12	
+CEP112	spermatogenic failure 44	Limited 2018		Established	85	15	0	0	0	0	0.00474	0.00947	6.5	eb9bc6b6bb12	
+GIGYF1	neurodevelopmental disorder	Limited 2019		Established	80	20	0	0	0	0	0.00371	0.00741	5.7	eb9bc6b6bb12	
+RIOK2	male infertility with azoospermia or oligozoospermia due to single gene mutation	Limited 2020		Novel	0	5	20	75	0	0	0.00336	0.00671	4.8	eb9bc6b6bb12	
+CAV1	amyotrophic lateral sclerosis	Limited 2020		Existing	15	70	15	0	0	0	0.0033	0.00659	4.8	eb9bc6b6bb12	
+HS6ST2	Paganini-Miozzo syndrome	Limited 2019		Established	65	35	0	0	0	0	0.00458	0.00915	6.3	eb9bc6b6bb12	
+EMC10	global developmental delay with or without impaired intellectual development	Limited 2020		Established	95	5	0	0	0	0	0.00428	0.00855	5.8	eb9bc6b6bb12	
+ZFHX2	indifference to pain, congenital, autosomal dominant	Limited 2018		Existing	45	50	5	0	0	0	0.00533	0.01065	7.6	eb9bc6b6bb12	
+KCNAB3	neurodevelopmental disorder	Limited 2020		Hypothesized	0	15	80	5	0	0	0.00352	0.00703	5.1	eb9bc6b6bb12	
+MRPS14	mitochondrial disease	Limited 2019		Existing	40	55	5	0	0	0	0.00469	0.00937	6.5	eb9bc6b6bb12	
+XRCC2	premature ovarian failure 17	Limited 2019		Established	55	40	5	0	0	0	0.00429	0.00857	6.7	eb9bc6b6bb12	
+GPR161	pituitary stalk interruption syndrome	Limited 2020		Existing	25	65	8	2	0	0	0.00445	0.00889	6.1	eb9bc6b6bb12	
+ABCC1	autosomal dominant nonsyndromic hearing loss	Limited 2019		Existing	35	55	8	2	0	0	0.00528	0.01055	7.2	eb9bc6b6bb12	
+TKFC	triokinase and FMN cyclase deficiency syndrome	Limited 2020		Established	95	5	0	0	0	0	0.00432	0.00863	6.2	eb9bc6b6bb12	
+CLDN2	azoospermia, obstructive, with nephrolithiasis	Limited 2019		Existing	45	50	5	0	0	0	0.00584	0.01167	7.7	eb9bc6b6bb12	
+NCOA3	autosomal dominant nonsyndromic hearing loss	Limited 2021		Existing	10	80	10	0	0	0	0.0032	0.00639	4.6	eb9bc6b6bb12	
+SOD2	microvascular complications of diabetes, susceptibility to, 6	Limited 2020		Existing	25	70	5	0	0	0	0.00338	0.00675	5.4	eb9bc6b6bb12	
+VPS26C	neurodevelopmental disorder	Limited 2020		Hypothesized	5	35	55	5	0	0	0.00478	0.00955	6.8	eb9bc6b6bb12	
+BOD1	syndromic intellectual disability	Limited 2020		Existing	25	65	10	0	0	0	0.00492	0.00983	7.0	eb9bc6b6bb12	
+MAD1L1	familial prostate carcinoma	Limited 2022		Existing	5	60	30	5	0	0	0.00311	0.00621	4.6	eb9bc6b6bb12	
+ATP5MC3	mitochondrial disease	Limited 2021		Established	65	30	5	0	0	0	0.00443	0.00885	6.3	eb9bc6b6bb12	
+MYH7	congenital heart disease	Limited 2021		Established	85	15	0	0	0	0	0.00453	0.00905	6.4	eb9bc6b6bb12	
+LAMA4	familial dilated cardiomyopathy	Limited 2021		Existing	15	75	10	0	0	0	0.00475	0.00949	6.4	eb9bc6b6bb12	
+ATP5PB	hypermetabolism due to uncoupled mitochondrial oxidative phosphorylation 2	Limited 2022		Hypothesized	5	25	65	5	0	0	0.00369	0.00737	5.2	eb9bc6b6bb12	
+DLST	pheochromocytoma/paraganglioma syndrome 7	Limited 2021		Established	85	15	0	0	0	0	0.00354	0.00707	5.7	eb9bc6b6bb12	
+MAST2	thrombotic disease	Limited 2021		Existing	15	75	8	2	0	0	0.00453	0.00905	6.2	eb9bc6b6bb12	
+MYADML2	connective tissue disorder	Limited 2021		Novel	0	2	8	90	0	0	0.00398	0.00795	5.9	eb9bc6b6bb12	
+ETV2	congenital heart disease	Limited 2021		Hypothesized	5	35	58	2	0	0	0.00484	0.00967	6.8	eb9bc6b6bb12	
+NFE2L1	syndromic disease	Limited 2022		Existing	10	65	20	5	0	0	0.00345	0.00689	4.9	eb9bc6b6bb12	
+LHX8	inherited primary ovarian failure	Limited 2022		Existing	10	45	45	0	0	0	0.00322	0.00643	4.6	eb9bc6b6bb12	
+C18orf32	glycosylphosphatidylinositol biosynthesis defect 25	Limited 2022		Novel	0	0	5	95	0	0	0.00342	0.00683	4.8	eb9bc6b6bb12	
+NFATC2	joint contractures, osteochondromas, and B-cell lymphoma	Limited 2022		Existing	35	60	5	0	0	0	0.00452	0.00903	6.6	eb9bc6b6bb12	
+YPEL2	retinitis pigmentosa	Limited 2020		Established	85	15	0	0	0	0	0.00589	0.01177	8.3	eb9bc6b6bb12	
+CCDC34	spermatogenic failure 76	Limited 2022		Established	80	20	0	0	0	0	0.00326	0.00651	4.8	eb9bc6b6bb12	
+DLG5	ciliopathy	Limited 2021		Existing	20	65	15	0	0	0	0.00576	0.01151	8.1	eb9bc6b6bb12	
+DNAH14	neurodevelopmental disorder	Limited 2022		Existing	15	65	15	5	0	0	0.00457	0.00913	6.8	eb9bc6b6bb12	
+SLC11A1	Mycobacterium tuberculosis, susceptibility	Limited 2022		Established	85	15	0	0	0	0	0.00355	0.00709	5.5	eb9bc6b6bb12	
+GTF2IRD1	neurodevelopmental disorder	Limited 2023		Existing	15	65	20	0	0	0	0.00367	0.00733	5.2	eb9bc6b6bb12	
+FBN2	carpal tunnel syndrome	Limited 2021		Existing	25	55	15	5	0	0	0.0062	0.01239	8.4	eb9bc6b6bb12	
+NUP50	amyotrophic lateral sclerosis	Limited 2023		Existing	15	75	10	0	0	0	0.00356	0.00711	5.6	eb9bc6b6bb12	
+TRPV1	channelopathy-associated congenital insensitivity to pain, autosomal recessive	Limited 2023		Existing	10	65	25	0	0	0	0.00346	0.00691	4.8	eb9bc6b6bb12	
+MIR145	multisystemic smooth muscle dysfunction syndrome	Limited 2023		Hypothesized	0	5	85	10	0	0	0.00362	0.00723	5.4	eb9bc6b6bb12	
+DNAH14	complex neurodevelopmental disorder	Limited 2022		Existing	20	65	10	5	0	0	0.0047	0.00939	6.6	eb9bc6b6bb12	
+PLXNC1	cerebral cortical dysplasia	Limited 2023		Hypothesized	0	5	65	30	0	0	0.00323	0.00645	4.6	eb9bc6b6bb12	
+MPC2	metabolic disease	Limited 2023		Existing	10	45	45	0	0	0	0.0035	0.00699	5.9	eb9bc6b6bb12	
+SUPT7L	lipodystrophy	Limited 2024		Novel	0	5	15	80	0	0	0.00317	0.00633	4.5	eb9bc6b6bb12	
+IL1R1	chronic recurrent multifocal osteomyelitis 3	Limited 2023		Existing	35	55	10	0	0	0	0.00463	0.00925	6.7	eb9bc6b6bb12	
+MARK4	neurodevelopmental disorder	Limited 2024		Existing	10	65	20	5	0	0	0.00311	0.00621	4.7	eb9bc6b6bb12	
+APOA4	autosomal dominant medullary cystic kidney disease with or without hyperuricemia	Limited 2024		Hypothesized	0	25	65	10	0	0	0.00357	0.00713	5.0	eb9bc6b6bb12	
+CCDC91	punctate palmoplantar keratoderma	Limited 2024		Existing	10	60	25	5	0	0	0.00356	0.00711	5.1	eb9bc6b6bb12	
+SGSM3	intellectual disability	Limited 2024		Hypothesized	0	15	45	40	0	0	0.00397	0.00793	5.5	eb9bc6b6bb12	
+TBC1D31	congenital anomaly of kidney and urinary tract	Limited 2023		Existing	15	55	25	5	0	0	0.00578	0.01155	8.2	eb9bc6b6bb12	
+LY96	inborn error of immunity	Limited 2023		Hypothesized	5	35	55	5	0	0	0.00569	0.01137	7.6	eb9bc6b6bb12	
+CCT4	complex neurodevelopmental disorder	Limited 2024		Existing	10	65	20	5	0	0	0.00343	0.00685	5.2	eb9bc6b6bb12	
+KAT2B	steroid-resistant nephrotic syndrome	Limited 2024		Existing	0	60	30	10	0	0	0.00321	0.00641	4.8	eb9bc6b6bb12	
+CELSR1	hydrops fetalis	Limited 2024		Existing	15	75	10	0	0	0	0.00493	0.00985	6.6	eb9bc6b6bb12	
+AFDN	cleft lip/palate	Limited 2024		Existing	5	45	45	5	0	0	0.00348	0.00695	4.9	eb9bc6b6bb12	
+CFAP47	polycystic kidney disease	Limited 2024		Hypothesized	0	25	65	10	0	0	0.00361	0.00721	5.3	eb9bc6b6bb12	
+TUFM	inherited primary ovarian failure	Limited 2023		Hypothesized	0	10	55	35	0	0	0.00551	0.01101	8.6	eb9bc6b6bb12	
+MMS19	neurodegenerative disease	Limited 2024		Hypothesized	0	15	75	10	0	0	0.00449	0.00897	6.1	eb9bc6b6bb12	
+IRAK2	immune dysregulation, autoimmunity, and autoinflammation	Limited 2024		Existing	5	55	38	2	0	0	0.00473	0.00945	6.7	eb9bc6b6bb12	
+CNKSR1	neurodevelopmental disorder	Limited 2011		Existing	15	65	15	5	0	0	0.00335	0.00669	4.9	eb9bc6b6bb12	
+PRMT9	Mendelian neurodevelopmental disorder	Limited 2024		Existing	35	55	8	2	0	0	0.005	0.00999	7.3	eb9bc6b6bb12	
+USP27X	X-linked intellectual disability	Limited 2015		Established	80	20	0	0	0	0	0.00323	0.00645	4.8	eb9bc6b6bb12	
+ATP6V1C1	neurodevelopmental disorder	Limited 2024		Hypothesized	0	15	75	10	0	0	0.00483	0.00965	6.9	eb9bc6b6bb12	
+SLC4A8	schizophrenia	Limited 2012		Existing	0	60	30	10	0	0	0.00312	0.00623	5.0	eb9bc6b6bb12	
+MYBPC3	congenital heart disease	Limited 2011		Existing	25	65	10	0	0	0	0.00338	0.00675	4.9	eb9bc6b6bb12	
+LRRC45	complex neurodevelopmental disorder	Limited 2025		Existing	15	55	25	5	0	0	0.00435	0.00869	6.6	eb9bc6b6bb12	
+SIRT1	autoimmune disease	Limited 2013		Existing	10	65	25	0	0	0	0.00336	0.00671	5.2	eb9bc6b6bb12	
+BMP5	skeletal dysplasia	Limited 2025		Hypothesized	0	15	85	0	0	0	0.00519	0.01037	7.0	eb9bc6b6bb12	
+DDX59	ciliopathy	Limited 2013		Established	85	15	0	0	0	0	0.00404	0.00807	5.6	eb9bc6b6bb12	
+HNRNPA0	Tourette syndrome	Limited 2015		Novel	0	5	15	80	0	0	0.00329	0.00657	5.4	eb9bc6b6bb12	
+COQ5	neurodevelopmental disorder	Limited 2011		Existing	25	65	10	0	0	0	0.00428	0.00855	6.0	eb9bc6b6bb12	
+HIVEP1	complex neurodevelopmental disorder	Limited 2019		Existing	5	45	40	10	0	0	0.00329	0.00657	4.7	eb9bc6b6bb12	
+ME2	inborn disorder of energy metabolism	Limited 2025		Hypothesized	5	25	65	5	0	0	0.00493	0.00985	7.7	eb9bc6b6bb12	
+IARS2	Leigh syndrome	Limited 2014		Established	85	15	0	0	0	0	0.00418	0.00835	6.1	eb9bc6b6bb12	
+CENPT	short stature and microcephaly with genital anomalies	Limited 2017		Existing	15	80	5	0	0	0	0.00359	0.00717	5.0	eb9bc6b6bb12	
+INTS8	neurodevelopmental disorder with cerebellar hypoplasia and spasticity	Limited 2017		Established	85	15	0	0	0	0	0.0032	0.00639	5.0	eb9bc6b6bb12	
+WBP2	hearing loss, autosomal recessive	Limited 2016		Established	65	35	0	0	0	0	0.00455	0.00909	6.6	eb9bc6b6bb12	
+FLRT3	hypogonadotropic hypogonadism 21 with or without anosmia	Limited 2013		Established	80	20	0	0	0	0	0.00344	0.00687	5.0	eb9bc6b6bb12	
+ZBTB40	neurodevelopmental disorder	Limited 2011		Novel	0	25	35	40	0	0	0.00551	0.01101	7.8	eb9bc6b6bb12	
+CLPB	Leigh syndrome	Limited 2015		Existing	5	45	45	5	0	0	0.00327	0.00653	4.9	eb9bc6b6bb12	
+MRPS23	combined oxidative phosphorylation deficiency 46	Limited 2016		Existing	35	60	5	0	0	0	0.00329	0.00657	5.3	eb9bc6b6bb12	
+TNK2	genetic generalized epilepsy	Limited 2013		Existing	5	75	15	5	0	0	0.00284	0.00567	4.4	eb9bc6b6bb12	
+PRICKLE2	complex neurodevelopmental disorder	Limited 2011		Existing	15	75	10	0	0	0	0.00301	0.00601	4.7	eb9bc6b6bb12	
+SETD1A	epilepsy, early-onset, with or without developmental delay	Limited 2014		Established	95	5	0	0	0	0	0.00335	0.00669	5.6	eb9bc6b6bb12	
+ITSN1	complex neurodevelopmental disorder	Limited 2016		Established	65	30	5	0	0	0	0.0049	0.00979	7.1	eb9bc6b6bb12	
+HKDC1	retinitis pigmentosa	Limited 2018		Existing	10	75	10	5	0	0	0.00341	0.00681	5.4	eb9bc6b6bb12	
+NEBL	familial dilated cardiomyopathy	Limited 2021		Existing	10	80	10	0	0	0	0.00361	0.00721	5.6	eb9bc6b6bb12	
+STK33	spermatogenic failure 93	Limited 2018		Established	80	20	0	0	0	0	0.00334	0.00667	5.4	eb9bc6b6bb12	
+CALCRL	lymphatic malformation 8	Limited 2018		Established	85	15	0	0	0	0	0.0035	0.00699	5.6	eb9bc6b6bb12	
+GTF3A	herpes simplex encephalitis	Limited 2022		Existing	15	80	5	0	0	0	0.00336	0.00671	5.1	eb9bc6b6bb12	
+SLC51A	cholestasis, progressive familial intrahepatic, 6	Limited 2020		Established	70	25	5	0	0	0	0.00421	0.00841	6.2	eb9bc6b6bb12	
+IFT74	spermatogenic failure 58	Limited 2018		Established	65	35	0	0	0	0	0.00489	0.00977	7.1	eb9bc6b6bb12	
+GATC	inborn mitochondrial metabolism disorder	Limited 2018		Established	85	15	0	0	0	0	0.00487	0.00973	7.1	eb9bc6b6bb12	
+RAB35	neurodevelopmental disorder	Limited 2023		Hypothesized	5	25	65	5	0	0	0.00331	0.00661	5.3	eb9bc6b6bb12	
+ZNF862	hereditary gingival fibromatosis	Limited 2022		Existing	20	75	4	1	0	0	0.00414	0.00827	5.9	eb9bc6b6bb12	
+VEZF1	cardiomyopathy, dilated, 100	Limited 2023		Existing	35	60	5	0	0	0	0.00434	0.00867	6.3	eb9bc6b6bb12	
+MCF2L	vascular malformation	Limited 2023		Hypothesized	0	35	50	15	0	0	0.00324	0.00647	5.2	eb9bc6b6bb12	
+ADCY1	nonsyndromic genetic hearing loss	Limited 2014		Established	80	15	5	0	0	0	0.00316	0.00631	5.0	eb9bc6b6bb12	
+ATG9A	immunodeficiency disease	Limited 2023		Existing	10	65	20	5	0	0	0.00318	0.00635	5.4	eb9bc6b6bb12	
+SERPINA11	hydrops fetalis	Limited 2024		Existing	5	75	15	5	0	0	0.00335	0.00669	6.1	eb9bc6b6bb12	
+SLIRP	inborn mitochondrial metabolism disorder	Limited 2021		Existing	10	45	45	0	0	0	0.00338	0.00675	5.4	eb9bc6b6bb12	
+DAAM2	androgen insensitivity syndrome	Limited 2023		Existing	5	75	18	2	0	0	0.00324	0.00647	5.4	eb9bc6b6bb12	
+TRIM47	genetic cerebral small vessel disease	Limited 2022		Existing	5	75	15	5	0	0	0.00364	0.00727	6.3	eb9bc6b6bb12	
+SIX2	congenital anomaly of kidney and urinary tract	Limited 2014		Established	80	20	0	0	0	0	0.00326	0.00651	5.4	eb9bc6b6bb12	
+HKDC1	retinitis pigmentosa 92	Limited 2018		Established	60	35	5	0	0	0	0.00485	0.00969	8.2	eb9bc6b6bb12	
+NALCN	temporal lobe epilepsy	Limited 2023		Hypothesized	0	25	65	10	0	0	0.00331	0.00661	5.6	eb9bc6b6bb12	
+PHF10	multiple congenital anomalies/dysmorphic syndrome	Limited 2023		Existing	5	45	45	5	0	0	0.00376	0.00751	5.5	eb9bc6b6bb12	
+TLR4	inflammatory bowel disease	Limited 2019		Existing	15	75	10	0	0	0	0.00339	0.00677	5.6	eb9bc6b6bb12	
+NPTX1	autosomal dominant cerebellar ataxia	Limited 2022		Established	65	30	5	0	0	0	0.00443	0.00885	7.0	eb9bc6b6bb12	
+PPCDC	dilated cardiomyopathy	Limited 2023		Existing	25	65	8	2	0	0	0.00423	0.00845	6.4	eb9bc6b6bb12	
+NRG1	peripheral neuropathy	Limited 2022		Hypothesized	5	30	64	1	0	0	0.00531	0.01061	8.3	eb9bc6b6bb12	
+VPS50	hydrocephalus	Limited 2023		Hypothesized	0	25	45	30	0	0	0.00462	0.00923	6.7	eb9bc6b6bb12	
+LAMA5	bent bone dysplasia syndrome 2	Limited 2020		Established	60	35	5	0	0	0	0.00394	0.00787	6.9	eb9bc6b6bb12	

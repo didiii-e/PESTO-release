@@ -1,0 +1,211 @@
+year	gene	phenotype	disease_curie	n_pmids	oldest_pmid
+2010	IRAG1	achalasia	MONDO:0008698	2	20080989
+2010	ADAMTS9	ciliopathy	MONDO:0005308	4	20096780
+2010	SLC34A1	Fanconi renotubular syndrome 2	MONDO:0013247	1	20335586
+2010	SPTAN1	hereditary spastic paraplegia	MONDO:0019064	6	20493457
+2010	PDGFRA	congenital heart disease	MONDO:0005453	2	20071345
+2010	SHANK3	schizophrenia 15	MONDO:0013498	4	20385823
+2010	LAS1L	X-linked syndromic intellectual disability	MONDO:0020119	8	20647540
+2010	SOBP	intellectual disability, anterior maxillary protrusion, and strabismus	MONDO:0013353	1	21035105
+2010	C19orf12	hereditary spastic paraplegia 43	MONDO:0014024	4	20039086
+2010	DIAPH3	auditory neuropathy	MONDO:0021944	2	20624953
+2011	TRIM69	hereditary predisposition to infections	MONDO:0015979	1	22105173
+2011	MOG	narcolepsy 7	MONDO:0013652	1	21907016
+2011	TECR	intellectual disability	MONDO:0001071	3	21212097
+2011	CRYGB	cataract 39 multiple types	MONDO:0014075	2	21941057
+2011	PECR	neurodevelopmental disorder	MONDO:0700092	1	21937992
+2011	ARL14EP	neurodevelopmental disorder	MONDO:0700092	1	21937992
+2011	H3-4	neurodevelopmental disorder	MONDO:0700092	1	21937992
+2011	AKT1	Cowden syndrome 6	MONDO:0014048	3	21194675
+2011	SEPTIN12	spermatogenic failure 10	MONDO:0013901	6	20801438
+2011	NDUFA12	Leigh syndrome	MONDO:0009723	3	21617257
+2012	CFHR3	hemolytic uremic syndrome, atypical, susceptibility to, 1	MONDO:0009335	1	22626820
+2012	FOXD3	anterior segment dysgenesis	MONDO:0019503	1	22815627
+2012	FUS	tremor, hereditary essential, 4	MONDO:0013888	5	22863194
+2012	RNLS	cataract	MONDO:0005129	1	22935719
+2012	KCTD13	neurodevelopmental disorder	MONDO:0700092	3	22596160
+2012	TNIK	non-syndromic intellectual disability	MONDO:0000509	3	23035106
+2012	AP2A2	schizophrenia	MONDO:0005090	1	23042115
+2012	CTNNA3	arrhythmogenic right ventricular cardiomyopathy	MONDO:0016587	2	22421363
+2012	CPA6	familial temporal lobe epilepsy 5	MONDO:0013741	7	21922598
+2012	ABCB6	microphthalmia, isolated, with coloboma 7	MONDO:0013783	4	22226084
+2013	MRPL12	combined oxidative phosphorylation deficiency 45	MONDO:0033533	1	23603806
+2013	ELMOD3	nonsyndromic genetic hearing loss	MONDO:0019497	4	24039609
+2013	NPPA	atrial standstill 2	MONDO:0014329	1	23275345
+2013	STT3B	congenital disorder of glycosylation	MONDO:0015286	3	23842455
+2013	AGBL1	corneal dystrophy, Fuchs endothelial, 8	MONDO:0014228	2	24094747
+2013	DTHD1	LCAT deficiency	MONDO:0018999	1	23105016
+2013	CDK6	microcephaly 12, primary, autosomal recessive	MONDO:0014484	1	23918663
+2013	MAP2K2	Noonan syndrome	MONDO:0018997	3	23875798
+2013	DNM2	fetal akinesia-cerebral and retinal hemorrhage syndrome	MONDO:0014149	1	23092955
+2013	ABCB6	familial pseudohyperkalemia	MONDO:0012204	1	23180570
+2014	TBXT	sacral agenesis-abnormal ossification of the vertebral bodies-persistent notochordal canal syndrome	MONDO:0014314	2	24253444
+2014	ABCA5	gingival fibromatosis-hypertrichosis syndrome	MONDO:0007610	1	24831815
+2014	KPNA7	epilepsy	MONDO:0005027	3	24045845
+2014	TSEN54	cerebellar ataxia	MONDO:0000437	1	24938831
+2014	KIF4A	complex neurodevelopmental disorder with or without congenital anomalies	MONDO:0100465	3	24812067
+2014	DNAH8	primary ciliary dyskinesia	MONDO:0016575	1	24307375
+2014	BMP7	isolated craniosynostosis	MONDO:0015337	3	24429398
+2014	RGS6	neurodevelopmental disorder	MONDO:0700092	2	25525169
+2014	RPS20	Lynch syndrome	MONDO:0005835	3	24941021
+2014	FBXO32	dilated cardiomyopathy	MONDO:0005021	4	24789905
+2015	KITLG	Waardenburg syndrome 2F	MONDO:0030983	2	26522471
+2015	PRIMA1	frontal lobe epilepsy	MONDO:0002612	1	26339676
+2015	APC2	intellectual developmental disorder, autosomal recessive 74	MONDO:0014951	1	25753423
+2015	KLC4	early-childhood-onset neurodegeneration with retinitis pigmentosa, sensorineural hearing loss, and demyelinating peripheral neuropathy	MONDO:0700288	1	26423925
+2015	PRICKLE1	epilepsy	MONDO:0005027	6	26727662
+2015	TNNI1	childhood-onset nemaline myopathy	MONDO:0015738	3	25613900
+2015	SPP2	retinitis pigmentosa	MONDO:0019200	1	26459573
+2015	PRIMA1	epilepsy	MONDO:0005027	1	26339676
+2015	ASPN	osteoarthritis susceptibility 3	MONDO:0011923	1	25689697
+2015	NDUFV2	Leigh syndrome	MONDO:0009723	2	26008862
+2016	TCF7L1	combined pituitary hormone deficiencies, genetic form	MONDO:0013099	1	26764381
+2016	TOP6BL	hydatidiform mole, recurrent, 4	MONDO:0032747	2	26917764
+2016	PNPLA4	mitochondrial disease	MONDO:0044970	1	26741492
+2016	SPTBN5	neurodevelopmental disorder	MONDO:0700092	3	28007035
+2016	IFT57	orofaciodigital syndrome 18	MONDO:0054770	3	26655555
+2016	SMARCA1	schizophrenia	MONDO:0005090	1	27001614
+2016	SEMA3E	CHARGE syndrome	MONDO:0008965	7	26633542
+2016	CDK16	intellectual disability	MONDO:0001071	2	25644381
+2016	SLC22A4	hearing loss, autosomal recessive	MONDO:0019588	2	27023905
+2016	SLC14A1	blood group, kidd system	MONDO:0020612	2	27834480
+2017	FAM120A	Tourette syndrome	MONDO:0007661	1	28472652
+2017	SNAI1	congenital heart disease	MONDO:0005453	3	28880281
+2017	ATAD3C	pontocerebellar hypoplasia, hypotonia, and respiratory insufficiency syndrome, neonatal lethal	MONDO:0032931	3	28549128
+2017	KIF17	microphthalmia, isolated, with coloboma	MONDO:0000170	3	28341548
+2017	ERBIN	autosomal dominant combined immunodeficiency due to ERBIN deficiency	MONDO:0958120	2	28126831
+2017	TNNT1	nemaline myopathy 5C, autosomal dominant	MONDO:0957284	1	29178646
+2017	TRIM36	anencephaly 1	MONDO:0008791	1	28087737
+2017	KIF15	braddock-carey syndrome 2	MONDO:0859570	4	28150392
+2017	DTNA	dilated cardiomyopathy	MONDO:0005021	3	27532257
+2017	IL37	inflammatory bowel disease (infantile ulcerative colitis) 31, autosomal recessive	MONDO:0030314	3	28181534
+2018	CLCC1	retinitis pigmentosa	MONDO:0019200	1	30157172
+2018	MYL3	arrhythmogenic right ventricular cardiomyopathy	MONDO:0016587	1	29709087
+2018	MARK3	visual impairment and progressive phthisis bulbi	MONDO:0032655	1	29771303
+2018	PDHA2	spermatogenic failure 70	MONDO:0030733	2	29581481
+2018	CEP112	spermatogenic failure 44	MONDO:0033622	2	30296263
+2018	ATP5F1D	mitochondrial disease	MONDO:0044970	2	29478781
+2018	PLCB3	spondylometaphyseal dysplasia	MONDO:0016763	1	29122926
+2018	PLCB3	spondylometaphyseal dysplasia with corneal dystrophy	MONDO:0030074	1	29122926
+2018	WDR5	congenital heart disease	MONDO:0005453	3	30377171
+2018	ZFHX2	indifference to pain, congenital, autosomal dominant	MONDO:0007828	1	29253101
+2019	STXBP3	arthrogryposis syndrome	MONDO:0015225	2	31130284
+2019	GIGYF1	neurodevelopmental disorder	MONDO:0700092	4	31439631
+2019	ARL6IP6	cutis marmorata telangiectatica congenita	MONDO:0009055	1	31142202
+2019	MRPS25	combined oxidative phosphorylation deficiency 50	MONDO:0033570	1	31039582
+2019	HS6ST2	Paganini-Miozzo syndrome	MONDO:0026724	1	30471091
+2019	CLDN2	azoospermia, obstructive, with nephrolithiasis	MONDO:0025356	2	31320686
+2019	ABCC1	autosomal dominant nonsyndromic hearing loss	MONDO:0019587	1	31273342
+2019	NOTCH3	inherited thrombocytopenia	MONDO:0100241	1	31729093
+2019	XRCC2	premature ovarian failure 17	MONDO:0030870	1	30489636
+2019	MRPS14	mitochondrial disease	MONDO:0044970	2	30358850
+2020	EMC10	global developmental delay with or without impaired intellectual development	MONDO:0032680	1	32869858
+2020	RIOK2	male infertility with azoospermia or oligozoospermia due to single gene mutation	MONDO:0018393	1	32719396
+2020	GPR161	pituitary stalk interruption syndrome	MONDO:0019828	1	31609649
+2020	TKFC	triokinase and FMN cyclase deficiency syndrome	MONDO:0032927	1	32004446
+2020	CAV1	amyotrophic lateral sclerosis	MONDO:0004976	2	33264630
+2020	VPS26C	neurodevelopmental disorder	MONDO:0700092	1	31845315
+2020	KCNAB3	neurodevelopmental disorder	MONDO:0700092	3	32990398
+2020	BOD1	syndromic intellectual disability	MONDO:0000508	1	32578875
+2020	SOD2	microvascular complications of diabetes, susceptibility to, 6	MONDO:0012970	1	31494578
+2020	YPEL2	retinitis pigmentosa	MONDO:0019200	1	33022222
+2021	ATP5MC3	mitochondrial disease	MONDO:0044970	3	33340416
+2021	MYH7	congenital heart disease	MONDO:0005453	3	33309763
+2021	NCOA3	autosomal dominant nonsyndromic hearing loss	MONDO:0019587	1	33326993
+2021	LAMA4	familial dilated cardiomyopathy	MONDO:0016333	1	33947203
+2021	DLG5	ciliopathy	MONDO:0005308	1	32631816
+2021	MAST2	thrombotic disease	MONDO:0000831	1	33465109
+2021	ETV2	congenital heart disease	MONDO:0005453	1	33359164
+2021	DLST	pheochromocytoma/paraganglioma syndrome 7	MONDO:0032771	1	33180916
+2021	FBN2	carpal tunnel syndrome	MONDO:0007275	1	32900841
+2021	MYADML2	connective tissue disorder	MONDO:0003900	1	32778762
+2022	MAD1L1	familial prostate carcinoma	MONDO:0023122	1	36322655
+2022	ATP5PB	hypermetabolism due to uncoupled mitochondrial oxidative phosphorylation 2	MONDO:0859302	1	36239646
+2022	NFATC2	joint contractures, osteochondromas, and B-cell lymphoma	MONDO:0859369	1	35789258
+2022	DNAH14	neurodevelopmental disorder	MONDO:0700092	1	35438214
+2022	NFE2L1	syndromic disease	MONDO:0002254	1	35112409
+2022	C18orf32	glycosylphosphatidylinositol biosynthesis defect 25	MONDO:0859271	1	35107634
+2022	LHX8	inherited primary ovarian failure	MONDO:0019852	1	36029299
+2022	DNAH14	complex neurodevelopmental disorder	MONDO:0100038	2	35438214
+2022	SLC11A1	Mycobacterium tuberculosis, susceptibility	MONDO:0000070	1	35140349
+2022	CCDC34	spermatogenic failure 76	MONDO:0031077	1	34348960
+2023	TBC1D31	congenital anomaly of kidney and urinary tract	MONDO:0019719	1	37468454
+2023	IL1R1	chronic recurrent multifocal osteomyelitis 3	MONDO:0958177	1	37315560
+2023	GTF2IRD1	neurodevelopmental disorder	MONDO:0700092	1	36308390
+2023	NUP50	amyotrophic lateral sclerosis	MONDO:0004976	1	36670122
+2023	MPC2	metabolic disease	MONDO:0005066	1	36417180
+2023	MIR145	multisystemic smooth muscle dysfunction syndrome	MONDO:0013452	1	36649075
+2023	LY96	inborn error of immunity	MONDO:0003778	1	36462957
+2023	TUFM	inherited primary ovarian failure	MONDO:0019852	1	37461298
+2023	TRPV1	channelopathy-associated congenital insensitivity to pain, autosomal recessive	MONDO:0009459	2	36454632
+2023	PLXNC1	cerebral cortical dysplasia	MONDO:0017094	1	36808730
+2024	SUPT7L	lipodystrophy	MONDO:0006573	1	38592547
+2024	SGSM3	intellectual disability	MONDO:0001071	1	37833060
+2024	APOA4	autosomal dominant medullary cystic kidney disease with or without hyperuricemia	MONDO:0008264	1	38096951
+2024	CCDC91	punctate palmoplantar keratoderma	MONDO:0017675	1	38627542
+2024	CELSR1	hydrops fetalis	MONDO:0015193	1	38272662
+2024	CIAO1	multiple mitochondrial dysfunctions syndrome 10	MONDO:0975806	2	38411040
+2024	CCT7	complex neurodevelopmental disorder	MONDO:0100038	1	39480921
+2024	MARK4	neurodevelopmental disorder	MONDO:0700092	1	38041405
+2024	PRMT9	Mendelian neurodevelopmental disorder	MONDO:0100500	1	38561334
+2024	CCT4	complex neurodevelopmental disorder	MONDO:0100038	1	39480921
+2024	IRAK2	immune dysregulation, autoimmunity, and autoinflammation	MONDO:0957790	1	39299377
+2024	ZFTRAF1	neurodevelopmental disorder	MONDO:0700092	1	38641995
+2024	ATP6V1C1	neurodevelopmental disorder	MONDO:0700092	1	39210597
+2024	MMS19	neurodegenerative disease	MONDO:0005559	1	38411040
+2024	CFAP47	polycystic kidney disease	MONDO:0020642	1	39698362
+2024	KAT2B	steroid-resistant nephrotic syndrome	MONDO:0044765	1	39366742
+2024	AFDN	cleft lip/palate	MONDO:0016044	1	36384317
+2025	ME2	inborn disorder of energy metabolism	MONDO:0019243	1	39401966
+2025	LRRC45	complex neurodevelopmental disorder	MONDO:0100038	1	39638757
+2025	BMP5	skeletal dysplasia	MONDO:0018230	1	39239663
+2012	SLC4A8	schizophrenia	MONDO:0005090	1	23042115
+2013	TNK2	genetic generalized epilepsy	MONDO:0100575	3	23686771
+2011	COQ5	neurodevelopmental disorder	MONDO:0700092	1	21937992
+2011	MYBPC3	congenital heart disease	MONDO:0005453	9	22194935
+2011	CNKSR1	neurodevelopmental disorder	MONDO:0700092	1	21937992
+2013	SIRT1	autoimmune disease	MONDO:0007179	1	23473037
+2011	PRICKLE2	complex neurodevelopmental disorder	MONDO:0100038	3	21276947
+2013	DDX59	ciliopathy	MONDO:0005308	3	23972372
+2013	FLRT3	hypogonadotropic hypogonadism 21 with or without anosmia	MONDO:0014107	2	23643382
+2011	ZBTB40	neurodevelopmental disorder	MONDO:0700092	1	21937992
+2015	HNRNPA0	Tourette syndrome	MONDO:0007661	3	25716654
+2016	ITSN1	complex neurodevelopmental disorder	MONDO:0100038	2	28773821
+2015	USP27X	X-linked intellectual disability	MONDO:0100284	3	25846153
+2017	INTS8	neurodevelopmental disorder with cerebellar hypoplasia and spasticity	MONDO:0032818	1	28542170
+2014	SETD1A	epilepsy, early-onset, with or without developmental delay	MONDO:0030005	3	24853937
+2016	WBP2	hearing loss, autosomal recessive	MONDO:0019588	1	26881968
+2014	IARS2	Leigh syndrome	MONDO:0009723	4	25130867
+2016	MRPS23	combined oxidative phosphorylation deficiency 46	MONDO:0033534	1	26741492
+2015	CLPB	Leigh syndrome	MONDO:0009723	4	25597510
+2017	CENPT	short stature and microcephaly with genital anomalies	MONDO:0032875	1	29228025
+2019	HIVEP1	complex neurodevelopmental disorder	MONDO:0100038	1	31130284
+2018	IFT74	spermatogenic failure 58	MONDO:0030463	3	29068549
+2021	ILK	familial dilated cardiomyopathy	MONDO:0016333	1	33947203
+2018	GATC	inborn mitochondrial metabolism disorder	MONDO:0004069	1	30283131
+2018	CALCRL	lymphatic malformation 8	MONDO:0032907	1	30115739
+2021	NEBL	familial dilated cardiomyopathy	MONDO:0016333	1	33947203
+2018	HKDC1	retinitis pigmentosa	MONDO:0019200	1	30085091
+2018	STK33	spermatogenic failure 93	MONDO:0971000	2	29155043
+2020	SLC51A	cholestasis, progressive familial intrahepatic, 6	MONDO:0030360	1	31863603
+2018	HKDC1	retinitis pigmentosa 92	MONDO:0030619	1	30085091
+2024	SERPINA11	hydrops fetalis	MONDO:0015193	1	38831697
+2023	RAB35	neurodevelopmental disorder	MONDO:0700092	2	36928819
+2023	ATG9A	immunodeficiency disease	MONDO:0021094	1	35838483
+2023	VEZF1	cardiomyopathy, dilated, 100	MONDO:0859381	1	36657711
+2022	ZNF862	hereditary gingival fibromatosis	MONDO:0016070	1	35142290
+2023	MCF2L	vascular malformation	MONDO:0024291	1	36760094
+2022	GTF3A	herpes simplex encephalitis	MONDO:0012521	1	36399538
+2022	TRIM47	genetic cerebral small vessel disease	MONDO:0018787	1	35511193
+2022	NRG1	peripheral neuropathy	MONDO:0005244	1	35485770
+2022	NPTX1	autosomal dominant cerebellar ataxia	MONDO:0020380	3	34788392
+2014	SIX2	congenital anomaly of kidney and urinary tract	MONDO:0019719	1	24429398
+2014	ADCY1	nonsyndromic genetic hearing loss	MONDO:0019497	1	24482543
+2019	TLR4	inflammatory bowel disease	MONDO:0005265	3	31083239
+2020	LAMA5	bent bone dysplasia syndrome 2	MONDO:0859573	1	33242826
+2021	SLIRP	inborn mitochondrial metabolism disorder	MONDO:0004069	1	34426662
+2023	DAAM2	androgen insensitivity syndrome	MONDO:0019154	1	36972684
+2023	PPCDC	dilated cardiomyopathy	MONDO:0005021	1	36564894
+2023	VPS50	hydrocephalus	MONDO:0001150	1	37644014
+2023	PHF10	multiple congenital anomalies/dysmorphic syndrome	MONDO:0019042	1	37500730
+2023	NALCN	temporal lobe epilepsy	MONDO:0005115	1	37046053

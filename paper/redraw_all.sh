@@ -53,3 +53,10 @@ Rscript scripts/170_figure_supp_fulltext.R
 
 echo "== Supplementary Figure 7 (references from model knowledge)"
 Rscript scripts/280_figure_supp_citations.R
+
+echo "== Supplementary Figure 8 (Figure 2 with Gemini models)"
+"$PY" scripts/302_gemini_fig2_mirror.py --draw
+
+echo "== Supplementary Figure 9 (Claude and Gemini compared)"
+"$PY" scripts/303_gemini_fig2_comparison.py
+Rscript scripts/304_figure_gemini_comparison.R
