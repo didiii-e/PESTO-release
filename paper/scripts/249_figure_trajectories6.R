@@ -12,6 +12,7 @@
 #   Rscript scripts/249_figure_trajectories6.R
 #     -> figures/figure_trajectories6.{png,pdf}
 
+source(file.path(dirname(sub("--file=", "", grep("--file=", commandArgs(FALSE), value = TRUE)[1])), "_helvetica.R"))
 suppressPackageStartupMessages({
   library(ggplot2)
   library(dplyr)
@@ -89,5 +90,5 @@ fig <- ggplot(d, aes(when, score, group = gene)) +
 
 out <- file.path(root, "figures", "figure_trajectories6")
 ggsave(paste0(out, ".png"), fig, width = 10, height = 4.8, dpi = 300, bg = "white")
-ggsave(paste0(out, ".pdf"), fig, width = 10, height = 4.8, bg = "white", device = cairo_pdf)
+ggsave(paste0(out, ".pdf"), fig, width = 10, height = 4.8, bg = "white", device = cairo_pdf, symbolfamily = grDevices::cairoSymbolFont(FONT, usePUA = FALSE))
 message("wrote ", out, ".{png,pdf}")

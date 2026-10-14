@@ -16,6 +16,7 @@
 # Writes figures/figure_supp_fulltext.{png,pdf}.
 # Usage: Rscript scripts/170_figure_supp_fulltext.R
 
+source(file.path(dirname(sub("--file=", "", grep("--file=", commandArgs(FALSE), value = TRUE)[1])), "_helvetica.R"))
 suppressPackageStartupMessages({
   library(ggplot2)
   library(dplyr)

@@ -9,6 +9,7 @@
 #   Rscript scripts/231_fetal_cell_type_heatmap.R
 # writes figures/figure_fetal_cell_types.{png,pdf}.
 
+source(file.path(dirname(sub("--file=", "", grep("--file=", commandArgs(FALSE), value = TRUE)[1])), "_helvetica.R"))
 suppressPackageStartupMessages({ library(dplyr); library(readr); library(ggplot2) })
 
 root <- normalizePath(file.path(dirname(sub("--file=", "",
@@ -31,7 +32,7 @@ d <- g %>% mutate(phenotype = factor(phenotype, levels = SHORT),
                   mark = ifelse(fdr < 0.05, "**", ifelse(p < 0.05, "*", "")))
 p <- ggplot(d, aes(phenotype, label, fill = l2)) +
   geom_tile(colour = "white", linewidth = 0.4) +
-  geom_text(aes(label = mark), size = 3.6, vjust = 0.75) +
+  geom_text(aes(label = mark), size = 5.8, vjust = 0.8) +  # Helvetica's asterisk is small and set high
   facet_grid(group ~ ., scales = "free_y", space = "free_y", switch = "y") +
   scale_fill_gradient2(low = "#2C6E8F", mid = "grey96", high = "#B33A3A", midpoint = 0,
                        limits = c(-3, 3), breaks = log2(c(0.125, 1, 8)),

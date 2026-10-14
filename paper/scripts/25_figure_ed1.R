@@ -13,6 +13,7 @@
 #
 # Usage: Rscript scripts/25_figure_ed1.R
 
+source(file.path(dirname(sub("--file=", "", grep("--file=", commandArgs(FALSE), value = TRUE)[1])), "_helvetica.R"))
 suppressPackageStartupMessages({
   library(ggplot2)
   library(dplyr)

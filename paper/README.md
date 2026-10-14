@@ -16,6 +16,10 @@ bash redraw_all.sh
 
 This calls no model and needs no API key. It takes about two minutes.
 
+Every figure is set in Helvetica: each script sources `scripts/_helvetica.R`.
+On Linux, Helvetica resolves to its metric clone Nimbus Sans, from the URW base
+fonts (`fonts-urw-base35` on Debian and Ubuntu).
+
 | Item | Script(s) | Output |
 |---|---|---|
 | Figure 1 | `20_figure1.R` (+ `pipeline_schema.R`) | `figures/figure1_v7.png` |
@@ -26,7 +30,7 @@ This calls no model and needs no API key. It takes about two minutes.
 | Extended Data Table 1 | `19_build_ed1_v2_table.py`, `22_figure_ed1_v3.R` | `figures/table_ed1_v3.png` |
 | Extended Data Fig. 1 | `25_figure_ed1.R` | `figures/figure_ed1.png` |
 | Extended Data Fig. 2 | `143_ed2_titles_data.py`, `144_figure_ed2_titles.R` | `figures/figure_ed2_titles.png` |
-| Extended Data Fig. 3 | `127_fig2_roc_candidate.py`, `128_figure2_roc_candidate.R` | `figures/figure2_roc_candidate.png` |
+| Extended Data Fig. 3 | `127_fig2_roc_candidate.py`, `ED3=1 128_figure2_roc_candidate.R` (without `ED3=1`, the prompts keep their package names) | `figures/figure_ed3_prompt_ablations.png` |
 | Extended Data Figs. 4 and 5 | `236_extended_data_panel670.R .` (reads `results/tissue_enrichment/grid.tsv`, built by `198_tissue_enrichment_grid.R`, and `results/biology/cell_types_grid.tsv` and `fetal_cell_types_grid.tsv`) | `figures/figure_ed4.png`, `figures/figure_ed5.png` |
 | Supplementary Table 1 | `145_supplementary_table1.py` | `results/supplementary_table1.xlsx` |
 | Supplementary Figure 1 (the pipeline, step by step) | `172_pipeline_detailed_schema.R` (+ `pipeline_schema.R`) | `figures/pipeline_detailed.png` |
@@ -35,6 +39,7 @@ This calls no model and needs no API key. It takes about two minutes.
 | Supplementary Figure 4 | `150_bodyonly_data.py`, `170_figure_supp_fulltext.R` (+ `172_pipeline_detailed_schema.R` for a; e reads `results/modes_benchmark_140/`) | `figures/figure_supp_fulltext.png` |
 | Supplementary Figure 5 | screenshots of `pesto browser`, not drawn by a script | — |
 | Supplementary Figure 6 | `231_fetal_cell_type_heatmap.R` (reads `results/biology/fetal_cell_types_grid.tsv`) | `figures/figure_fetal_cell_types.png` |
+| Supplementary Figure 7 | `280_figure_supp_citations.R` (+ `_panel_citations.R`; reads `results/knowledge_citations/pair_summary.tsv` and `ref_checks.tsv`) | `figures/figure_supp_citations.png` |
 | Supplementary Note 1, run-to-run variability (table) | `183_reproducibility_stats.py` | `results/reproducibility_aou50/summary.tsv` |
 | Supplementary Note 5, sensitivity of the tissue analyses (table) | `198_tissue_enrichment_grid.R` | `results/tissue_enrichment/grid_key.tsv` |
 | Supplementary Note 5, adjustment for publications per gene (table) | `269_publication_adjusted_enrichment.py` (+ `_biology_panel.py`, `202_subthreshold_signal.py`; needs the ASC gene list `data/raw/ASC_GeneList_12082026.txt`, not redistributed) | `results/biology/publication_adjusted_enrichment.tsv` |

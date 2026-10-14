@@ -6,6 +6,7 @@
 #   Rscript scripts/250_figure_temporal.R
 #     -> figures/figure_temporal.{png,pdf}, copied to figures/figure3.{png,pdf} (Figure 3 of v3)
 
+source(file.path(dirname(sub("--file=", "", grep("--file=", commandArgs(FALSE), value = TRUE)[1])), "_helvetica.R"))
 suppressPackageStartupMessages({
   library(ggplot2)
   library(cowplot)
@@ -27,6 +28,6 @@ fig <- plot_grid(a, b, ncol = 1, rel_heights = c(1, 1.05), labels = c("a", "b"),
                  label_size = 20, label_fontface = "bold")
 out <- file.path(root, "figures", "figure_temporal")
 ggsave(paste0(out, ".png"), fig, width = 10, height = 10, dpi = 300, bg = "white")
-ggsave(paste0(out, ".pdf"), fig, width = 10, height = 10, bg = "white", device = cairo_pdf)
+ggsave(paste0(out, ".pdf"), fig, width = 10, height = 10, bg = "white", device = cairo_pdf, symbolfamily = grDevices::cairoSymbolFont(FONT, usePUA = FALSE))
 for (ext in c(".png", ".pdf")) file.copy(paste0(out, ext), file.path(root, "figures", paste0("figure3", ext)), overwrite = TRUE)
 message("wrote ", out, ".{png,pdf} and figures/figure3.{png,pdf}")

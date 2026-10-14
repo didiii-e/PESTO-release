@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-# Supplementary Figure 1. Figure 2a and 2b under abstracts, the 0–100
+# Supplementary Figure 3. Figure 2a and 2b under abstracts, the 0–100
 # novelty-score prompt (abstracts-score), abstracts-bare (category definitions
 # only), and abstracts-open (intensity wording only). The result tables keep
 # the names these arms had when they were run: current, score, current-bare
@@ -17,6 +17,7 @@
 #
 # Usage: Rscript scripts/122_figure2_current_vs_score.R
 
+source(file.path(dirname(sub("--file=", "", grep("--file=", commandArgs(FALSE), value = TRUE)[1])), "_helvetica.R"))
 suppressPackageStartupMessages({
   library(ggplot2)
   library(dplyr)

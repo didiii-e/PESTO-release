@@ -15,6 +15,7 @@
 # With "." as workspace (PESTO-release/paper), the tables are read from results/ and
 # the figures written as figures/figure_ed4.{png,pdf} and figures/figure_ed5.{png,pdf}.
 
+source(file.path(dirname(sub("--file=", "", grep("--file=", commandArgs(FALSE), value = TRUE)[1])), "_helvetica.R"))
 suppressPackageStartupMessages({ library(dplyr); library(readr); library(ggplot2); library(cowplot) })
 
 root <- normalizePath(file.path(dirname(sub("--file=", "",
@@ -33,7 +34,7 @@ prep <- function(d) d %>% mutate(phenotype = factor(phenotype, levels = SHORT),
 heat <- function(d, facet = TRUE, text = 4.6, base = 13) {
   p <- ggplot(d, aes(phenotype, row, fill = l2)) +
     geom_tile(colour = "white", linewidth = 0.5) +
-    geom_text(aes(label = mark), size = text, vjust = 0.75) + FILL +
+    geom_text(aes(label = mark), size = 1.6 * text, vjust = 0.8) + FILL +  # Helvetica's asterisk is small and set high
     scale_x_discrete(position = "top", expand = c(0, 0)) + scale_y_discrete(expand = c(0, 0)) +
     labs(x = NULL, y = NULL) + theme_minimal(base_size = base) +
     theme(panel.grid = element_blank(), axis.text = element_text(colour = "black"),

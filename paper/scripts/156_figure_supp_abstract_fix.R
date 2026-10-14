@@ -12,6 +12,7 @@
 #
 # Usage: Rscript scripts/156_figure_supp_abstract_fix.R
 
+source(file.path(dirname(sub("--file=", "", grep("--file=", commandArgs(FALSE), value = TRUE)[1])), "_helvetica.R"))
 suppressPackageStartupMessages({
   library(ggplot2)
   library(dplyr)

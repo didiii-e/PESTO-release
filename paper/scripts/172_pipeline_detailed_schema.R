@@ -18,6 +18,7 @@
 # Sourced by scripts/170_figure_supp_fulltext.R. Run directly to write both:
 #   Rscript scripts/172_pipeline_detailed_schema.R
 
+source(file.path(dirname(sub("--file=", "", grep("--file=", commandArgs(FALSE), value = TRUE)[1])), "_helvetica.R"))
 suppressPackageStartupMessages({
   library(ggplot2)
   library(ggforce)

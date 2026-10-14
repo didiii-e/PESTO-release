@@ -15,6 +15,7 @@
 #
 # Usage: Rscript scripts/22_figure_ed1_v3.R
 
+source(file.path(dirname(sub("--file=", "", grep("--file=", commandArgs(FALSE), value = TRUE)[1])), "_helvetica.R"))
 suppressPackageStartupMessages({
   library(dplyr)
   library(readr)
@@ -258,10 +259,10 @@ render <- function(open_dev, path) {
 
 as_png <- function(filename, width = 1, height = 1) {
   png(filename, width = width, height = height, units = "in", res = 600,
-      bg = "white", type = "cairo")
+      bg = "white", type = "cairo", family = FONT)
 }
 as_pdf <- function(filename, width = 1, height = 1) {
-  cairo_pdf(filename, width = width, height = height, bg = "white")
+  cairo_pdf(filename, width = width, height = height, bg = "white", family = FONT)
 }
 
 render(as_png, file.path(FIGURES, "table_ed1_v3.png"))

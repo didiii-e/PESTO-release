@@ -20,6 +20,7 @@
 #       a and b use the top two deciles (20%)
 #   Rscript scripts/117_figure3_chd_top5.R --loeuf-decile --brain-decile --or
 #     → ..._chd_loeufdec_braindec_or.{png,pdf}  (OR not log2 OR, panel b at 10%)
+source(file.path(dirname(sub("--file=", "", grep("--file=", commandArgs(FALSE), value = TRUE)[1])), "_helvetica.R"))
 LOEUF_DEC  <- "--loeuf-decile" %in% commandArgs(TRUE)
 BRAIN_DEC  <- "--brain-decile" %in% commandArgs(TRUE)
 TWO_DEC    <- "--two-decile" %in% commandArgs(TRUE)
@@ -380,7 +381,7 @@ if (CELLS) {
            mark = ifelse(fdr < 0.05, "**", ifelse(p < 0.05, "*", "")))
   panel_cells <- ggplot(cells, aes(phenotype, cell, fill = l2)) +
     geom_tile(colour = "white", linewidth = 0.5) +
-    geom_text(aes(label = mark), size = 6, vjust = 0.75) +
+    geom_text(aes(label = mark), size = 9.5, vjust = 0.8) +  # Helvetica's asterisk is small and set high
     facet_grid(group ~ ., scales = "free_y", space = "free_y", switch = "y") +
     scale_fill_gradient2(low = "#2C6E8F", mid = "grey96", high = "#B33A3A", midpoint = 0,
                          limits = c(-3, 3), breaks = log2(c(0.125, 1, 8)),

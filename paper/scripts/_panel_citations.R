@@ -160,8 +160,9 @@ cit_split_panel <- function(sb, tests, ylab, theme_base, show_n = FALSE) {
     geom_segment(data = br, aes(x = x - CIT_DODGE / 4, xend = x + CIT_DODGE / 4,
                                 y = y, yend = y),
                  colour = "grey25", linewidth = 0.4) +
+    # Helvetica's asterisk is small and set high, so stars are drawn larger and lower than "ns".
     geom_text(data = br, aes(x = x, y = y, label = lab),
-              vjust = ifelse(br$lab == "ns", -0.45, -0.1), size = 4.2,
+              vjust = ifelse(br$lab == "ns", -0.45, 0.25), size = ifelse(br$lab == "ns", 4.2, 6.7),
               colour = "grey25")
   if (show_n) {
     g <- g + geom_text(data = totals, aes(x = x, y = 0, label = n),

@@ -45,8 +45,11 @@ Rscript scripts/156_figure_supp_abstract_fix.R
 echo "== Supplementary Figure 3, Extended Data Fig. 3"
 Rscript scripts/122_figure2_current_vs_score.R
 "$PY" scripts/127_fig2_roc_candidate.py
-Rscript scripts/128_figure2_roc_candidate.R
+ED3=1 Rscript scripts/128_figure2_roc_candidate.R
 
 echo "== Supplementary Figure 4 (full-text mode)"
 "$PY" scripts/150_bodyonly_data.py
 Rscript scripts/170_figure_supp_fulltext.R
+
+echo "== Supplementary Figure 7 (references from model knowledge)"
+Rscript scripts/280_figure_supp_citations.R

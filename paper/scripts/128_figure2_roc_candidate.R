@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-# Supplementary Figure 2. What the four-colour bars of figure 2 cannot show,
+# Extended Data Fig. 3. What the four-colour bars of figure 2 cannot show,
 # in two panels.
 #
 #   a  ROC of the returned label over the four GenCC classes a curator
@@ -13,8 +13,11 @@
 # Both read the label, not the 100-point distribution, because the label is
 # what the pipeline returns. Run scripts/127_fig2_roc_candidate.py first.
 #
-# Usage: Rscript scripts/128_figure2_roc_candidate.R
+# Usage: Rscript scripts/128_figure2_roc_candidate.R         prompts under their package names
+#        ED3=1 Rscript scripts/128_figure2_roc_candidate.R   Extended Data Fig. 3,
+#        with the prompts named as the main text describes them
 
+source(file.path(dirname(sub("--file=", "", grep("--file=", commandArgs(FALSE), value = TRUE)[1])), "_helvetica.R"))
 suppressPackageStartupMessages({
   library(ggplot2)
   library(dplyr)
@@ -38,8 +41,13 @@ ACOL <- c(current = "#000000", `current-bare` = "#0072B2",
           `current-open` = "#D55E00", score = "#8C8C8C")
 # The tables keep the names the arms had when they were run; the figure shows
 # the names the package declares them under.
-SHOWN <- c(current = "abstracts", `current-bare` = "abstracts-bare",
-           `current-open` = "abstracts-open", score = "abstracts-score")
+ED3 <- Sys.getenv("ED3") == "1"
+SHOWN <- if (ED3) {
+  c(current = "PESTO", `current-bare` = "Short definitions",
+    `current-open` = "Intensity only", score = "Novelty score")
+} else c(current = "abstracts", `current-bare` = "abstracts-bare",
+         `current-open` = "abstracts-open", score = "abstracts-score")
+OUT_NAME <- if (ED3) "figure_ed3_prompt_ablations" else "figure2_roc_candidate"
 
 base_theme <- theme_classic(base_size = 16) +
   theme(
@@ -134,8 +142,8 @@ fig <- (panel_roc | panel_cand) +
   theme(plot.tag = element_text(face = "bold", size = 20),
         plot.tag.position = c(0, 1))
 
-ggsave(file.path(FIGURES, "figure2_roc_candidate.png"), fig,
+ggsave(file.path(FIGURES, paste0(OUT_NAME, ".png")), fig,
        width = 12.4, height = 6.2, dpi = 600, bg = "white")
-ggsave(file.path(FIGURES, "figure2_roc_candidate.pdf"), fig,
+ggsave(file.path(FIGURES, paste0(OUT_NAME, ".pdf")), fig,
        width = 12.4, height = 6.2, bg = "white")
-cat("Wrote", file.path(FIGURES, "figure2_roc_candidate.png"), "and .pdf\n")
+cat("Wrote", file.path(FIGURES, paste0(OUT_NAME, ".png")), "and .pdf\n")

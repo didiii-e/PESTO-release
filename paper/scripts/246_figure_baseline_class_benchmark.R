@@ -12,6 +12,7 @@
 #   Rscript scripts/246_figure_baseline_class_benchmark.R
 #     -> figures/figure_baseline_class_benchmark.{png,pdf}
 
+source(file.path(dirname(sub("--file=", "", grep("--file=", commandArgs(FALSE), value = TRUE)[1])), "_helvetica.R"))
 suppressPackageStartupMessages({
   library(ggplot2)
   library(dplyr)
@@ -87,5 +88,5 @@ fig <- ggplot(d, aes(start, p, colour = start)) +
 
 out <- file.path(root, "figures", "figure_baseline_class_benchmark")
 ggsave(paste0(out, ".png"), fig, width = 9, height = 5.2, dpi = 300, bg = "white")
-ggsave(paste0(out, ".pdf"), fig, width = 9, height = 5.2, bg = "white", device = cairo_pdf)
+ggsave(paste0(out, ".pdf"), fig, width = 9, height = 5.2, bg = "white", device = cairo_pdf, symbolfamily = grDevices::cairoSymbolFont(FONT, usePUA = FALSE))
 message("wrote ", out, ".{png,pdf}")
