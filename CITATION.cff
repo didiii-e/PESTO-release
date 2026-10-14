@@ -2,7 +2,6 @@ cff-version: 1.2.0
 message: "If you use PESTO, please cite the paper and the archived release."
 title: "PESTO: prior evidence for gene-phenotype associations"
 version: 0.3.4
-doi: 10.5281/zenodo.23288837
 license: MIT
 repository-code: "https://github.com/jeremyguez/PESTO-release"
 authors:
@@ -12,6 +11,8 @@ authors:
     given-names: Chiara
   - family-names: Lu
     given-names: Wenhan
+  - family-names: Elsyad
+    given-names: Dinan H.
   - family-names: Satterstrom
     given-names: F. Kyle
   - family-names: Berkowitz

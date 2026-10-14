@@ -32,15 +32,17 @@ This calls no model and needs no API key. It takes about two minutes.
 | Supplementary Note 5, adjustment for publications per gene (table) | `269_publication_adjusted_enrichment.py` (+ `_biology_panel.py`, `202_subthreshold_signal.py`; needs the ASC gene list `data/raw/ASC_GeneList_12082026.txt`, not redistributed) | `results/biology/publication_adjusted_enrichment.tsv` |
 | Supplementary Figure 1 (the pipeline, step by step) | `172_pipeline_detailed_schema.R` (+ `pipeline_schema.R`) | `figures/pipeline_detailed.png` |
 | Supplementary Note 1, run-to-run variability (table) | `183_reproducibility_stats.py` | `results/reproducibility_aou50/summary.tsv` |
-| Supplementary Figure 1 | `122_figure2_current_vs_score.R` | `figures/figure2_current_vs_score.png` |
-| Supplementary Figure 2 | `127_fig2_roc_candidate.py`, `128_figure2_roc_candidate.R` | `figures/figure2_roc_candidate.png` |
-| Supplementary Figure 3 | `150_bodyonly_data.py`, `151_figure_supp_bodyonly.R` | `figures/figure_supp_bodyonly.png` |
+| Supplementary Figure 3 | `122_figure2_current_vs_score.R` | `figures/figure2_current_vs_score.png` |
+| Extended Data Fig. 3 | `127_fig2_roc_candidate.py`, `128_figure2_roc_candidate.R` | `figures/figure2_roc_candidate.png` |
+| Supplementary Figure 4b–d | `150_bodyonly_data.py`, `151_figure_supp_bodyonly.R` | `figures/figure_supp_bodyonly.png` |
 
-Redrawn here, Figures 2 and 3, Extended Data Fig. 2, Extended Data Table 1 and
-both tables are identical to the published ones pixel for pixel or byte for byte.
-Figure 1 and Extended Data Fig. 1 differ only in where the jittered points fall,
-which was random and is now seeded. The Supplementary Figures differ only in
-their labels, which carry the arms' current names.
+Redrawn here, Figures 2, 3 and 4 are identical pixel for pixel to the versions in
+the manuscript (checked on 13 October 2026). Figure 1 and Extended Data Fig. 1
+differ only in where the jittered points fall, which was random and is now seeded.
+The Supplementary Figures differ only in their labels, which carry the arms'
+current names. Some scripts still name a figure by the number it had in an earlier
+draft (Supplementary Figure 1 for what is now Supplementary Figure 3, for
+instance); the table above gives the current numbers.
 
 ## Names in the tables
 
@@ -75,22 +77,17 @@ will not reproduce each answer exactly.
 | Figure 3a, trajectories | `benchmark/trajectories6/pairs.tsv` scored with `--max-date` at every date of the grid |
 | Figure 4, the 670-gene panel | `benchmark/fig3_add_t2d_bipex2/` (the type 2 diabetes and BipEx 2.0 genes) and `benchmark/fig3_add_random100/` (`234_draw_random100.py`) scored with `--max-date 2026/09/01`; `233_run_panel570.sh` appends them to the 550-gene table and reruns the analyses, giving `results/fig3_universe550_meancall_scores.tsv` (670 genes despite its name) |
 | Figure 4c, cell types | `211_cell_type_specificity.py` (+ `_biology_panel.py`, `202_subthreshold_signal.py`); reads the Human Protein Atlas single-cell table `rna_single_cell_type.tsv.zip` (proteinatlas.org, not redistributed) and writes `results/biology/cell_types_grid.tsv` |
-| Supplementary Figures 1 and 2 | `121_score_fig2ab.py`, `125_bare_fig2ab.py`, `126_open_fig2ab.py` |
-| Supplementary Figure 3 benchmark | `139_build_bench_bodyonly.py` (first 22 pairs), `153_extend_bench_bodyonly.py` (18 more, same criteria), `138_score_bodyonly.py` |
+| Supplementary Figure 3 and Extended Data Fig. 3 | `121_score_fig2ab.py`, `125_bare_fig2ab.py`, `126_open_fig2ab.py` |
+| Supplementary Figure 4 benchmark | `139_build_bench_bodyonly.py` (first 22 pairs), `153_extend_bench_bodyonly.py` (18 more, same criteria), `138_score_bodyonly.py` |
 | Supplementary Note 1, run-to-run variability | `181_reproducibility_aou50.py` (three fresh runs of 50 All of Us–GeneBass associations; only each run's `pesto.tsv` and `cost.tsv` are kept here) |
 | Supplementary Note 1, Open Targets tie rules (sensitivity) | `188_ot_tie_rules.py` (replays the stored Open Targets grades, no model call; reads `results/auto_cohort_ot_v7/` and `results/auto_fig1c_absent50_hgnc_v7/` from Zenodo, writes `results/ot_tie_rules/`) |
 
 Their inputs and the saved model answers (one JSON per pair, with the corpus,
-the prompts and the response) are on Zenodo,
-[doi:10.5281/zenodo.23288837](https://doi.org/10.5281/zenodo.23288837):
-
-```bash
-bash fetch_data.sh        # about 105 MB, extracted into paper/
-```
-
-The saved model answers of the Figure 3 runs (`runs/` of `benchmark/asd_denovo2014/`,
-`benchmark/epigen_extension/` and `benchmark/trajectories6/`) are not yet in this
-archive; they go into its next version.
+the prompts and the response) go into a Zenodo archive, whose new version is in
+preparation; `fetch_data.sh` will download it once its DOI is given here. The new
+version adds the saved model answers of the Figure 3 runs (`runs/` of
+`benchmark/asd_denovo2014/`, `benchmark/epigen_extension/` and
+`benchmark/trajectories6/`).
 
 Not redistributed: the PEPPER gene features used to draw the random genes of
 Figure 4 (`92_fig3_random50.py` says where to put them), the GWAS Catalog used to

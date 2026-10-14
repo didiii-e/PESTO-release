@@ -40,11 +40,11 @@ echo "== Supplementary Figure 1 (pipeline schema), Supplementary Note 1 table"
 Rscript scripts/172_pipeline_detailed_schema.R
 "$PY" scripts/183_reproducibility_stats.py
 
-echo "== Supplementary Figures 1 and 2"
+echo "== Supplementary Figure 3, Extended Data Fig. 3"
 Rscript scripts/122_figure2_current_vs_score.R
 "$PY" scripts/127_fig2_roc_candidate.py
 Rscript scripts/128_figure2_roc_candidate.R
 
-echo "== Supplementary Figure 3 (body-only benchmark)"
+echo "== Supplementary Figure 4 (body-only benchmark)"
 "$PY" scripts/150_bodyonly_data.py
 Rscript scripts/151_figure_supp_bodyonly.R

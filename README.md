@@ -257,7 +257,7 @@ table, a supplementary file) and append the passages naming it for the reader.
 PubMed cannot return those articles, and the deciding paper is often one of them.
 On 20 GWAS associations whose deciding article names the gene only in its body,
 `abstracts` placed 1 at Existing or above and `fulltext` 18, and both kept all 20
-negative controls at Novel or Hypothesized (Supplementary Figure 3). `fulltext` was not used for the analyses of the paper,
+negative controls at Novel or Hypothesized (Supplementary Figure 4). `fulltext` was not used for the analyses of the paper,
 and `fulltext-trait` has not been benchmarked.
 
 The other arms reproduce the paper's comparisons: `titles` (titles only),
@@ -267,7 +267,7 @@ The other arms reproduce the paper's comparisons: `titles` (titles only),
 ## Cost
 
 At Anthropic list prices, the literature branch costs about $0.07–0.11 a pair
-with `abstracts` (Extended Data Fig. 2 and Supplementary Figure 3), and 2–3%
+with `abstracts` (Extended Data Fig. 2 and Supplementary Figure 4), and 2–3%
 more with `fulltext`; the Open Targets branch about $0.03. Well-studied genes cost more. A
 pair already answered by the same pipeline is read from the cache and costs
 nothing. With `--bench`, the cost of every pair is written to `cost.tsv` as it
@@ -282,8 +282,8 @@ per pair with the corpus, the prompts and the model's answer.
 
 See [`paper/README.md`](paper/README.md). Every figure and table is redrawn from
 the tables in `paper/results/` without calling any model. The saved model answers
-behind them are on Zenodo:
-[doi:10.5281/zenodo.23288837](https://doi.org/10.5281/zenodo.23288837).
+behind them go into a Zenodo archive, whose new version is in preparation; its DOI
+will be given here.
 
 ## Tests
 
@@ -296,10 +296,9 @@ python3 tests/script_imports.py   # every paper script still imports
 
 ## Citation
 
-Guez J, Auwerx C, Lu W, Satterstrom FK, Berkowitz J, Fu JM, Betancur C,
-Talkowski ME, Daly MJ, Karczewski KJ. Large language model classifies prior
-evidence in gene–phenotype associations. 2026.
-Code and data: [doi:10.5281/zenodo.23288837](https://doi.org/10.5281/zenodo.23288837).
+Guez J, Auwerx C, Lu W, Elsyad DH, Satterstrom FK, Berkowitz J, Fu JM,
+Betancur C, Talkowski ME, Daly MJ, Karczewski KJ. Large language model classifies
+prior evidence in gene–phenotype associations. 2026.
 
 ## Licence
 

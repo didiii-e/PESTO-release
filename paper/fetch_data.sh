@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# Fetch the data archives deposited on Zenodo (doi:10.5281/zenodo.23288837) and
-# extract them into paper/. Only the upstream scripts need them: every figure
+# Fetch the data archives deposited on Zenodo and extract them into paper/.
+# The archive is being renewed: RECORD and the checksums are filled in once the
+# new version has its DOI, and until then the script stops with a message. Only the upstream scripts need them: every figure
 # and table of the manuscript is redrawn from what the repository already holds.
 #
 #   bash paper/fetch_data.sh          both archives (about 105 MB)
@@ -8,13 +9,16 @@
 #   bash paper/fetch_data.sh inputs   the upstream inputs only
 set -euo pipefail
 
-RECORD="https://zenodo.org/records/23288837/files"
+echo "The Zenodo archive of the paper is being renewed; its new DOI will be given in paper/README.md." >&2
+exit 1
+
+RECORD=""   # https://zenodo.org/records/<new record>/files
 HERE="$(cd "$(dirname "$0")" && pwd)"
 REPO="$(dirname "$HERE")"
 
 declare -A MD5=(
-  [pesto_paper_runs.tar.gz]=ba1a7d997ca942456007efab910b0c82
-  [pesto_paper_inputs.tar.gz]=84ebeaa428f766eea6c90039c4901725
+  [pesto_paper_runs.tar.gz]=
+  [pesto_paper_inputs.tar.gz]=
 )
 
 want=("pesto_paper_runs.tar.gz" "pesto_paper_inputs.tar.gz")
