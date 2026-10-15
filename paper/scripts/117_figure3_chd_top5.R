@@ -385,7 +385,7 @@ if (CELLS) {
     facet_grid(group ~ ., scales = "free_y", space = "free_y", switch = "y") +
     scale_fill_gradient2(low = "#2C6E8F", mid = "grey96", high = "#B33A3A", midpoint = 0,
                          limits = c(-3, 3), breaks = log2(c(0.125, 1, 8)),
-                         labels = c("1/8", "1", "8"), name = "odds ratio") +
+                         labels = c("0.125", "1", "8"), name = "odds ratio") +
     scale_x_discrete(position = "top", expand = c(0, 0)) + scale_y_discrete(expand = c(0, 0)) +
     labs(x = NULL, y = NULL) +
     guides(fill = guide_colourbar(barwidth = 12, barheight = 0.7, title.position = "left",

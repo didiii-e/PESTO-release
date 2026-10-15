@@ -90,11 +90,7 @@ pA <- ggplot(d, aes(x = verdict, y = n_pubmed, fill = verdict)) +
              size = 0.28, alpha = 0.22, colour = "grey25") +
   scale_fill_manual(values = VCOL, guide = "none") +
   scale_y_continuous(expand = expansion(mult = c(0.02, 0.06))) +
-  labs(title = "A",
-       subtitle = paste0("Only ", n_empty, " of ", n_novel,
-                         " Novel pairs retrieved no PubMed records ",
-                         "(median ", round(med_n), ")"),
-       x = NULL, y = "PubMed records retrieved") +
+  labs(title = "A", x = NULL, y = "PubMed records retrieved") +
   base_theme +
   theme(axis.text.x = element_text(angle = 18, hjust = 1),
         axis.title.y = element_text(margin = margin(r = 2)))

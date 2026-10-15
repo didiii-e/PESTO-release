@@ -32,18 +32,23 @@ RESULTS <- file.path(root, "results")
 FIGURES <- file.path(root, "figures")
 dir.create(FIGURES, showWarnings = FALSE, recursive = TRUE)
 
-VCOL <- c(Novel = "#b91c1c", Hypothesized = "#b45309", `Hypoth.` = "#b45309",
-          Existing = "#1d4ed8", Established = "#15803d")
+# The category colours of the figures, so that a class reads the same everywhere.
+VCOL <- c(Novel = "#A9573F", Hypothesized = "#BFA45C", `Hypoth.` = "#BFA45C",
+          Existing = "#5B7F95", Established = "#2E5F4F")
+# Gene symbols set in italics in the prose column (human and mouse forms).
+GENES <- c("THNSL1", "NAA15", "SIN3A", "mSin3A", "IRS2", "Irs2", "OSBP", "ABCA1",
+           "PODN", "Podn", "CPXM2", "SETD1A")
 
 SIZE      <- 8      # pt, body
 SIZE_WHY  <- 7.4    # pt, the prose column
-SIZE_HEAD <- 8      # pt, column heads and subheads
+SIZE_HEAD <- 8      # pt, column heads
+SIZE_SUB  <- 9.6    # pt, group subheads
 PAD_H     <- 2.6    # mm, left and right of every cell
 PAD_V     <- 3.6    # mm, total above and below; a third of it is the slack
                     # grid leaves round a line of text, so the visible air
                     # between the last line and the rule is about 0.7 mm
 PAD_IN    <- 0.06   # in, white edge around the whole table
-SUBHEAD_H <- 6.4    # mm, height of a group subhead row
+SUBHEAD_H <- 7.6    # mm, height of a group subhead row
 
 src <- file.path(RESULTS, "ed1_v2_pairs.tsv")
 stopifnot(file.exists(src))
@@ -54,10 +59,13 @@ wrap <- function(x, width) {
          character(1), USE.NAMES = FALSE)
 }
 
-wrap_refs <- function(x, width) {
-  vapply(x, function(s) {
+wrap_refs <- function(x, pmids, width) {
+  vapply(seq_along(x), function(i) {
+    s <- x[i]
     if (is.na(s) || s == "" || s == "-") return(NA_character_)
     parts <- strsplit(s, "; ", fixed = TRUE)[[1]]
+    ids <- if (is.na(pmids[i])) character(0) else strsplit(as.character(pmids[i]), ";", fixed = TRUE)[[1]]
+    if (length(ids) == length(parts)) parts <- paste0(parts, ", PMID ", ids)
     paste(wrap(parts, width), collapse = "\n")
   }, character(1), USE.NAMES = FALSE)
 }
@@ -126,7 +134,7 @@ body <- d %>%
     `Open Targets` = short_verdict(ot_verdict),
     Evidence = wrap(dash(evidence_shown), 16),
     `Why it is worth following up` = wrap(interest, 52),
-    `Key reports` = dash(wrap_refs(refs, 24))
+    `Key reports` = dash(wrap_refs(refs, pmids, 24))
   ) %>%
   as.data.frame(stringsAsFactors = FALSE)
 
@@ -197,6 +205,20 @@ for (i in which(vapply(gt$grobs, inherits, logical(1), "text"))) {
   gt$grobs[[i]]$vjust <- 1
 }
 
+# Gene names in the prose column are set in italics: those cells are redrawn as
+# rich text, line breaks and position unchanged. gridtext lays words out when the
+# grob is made, so that is done on the same cairo device and family as the output.
+png(nullfile(), width = 8, height = 8, units = "in", res = 600, type = "cairo", family = FONT)
+for (i in which(!is_sub)) {
+  k <- which(gt$layout$t == i + 1L & gt$layout$l == col_why & grepl("core-fg", gt$layout$name))
+  md <- gsub("\n", "<br>", tbl[i, col_why], fixed = TRUE)
+  md <- gsub(paste0("\\b(", paste(GENES, collapse = "|"), ")\\b"), "<i>\\1</i>", md, perl = TRUE)
+  gt$grobs[[k]] <- gridtext::richtext_grob(
+    md, x = unit(0.02, "npc"), y = unit(1, "npc") - unit(PAD_V / 2, "mm"), hjust = 0, vjust = 1,
+    gp = gpar(fontsize = SIZE_WHY, col = "grey15", lineheight = 1.15, fontfamily = FONT))
+}
+invisible(dev.off())
+
 # gt row 1 is the column head; body row i is gt row i + 1.
 sub_rows <- which(is_sub) + 1L
 gt$heights[sub_rows] <- unit(SUBHEAD_H, "mm")
@@ -206,7 +228,7 @@ for (k in seq_along(sub_rows)) {
   gt <- gtable_add_grob(gt,
     textGrob(GROUPS[[g]]$name, x = unit(0, "npc"), y = unit(0.9, "mm"),
              hjust = 0, vjust = 0,
-             gp = gpar(fontsize = SIZE_HEAD, fontface = "bold", col = "black")),
+             gp = gpar(fontsize = SIZE_SUB, fontface = "bold", col = "black")),
     t = sub_rows[k], b = sub_rows[k], l = 1, r = ncol(gt),
     z = 90, clip = "off", name = paste0("subhead", k))
 }

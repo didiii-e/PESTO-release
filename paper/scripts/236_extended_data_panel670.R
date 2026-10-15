@@ -26,12 +26,12 @@ STEM <- function(n) if (WS == ".") n else paste0(n, "_", WS)
 SHORT <- c("ASD", "EPI", "SCZ", "BD", "AD", "CHD", "T2D")
 FILL <- scale_fill_gradient2(low = "#2C6E8F", mid = "grey96", high = "#B33A3A", midpoint = 0,
                              limits = c(-3, 3), breaks = log2(c(0.125, 1, 8)),
-                             labels = c("1/8", "1", "8"), name = "odds ratio")
+                             labels = c("0.125", "1", "8"), name = "odds ratio")
 cap <- function(x) { x <- gsub("_", " ", x); paste0(toupper(substring(x, 1, 1)), substring(x, 2)) }
 prep <- function(d) d %>% mutate(phenotype = factor(phenotype, levels = SHORT),
                                  l2 = pmax(pmin(log2(pmax(or, 1e-3)), 3), -3),
                                  mark = ifelse(fdr < 0.05, "**", ifelse(p < 0.05, "*", "")))
-heat <- function(d, facet = TRUE, text = 4.6, base = 13) {
+heat <- function(d, facet = TRUE, text = 5.2, base = 15.5) {
   p <- ggplot(d, aes(phenotype, row, fill = l2)) +
     geom_tile(colour = "white", linewidth = 0.5) +
     geom_text(aes(label = mark), size = 1.6 * text, vjust = 0.8) + FILL +  # Helvetica's asterisk is small and set high
@@ -39,10 +39,10 @@ heat <- function(d, facet = TRUE, text = 4.6, base = 13) {
     labs(x = NULL, y = NULL) + theme_minimal(base_size = base) +
     theme(panel.grid = element_blank(), axis.text = element_text(colour = "black"),
           axis.text.x = element_text(face = "bold"), legend.position = "bottom",
-          strip.placement = "outside", strip.switch.pad.grid = unit(4, "mm"),
-          strip.text.y.left = element_text(angle = 90, face = "bold", margin = margin(r = 4, l = 4)),
-          panel.spacing.y = unit(6, "pt"))
-  if (facet) p <- p + facet_grid(group ~ ., scales = "free_y", space = "free_y", switch = "y")
+          strip.placement = "outside",
+          strip.text.y.right = element_text(angle = -90, face = "bold", margin = margin(r = 4, l = 6)),
+          panel.spacing.y = unit(16, "pt"))
+  if (facet) p <- p + facet_grid(group ~ ., scales = "free_y", space = "free_y")
   p
 }
 
@@ -77,8 +77,8 @@ cel <- read_tsv(file.path(RES, "biology", "cell_types_grid.tsv"), show_col_types
 ed4 <- plot_grid(heat(tis, facet = FALSE), heat(cel), ncol = 2, rel_widths = c(1, 1.1),
                  labels = c("A", "B"), label_size = 20, label_fontface = "bold", align = "h", axis = "t")
 out <- file.path(root, "figures", paste0(STEM("figure_ed4"), ".png"))
-ggsave(out, ed4, width = 13.5, height = 11.5, dpi = 400, bg = "white")
-ggsave(sub("png$", "pdf", out), ed4, width = 13.5, height = 11.5, bg = "white")
+ggsave(out, ed4, width = 14.5, height = 12.5, dpi = 400, bg = "white")
+ggsave(sub("png$", "pdf", out), ed4, width = 14.5, height = 12.5, bg = "white")
 cat("wrote", out, "\n")
 
 CELLS <- list("Neurons" = c("excitatory_neuron", "inhibitory_neuron", "inhibitory_interneuron",
@@ -97,8 +97,8 @@ fetal <- bind_rows(
   ft %>% transmute(group = "Tissues", row = paste(tissue, "(tissue)"), phenotype, or, p, fdr)) %>%
   mutate(group = factor(group, levels = c(names(CELLS), "Tissues")),
          row = factor(row, levels = rev(c(unlist(lapply(CELLS, cap)), paste(FT, "(tissue)"))))) %>% prep()
-ed5 <- heat(fetal) + theme(strip.text.y.left = element_text(angle = 0, face = "bold", hjust = 1))
+ed5 <- heat(fetal) + theme(strip.text.y.right = element_text(angle = 0, face = "bold", hjust = 0))
 out <- file.path(root, "figures", paste0(STEM("figure_ed5"), ".png"))
-ggsave(out, ed5, width = 7.2, height = 8.6, dpi = 400, bg = "white")
-ggsave(sub("png$", "pdf", out), ed5, width = 7.2, height = 8.6, bg = "white")
+ggsave(out, ed5, width = 8.4, height = 9.4, dpi = 400, bg = "white")
+ggsave(sub("png$", "pdf", out), ed5, width = 8.4, height = 9.4, bg = "white")
 cat("wrote", out, "\n")
