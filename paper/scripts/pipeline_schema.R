@@ -51,7 +51,7 @@ SCALE_Y0 <- 5; BAND_H <- 11
 HEAD_DY <- 3.8                   # every heading, same distance above its box
 HEAD_LIT <- ROW_LIT + BOX_H / 2 + HEAD_DY
 HEAD_DB <- ROW_DB + BOX_H / 2 + HEAD_DY
-ANNOT_DY <- 1.55                 # every model name, same distance below
+ANNOT_DY <- 1.8                 # every model name, same distance below
 
 # One stroke weight, one arrowhead, one radius, one navy, everywhere.
 STROKE <- 0.55
@@ -130,7 +130,7 @@ pipeline_schema <- function(vcol) {
     level = factor(names(vcol), levels = names(vcol)),
     fill = unname(vcol),
     ymin = SCALE_Y0 + BAND_H * (seq_along(vcol) - 1),
-    descr = c("No paper links the\ngene to the phenotype",
+    descr = c("No study links the\ngene to the phenotype",
               "Mechanistic or\nindirect argument only",
               "Human genetic\nevidence reported",
               "Replicated, accepted\ngene-disease pair"),
@@ -177,25 +177,25 @@ pipeline_schema <- function(vcol) {
 
   ggplot() +
     annotate("text", x = CENTRE, y = HEAD_LIT, label = "BRANCH 1 - LITERATURE",
-             size = 5.0, fontface = "bold", colour = INK) +
+             size = 5.8, fontface = "bold", colour = INK) +
     annotate("text", x = CENTRE, y = HEAD_DB, label = "BRANCH 2 - OPEN TARGETS",
-             size = 5.0, fontface = "bold", colour = INK) +
+             size = 5.8, fontface = "bold", colour = INK) +
     annotate("text", x = IN_X, y = MID + BOX_H / 2 + 2.6, label = "INPUT",
-             size = 4.2, fontface = "bold", colour = INK) +
+             size = 5.0, fontface = "bold", colour = INK) +
     seg(fork_stem) + seg(join_stem) +
     seg(between, head = TRUE) + seg(fork_in, head = TRUE) +
     seg(join_in, head = TRUE) +
     geom_shape(data = boxes, aes(x = x, y = y, group = id, fill = kind,
                                  colour = kind),
                radius = RADIUS, linewidth = 0.8) +
-    geom_text(data = steps, aes(x = x, y = y, label = label), size = 3.9,
+    geom_text(data = steps, aes(x = x, y = y, label = label), size = 4.7,
               lineheight = 0.95, colour = "#16232E") +
     geom_text(data = subset(steps, !is.na(model)),
-              aes(x = x, y = ymin - ANNOT_DY, label = model), size = 3.9,
+              aes(x = x, y = ymin - ANNOT_DY, label = model), size = 4.5,
               fontface = "italic", colour = MUTED) +
     # the scale
     annotate("text", x = mean(SCALE_X), y = HEAD_LIT + 1.2,
-             label = "EVIDENCE STRENGTH", size = 5.0, fontface = "bold",
+             label = "EVIDENCE STRENGTH", size = 5.8, fontface = "bold",
              colour = INK) +
     geom_shape(data = band_boxes, aes(x = x, y = y, group = id, fill = I(fill)),
                radius = RADIUS, colour = NA) +
@@ -207,10 +207,10 @@ pipeline_schema <- function(vcol) {
                radius = unit(0.6, "pt"), colour = NA) +
     geom_text(data = bands, aes(x = TEXT_X, y = ymax - 4.2, label = level,
                                 colour = I(ink)),
-              hjust = 0, size = 5.4, fontface = "bold") +
+              hjust = 0, size = 5.8, fontface = "bold") +
     geom_text(data = bands, aes(x = TEXT_X, y = ymin + 3.4, label = descr,
                                 colour = I(ink)),
-              hjust = 0, size = 4.2, lineheight = 1.05) +
+              hjust = 0, size = 4.3, lineheight = 1.05) +
     # the key, set apart the way the drawn version had it
     geom_shape(data = rect_pts(1, 1.2, max(keys$x) + 15.2, 0.15, 4.35),
                aes(x = x, y = y, group = id), fill = NA, colour = "grey78",
@@ -219,7 +219,7 @@ pipeline_schema <- function(vcol) {
                                      colour = kind),
                radius = unit(1.5, "pt"), linewidth = 0.5) +
     geom_text(data = keys, aes(x = x + 4.2, y = 2.2, label = lab), hjust = 0,
-              size = 4.0, colour = "grey15", lineheight = 0.92) +
+              size = 4.3, colour = "grey15", lineheight = 0.92) +
     scale_fill_manual(values = FILL, guide = "none") +
     scale_colour_manual(values = EDGE, guide = "none") +
     coord_fixed(ratio = 1, xlim = c(0, 100), ylim = c(0, CANVAS_H),

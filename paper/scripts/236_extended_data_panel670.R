@@ -75,7 +75,7 @@ cel <- read_tsv(file.path(RES, "biology", "cell_types_grid.tsv"), show_col_types
          row = factor(lab(cell_type), levels = rev(lab(c(BRAIN, OTHER))))) %>% prep()
 
 ed4 <- plot_grid(heat(tis, facet = FALSE), heat(cel), ncol = 2, rel_widths = c(1, 1.1),
-                 labels = c("a", "b"), label_size = 20, label_fontface = "bold", align = "h", axis = "t")
+                 labels = c("A", "B"), label_size = 20, label_fontface = "bold", align = "h", axis = "t")
 out <- file.path(root, "figures", paste0(STEM("figure_ed4"), ".png"))
 ggsave(out, ed4, width = 13.5, height = 11.5, dpi = 400, bg = "white")
 ggsave(sub("png$", "pdf", out), ed4, width = 13.5, height = 11.5, bg = "white")

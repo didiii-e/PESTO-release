@@ -110,7 +110,7 @@ source(file.path(root, "scripts", "pipeline_schema.R"))
 
 panel_A <- function() {
   pipeline_schema(VCOL) +
-    labs(title = "a") +
+    labs(title = "A") +
     theme(plot.title = element_text(face = "bold", size = 18, hjust = 0))
 }
 
@@ -176,7 +176,7 @@ pB <- ggplot(b_counts, aes(x = x, y = pct, fill = verdict)) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.02)),
                      limits = c(0, 114)) +
   coord_cartesian(ylim = c(0, 114), clip = "off") +
-  labs(title = "b",
+  labs(title = "B",
        x = NULL, y = "% of associations") +
   base_theme +
   theme(legend.position = "right",
@@ -201,7 +201,7 @@ pC <- ggplot(mat, aes(x = ot_verdict, y = verdict, fill = n)) +
                                    "#40606F"),
                        name = "pairs") +
   scale_y_discrete(limits = VERDICTS) +
-  labs(title = "c",
+  labs(title = "C",
        x = "Open Targets verdict", y = "Literature verdict") +
   base_theme +
   theme(axis.text.x = element_text(angle = 25, hjust = 1),
@@ -228,7 +228,7 @@ pE <- ggplot(dc, aes(x = max_verdict, y = logp, fill = max_verdict)) +
   scale_fill_manual(values = VCOL, guide = "none") +
   scale_y_continuous(trans = "log1p", breaks = c(5, 10, 30, 100, 300),
                      limits = c(5, 320)) +
-  labs(title = "d",
+  labs(title = "D",
        x = NULL, y = expression(-log[10](italic(P))~"burden")) +
   base_theme + theme(axis.text.x = element_text(angle = 20, hjust = 1))
 
@@ -240,11 +240,11 @@ pE <- ggplot(dc, aes(x = max_verdict, y = logp, fill = max_verdict)) +
 # coord_fixed on a 100 x 56 canvas: the schema fills the page only if its
 # row is tall enough. 8 : 4 : 4 at 16.6 in gives it that room.
 fig <- free(panel_A()) / free(pB) / (pC | pE) +
-  plot_layout(heights = c(8, 4, 4))
+  plot_layout(heights = c(7, 4, 4))
 
 fig1_out <- Sys.getenv("FIG1_OUT", "figure1_v7")
-ggsave(file.path(FIGURES, paste0(fig1_out, ".png")), fig, width = 12.5, height = 16.6, dpi = 600, bg = "white")
-ggsave(file.path(FIGURES, paste0(fig1_out, ".pdf")), fig, width = 12.5, height = 16.6, bg = "white")
+ggsave(file.path(FIGURES, paste0(fig1_out, ".png")), fig, width = 12.5, height = 15.6, dpi = 600, bg = "white")
+ggsave(file.path(FIGURES, paste0(fig1_out, ".pdf")), fig, width = 12.5, height = 15.6, bg = "white")
 cat("Wrote", file.path(FIGURES, paste0(fig1_out, ".png")), "and .pdf\n")
 
 cat("\nCounts used in panel b:\n")

@@ -174,9 +174,9 @@ cit_split_panel <- function(sb, tests, ylab, theme_base, show_n = FALSE) {
                        expand = expansion(add = 0.5)) +
     scale_y_continuous(labels = function(v) paste0(100 * v, "%"),
                        breaks = seq(0, 1, 0.2), expand = expansion(mult = c(0, 0))) +
-    coord_cartesian(ylim = c(0, 1.2), clip = "off") +
+    coord_cartesian(ylim = c(0, 1.12), clip = "off") +
     labs(x = "Year of first report in GenCC", y = ylab) +
-    guides(fill = guide_legend(ncol = 1)) +
+    guides(fill = guide_legend(ncol = 1), y = guide_axis(cap = "upper")) +
     theme_base +
     theme(aspect.ratio = 1,
           axis.text.x = element_text(angle = 45, hjust = 1,
@@ -185,7 +185,7 @@ cit_split_panel <- function(sb, tests, ylab, theme_base, show_n = FALSE) {
 
 citation_panel_e <- function(cd, theme_base) {
   cit_split_panel(cit_split(cit_e_data(cd)), cit_e_tests(cd),
-                  "Pairs citing a curated paper", theme_base)
+                  "Pairs citing a GenCC curated paper", theme_base)
 }
 
 citation_panel_f <- function(cd, theme_base) {

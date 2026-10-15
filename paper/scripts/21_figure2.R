@@ -989,15 +989,16 @@ fig <- if (IS_HAIKU) {
                                                legend.key.spacing.x = unit(0.9, "cm")) +
                                       guides(fill = guide_legend(nrow = 1)))
   wrap_plots(A = pa + nolegend + theme(axis.title.x = element_text(margin = margin(t = 22))),
-             B = panel_B() + nolegend, G = wrap_elements(full = legend, ignore_tag = TRUE),
+             B = panel_B() + nolegend,
+             G = wrap_elements(full = legend, ignore_tag = TRUE),
              C = panel_year_score(yb), D = panel_year_ap(yb),
              E = pe + nolegend, F = citation_panel_f(cd, base_theme) + nolegend,
              H = wrap_elements(full = cit_legend, ignore_tag = TRUE),
-             design = "AB\nGG\nCD\nEF\nHH") +
-    plot_layout(heights = c(1, 0.1, 1, 1, 0.1))
+             design = "AB\nGG\n##\nCD\nEF\nHH") +
+    plot_layout(heights = c(1, 0.04, 0.08, 1, 1, 0.1))
 }
 fig <- fig +
-  plot_annotation(tag_levels = "a") &
+  plot_annotation(tag_levels = "A") &
   theme(plot.tag = element_text(face = "bold", size = 20),
         plot.tag.position = c(0, 1))
 
@@ -1011,7 +1012,7 @@ cat("Wrote", file.path(FIGURES, paste0(fig2_stem, ".png")), "and .pdf\n")
 
 if (!IS_HAIKU) {
   supp <- (panel_limited_absent_bars() | panel_limited_adjacent_found()) +
-    plot_annotation(tag_levels = "a") &
+    plot_annotation(tag_levels = "A") &
     theme(plot.tag = element_text(face = "bold", size = 20),
           plot.tag.position = c(0, 1))
   ggsave(file.path(FIGURES, "figure_supp_1.png"), supp,

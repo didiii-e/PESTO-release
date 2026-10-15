@@ -90,7 +90,7 @@ pA <- ggplot(d, aes(x = verdict, y = n_pubmed, fill = verdict)) +
              size = 0.28, alpha = 0.22, colour = "grey25") +
   scale_fill_manual(values = VCOL, guide = "none") +
   scale_y_continuous(expand = expansion(mult = c(0.02, 0.06))) +
-  labs(title = "a",
+  labs(title = "A",
        subtitle = paste0("Only ", n_empty, " of ", n_novel,
                          " Novel pairs retrieved no PubMed records ",
                          "(median ", round(med_n), ")"),
@@ -153,9 +153,9 @@ make_bars <- function(verdict_col, title, subtitle, show_n, show_y) {
   p
 }
 
-pB <- make_bars("verdict", "b", "Literature", TRUE, TRUE) +
+pB <- make_bars("verdict", "B", "Literature", TRUE, TRUE) +
   theme(legend.position = "bottom")
-pC <- make_bars("max_verdict", "c", "Max", FALSE, FALSE)
+pC <- make_bars("max_verdict", "C", "Max", FALSE, FALSE)
 
 fig <- free(pA, type = "label", side = "l") / (pB | pC) +
   plot_layout(heights = c(0.85, 1.65), guides = "collect") &

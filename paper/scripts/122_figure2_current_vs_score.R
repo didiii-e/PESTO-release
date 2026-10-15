@@ -255,7 +255,7 @@ fig <- ((current_2a() + labs(title = "Default PESTO") |
         (open_2a() + labs(title = "abstracts-open") |
          open_2b() + labs(title = "abstracts-open"))) +
   plot_layout(guides = "collect") +
-  plot_annotation(tag_levels = "a") &
+  plot_annotation(tag_levels = "A") &
   theme(legend.position = "bottom",
         legend.box.margin = margin(t = -6, b = 0),
         plot.title = element_text(size = 15, hjust = 0.5),

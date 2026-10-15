@@ -1,201 +1,201 @@
-gene	c2010	source	c2026
-SLCO6A1	Novel	dinan	Novel
-EPHX1	Hypothesized	dinan	Hypothesized
-GRM1	Hypothesized	dinan	Existing
-CPLX2	Novel	dinan	Hypothesized
-BCL2	Hypothesized	dinan	Hypothesized
-SCN1A	Established	dinan	Established
-HTR2A	Hypothesized	dinan	Existing
-CHRM2	Novel	dinan	Hypothesized
-CACNG4	Hypothesized	dinan	Hypothesized
-CSNK1A1	Novel	dinan	Existing
-VTI1A	Novel	dinan	Hypothesized
-KCNQ1	Hypothesized	dinan	Existing
-ACHE	Hypothesized	dinan	Hypothesized
-RPH3A	Hypothesized	dinan	Existing
-CPLX1	Hypothesized	dinan	Established
-SYN2	Existing	dinan	Existing
-GRIK3	Hypothesized	dinan	Hypothesized
-GRM8	Hypothesized	dinan	Hypothesized
-CYP3A4	Hypothesized	dinan	Existing
-SLC17A6	Hypothesized	dinan	Existing
-CLCN2	Existing	dinan	Existing
-CACNA2D2	Hypothesized	dinan	Established
-GLS	Hypothesized	dinan	Established
-CHRNB4	Hypothesized	dinan	Hypothesized
-SLC17A8	Hypothesized	dinan	Hypothesized
-KCND2	Existing	dinan	Established
-LGI4	Existing	dinan	Existing
-SV2B	Hypothesized	dinan	Hypothesized
-CACNG1	Novel	dinan	Hypothesized
-CACNA1C	Hypothesized	dinan	Established
-CAMK2A	Hypothesized	dinan	Existing
-GABRR1	Hypothesized	dinan	Hypothesized
-KCNJ6	Hypothesized	dinan	Existing
-CLCN3	Hypothesized	dinan	Established
-GABRB2	Hypothesized	dinan	Established
-GABRP	Novel	dinan	Hypothesized
-CACNA1E	Hypothesized	dinan	Established
-PDYN	Existing	dinan	Existing
-SLC12A5	Hypothesized	dinan	Established
-CHRNB3	Hypothesized	dinan	Hypothesized
-SLC28A1	Novel	dinan	Hypothesized
-KCNN1	Hypothesized	dinan	Hypothesized
-ADORA3	Hypothesized	dinan	Hypothesized
-GAD1	Hypothesized	dinan	Established
-SLC32A1	Hypothesized	dinan	Established
-SLC1A6	Hypothesized	dinan	Hypothesized
-GABRG1	Hypothesized	dinan	Existing
-GABRA6	Hypothesized	dinan	Existing
-CACNA1S	Novel	dinan	Hypothesized
-SYNGR3	Novel	dinan	Novel
-SCN4A	Novel	dinan	Existing
-CACNB4	Existing	dinan	Existing
-CACNG3	Existing	dinan	Existing
-SYT2	Hypothesized	dinan	Hypothesized
-KCNMB4	Existing	dinan	Hypothesized
-ADORA2B	Novel	dinan	Hypothesized
-NT5E	Novel	dinan	Existing
-SLC1A3	Existing	dinan	Existing
-CYP2D6	Existing	dinan	Existing
-KCNC1	Hypothesized	dinan	Established
-HCN1	Hypothesized	dinan	Established
-GSTA4	Novel	dinan	Hypothesized
-GRIA4	Hypothesized	dinan	Existing
-UGT2B7	Hypothesized	dinan	Hypothesized
-STX3	Novel	dinan	Hypothesized
-GLS2	Novel	dinan	Hypothesized
-TNF	Hypothesized	dinan	Existing
-ABCC10	Novel	dinan	Novel
-ADRB2	Novel	dinan	Novel
-STX7	Novel	dinan	Hypothesized
-CHRNA6	Hypothesized	dinan	Hypothesized
-RALBP1	Hypothesized	dinan	Hypothesized
-CHRNA2	Existing	dinan	Established
-SLCO1A2	Hypothesized	added	Hypothesized
-GRIA3	Hypothesized	added	Established
-GRM3	Hypothesized	added	Existing
-KCNA10	Novel	added	Novel
-CACNG8	Novel	added	Hypothesized
-SLC6A11	Hypothesized	added	Existing
-GABRG3	Hypothesized	added	Existing
-GABRR2	Existing	added	Existing
-GABRA1	Established	added	Established
-GRIK5	Hypothesized	added	Hypothesized
-CYP2C19	Hypothesized	added	Existing
-GABARAP	Hypothesized	added	Hypothesized
-CHRM4	Novel	added	Hypothesized
-CHRNA7	Existing	added	Existing
-KCNA4	Hypothesized	added	Existing
-VAMP2	Hypothesized	added	Established
-KCNA1	Established	added	Established
-CYP2A6	Hypothesized	added	Hypothesized
-CACNG2	Hypothesized	added	Hypothesized
-GRM6	Novel	added	Hypothesized
-SCN2B	Hypothesized	added	Existing
-KCNA3	Hypothesized	added	Established
-ADK	Hypothesized	added	Established
-GRM2	Hypothesized	added	Hypothesized
-RAB3GAP1	Existing	added	Existing
-CDK5	Hypothesized	added	Hypothesized
-CLCN7	Hypothesized	added	Existing
-GSTA2	Novel	added	Novel
-CHRM5	Hypothesized	added	Novel
-CLCN6	Hypothesized	added	Existing
-TRAPPC4	Novel	added	Established
-BRD2	Existing	added	Existing
-PIK3CG	Novel	added	Hypothesized
-HCN3	Hypothesized	added	Existing
-ABCG2	Hypothesized	added	Existing
-GRIK4	Hypothesized	added	Hypothesized
-CACNA1I	Hypothesized	added	Established
-CYP2E1	Hypothesized	added	Hypothesized
-ABCC3	Hypothesized	added	Hypothesized
-CYP2B6	Hypothesized	added	Hypothesized
-CHRNA4	Established	added	Established
-CAMK2D	Hypothesized	added	Hypothesized
-CACNG5	Novel	added	Hypothesized
-NTRK2	Hypothesized	added	Established
-ABCC6	Hypothesized	added	Hypothesized
-BSND	Novel	added	Hypothesized
-SYN1	Existing	added	Established
-SCN5A	Existing	added	Existing
-CYP3A5	Hypothesized	added	Existing
-STX5	Novel	added	Hypothesized
-CHRNB2	Established	added	Established
-GLUD1	Established	added	Established
-CHRNA9	Novel	added	Novel
-STX10	Novel	added	Novel
-KCNN2	Hypothesized	added	Hypothesized
-SLCO3A1	Novel	added	Existing
-STX2	Novel	added	Hypothesized
-GRIN3A	Hypothesized	added	Hypothesized
-STX1A	Hypothesized	added	Existing
-RAB3B	Novel	added	Hypothesized
-SLC28A2	Novel	added	Novel
-SLCO5A1	Novel	added	Hypothesized
-RAB3C	Hypothesized	added	Hypothesized
-CHRNA1	Novel	added	Novel
-CACNA2D4	Novel	added	Hypothesized
-KCNMB1	Hypothesized	added	Hypothesized
-SYT1	Hypothesized	added	Existing
-NOVA1	Hypothesized	added	Hypothesized
-RAB3A	Hypothesized	added	Hypothesized
-KCNN4	Hypothesized	added	Hypothesized
-RIMS1	Hypothesized	added	Hypothesized
-SYN3	Hypothesized	added	Hypothesized
-SNAP25	Hypothesized	added	Established
-CACNA1D	Hypothesized	added	Established
-SLCO2A1	Novel	added	Novel
-GRM7	Hypothesized	added	Established
-CLCN5	Novel	added	Hypothesized
-ABCC4	Hypothesized	added	Hypothesized
-DRD2	Hypothesized	added	Existing
-CYP2C9	Hypothesized	added	Existing
-LGI3	Hypothesized	added	Hypothesized
-CHRNA5	Hypothesized	added	Existing
-SLC29A3	Hypothesized	added	Novel
-SCN1B	Established	added	Established
-SSTR1	Hypothesized	added	Hypothesized
-CACNA1B	Hypothesized	added	Established
-HCN2	Existing	added	Established
-CLCN1	Novel	added	Existing
-KCNAB3	Hypothesized	added	Existing
-GSTA1	Hypothesized	added	Hypothesized
-IFNA1	Hypothesized	added	Hypothesized
-CACNB3	Hypothesized	added	Hypothesized
-KCNAB1	Existing	added	Existing
-SCN3B	Hypothesized	added	Existing
-CHRNA10	Novel	added	Novel
-GABRQ	Hypothesized	added	Hypothesized
-NAPA	Hypothesized	added	Hypothesized
-KCNQ3	Established	added	Established
-MVP	Hypothesized	added	Hypothesized
-CACNG7	Novel	added	Hypothesized
-ABCC5	Hypothesized	added	Hypothesized
-ABCC1	Hypothesized	added	Hypothesized
-CACNB2	Hypothesized	added	Existing
-ME2	Existing	added	Existing
-CYP1A2	Hypothesized	added	Existing
-KCNJ10	Established	added	Established
-ABCB1	Existing	added	Existing
-GRIA1	Hypothesized	added	Existing
-CACNA1A	Established	added	Established
-KCNN3	Existing	added	Existing
-RYR3	Hypothesized	added	Existing
-BCL2L1	Hypothesized	added	Hypothesized
-CAMK2B	Hypothesized	added	Existing
-CACNA1F	Novel	added	Novel
-SLC6A13	Hypothesized	added	Hypothesized
-ADORA2A	Novel	added	Existing
-CHRNB1	Novel	added	Novel
-STX12	Novel	added	Novel
-SCN3A	Existing	added	Established
-GRM4	Existing	added	Existing
-CHAT	Hypothesized	added	Existing
-SYNGR1	Novel	added	Novel
-KCNMB2	Hypothesized	added	Hypothesized
-CACNA2D3	Hypothesized	added	Hypothesized
-NSF	Hypothesized	added	Existing
-CACNA2D1	Hypothesized	added	Existing
-LRRC7	Hypothesized	added	Existing
+gene	c2007	c2010	source	c2017	c2026
+SLCO6A1	Novel	Novel	dinan	Novel	Novel
+EPHX1	Hypothesized	Hypothesized	dinan	Hypothesized	Hypothesized
+GRM1	Hypothesized	Hypothesized	dinan	Hypothesized	Existing
+CPLX2	Novel	Novel	dinan	Novel	Hypothesized
+BCL2	Hypothesized	Hypothesized	dinan	Hypothesized	Hypothesized
+SCN1A	Established	Established	dinan		Established
+HTR2A	Hypothesized	Hypothesized	dinan	Existing	Existing
+CHRM2	Hypothesized	Novel	dinan	Novel	Hypothesized
+CACNG4	Hypothesized	Hypothesized	dinan	Hypothesized	Hypothesized
+CSNK1A1	Novel	Novel	dinan	Hypothesized	Existing
+VTI1A	Novel	Novel	dinan	Hypothesized	Hypothesized
+KCNQ1	Hypothesized	Hypothesized	dinan	Existing	Existing
+ACHE	Hypothesized	Hypothesized	dinan	Hypothesized	Hypothesized
+RPH3A	Novel	Hypothesized	dinan	Hypothesized	Existing
+CPLX1	Hypothesized	Hypothesized	dinan	Existing	Established
+SYN2	Hypothesized	Existing	dinan	Existing	Existing
+GRIK3	Hypothesized	Hypothesized	dinan	Hypothesized	Hypothesized
+GRM8	Hypothesized	Hypothesized	dinan	Hypothesized	Hypothesized
+CYP3A4	Hypothesized	Hypothesized	dinan	Existing	Existing
+SLC17A6	Hypothesized	Hypothesized	dinan	Existing	Existing
+CLCN2	Existing	Existing	dinan		Existing
+CACNA2D2	Hypothesized	Hypothesized	dinan	Existing	Established
+GLS	Hypothesized	Hypothesized	dinan	Hypothesized	Established
+CHRNB4	Hypothesized	Hypothesized	dinan	Hypothesized	Hypothesized
+SLC17A8	Hypothesized	Hypothesized	dinan	Hypothesized	Hypothesized
+KCND2	Existing	Existing	dinan		Established
+LGI4	Existing	Existing	dinan		Existing
+SV2B	Hypothesized	Hypothesized	dinan	Hypothesized	Hypothesized
+CACNG1	Hypothesized	Novel	dinan	Hypothesized	Hypothesized
+CACNA1C	Hypothesized	Hypothesized	dinan	Existing	Established
+CAMK2A	Hypothesized	Hypothesized	dinan	Hypothesized	Existing
+GABRR1	Hypothesized	Hypothesized	dinan	Hypothesized	Hypothesized
+KCNJ6	Hypothesized	Hypothesized	dinan	Hypothesized	Existing
+CLCN3	Hypothesized	Hypothesized	dinan	Hypothesized	Established
+GABRB2	Hypothesized	Hypothesized	dinan	Existing	Established
+GABRP	Hypothesized	Novel	dinan	Hypothesized	Hypothesized
+CACNA1E	Hypothesized	Hypothesized	dinan	Hypothesized	Established
+PDYN	Existing	Existing	dinan		Existing
+SLC12A5	Hypothesized	Hypothesized	dinan	Established	Established
+CHRNB3	Hypothesized	Hypothesized	dinan	Hypothesized	Hypothesized
+SLC28A1	Novel	Novel	dinan	Novel	Hypothesized
+KCNN1	Hypothesized	Hypothesized	dinan	Hypothesized	Hypothesized
+ADORA3	Hypothesized	Hypothesized	dinan	Hypothesized	Hypothesized
+GAD1	Hypothesized	Hypothesized	dinan	Existing	Established
+SLC32A1	Hypothesized	Hypothesized	dinan	Hypothesized	Established
+SLC1A6	Hypothesized	Hypothesized	dinan	Hypothesized	Hypothesized
+GABRG1	Hypothesized	Hypothesized	dinan	Hypothesized	Existing
+GABRA6	Hypothesized	Hypothesized	dinan	Existing	Existing
+CACNA1S	Hypothesized	Novel	dinan	Hypothesized	Hypothesized
+SYNGR3	Novel	Novel	dinan	Novel	Novel
+SCN4A	Hypothesized	Novel	dinan	Existing	Existing
+CACNB4	Existing	Existing	dinan		Existing
+CACNG3	Existing	Existing	dinan		Existing
+SYT2	Hypothesized	Hypothesized	dinan	Novel	Hypothesized
+KCNMB4	Hypothesized	Existing	dinan	Existing	Hypothesized
+ADORA2B	Novel	Novel	dinan	Novel	Hypothesized
+NT5E	Novel	Novel	dinan	Existing	Existing
+SLC1A3	Existing	Existing	dinan		Existing
+CYP2D6	Existing	Existing	dinan		Existing
+KCNC1	Hypothesized	Hypothesized	dinan	Established	Established
+HCN1	Hypothesized	Hypothesized	dinan	Existing	Established
+GSTA4	Novel	Novel	dinan	Hypothesized	Hypothesized
+GRIA4	Hypothesized	Hypothesized	dinan	Hypothesized	Existing
+UGT2B7	Hypothesized	Hypothesized	dinan	Hypothesized	Hypothesized
+STX3	Novel	Novel	dinan	Hypothesized	Hypothesized
+GLS2	Novel	Novel	dinan	Hypothesized	Hypothesized
+TNF	Hypothesized	Hypothesized	dinan	Existing	Existing
+ABCC10	Novel	Novel	dinan	Novel	Novel
+ADRB2	Novel	Novel	dinan	Novel	Novel
+STX7	Novel	Novel	dinan	Hypothesized	Hypothesized
+CHRNA6	Hypothesized	Hypothesized	dinan	Hypothesized	Hypothesized
+RALBP1	Hypothesized	Hypothesized	dinan	Hypothesized	Hypothesized
+CHRNA2	Existing	Existing	dinan		Established
+SLCO1A2	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+GRIA3	Hypothesized	Hypothesized	added	Hypothesized	Established
+GRM3	Hypothesized	Hypothesized	added	Novel	Existing
+KCNA10	Novel	Novel	added	Novel	Novel
+CACNG8	Novel	Novel	added	Hypothesized	Hypothesized
+SLC6A11	Hypothesized	Hypothesized	added	Existing	Existing
+GABRG3	Hypothesized	Hypothesized	added	Existing	Existing
+GABRR2	Hypothesized	Existing	added	Existing	Existing
+GABRA1	Established	Established	added		Established
+GRIK5	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+CYP2C19	Hypothesized	Hypothesized	added	Hypothesized	Existing
+GABARAP	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+CHRM4	Novel	Novel	added	Hypothesized	Hypothesized
+CHRNA7	Existing	Existing	added		Existing
+KCNA4	Hypothesized	Hypothesized	added	Hypothesized	Existing
+VAMP2	Hypothesized	Hypothesized	added	Existing	Established
+KCNA1	Existing	Established	added		Established
+CYP2A6	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+CACNG2	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+GRM6	Novel	Novel	added	Novel	Hypothesized
+SCN2B	Hypothesized	Hypothesized	added	Existing	Existing
+KCNA3	Hypothesized	Hypothesized	added	Hypothesized	Established
+ADK	Hypothesized	Hypothesized	added	Existing	Established
+GRM2	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+RAB3GAP1	Hypothesized	Existing	added	Existing	Existing
+CDK5	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+CLCN7	Hypothesized	Hypothesized	added	Existing	Existing
+GSTA2	Novel	Novel	added	Novel	Novel
+CHRM5	Novel	Hypothesized	added	Hypothesized	Novel
+CLCN6	Hypothesized	Hypothesized	added	Existing	Existing
+TRAPPC4	Novel	Novel	added	Novel	Established
+BRD2	Existing	Existing	added		Existing
+PIK3CG	Novel	Novel	added	Hypothesized	Hypothesized
+HCN3	Hypothesized	Hypothesized	added	Hypothesized	Existing
+ABCG2	Hypothesized	Hypothesized	added	Hypothesized	Existing
+GRIK4	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+CACNA1I	Hypothesized	Hypothesized	added	Hypothesized	Established
+CYP2E1	Novel	Hypothesized	added	Hypothesized	Hypothesized
+ABCC3	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+CYP2B6	Novel	Hypothesized	added	Existing	Hypothesized
+CHRNA4	Established	Established	added		Established
+CAMK2D	Novel	Hypothesized	added	Hypothesized	Hypothesized
+CACNG5	Novel	Novel	added	Novel	Hypothesized
+NTRK2	Hypothesized	Hypothesized	added	Hypothesized	Established
+ABCC6	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+BSND	Novel	Novel	added	Hypothesized	Hypothesized
+SYN1	Existing	Existing	added		Established
+SCN5A	Hypothesized	Existing	added	Existing	Existing
+CYP3A5	Hypothesized	Hypothesized	added	Hypothesized	Existing
+STX5	Novel	Novel	added	Novel	Hypothesized
+CHRNB2	Established	Established	added		Established
+GLUD1	Existing	Established	added		Established
+CHRNA9	Novel	Novel	added	Novel	Novel
+STX10	Novel	Novel	added	Novel	Novel
+KCNN2	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+SLCO3A1	Novel	Novel	added	Hypothesized	Existing
+STX2	Novel	Novel	added	Novel	Hypothesized
+GRIN3A	Novel	Hypothesized	added	Hypothesized	Hypothesized
+STX1A	Hypothesized	Hypothesized	added	Existing	Existing
+RAB3B	Novel	Novel	added	Hypothesized	Hypothesized
+SLC28A2	Novel	Novel	added	Novel	Novel
+SLCO5A1	Novel	Novel	added	Novel	Hypothesized
+RAB3C	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+CHRNA1	Novel	Novel	added	Novel	Novel
+CACNA2D4	Novel	Novel	added	Hypothesized	Hypothesized
+KCNMB1	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+SYT1	Hypothesized	Hypothesized	added	Hypothesized	Existing
+NOVA1	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+RAB3A	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+KCNN4	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+RIMS1	Novel	Hypothesized	added	Hypothesized	Hypothesized
+SYN3	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+SNAP25	Hypothesized	Hypothesized	added	Existing	Established
+CACNA1D	Novel	Hypothesized	added	Existing	Established
+SLCO2A1	Novel	Novel	added	Novel	Novel
+GRM7	Hypothesized	Hypothesized	added	Hypothesized	Established
+CLCN5	Novel	Novel	added	Novel	Hypothesized
+ABCC4	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+DRD2	Hypothesized	Hypothesized	added	Hypothesized	Existing
+CYP2C9	Hypothesized	Hypothesized	added	Hypothesized	Existing
+LGI3	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+CHRNA5	Hypothesized	Hypothesized	added	Hypothesized	Existing
+SLC29A3	Hypothesized	Hypothesized	added	Novel	Novel
+SCN1B	Established	Established	added		Established
+SSTR1	Novel	Hypothesized	added	Hypothesized	Hypothesized
+CACNA1B	Hypothesized	Hypothesized	added	Hypothesized	Established
+HCN2	Hypothesized	Existing	added	Existing	Established
+CLCN1	Novel	Novel	added	Existing	Existing
+KCNAB3	Hypothesized	Hypothesized	added	Hypothesized	Existing
+GSTA1	Novel	Hypothesized	added	Hypothesized	Hypothesized
+IFNA1	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+CACNB3	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+KCNAB1	Hypothesized	Existing	added	Existing	Existing
+SCN3B	Novel	Hypothesized	added	Hypothesized	Existing
+CHRNA10	Novel	Novel	added	Novel	Novel
+GABRQ	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+NAPA	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+KCNQ3	Established	Established	added		Established
+MVP	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+CACNG7	Novel	Novel	added	Novel	Hypothesized
+ABCC5	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+ABCC1	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+CACNB2	Novel	Hypothesized	added	Hypothesized	Existing
+ME2	Existing	Existing	added		Existing
+CYP1A2	Hypothesized	Hypothesized	added	Hypothesized	Existing
+KCNJ10	Existing	Established	added		Established
+ABCB1	Existing	Existing	added		Existing
+GRIA1	Hypothesized	Hypothesized	added	Hypothesized	Existing
+CACNA1A	Existing	Established	added		Established
+KCNN3	Existing	Existing	added		Existing
+RYR3	Hypothesized	Hypothesized	added	Existing	Existing
+BCL2L1	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+CAMK2B	Hypothesized	Hypothesized	added	Hypothesized	Existing
+CACNA1F	Novel	Novel	added	Novel	Novel
+SLC6A13	Hypothesized	Hypothesized	added	Hypothesized	Hypothesized
+ADORA2A	Hypothesized	Novel	added	Hypothesized	Existing
+CHRNB1	Hypothesized	Novel	added	Hypothesized	Novel
+STX12	Novel	Novel	added	Novel	Novel
+SCN3A	Hypothesized	Existing	added	Existing	Established
+GRM4	Hypothesized	Existing	added	Existing	Existing
+CHAT	Hypothesized	Hypothesized	added	Hypothesized	Existing
+SYNGR1	Novel	Novel	added	Novel	Novel
+KCNMB2	Novel	Hypothesized	added	Hypothesized	Hypothesized
+CACNA2D3	Novel	Hypothesized	added	Hypothesized	Hypothesized
+NSF	Hypothesized	Hypothesized	added	Hypothesized	Existing
+CACNA2D1	Hypothesized	Hypothesized	added	Existing	Existing
+LRRC7	Hypothesized	Hypothesized	added	Hypothesized	Existing

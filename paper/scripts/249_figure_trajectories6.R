@@ -4,7 +4,8 @@
 # (Hypothesized, then Established), MYH2 (Novel throughout) and LRRTM2 (Hypothesized
 # throughout). Each pair is scored with PubMed capped at Dinan's grid of dates
 # (every five years 1975-2005, every two years 2010-2024; benchmark/trajectories6/),
-# plus the cohort runs at the autism start date (2014/09/30) and on 2026/10/11. The
+# plus the cohort runs at the start dates (epilepsy 2007/09/30, autism 2014/09/30) and
+# on 2026/10/11. The
 # score is the confidence-weighted mean of the four levels (1 Novel to 4
 # Established), on the category bands of Fig. 2c; the dashed line marks the start date
 # of the cohort.
@@ -37,13 +38,14 @@ grid <- bind_rows(lapply(Sys.glob(file.path(B, "trajectories6", "pesto_[0-9][0-9
 }))
 genes <- unique(grid$gene)
 extra <- bind_rows(
+  read_run(file.path(B, "epigen_extension", "pesto_2007.tsv"), 2007 + 9 / 12),
   read_run(file.path(B, "asd_denovo2014", "pesto_2014.tsv"), 2014 + 9 / 12),
   read_run(file.path(B, "asd_denovo2014", "pesto_2026.tsv"), 2026 + 9.4 / 12),
   read_run(file.path(B, "epigen_extension", "pesto_2026.tsv"), 2026 + 9.4 / 12)
 ) %>% filter(gene %in% genes) %>% semi_join(distinct(grid, gene, phenotype), by = c("gene", "phenotype"))
 d <- bind_rows(grid, extra) %>% arrange(gene, when)
 
-start <- c(epilepsy = 2011, "Autism Spectrum Disorder" = 2014 + 9 / 12)
+start <- c(epilepsy = 2007 + 9 / 12, "Autism Spectrum Disorder" = 2014 + 9 / 12)
 d <- d %>%
   mutate(disease = factor(ifelse(phenotype == "epilepsy", "Epilepsy", "Autism"), levels = c("Epilepsy", "Autism")),
          t0 = start[phenotype]) %>%
@@ -56,7 +58,7 @@ nudge <- c(KCNC1 = 0.13, TRAPPC4 = -0.13)
 ends <- d %>% group_by(gene) %>% slice_max(when, n = 1) %>% ungroup() %>%
   mutate(label_y = score + ifelse(gene %in% names(nudge), nudge[gene], 0))
 vlines <- tibble(disease = factor(c("Epilepsy", "Autism"), levels = c("Epilepsy", "Autism")),
-                 t0 = c(2011, 2014 + 9 / 12))
+                 t0 = c(2007 + 9 / 12, 2014 + 9 / 12))
 # Category bands as in Fig. 2c: the verdict is the rounded score, so the bands
 # change at 1.5, 2.5 and 3.5; pairs share one neutral colour, the class at
 # baseline being shown in panel b.

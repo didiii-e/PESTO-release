@@ -76,7 +76,7 @@ pA <- ggplot(ap, aes(x = method, y = ap, fill = method)) +
   scale_fill_manual(values = MCOL, guide = "none") +
   scale_y_continuous(limits = c(0, 1.2), breaks = seq(0, 1, 0.2),
                      expand = expansion(mult = c(0, 0))) +
-  labs(title = "a",
+  labs(title = "A",
        x = NULL, y = "Average precision") +
   base_theme
 
@@ -89,7 +89,7 @@ pB <- ggplot(cost, aes(x = method, y = mean_usd, fill = method)) +
   scale_fill_manual(values = MCOL, guide = "none") +
   scale_y_continuous(labels = function(v) sprintf("$%.2f", v),
                      expand = expansion(mult = c(0, 0.08))) +
-  labs(title = "b",
+  labs(title = "B",
        x = NULL, y = "USD per pair (mean ± s.d.)") +
   base_theme
 

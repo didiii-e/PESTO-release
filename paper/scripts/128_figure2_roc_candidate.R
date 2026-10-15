@@ -138,7 +138,7 @@ panel_cand <- ggplot(cand, aes(arm, rate, fill = arm)) +
         plot.title = element_text(size = 15, hjust = 0.5))
 
 fig <- (panel_roc | panel_cand) +
-  plot_annotation(tag_levels = "a") &
+  plot_annotation(tag_levels = "A") &
   theme(plot.tag = element_text(face = "bold", size = 20),
         plot.tag.position = c(0, 1))
 

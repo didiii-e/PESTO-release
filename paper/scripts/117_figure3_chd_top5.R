@@ -404,15 +404,15 @@ if (CELLS) {
                    panel_b + labs(x = "OR (\u2265 Existing)\nin top 5% brain-specific") + tight,
                    panel_cells, ncol = 3,
                    rel_widths = c(0.95, 0.95, 1.35), align = "h", axis = "tb",
-                   labels = c("a", "b", "c"), label_size = 24, label_fontface = "bold")
+                   labels = c("A", "B", "C"), label_size = 24, label_fontface = "bold")
   bot <- plot_grid(panel_c, ncol = 1,
-                   labels = "d", label_size = 24, label_fontface = "bold")
+                   labels = "D", label_size = 24, label_fontface = "bold")
 } else {
   top <- plot_grid(panel_a + narrow, panel_b + narrow, ncol = 2,
                    align = "h", axis = "tb",
-                   labels = c("a", "b"), label_size = 24, label_fontface = "bold")
+                   labels = c("A", "B"), label_size = 24, label_fontface = "bold")
   bot <- plot_grid(panel_c, ncol = 1,
-                   labels = "c", label_size = 24, label_fontface = "bold")
+                   labels = "C", label_size = 24, label_fontface = "bold")
 }
 fig <- plot_grid(top, bot, ncol = 1,
                  rel_heights = if (CELLS) c(1, 2.15) else c(1, 1.90), align = "none")

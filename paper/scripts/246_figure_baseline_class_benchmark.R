@@ -2,9 +2,9 @@
 # gene-disease pairs classified Existing or Established at the end date, by their
 # class (Novel or Hypothesized) at the start date, with Wilson 95% intervals and
 # one-sided Fisher's exact tests (Hypothesized > Novel).
-#   Epilepsy: 200 EPIGEN candidate genes, 2010/12/31 -> 2026/10/11; the 73 Dinan
-#     screened and 127 more of her frozen order (scripts/248_draw_epigen_extension.py;
-#     benchmark/epigen_extension/transitions.tsv)
+#   Epilepsy: 200 EPIGEN candidate genes, 2007/09/30 -> 2026/10/11, the start being the
+#     month before the gene list was published, as for autism; the 73 Dinan screened and
+#     127 more of her frozen order (benchmark/epigen_extension/transitions.tsv)
 #   Autism: 200 genes with a de novo loss-of-function variant in Iossifov or De Rubeis
 #     2014, 2014/09/30 -> 2026/10/11 (benchmark/asd_denovo2014/transitions.tsv;
 #     scripts/245_draw_asd_denovo2014.py)
@@ -24,7 +24,7 @@ root <- normalizePath(file.path(dirname(sub("--file=", "",
 
 epi <- read_tsv(file.path(root, "benchmark", "epigen_extension", "transitions.tsv"),
                 show_col_types = FALSE) %>%
-  transmute(start = c2010, end = c2026)
+  transmute(start = c2007, end = c2026)
 asd <- read_tsv(file.path(root, "benchmark", "asd_denovo2014", "transitions.tsv"),
                 show_col_types = FALSE) %>%
   transmute(start = c2014, end = c2026)

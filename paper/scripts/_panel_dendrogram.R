@@ -6,8 +6,8 @@
 # Column tree: 1 - Spearman rho of log2 odds ratio profiles over every GO
 # term with K >= 10, average linkage (scripts/96_pheno_dendrogram.py). The
 # eighteen rows are the terms figure 3 already selected; the tree above them
-# does not use those eighteen, so the grouping is not circular. A black dot
-# marks FDR < 0.05.
+# does not use those eighteen, so the grouping is not circular. Marks follow
+# the cell-type panel: * P < 0.05, ** FDR < 0.05.
 #
 # source() this file, then call dendrogram_panel(results_dir).
 # row_mode = "tree" (default) clusters displayed terms by Spearman of
@@ -125,6 +125,8 @@ dendrogram_panel <- function(results_dir,
            yid       = factor(yid, levels = row_order),
            lor_c     = pmax(pmin(lor, LOR_CAP), -LOR_CAP),
            sig       = q < ALPHA)
+  if (!"p" %in% names(d)) d$p <- NA_real_
+  d$mark <- ifelse(d$sig, "**", ifelse(!is.na(d$p) & d$p < 0.05, "*", ""))
 
   fill_guide <- if (identical(legend, "bottom")) {
     guide_colourbar(barwidth = 12, barheight = 0.7, title.position = "left",
@@ -136,7 +138,9 @@ dendrogram_panel <- function(results_dir,
   or_labels <- c("0.1", "1", "10")
   heat <- ggplot(d, aes(x = phenotype, y = yid)) +
     geom_tile(aes(fill = lor_c), colour = "white", linewidth = 0.6) +
-    geom_point(data = filter(d, sig), size = 1.5, colour = "grey10") +
+    # Helvetica's asterisk sits high, so the marks are nudged down to the tile centre.
+    geom_text(data = filter(d, mark != ""), aes(label = mark), size = 8.5,
+              vjust = 0.75, colour = "grey10") +
     scale_fill_gradient2(
       low = "#2C6E8F", mid = "grey96", high = "#B33A3A", midpoint = 0,
       limits = c(-LOR_CAP, LOR_CAP),

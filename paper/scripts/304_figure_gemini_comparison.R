@@ -133,7 +133,7 @@ panel_e <- windows %>%
 fig <- wrap_plots(A = panel_a, B = panel_b, C = panel_c, D = panel_d, E = panel_e,
                   design = "AAAA\nBBCC\nDDDD\nEEEE") +
   plot_layout(heights = c(1.1, 1, 0.9, 0.9)) +
-  plot_annotation(tag_levels = "a")
+  plot_annotation(tag_levels = "A")
 ggsave(file.path(FIGURES, "figure_supp_gemini_comparison.png"), fig, width = 13, height = 17, dpi = 300, bg = "white")
 ggsave(file.path(FIGURES, "figure_supp_gemini_comparison.pdf"), fig, width = 13, height = 17, bg = "white")
 cat("Wrote", file.path(FIGURES, "figure_supp_gemini_comparison.png"), "and .pdf\n")

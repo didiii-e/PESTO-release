@@ -116,7 +116,7 @@ panel_e <- ggplot(ap, aes(arm, ap, fill = arm)) +
 schema <- wrap_elements(full = detailed_schema(fulltext = TRUE))
 bottom <- (panel_b | panel_c | panel_d | panel_e) + plot_layout(widths = c(2, 1, 1, 1))
 fig <- schema / bottom + plot_layout(heights = c(0.9, 1.05)) +
-  plot_annotation(tag_levels = "a") &
+  plot_annotation(tag_levels = "A") &
   theme(plot.tag = element_text(face = "bold", size = 20))
 
 out <- file.path(FIGURES, "figure_supp_fulltext")

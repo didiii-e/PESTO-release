@@ -3,20 +3,22 @@ is accounted for? Genes PESTO calls Hypothesized have, by construction, more
 literature than genes it calls Novel, and studied genes keep being studied.
 
 For both cohorts of scripts/246_figure_baseline_class_benchmark.R (epilepsy,
-2010 -> 2026, EPIGEN candidate genes; autism, 2014 -> 2026, de novo LoF genes), the
+2007 -> 2026, EPIGEN candidate genes; autism, 2014 -> 2026, de novo LoF genes), the
 attention of a gene at the start date is the number of PubMed articles linked to it
 in NCBI gene2pubmed (data/raw/gene2pubmed.gz) with a PMID at or below the last PMID
-indexed on the start date (21,193,000 on 31 December 2010 and 25,266,000 on
-30 September 2014, read from PubMed on 11 October 2026). Then, among genes Novel or
-Hypothesized at the start:
+indexed on the start date (17,905,000 on 30 September 2007, between the PMIDs indexed
+in the last week of September 2007 and the first week of October, read from PubMed on
+14 October 2026; 25,266,000 on 30 September 2014, read on 11 October 2026). Then, among
+genes Novel or Hypothesized at the start:
 
   logistic regression  high ~ Hypothesized + log10(1 + articles)   per cohort
                        high ~ Hypothesized + log10(1 + articles) + cohort   pooled
   Cochran-Mantel-Haenszel over tertiles of articles (within cohort)
 
 where high is Existing or Established at the end date. P values for Hypothesized are
-one-sided (Hypothesized > Novel). Writes results/baseline_class_adjusted.tsv (one
-row per gene) and prints the models.
+one-sided (Hypothesized > Novel). Also prints the ten-year horizon of the epilepsy
+cohort (2007 -> 2017) with the same one-sided Fisher test. Writes
+results/baseline_class_adjusted.tsv (one row per gene) and prints the models.
 
   python3 scripts/247_baseline_class_adjusted.py
 """
@@ -32,14 +34,14 @@ from scipy import stats
 from statsmodels.stats.contingency_tables import StratifiedTable
 
 ROOT = Path(__file__).resolve().parents[1]
-CUTOFF = {"epilepsy": 21_193_000, "autism": 25_266_000}
+CUTOFF = {"epilepsy": 17_905_000, "autism": 25_266_000}
 
 
 def cohorts():
     h = pd.read_csv(ROOT / "data" / "hgnc_complete_set.txt", sep="\t", dtype=str, low_memory=False)
     epi = pd.read_csv(ROOT / "benchmark" / "epigen_extension" / "transitions.tsv", sep="\t")
     epi = epi.merge(h[["symbol", "entrez_id"]], left_on="gene", right_on="symbol", how="left")
-    epi = epi.rename(columns={"c2010": "start", "c2026": "end"})[["gene", "entrez_id", "start", "end"]]
+    epi = epi.rename(columns={"c2007": "start", "c2026": "end"})[["gene", "entrez_id", "start", "end"]]
     asd = pd.read_csv(ROOT / "benchmark" / "asd_denovo2014" / "transitions.tsv", sep="\t")
     asd = asd.merge(h[["symbol", "entrez_id"]], left_on="gene", right_on="symbol", how="left")
     asd = asd.rename(columns={"c2014": "start", "c2026": "end"})[["gene", "entrez_id", "start", "end"]]
@@ -106,6 +108,15 @@ def main():
         st = StratifiedTable(tables)
         p = st.test_null_odds().pvalue
         print(f"  CMH over article tertiles: OR {st.oddsratio_pooled:.2f}, one-sided P = {one_sided(np.log(st.oddsratio_pooled), p):.2g}")
+
+    t = pd.read_csv(ROOT / "benchmark" / "epigen_extension" / "transitions.tsv", sep="\t")
+    t = t[t["c2007"].isin(["Novel", "Hypothesized"]) & t["c2017"].notna()]
+    high = t["c2017"].isin(["Existing", "Established"])
+    a, b = high[t.c2007 == "Hypothesized"].sum(), (t.c2007 == "Hypothesized").sum()
+    c, n = high[t.c2007 == "Novel"].sum(), (t.c2007 == "Novel").sum()
+    p = stats.fisher_exact([[a, b - a], [c, n - c]], alternative="greater")[1]
+    print(f"\n== epilepsy ten-year horizon (2007 -> 2017): Hypothesized {a}/{b} vs Novel {c}/{n} "
+          f"Existing or Established, OR {(a * (n - c)) / ((b - a) * c):.1f}, one-sided Fisher P = {p:.2g}")
 
 
 if __name__ == "__main__":
