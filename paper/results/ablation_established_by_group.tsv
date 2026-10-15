@@ -1,0 +1,37 @@
+prompt	group	n	established	pct_established
+Default PESTO	Absent	100	1	1
+Default PESTO	Definitive	100	96	96
+Default PESTO	Limited	100	27	27
+Default PESTO	Moderate	100	65	65
+Default PESTO	Strong	100	75	75
+Default PESTO	ASD candidate	56	1	1.8
+Default PESTO	ASD known	180	66	36.7
+Default PESTO	not in ASC	100	1	1
+Default PESTO	novel candidate	17	0	0
+abstracts-score	Absent	100	1	1
+abstracts-score	Definitive	100	100	100
+abstracts-score	Limited	100	87	87
+abstracts-score	Moderate	100	98	98
+abstracts-score	Strong	100	100	100
+abstracts-score	ASD candidate	56	27	48.2
+abstracts-score	ASD known	180	156	86.7
+abstracts-score	not in ASC	100	5	5
+abstracts-score	novel candidate	17	2	11.8
+abstracts-bare	Absent	100	1	1
+abstracts-bare	Definitive	100	100	100
+abstracts-bare	Limited	100	44	44
+abstracts-bare	Moderate	100	82	82
+abstracts-bare	Strong	100	87	87
+abstracts-bare	ASD candidate	56	9	16.1
+abstracts-bare	ASD known	180	113	62.8
+abstracts-bare	not in ASC	100	2	2
+abstracts-bare	novel candidate	17	0	0
+abstracts-open	Absent	100	0	0
+abstracts-open	Definitive	100	100	100
+abstracts-open	Limited	100	60	60
+abstracts-open	Moderate	100	92	92
+abstracts-open	Strong	100	97	97
+abstracts-open	ASD candidate	56	8	14.3
+abstracts-open	ASD known	180	106	58.9
+abstracts-open	not in ASC	100	2	2
+abstracts-open	novel candidate	17	0	0

@@ -37,7 +37,7 @@ fonts (`fonts-urw-base35` on Debian and Ubuntu).
 | Supplementary Figure 2 | `156_figure_supp_abstract_fix.R` (reads `results/abstract_fix_check.tsv`) | `figures/figure_supp_abstract_fix.png` |
 | Supplementary Figure 3 (references from the model's knowledge) | `280_figure_supp_citations.R` (+ `_panel_citations.R`; reads `results/knowledge_citations/pair_summary.tsv` and `ref_checks.tsv`) | `figures/figure_supp_citations.png` |
 | Supplementary Figure 4 (manual benchmark of the Open Targets branch) | `320_figure_supp_ot_manual.py` (reads `results/ot_manual_benchmark/`; prints the numbers of Supplementary Material Note 3) | `figures/figure_supp_ot_manual_agreement.png` |
-| Supplementary Figure 5 (prompt ablations) | `122_figure2_current_vs_score.R` | `figures/figure2_current_vs_score.png` |
+| Supplementary Figure 5 (prompt ablations), and the tables of Supplementary Note 4, Section 4.1 (percentage called Established by GenCC class and ASC group) | `122_figure2_current_vs_score.R` | `figures/figure2_current_vs_score.png`, `results/ablation_established_by_group.tsv` |
 | Supplementary Figure 6 (fetal cell types) | `231_fetal_cell_type_heatmap.R` (reads `results/biology/fetal_cell_types_grid.tsv`) | `figures/figure_fetal_cell_types.png` |
 | Supplementary Figure 7 (full-text mode) | `150_bodyonly_data.py`, `170_figure_supp_fulltext.R` (+ `172_pipeline_detailed_schema.R` for a; e reads `results/modes_benchmark_140/`) | `figures/figure_supp_fulltext.png` |
 | Supplementary Figure 8 (web interface) | screenshots of `pesto browser`, not drawn by a script | — |

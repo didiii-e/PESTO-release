@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-# Supplementary Figure 7 (Supplementary Material Note 2): what the references
+# Supplementary Figure 3 (Supplementary Material Note 2): what the references
 # listed by the model's internal knowledge are in PubMed, on the 200 dated
 # GenCC Limited pairs of Fig. 2e, by 3-year window of first report.
 #
@@ -26,7 +26,9 @@ base_theme <- theme_classic(base_size = 14) +
     legend.text = element_text(size = 12)
   )
 
+# Legend in the order of the stacked bars, top to bottom (Dinan, 15 October).
 fig <- citation_panel_fate(citation_data(RESULTS), base_theme) +
+  scale_fill_manual(values = CIT_FATE_COL, breaks = rev(unname(CIT_FATE))) +
   theme(axis.text.x = element_text(angle = 20, hjust = 1),
         legend.position = "right")
 

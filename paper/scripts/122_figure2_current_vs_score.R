@@ -246,14 +246,35 @@ open_2b <- function() {
   bar_panel(d, "group", NULL, "% of genes")
 }
 
-fig <- ((current_2a() + labs(title = "Default PESTO") |
-         current_2b() + labs(title = "Default PESTO")) /
-        (score_2a() + labs(title = "abstracts-score") |
-         score_2b() + labs(title = "abstracts-score")) /
-        (bare_2a() + labs(title = "abstracts-bare") |
-         bare_2b() + labs(title = "abstracts-bare")) /
-        (open_2a() + labs(title = "abstracts-open") |
-         open_2b() + labs(title = "abstracts-open"))) +
+panels <- list(
+  "Default PESTO"   = list(current_2a(), current_2b()),
+  "abstracts-score" = list(score_2a(), score_2b()),
+  "abstracts-bare"  = list(bare_2a(), bare_2b()),
+  "abstracts-open"  = list(open_2a(), open_2b()))
+
+# Percentage called Established in each group, the tables of Supplementary
+# Material Note 4, Section 1.
+established <- bind_rows(lapply(names(panels), function(prompt) {
+  bind_rows(lapply(panels[[prompt]], function(p) {
+    d <- p$data
+    grp <- names(d)[1]
+    d %>% group_by(group = as.character(.data[[grp]])) %>%
+      summarise(established = sum(n[verdict == "Established"]), n = sum(n),
+                .groups = "drop")
+  })) %>% mutate(prompt = prompt)
+})) %>%
+  mutate(pct_established = round(100 * established / n, 1)) %>%
+  select(prompt, group, n, established, pct_established)
+write_tsv(established, file.path(RESULTS, "ablation_established_by_group.tsv"))
+
+fig <- ((panels[[1]][[1]] + labs(title = "Default PESTO") |
+         panels[[1]][[2]] + labs(title = "Default PESTO")) /
+        (panels[[2]][[1]] + labs(title = "abstracts-score") |
+         panels[[2]][[2]] + labs(title = "abstracts-score")) /
+        (panels[[3]][[1]] + labs(title = "abstracts-bare") |
+         panels[[3]][[2]] + labs(title = "abstracts-bare")) /
+        (panels[[4]][[1]] + labs(title = "abstracts-open") |
+         panels[[4]][[2]] + labs(title = "abstracts-open"))) +
   plot_layout(guides = "collect") +
   plot_annotation(tag_levels = "A") &
   theme(legend.position = "bottom",
