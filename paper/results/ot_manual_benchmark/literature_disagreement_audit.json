@@ -1,0 +1,346 @@
+{
+  "design": "Retrospective audit of fixed saved run01 outputs; no fresh model calls",
+  "selection": "Six disagreements against frozen adjusted human answers; all human labels Hypothesized",
+  "exact_agreement": {
+    "literature": 1,
+    "open_targets": 0,
+    "denominator": 6
+  },
+  "limitations": [
+    "Selected on Open Targets disagreement; not an unbiased branch comparison.",
+    "Human benchmark labels interpret frozen OT lists, whereas literature has another evidence source and scoring definitions.",
+    "Historical mixed-model runs; not a standardized current-pipeline rerun.",
+    "Stored rendered prompts absent; template fields have no Open Targets scores/verdict or human reference answers, but complete historical runtime independence cannot be proven.",
+    "Some structured abstracts were truncated (ABCG8 PMID 25804128); retrieved evidence and rationale require audit.",
+    "No human labels were changed. No fusion rule or combined verdict was tested."
+  ],
+  "primary_source_checks": {
+    "25804128": "https://pubmed.ncbi.nlm.nih.gov/25804128/",
+    "28130356": "https://pubmed.ncbi.nlm.nih.gov/28130356/",
+    "23559409": "https://pubmed.ncbi.nlm.nih.gov/23559409/"
+  },
+  "results": [
+    {
+      "pair_id": "OT031",
+      "gene": "NPC1L1",
+      "phenotype": "Alanine transaminase",
+      "frozen_human_category": "Hypothesized",
+      "open_targets_category": "Novel",
+      "literature_category": "Hypothesized",
+      "literature_agrees": true,
+      "saved_literature_rationale": "Multiple animal model studies demonstrate that NPC1L1 expression and inhibition affect hepatic ALT levels, supporting a biological relationship between NPC1L1 and liver injury markers. However, no human genetic studies directly show that NPC1L1 variants are associated with or causally influence ALT levels. The evidence is mechanistic and functional rather than genetic association evidence in humans, placing this relationship in the hypothesized category based on biology and animal models.",
+      "cited_pmids": [
+        "31432115",
+        "33717259",
+        "34750345",
+        "24370824",
+        "20222991"
+      ],
+      "articles_found": 16,
+      "model": "claude-haiku-4-5@vertex",
+      "source": "/Users/dinan_elsyad/Broad_projects/PESTO/data/runs/novel/NPC1L1_Alanine_transaminase_novel_run01.json",
+      "source_sha256": "8841f5fe1470229787f8740c7bcb95366d9eb87a1dc75529584c8343da02b9ad",
+      "literature_prompt_sha256": "6aaf49c0b8d4d0f64d93a26e74266ebf96a8bd1fccc8282187a2242c7ec1884b",
+      "prompt_fields": [
+        "alias_note",
+        "articles_list",
+        "dismiss_note",
+        "gene_name",
+        "phenotype"
+      ],
+      "saved_rendered_prompt_available": false,
+      "interpretation": "Exact agreement. Saved rationale cites functional/animal evidence for NPC1L1 and ALT. This is additional evidence, not independent confirmation of the reviewer's specific MASH mapping. No exhaustive literature adjudication performed.",
+      "cited_articles": [
+        {
+          "pmid": "31432115",
+          "title": "Hepatic NPC1L1 overexpression attenuates alcoholic autophagy in mice.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31432115/"
+        },
+        {
+          "pmid": "33717259",
+          "title": "Effect and related mechanism of Yinchenhao decoction on mice with lithogenic diet-induced cholelithiasis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33717259/"
+        },
+        {
+          "pmid": "34750345",
+          "title": "Albino mice with the point mutation at the tyrosinase locus show high cholesterol diet-induced NASH susceptibility.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34750345/"
+        },
+        {
+          "pmid": "24370824",
+          "title": "Ezetimibe markedly attenuates hepatic cholesterol accumulation and improves liver function in the lysosomal acid lipase-deficient mouse, a model for cholesteryl ester storage disease.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24370824/"
+        },
+        {
+          "pmid": "20222991",
+          "title": "NPC1L1 inhibitor ezetimibe is a reliable therapeutic agent for non-obese patients with nonalcoholic fatty liver disease.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20222991/"
+        }
+      ]
+    },
+    {
+      "pair_id": "OT047",
+      "gene": "ABCG8",
+      "phenotype": "Chronic renal failure",
+      "frozen_human_category": "Hypothesized",
+      "open_targets_category": "Novel",
+      "literature_category": "Existing",
+      "literature_agrees": false,
+      "saved_literature_rationale": "One human genetic association study (PMID 25804128) directly examined ABCG8 polymorphisms (T400K and D19H) and their association with renal events in type 2 diabetic patients, providing credible evidence of a relationship. Additionally, animal studies (PMID 17855625) demonstrate altered Abcg8 expression during CKD, and biological literature (PMID 38172964) suggests ABCG5/G8 involvement in pathways relevant to kidney disease. However, evidence is limited to a single human study in a specific population (diabetic nephropathy) without clear replication or definitive causal demonstration, placing this in the \"Existing\" rather than \"Established\" category.",
+      "cited_pmids": [
+        "25804128",
+        "17855625",
+        "38172964",
+        "39877840"
+      ],
+      "articles_found": 11,
+      "model": "claude-haiku-4-5@vertex",
+      "source": "/Users/dinan_elsyad/Broad_projects/PESTO/data/runs/novel/ABCG8_Chronic_renal_failure_novel_run01.json",
+      "source_sha256": "2e953edd4959815957c1aca3ba537aa0ff084a3126c86867812f6abaf8f98900",
+      "literature_prompt_sha256": "6aaf49c0b8d4d0f64d93a26e74266ebf96a8bd1fccc8282187a2242c7ec1884b",
+      "prompt_fields": [
+        "alias_note",
+        "articles_list",
+        "dismiss_note",
+        "gene_name",
+        "phenotype"
+      ],
+      "saved_rendered_prompt_available": false,
+      "interpretation": "Additional positive evidence, but not exact agreement: literature Existing exceeds human Hypothesized. PMID 25804128 reports renal-event associations in diabetic patients; its complete abstract includes a validation population. The stored abstract contains only the background/aim, so the saved rationale's claim of no clear replication should not be accepted without qualification.",
+      "cited_articles": [
+        {
+          "pmid": "25804128",
+          "title": "ABCG8 polymorphisms and renal disease in type 2 diabetic patients.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25804128/"
+        },
+        {
+          "pmid": "17855625",
+          "title": "Gender differences in mRNA expression of ATP-binding cassette efflux and bile acid transporters in kidney, liver, and intestine of 5/6 nephrectomized rats.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17855625/"
+        },
+        {
+          "pmid": "38172964",
+          "title": "Revisiting the interconnection between lipids and vitamin K metabolism: insights from recent research and potential therapeutic implications: a review.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38172964/"
+        },
+        {
+          "pmid": "39877840",
+          "title": "Genetic association analysis of lipid-lowering drug target genes in chronic kidney disease.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39877840/"
+        }
+      ]
+    },
+    {
+      "pair_id": "OT007",
+      "gene": "CAMK2A",
+      "phenotype": "Autism Spectrum Disorder",
+      "frozen_human_category": "Hypothesized",
+      "open_targets_category": "Existing",
+      "literature_category": "Existing",
+      "literature_agrees": false,
+      "saved_literature_rationale": "Human evidence links CAMK2A to ASD beyond co-mention. A de novo CAMK2A E183V mutation was identified in a proband diagnosed with ASD, and functional characterization (though using cellular/mouse models) traces a clear causal mechanism to ASD-related synaptic and behavioral phenotypes (PMID 28130356). Additionally, CAMK2A variants and CAMK2A-encoded protein deficits are associated with ASD-related neurodevelopmental syndromes in humans (PMID 37510258), and human cohort phenotype analysis nominally associated CAMK2A-rs2241694 with non-verbal communication in ASD (PMID 29147782). However, the genetic evidence is from single cases and nominal associations rather than robust replicated causal studies, so it does not reach \"Established.\"",
+      "cited_pmids": [
+        "28130356",
+        "37510258",
+        "29147782",
+        "29935919"
+      ],
+      "articles_found": 38,
+      "model": "claude-opus-4-8@vertex",
+      "source": "/Users/dinan_elsyad/Broad_projects/PESTO/data/runs/novel/CAMK2A_Autism_Spectrum_Disorder_novel_run01.json",
+      "source_sha256": "4a5ca63a6423bd3de0cfac92c5e0e103ddc14d6102965e2d6ab909ae7fb27750",
+      "literature_prompt_sha256": "6aaf49c0b8d4d0f64d93a26e74266ebf96a8bd1fccc8282187a2242c7ec1884b",
+      "prompt_fields": [
+        "alias_note",
+        "articles_list",
+        "dismiss_note",
+        "gene_name",
+        "phenotype"
+      ],
+      "saved_rendered_prompt_available": false,
+      "interpretation": "No exact agreement. The literature result is Existing, the same category as Open Targets, but based on direct ASD-related human evidence rather than needing a broader phenotype match. PMID 28130356 describes a de novo mutation in a proband diagnosed with ASD.",
+      "cited_articles": [
+        {
+          "pmid": "28130356",
+          "title": "A Novel Human CAMK2A Mutation Disrupts Dendritic Morphology and Synaptic Transmission, and Causes ASD-Related Behaviors.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28130356/"
+        },
+        {
+          "pmid": "37510258",
+          "title": "Deletion of a Single Lysine Residue at Position 292 of CAMK2A Disrupts Protein Function, Causing Severe Epileptic Encephalopathy and Intellectual Disability.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37510258/"
+        },
+        {
+          "pmid": "29147782",
+          "title": "Common functional variants of the glutamatergic system in Autism spectrum disorder with high and low intellectual abilities.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29147782/"
+        },
+        {
+          "pmid": "29935919",
+          "title": "Increased expression of BDNF mRNA in the frontal cortex of autistic patients.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29935919/"
+        }
+      ]
+    },
+    {
+      "pair_id": "OT012",
+      "gene": "GLIS2",
+      "phenotype": "nephronophthisis 7",
+      "frozen_human_category": "Hypothesized",
+      "open_targets_category": "Established",
+      "literature_category": "Existing",
+      "literature_agrees": false,
+      "saved_literature_rationale": "Multiple human studies document GLIS2/NPHP7 mutations in patients with nephronophthisis 7, establishing a genetic association. However, the human evidence is limited to only 2-3 documented cases across large cohort studies, which does not constitute strong, replicated evidence required for \"Established\" status. The association is credible and supported by mechanistic studies in animal models and in vitro experiments demonstrating GLIS2's role in kidney function and DNA damage response, but the paucity of human cases prevents classification as definitively established.",
+      "cited_pmids": [
+        "23559409",
+        "26374130",
+        "26083374",
+        "40713016",
+        "24500717",
+        "27181777",
+        "24069149"
+      ],
+      "articles_found": 14,
+      "model": "claude-haiku-4-5@vertex",
+      "source": "/Users/dinan_elsyad/Broad_projects/PESTO/data/runs/novel/GLIS2_nephronophthisis_7_novel_run01.json",
+      "source_sha256": "6306b1f20ef6064ade2aba69c7f93d3e8f2909992021fb6023136ae40994b859",
+      "literature_prompt_sha256": "6aaf49c0b8d4d0f64d93a26e74266ebf96a8bd1fccc8282187a2242c7ec1884b",
+      "prompt_fields": [
+        "alias_note",
+        "articles_list",
+        "dismiss_note",
+        "gene_name",
+        "phenotype"
+      ],
+      "saved_rendered_prompt_available": false,
+      "interpretation": "No exact agreement. Literature Existing is one ordinal category below OT Established, but above human Hypothesized. PMID 23559409 specifically reports a recessive GLIS2/NPHP7 case. This is evidence relevant to the subtype, rather than only transfer from the parent. Do not treat the model's total human-case count as an independently verified current count.",
+      "cited_articles": [
+        {
+          "pmid": "23559409",
+          "title": "Identification of 99 novel mutations in a worldwide cohort of 1,056 patients with a nephronophthisis-related ciliopathy.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23559409/"
+        },
+        {
+          "pmid": "26374130",
+          "title": "The C175R mutation alters nuclear localization and transcriptional activity of the nephronophthisis NPHP7 gene product.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26374130/"
+        },
+        {
+          "pmid": "26083374",
+          "title": "SUMOylation Blocks the Ubiquitin-Mediated Degradation of the Nephronophthisis Gene Product Glis2/NPHP7.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26083374/"
+        },
+        {
+          "pmid": "40713016",
+          "title": "The nephronophthisis protein GLIS2/NPHP7 is required for the DNA damage response in kidney tubular epithelial cells.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40713016/"
+        },
+        {
+          "pmid": "24500717",
+          "title": "Interaction with the Bardet-Biedl gene product TRIM32/BBS11 modifies the half-life and localization of Glis2/NPHP7.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24500717/"
+        },
+        {
+          "pmid": "27181777",
+          "title": "Loss of Glis2/NPHP7 causes kidney epithelial cell senescence and suppresses cyst growth in the Kif3a mouse model of cystic kidney disease.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27181777/"
+        },
+        {
+          "pmid": "24069149",
+          "title": "A complex of BBS1 and NPHP7 is required for cilia motility in zebrafish.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24069149/"
+        }
+      ]
+    },
+    {
+      "pair_id": "OT018",
+      "gene": "TTN",
+      "phenotype": "Non-rheumatic valvular heart disease",
+      "frozen_human_category": "Hypothesized",
+      "open_targets_category": "Existing",
+      "literature_category": "Novel",
+      "literature_agrees": false,
+      "saved_literature_rationale": "The provided literature extensively documents TTN variants as a major cause of dilated cardiomyopathy and heart failure, but none of the abstracts or titles address non-rheumatic valvular heart disease specifically. While TTN truncating variants are well-established in cardiomyopathy pathogenesis affecting myocardial structure and function, there is no evidence presented linking TTN to primary valve pathology or dysfunction. Secondary valve involvement in advanced cardiomyopathy is distinct from primary non-rheumatic valvular disease, and the literature does not establish this association.",
+      "cited_pmids": [
+        "25589632",
+        "27869827",
+        "34662387",
+        "39745989",
+        "38438525",
+        "30919088"
+      ],
+      "articles_found": 20,
+      "model": "claude-haiku-4-5",
+      "source": "/Users/dinan_elsyad/Broad_projects/PESTO/data/runs/novel/TTN_Non-rheumatic_valvular_heart_disease_novel_run01.json",
+      "source_sha256": "4a95ec48b6f2925fd373963986ae3c34969c39287d7dabee734831282f22e5ab",
+      "literature_prompt_sha256": "6aaf49c0b8d4d0f64d93a26e74266ebf96a8bd1fccc8282187a2242c7ec1884b",
+      "prompt_fields": [
+        "alias_note",
+        "articles_list",
+        "dismiss_note",
+        "gene_name",
+        "phenotype"
+      ],
+      "saved_rendered_prompt_available": false,
+      "interpretation": "No exact agreement. Literature Novel is lower than human Hypothesized and OT Existing. Saved rationale distinguishes cardiomyopathy from primary valve pathology, but the query did not explicitly restrict to primary disease. The added primary-only restriction needs review; Novel describes the retrieved corpus, not proven absence of association.",
+      "cited_articles": [
+        {
+          "pmid": "25589632",
+          "title": "Integrated allelic, transcriptional, and phenomic dissection of the cardiac effects of titin truncations in health and disease.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25589632/"
+        },
+        {
+          "pmid": "27869827",
+          "title": "Titin-truncating variants affect heart function in disease cohorts and the general population.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27869827/"
+        },
+        {
+          "pmid": "34662387",
+          "title": "Titin (TTN): from molecule to modifications, mechanics, and medical significance.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34662387/"
+        },
+        {
+          "pmid": "39745989",
+          "title": "Discovery of Titin and Its Role in Heart Function and Disease.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39745989/"
+        },
+        {
+          "pmid": "38438525",
+          "title": "Exploring TTN variants as genetic insights into cardiomyopathy pathogenesis and potential emerging clues to molecular mechanisms in cardiomyopathies.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38438525/"
+        },
+        {
+          "pmid": "30919088",
+          "title": "Titin mutations and muscle disease.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30919088/"
+        }
+      ]
+    },
+    {
+      "pair_id": "OT043",
+      "gene": "CALR",
+      "phenotype": "HDL cholesterol",
+      "frozen_human_category": "Hypothesized",
+      "open_targets_category": "Existing",
+      "literature_category": "Novel",
+      "literature_agrees": false,
+      "saved_literature_rationale": "The provided literature contains no evidence linking CALR variants or expression to HDL cholesterol levels. CALR is discussed extensively in the context of myeloproliferative neoplasms as a driver mutation and in ER protein folding, while HDL cholesterol is addressed in separate studies on cardiovascular disease, metabolic syndrome, and aging. Although CALR functions as an ER chaperone and could theoretically influence lipoprotein assembly, no human genetic, clinical, or mechanistic studies demonstrate a relationship between CALR and HDL cholesterol. The gene and phenotype are not meaningfully connected in the provided literature.",
+      "cited_pmids": [],
+      "articles_found": 50,
+      "model": "claude-haiku-4-5",
+      "source": "/Users/dinan_elsyad/Broad_projects/PESTO/data/runs/novel/CALR_HDL_cholesterol_novel_run01.json",
+      "source_sha256": "7eaf0a271019b63988165f940b2ae61401a5c35bad5cab7f20f3d3c1cbe1d760",
+      "literature_prompt_sha256": "6aaf49c0b8d4d0f64d93a26e74266ebf96a8bd1fccc8282187a2242c7ec1884b",
+      "prompt_fields": [
+        "alias_note",
+        "articles_list",
+        "dismiss_note",
+        "gene_name",
+        "phenotype"
+      ],
+      "saved_rendered_prompt_available": false,
+      "interpretation": "No exact agreement. Literature Novel is lower than human Hypothesized and OT Existing. The retrieved corpus did not support the CALR\u2013HDL link in the saved assessment. It does not directly adjudicate whether the OT component measurement should count as equivalent or related; database-only or retrieval-missed evidence may remain.",
+      "cited_articles": []
+    }
+  ]
+}

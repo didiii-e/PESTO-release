@@ -35,24 +35,25 @@ fonts (`fonts-urw-base35` on Debian and Ubuntu).
 | Supplementary Table 1 | `145_supplementary_table1.py` | `results/supplementary_table1.xlsx` |
 | Supplementary Figure 1 (the pipeline, step by step) | `172_pipeline_detailed_schema.R` (+ `pipeline_schema.R`) | `figures/pipeline_detailed.png` |
 | Supplementary Figure 2 | `156_figure_supp_abstract_fix.R` (reads `results/abstract_fix_check.tsv`) | `figures/figure_supp_abstract_fix.png` |
-| Supplementary Figure 3 | `122_figure2_current_vs_score.R` | `figures/figure2_current_vs_score.png` |
-| Supplementary Figure 4 | `150_bodyonly_data.py`, `170_figure_supp_fulltext.R` (+ `172_pipeline_detailed_schema.R` for a; e reads `results/modes_benchmark_140/`) | `figures/figure_supp_fulltext.png` |
-| Supplementary Figure 5 | screenshots of `pesto browser`, not drawn by a script | — |
-| Supplementary Figure 6 | `231_fetal_cell_type_heatmap.R` (reads `results/biology/fetal_cell_types_grid.tsv`) | `figures/figure_fetal_cell_types.png` |
-| Supplementary Figure 7 | `280_figure_supp_citations.R` (+ `_panel_citations.R`; reads `results/knowledge_citations/pair_summary.tsv` and `ref_checks.tsv`) | `figures/figure_supp_citations.png` |
-| Supplementary Figure 8 (Figure 2 with Gemini models) | `302_gemini_fig2_mirror.py --draw` (lays `results/gemini_fig2/` out as `21_figure2.R` reads the Claude results, in `results/gemini_fig2/fig2_root/`, and runs `21_figure2.R` on it with `PESTO_FIG2_ROOT` and `PESTO_FIG2_STEM`) | `figures/figure2_gemini.png` |
-| Supplementary Figure 9 (Claude and Gemini compared) | `303_gemini_fig2_comparison.py` (writes `results/gemini_fig2/comparison/`), `304_figure_gemini_comparison.R` | `figures/figure_supp_gemini_comparison.png` |
+| Supplementary Figure 3 (references from the model's knowledge) | `280_figure_supp_citations.R` (+ `_panel_citations.R`; reads `results/knowledge_citations/pair_summary.tsv` and `ref_checks.tsv`) | `figures/figure_supp_citations.png` |
+| Supplementary Figure 4 (manual benchmark of the Open Targets branch) | `320_figure_supp_ot_manual.py` (reads `results/ot_manual_benchmark/`; prints the numbers of Supplementary Material Note 3) | `figures/figure_supp_ot_manual_agreement.png` |
+| Supplementary Figure 5 (prompt ablations) | `122_figure2_current_vs_score.R` | `figures/figure2_current_vs_score.png` |
+| Supplementary Figure 6 (fetal cell types) | `231_fetal_cell_type_heatmap.R` (reads `results/biology/fetal_cell_types_grid.tsv`) | `figures/figure_fetal_cell_types.png` |
+| Supplementary Figure 7 (full-text mode) | `150_bodyonly_data.py`, `170_figure_supp_fulltext.R` (+ `172_pipeline_detailed_schema.R` for a; e reads `results/modes_benchmark_140/`) | `figures/figure_supp_fulltext.png` |
+| Supplementary Figure 8 (web interface) | screenshots of `pesto browser`, not drawn by a script | — |
+| Supplementary Figure 9 (Figure 2 with Gemini models) | `302_gemini_fig2_mirror.py --draw` (lays `results/gemini_fig2/` out as `21_figure2.R` reads the Claude results, in `results/gemini_fig2/fig2_root/`, and runs `21_figure2.R` on it with `PESTO_FIG2_ROOT` and `PESTO_FIG2_STEM`) | `figures/figure2_gemini.png` |
+| Supplementary Figure 10 (Claude and Gemini compared) | `303_gemini_fig2_comparison.py` (writes `results/gemini_fig2/comparison/`), `304_figure_gemini_comparison.R` | `figures/figure_supp_gemini_comparison.png` |
 | Supplementary Note 1, run-to-run variability (table) | `183_reproducibility_stats.py` | `results/reproducibility_aou50/summary.tsv` |
-| Supplementary Note 5, sensitivity of the tissue analyses (table) | `198_tissue_enrichment_grid.R` | `results/tissue_enrichment/grid_key.tsv` |
-| Supplementary Note 5, adjustment for publications per gene (table) | `269_publication_adjusted_enrichment.py` (+ `_biology_panel.py`, `202_subthreshold_signal.py`; needs the ASC gene list `data/raw/ASC_GeneList_12082026.txt`, not redistributed) | `results/biology/publication_adjusted_enrichment.tsv` |
+| Supplementary Note 6, sensitivity of the tissue analyses (table) | `198_tissue_enrichment_grid.R` | `results/tissue_enrichment/grid_key.tsv` |
+| Supplementary Note 6, adjustment for publications per gene (table) | `269_publication_adjusted_enrichment.py` (+ `_biology_panel.py`, `202_subthreshold_signal.py`; needs the ASC gene list `data/raw/ASC_GeneList_12082026.txt`, not redistributed) | `results/biology/publication_adjusted_enrichment.tsv` |
 
 Redrawn here, Figures 2, 3 and 4, Extended Data Figs. 4 and 5 and Supplementary
-Figures 2, 4 and 6 are identical pixel for pixel to the versions in the manuscript
-(checked on 13 October 2026). Figure 1 and Extended Data Fig. 1
+Figures 2, 4, 5, 6 and 7 are identical pixel for pixel to the versions in the manuscript
+(checked on 13 October 2026; Supplementary Figures 4, 5 and 7 on 14 October). Figure 1 and Extended Data Fig. 1
 differ only in where the jittered points fall, which was random and is now seeded.
 The Supplementary Figures differ only in their labels, which carry the arms'
 current names. Some scripts still name a figure by the number it had in an earlier
-draft (Supplementary Figure 1 for what is now Supplementary Figure 3, for
+draft (Supplementary Figure 1 for what is now Supplementary Figure 5, for
 instance); the table above gives the current numbers.
 
 ## Names in the tables
@@ -62,7 +63,7 @@ declares them under new names, and accepts the old ones as aliases:
 
 | In the tables | In the package |
 |---|---|
-| `current` | `abstracts` (PESTO in the manuscript) |
+| `current` | `abstracts` (PESTO in the main text, Default PESTO in the Supplementary Material) |
 | `current-general` | `abstracts-trait` |
 | `prior` | `knowledge` (model internal knowledge) |
 | `titles` | `titles` (PESTO-titles) |
@@ -88,13 +89,14 @@ will not reproduce each answer exactly.
 | Figure 3a, trajectories | `benchmark/trajectories6/pairs.tsv` scored with `--max-date` at every date of the grid |
 | Figure 4, the 670-gene panel | `benchmark/fig3_add_t2d_bipex2/` (the type 2 diabetes and BipEx 2.0 genes) and `benchmark/fig3_add_random100/` (`234_draw_random100.py`) scored with `--max-date 2026/09/01`; `233_run_panel570.sh` appends them to the 550-gene table and reruns the analyses, giving `results/fig3_universe550_meancall_scores.tsv` (670 genes despite its name); it also redraws an intermediate tissue heatmap with `199_tissue_heatmap_from_grid.R`, not a figure of the paper |
 | Figure 4c, cell types | `211_cell_type_specificity.py` (+ `_biology_panel.py`, `202_subthreshold_signal.py`); reads the Human Protein Atlas single-cell table `rna_single_cell_type.tsv.zip` (proteinatlas.org, not redistributed) and writes `results/biology/cell_types_grid.tsv` |
-| Supplementary Figure 3 and Extended Data Fig. 3 | `121_score_fig2ab.py`, `125_bare_fig2ab.py`, `126_open_fig2ab.py` |
-| Supplementary Figure 4 benchmark | `139_build_bench_bodyonly.py` (first 22 pairs), `153_extend_bench_bodyonly.py` (18 more, same criteria), `138_score_bodyonly.py` |
-| Supplementary Figure 4e | `166_modes_benchmark_140.py` (abstracts and fulltext run the same day on the 140 pairs of Fig. 2d), `167_modes_benchmark_scores.py` (no model call); writes `results/modes_benchmark_140/` |
+| Supplementary Figure 5 and Extended Data Fig. 3 | `121_score_fig2ab.py`, `125_bare_fig2ab.py`, `126_open_fig2ab.py` |
+| Supplementary Figure 4, manual benchmark of the Open Targets branch | Manual curation by D. Elsyad of 50 pairs (35 drawn at random, balanced between diseases and other traits, and 15 chosen as hard cases) against the saved Open Targets verdicts; no model call. `results/ot_manual_benchmark/plot_data.json` holds her initial and revised classes, `literature_disagreement_audit.json` the saved literature verdicts of the six pairs left in disagreement |
+| Supplementary Figure 7 benchmark | `139_build_bench_bodyonly.py` (first 22 pairs), `153_extend_bench_bodyonly.py` (18 more, same criteria), `138_score_bodyonly.py` |
+| Supplementary Figure 7e | `166_modes_benchmark_140.py` (abstracts and fulltext run the same day on the 140 pairs of Fig. 2d), `167_modes_benchmark_scores.py` (no model call); writes `results/modes_benchmark_140/` |
 | Supplementary Figure 2 | `155_abstract_fix_check.py` (20 runs of Figs. 1–4 replayed on their own corpus with complete structured abstracts; reads the runs from Zenodo) writes `results/abstract_fix_check.tsv` |
 | Extended Data Fig. 5, Supplementary Figure 6 | `230_fetal_cell_types.py` (+ `_biology_panel.py`; reads the Descartes fetal atlas tracks `data/biology/descartes_fetal_cell_type.*` from the UCSC Genome Browser, not redistributed) writes `results/biology/fetal_cell_types_grid.tsv` |
 | Supplementary Note 1, run-to-run variability | `181_reproducibility_aou50.py` (three fresh runs of 50 All of Us–GeneBass associations; only each run's `pesto.tsv` and `cost.tsv` are kept here) |
-| Supplementary Figures 8 and 9, Figure 2 on Gemini | `300_gemini_fig2_pairs.py` (the 1,043 pairs of Fig. 2, by panel), `299_gemini_fig2_run.py` (the arm of Fig. 2 with Gemini 4 Argon in place of Claude Opus 5 and Gemini 3.8 Flash in place of Claude Haiku 4.5, through `298_gemini_pair_probe.py`, PubMed capped at 14 August 2026; `--arm prior` for the model's internal knowledge), `301_gemini_citations.py` (`272` and `273` with the Gemini models); writes `results/gemini_fig2/`, whose `runs/` are in the Zenodo archive |
+| Supplementary Figures 9 and 10, Figure 2 on Gemini | `300_gemini_fig2_pairs.py` (the 1,043 pairs of Fig. 2, by panel), `299_gemini_fig2_run.py` (the arm of Fig. 2 with Gemini 4 Argon in place of Claude Opus 5 and Gemini 3.8 Flash in place of Claude Haiku 4.5, through `298_gemini_pair_probe.py`, PubMed capped at 14 August 2026; `--arm prior` for the model's internal knowledge), `301_gemini_citations.py` (`272` and `273` with the Gemini models); writes `results/gemini_fig2/`, whose `runs/` are in the Zenodo archive |
 | Supplementary Note 1, Open Targets tie rules (sensitivity) | `188_ot_tie_rules.py` (replays the stored Open Targets grades, no model call; reads `results/auto_cohort_ot_v7/` and `results/auto_fig1c_absent50_hgnc_v7/` from Zenodo, writes `results/ot_tie_rules/`) |
 
 Their inputs and the saved model answers (one JSON per pair, with the corpus,

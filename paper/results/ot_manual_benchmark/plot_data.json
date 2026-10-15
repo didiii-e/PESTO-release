@@ -1,0 +1,452 @@
+[
+  {
+    "pair_id": "OT001",
+    "gene": "POU3F3",
+    "phenotype": "Autism Spectrum Disorder",
+    "sample_group": "random",
+    "original": "Existing",
+    "adjusted": "Existing",
+    "pesto": "Existing"
+  },
+  {
+    "pair_id": "OT002",
+    "gene": "TIMD4",
+    "phenotype": "Breast cancer",
+    "sample_group": "random",
+    "original": "Hypothesized",
+    "adjusted": "Novel",
+    "pesto": "Novel"
+  },
+  {
+    "pair_id": "OT003",
+    "gene": "FOXG1",
+    "phenotype": "Autism Spectrum Disorder",
+    "sample_group": "random",
+    "original": "Existing",
+    "adjusted": "Existing",
+    "pesto": "Existing"
+  },
+  {
+    "pair_id": "OT004",
+    "gene": "MAP3K1",
+    "phenotype": "Breast cancer",
+    "sample_group": "random",
+    "original": "Established",
+    "adjusted": "Existing",
+    "pesto": "Existing"
+  },
+  {
+    "pair_id": "OT005",
+    "gene": "EMILIN1",
+    "phenotype": "arterial tortuosity-bone fragility syndrome",
+    "sample_group": "random",
+    "original": "Established",
+    "adjusted": "Established",
+    "pesto": null
+  },
+  {
+    "pair_id": "OT006",
+    "gene": "PSMB8",
+    "phenotype": "proteasome-associated autoinflammatory syndrome 1",
+    "sample_group": "random",
+    "original": "Established",
+    "adjusted": "Established",
+    "pesto": "Established"
+  },
+  {
+    "pair_id": "OT007",
+    "gene": "CAMK2A",
+    "phenotype": "Autism Spectrum Disorder",
+    "sample_group": "random",
+    "original": "Hypothesized",
+    "adjusted": "Hypothesized",
+    "pesto": "Existing"
+  },
+  {
+    "pair_id": "OT008",
+    "gene": "FRY",
+    "phenotype": "neurodevelopmental disorder",
+    "sample_group": "random",
+    "original": "Hypothesized",
+    "adjusted": "Hypothesized",
+    "pesto": "Hypothesized"
+  },
+  {
+    "pair_id": "OT009",
+    "gene": "CLCN2",
+    "phenotype": "epilepsy",
+    "sample_group": "random",
+    "original": "Hypothesized",
+    "adjusted": "Hypothesized",
+    "pesto": "Hypothesized"
+  },
+  {
+    "pair_id": "OT010",
+    "gene": "FOXRED1",
+    "phenotype": "mitochondrial complex I deficiency nuclear type 19",
+    "sample_group": "random",
+    "original": "Established",
+    "adjusted": "Established",
+    "pesto": "Established"
+  },
+  {
+    "pair_id": "OT011",
+    "gene": "CPEB1",
+    "phenotype": "Stroke",
+    "sample_group": "random",
+    "original": "Novel",
+    "adjusted": "Novel",
+    "pesto": "Novel"
+  },
+  {
+    "pair_id": "OT012",
+    "gene": "GLIS2",
+    "phenotype": "nephronophthisis 7",
+    "sample_group": "random",
+    "original": "Hypothesized",
+    "adjusted": "Hypothesized",
+    "pesto": "Established"
+  },
+  {
+    "pair_id": "OT013",
+    "gene": "SCNN1A",
+    "phenotype": "bronchiectasis with or without elevated sweat chloride 2",
+    "sample_group": "random",
+    "original": "Established",
+    "adjusted": "Established",
+    "pesto": "Established"
+  },
+  {
+    "pair_id": "OT014",
+    "gene": "DNMT3A",
+    "phenotype": "Atrial fibrillation",
+    "sample_group": "random",
+    "original": "Existing",
+    "adjusted": "Existing",
+    "pesto": "Existing"
+  },
+  {
+    "pair_id": "OT015",
+    "gene": "ANKRD26",
+    "phenotype": "acute myeloid leukemia",
+    "sample_group": "random",
+    "original": "Existing",
+    "adjusted": "Existing",
+    "pesto": "Existing"
+  },
+  {
+    "pair_id": "OT016",
+    "gene": "SIN3A",
+    "phenotype": "Stroke",
+    "sample_group": "random",
+    "original": "Hypothesized",
+    "adjusted": "Hypothesized",
+    "pesto": "Hypothesized"
+  },
+  {
+    "pair_id": "OT017",
+    "gene": "SF3B3",
+    "phenotype": "Cervical cancer",
+    "sample_group": "random",
+    "original": "Novel",
+    "adjusted": "Novel",
+    "pesto": "Novel"
+  },
+  {
+    "pair_id": "OT018",
+    "gene": "TTN",
+    "phenotype": "Non-rheumatic valvular heart disease",
+    "sample_group": "random",
+    "original": "Hypothesized",
+    "adjusted": "Hypothesized",
+    "pesto": "Existing"
+  },
+  {
+    "pair_id": "OT019",
+    "gene": "SCARF1",
+    "phenotype": "mean platelet volume",
+    "sample_group": "random",
+    "original": "Existing",
+    "adjusted": "Existing",
+    "pesto": "Existing"
+  },
+  {
+    "pair_id": "OT020",
+    "gene": "KIAA0319L",
+    "phenotype": "Waist to hip ratio adjusted for BMI",
+    "sample_group": "random",
+    "original": "Novel",
+    "adjusted": "Novel",
+    "pesto": "Novel"
+  },
+  {
+    "pair_id": "OT021",
+    "gene": "CGNL1",
+    "phenotype": "alkaline phosphatase",
+    "sample_group": "random",
+    "original": "Hypothesized",
+    "adjusted": "Novel",
+    "pesto": "Novel"
+  },
+  {
+    "pair_id": "OT022",
+    "gene": "SMAD6",
+    "phenotype": "HDL cholesterol",
+    "sample_group": "random",
+    "original": "Existing",
+    "adjusted": "Existing",
+    "pesto": "Existing"
+  },
+  {
+    "pair_id": "OT023",
+    "gene": "FRZB",
+    "phenotype": "Height",
+    "sample_group": "random",
+    "original": "Established",
+    "adjusted": "Established",
+    "pesto": "Established"
+  },
+  {
+    "pair_id": "OT024",
+    "gene": "TRIM58",
+    "phenotype": "mean platelet volume",
+    "sample_group": "random",
+    "original": "Established",
+    "adjusted": "Established",
+    "pesto": "Established"
+  },
+  {
+    "pair_id": "OT025",
+    "gene": "CCDC66",
+    "phenotype": "height",
+    "sample_group": "random",
+    "original": "Established",
+    "adjusted": "Established",
+    "pesto": "Established"
+  },
+  {
+    "pair_id": "OT026",
+    "gene": "CTSD",
+    "phenotype": "Aspartate aminotransferase",
+    "sample_group": "random",
+    "original": "Existing",
+    "adjusted": "Existing",
+    "pesto": "Existing"
+  },
+  {
+    "pair_id": "OT027",
+    "gene": "TIMD4",
+    "phenotype": "Triglycerides",
+    "sample_group": "random",
+    "original": "Established",
+    "adjusted": "Established",
+    "pesto": "Established"
+  },
+  {
+    "pair_id": "OT028",
+    "gene": "TAOK1",
+    "phenotype": "mean platelet volume",
+    "sample_group": "random",
+    "original": "Existing",
+    "adjusted": "Existing",
+    "pesto": "Existing"
+  },
+  {
+    "pair_id": "OT029",
+    "gene": "LCORL",
+    "phenotype": "Height",
+    "sample_group": "random",
+    "original": "Established",
+    "adjusted": "Established",
+    "pesto": "Established"
+  },
+  {
+    "pair_id": "OT030",
+    "gene": "RGL3",
+    "phenotype": "blood-pressure-diastolic-mean",
+    "sample_group": "random",
+    "original": "Established",
+    "adjusted": "Established",
+    "pesto": "Established"
+  },
+  {
+    "pair_id": "OT031",
+    "gene": "NPC1L1",
+    "phenotype": "Alanine transaminase",
+    "sample_group": "random",
+    "original": "Hypothesized",
+    "adjusted": "Hypothesized",
+    "pesto": "Novel"
+  },
+  {
+    "pair_id": "OT032",
+    "gene": "GCK",
+    "phenotype": "reticulocyte percentage",
+    "sample_group": "random",
+    "original": "Hypothesized",
+    "adjusted": "Hypothesized",
+    "pesto": "Hypothesized"
+  },
+  {
+    "pair_id": "OT033",
+    "gene": "CALCR",
+    "phenotype": "Body mass index",
+    "sample_group": "random",
+    "original": "Established",
+    "adjusted": "Established",
+    "pesto": "Established"
+  },
+  {
+    "pair_id": "OT034",
+    "gene": "ABCA6",
+    "phenotype": "Total cholesterol",
+    "sample_group": "random",
+    "original": "Established",
+    "adjusted": "Established",
+    "pesto": "Established"
+  },
+  {
+    "pair_id": "OT035",
+    "gene": "PREPL",
+    "phenotype": "HDL cholesterol",
+    "sample_group": "random",
+    "original": "Existing",
+    "adjusted": "Existing",
+    "pesto": "Existing"
+  },
+  {
+    "pair_id": "OT036",
+    "gene": "BARD1",
+    "phenotype": "Breast cancer",
+    "sample_group": "challenge",
+    "original": "Established",
+    "adjusted": "Established",
+    "pesto": "Established"
+  },
+  {
+    "pair_id": "OT037",
+    "gene": "WHRN",
+    "phenotype": "nonsyndromic genetic hearing loss",
+    "sample_group": "challenge",
+    "original": "Hypothesized",
+    "adjusted": "Hypothesized",
+    "pesto": "Hypothesized"
+  },
+  {
+    "pair_id": "OT038",
+    "gene": "MYH8",
+    "phenotype": "Carney complex - trismus - pseudocamptodactyly syndrome",
+    "sample_group": "challenge",
+    "original": "Established",
+    "adjusted": "Established",
+    "pesto": "Established"
+  },
+  {
+    "pair_id": "OT039",
+    "gene": "SGMS2",
+    "phenotype": "calvarial doughnut lesions-bone fragility syndrome",
+    "sample_group": "challenge",
+    "original": "Established",
+    "adjusted": "Established",
+    "pesto": "Established"
+  },
+  {
+    "pair_id": "OT040",
+    "gene": "LRP5",
+    "phenotype": "exudative vitreoretinopathy 4",
+    "sample_group": "challenge",
+    "original": "Established",
+    "adjusted": "Established",
+    "pesto": "Established"
+  },
+  {
+    "pair_id": "OT041",
+    "gene": "MSH2",
+    "phenotype": "Benign and in situ intestinal neoplasms",
+    "sample_group": "challenge",
+    "original": "Existing",
+    "adjusted": "Existing",
+    "pesto": "Existing"
+  },
+  {
+    "pair_id": "OT042",
+    "gene": "PKP2",
+    "phenotype": "Atrial fibrillation and flutter",
+    "sample_group": "challenge",
+    "original": "Existing",
+    "adjusted": "Existing",
+    "pesto": "Existing"
+  },
+  {
+    "pair_id": "OT043",
+    "gene": "CALR",
+    "phenotype": "HDL cholesterol",
+    "sample_group": "challenge",
+    "original": "Hypothesized",
+    "adjusted": "Hypothesized",
+    "pesto": "Existing"
+  },
+  {
+    "pair_id": "OT044",
+    "gene": "KEAP1",
+    "phenotype": "HDL cholesterol",
+    "sample_group": "challenge",
+    "original": "Hypothesized",
+    "adjusted": "Hypothesized",
+    "pesto": "Hypothesized"
+  },
+  {
+    "pair_id": "OT045",
+    "gene": "PROP1",
+    "phenotype": "Height",
+    "sample_group": "challenge",
+    "original": "Hypothesized",
+    "adjusted": "Hypothesized",
+    "pesto": "Hypothesized"
+  },
+  {
+    "pair_id": "OT046",
+    "gene": "PHIP",
+    "phenotype": "Rheumatic heart disease",
+    "sample_group": "challenge",
+    "original": "Hypothesized",
+    "adjusted": "Novel",
+    "pesto": "Novel"
+  },
+  {
+    "pair_id": "OT047",
+    "gene": "ABCG8",
+    "phenotype": "Chronic renal failure",
+    "sample_group": "challenge",
+    "original": "Hypothesized",
+    "adjusted": "Hypothesized",
+    "pesto": "Novel"
+  },
+  {
+    "pair_id": "OT048",
+    "gene": "APBA1",
+    "phenotype": "Body mass index",
+    "sample_group": "challenge",
+    "original": "Novel",
+    "adjusted": "Novel",
+    "pesto": "Novel"
+  },
+  {
+    "pair_id": "OT049",
+    "gene": "SLC22A12",
+    "phenotype": "HDL cholesterol",
+    "sample_group": "challenge",
+    "original": "Novel",
+    "adjusted": "Novel",
+    "pesto": "Novel"
+  },
+  {
+    "pair_id": "OT050",
+    "gene": "LGALS2",
+    "phenotype": "Height",
+    "sample_group": "challenge",
+    "original": "Novel",
+    "adjusted": "Novel",
+    "pesto": "Novel"
+  }
+]

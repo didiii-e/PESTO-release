@@ -1,0 +1,30 @@
+{
+  "initial": {
+    "n": 49,
+    "difference_counts": {
+      "0": 39,
+      "1": 9,
+      "2": 1,
+      "3": 0
+    },
+    "exact_count": 39,
+    "exact_percent": 79.59183673469387,
+    "within_one_count": 48,
+    "within_one_percent": 97.95918367346938,
+    "spearman_rho": 0.8996124712554366
+  },
+  "revised": {
+    "n": 49,
+    "difference_counts": {
+      "0": 43,
+      "1": 5,
+      "2": 1,
+      "3": 0
+    },
+    "exact_count": 43,
+    "exact_percent": 87.75510204081633,
+    "within_one_count": 48,
+    "within_one_percent": 97.95918367346938,
+    "spearman_rho": 0.9315190416270247
+  }
+}

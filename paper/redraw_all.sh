@@ -26,7 +26,7 @@ Rscript scripts/144_figure_ed2_titles.R
 echo "== Figure 3"
 Rscript scripts/250_figure_temporal.R
 
-echo "== Figure 4, Extended Data Figs. 4 and 5, Supplementary Figure 6, Supplementary Note 5 tables"
+echo "== Figure 4, Extended Data Figs. 4 and 5, Supplementary Figure 6, Supplementary Note 6 tables"
 Rscript scripts/117_figure3_chd_top5.R --loeuf-decile --brain-decile --or --top5-brain --cell-panel
 Rscript scripts/198_tissue_enrichment_grid.R
 Rscript scripts/236_extended_data_panel670.R .
@@ -42,21 +42,24 @@ Rscript scripts/172_pipeline_detailed_schema.R
 Rscript scripts/156_figure_supp_abstract_fix.R
 "$PY" scripts/183_reproducibility_stats.py
 
-echo "== Supplementary Figure 3, Extended Data Fig. 3"
+echo "== Supplementary Figure 4 (manual benchmark of the Open Targets branch)"
+"$PY" scripts/320_figure_supp_ot_manual.py
+
+echo "== Supplementary Figure 5, Extended Data Fig. 3"
 Rscript scripts/122_figure2_current_vs_score.R
 "$PY" scripts/127_fig2_roc_candidate.py
 ED3=1 Rscript scripts/128_figure2_roc_candidate.R
 
-echo "== Supplementary Figure 4 (full-text mode)"
+echo "== Supplementary Figure 7 (full-text mode)"
 "$PY" scripts/150_bodyonly_data.py
 Rscript scripts/170_figure_supp_fulltext.R
 
-echo "== Supplementary Figure 7 (references from model knowledge)"
+echo "== Supplementary Figure 3 (references from model knowledge)"
 Rscript scripts/280_figure_supp_citations.R
 
-echo "== Supplementary Figure 8 (Figure 2 with Gemini models)"
+echo "== Supplementary Figure 9 (Figure 2 with Gemini models)"
 "$PY" scripts/302_gemini_fig2_mirror.py --draw
 
-echo "== Supplementary Figure 9 (Claude and Gemini compared)"
+echo "== Supplementary Figure 10 (Claude and Gemini compared)"
 "$PY" scripts/303_gemini_fig2_comparison.py
 Rscript scripts/304_figure_gemini_comparison.R

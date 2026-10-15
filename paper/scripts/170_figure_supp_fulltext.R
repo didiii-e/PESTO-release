@@ -1,9 +1,9 @@
 #!/usr/bin/env Rscript
-# Supplementary Figure for Note 5 - the full-text mode.
+# Supplementary Figure 7 (Supplementary Material Note 7) - the full-text mode.
 #
 #   a  the literature branch of Supplementary Figure 1 with what the full-text
 #      mode adds (scripts/172_pipeline_detailed_schema.R, fulltext = TRUE)
-#   b  returned label on the body-only benchmark, abstracts and fulltext
+#   b  returned label on the body-only benchmark, abstracts (shown as Default PESTO) and fulltext
 #   c  key PMIDs (the GWAS articles naming the gene) cited in the answer
 #   d  literature-branch cost per pair on that benchmark
 #   e  average precision on the 140 pairs of Fig. 2d (40 Limited 2023-2025 vs
@@ -40,6 +40,7 @@ VCOL <- c(Novel = "#A9573F", Hypothesized = "#BFA45C",
           Existing = "#5B7F95", Established = "#2E5F4F")
 ARMS <- c("abstracts", "fulltext")
 ACOL <- c(abstracts = "#000000", fulltext = "#0072B2")
+ARM_LABELS <- scale_x_discrete(labels = c(abstracts = "Default\nPESTO", fulltext = "fulltext"))
 GROUPS <- c("GWAS, gene in body only", "negative control")
 
 base_theme <- theme_classic(base_size = 16) +
@@ -63,6 +64,7 @@ panel_b <- ggplot(verd, aes(arm, n, fill = verdict)) +
   scale_fill_manual(values = VCOL, drop = FALSE, name = NULL) +
   scale_y_continuous(labels = function(x) paste0(100 * x),
                      expand = expansion(mult = c(0, 0.02))) +
+  ARM_LABELS +
   labs(x = NULL, y = "% of pairs", title = "Returned label") +
   base_theme +
   theme(strip.background = element_blank(), strip.text = element_text(size = 13),
@@ -74,6 +76,7 @@ panel_c <- ggplot(summ, aes(arm, 100 * pmids_cited / pmids_total, fill = arm)) +
             vjust = -0.4, size = 4.6, colour = "grey25") +
   scale_fill_manual(values = ACOL, guide = "none") +
   scale_y_continuous(limits = c(0, 100), expand = expansion(mult = c(0, 0.04))) +
+  ARM_LABELS +
   labs(x = NULL, y = "% of key PMIDs cited", title = "Deciding articles cited") +
   base_theme
 
@@ -86,6 +89,7 @@ panel_d <- ggplot(summ, aes(arm, usd_mean, fill = arm)) +
   scale_fill_manual(values = ACOL, guide = "none") +
   scale_y_continuous(labels = function(x) sprintf("$%.2f", x),
                      expand = expansion(mult = c(0, 0.15))) +
+  ARM_LABELS +
   labs(x = NULL, y = "USD per pair (mean ± s.d.)", title = "Literature branch cost") +
   base_theme
 
@@ -105,6 +109,7 @@ panel_e <- ggplot(ap, aes(arm, ap, fill = arm)) +
   scale_fill_manual(values = ACOL, guide = "none") +
   scale_y_continuous(limits = c(0, 1.15), breaks = seq(0, 1, 0.2),
                      expand = expansion(mult = c(0, 0))) +
+  ARM_LABELS +
   labs(x = NULL, y = "Average precision", title = "Recent Limited vs Absent") +
   base_theme
 

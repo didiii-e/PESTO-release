@@ -1,5 +1,6 @@
 #!/usr/bin/env Rscript
-# Supplementary Figure 3. Figure 2a and 2b under abstracts, the 0–100
+# Supplementary Figure 5. Figure 2a and 2b under abstracts (titled Default
+# PESTO, as in Supplementary Material Note 4), the 0–100
 # novelty-score prompt (abstracts-score), abstracts-bare (category definitions
 # only), and abstracts-open (intensity wording only). The result tables keep
 # the names these arms had when they were run: current, score, current-bare
@@ -245,8 +246,8 @@ open_2b <- function() {
   bar_panel(d, "group", NULL, "% of genes")
 }
 
-fig <- ((current_2a() + labs(title = "abstracts") |
-         current_2b() + labs(title = "abstracts")) /
+fig <- ((current_2a() + labs(title = "Default PESTO") |
+         current_2b() + labs(title = "Default PESTO")) /
         (score_2a() + labs(title = "abstracts-score") |
          score_2b() + labs(title = "abstracts-score")) /
         (bare_2a() + labs(title = "abstracts-bare") |

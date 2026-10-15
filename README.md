@@ -257,7 +257,7 @@ table, a supplementary file) and append the passages naming it for the reader.
 PubMed cannot return those articles, and the deciding paper is often one of them.
 On 20 GWAS associations whose deciding article names the gene only in its body,
 `abstracts` placed 1 at Existing or above and `fulltext` 18, and both kept all 20
-negative controls at Novel or Hypothesized (Supplementary Figure 4). `fulltext` was not used for the analyses of the paper,
+negative controls at Novel or Hypothesized (Supplementary Figure 7). `fulltext` was not used for the analyses of the paper,
 and `fulltext-trait` has not been benchmarked.
 
 The other arms reproduce the paper's comparisons: `titles` (titles only),
@@ -267,7 +267,7 @@ The other arms reproduce the paper's comparisons: `titles` (titles only),
 ## Cost
 
 At Anthropic list prices, the literature branch costs about $0.07–0.11 a pair
-with `abstracts` (Extended Data Fig. 2 and Supplementary Figure 4), and 2–3%
+with `abstracts` (Extended Data Fig. 2 and Supplementary Figure 7), and 2–3%
 more with `fulltext`; the Open Targets branch about $0.03. Well-studied genes cost more. A
 pair already answered by the same pipeline is read from the cache and costs
 nothing. With `--bench`, the cost of every pair is written to `cost.tsv` as it
