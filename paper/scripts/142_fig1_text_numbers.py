@@ -9,7 +9,7 @@ figure1_v7 (results/all_runs_auto_v7.tsv and the v7 absent-50 controls), so
 the text and the figure cannot drift apart.
 
 Shared pairs are counted once, on the AoU side, as in the table; the BRaVa
-total adds them back from data/raw/Duncan_results.tsv.
+total adds them back from the pairs BRaVa reported (results/cohort_brava_pairs.tsv).
 
   python3 scripts/142_fig1_text_numbers.py > results/fig1_text_numbers.txt
 """
@@ -26,7 +26,7 @@ from scipy.stats import fisher_exact, spearmanr
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RUNS = os.path.join(ROOT, "results", "all_runs_auto_v7.tsv")
 ABSENT = os.path.join(ROOT, "results", "bench_fig1c_absent50_hgnc_pesto_v7.tsv")
-BRAVA_RAW = os.path.join(ROOT, "data", "raw", "Duncan_results.tsv")
+BRAVA_RAW = os.path.join(ROOT, "results", "cohort_brava_pairs.tsv")
 ALIASES = os.path.join(ROOT, "data", "phenotype_aliases.tsv")
 
 VERDICTS = ["Novel", "Hypothesized", "Existing", "Established"]

@@ -188,7 +188,8 @@ class Records:
 
     def __init__(self):
         cached = json.loads(RECORDS.read_text()) if RECORDS.exists() else {}
-        self.data = {k: v for k, v in cached.items() if v}
+        # Records released without their abstract (copyright) are fetched again.
+        self.data = {k: v for k, v in cached.items() if v and "abstract" in v}
 
     def get(self, pmids):
         need = sorted({p for p in pmids if p and p not in self.data})

@@ -31,10 +31,14 @@ Rscript scripts/117_figure3_chd_top5.R --loeuf-decile --brain-decile --or --top5
 Rscript scripts/198_tissue_enrichment_grid.R
 Rscript scripts/236_extended_data_panel670.R .
 Rscript scripts/231_fetal_cell_type_heatmap.R
-if [ -f data/raw/ASC_GeneList_12082026.txt ]; then
+need269=(data/raw/ASC_GeneList_12082026.txt data/gtex_median_tpm.gct.gz data/loeuf_scores.tsv
+         data/genelists/reference_sets.json data/hgnc_complete_set.txt)
+missing269=()
+for f in "${need269[@]}"; do [ -f "$f" ] || missing269+=("$f"); done
+if [ ${#missing269[@]} -eq 0 ]; then
   "$PY" scripts/269_publication_adjusted_enrichment.py
 else
-  echo "skip 269_publication_adjusted_enrichment.py: needs data/raw/ASC_GeneList_12082026.txt"
+  echo "skip 269_publication_adjusted_enrichment.py: needs ${missing269[*]} (not redistributed, see README.md)"
 fi
 
 echo "== Supplementary Figures 1 and 2, Supplementary Note 1 table"

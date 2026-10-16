@@ -25,68 +25,57 @@
         {
             "pmid": "39877840",
             "title": "Genetic association analysis of lipid-lowering drug target genes in chronic kidney disease.",
-            "pubdate": "2024",
-            "abstract": "The impact of lipid-lowering medications on chronic kidney disease (CKD) remains a subject of debate. This Mendelian randomization (MR) study aims to elucidate the potential effects of lipid-lowering drug targets on CKD development."
+            "pubdate": "2024"
         },
         {
             "pmid": "25804128",
             "title": "ABCG8 polymorphisms and renal disease in type 2 diabetic patients.",
-            "pubdate": "2015 Jun",
-            "abstract": "Sterols, bile acids and their receptors have been involved in diabetic nephropathy. The ATP-binding cassette transporters G5 and G8 (ABCG5 and ABCG8) play an important role in intestinal sterol absorption and bile acid secretion. The aim of our study was to assess the associations between two ABCG8 coding polymorphisms, T400K and D19H, and the incidence of renal events in type 2 diabetic subjects."
+            "pubdate": "2015 Jun"
         },
         {
             "pmid": "38172964",
             "title": "Revisiting the interconnection between lipids and vitamin K metabolism: insights from recent research and potential therapeutic implications: a review.",
-            "pubdate": "2024 Jan 3",
-            "abstract": "Vitamin K is a lipophilic vitamin, whose absorption, transportation, and distribution are influenced by lipids. The plasma vitamin K level after supplementation is predominantly a lipid-driven effect and independent of existing vitamin K status. However, previous studies examining the efficacy of vitamin K supplementation often overlooked the influence of lipid levels on vitamin K absorption, resulting in inconsistent outcomes. Recent research discovered that impaired transportation of vitamin K2 within uremic high-density lipoproteins (HDL) in individuals with uremia might elucidate the lack of beneficial effects in preventing calcification observed in multiple trials involving menaquinone-7 (MK-7) supplementation among patients with chronic kidney disease. Clinical findings have shown that drugs used to regulate hyperlipidemia interact with the vitamin K antagonist warfarin, because cholesterol and vitamin K share common transport receptors, such as Niemann-Pick C1-like 1 (NPC1L1) and ATP-binding cassette protein G5/G8 (ABCG5/ABCG8), in enterocytes and hepatocytes. Additionally, cholesterol and vitamin K share a common biosynthetic intermediate called geranylgeranyl pyrophosphate (GGPP). It is important to note that statins, which hinder cholesterol synthesis, can also impede vitamin K conversion, ultimately impacting the functionality of vitamin K-dependent proteins. Furthermore, certain studies have indicated that vitamin K supplementation holds potential in managing hyperlipidemia, potentially opening a novel avenue for controlling hyperlipidemia using dietary vitamin K supplements. Therefore, attaining a more comprehensive understanding of the intricate interplay between vitamin K and lipids will yield valuable insights concerning the utilization of vitamin K and lipid regulation."
+            "pubdate": "2024 Jan 3"
         },
         {
             "pmid": "17855625",
             "title": "Gender differences in mRNA expression of ATP-binding cassette efflux and bile acid transporters in kidney, liver, and intestine of 5/6 nephrectomized rats.",
-            "pubdate": "2008 Jan",
-            "abstract": "ATP-binding cassette (ABC) transporters including multidrug resistance proteins (Mdr), multidrug resistance-associated proteins (Mrp), and breast cancer resistance protein (Bcrp/Abcg2) play major roles in tissue defense. Abcg5/g8 is essential in cholesterol efflux. The present study was aimed at elucidating alteration in expression of these transporters and bile-acid transporters during chronic kidney disease (CKD) and underlying molecular mechanisms. Seven weeks after 5/6 nephrectomy (Nx), mRNA expression of 16 aforementioned transporters in kidney, liver, jejunum, and large intestine of male and female Nx rats was quantified with the branched DNA signal amplification assay. In Nx males, intestinal expression of all the transporters remained unchanged; hepatic expression of most transporters was not altered, except increases in Mdr1a, Mrp3, and Abcg8. In male remnant kidneys, kidney-predominant transporter Abcg2 decreased and correlated with CKD severity, whereas Mdr1b, Mrp3, and ileal bile-acid transporter increased and correlated with CKD severity. Such changes were largely absent in Nx females. Renal alterations of these transporters correlated with increases of cytokines and/or decreases of nuclear receptors such as estrogen receptor alpha and glucocorticoid receptor. Renal protein expression of Mrp2 increased, whereas that of Mrp4 remained unchanged in both genders of Nx rats. Treatment of rat proximal tubule NRK-52E cells with interleukin (IL)-1beta and IL-6 increased Mrp3 mRNA expression. In conclusion, during CKD, renal expression of many ABC transporters was altered at the transcriptional level, whereas hepatic mRNA expression of most ABC transporters remained unchanged. Down-regulation of steroid hormone receptors and increase of inflammatory cytokines may contribute to alteration of transporter gene expression in kidney during CKD."
+            "pubdate": "2008 Jan"
         },
         {
             "pmid": "27121416",
             "title": "Gallstones.",
-            "pubdate": "2016 Apr 28",
-            "abstract": "Gallstones grow inside the gallbladder or biliary tract. These stones can be asymptomatic or symptomatic; only gallstones with symptoms or complications are defined as gallstone disease. Based on their composition, gallstones are classified into cholesterol gallstones, which represent the predominant entity, and bilirubin ('pigment') stones. Black pigment stones can be caused by chronic haemolysis; brown pigment stones typically develop in obstructed and infected bile ducts. For treatment, localization of the gallstones in the biliary tract is more relevant than composition. Overall, up to 20% of adults develop gallstones and >20% of those develop symptoms or complications. Risk factors for gallstones are female sex, age, pregnancy, physical inactivity, obesity and overnutrition. Factors involved in metabolic syndrome increase the risk of developing gallstones and form the basis of primary prevention by lifestyle changes. Common mutations in the hepatic cholesterol transporter ABCG8 confer most of the genetic risk of developing gallstones, which accounts for \u223c25% of the total risk. Diagnosis is mainly based on clinical symptoms, abdominal ultrasonography and liver biochemistry tests. Symptoms often precede the onset of the three common and potentially life-threatening complications of gallstones (acute cholecystitis, acute cholangitis and biliary pancreatitis). Although our knowledge on the genetics and pathophysiology of gallstones has expanded recently, current treatment algorithms remain predominantly invasive and are based on surgery. Hence, our future efforts should focus on novel preventive strategies to overcome the onset of gallstones in at-risk patients in particular, but also in the population in general."
+            "pubdate": "2016 Apr 28"
         },
         {
             "pmid": "36210074",
             "title": "Sitosterolemia.",
-            "pubdate": "2022",
-            "abstract": "Sitosterolemia is an inherited metabolic disorder characterized by increased levels of plant sterols, such as sitosterol. This disease is caused by loss-of-function genetic mutations in the ATP-binding cassette (ABC) subfamily G member 5 or member 8 (ABCG5 or ABCG8, respectively), both of which play important roles in the selective excretion of plant sterols from the liver and intestine, leading to a failure to excrete plant sterols. Sitosterolemia, which is currently considered a rare genetic disorder, has been described as a phenocopy of homozygous familial hypercholesterolemia (FH). Typical phenotypes of sitosterolemia, including elevated low-density lipoprotein (LDL) cholesterol, tendon xanthomas, and premature coronary artery disease, overlap those of homozygous FH; however, there are substantial differences between these two diseases in terms of treatments and prognoses. Moreover, it is of note that sitosterolemia appears to be quite underdiagnosed, although accurate diagnosis and appropriate interventions will likely to lead to better prognoses compared with homozygous FH. Unlike cases of homozygous FH, dietary counseling is quite effective in reducing the LDL cholesterol as well as sitosterol of patients with sitosterolemia. In this chapter, we summarize the current understandings of this disease and provide useful tips for the diagnosis as well as better treatment of patients with sitosterolemia."
+            "pubdate": "2022"
         },
         {
             "pmid": "34969652",
             "title": "Clinical, genetic profile and therapy evaluation of 55 children and 5 adults with sitosterolemia.",
-            "pubdate": "2022 Jan-Feb",
-            "abstract": "Sitosterolemia is a rare autosomal recessive disease characterized by phytosterol accumulation in the blood and tissues. However, the detailed clinical and genetic spectra are lacking."
+            "pubdate": "2022 Jan-Feb"
         },
         {
             "pmid": "19158321",
             "title": "Intestinal lipid absorption.",
-            "pubdate": "2009 Jun",
-            "abstract": "Our knowledge of the uptake and transport of dietary fat and fat-soluble vitamins has advanced considerably. Researchers have identified several new mechanisms by which lipids are taken up by enterocytes and packaged as chylomicrons for export into the lymphatic system or clarified the actions of mechanisms previously known to participate in these processes. Fatty acids are taken up by enterocytes involving protein-mediated as well as protein-independent processes. Net cholesterol uptake depends on the competing activities of NPC1L1, ABCG5, and ABCG8 present in the apical membrane. We have considerably more detailed information about the uptake of products of lipid hydrolysis, the active transport systems by which they reach the endoplasmic reticulum, the mechanisms by which they are resynthesized into neutral lipids and utilized within the endoplasmic reticulum to form lipoproteins, and the mechanisms by which lipoproteins are secreted from the basolateral side of the enterocyte. apoB and MTP are known to be central to the efficient assembly and secretion of lipoproteins. In recent studies, investigators found that cholesterol, phospholipids, and vitamin E can also be secreted from enterocytes as components of high-density apoB-free/apoAI-containing lipoproteins. Several of these advances will probably be investigated further for their potential as targets for the development of drugs that can suppress cholesterol absorption, thereby reducing the risk of hypercholesterolemia and cardiovascular disease."
+            "pubdate": "2009 Jun"
         },
         {
             "pmid": "36897412",
             "title": "Update on Sitosterolemia and Atherosclerosis.",
-            "pubdate": "2023 May",
-            "abstract": "The purpose of this review was to summarize important and updated information on sitosterolemia. Sitosterolemia is an inherited lipid disorder consisting of high levels of plasma plant sterols. This sterol storage condition is caused by biallelic loss-of-function genetic variants in either ABCG5 or ABCG8, leading to increased intestinal absorption and decreased hepatic excretion of plant sterols. Clinically, patients with sitosterolemia usually exhibit xanthomatosis, high levels of plasma cholesterol, and premature atherosclerotic disease, but presentation can be highly heterogeneous. Therefore, recognition of this condition requires a high level of suspicion, with confirmation upon genetic diagnosis or through measurement of plasma phytosterols. Treatment of sitosterolemia with both a plant sterol-restricted diet and the intestinal cholesterol absorption inhibitor ezetimibe can reduce efficiently the levels of plasma plant sterols, consisting in the first-line therapy for this disease."
+            "pubdate": "2023 May"
         },
         {
             "pmid": "33141631",
             "title": "The ABCs of Sterol Transport.",
-            "pubdate": "2021 Feb 10",
-            "abstract": "Cholesterol homeostasis and trafficking are critical to the maintenance of the asymmetric plasma membrane of eukaryotic cells. Disruption or dysfunction of cholesterol trafficking leads to numerous human diseases. ATP-binding cassette (ABC) transporters play several critical roles in this process, and mutations in these sterol transporters lead to disorders such as Tangier disease and sitosterolemia. Biochemical and structural information on ABC sterol transporters is beginning to emerge, with published structures of ABCA1 and ABCG5/G8; these two proteins function in the reverse cholesterol transport pathway and mediate the efflux of cholesterol and xenosterols to high-density lipoprotein and bile salt micelles, respectively. Although both of these transporters belong to the ABC family and mediate the efflux of a sterol substrate, they have many distinct differences. Here, we summarize the current understanding of sterol transport driven by ABC transporters, with an emphasis on these two extensively characterized transporters."
+            "pubdate": "2021 Feb 10"
         },
         {
             "pmid": "17483372",
             "title": "Update on dyslipidemia.",
-            "pubdate": "2007 May",
-            "abstract": "Recently, considerable progress has been made in understanding the genetic basis of dyslipidemias and in studying the safety and efficacy of lipid-lowering drugs for coronary heart disease (CHD) prevention. Novel loci have been identified for monogenic hypercholesterolemia, such as low-density lipoprotein (LDL) receptor (LDLR)-associated protein, proprotein convertase subtilisin-like kexin type 9, and ATP-binding cassette transporters ABCG5 and ABCG8. LDLR-associated protein promotes clustering of LDLRs into clathrin-coated pits for LDL uptake; proprotein convertase subtilisin-like kexin type 9 is involved in LDLR degradation; and ABCG5 and 8 pump sterols out of the hepatic and intestinal cells into bile and intestinal lumen, respectively. A novel gene encoding apolipoprotein AV, an activator of lipoprotein lipase, has also been linked to familial hypertriglyceridemia. Linkage of familial combined hyperlipidemia to upstream stimulatory factor 1 remains controversial. Recent guidelines of the Adult Treatment Panel III emphasize intensive reduction of LDL or non-high-density lipoprotein cholesterol in patients at high risk of CHD. However, of the four recently concluded trials comparing high- vs. low-dose statin therapy, only two showed an unequivocal reduction in cardiovascular endpoints. Because intensive statin therapy can increase the risk of myopathy and hepatotoxicity, it is important to consider its risk-benefit ratio in individual patients. Restriction of dietary saturated and trans-fat and cholesterol, along with increased intake of soluble fiber, can also achieve substantial LDL cholesterol lowering. Fibrates may reduce the risk of acute pancreatitis in severely hypertriglyceridemic patients and may be beneficial for CHD prevention. However, the safety and efficacy of combined therapy of fibrates and statins needs to be established."
+            "pubdate": "2007 May"
         }
     ],
     "pubmed_pmids": [

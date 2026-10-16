@@ -59,6 +59,7 @@ python3 -c "
 import importlib.util
 spec = importlib.util.spec_from_file_location('m', 'scripts/116_fig3_chd_top5.py')
 m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m); m.go()" > results/run_116_go.log 2>&1
+Rscript scripts/338_derived_inputs.R > results/run_338.log 2>&1
 Rscript scripts/117_figure3_chd_top5.R --loeuf-decile --brain-decile --or --top5-brain > results/run_117.log 2>&1
 Rscript scripts/198_tissue_enrichment_grid.R > results/run_198.log 2>&1
 Rscript scripts/199_tissue_heatmap_from_grid.R adult kept 5% --clean > results/run_199.log 2>&1

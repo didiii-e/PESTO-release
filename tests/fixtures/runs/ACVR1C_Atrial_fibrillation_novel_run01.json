@@ -23,62 +23,52 @@
         {
             "pmid": "35896531",
             "title": "Rare loss of function variants in the hepatokine gene INHBE protect from abdominal obesity.",
-            "pubdate": "2022 Jul 27",
-            "abstract": "Identifying genetic variants associated with lower waist-to-hip ratio can reveal new therapeutic targets for abdominal obesity. We use exome sequences from 362,679 individuals to identify genes associated with waist-to-hip ratio adjusted for BMI (WHRadjBMI), a surrogate for abdominal fat that is causally linked to type 2 diabetes and coronary heart disease. Predicted loss of function (pLOF) variants in INHBE associate with lower WHRadjBMI and this association replicates in data from AMP-T2D-GENES. INHBE encodes a secreted protein, the hepatokine activin E. In vitro characterization of the most common INHBE pLOF variant in our study, indicates an in-frame deletion resulting in a 90% reduction in secreted protein levels. We detect associations with lower WHRadjBMI for variants in ACVR1C, encoding an activin receptor, further highlighting the involvement of activins in regulating fat distribution. These findings highlight activin E as a potential therapeutic target for abdominal obesity, a phenotype linked to cardiometabolic disease."
+            "pubdate": "2022 Jul 27"
         },
         {
             "pmid": "37523551",
             "title": "Activin E-ACVR1C cross talk controls energy storage via suppression of adipose lipolysis in mice.",
-            "pubdate": "2023 Aug 8",
-            "abstract": "Body fat distribution is a heritable risk factor for cardiovascular and metabolic disease. In humans, rare Inhibin beta E (INHBE, activin E) loss-of-function variants are associated with a lower waist-to-hip ratio and protection from type 2 diabetes. Hepatic fatty acid sensing promotes INHBE expression during fasting and in obese individuals, yet it is unclear how the hepatokine activin E governs body shape and energy metabolism. Here, we uncover activin E as a regulator of adipose energy storage. By suppressing \u03b2-agonist-induced lipolysis, activin E promotes fat accumulation and adipocyte hypertrophy and contributes to adipose dysfunction in mice. Mechanistically, we demonstrate that activin E elicits its effect on adipose tissue through ACVR1C, activating SMAD2/3 signaling and suppressing PPARG target genes. Conversely, loss of activin E or ACVR1C in mice increases fat utilization, lowers adiposity, and drives PPARG-regulated gene signatures indicative of healthy adipose function. Our studies identify activin E-ACVR1C as a metabolic rheostat promoting liver-adipose cross talk to restrain excessive fat breakdown and preserve fat mass during prolonged fasting, a mechanism that is maladaptive in obese individuals."
+            "pubdate": "2023 Aug 8"
         },
         {
             "pmid": "41578299",
             "title": "A paracrine-to-autocrine shunt of GREM1 fuels colorectal cancer metastasis via ACVR1C.",
-            "pubdate": "2026 Jan 24",
-            "abstract": "Tumor cells typically rely on paracrine stromal signals to guide malignant behavior, yet whether they gain signaling autonomy and thereby reduce microenvironment dependency during metastasis remains unclear."
+            "pubdate": "2026 Jan 24"
         },
         {
             "pmid": "40682848",
             "title": "MEIS1\u2011regulated miR\u2011488\u20113p suppresses the malignant progression of laryngeal squamous cell carcinoma by targeting ACVR1C.",
-            "pubdate": "2025 Sep",
-            "abstract": "Laryngeal squamous cell carcinoma (LSCC) is a common malignant tumor originating from the mucosal epithelium of the larynx. MicroRNA (miR)\u2011488\u20113p has non\u2011negligible multifaceted roles in some types of cancer; however, its association with LSCC has not yet been reported. Our prior RNA sequencing data indicated that miR\u2011488\u20113p expression is downregulated in LSCC tissue, yet the detailed function and regulatory mechanism of miR\u2011488\u20113p in LSCC remain unknown. In the present study, quantitative PCR analysis corroborated the significant downregulation of miR\u2011488\u20113p in LSCC tumor tissues, with this downregulation being strongly associated with malignant progression in LSCC. Furthermore, overexpression of miR\u2011488\u20113p suppressed LSCC cell proliferation, colony formation, migration, invasion, xenograft tumor growth and epithelial\u2011mesenchymal transition. Mechanistically, miR\u2011488\u20113p directly interacted with the 3' untranslated region of activin A receptor type 1C (ACVR1C) and downregulated ACVR1C expression. Functional experiments revealed that miR\u2011488\u20113p suppressed the malignant phenotypes of LSCC via ACVR1C. Additionally, bioinformatics analysis coupled with chromatin immunoprecipitation assay revealed that myeloid ecotropic viral integration site 1 (MEIS1) promoted the expression of miR\u2011488\u20113p transcriptionally by directly binding its promoter region. Collectively, the results demonstrated that miR\u2011488\u20113p acts as a tumor suppressor molecule in LSCC, and a role was established for the MEIS1/miR\u2011488\u20113p/ACVR1C axis in regulating LSCC progression, thus providing novel potential biomarkers and targets for patients with LSCC."
+            "pubdate": "2025 Sep"
         },
         {
             "pmid": "28927503",
             "title": "Learning induces the translin/trax RNase complex to express activin receptors for persistent memory.",
-            "pubdate": "2017 Sep 20",
-            "abstract": "Long-lasting forms of synaptic plasticity and memory require de novo protein synthesis. Yet, how learning triggers this process to form memory is unclear. Translin/trax is a candidate to drive this learning-induced memory mechanism by suppressing microRNA-mediated translational silencing at activated synapses. We find that mice lacking translin/trax display defects in synaptic tagging, which requires protein synthesis at activated synapses, and long-term memory. Hippocampal samples harvested from these mice following learning show increases in several disease-related microRNAs targeting the activin A receptor type 1C (ACVR1C), a component of the transforming growth factor-\u03b2 receptor superfamily. Furthermore, the absence of translin/trax abolishes synaptic upregulation of ACVR1C protein after learning. Finally, synaptic tagging and long-term memory deficits in mice lacking translin/trax are mimicked by ACVR1C inhibition. Thus, we define a new memory mechanism by which learning reverses microRNA-mediated silencing of the novel plasticity protein ACVR1C via translin/trax."
+            "pubdate": "2017 Sep 20"
         },
         {
             "pmid": "34173336",
             "title": "Regulation of metabolic homeostasis by the TGF-\u03b2 superfamily receptor ALK7.",
-            "pubdate": "2022 Oct",
-            "abstract": "ALK7 (Activin receptor-like kinase 7) is a member of the TGF-\u03b2 receptor superfamily predominantly expressed by cells and tissues involved in endocrine functions, such as neurons of the hypothalamus and pituitary, pancreatic \u03b2-cells and adipocytes. Recent studies have begun to delineate the processes regulated by ALK7 in these tissues and how these become integrated with the homeostatic regulation of mammalian metabolism. The picture emerging indicates that ALK7's primary function in metabolic regulation is to limit catabolic activities and preserve energy. Aside of the hypothalamic arcuate nucleus, the function of ALK7 elsewhere in the brain, particularly in the cerebellum, where it is abundantly expressed, remains to be elucidated. Although our understanding of the basic molecular events underlying ALK7 signaling has benefited from the vast knowledge available on TGF-\u03b2 receptor mechanisms, how these connect to the physiological functions regulated by ALK7 in different cell types is still incompletely understood. Findings of missense and nonsense variants in the Acvr1c gene, encoding ALK7, of some mouse strains and human subjects indicate a tolerance to ALK7 loss of function. Recent discoveries suggest that specific inhibitors of ALK7 may have therapeutic applications in obesity and metabolic syndrome without overt adverse effects."
+            "pubdate": "2022 Oct"
         },
         {
             "pmid": "38558282",
             "title": "Identification of a gene expression signature associated with brain metastasis in colorectal cancer.",
-            "pubdate": "2024 Aug",
-            "abstract": "Brain metastasis (BM) in colorectal cancer (CRC) is a rare event with poor prognosis. Apart from (K)RAS status and lung and bone metastasis no biomarkers exist to identify patients at risk. This study aimed to identify a gene expression signature associated with colorectal BM."
+            "pubdate": "2024 Aug"
         },
         {
             "pmid": "34875679",
             "title": "Identification of Rare Loss-of-Function Genetic Variation Regulating Body Fat Distribution.",
-            "pubdate": "2022 Mar 24",
-            "abstract": "Biological and translational insights from large-scale, array-based genetic studies of fat distribution, a key determinant of metabolic health, have been limited by the difficulty in linking predominantly noncoding variants to specific gene targets. Rare coding variant analyses provide greater confidence that a specific gene is involved, but do not necessarily indicate whether gain or loss of function (LoF) would be of most therapeutic benefit."
+            "pubdate": "2022 Mar 24"
         },
         {
             "pmid": "40384613",
             "title": "Investigating Overlapping Immune-related Genetic Markers in Cholangiocarcinoma and Inflammatory Bowel Disease for Predictive Prognosis.",
-            "pubdate": "2025 Sep 1",
-            "abstract": "This study aims to explore the common immune-related gene characteristics of cholangiocarcinoma (CHOL) and inflammatory bowel disease (IBD) to predict disease prognosis. By analyzing the gene expression data from the TCGA, GEO, and NGDC databases, differentially expressed immune-related genes (DE-IRGs) were screened, and a prognostic model was constructed. The results showed that CCR7, OSM, S100P, ACVR1C, OSMR, SPP1, and PIK3R3 were key immune-related genes, and their expressions were closely related to the occurrence and development of CHOL and IBD. Patients in the low immune risk score (IRS) group had more abundant antitumor immune cell infiltration, while those in the high IRS group had more macrophage infiltration. In addition, the model based on these genes had good predictive ability for the diagnosis and prognosis of CHOL and IBD, with an area under the ROC curve (AUC) value exceeding 0.7. This study also predicted potential small molecule drugs that might be effective for the treatment of CHOL, such as Umbralisib and Tamoxifen. In conclusion, this study provides new biomarkers and potential targets for diagnosis, prognosis assessment, and treatment of CHOL and IBD."
+            "pubdate": "2025 Sep 1"
         },
         {
             "pmid": "42086781",
             "title": "Transcriptional and ubiquitinative suppression of macrophage CST3 disrupts colonic homeostasis through defective efferocytosis.",
-            "pubdate": "2026 May 5",
-            "abstract": "To elucidate the role and regulatory mechanisms of macrophage-derived cystatin C (CST3) in Crohn's disease (CD), focusing on colonic inflammation, macrophage-epithelial interactions, and barrier dysfunction. Colonic samples from CD patients, including inflamed and non-inflamed regions, were subjected to scRNA-seq. In vitro macrophage-epithelial co-culture models and untargeted metabolomics were employed, and the findings were validated using macrophage-specific CST3 knockout (KO) and overexpression mice under TNBS-induced and IL-10 KO colitis conditions. Mechanistic investigations included Co-IP, ChIP-qPCR, ubiquitination assays, rescue experiments, and functional analyses of efferocytosis, macrophage polarization, and barrier integrity. CST3 expression was considerably reduced in macrophages from inflamed CD tissues through suppressor of SMAD5-dependent transcriptional repression and MYCBP2-mediated K48-linked ubiquitination and degradation. Loss of CST3 impaired efferocytosis and M2 polarization by inhibiting the ACVR1C/TGF-\u03b2/SMAD pathway. CST3 deficiency also disrupted intestinal epithelial proliferation, compromised barrier function, and increased apoptosis via enhanced NAMPT-INSR signaling and accumulation of the inflammatory cytokines. In mice, macrophage-specific CST3 deletion exacerbated colitis, whereas its overexpression alleviated inflammation and restored epithelial integrity. These findings establish macrophage CST3 as a key regulator of immune-metabolic-epithelial crosstalk in CD, and indicate that restoring CST3 function or targeting its regulatory axis may represent a novel therapeutic strategy for CD."
+            "pubdate": "2026 May 5"
         }
     ],
     "pubmed_pmids": [

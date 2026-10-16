@@ -25,62 +25,52 @@
         {
             "pmid": "31039256",
             "title": "Limbic-predominant age-related TDP-43 encephalopathy (LATE): consensus working group report.",
-            "pubdate": "2019 Jun 1",
-            "abstract": "We describe a recently recognized disease entity, limbic-predominant age-related TDP-43 encephalopathy (LATE). LATE neuropathological change (LATE-NC) is defined by a stereotypical TDP-43 proteinopathy in older adults, with or without coexisting hippocampal sclerosis pathology. LATE-NC is a common TDP-43 proteinopathy, associated with an amnestic dementia syndrome that mimicked Alzheimer's-type dementia in retrospective autopsy studies. LATE is distinguished from frontotemporal lobar degeneration with TDP-43 pathology based on its epidemiology (LATE generally affects older subjects), and relatively restricted neuroanatomical distribution of TDP-43 proteinopathy. In community-based autopsy cohorts, \u223c25% of brains had sufficient burden of LATE-NC to be associated with discernible cognitive impairment. Many subjects with LATE-NC have comorbid brain pathologies, often including amyloid-\u03b2 plaques and tauopathy. Given that the 'oldest-old' are at greatest risk for LATE-NC, and subjects of advanced age constitute a rapidly growing demographic group in many countries, LATE has an expanding but under-recognized impact on public health. For these reasons, a working group was convened to develop diagnostic criteria for LATE, aiming both to stimulate research and to promote awareness of this pathway to dementia. We report consensus-based recommendations including guidelines for diagnosis and staging of LATE-NC. For routine autopsy workup of LATE-NC, an anatomically-based preliminary staging scheme is proposed with TDP-43 immunohistochemistry on tissue from three brain areas, reflecting a hierarchical pattern of brain involvement: amygdala, hippocampus, and middle frontal gyrus. LATE-NC appears to affect the medial temporal lobe structures preferentially, but other areas also are impacted. Neuroimaging studies demonstrated that subjects with LATE-NC also had atrophy in the medial temporal lobes, frontal cortex, and other brain regions. Genetic studies have thus far indicated five genes with risk alleles for LATE-NC: GRN, TMEM106B, ABCC9, KCNMB2, and APOE. The discovery of these genetic risk variants indicate that LATE shares pathogenetic mechanisms with both frontotemporal lobar degeneration and Alzheimer's disease, but also suggests disease-specific underlying mechanisms. Large gaps remain in our understanding of LATE. For advances in prevention, diagnosis, and treatment, there is an urgent need for research focused on LATE, including in vitro and animal models. An obstacle to clinical progress is lack of diagnostic tools, such as biofluid or neuroimaging biomarkers, for ante-mortem detection of LATE. Development of a disease biomarker would augment observational studies seeking to further define the risk factors, natural history, and clinical features of LATE, as well as eventual subject recruitment for targeted therapies in clinical trials."
+            "pubdate": "2019 Jun 1"
         },
         {
             "pmid": "20301690",
             "title": "Brugada Syndrome.",
-            "pubdate": "1993",
-            "abstract": ""
+            "pubdate": "1993"
         },
         {
             "pmid": "36129056",
             "title": "Determining the Likelihood of Disease Pathogenicity Among Incidentally Identified Genetic Variants in Rare Dilated Cardiomyopathy-Associated Genes.",
-            "pubdate": "2022 Oct 4",
-            "abstract": "Background As utilization of clinical exome sequencing (ES) has expanded, criteria for evaluating the diagnostic weight of incidentally identified variants are critical to guide clinicians and researchers. This is particularly important in genes associated with dilated cardiomyopathy (DCM), which can cause heart failure and sudden death. We sought to compare the frequency and distribution of incidentally identified variants in DCM-associated genes between a clinical referral cohort with those in control and known case cohorts to determine the likelihood of pathogenicity among those undergoing genetic testing for non-DCM indications. Methods and Results A total of 39 rare, non-TTN DCM-associated genes were identified and evaluated from a clinical ES testing referral cohort (n=14\u2009005, Baylor Genetic Laboratories) and compared with a DCM case cohort (n=9442) as well as a control cohort of population variants (n=141\u2009456) derived from the gnomAD database. Variant frequencies in each cohort were compared. Signal-to-noise ratios were calculated comparing the DCM and ES cohort with the gnomAD cohort. The likely pathogenic/pathogenic variant yield in the DCM cohort (8.2%) was significantly higher than in the ES cohort (1.9%). Based on signal-to-noise and correlation analysis, incidental variants found in FLNC, RBM20, MYH6, DSP, ABCC9, JPH2, and NEXN had the greatest chance of being DCM-associated. Conclusions The distribution of pathogenic variants between the ES cohort and the DCM case cohort was gene specific, and variants found in the ES cohort were similar to variants found in the control cohort. Incidentally identified variants in specific genes are more associated with DCM than others."
+            "pubdate": "2022 Oct 4"
         },
         {
             "pmid": "25275207",
             "title": "Cant\u00fa Syndrome.",
-            "pubdate": "1993",
-            "abstract": ""
+            "pubdate": "1993"
         },
         {
             "pmid": "38217872",
             "title": "Novel loss-of-function variants expand ABCC9-related intellectual disability and myopathy syndrome.",
-            "pubdate": "2024 May 3",
-            "abstract": "Loss-of-function mutation of ABCC9, the gene encoding the SUR2 subunit of ATP sensitive-potassium (KATP) channels, was recently associated with autosomal recessive ABCC9-related intellectual disability and myopathy syndrome (AIMS). Here we identify nine additional subjects, from seven unrelated families, harbouring different homozygous loss-of-function variants in ABCC9 and presenting with a conserved range of clinical features. All variants are predicted to result in severe truncations or in-frame deletions within SUR2, leading to the generation of non-functional SUR2-dependent KATP channels. Affected individuals show psychomotor delay and intellectual disability of variable severity, microcephaly, corpus callosum and white matter abnormalities, seizures, spasticity, short stature, muscle fatigability and weakness. Heterozygous parents do not show any conserved clinical pathology but report multiple incidences of intra-uterine fetal death, which were also observed in an eighth family included in this study. In vivo studies of abcc9 loss-of-function in zebrafish revealed an exacerbated motor response to pentylenetetrazole, a pro-convulsive drug, consistent with impaired neurodevelopment associated with an increased seizure susceptibility. Our findings define an ABCC9 loss-of-function-related phenotype, expanding the genotypic and phenotypic spectrum of AIMS and reveal novel human pathologies arising from KATP channel dysfunction."
+            "pubdate": "2024 May 3"
         },
         {
             "pmid": "38510289",
             "title": "Functional Validation of Doxorubicin-Induced Cardiotoxicity-Related Genes.",
-            "pubdate": "2024 Feb",
-            "abstract": "Genome-wide association studies and candidate gene association studies have identified more than 180\u00a0genetic variants statistically associated with anthracycline-induced cardiotoxicity (AIC). However, the lack of functional validation has hindered the clinical translation of these findings."
+            "pubdate": "2024 Feb"
         },
         {
             "pmid": "42290677",
             "title": "Cognitive Decline, Neurologic Involvement, and Neonatal Crisis in ABCC9-Related Intellectual Disability and Myopathy Syndrome.",
-            "pubdate": "2026 Aug",
-            "abstract": "The ABCC9 gene encodes the widely expressed SUR2 subunit of ATP-sensitive potassium (KATP) channels. Autosomal recessive loss-of-function variants in ABCC9 cause ABCC9-related Intellectual disability and Myopathy Syndrome (AIMS). Here, we sought to compile multiple case reports from previously unidentified individuals with the primary objective of further establishing the clinical consequences of ABCC9 variants."
+            "pubdate": "2026 Aug"
         },
         {
             "pmid": "41347799",
             "title": "ABCC9 knockdown attenuates isoproterenol\u2011induced myocardial hypertrophy by inhibiting the PI3K/AKT signaling pathway.",
-            "pubdate": "2026 Feb",
-            "abstract": "Myocardial hypertrophy (MH) represents an early pathological manifestation that progresses to severe cardiovascular disease (CVD), and its reversal is important for preventing and treating heart failure. Dysregulated expression of ATP\u2011binding cassette subfamily C member 9 (ABCC9) has been associated with complex CVD pathogenesis, although its precise mechanistic role remains ambiguous. The present study was designed to investigate the protective effects of ABCC9 knockdown against isoproterenol (ISO)\u2011induced MH and elucidate its underlying molecular mechanisms. AC16 cardiomyocytes were treated with ISO to establish an MH model, in which ABCC9 protein expression was significantly elevated. Fluorescence staining of cardiomyocyte surface area and quantification of MH\u2011related biomarkers, including atrial natriuretic peptide, brain natriuretic peptide and \u03b2\u2011myosin heavy chain, demonstrated that ABCC9 knockdown effectively attenuated MH and improved cardiac function. Furthermore, western blot analysis and flow cytometry revealed that ABCC9 knockdown not only decreased cardiomyocyte apoptosis but also reduced oxidative stress, as indicated by lower reactive oxygen species levels. Mechanistically, western blotting and mitochondrial membrane potential assays showed that ABCC9 knockdown inhibited the phosphatidylinositol 3\u2011kinase/protein kinase B (PI3K/AKT) signaling pathway and improved mitochondrial function. Notably, these protective effects were diminished by treatment with the PI3K/AKT activator 740Y\u2011P. These findings collectively suggest that ABCC9 knockdown protects against MH by inhibiting the PI3K/AKT signaling pathway, thereby alleviating mitochondrial dysfunction and reducing apoptosis and oxidative stress, positioning ABCC9 as a potential therapeutic target for MH treatment."
+            "pubdate": "2026 Feb"
         },
         {
             "pmid": "35876283",
             "title": "Kir6.1 and SUR2B in Cant\u00fa syndrome.",
-            "pubdate": "2022 Sep 1",
-            "abstract": "Kir6.1 and SUR2 are subunits of ATP-sensitive potassium (KATP) channels expressed in a wide range of tissues. Extensive study has implicated roles of these channel subunits in diverse physiological functions. Together they generate the predominant KATP conductance in vascular smooth muscle and are the target of vasodilatory drugs. Roles for Kir6.1/SUR2 dysfunction in disease have been suggested based on studies of animal models and human genetic discoveries. In recent years, it has become clear that gain-of-function (GoF) mutations in both genes result in Cant\u00fa syndrome (CS)-a complex, multisystem disorder. There is currently no targeted therapy for CS, but studies of mouse models of the disease reveal that pharmacological reversibility of cardiovascular and gastrointestinal pathologies can be achieved by administration of the KATP channel inhibitor, glibenclamide. Here we review the function, structure, and physiological and pathological roles of Kir6.1/SUR2B channels, with a focus on CS. Recent studies have led to much improved understanding of the underlying pathologies and the potential for treatment, but important questions remain: Can the study of genetically defined CS reveal new insights into Kir6.1/SUR2 function? Do these reveal new pathophysiological mechanisms that may be important in more common diseases? And is our pharmacological armory adequately stocked?"
+            "pubdate": "2022 Sep 1"
         },
         {
             "pmid": "26226329",
             "title": "ABCC9/SUR2 in the brain: Implications for hippocampal sclerosis of aging and a potential therapeutic target.",
-            "pubdate": "2015 Nov",
-            "abstract": "The ABCC9 gene and its polypeptide product, SUR2, are increasingly implicated in human neurologic disease, including prevalent diseases of the aged brain. SUR2 proteins are a component of the ATP-sensitive potassium (\"KATP\") channel, a metabolic sensor for stress and/or hypoxia that has been shown to change in aging. The KATP channel also helps regulate the neurovascular unit. Most brain cell types express SUR2, including neurons, astrocytes, oligodendrocytes, microglia, vascular smooth muscle, pericytes, and endothelial cells. Thus it is not surprising that ABCC9 gene variants are associated with risk for human brain diseases. For example, Cantu syndrome is a result of ABCC9 mutations; we discuss neurologic manifestations of this genetic syndrome. More common brain disorders linked to ABCC9 gene variants include hippocampal sclerosis of aging (HS-Aging), sleep disorders, and depression. HS-Aging is a prevalent neurological disease with pathologic features of both neurodegenerative (aberrant TDP-43) and cerebrovascular (arteriolosclerosis) disease. As to potential therapeutic intervention, the human pharmacopeia features both SUR2 agonists and antagonists, so ABCC9/SUR2 may provide a \"druggable target\", relevant perhaps to both HS-Aging and Alzheimer's disease. We conclude that more work is required to better understand the roles of ABCC9/SUR2 in the human brain during health and disease conditions."
+            "pubdate": "2015 Nov"
         }
     ],
     "pubmed_pmids": [
@@ -1732,63 +1722,54 @@
                 {
                     "pmid": "17245405",
                     "title": "KATP channel mutation confers risk for vein of Marshall adrenergic atrial fibrillation.",
-                    "abstract": "",
                     "year": "2007 Feb",
                     "source": "uniprot_variants"
                 },
                 {
                     "pmid": "27532257",
                     "title": "Reassessment of Mendelian gene pathogenicity using 7,855 cardiomyopathy cases and 60,706 reference samples.",
-                    "abstract": "",
                     "year": "2017 Feb",
                     "source": "genomics_england"
                 },
                 {
                     "pmid": "15034580",
                     "title": "ABCC9 mutations identified in human dilated cardiomyopathy disrupt catalytic KATP channel gating.",
-                    "abstract": "",
                     "year": "2004 Apr",
                     "source": "genomics_england"
                 },
                 {
                     "pmid": "11562480",
                     "title": "Disruption of Sur2-containing K(ATP) channels enhances insulin-stimulated glucose uptake in skeletal muscle.",
-                    "abstract": "",
                     "year": "2001 Sep 25",
                     "source": "impc"
                 },
                 {
                     "pmid": "12122112",
                     "title": "Episodic coronary artery vasospasm and hypertension develop in the absence of Sur2 K(ATP) channels.",
-                    "abstract": "",
                     "year": "2002 Jul",
                     "source": "impc"
                 },
                 {
                     "pmid": "30089727",
                     "title": "Cardiovascular consequences of KATP overactivity in Cantu syndrome.",
-                    "abstract": "",
                     "year": "2018 Aug 9",
                     "source": "impc"
                 },
                 {
                     "pmid": "31575858",
                     "title": "ABCC9-related Intellectual disability Myopathy Syndrome is a K(ATP) channelopathy with loss-of-function mutations in ABCC9.",
-                    "abstract": "",
                     "year": "2019 Oct 1",
                     "source": "impc"
                 },
                 {
                     "pmid": "24648545",
                     "title": "Abcc9 is required for the transition to oxidative metabolism in the newborn heart.",
-                    "abstract": "",
                     "year": "2014 Jul",
                     "source": "impc"
                 },
                 {
                     "pmid": "33529173",
                     "title": "Complex consequences of Cantu syndrome SUR2 variant R1154Q in genetically modified mice.",
-                    "abstract": "",
                     "year": "2021 Mar 8",
                     "source": "impc"
                 }

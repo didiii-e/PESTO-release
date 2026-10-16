@@ -52,7 +52,12 @@ DATA      <- file.path(root, "data")
 RESULTS   <- file.path(root, "results")
 AD_RES    <- file.path(RESULTS, "fig3_chd_nocc_mean_top5")
 FIGURES   <- file.path(root, "figures")
+# Per-gene LOEUF and expression specificity of the panel genes, written by
+# scripts/338_derived_inputs.R from gnomAD, GTEx and Descartes (not redistributed).
+# --genome-decile alone needs the whole gnomAD table in data/.
 LOEUF_SRC <- file.path(DATA, "loeuf_scores.tsv")
+PANEL_LOEUF <- file.path(RESULTS, "biology", "panel_loeuf.tsv")
+PANEL_SPEC <- file.path(RESULTS, "biology", "panel_expression_specificity.tsv")
 
 source(file.path(root, "scripts", "_panel_dendrogram.R"))
 
@@ -173,15 +178,17 @@ scores <- read_tsv(file.path(RESULTS, "fig3_universe550_meancall_scores.tsv"),
   filter(phenotype %in% PHENOS, !is.na(lit_score)) %>%
   transmute(gene = toupper(gene), phenotype, score = as.numeric(lit_score))
 
-loeuf <- read_tsv(LOEUF_SRC, show_col_types = FALSE) %>%
-  transmute(gene = toupper(gene_symbol), loeuf = as.numeric(LOEUF)) %>%
-  filter(!is.na(loeuf)) %>%
-  distinct(gene, .keep_all = TRUE)
+loeuf <- read_tsv(PANEL_LOEUF, show_col_types = FALSE)
 joined <- scores %>%
   inner_join(loeuf, by = "gene") %>%
   filter(!is.na(score), !is.na(loeuf))
 bins <- if (GENOME_DEC) {
-  loeuf %>% mutate(decile = ntile(loeuf, 10))
+  if (!file.exists(LOEUF_SRC)) stop("--genome-decile needs ", LOEUF_SRC, " (gnomAD v4 constraint)")
+  read_tsv(LOEUF_SRC, show_col_types = FALSE) %>%
+    transmute(gene = toupper(gene_symbol), loeuf = as.numeric(LOEUF)) %>%
+    filter(!is.na(loeuf)) %>%
+    distinct(gene, .keep_all = TRUE) %>%
+    mutate(decile = ntile(loeuf, 10))
 } else {
   joined %>% distinct(gene, loeuf) %>% mutate(decile = ntile(loeuf, 10))
 }
@@ -250,38 +257,13 @@ if (LOEUF_DEC) {
   )
 }
 
-gtex <- read.delim(gzfile(file.path(DATA, "gtex_median_tpm.gct.gz")),
-                   skip = 2, check.names = FALSE, stringsAsFactors = FALSE)
-gtex_tissues <- setdiff(names(gtex), c("Name", "Description"))
-gtex_brain   <- grep("^Brain - ", gtex_tissues, value = TRUE)
-gtex_other   <- setdiff(gtex_tissues, gtex_brain)
-gtex_mat <- as.matrix(gtex[, gtex_tissues])
-adult <- tibble(
-  gene    = toupper(gtex$Description),
-  brain   = apply(gtex_mat[, gtex_brain, drop = FALSE], 1, median),
-  other   = apply(gtex_mat[, gtex_other, drop = FALSE], 1, median),
-  max_tpm = apply(gtex_mat, 1, max)
-) %>%
-  group_by(gene) %>% slice_max(max_tpm, n = 1, with_ties = FALSE) %>% ungroup() %>%
-  mutate(brain_ratio = log2((brain + 0.1) / (other + 0.1))) %>%
-  select(gene, brain_ratio)
-
-fetal_raw <- read_csv(file.path(DATA, "fetal_gene_expression_tissue_with_symbols.csv"),
-                      show_col_types = FALSE)
-fetal_tissues <- setdiff(names(fetal_raw), c("RowID", "gene_symbol"))
-fetal_brain   <- c("Cerebrum", "Cerebellum")
-fetal_other   <- setdiff(fetal_tissues, fetal_brain)
-fetal_mat <- as.matrix(fetal_raw[, fetal_tissues])
-storage.mode(fetal_mat) <- "numeric"
-fetal <- tibble(
-  gene    = toupper(fetal_raw$gene_symbol),
-  brain   = apply(fetal_mat[, fetal_brain, drop = FALSE], 1, median),
-  other   = apply(fetal_mat[, fetal_other, drop = FALSE], 1, median),
-  max_tpm = apply(fetal_mat, 1, max)
-) %>%
-  group_by(gene) %>% slice_max(max_tpm, n = 1, with_ties = FALSE) %>% ungroup() %>%
-  mutate(brain_ratio = log2((brain + 0.1) / (other + 0.1))) %>%
-  select(gene, brain_ratio)
+# Brain specificity: brain samples (adult GTEx "Brain - *"; fetal cerebrum and
+# cerebellum) against all other samples, cultured cells included.
+spec <- read_tsv(PANEL_SPEC, show_col_types = FALSE)
+adult <- spec %>% filter(stage == "adult", cells == "kept", tissue == "Brain") %>%
+  transmute(gene, brain_ratio = spec)
+fetal <- spec %>% filter(stage == "fetal", tissue == "Brain") %>%
+  transmute(gene, brain_ratio = spec)
 
 b_dat <- bind_rows(
   scores %>% inner_join(adult, by = "gene") %>% rho_ci(score, brain_ratio) %>%

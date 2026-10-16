@@ -80,11 +80,12 @@ norm_ph <- function(x) {
   i <- match(p, aliases$alias)
   ifelse(is.na(i), p, aliases$canonical[i])
 }
-aou_src <- read_tsv(file.path(root, "data", "raw", "AoU_results.tsv"),
+# The pairs each study reported, from scripts/338_derived_inputs.R.
+aou_src <- read_tsv(file.path(RESULTS, "cohort_aou_pairs.tsv"),
                     show_col_types = FALSE) %>%
   transmute(gene = toupper(gene_symbol), ph = norm_ph(description)) %>%
   filter(gene != "", !is.na(ph), ph != "") %>% distinct()
-brava_raw <- read_tsv(file.path(root, "data", "raw", "Duncan_results.tsv"),
+brava_raw <- read_tsv(file.path(RESULTS, "cohort_brava_pairs.tsv"),
                       show_col_types = FALSE)
 brava_src <- bind_rows(
     brava_raw %>% transmute(gene = toupper(external_gene_name),

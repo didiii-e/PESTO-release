@@ -21,7 +21,7 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 RUNS = ROOT / "results" / "all_runs_auto_v7.tsv"
-BRAVA_RAW = ROOT / "data" / "raw" / "Duncan_results.tsv"
+BRAVA_RAW = ROOT / "results" / "cohort_brava_pairs.tsv"
 ALIASES = ROOT / "data" / "phenotype_aliases.tsv"
 OUT = ROOT / "results" / "supplementary_table1"
 

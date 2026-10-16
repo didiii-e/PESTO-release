@@ -1,0 +1,735 @@
+external_gene_name	phenotype	phenotype_full
+PKP2	AFib	Atrial fibrillation
+DGKH	AFib	Atrial fibrillation
+KDM5B	AFib	Atrial fibrillation
+DNMT3A	AFib	Atrial fibrillation
+FLNC	AFib	Atrial fibrillation
+MYBPC3	AFib	Atrial fibrillation
+ENTREP1	AFib	Atrial fibrillation
+BAG3	AFib	Atrial fibrillation
+TTN	AFib	Atrial fibrillation
+LMNA	AFib	Atrial fibrillation
+PLEC	AFib	Atrial fibrillation
+RBM20	AFib	Atrial fibrillation
+GPT	ALT	Alanine transaminase
+GOT1	AST	Aspartate aminotransferase
+MRC1	AST	Aspartate aminotransferase
+ZNF782	Asth	Asthma
+MC4R	BMI	Body mass index
+BDNF	BMI	Body mass index
+BRCA1	BreastCanc	Breast cancer
+PALB2	BreastCanc	Breast cancer
+BRCA2	BreastCanc	Breast cancer
+MLH1	ColonRectCanc	Colon and rectum cancer
+PKD1	CRF	Chronic renal failure
+CETP	HDLC	HDL cholesterol
+APOC3	HDLC	HDL cholesterol
+ABCA1	HDLC	HDL cholesterol
+LPL	HDLC	HDL cholesterol
+LCAT	HDLC	HDL cholesterol
+GHR	Height	Height
+IGF1R	Height	Height
+ADAMTS17	Height	Height
+ACAN	Height	Height
+NPR2	Height	Height
+ANKRD11	Height	Height
+LCORL	Height	Height
+TRIP13	HF	Heart failure
+TTN	HF	Heart failure
+APOB	LDLC	LDL cholesterol
+LDLR	LDLC	LDL cholesterol
+PCSK9	LDLC	LDL cholesterol
+APOB	TChol	Total cholesterol
+LDLR	TChol	Total cholesterol
+ANGPTL3	TChol	Total cholesterol
+PCSK9	TChol	Total cholesterol
+APOB	TG	Triglycerides
+APOC3	TG	Triglycerides
+LPL	TG	Triglycerides
+CFAP141	WHRBMI	Waist to hip ratio adjusted for BMI
+ANKRD12	AlcCons	Alcohol consumption (drinks per week)
+GIGYF1	AlcCons	Alcohol consumption (drinks per week)
+HECTD4	AlcCons	Alcohol consumption (drinks per week)
+APBA1	AlcCons	Alcohol consumption (drinks per week)
+ABCB4	ALT	Alanine transaminase
+PKD1	ALT	Alanine transaminase
+ABCC2	ALT	Alanine transaminase
+NR1H3	ALT	Alanine transaminase
+ABCB11	ALT	Alanine transaminase
+APOB	ALT	Alanine transaminase
+TNFRSF10B	ALT	Alanine transaminase
+CGNL1	ALT	Alanine transaminase
+G6PC1	ALT	Alanine transaminase
+FLOT2	ALT	Alanine transaminase
+MTTP	ALT	Alanine transaminase
+CGN	ALT	Alanine transaminase
+TTN	ALT	Alanine transaminase
+TM4SF4	ALT	Alanine transaminase
+ANO5	ALT	Alanine transaminase
+RNF213	ALT	Alanine transaminase
+CFH	AMD	Age-related macular degeneration
+PRPH2	AMD	Age-related macular degeneration
+CFI	AMD	Age-related macular degeneration
+ENSG00000285330	AMD	Age-related macular degeneration
+APC	BenIntNeo	Benign and in situ intestinal neoplasms
+UNC93A	BreastCanc	Breast cancer
+APC	ColonRectCanc	Colon and rectum cancer
+C16orf78	COPD	Chronic obstructive pulmonary disease
+CD36	HDLC	HDL cholesterol
+CREB3L3	TG	Triglycerides
+ANGPTL3	TG	Triglycerides
+ABCB4	AST	Aspartate aminotransferase
+PKD1	AST	Aspartate aminotransferase
+NR1H4	AST	Aspartate aminotransferase
+NR1H3	AST	Aspartate aminotransferase
+ABCB11	AST	Aspartate aminotransferase
+APOB	AST	Aspartate aminotransferase
+CRBN	AST	Aspartate aminotransferase
+PLEKHM2	AST	Aspartate aminotransferase
+CTSD	AST	Aspartate aminotransferase
+TNFRSF10B	AST	Aspartate aminotransferase
+SH3TC1	AST	Aspartate aminotransferase
+ATG4C	AST	Aspartate aminotransferase
+CD36	AST	Aspartate aminotransferase
+MTTP	AST	Aspartate aminotransferase
+ANO5	AST	Aspartate aminotransferase
+NF1	AST	Aspartate aminotransferase
+NOTCH4	AST	Aspartate aminotransferase
+DNAJC13	AST	Aspartate aminotransferase
+NDUFB8	AST	Aspartate aminotransferase
+ATP2A3	Asth	Asthma
+SETD1A	Asth	Asthma
+ANKRD12	Asth	Asthma
+ITGB8	Asth	Asthma
+ACTR6	BenCervUterNeo	Benign and in situ cervical and uterine neoplasms
+DGCR2	BenIntNeo	Benign and in situ intestinal neoplasms
+MLH1	BenIntNeo	Benign and in situ intestinal neoplasms
+MSH2	BenIntNeo	Benign and in situ intestinal neoplasms
+MSH6	BenIntNeo	Benign and in situ intestinal neoplasms
+PTEN	BenIntNeo	Benign and in situ intestinal neoplasms
+CALCR	BMI	Body mass index
+UBR2	BMI	Body mass index
+KIF1B	BMI	Body mass index
+PSD	BMI	Body mass index
+RIF1	BMI	Body mass index
+DIDO1	BMI	Body mass index
+ANKRD12	BMI	Body mass index
+APBA1	BMI	Body mass index
+PHF3	BMI	Body mass index
+YLPM1	BMI	Body mass index
+CAMSAP1	BMI	Body mass index
+MRAP2	BMI	Body mass index
+SLTM	BMI	Body mass index
+BLTP1	BMI	Body mass index
+UBR3	BMI	Body mass index
+PTPRG	BMI	Body mass index
+GIGYF1	BMI	Body mass index
+ZEB1	BMI	Body mass index
+BSN	BMI	Body mass index
+EML5	BMI	Body mass index
+HECTD4	BMI	Body mass index
+PCSK1	BMI	Body mass index
+CSTF3	BMI	Body mass index
+BRIP1	BreastCanc	Breast cancer
+BARD1	BreastCanc	Breast cancer
+ATM	BreastCanc	Breast cancer
+PPM1D	BreastCanc	Breast cancer
+PTEN	BreastCanc	Breast cancer
+CHEK2	BreastCanc	Breast cancer
+LDLR	CAD	Coronary artery disease
+PODN	CAD	Coronary artery disease
+MSH2	ColonRectCanc	Colon and rectum cancer
+TNFRSF10A	ColonRectCanc	Colon and rectum cancer
+MSH6	ColonRectCanc	Colon and rectum cancer
+ANKRD12	COPD	Chronic obstructive pulmonary disease
+TET2	COPD	Chronic obstructive pulmonary disease
+ASXL1	COPD	Chronic obstructive pulmonary disease
+PAX2	CRF	Chronic renal failure
+COL4A4	CRF	Chronic renal failure
+DNAJB11	CRF	Chronic renal failure
+PKD2	CRF	Chronic renal failure
+TET2	CRF	Chronic renal failure
+IFT140	CRF	Chronic renal failure
+COL4A5	CRF	Chronic renal failure
+ABCB11	CRP	C-reactive protein
+G6PC1	CRP	C-reactive protein
+CRP	CRP	C-reactive protein
+NLRP3	CRP	C-reactive protein
+ABCA1	CRP	C-reactive protein
+TET2	CRP	C-reactive protein
+BCAM	CRP	C-reactive protein
+LGALS2	Height	Height
+NUP98	Height	Height
+CYP2C9	Height	Height
+PPIG	Height	Height
+ARRDC5	Height	Height
+GPX2	Height	Height
+SNRNP25	WHRBMI	Waist to hip ratio adjusted for BMI
+YEATS4	EFRMB	Excess, frequent and irregular menstrual bleeding
+HGH1	ALT	Alanine transaminase
+KIF5B	AST	Aspartate aminotransferase
+CELSR3	BMI	Body mass index
+POMC	BMI	Body mass index
+CCNA2	BMI	Body mass index
+ADARB1	BMI	Body mass index
+RMC1	BMI	Body mass index
+C15orf62	BreastCanc	Breast cancer
+UBR3	COPD	Chronic obstructive pulmonary disease
+LRRC24	COPD	Chronic obstructive pulmonary disease
+MIB1	CRF	Chronic renal failure
+MICU2	CRP	C-reactive protein
+FBXL2	FemInf	Female infertility
+PKD1	Gout	Gout
+PKD2	Gout	Gout
+ABCG2	Gout	Gout
+COL4A3	Gout	Gout
+SLC22A12	Gout	Gout
+STAB1	HDLC	HDL cholesterol
+NR1H3	HDLC	HDL cholesterol
+CREB3L3	HDLC	HDL cholesterol
+ADGRL1	HDLC	HDL cholesterol
+SCARB1	HDLC	HDL cholesterol
+APOB	HDLC	HDL cholesterol
+JAK2	HDLC	HDL cholesterol
+PLTP	HDLC	HDL cholesterol
+LIPG	HDLC	HDL cholesterol
+ANKRD12	HDLC	HDL cholesterol
+MIB1	HDLC	HDL cholesterol
+GBF1	HDLC	HDL cholesterol
+OSBP	HDLC	HDL cholesterol
+APOA5	HDLC	HDL cholesterol
+CBL	HDLC	HDL cholesterol
+SH2B3	HDLC	HDL cholesterol
+APOA1	HDLC	HDL cholesterol
+PLA2G12A	HDLC	HDL cholesterol
+ANGPTL8	HDLC	HDL cholesterol
+PPARG	HDLC	HDL cholesterol
+ANGPTL3	HDLC	HDL cholesterol
+KNL1	HDLC	HDL cholesterol
+SMAD6	HDLC	HDL cholesterol
+PREPL	HDLC	HDL cholesterol
+PCSK6	HDLC	HDL cholesterol
+RMC1	HDLC	HDL cholesterol
+GIGYF1	HDLC	HDL cholesterol
+PDE3B	HDLC	HDL cholesterol
+SRSF2	HDLC	HDL cholesterol
+LIPC	HDLC	HDL cholesterol
+PLIN1	HDLC	HDL cholesterol
+ANGPTL4	HDLC	HDL cholesterol
+TET2	HDLC	HDL cholesterol
+PPM1D	HDLC	HDL cholesterol
+INSR	HDLC	HDL cholesterol
+HECTD4	HDLC	HDL cholesterol
+PDZK1	HDLC	HDL cholesterol
+COL18A1	HDLC	HDL cholesterol
+CSNK1E	HDLC	HDL cholesterol
+TPTEP2-CSNK1E	HDLC	HDL cholesterol
+CYP26B1	Height	Height
+SCMH1	Height	Height
+MRC2	Height	Height
+EXTL3	Height	Height
+IGF1	Height	Height
+RFC1	Height	Height
+ADAMTS6	Height	Height
+LTBP1	Height	Height
+PUM2	Height	Height
+HMG20B	Height	Height
+PKN2	Height	Height
+ZFAT	Height	Height
+PLPP1	Height	Height
+FGFR3	Height	Height
+POLB	Height	Height
+IGF2BP2	Height	Height
+MARK3	Height	Height
+FRYL	Height	Height
+THOC1	Height	Height
+RBL1	Height	Height
+WDR70	Height	Height
+APOB	Height	Height
+NOX4	Height	Height
+GNAS	Height	Height
+SMOX	Height	Height
+PUS7	Height	Height
+HECTD1	Height	Height
+TRPM7	Height	Height
+TBX15	Height	Height
+PCSK5	Height	Height
+SETD1A	Height	Height
+HMGXB4	Height	Height
+SNW1	Height	Height
+TRPC4AP	Height	Height
+SAMHD1	Height	Height
+CRISPLD2	Height	Height
+CAPN15	Height	Height
+PIEZO1	Height	Height
+XYLT1	Height	Height
+HERC1	Height	Height
+ARHGAP21	Height	Height
+COL1A1	Height	Height
+SMURF2	Height	Height
+MYH3	Height	Height
+CPZ	Height	Height
+ADGRG6	Height	Height
+NPR3	Height	Height
+SEC24A	Height	Height
+SMAD5	Height	Height
+AMOTL2	Height	Height
+GLS	Height	Height
+PAPPA2	Height	Height
+ANGPTL1	Height	Height
+GHRH	Height	Height
+ZBTB45	Height	Height
+YLPM1	Height	Height
+LTBP2	Height	Height
+SMAD9	Height	Height
+KDM3B	Height	Height
+CRISPLD1	Height	Height
+GHSR	Height	Height
+CDKN2C	Height	Height
+AMD1	Height	Height
+NRK	Height	Height
+ZNFX1	Height	Height
+GLIS2	Height	Height
+ZBTB1	Height	Height
+AKAP9	Height	Height
+POR	Height	Height
+LOXL1	Height	Height
+PHF20L1	Height	Height
+PXDN	Height	Height
+GFPT2	Height	Height
+CHSY1	Height	Height
+PIK3C2B	Height	Height
+LOXL2	Height	Height
+SLC38A2	Height	Height
+LRP4	Height	Height
+FLNB	Height	Height
+CHAD	Height	Height
+ANGPTL2	Height	Height
+TET1	Height	Height
+PRKG2	Height	Height
+FGF2	Height	Height
+USO1	Height	Height
+C4orf17	Height	Height
+B4GALNT3	Height	Height
+SLC38A4	Height	Height
+SCAF11	Height	Height
+FBLN5	Height	Height
+DPP9	Height	Height
+ADAMTS10	Height	Height
+HMCN1	Height	Height
+ADAMTSL4	Height	Height
+DTL	Height	Height
+SLC27A3	Height	Height
+CDC42BPA	Height	Height
+ENSG00000144785	Height	Height
+COL8A1	Height	Height
+SCUBE3	Height	Height
+UHRF2	Height	Height
+ZCCHC7	Height	Height
+PTPRJ	Height	Height
+ENDOD1	Height	Height
+SERPINH1	Height	Height
+HMGA2	Height	Height
+LATS2	Height	Height
+SEC24D	Height	Height
+FER	Height	Height
+CCDC3	Height	Height
+WWC2	Height	Height
+PTPN14	Height	Height
+PDE3B	Height	Height
+PLEKHH2	Height	Height
+PTPRK	Height	Height
+PLOD2	Height	Height
+BMP6	Height	Height
+CACNA2D1	Height	Height
+XPC	Height	Height
+TTN	Height	Height
+ADAMTS3	Height	Height
+SCAF4	Height	Height
+DDR2	Height	Height
+FRZB	Height	Height
+SPRR3	Height	Height
+NPPC	Height	Height
+IHH	Height	Height
+GYG1	Height	Height
+YEATS2	Height	Height
+ICE1	Height	Height
+RICTOR	Height	Height
+DLC1	Height	Height
+ZNF367	Height	Height
+INPPL1	Height	Height
+HTRA1	Height	Height
+FBN1	Height	Height
+CLEC3A	Height	Height
+PBX3	Height	Height
+TRIM68	Height	Height
+AXL	Height	Height
+VWCE	Height	Height
+TRANK1	Height	Height
+CNNM3	Height	Height
+IRS1	Height	Height
+THBS3	Height	Height
+ANTXR1	Height	Height
+FASN	Height	Height
+TACR3	Height	Height
+SOCS5	Height	Height
+COL24A1	Height	Height
+SPSB1	Height	Height
+COL8A2	Height	Height
+CBX2	Height	Height
+GOLIM4	Height	Height
+ADCY6	Height	Height
+PROP1	Height	Height
+MYO1D	Height	Height
+FIBIN	Height	Height
+NIM1K	Height	Height
+ZNF518A	Height	Height
+WDR6	Height	Height
+CTC1	Height	Height
+LDLRAD3	Height	Height
+PTPN11	Height	Height
+MKRN3	Height	Height
+PLAG1	Height	Height
+EXT1	Height	Height
+PAPPA	Height	Height
+SHOX	Height	Height
+PLCD1	Height	Height
+NF1	Height	Height
+COL27A1	Height	Height
+OR10D3	Height	Height
+KLHDC1	Height	Height
+ADAMTSL2	Height	Height
+TLK1	Height	Height
+KLHL9	Height	Height
+COLGALT2	Height	Height
+MTOR	Height	Height
+ZNF521	Height	Height
+GRK5	Height	Height
+COL11A2	Height	Height
+ZNF564	Height	Height
+PRKDC	Height	Height
+RTL1	Height	Height
+CNPY2	Height	Height
+GH1	Height	Height
+ENSG00000285947	Height	Height
+BOD1L1	Height	Height
+ZFR	Height	Height
+RBBP8	Height	Height
+BCL6	Height	Height
+TGFB3	Height	Height
+RRBP1	Height	Height
+GDF11	Height	Height
+FBN2	Height	Height
+LRRC58	Height	Height
+LTBP3	Height	Height
+PTCH1	Height	Height
+POU1F1	Height	Height
+DDX50	Height	Height
+MYH7	HF	Heart failure
+FLNC	HF	Heart failure
+MYBPC3	HF	Heart failure
+BAG3	HF	Heart failure
+LMNA	HF	Heart failure
+TET2	HF	Heart failure
+DSP	HF	Heart failure
+PKD1	HTN	Hypertension
+MON2	HTN	Hypertension
+PKD2	HTN	Hypertension
+DNMT3A	HTN	Hypertension
+TCF12	HTN	Hypertension
+UBR3	HTN	Hypertension
+GUCY1A1	HTN	Hypertension
+NAA15	HTN	Hypertension
+NOS3	HTN	Hypertension
+NPR1	HTN	Hypertension
+HECTD4	HTN	Hypertension
+PKD1	IFHern	Inguinal, femoral, and abdominal hernia
+PARN	ILDSarc	Interstitial lung disease and pulmonary sarcoidosis
+TERT	ILDSarc	Interstitial lung disease and pulmonary sarcoidosis
+TET2	ILDSarc	Interstitial lung disease and pulmonary sarcoidosis
+PPM1D	ILDSarc	Interstitial lung disease and pulmonary sarcoidosis
+ASXL1	ILDSarc	Interstitial lung disease and pulmonary sarcoidosis
+RTEL1	ILDSarc	Interstitial lung disease and pulmonary sarcoidosis
+PKD1	LDLC	LDL cholesterol
+STAB1	LDLC	LDL cholesterol
+NPC1L1	LDLC	LDL cholesterol
+CETP	LDLC	LDL cholesterol
+LIPG	LDLC	LDL cholesterol
+GCK	LDLC	LDL cholesterol
+RRBP1	LDLC	LDL cholesterol
+ANGPTL3	LDLC	LDL cholesterol
+TBC1D4	LDLC	LDL cholesterol
+ABCG5	LDLC	LDL cholesterol
+ASGR1	LDLC	LDL cholesterol
+ABCG8	LDLC	LDL cholesterol
+TIMD4	LDLC	LDL cholesterol
+GIGYF1	LDLC	LDL cholesterol
+ABCA6	LDLC	LDL cholesterol
+ALB	LDLC	LDL cholesterol
+ABCA1	LDLC	LDL cholesterol
+TET2	LDLC	LDL cholesterol
+ASXL1	LDLC	LDL cholesterol
+HBB	LDLC	LDL cholesterol
+JAK2	LDLC	LDL cholesterol
+LDLR	NonRheuValv	Non-rheumatic valvular heart disease
+TTN	NonRheuValv	Non-rheumatic valvular heart disease
+FBN1	NonRheuValv	Non-rheumatic valvular heart disease
+ASXL1	NonRheuValv	Non-rheumatic valvular heart disease
+FLNA	NonRheuValv	Non-rheumatic valvular heart disease
+PKD1	NonRheuValv	Non-rheumatic valvular heart disease
+PKD1	PAD	Peripheral artery disease
+LGALS1	PAD	Peripheral artery disease
+KIAA1549L	PAD	Peripheral artery disease
+LDLR	PAD	Peripheral artery disease
+MEN1	Pancreat	Pancreatitis
+APC	Pancreat	Pancreatitis
+BRCA2	Pancreat	Pancreatitis
+APC	PeptUlcer	Peptic ulcer disease
+ANKRD12	Psori	Psoriasis
+INPP5B	RheumArth	Rheumatoid arthritis
+CPXM2	RheumArth	Rheumatoid arthritis
+MYBPC3	RheumHeaDis	Rheumatic heart disease
+TTN	RheumHeaDis	Rheumatic heart disease
+LMNA	RheumHeaDis	Rheumatic heart disease
+FBN1	RheumHeaDis	Rheumatic heart disease
+ARHGEF28	RheumHeaDis	Rheumatic heart disease
+DNAJB6	Stroke	Stroke
+HTRA1	Stroke	Stroke
+THNSL1	Stroke	Stroke
+MYCBP2	T2Diab	Type 2 diabetes
+CELSR3	T2Diab	Type 2 diabetes
+ULK2	T2Diab	Type 2 diabetes
+SETD1A	T2Diab	Type 2 diabetes
+HMGXB4	T2Diab	Type 2 diabetes
+MIB1	T2Diab	Type 2 diabetes
+PAX4	T2Diab	Type 2 diabetes
+GCK	T2Diab	Type 2 diabetes
+PPARG	T2Diab	Type 2 diabetes
+HNF1A	T2Diab	Type 2 diabetes
+PDX1	T2Diab	Type 2 diabetes
+TCF12	T2Diab	Type 2 diabetes
+UBR3	T2Diab	Type 2 diabetes
+GIGYF1	T2Diab	Type 2 diabetes
+TNIK	T2Diab	Type 2 diabetes
+ADAMTS9	T2Diab	Type 2 diabetes
+NAA15	T2Diab	Type 2 diabetes
+HECTD4	T2Diab	Type 2 diabetes
+IRS2	T2Diab	Type 2 diabetes
+STAB1	TChol	Total cholesterol
+NPC1L1	TChol	Total cholesterol
+SCARB1	TChol	Total cholesterol
+JAK2	TChol	Total cholesterol
+LIPG	TChol	Total cholesterol
+RRBP1	TChol	Total cholesterol
+G6PC1	TChol	Total cholesterol
+TBC1D4	TChol	Total cholesterol
+ABCG5	TChol	Total cholesterol
+ABCG8	TChol	Total cholesterol
+TIMD4	TChol	Total cholesterol
+GIGYF1	TChol	Total cholesterol
+ABCA6	TChol	Total cholesterol
+ALB	TChol	Total cholesterol
+ABCA1	TChol	Total cholesterol
+LIPC	TChol	Total cholesterol
+TET2	TChol	Total cholesterol
+GAS6	TChol	Total cholesterol
+LCAT	TChol	Total cholesterol
+TM6SF2	TChol	Total cholesterol
+HBB	TChol	Total cholesterol
+NR1H3	TG	Triglycerides
+CPT1A	TG	Triglycerides
+APOA5	TG	Triglycerides
+PLA2G12A	TG	Triglycerides
+LDLR	TG	Triglycerides
+ANGPTL8	TG	Triglycerides
+G6PC1	TG	Triglycerides
+PPARG	TG	Triglycerides
+SMAD6	TG	Triglycerides
+TIMD4	TG	Triglycerides
+PDE3B	TG	Triglycerides
+LIPC	TG	Triglycerides
+PLIN1	TG	Triglycerides
+ANGPTL4	TG	Triglycerides
+INSR	TG	Triglycerides
+GAS6	TG	Triglycerides
+LCAT	TG	Triglycerides
+TM6SF2	TG	Triglycerides
+MPST	Urolith	Urolithiasis
+MEN1	Urolith	Urolithiasis
+SLC34A3	Urolith	Urolithiasis
+ZNF37A	Urolith	Urolithiasis
+PIEZO1	VaricVeins	Varicose veins
+ZNF880	VaricVeins	Varicose veins
+PKD1	VTE	Venous thromboembolism
+F11	VTE	Venous thromboembolism
+PROC	VTE	Venous thromboembolism
+SERPINC1	VTE	Venous thromboembolism
+HELZ2	VTE	Venous thromboembolism
+STAB2	VTE	Venous thromboembolism
+THBD	VTE	Venous thromboembolism
+PROS1	VTE	Venous thromboembolism
+PLXND1	WHRBMI	Waist to hip ratio adjusted for BMI
+PKD1	WHRBMI	Waist to hip ratio adjusted for BMI
+STAB1	WHRBMI	Waist to hip ratio adjusted for BMI
+KEAP1	WHRBMI	Waist to hip ratio adjusted for BMI
+COL5A3	WHRBMI	Waist to hip ratio adjusted for BMI
+GPATCH2	WHRBMI	Waist to hip ratio adjusted for BMI
+ANKRD12	WHRBMI	Waist to hip ratio adjusted for BMI
+MIB1	WHRBMI	Waist to hip ratio adjusted for BMI
+HNRNPR	WHRBMI	Waist to hip ratio adjusted for BMI
+MAX	WHRBMI	Waist to hip ratio adjusted for BMI
+PPARG	WHRBMI	Waist to hip ratio adjusted for BMI
+MMACHC	WHRBMI	Waist to hip ratio adjusted for BMI
+INHBE	WHRBMI	Waist to hip ratio adjusted for BMI
+GIGYF1	WHRBMI	Waist to hip ratio adjusted for BMI
+PDE3B	WHRBMI	Waist to hip ratio adjusted for BMI
+ABCA1	WHRBMI	Waist to hip ratio adjusted for BMI
+PLIN1	WHRBMI	Waist to hip ratio adjusted for BMI
+INSR	WHRBMI	Waist to hip ratio adjusted for BMI
+ASXL1	WHRBMI	Waist to hip ratio adjusted for BMI
+MIGA1	WHRBMI	Waist to hip ratio adjusted for BMI
+KIAA0319L	WHRBMI	Waist to hip ratio adjusted for BMI
+SMIM12	WHRBMI	Waist to hip ratio adjusted for BMI
+LRP2	Gout	Gout
+G6PC1	Gout	Gout
+DGAT2	HDLC	HDL cholesterol
+KEAP1	HDLC	HDL cholesterol
+GRK3	HDLC	HDL cholesterol
+NR1I2	HDLC	HDL cholesterol
+CD300LG	HDLC	HDL cholesterol
+HBB	HDLC	HDL cholesterol
+CALR	HDLC	HDL cholesterol
+FAM76A	Height	Height
+CCAR1	Height	Height
+LRP6	Height	Height
+PLOD1	Height	Height
+MMP2	Height	Height
+DNAAF9	Height	Height
+IL11	Height	Height
+NFATC4	Height	Height
+TRPS1	Height	Height
+ERF	Height	Height
+EZH1	Height	Height
+PPP6R3	Height	Height
+CHST3	Height	Height
+BMP2	Height	Height
+INO80	Height	Height
+IGF2BP3	Height	Height
+PDE5A	Height	Height
+PSTPIP1	Height	Height
+ISG20L2	Height	Height
+DAAM2	Height	Height
+NSD3	Height	Height
+ANAPC1	Height	Height
+SREK1	Height	Height
+MIA3	Height	Height
+DISP1	Height	Height
+UBE2Z	Height	Height
+CYP11B1	Height	Height
+OLFML2B	Height	Height
+SNED1	Height	Height
+E2F7	Height	Height
+CRK	Height	Height
+FOXA3	Height	Height
+OSTN	Height	Height
+ESRRG	Height	Height
+PRIM1	Height	Height
+HELZ	Height	Height
+BRD2	Height	Height
+LCAT	Height	Height
+SEC23IP	Height	Height
+PKD1	HF	Heart failure
+DNMT3A	HF	Heart failure
+URAD	HF	Heart failure
+GOLGA8N	HF	Heart failure
+TNPO3	HTN	Hypertension
+DGKH	HTN	Hypertension
+FES	HTN	Hypertension
+PI4KA	HTN	Hypertension
+APC	IBD	Inflammatory bowel disease
+FNIP1	AFib	Atrial fibrillation
+ZNF622	AMD	Age-related macular degeneration
+TPI1	BenCervUterNeo	Benign and in situ cervical and uterine neoplasms
+MIB1	BMI	Body mass index
+CACNA1B	BMI	Body mass index
+KLHL1	BMI	Body mass index
+MAP3K1	BreastCanc	Breast cancer
+NF1	BreastCanc	Breast cancer
+CLDN10	CRF	Chronic renal failure
+BATF	CRP	C-reactive protein
+SLC25A52	FemInf	Female infertility
+TRIM24	Gout	Gout
+RNF216	Height	Height
+IGDCC4	Height	Height
+SETX	Height	Height
+RUNX2	Height	Height
+WNT1	Height	Height
+EMILIN1	Height	Height
+FURIN	Height	Height
+PCOLCE2	Height	Height
+DLK1	Height	Height
+ZNF638	Height	Height
+LDLR	HF	Heart failure
+COL4A4	HTN	Hypertension
+CEP250	HTN	Hypertension
+BSN	HTN	Hypertension
+NPPA	HTN	Hypertension
+ADGRE5	ILDSarc	Interstitial lung disease and pulmonary sarcoidosis
+HMGCR	LDLC	LDL cholesterol
+EIF4G3	LDLC	LDL cholesterol
+MYO9A	PAD	Peripheral artery disease
+INPP5A	RheumArth	Rheumatoid arthritis
+SORCS3	RheumArth	Rheumatoid arthritis
+PKD1	RheumHeaDis	Rheumatic heart disease
+SIN3A	Stroke	Stroke
+CPEB1	Stroke	Stroke
+PREPL	T2Diab	Type 2 diabetes
+BSN	T2Diab	Type 2 diabetes
+PRR14L	T2Diab	Type 2 diabetes
+CRYL1	T2Diab	Type 2 diabetes
+HCN2	T2Diab	Type 2 diabetes
+NR1H4	TChol	Total cholesterol
+HMGCR	TChol	Total cholesterol
+DENND4C	TChol	Total cholesterol
+ASGR1	TChol	Total cholesterol
+PKD1	TChol	Total cholesterol
+CALR	TChol	Total cholesterol
+RASD1	TG	Triglycerides
+HGFAC	TG	Triglycerides
+ATP5MJ	Urolith	Urolithiasis
+POLR3F	VaricVeins	Varicose veins
+ACVR1C	WHRBMI	Waist to hip ratio adjusted for BMI
+PLIN4	WHRBMI	Waist to hip ratio adjusted for BMI
+COL3A1	WHRBMI	Waist to hip ratio adjusted for BMI
+SLC5A3	WHRBMI	Waist to hip ratio adjusted for BMI
+C1orf185	WHRBMI	Waist to hip ratio adjusted for BMI
+MYLIP	LDLC	LDL cholesterol
+NR1H4	LDLC	LDL cholesterol
+SF3B3	CervCanc	Cervical cancer
+SMARCD1	Height	Height
+ACTC1	HF	Heart failure
+DCUN1D1	HipRep	Hip replacement
+ZIC4	VaricVeins	Varicose veins
+MYBPC3	NonRheuValv	Non-rheumatic valvular heart disease
+HRH4	Psori	Psoriasis
+COA5	Psori	Psoriasis
+PHIP	RheumHeaDis	Rheumatic heart disease
+DHTKD1	RheumHeaDis	Rheumatic heart disease
+MAP1B	AFib	Atrial fibrillation
+COX4I2	BreastCanc	Breast cancer
+LSM10	Height	Height
+ACTN3	Height	Height
+COMMD9	WHRBMI	Waist to hip ratio adjusted for BMI
+HNF4A	T2Diab	Type 2 diabetes
+DGCR8	T2Diab	Type 2 diabetes
+CAMSAP1	T2Diab	Type 2 diabetes
+TGDS	T2Diab	Type 2 diabetes
+ASXL1	TChol	Total cholesterol
+MLXIPL	TG	Triglycerides
+GCKR	TG	Triglycerides
+JPH4	TG	Triglycerides
+PCSK6	TG	Triglycerides
+PKD1	Urolith	Urolithiasis
+CYP24A1	Urolith	Urolithiasis
+PKD2	Urolith	Urolithiasis
+SLC1A4	VaricVeins	Varicose veins

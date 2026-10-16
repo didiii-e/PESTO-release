@@ -4,6 +4,14 @@ title: "PESTO: prior evidence for gene-phenotype associations"
 version: 0.3.4
 license: MIT
 repository-code: "https://github.com/jeremyguez/PESTO-release"
+doi: 10.5281/zenodo.23426058
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23426058
+    description: "Archived code (this repository)"
+  - type: doi
+    value: 10.5281/zenodo.23425831
+    description: "Model answers and result tables of the paper"
 authors:
   - family-names: Guez
     given-names: Jeremy
@@ -23,6 +31,8 @@ authors:
     given-names: Catalina
   - family-names: Talkowski
     given-names: Michael E.
+  - family-names: Tatonetti
+    given-names: Nicholas P.
   - family-names: Daly
     given-names: Mark J.
   - family-names: Karczewski

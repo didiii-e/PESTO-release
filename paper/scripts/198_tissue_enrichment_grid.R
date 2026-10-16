@@ -44,24 +44,6 @@ scores <- read_tsv(file.path(root, "results", "fig3_universe550_meancall_scores.
                    show_col_types = FALSE) %>%
   filter(phenotype %in% PHENOS, !is.na(lit_score)) %>%
   transmute(gene = toupper(gene), phenotype, score = as.numeric(lit_score))
-panel <- unique(scores$gene)
-
-# Ratios for the panel genes only; a symbol on several rows keeps its most
-# expressed row, as in Fig. 3b.
-ratios <- function(mat, genes, groups) {
-  keep <- genes %in% panel
-  mat <- mat[keep, , drop = FALSE]; genes <- genes[keep]
-  best <- tibble(i = seq_along(genes), gene = genes, mx = apply(mat, 1, max)) %>%
-    group_by(gene) %>% slice_max(mx, n = 1, with_ties = FALSE) %>% ungroup()
-  mat <- mat[best$i, , drop = FALSE]
-  bind_rows(lapply(names(groups), function(t) {
-    inn <- groups[[t]]; oth <- setdiff(colnames(mat), inn)
-    tibble(gene = best$gene, tissue = t,
-           spec = log2((apply(mat[, inn, drop = FALSE], 1, median) + 0.1) /
-                       (apply(mat[, oth, drop = FALSE], 1, median) + 0.1)))
-  }))
-}
-
 enrich <- function(spec, n_tiles) {
   scores %>% inner_join(spec, by = "gene", relationship = "many-to-many") %>%
     group_by(tissue) %>%
@@ -78,20 +60,16 @@ enrich <- function(spec, n_tiles) {
     }) %>% ungroup() %>% group_by(phenotype) %>% mutate(fdr = p.adjust(p, "BH")) %>% ungroup()
 }
 
-gtex <- read.delim(gzfile(file.path(root, "data", "gtex_median_tpm.gct.gz")), skip = 2,
-                   check.names = FALSE, stringsAsFactors = FALSE)
-all_cols <- setdiff(names(gtex), c("Name", "Description"))
-fetal_raw <- read_csv(file.path(root, "data", "fetal_gene_expression_tissue_with_symbols.csv"),
-                      show_col_types = FALSE)
-fmat <- as.matrix(fetal_raw[, FETAL]); storage.mode(fmat) <- "numeric"
-fetal_spec <- ratios(fmat, toupper(fetal_raw$gene_symbol), setNames(as.list(FETAL), FETAL))
+# Specificity of the panel genes, written by scripts/338_derived_inputs.R from
+# GTEx and the Descartes fetal atlas (not redistributed).
+all_spec <- read_tsv(file.path(root, "results", "biology", "panel_expression_specificity.tsv"),
+                     show_col_types = FALSE)
+fetal_spec <- all_spec %>% filter(stage == "fetal", tissue %in% FETAL) %>%
+  select(gene, tissue, spec)
 
 runs <- list()
 for (cells in c("kept", "removed")) {
-  cols <- if (cells == "kept") all_cols else all_cols[!grepl("^Cells", all_cols)]
-  grp <- sub(" - .*", "", cols)
-  m <- as.matrix(gtex[, cols]); storage.mode(m) <- "numeric"
-  spec <- ratios(m, toupper(gtex$Description), setNames(lapply(ADULT, function(t) cols[grp == t]), ADULT))
+  spec <- all_spec %>% filter(stage == "adult", cells == !!cells) %>% select(gene, tissue, spec)
   for (f in names(FRACTIONS)) {
     runs[[length(runs) + 1]] <- enrich(spec, FRACTIONS[[f]]) %>%
       mutate(stage = "adult", cells = cells, top = f)

@@ -45,7 +45,7 @@ fonts (`fonts-urw-base35` on Debian and Ubuntu).
 | Supplementary Figure 10 (Claude and Gemini compared) | `303_gemini_fig2_comparison.py` (writes `results/gemini_fig2/comparison/`), `304_figure_gemini_comparison.R` | `figures/figure_supp_gemini_comparison.png` |
 | Supplementary Note 1, run-to-run variability (table) | `183_reproducibility_stats.py` | `results/reproducibility_aou50/summary.tsv` |
 | Supplementary Note 6, sensitivity of the tissue analyses (table) | `198_tissue_enrichment_grid.R` | `results/tissue_enrichment/grid_key.tsv` |
-| Supplementary Note 6, adjustment for publications per gene (table) | `269_publication_adjusted_enrichment.py` (+ `_biology_panel.py`, `202_subthreshold_signal.py`; needs the ASC gene list `data/raw/ASC_GeneList_12082026.txt`, not redistributed) | `results/biology/publication_adjusted_enrichment.tsv` |
+| Supplementary Note 6, adjustment for publications per gene (table) | `269_publication_adjusted_enrichment.py` (+ `_biology_panel.py`, `202_subthreshold_signal.py`; needs in `data/` the ASC gene list `raw/ASC_GeneList_12082026.txt`, GTEx, gnomAD constraint, HGNC and the published gene lists, not redistributed; `redraw_all.sh` skips it without them) | `results/biology/publication_adjusted_enrichment.tsv` |
 
 Redrawn here, Figures 2, 3 and 4, Extended Data Figs. 4 and 5 and Supplementary
 Figures 2, 4, 5, 6 and 7 are identical pixel for pixel to the versions in the manuscript
@@ -98,16 +98,36 @@ will not reproduce each answer exactly.
 | Supplementary Note 1, run-to-run variability | `181_reproducibility_aou50.py` (three fresh runs of 50 All of Us–GeneBass associations; only each run's `pesto.tsv` and `cost.tsv` are kept here) |
 | Supplementary Figures 9 and 10, Figure 2 on Gemini | `300_gemini_fig2_pairs.py` (the 1,043 pairs of Fig. 2, by panel), `299_gemini_fig2_run.py` (the arm of Fig. 2 with Gemini 4 Argon in place of Claude Opus 5 and Gemini 3.8 Flash in place of Claude Haiku 4.5, through `298_gemini_pair_probe.py`, PubMed capped at 14 August 2026; `--arm prior` for the model's internal knowledge), `301_gemini_citations.py` (`272` and `273` with the Gemini models); writes `results/gemini_fig2/`, whose `runs/` are in the Zenodo archive |
 | Supplementary Note 1, Open Targets tie rules (sensitivity) | `188_ot_tie_rules.py` (replays the stored Open Targets grades, no model call; reads `results/auto_cohort_ot_v7/` and `results/auto_fig1c_absent50_hgnc_v7/` from Zenodo, writes `results/ot_tie_rules/`) |
+| Inputs of Figures 1 and 4, Extended Data Figs. 4 and 5 and Supplementary Table 1 that stand in for third-party files | `338_derived_inputs.R`, run where `data/` holds GTEx v8 median TPM, the Descartes fetal tissue table, gnomAD v4 LOEUF and the All of Us and BRaVa results: writes `results/biology/panel_expression_specificity.tsv` and `panel_loeuf.tsv` (the 670 panel genes only) and `results/cohort_aou_pairs.tsv` and `cohort_brava_pairs.tsv` (the gene–phenotype pairs each study reported, without their statistics) |
 
-Their inputs and the saved model answers (one JSON per pair, with the corpus,
-the prompts and the response) go into a Zenodo archive, whose new version is in
-preparation; `fetch_data.sh` will download it once its DOI is given here. The new
-version adds the saved model answers of the Figure 3 runs (`runs/` of
-`benchmark/asd_denovo2014/`, `benchmark/epigen_extension/` (including the
-epilepsy runs of 2007/09/30 and 2017/09/30) and `benchmark/trajectories6/`) and of Figure 2 on Gemini (`runs/` of
-`results/gemini_fig2/full/` and `results/gemini_fig2/knowledge/`).
+## The model answers, on Zenodo
 
-Not redistributed: the PEPPER gene features used to draw the random genes of
-Figure 4 (`92_fig3_random50.py` says where to put them), the GWAS Catalog used to
-build the body-only benchmark, and the embedding weights, which download from
-HuggingFace on first use.
+The saved model answers behind every figure and table are in the data record
+[10.5281/zenodo.23425831](https://doi.org/10.5281/zenodo.23425831):
+`pesto_paper_runs.tar.gz` (one JSON per pair and configuration: search terms,
+articles retrieved, relevance bands, the answer, its tokens and cost, and the Open
+Targets records) and `pesto_paper_tables.tar.gz` (the tables of the upstream
+scripts). `bash fetch_data.sh` downloads both and extracts them here, leaving the
+files already in the repository untouched. Only the upstream scripts need them.
+
+The text of the articles (abstracts and full text) was removed from those runs,
+from `results/knowledge_citations/pubmed_records.json` and its Gemini counterpart,
+and from `judge_audit_sample.tsv`, to avoid any copyright issue: each article keeps
+its PMID, title and date, from which the text can be fetched again.
+`273_verify_citations.py` fetches again any record cached without its abstract.
+
+## Not redistributed
+
+Data from other studies and databases are not in this repository nor on Zenodo;
+the record's README.md lists each source with its link. The figures read the
+derived tables above instead. The upstream scripts need, in `data/`: GTEx v8 median
+TPM (`gtex_median_tpm.gct.gz`), the Descartes fetal tissue table
+(`fetal_gene_expression_tissue_with_symbols.csv`), gnomAD v4 constraint
+(`loeuf_scores.tsv`), HGNC (`hgnc_complete_set.txt`), the published gene lists
+(`genelists/reference_sets.json`), the All of Us and BRaVa results
+(`raw/AoU_results.tsv`, `raw/Duncan_results.tsv`), the ASC gene list, GenCC, denovo-db,
+NCBI gene2pubmed, the Human Protein Atlas and the Descartes cell-type tracks; also the
+PEPPER gene features used to draw the random genes of Figure 4
+(`92_fig3_random50.py` says where to put them), the GWAS Catalog used to build the
+body-only benchmark, and the embedding weights, which download from HuggingFace on
+first use.

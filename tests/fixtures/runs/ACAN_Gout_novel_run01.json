@@ -27,62 +27,52 @@
         {
             "pmid": "35058228",
             "title": "Mechanical overloading promotes chondrocyte senescence and osteoarthritis development through downregulating FBXW7.",
-            "pubdate": "2022 May",
-            "abstract": "To investigate the role of mechanical stress in cartilage ageing and identify the mechanistic association during osteoarthritis (OA) progression."
+            "pubdate": "2022 May"
         },
         {
             "pmid": "36924682",
             "title": "The physiological metabolite \u03b1-ketoglutarate ameliorates osteoarthritis by regulating mitophagy and oxidative stress.",
-            "pubdate": "2023 Jun",
-            "abstract": "Osteoarthritis (OA) is an age-related metabolic disease. Low-grade inflammation and oxidative stress are the last common pathway of OA. \u03b1-ketoglutarate (\u03b1-KG) is an essential physiological metabolite from the mitochondrial tricarboxylic acid (TCA) cycle, with multiple functions, including anti-inflammation and antioxidation, and exhibits decreased serum levels with age. Herein, we aimed to investigate the effect and mechanism of \u03b1-KG on OA. We first quantified the \u03b1-KG levels in human cartilage tissue and osteoarthritic chondrocytes induced by IL-1\u03b2. Besides, IL-1\u03b2-induced osteoarthritic chondrocytes were treated with different concentrations of \u03b1-KG. Chondrocyte proliferation and apoptosis, synthesis and degradation of extracellular matrix, and inflammation mediators were analyzed. RNA sequencing was used to explore the mechanism of \u03b1-KG, and mitophagy and oxidative stress levels were further detected. These results were verified in an anterior cruciate ligament transection (ACLT) induced age-related OA rat model. We found that \u03b1-KG content decreased by 31.32% in damaged medial cartilage than in normal lateral cartilage and by 36.85% in IL-1\u03b2-induced human osteoarthritic chondrocytes compared to control. \u03b1-KG supplementation reversed IL-1\u03b2-induced chondrocyte proliferation inhibition and apoptosis, increased the transcriptomic and proteinic expression of ACAN and COL2A1 in vivo and in vitro, but inhibited the expression of MMP13, ADAMTS5, IL-6, and TNF-\u03b1. In mechanism, \u03b1-KG promoted mitophagy and inhibited ROS generation, and these effects could be prevented by Mdivi-1 (a mitophagy inhibitor). Overall, \u03b1-KG content decreased in human OA cartilage and IL-1\u03b2-induced osteoarthritic chondrocytes. Moreover, \u03b1-KG supplementation could alleviate osteoarthritic phenotype by regulating mitophagy and oxidative stress, suggesting its potential as a therapeutic target to ameliorate OA."
+            "pubdate": "2023 Jun"
         },
         {
             "pmid": "40722047",
             "title": "Accelerating cartilage regeneration with DNA-SF hydrogel sustained release system-based cartilage organoids.",
-            "pubdate": "2025 Jul 28",
-            "abstract": "Cartilage repair remains a considerable challenge in regenerative medicine. Despite extensive research on biomaterials for cartilage repair in recent years, issues such as prolonged repair cycles and suboptimal outcomes persist. Organoids, miniature three-dimensional (3D) tissue structures derived from the directed differentiation of stem or progenitor cells, mimic the structure and function of natural organs. Therefore, the construction of cartilage organoids (COs) holds great promise as a novel strategy for cartilage repair."
+            "pubdate": "2025 Jul 28"
         },
         {
             "pmid": "40335469",
             "title": "Sirt6 deficiency promotes senescence and age-associated intervertebral disc degeneration in mice.",
-            "pubdate": "2025 May 8",
-            "abstract": "Intervertebral disc degeneration is a major risk factor contributing to chronic low back and neck pain. While the etiological factors for disc degeneration vary, age is still one of the most important risk factors. Recent studies have shown the promising role of SIRT6 in mammalian aging and skeletal tissue health, however its role in the intervertebral disc health remains unexplored. We investigated the contribution of SIRT6 to disc health by studying the age-dependent spinal phenotype of mice with conditional deletion of Sirt6 in the disc (AcanCreERT2; Sirt6fl/fl). Histological studies showed a degenerative phenotype in knockout mice compared to Sirt6fl/fl control mice at 12 months, which became pronounced at 24 months. RNA-Seq analysis of NP and AF tissues, in vitro quantitative histone analysis, and RNA-seq with ATAC-seq multiomic studies revealed that SIRT6-loss resulted in changes in acetylation and methylation status of specific Histone 3 lysine residues and affected DNA accessibility and transcriptomic landscape. A decrease in autophagy and an increase in DNA damage were also noted in Sirt6-deficient cells. Further mechanistic insights revealed that loss of SIRT6 increased senescence and SASP burden in the disc characterized by increased p21, p19, \u03b3H2AX, IL-6, IL-1\u03b2, and TGF-\u03b2 abundance. Taken together, our study highlights the contribution of SIRT6 in modulating DNA damage, autophagy, and cell senescence and its importance in maintaining disc health during aging, thereby underscoring it as a potential therapeutic target to treat intervertebral disc degeneration."
+            "pubdate": "2025 May 8"
         },
         {
             "pmid": "40728163",
             "title": "Dysfunctional autophagy triggers STING1 activation to exacerbate cartilage degeneration in obesity-associated osteoarthritis.",
-            "pubdate": "2025 Dec",
-            "abstract": "Obesity, a major risk factor for osteoarthritis (OA), is related to increased circulating levels of free fatty acids (FFAs). However, the molecular mechanism underlying this metabolic OA phenotype remains unknown. We found that mice fed a high-fat diet (HFD) became obese and developed OA in their knee joints. Macroautophagy/autophagy activity was significantly reduced in articular cartilage of mice fed an HFD or in chondrocytes exposed to FFAs. Using conditional knockout (cKO) mice with cartilage-specific deletion of Atg7 to inhibit autophagy in vivo and shAtg7-lentiviral-transduced chondrocytes in vitro, we showed that autophagy deficiency aggravated HFD-induced OA progression and chondrocyte extracellular matrix (ECM) degradation. Mechanistically, STING1 was degraded in an autophagy-dependent manner. Autophagy deficiency increased STING1 levels, in turn activating the STING1-TBK1-IRF3 and MAP2K3/MKK3-MAPK/p38 signaling pathways, thereby triggering cartilage ECM degradation. These findings suggested that the HFD-autophagy-STING1 axis played a pivotal role in OA development, providing a potential therapeutic strategy for obesity-associated OA.Abbreviation: 3-MA: 3-methyladenine; ACAN: aggrecan; AOD: average optical density; ATG7: autophagy related 7; BafA1: bafilomycin A1; CGAS: cyclic GMP-AMP synthase; cKO: conditional knockout; COL2A1: collagen, type II, alpha 1; DMM: destabilizing the medial meniscus; DMXAA: 5."
+            "pubdate": "2025 Dec"
         },
         {
             "pmid": "38177536",
             "title": "Versican accumulation drives Nos2 induction and aortic disease in Marfan syndrome via Akt activation.",
-            "pubdate": "2024 Jan",
-            "abstract": "Thoracic aortic aneurysm and dissection (TAAD) is a life-threatening condition associated with Marfan syndrome (MFS), a disease caused by fibrillin-1 gene mutations. While various conditions causing TAAD exhibit aortic accumulation of the proteoglycans versican (Vcan) and aggrecan (Acan), it is unclear whether these ECM proteins are involved in aortic disease. Here, we find that Vcan, but not Acan, accumulated in Fbn1C1041G/+ aortas, a mouse model of MFS. Vcan haploinsufficiency protected MFS mice against aortic dilation, and its silencing reverted aortic disease by reducing Nos2 protein expression. Our results suggest that Acan is not an essential contributor to MFS aortopathy. We further demonstrate that Vcan triggers Akt activation and that pharmacological Akt pathway inhibition rapidly regresses aortic dilation and Nos2 expression in MFS mice. Analysis of aortic tissue from MFS human patients revealed accumulation of VCAN and elevated pAKT-S473 staining. Together, these findings reveal that Vcan plays a causative role in MFS aortic disease in vivo by inducing Nos2 via Akt activation and identify Akt signaling pathway components as candidate therapeutic targets."
+            "pubdate": "2024 Jan"
         },
         {
             "pmid": "37561588",
             "title": "Vascular smooth muscle-specific YAP/TAZ deletion triggers aneurysm development in mouse aorta.",
-            "pubdate": "2023 Sep 8",
-            "abstract": "Inadequate adaption to mechanical forces, including blood pressure, contributes to development of arterial aneurysms. Recent studies have pointed to a mechanoprotective role of YAP and TAZ in vascular smooth muscle cells (SMCs). Here, we identified reduced expression of YAP1 in human aortic aneurysms. Vascular SMC-specific knockouts (KOs) of YAP/TAZ were thus generated using the integrin \u03b18-Cre (Itga8-Cre) mouse model (i8-YT-KO). i8-YT-KO mice spontaneously developed aneurysms in the abdominal aorta within 2 weeks of KO induction and in smaller arteries at later times. The vascular specificity of Itga8-Cre circumvented gastrointestinal effects. Aortic aneurysms were characterized by elastin disarray, SMC apoptosis, and accumulation of proteoglycans and immune cell populations. RNA sequencing, proteomics, and myography demonstrated decreased contractile differentiation of SMCs and impaired vascular contractility. This associated with partial loss of myocardin expression, reduced blood pressure, and edema. Mediators in the inflammatory cGAS/STING pathway were increased. A sizeable increase in SOX9, along with several direct target genes, including aggrecan (Acan), contributed to proteoglycan accumulation. This was the earliest detectable change, occurring 3 days after KO induction and before the proinflammatory transition. In conclusion, Itga8-Cre deletion of YAP and TAZ represents a rapid and spontaneous aneurysm model that recapitulates features of human abdominal aortic aneurysms."
+            "pubdate": "2023 Sep 8"
         },
         {
             "pmid": "40684207",
             "title": "Chondrocyte-specific knockout of Piezo1 and Piezo2 protects against post-traumatic osteoarthritis structural damage and pain in mice.",
-            "pubdate": "2025 Jul 19",
-            "abstract": "Osteoarthritis (OA) is a debilitating joint disease characterized by cartilage degeneration, synovial inflammation, and bone remodeling, with limited therapeutic options targeting the underlying pathophysiology. Mechanosensitive ion channels Piezo1 and Piezo2 play crucial roles in chondrocyte responses to mechanical stress, mediating mechanotransduction pathways that influence chondrocyte survival, matrix production, and inflammatory signaling, but their distinct contributions to OA pathogenesis remain unclear."
+            "pubdate": "2025 Jul 19"
         },
         {
             "pmid": "38613222",
             "title": "Genotype and phenotype in patients with ACAN gene variants: Three cases and literature review.",
-            "pubdate": "2024 Apr",
-            "abstract": "To characterize the phenotype spectrum, diagnosis, and response to growth-promoting therapy in patients with ACAN variants causing familial short stature."
+            "pubdate": "2024 Apr"
         },
         {
             "pmid": "40748756",
             "title": "Aggrecan protects against plaque accumulation and is essential for proper microglial responses to plaques.",
-            "pubdate": "2025 Aug 26",
-            "abstract": "Alzheimer's disease (AD) is a neurodegenerative disease characterized by amyloid plaques and neurofibrillary tangles. Recent evidence implicates extracellular matrix (ECM) dysfunction in disease pathogenesis, including extensive loss of perineuronal nets (PNNs). PNNs are neuron-ensheathing condensed ECM structures composed of chondroitin sulfate proteoglycans, including the main constituent aggrecan (ACAN). To explore the role of PNNs in AD, we utilize the 5xFAD model and genetically target Acan in Nestin-expressing cells, resulting in loss of ACAN and ablation of the PNN structure. In 5xFAD mice, ACAN cKO results in increased plaque deposition, reduced plaque sphericity, and impaired microglia-plaque association. Single-cell spatial transcriptomics identifies an enhanced disease-associated microglia (DAM) phenotype in 5xFAD ACAN cKO mice, which is accompanied by decreased dystrophic neurite formation. Collectively, our data suggest that PNNs may play a crucial role in mediating the microglial response to plaques."
+            "pubdate": "2025 Aug 26"
         }
     ],
     "pubmed_pmids": [

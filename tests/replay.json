@@ -312,6 +312,7 @@
   "evidence_band_general": "4037d2e8ba02b0e4",
   "evidence_band_prompt": "6fb325e9ea8ea590",
   "knowledge_probabilities": "6e1bd5032785f100",
+  "max_date_note": "d127c94a3e48ab3a",
   "novelty_assessment_general": "abba3731f4b086d7",
   "novelty_assessment_prompt": "21e4ad4c70ec3fd8",
   "novelty_probabilities": "7da799c03383aa21",
@@ -332,17 +333,17 @@
   "ABCC9_atrial_fibrillation_familial_12": {
    "n": 34,
    "titles_only": "5456bfc1985752df",
-   "with_abstracts": "965808501e00c882"
+   "with_abstracts": "663da7b9959af55c"
   },
   "DDX41_acromesomelic_dysplasia": {
    "n": 24,
    "titles_only": "5251d78ee9424bef",
-   "with_abstracts": "bc92a66a76da9632"
+   "with_abstracts": "3cbe10a521a6c46b"
   },
   "FRY_neurodevelopmental_disorder": {
    "n": 11,
    "titles_only": "e329a3287ea8636f",
-   "with_abstracts": "9dbe72b86aeac5db"
+   "with_abstracts": "7122b55fb604d2fc"
   }
  },
  "select": {
