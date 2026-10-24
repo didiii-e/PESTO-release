@@ -1,0 +1,21 @@
+gene	phenotype	lit_mean	lit_argmax	p_established	p_existing	p_hypothesized	p_novel	open_targets_verdict	found	read	error
+THUMPD1	neurodevelopmental disorder with speech delay and variable ocular anomalies	Established	Established	90	8	2	0	Established	35	10	
+CPSF3	neurodevelopmental disorder with microcephaly, hypotonia, nystagmus, and seizures	Existing	Existing	17	74	8	1	Established	45	20	
+SS18L1	amyotrophic lateral sclerosis	Existing	Existing	30	57	12	1	Existing	66	11	
+ASPRV1	ichthyosis, lamellar, autosomal dominant	Existing	Existing	27	61	11	1	Established	56	10	
+VANGL1	neural tube defects, susceptibility to	Established	Established	90	9	1	0	Existing	77	20	
+TMEM135	neurodevelopmental disorder	Existing	Existing	3	62	31	4	Novel	23	12	
+TAFAZZIN	Barth syndrome	Established	Established	97	2	1	0	Established	105	20	
+PRKG2	acromesomelic dysplasia 4	Established	Established	95	4	1	0	Hypothesized	53	20	
+CDH11	Teebi hypertelorism syndrome 2	Established	Established	90	8	2	0	Established	68	20	
+PLS3	X-linked osteoporosis with fractures	Established	Established	97	3	0	0	Established	68	20	
+USP44	congenital heart disease	Hypothesized	Hypothesized	2	20	65	13	Novel	14	3	
+ETS1	congenital heart disease	Existing	Existing	20	62	17	1	Hypothesized	74	20	
+SYCP2L	Weiss-Kruszka syndrome	Novel	Novel	0	2	5	93	Novel	10	7	
+PHKG2	primary ciliary dyskinesia 33	Novel	Novel	1	2	7	90	Novel	47	14	
+GET4	deafness-lymphedema-leukemia syndrome	Novel	Novel	1	3	11	85	Novel	34	12	
+KCND3	46,XY sex reversal 3	Novel	Novel	1	2	4	93	Novel	67	20	
+TNNT2	atrial septal defect 6	Novel	Novel	1	4	22	73	Hypothesized	78	20	
+NFATC2	spondylometaphyseal dysplasia, 'corner fracture' type	Hypothesized	Hypothesized	3	27	52	18	Hypothesized	75	20	
+CDK9	congenital myopathy 2c, severe infantile, autosomal dominant	Hypothesized	Hypothesized	2	12	56	30	Novel	71	20	
+SELENBP1	neurodevelopmental disorder with spastic quadriplegia, optic atrophy, seizures, and structural brain anomalies	Hypothesized	Hypothesized	2	10	48	40	Novel	72	20	

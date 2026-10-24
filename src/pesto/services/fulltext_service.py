@@ -29,6 +29,12 @@ import xml.etree.ElementTree as ET
 
 import requests
 
+from ..utils.http import pooled_session
+
+# Up to eight full texts are fetched at once from one host; a kept-alive pool
+# spares each of them its own handshake.
+_SESSION = pooled_session()
+
 SEARCH = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 FULLTEXT = "https://www.ebi.ac.uk/europepmc/webservices/rest/{pmcid}/fullTextXML"
 EFETCH = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
@@ -43,7 +49,7 @@ RETRIES = 2
 def _get(url, params=None, tries=RETRIES):
     for _ in range(tries):
         try:
-            r = requests.get(url, params=params, timeout=TIMEOUT)
+            r = _SESSION.get(url, params=params, timeout=TIMEOUT)
             if r.status_code == 200:
                 return r
         except requests.RequestException:

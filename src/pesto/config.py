@@ -58,6 +58,12 @@ DEFAULT_MAX_SECONDARY = 10
 DEFAULT_DELAY_MS = 0
 DEFAULT_WORKERS = 20
 DEFAULT_SEED = 42
+# Whether the phenotype-only model calls (synonyms, broadened name) are asked
+# once per phenotype and kept (`use`), or once per pair (`off`). See
+# expansion_cache.py. `PESTO_EXPANSION_CACHE=use` turns it on without a flag.
+EXPANSION_CACHE = os.environ.get("PESTO_EXPANSION_CACHE", "off").strip().lower()
+if EXPANSION_CACHE in ("1", "on", "true", "yes"):
+    EXPANSION_CACHE = "use"
 
 # --- How the Open Targets answer is searched for the reported trait ---
 #

@@ -1,0 +1,21 @@
+gene	phenotype	lit_mean	lit_argmax	p_established	p_existing	p_hypothesized	p_novel	open_targets_verdict	found	read	error
+ZNF644	Autism Spectrum Disorder	Existing	Existing	4	58	31	7	Hypothesized	19	2	
+MEF2C	Autism Spectrum Disorder	Established	Established	65	30	5	0	Established	93	20	
+MAF	Autism Spectrum Disorder	Existing	Existing	30	52	15	3	Novel	77	14	
+CAPRIN1	Autism Spectrum Disorder	Established	Established	63	30	6	1	Existing	37	20	
+ACTB	Autism Spectrum Disorder	Existing	Existing	14	56	27	3	Hypothesized	64	20	
+TNRC6B	Autism Spectrum Disorder	Established	Established	70	27	2	1	Existing	33	16	
+TUBB2A	Autism Spectrum Disorder	Existing	Existing	12	62	22	4	Hypothesized	54	20	
+FBXW7	Autism Spectrum Disorder	Existing	Existing	8	57	25	10	Hypothesized	111	20	
+ITSN1	Autism Spectrum Disorder	Established	Established	75	22	3	0	Hypothesized	56	20	
+AHDC1	Autism Spectrum Disorder	Existing	Established	55	38	5	2	Hypothesized	53	20	
+TLE3	Autism Spectrum Disorder	Existing	Existing	4	61	30	5	Hypothesized	48	18	
+KBTBD6	Autism Spectrum Disorder	Novel	Novel	0	3	7	90	Novel	3	0	
+ZBTB34	Autism Spectrum Disorder	Novel	Novel	0	2	5	93	Hypothesized	4	0	
+RANBP2	Autism Spectrum Disorder	Hypothesized	Novel	2	20	26	52	Hypothesized	54	20	
+RORB	Autism Spectrum Disorder	Hypothesized	Existing	4	48	41	7	Hypothesized	63	20	
+FBXW11	Autism Spectrum Disorder	Hypothesized	Hypothesized	6	37	47	10	Existing	77	13	
+BRD4	Autism Spectrum Disorder	Hypothesized	Existing	8	42	42	8	Hypothesized	86	20	
+SLTM	Autism Spectrum Disorder	Hypothesized	Novel	1	10	37	52	Hypothesized	124	5	
+VEZF1	Autism Spectrum Disorder	Novel	Novel	1	5	32	62	Hypothesized	52	19	
+PHF12	Autism Spectrum Disorder	Hypothesized	Hypothesized	2	20	45	33	Hypothesized	47	5	

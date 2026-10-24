@@ -30,11 +30,15 @@ class Result:
     trace: Trace = Trace()
     raw: str = ""
     terms: dict = field(default_factory=dict)
+    # Where each phenotype-only model answer came from (fresh, a kept one, shared
+    # with a sibling pair, refreshed), so a run says which expansion it searched.
+    expansion: list = field(default_factory=list)
     cached: bool = False
     max_date: str = ""
 
 
-def run(arm, query, synonyms=None, workers=6, cache=False, runs_dir=None):
+def run(arm, query, synonyms=None, workers=6, cache=False, runs_dir=None,
+        reuse=True):
     """One pair through one arm.
 
     `synonyms` is only read by an expander told to replay a recorded list; an
@@ -43,13 +47,15 @@ def run(arm, query, synonyms=None, workers=6, cache=False, runs_dir=None):
 
     `cache` reuses a saved run only when the arm's fingerprint matches, so a
     pipeline that has changed in any declared way is never answered from one
-    that has not.
+    that has not. `reuse=False` keeps the saving and skips the reading: the pair
+    is run again and its saved run replaced, which is what refreshing the
+    expansion needs.
 
     The arm's max_date is set on the PubMed client here, for every search the
     run makes. The ceiling is process-wide, so concurrent runs must share it.
     """
     arm.validate()
-    if cache:
+    if cache and reuse:
         from . import store
         saved = store.load(query, arm, runs_dir)
         if saved is not None:
@@ -62,9 +68,86 @@ def run(arm, query, synonyms=None, workers=6, cache=False, runs_dir=None):
     clock = _stopwatch(res)
 
     terms = {}
-    for block in arm.expand:
-        with clock(block):
-            terms.update(block.run(query, terms, synonyms))
+    local = [b for b in arm.expand if not getattr(b, "model", None)]
+    remote = [b for b in arm.expand if getattr(b, "model", None)]
+    expand_t0 = time.time()
+
+    from .. import expansion_cache
+    from ..cost import capturing, thread_pool
+
+    def expand_one(block, seen):
+        t0 = time.time()
+        with capturing() as usage, expansion_cache.recording() as picked:
+            part = block.run(query, seen, synonyms)
+        spent = usage.summary(getattr(block, "model", None))
+        return block, part, time.time() - t0, spent, picked
+
+    # A model-written expander that reads only the phenotype (the synonyms, the
+    # broadened name) does not need the local ones, so it is sent first and
+    # runs while they are computed; the HGNC alias table alone takes most of a
+    # second to load. One that reads a local term (the anchors read the gene
+    # names) is sent only once they exist. Each is handed the terms as they
+    # stand when it starts, and the answers are merged below in declaration
+    # order, so nothing it returns differs from before.
+    independent = [b for b in remote
+                   if not getattr(b, "reads_local_terms", True)]
+    dependent = [b for b in remote if b not in independent]
+    expand_pool = (thread_pool(max_workers=max(1, min(len(remote), workers)))
+                   if remote else None)
+    futures = {}
+    try:
+        for block in independent:
+            futures[id(block)] = expand_pool.submit(expand_one, block, {})
+        for block in local:
+            with clock(block):
+                terms.update(block.run(query, terms, synonyms))
+        for block in dependent:
+            futures[id(block)] = expand_pool.submit(
+                expand_one, block, dict(terms))
+    except BaseException:
+        if expand_pool is not None:
+            expand_pool.shutdown(wait=False, cancel_futures=True)
+        raise
+    # Passes that read no model-written term go out now, while Opus is still
+    # writing synonyms. They run the same query they would have run after, and
+    # are merged below in the order they are declared in, so the corpus is the
+    # same; only the waiting overlaps. They see the local terms as they stand.
+    early_pool, early = None, {}
+    if remote:
+        ahead = [i for i, s in enumerate(arm.sources)
+                 if not s.deferred
+                 and not getattr(s, "waits_for_expansion", True)]
+        if ahead:
+            early_pool = ThreadPoolExecutor(max_workers=len(ahead))
+            snapshot = dict(terms)
+
+            def search_early(block):
+                t0 = time.time()
+                return block, block.run(query, snapshot), time.time() - t0
+
+            early = {i: early_pool.submit(search_early, arm.sources[i])
+                     for i in ahead}
+    if remote:
+        try:
+            expanded = [futures[id(b)].result() for b in remote]
+        finally:
+            expand_pool.shutdown(wait=True)
+        for block, part, seconds, spent, picked in expanded:
+            terms.update(part)
+            res.expansion.extend(picked)
+            res.trace = res.trace.then(Step(
+                block.kind, block.fingerprint(),
+                model=spent["model"] or getattr(block, "model", None),
+                note="; ".join(expansion_cache.describe(i) for i in picked),
+                seconds=round(seconds, 1),
+                input_tokens=spent["input_tokens"],
+                output_tokens=spent["output_tokens"],
+                usd=spent["usd"],
+                calls=spent["calls"]))
+    # The blocks above overlap, so their seconds do not add up to the time the
+    # stage took; this is the elapsed time of the whole stage.
+    res.trace = res.trace.then(Step(
+        "Expand", "", seconds=round(time.time() - expand_t0, 1)))
     res.terms = terms
 
     # Passes that only look at the question go together; the merge order is the
@@ -74,10 +157,29 @@ def run(arm, query, synonyms=None, workers=6, cache=False, runs_dir=None):
     late = [s for s in arm.sources if s.deferred]
     corpus = Corpus()
     if eager:
-        with ThreadPoolExecutor(max_workers=max(1, min(len(eager), workers))) as pool:
-            found = list(pool.map(lambda s: s.run(query, terms), eager))
-        for block, part in zip(eager, found):
+        def search_one(block):
+            t0 = time.time()
+            part = block.run(query, terms)
+            return block, part, time.time() - t0
+
+        # Declaration order throughout: an early pass is slotted back where it
+        # was declared, whenever it finished.
+        positions = {id(s): i for i, s in enumerate(arm.sources)}
+        waiting = [s for s in eager if positions[id(s)] not in early]
+        try:
+            with ThreadPoolExecutor(
+                    max_workers=max(1, min(len(waiting), workers))) as pool:
+                done = dict(zip((positions[id(s)] for s in waiting),
+                                pool.map(search_one, waiting)))
+            for i, fut in early.items():
+                done[i] = fut.result()
+        finally:
+            if early_pool is not None:
+                early_pool.shutdown(wait=True)
+        found = [done[positions[id(s)]] for s in eager]
+        for block, part, seconds in found:
             res.trace = res.trace.then(Step(block.kind, block.fingerprint(),
+                                            seconds=round(seconds, 1),
                                             note=f"{len(part)} articles"))
             corpus = corpus.merged(part)
     for block in late:
@@ -87,6 +189,15 @@ def run(arm, query, synonyms=None, workers=6, cache=False, runs_dir=None):
             continue
         with clock(block):
             corpus = corpus.merged(block.run(query, terms))
+    # Titles once, after every search has named its PMIDs. Each pass used to
+    # call esummary itself, repeating the overlapping ids.
+    t0 = time.time()
+    from ..services import pubmed_service
+    corpus = Corpus.of(pubmed_service.articles_with_summaries(corpus.as_dicts()),
+                       corpus.provided)
+    res.trace = res.trace.then(Step(
+        "ESummary", "", seconds=round(time.time() - t0, 1),
+        note=f"{len(corpus)} articles"))
     with clock(arm.dedupe):
         corpus = arm.dedupe.run(corpus)
     res.counts["found"] = len(corpus)

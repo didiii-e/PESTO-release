@@ -1,0 +1,7 @@
+batch	wall_seconds	cost_usd
+mixed20_original	117	3.099
+mixed20_optimized_v1	86	3.121
+mixed20_optimized_v2	80	3.094
+autism20_cache_off	67	3.029
+autism20_cache_on	65	2.804
+autism20_cache_refresh	65	2.858

@@ -53,7 +53,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RELEASE_PAPER = os.path.join(os.path.dirname(ROOT), "PESTO-release", "paper")
 BASE = os.path.join(ROOT, "results", "modes_benchmark_140")
 MODES = {"knowledge": ["--arm", "knowledge"], "titles": ["--arm", "titles"],
-         "abstracts": [], "fulltext": ["--fulltext"]}
+         "abstracts": [], "fulltext": ["--fulltext"],
+         "abstracts-fast": ["--fast"]}
 WORKERS = 10
 
 

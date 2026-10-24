@@ -1,0 +1,20 @@
+measure	subject	series	value
+single_pair_wall_s_mean	DDX41/myelodysplastic syndrome	original	46.17
+single_pair_wall_s_mean	DDX41/myelodysplastic syndrome	optimized	22.13
+single_pair_wall_s_mean	BRCA1/breast cancer	original	42.93
+single_pair_wall_s_mean	BRCA1/breast cancer	optimized	20.13
+single_pair_wall_s_mean	MEF2C/Autism Spectrum Disorder	original	51.67
+single_pair_wall_s_mean	MEF2C/Autism Spectrum Disorder	optimized	28.9
+single_pair_wall_s_mean	SLTM/Autism Spectrum Disorder	original	42.2
+single_pair_wall_s_mean	SLTM/Autism Spectrum Disorder	optimized	23.5
+timeline_wall_s	DDX41	original	45.9
+timeline_open_targets_s	DDX41	original	20.01
+timeline_wall_s	DDX41	optimized	21.9
+timeline_open_targets_s	DDX41	optimized	16.53
+batch20_diverse_wall_s	20 mixed pairs	Original PESTO	117
+batch20_diverse_wall_s	20 mixed pairs	Optimized (first version)	86
+batch20_diverse_wall_s	20 mixed pairs	Optimized (current)	80
+batch20_asd_wall_s	20 autism genes	expansion cache off	67
+batch20_asd_wall_s	20 autism genes	expansion cache on	65
+expand_stage_mean_s	20 autism genes	cache off	6.34
+expand_stage_mean_s	20 autism genes	cache on	3.8

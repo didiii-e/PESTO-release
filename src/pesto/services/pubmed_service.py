@@ -8,6 +8,7 @@ from xml.etree import ElementTree
 from datetime import datetime
 from ..config import BASE_URL_NCBI
 from ..credentials import ncbi_api_key
+from ..utils.http import pooled_session
 
 # Optional. NCBI serves unkeyed callers too, at three requests a second instead
 # of ten, and the rate gate below reads this to pick its pace. Nothing is
@@ -16,6 +17,14 @@ from ..credentials import ncbi_api_key
 NCBI_API_KEY = ncbi_api_key()
 PUBMED_CALL_COOLDOWN = 0.05
 VERBOSE_MODE = False  # Global flag to control verbose output
+# One TCP session for every eutils call in this process. The rate gate still
+# spaces them; this only skips the handshake.
+_SESSION = pooled_session()
+# esummary records, keyed by PMID. Four search passes used to each fetch
+# titles for their own id list; after the merge a PMID is asked for once.
+_SUMMARY_LOCK = threading.Lock()
+_SUMMARY_CACHE = {}
+SUMMARY_CHUNK = 200
 
 # Optional publication-date ceiling for ALL PubMed esearch queries. When set
 # (e.g. "2019/12/31"), every search is restricted to articles published on or
@@ -161,7 +170,7 @@ def make_api_request_with_retry(url, params, timeout=30):
             _wait_for_slot()
             if PUBMED_CALL_COOLDOWN > 0:
                 time.sleep(PUBMED_CALL_COOLDOWN)
-            response = requests.get(url, params=params, timeout=timeout)
+            response = _SESSION.get(url, params=params, timeout=timeout)
             response.raise_for_status()
             return response
         except (requests.exceptions.RequestException, requests.exceptions.HTTPError) as e:
@@ -451,6 +460,66 @@ def search_lof_gof_pubmed(gene_name, max_results=10):
     return _filter_articles_by_pubdate_cap(articles)
 
 
+def pubmed_rate():
+    """Requests per second the process is currently allowed."""
+    return NCBI_MAX_PER_SECOND
+
+
+def summaries_for(pmids):
+    """esummary records keyed by PMID, cached for the life of the process."""
+    wanted = []
+    seen = set()
+    for p in pmids:
+        p = str(p or "")
+        if p and p not in seen:
+            seen.add(p)
+            wanted.append(p)
+    if not wanted:
+        return {}
+    with _SUMMARY_LOCK:
+        missing = [p for p in wanted if p not in _SUMMARY_CACHE]
+    fetched = {}
+    for i in range(0, len(missing), SUMMARY_CHUNK):
+        chunk = missing[i:i + SUMMARY_CHUNK]
+        params = {
+            "db": "pubmed",
+            "id": ",".join(chunk),
+            "retmode": "json",
+        }
+        if NCBI_API_KEY:
+            params["api_key"] = NCBI_API_KEY
+        resp = make_api_request_with_retry(f"{BASE_URL_NCBI}esummary.fcgi", params)
+        try:
+            result = resp.json().get("result", {}) if resp is not None else {}
+        except ValueError:
+            result = {}
+        for p in chunk:
+            fetched[p] = result.get(p) or {}
+    if fetched:
+        with _SUMMARY_LOCK:
+            _SUMMARY_CACHE.update(fetched)
+    with _SUMMARY_LOCK:
+        return {p: _SUMMARY_CACHE.get(p) or {} for p in wanted}
+
+
+def articles_with_summaries(articles):
+    """Fill title and pubdate from one esummary pass over the unique PMIDs."""
+    if not articles:
+        return []
+    info = summaries_for(a.get("pmid") for a in articles)
+    out = []
+    for article in articles:
+        pmid = str(article.get("pmid") or "")
+        rec = info.get(pmid) or {}
+        if MAX_PUBDATE and str(rec.get("sortpubdate") or "")[:10] > MAX_PUBDATE:
+            continue
+        row = dict(article)
+        row["title"] = rec.get("title") or article.get("title") or "No title found"
+        row["pubdate"] = rec.get("pubdate") or article.get("pubdate") or "No date"
+        out.append(row)
+    return _filter_articles_by_pubdate_cap(out)
+
+
 def search_pubmed_gene_phenotype(
     gene_name,
     phenotype,
@@ -460,7 +529,8 @@ def search_pubmed_gene_phenotype(
     delay_ms=0,
     gene_aliases=None,
     max_results_oldest=0,
-    require_terms=None
+    require_terms=None,
+    summaries=True,
 ):
     """
     Searches PubMed for articles mentioning:
@@ -673,47 +743,23 @@ def search_pubmed_gene_phenotype(
           f"({len(primary_pmids)} primary, {len(secondary_pmids)} secondary, "
           f"{len(oldest_pmids)} oldest)")
 
-    summary_response = _fetch_summaries(dedup_pmids)
-    if not summary_response:
-        print("ERROR: Failed to fetch article summaries")
-        return [], alias_hits
-    
-    _apply_random_delay()
-    try:
-        summary_data = summary_response.json()
-        # Which query brought each article in. A caller can then tell an article
-        # that matched the disease name from one that only matched the gene and
-        # a generic word like "syndrome", which is the difference between a
-        # search that worked and a search that found nothing and fell back.
-        # Deliberately not `found_by`, which the prompt formatter prints.
-        tiers = {}
-        for pmid in oldest_pmids:
-            tiers[pmid] = "oldest"
-        for pmid in secondary_pmids:
-            tiers[pmid] = "secondary"
-        for pmid in primary_pmids:
-            tiers[pmid] = "primary"
-        articles = []
-        for pmid in dedup_pmids:
-            article_info = summary_data.get("result", {}).get(pmid, {})
-            # A GeneReviews chapter carries the series' 1993 as its pubdate, and
-            # PubMed's own date filter goes by it, so a 2021 chapter passes a
-            # 2014 ceiling. sortpubdate holds the chapter's own date.
-            if MAX_PUBDATE and str(article_info.get("sortpubdate") or "")[:10] > MAX_PUBDATE:
-                continue
-            title = article_info.get("title", "No title found")
-            pubdate = article_info.get("pubdate", "No date")
-            articles.append({
-                "pmid": pmid,
-                "title": title,
-                "pubdate": pubdate,
-                "abstract": None,
-                "query_tier": tiers.get(pmid, "")
-            })
-        return _filter_articles_by_pubdate_cap(articles), alias_hits
-    except Exception as e:
-        print(f"ERROR: Failed to parse PubMed summaries: {e}")
-        return [], alias_hits
+    # Which query brought each article in. A caller can then tell an article
+    # that matched the disease name from one that only matched the gene and
+    # a generic word like "syndrome", which is the difference between a
+    # search that worked and a search that found nothing and fell back.
+    # Deliberately not `found_by`, which the prompt formatter prints.
+    tiers = {}
+    for pmid in oldest_pmids:
+        tiers[pmid] = "oldest"
+    for pmid in secondary_pmids:
+        tiers[pmid] = "secondary"
+    for pmid in primary_pmids:
+        tiers[pmid] = "primary"
+    stubs = [{"pmid": pmid, "title": "", "pubdate": "", "abstract": None,
+              "query_tier": tiers.get(pmid, "")} for pmid in dedup_pmids]
+    if not summaries:
+        return stubs, alias_hits
+    return articles_with_summaries(stubs), alias_hits
 
 
 def deduplicate_articles(articles):
@@ -767,19 +813,10 @@ def publication_notices(pmids):
     paper's exact title, and such a record has no abstract."""
     pmids = [str(p) for p in pmids if p]
     notices = set()
-    for i in range(0, len(pmids), 200):
-        chunk = pmids[i:i + 200]
-        params = {"db": "pubmed", "id": ",".join(chunk), "retmode": "json"}
-        if NCBI_API_KEY:
-            params["api_key"] = NCBI_API_KEY
-        resp = make_api_request_with_retry(f"{BASE_URL_NCBI}esummary.fcgi", params)
-        try:
-            result = resp.json().get("result", {}) if resp is not None else {}
-        except ValueError:
-            continue
-        for p in chunk:
-            if any(t in NOTICE_TYPES for t in (result.get(p) or {}).get("pubtype") or ()):
-                notices.add(p)
+    info = summaries_for(pmids)
+    for p in pmids:
+        if any(t in NOTICE_TYPES for t in (info.get(p) or {}).get("pubtype") or ()):
+            notices.add(p)
     return notices
 
 

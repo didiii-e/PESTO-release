@@ -1,0 +1,15 @@
+measure	series_or_comparison	value
+one_pair_wall_s_mean	Original PESTO	45.742
+one_pair_wall_s_mean	Optimized PESTO	23.667
+one_pair_runs_per_version		12
+group20_wall_s	Original PESTO	117.0
+group20_wall_s	Optimized PESTO	80.0
+group20_cost_usd	Original PESTO	3.099
+group20_cost_usd	Optimized PESTO	3.094
+verdict_agreement[identical,1_level,2+_levels]	Literature verdict: Original vs Optimized (20 mixed pairs)	[18, 2, 0]
+verdict_agreement[identical,1_level,2+_levels]	Literature verdict: Optimized run twice (20 autism genes)	[17, 3, 0]
+verdict_agreement[identical,1_level,2+_levels]	Literature verdict: Published results vs Optimized (20 autism genes)	[16, 4, 0]
+verdict_agreement[identical,1_level,2+_levels]	Open Targets verdict: Original vs Optimized (20 mixed pairs)	[18, 2, 0]
+verdict_agreement[identical,1_level,2+_levels]	Open Targets verdict: Published results vs Optimized (20 autism genes)	[20, 0, 0]
+p_established_pearson_r_original_vs_optimized	20 mixed pairs	0.997
+p_established_mean_abs_diff_points	20 mixed pairs	1.95

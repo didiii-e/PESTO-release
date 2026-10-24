@@ -179,9 +179,13 @@ pesto --bench pairs.tsv --workers 10      # writes pesto.tsv and cost.tsv beside
 | Option | What it does |
 |---|---|
 | `--fulltext` | also search Europe PMC for articles that name the gene only in their body (see below) |
+| `--fast` | sieve titles before fetching abstracts (`abstracts-fast`); compare to the default before relying on it |
 | `--arm NAME` | run one pipeline by name instead of choosing automatically |
 | `--json` | the whole result as JSON |
 | `--no-cache` | read the literature again even if this pair was already answered |
+| `--expansion-cache` | ask for the phenotype's synonyms and broadened name once and reuse them for every gene in a batch, instead of once per pair. Kept in `~/.local/share/pesto/cache/expansion`, keyed by phenotype, exact model id and prompt hash; each run records which answer it used. Off by default |
+| `--refresh-expansion` | ask again once per phenotype and overwrite the kept answer; pairs are run again, and the saved runs replaced |
+| `--no-expansion-cache` | ask for every pair even when `PESTO_EXPANSION_CACHE=use` is set |
 | `--resume` | with `--bench`, keep the rows an earlier attempt finished |
 | `--max-date DATE` | search only articles published up to `DATE`; Open Targets is not run (see below) |
 | `--note TEXT` | add a sentence to the reading prompt, before the articles; repeat for several |

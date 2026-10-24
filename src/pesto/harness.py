@@ -43,6 +43,14 @@ NAME_HEAD_QUOTA = 20
 VARIANT_TERMS = ["mutation", "mutations", "variant", "variants"]
 VARIANT_QUOTA = 50
 BATCH = 10
+# Wider Haiku batches on the fast arms: fewer round-trips, same articles
+# only if the model grades a batch of 20 the way it grades two of 10.
+FAST_BATCH = 20
+# Haiku calls in flight at once for one pair. A corpus of about a hundred and
+# twenty articles is a dozen batches of ten; with six workers that was two
+# rounds of latency, with sixteen it is one. The batches and their prompts are
+# the same and the answers are collected in order, so nothing else moves.
+BAND_WORKERS = 16
 # Zero, because the rate limit is now held centrally in pubmed_service: one gate
 # for the whole client, rather than each search sleeping on its own and getting
 # it wrong in both directions at once.
@@ -61,7 +69,12 @@ def ask(prompt, model, agent):
 
 
 def expand_synonyms(phenotype, model="opus5", prompt="phenotype_synonyms_prompt"):
-    """The names a disease is written under, asked fresh every time.
+    """The names a disease is written under.
+
+    Asked afresh for every pair unless the expansion cache is on, in which case
+    it is asked once per phenotype, model and prompt and reused (see
+    pesto.expansion_cache). The question never mentions the gene, so a batch
+    of genes against one disease has no reason to ask it more than once.
 
     Both arms used to replay a list frozen elsewhere, the published one from the
     pair's first production run and the arithmetic one from a column of the
@@ -74,25 +87,46 @@ def expand_synonyms(phenotype, model="opus5", prompt="phenotype_synonyms_prompt"
     and 0.3, and the Anthropic client drops temperature for every Opus from 4.x
     on, so on this model they are the same request four times over.
     """
+    from . import expansion_cache
     from .parsers.llm_parsers import parse_phenotype_synonyms_response
-    text = ask(load_prompt(prompt).format(phenotype=phenotype),
-               model, "phenotype_synonyms_agent")
-    out, seen = [], set()
-    for syn in parse_phenotype_synonyms_response(text):
-        s = syn.strip()
-        if s and s.lower() not in seen:
-            seen.add(s.lower())
-            out.append(s)
-    return out
+    template = load_prompt(prompt)
+
+    def parse(text):
+        out, seen = [], set()
+        for syn in parse_phenotype_synonyms_response(text):
+            s = syn.strip()
+            if s and s.lower() not in seen:
+                seen.add(s.lower())
+                out.append(s)
+        return out
+
+    # An empty list is what a failed call looks like; it is never kept.
+    return expansion_cache.fetch(
+        "synonyms", phenotype, MODELS.get(model, model), template,
+        ask=lambda: ask(template.format(phenotype=phenotype), model,
+                        "phenotype_synonyms_agent"),
+        parse=parse, usable=bool)
 
 
 def broad_term(phenotype, model):
+    from . import expansion_cache
     tpl = open(BROAD_PROMPT, encoding="utf-8").read().strip()
-    m = re.search(r"<term>(.*?)</term>",
-                  ask(tpl.format(phenotype=phenotype), model, "broad_term"), re.S)
-    term = (m.group(1).strip() if m else "")
-    return "" if not term or term.upper() == "NONE" \
-        or term.lower() == phenotype.lower() else term
+
+    def parse(text):
+        # None: the reply had no <term> at all, which is a failed call and not
+        # the model saying there is nothing broader (that is NONE, below).
+        m = re.search(r"<term>(.*?)</term>", text or "", re.S)
+        if not m:
+            return None
+        term = m.group(1).strip()
+        return "" if not term or term.upper() == "NONE" \
+            or term.lower() == phenotype.lower() else term
+
+    term = expansion_cache.fetch(
+        "broad", phenotype, MODELS.get(model, model), tpl,
+        ask=lambda: ask(tpl.format(phenotype=phenotype), model, "broad_term"),
+        parse=parse, usable=lambda v: v is not None)
+    return term or ""
 
 
 # Words carrying no clinical content. Removing them turns a label no author
@@ -183,7 +217,7 @@ def band(gene, phenotype, arts, model, batch=BATCH, synonyms=None, prompt=None):
 
     bands = {}
     if chunks:
-        with thread_pool(max_workers=min(len(chunks), 6)) as pool:
+        with thread_pool(max_workers=min(len(chunks), BAND_WORKERS)) as pool:
             for part in pool.map(label, chunks):
                 bands.update(part)
     # An article the model skipped is not evidence that it is worthless, and the
@@ -259,5 +293,5 @@ def kick_titles(gene, phenotype, arts, model, batch=BATCH):
         # recalling a PMID from elsewhere.
         return set(re.findall(r"\d{6,9}", block.group(1) if block else "")) & seen
 
-    with thread_pool(max_workers=min(len(chunks), 6)) as pool:
+    with thread_pool(max_workers=min(len(chunks), BAND_WORKERS)) as pool:
         return set().union(*pool.map(judge, chunks)) if chunks else set()

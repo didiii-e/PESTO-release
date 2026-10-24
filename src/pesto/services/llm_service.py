@@ -43,6 +43,9 @@ def _get_client():
     return _client
 
 
+_NO_TEMPERATURE = set()
+
+
 def _call_anthropic(prompt: str, model: str, temperature: float,
                     max_tokens: int = 4096) -> Dict[str, Any]:
     client_ = _get_client()
@@ -51,7 +54,10 @@ def _call_anthropic(prompt: str, model: str, temperature: float,
     # Opus from 4.x on rejects the temperature parameter with a 400, so those
     # calls run at the provider default. Two identical Opus runs can therefore
     # answer differently; that is sampling, not drift.
-    omit_temperature = model.startswith("claude-opus-")
+    # The API now refuses it for Haiku 4.5 as well, so any model that answers
+    # a temperature with that 400 is remembered and called without it.
+    omit_temperature = (model.startswith("claude-opus-")
+                        or model in _NO_TEMPERATURE)
 
     for attempt in range(LLM_MAX_RETRIES):
         try:
@@ -89,6 +95,11 @@ def _call_anthropic(prompt: str, model: str, temperature: float,
                     "output_tokens": output_tokens, "stop_reason": stop_reason,
                     "flex": False}
         except anthropic.APIStatusError as e:
+            if (e.status_code == 400 and not omit_temperature
+                    and "temperature" in str(e)):
+                _NO_TEMPERATURE.add(model)
+                omit_temperature = True
+                continue
             if e.status_code in (429, 500, 503, 529):
                 if attempt < LLM_MAX_RETRIES - 1:
                     print(f"WARNING: Anthropic API returned {e.status_code}. "

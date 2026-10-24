@@ -10,6 +10,7 @@ keyed by its settings, so asking again reuses it without a model call.
 import json
 import os
 import re
+import threading
 
 import requests
 
@@ -17,12 +18,16 @@ from . import ot_matcher
 from .config import BASE_URL_NCBI
 from .services import pubmed_service
 from .services.pubmed_service import make_api_request_with_retry
+from .utils.http import pooled_session
 
 OPEN_TARGETS_URL = "https://api.platform.opentargets.org/api/v4/graphql"
+# Every query of a run goes to the same host: the gene lookup, the trait pages
+# and the evidence for each matched trait. One session keeps the connection.
+_SESSION = pooled_session()
 
 
 def _run_open_targets_query(query, variables=None):
-    response = requests.post(
+    response = _SESSION.post(
         OPEN_TARGETS_URL,
         json={"query": query, "variables": variables or {}},
         timeout=20
@@ -314,6 +319,26 @@ def _write_match_sidecar(path, record):
         fh.write("\n")
 
 
+def _warm_encoder(name):
+    """Load the embedding model while the traits are still being fetched.
+
+    Loading the weights takes a second or two and the shortlist needs them as
+    soon as the traits arrive, so the two are overlapped. Only done when the
+    weights are already on the machine, so this never starts a download the
+    run might not need. A failure here is ignored: the shortlist asks for the
+    encoder again and reports the real error itself.
+    """
+    def load():
+        try:
+            from . import ot_shortlist
+            key = ot_shortlist.resolve_encoder(name)
+            if key != ot_shortlist.NONE and ot_shortlist.cached(key):
+                ot_shortlist.encoder(name)
+        except Exception:
+            pass
+    threading.Thread(target=load, daemon=True).start()
+
+
 def fetch_and_save_open_targets_traits(gene_symbol, runs_dir, phenotype,
                                        synonyms, model="claude-haiku-4-5",
                                        temperature=0.0, tracker=None,
@@ -325,6 +350,7 @@ def fetch_and_save_open_targets_traits(gene_symbol, runs_dir, phenotype,
         print(f"INFO: Open Targets - reused {sidecar}")
         return _result_from_record(cached, gene_symbol, phenotype,
                                    runs_dir, gate=gate)
+    _warm_encoder(encoder)
     try:
         ensembl_id = _get_ensembl_id_from_symbol(gene_symbol)
         if not ensembl_id:

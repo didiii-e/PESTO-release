@@ -28,7 +28,9 @@ but the model weights, which HuggingFace caches.
 """
 from __future__ import annotations
 
+import atexit
 import logging
+import os
 import threading
 
 import numpy as np
@@ -200,9 +202,104 @@ def shortlist(phenotype, traits, k=None, name=None):
     # loading weights it will never use.
     if not traits or k is None or k <= 0 or len(traits) <= k:
         return list(traits)
-    enc = encoder(name)
-    if enc is None:
+    key = resolve_encoder(name)
+    if key == NONE:
         return list(traits)
-    V = enc.encode([phenotype] + [t.get("name", "") for t in traits])
+    V = _embed([phenotype] + [t.get("name", "") for t in traits], key, name)
     order = np.argsort(-(V[1:] @ V[0]))[:k]
     return [traits[i] for i in order]
+
+
+# ------------------------------------------------------- embedding cache
+#
+# A trait's vector depends only on its name and the encoder, and the same few
+# thousand disease names come back for gene after gene. Embedding them is the
+# 2-3 s of the Open Targets branch that has nothing to do with the pair being
+# asked about, so each name is embedded once per machine and read back after
+# that. The weights are not even loaded when every name is already known.
+# Held in memory and in one file per encoder beside the other run data; a
+# missing, damaged or stale file is just an empty cache.
+
+_VECTORS = {}          # encoder key -> {name: float32 vector}
+_VECTOR_LOCK = threading.Lock()
+_SAVED = {}            # encoder key -> how many vectors the file already holds
+
+
+def _cache_path(key):
+    from . import config
+    return os.path.join(config.PROJECT_ROOT, "cache",
+                        f"ot_embeddings_{key}.npz")
+
+
+def _known(key):
+    """The in-memory table for `key`, filled from disk on first use."""
+    if key not in _VECTORS:
+        table = {}
+        try:
+            with np.load(_cache_path(key), allow_pickle=False) as f:
+                table = dict(zip(f["names"].tolist(), f["vectors"]))
+        except Exception:
+            table = {}
+        _VECTORS[key] = table
+        _SAVED[key] = len(table)
+    return _VECTORS[key]
+
+
+def _save(key):
+    """Write the table back, atomically, so two processes never see half a file.
+
+    What another process saved meanwhile is read first and kept, so two batches
+    running side by side add to the file rather than overwrite each other.
+    """
+    table = _VECTORS[key]
+    path = _cache_path(key)
+    try:
+        try:
+            with np.load(path, allow_pickle=False) as f:
+                for n, v in zip(f["names"].tolist(), f["vectors"]):
+                    table.setdefault(n, v)
+        except Exception:
+            pass
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        names = list(table)
+        tmp = f"{path}.{os.getpid()}.{threading.get_ident()}.tmp"
+        with open(tmp, "wb") as fh:
+            np.savez(fh, names=np.array(names, dtype=str),
+                     vectors=np.stack([table[n] for n in names]))
+        os.replace(tmp, path)
+        _SAVED[key] = len(names)
+    except Exception as exc:
+        log.warning("could not save the embedding cache: %s", exc)
+
+
+_PENDING = set()
+
+
+def _flush():
+    with _VECTOR_LOCK:
+        for key in list(_PENDING):
+            if len(_VECTORS.get(key, ())) > _SAVED.get(key, 0):
+                _save(key)
+        _PENDING.clear()
+
+
+def _embed(texts, key, name=None):
+    """Unit vectors for `texts`, the unseen ones from the encoder, the rest from cache."""
+    with _VECTOR_LOCK:
+        table = _known(key)
+        missing = list(dict.fromkeys(t for t in texts if t not in table))
+    if missing:
+        enc = encoder(name)
+        fresh = enc.encode(missing)
+        with _VECTOR_LOCK:
+            table = _known(key)
+            table.update(zip(missing, fresh))
+            # Written once, when the process ends, not after every pair: a
+            # batch of a hundred would otherwise rewrite a growing file a
+            # hundred times with the other workers waiting on it.
+            if key not in _PENDING:
+                _PENDING.add(key)
+                atexit.register(_flush)
+    with _VECTOR_LOCK:
+        table = _known(key)
+        return np.stack([table[t] for t in texts])

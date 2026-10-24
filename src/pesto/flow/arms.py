@@ -40,7 +40,7 @@ from .steps import (Anchors, Argmax, Bands, BandsGeneral, BareProbabilityRead,
                     GeneNames, GeneticsNameSearch, KeepAll, KnowledgeRead,
                     NameSearch, NoveltyScoreRead, OpenProbabilityRead,
                     ProbabilityRead, ProbabilityReadGeneral, ScoreRule,
-                    SkipAbstracts, Synonyms, SynonymsGeneral,
+                    SkipAbstracts, Synonyms, SynonymsGeneral, TitleKick,
                     TitleKickSparingFullText, VariantSearch, WordSearch,
                     harness)
 
@@ -138,6 +138,24 @@ FULLTEXT = ABSTRACTS.but(
     note="abstracts plus the Europe PMC body search, fourteen plus six read",
 )
 
+# Same searches and the same Opus reader as abstracts, but Haiku drops
+# titles that are plainly another gene before abstracts are fetched, and
+# bands run in twenties rather than tens. The fingerprint moves; compare
+# verdicts to abstracts before making this the default.
+ABSTRACTS_FAST = ABSTRACTS.but(
+    name="abstracts-fast",
+    annotate=(TitleKick("haiku"), Bands("haiku", batch=harness.FAST_BATCH)),
+    hydrate_at=1,
+    note="abstracts, titles sieved before abstracts are fetched, bands of twenty",
+)
+
+ABSTRACTS_FAST_TRAIT = ABSTRACTS_TRAIT.but(
+    name="abstracts-fast-trait",
+    annotate=(TitleKick("haiku"), BandsGeneral("haiku", batch=harness.FAST_BATCH)),
+    hydrate_at=1,
+    note="abstracts-trait, titles sieved before abstracts are fetched, bands of twenty",
+)
+
 FULLTEXT_TRAIT = FULLTEXT.but(
     name="fulltext-trait",
     expand=ABSTRACTS_TRAIT.expand + (Anchors(),),
@@ -149,6 +167,7 @@ FULLTEXT_TRAIT = FULLTEXT.but(
 ARMS = {arm.name: arm for arm in
         (ABSTRACTS, ABSTRACTS_TRAIT, TITLES, KNOWLEDGE,
          ABSTRACTS_BARE, ABSTRACTS_OPEN, ABSTRACTS_SCORE,
+         ABSTRACTS_FAST, ABSTRACTS_FAST_TRAIT,
          FULLTEXT, FULLTEXT_TRAIT)}
 
 # The names these arms carried while the paper was written. The result tables
@@ -165,6 +184,7 @@ ALIASES = {
 
 # A family is a disease arm and its trait variant. `auto` picks the variant.
 FAMILIES = {"abstracts": ("abstracts", "abstracts-trait"),
+            "abstracts-fast": ("abstracts-fast", "abstracts-fast-trait"),
             "fulltext": ("fulltext", "fulltext-trait")}
 AUTO = "auto"
 

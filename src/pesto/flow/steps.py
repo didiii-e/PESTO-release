@@ -37,6 +37,9 @@ class Synonyms(Block):
     """
     model: str = None
     uses = ("phenotype_synonyms_prompt",)
+    # Asks the model about the phenotype alone, so it can start before the
+    # local expanders (gene names, content words) have finished.
+    reads_local_terms = False
 
     def run(self, query, terms, given=None):
         if self.model is None:
@@ -58,6 +61,7 @@ class Broadened(Block):
     """The disease name with its subtype index stripped, or nothing."""
     model: str = "haiku"
     uses = ("broad_term_prompt",)
+    reads_local_terms = False
 
     def run(self, query, terms, given=None):
         return {"broad": harness.broad_term(query.phenotype, self.model)}
@@ -134,6 +138,11 @@ class Search(Block):
     # back; one that looks at what the other passes found has to wait for them.
     deferred = False
 
+    # Whether the pass reads anything the model-written expanders produce
+    # (synonyms, the broadened name). One that does not can start while they
+    # are still being asked for; it runs the very same query either way.
+    waits_for_expansion = True
+
     def terms_for(self, query, terms):
         raise NotImplementedError
 
@@ -150,7 +159,8 @@ class Search(Block):
             max_results_secondary=self.secondary,
             max_results_oldest=self.oldest,
             delay_ms=harness.DELAY_MS,
-            gene_aliases=list(terms.get("gene_names") or ()))
+            gene_aliases=list(terms.get("gene_names") or ()),
+            summaries=False)
         if self.tag:
             for a in found:
                 a["query_tier"] = self.tag
@@ -196,7 +206,8 @@ class GeneticsNameSearch(Search):
             max_results_oldest=self.oldest,
             delay_ms=harness.DELAY_MS,
             gene_aliases=list(terms.get("gene_names") or ()),
-            require_terms=list(harness.GENETICS_TERMS))
+            require_terms=list(harness.GENETICS_TERMS),
+            summaries=False)
         if self.tag:
             for a in found:
                 a["query_tier"] = self.tag
@@ -254,6 +265,8 @@ class VariantSearch(Search):
     """
     primary: int = harness.VARIANT_QUOTA
     tag: str = "variant"
+    # The gene and fixed variant words only; it never reads a synonym.
+    waits_for_expansion = False
 
     def terms_for(self, query, terms):
         return tuple(harness.VARIANT_TERMS)

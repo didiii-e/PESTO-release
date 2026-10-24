@@ -140,6 +140,10 @@ def render(result, ot_verdict, arm, show_reasoning):
     source = ("reused an identical earlier run" if result.cached else
               f"{found} articles found, {read} read")
     out.append(f"  {source}, pipeline {arm.name} [{result.fingerprint}]")
+    if result.expansion:
+        from . import expansion_cache
+        out.extend(f"  search terms  {expansion_cache.describe(i)}"
+                   for i in result.expansion)
 
     if show_reasoning and result.verdict.justification:
         out.append("")
@@ -174,18 +178,67 @@ def read_bench(path):
     return rows
 
 
-def assess(arm, gene, phenotype, args, worker, flow_dir):
-    """One pair: literature, then Open Targets. Same path as a single call."""
-    from .flow import run as flow_run
+def pair_run(arm, gene, phenotype, args, worker, flow_dir, reader=None):
+    """Literature and Open Targets at the same time.
+
+    Open Targets does not wait for the abstracts. The two answers stay
+    independent; only the waiting is shared. `arm` may be None, in which
+    case the disease/trait choice runs while Open Targets has already started.
+    """
+    from .flow import arms, run as flow_run
     from .flow.types import Query
     query = Query(gene, phenotype)
-    chatter = io.StringIO()
-    with contextlib.redirect_stdout(chatter):
+    holder = {}
+
+    def ot_job():
+        t0 = time.time()
+        try:
+            holder["ot"] = open_targets(
+                gene, phenotype, (),
+                worker or config.DEFAULT_MODEL, args.data_dir, args)
+        except Exception as exc:
+            holder["error"] = exc
+        holder["ot_seconds"] = time.time() - t0
+
+    skip_ot = bool(getattr(args, "max_date", None))
+    pool = None
+    fut = None
+    if not skip_ot:
+        pool = ThreadPoolExecutor(max_workers=1)
+        fut = pool.submit(ot_job)
+    try:
+        if arm is None:
+            arm = fit(arms.resolve(arms.AUTO, phenotype, family=family_of(args)),
+                      args, reader, worker)
         result = flow_run.run(arm, query, cache=not args.no_cache,
-                              runs_dir=flow_dir)
-        ot_verdict, ot_score, ot_tokens, ot_match = open_targets(
-            gene, phenotype, result.terms.get("synonyms"),
-            worker or config.DEFAULT_MODEL, args.data_dir, args)
+                              runs_dir=flow_dir,
+                              reuse=not getattr(args, "refresh_expansion", False))
+        if fut is not None:
+            fut.result()
+            if holder.get("error") is not None:
+                raise holder["error"]
+            ot_verdict, ot_score, ot_tokens, ot_match = holder["ot"]
+            ot_seconds = holder.get("ot_seconds") or 0.0
+        else:
+            ot_verdict, ot_score, ot_tokens, ot_match = (
+                "", None, {}, {"channel": OT_SKIPPED})
+            ot_seconds = 0.0
+    finally:
+        if pool is not None:
+            pool.shutdown(wait=True)
+    return arm, result, (ot_verdict, ot_score, ot_tokens, ot_match), ot_seconds
+
+
+def assess(arm, gene, phenotype, args, worker, flow_dir):
+    """One pair: literature overlapped with Open Targets."""
+    chatter = io.StringIO()
+    t0 = time.time()
+    with contextlib.redirect_stdout(chatter):
+        arm, result, ot, ot_seconds = pair_run(
+            arm, gene, phenotype, args, worker, flow_dir)
+    wall = time.time() - t0
+    ot_verdict, ot_score, ot_tokens, ot_match = ot
+    from .flow.timing import stage_times
     dist = (result.verdict.distribution.as_dict()
             if result.verdict.distribution else None)
     from .cost import from_ot_tokens, from_trace, with_total
@@ -209,6 +262,7 @@ def assess(arm, gene, phenotype, args, worker, flow_dir):
         "found": result.counts.get("found", 0),
         "read": result.counts.get("read", 0),
         "cached": result.cached,
+        "expansion": " | ".join(_expansion_cell(i) for i in result.expansion),
         "justification": (result.verdict.justification or "").replace("\t", " "),
         "error": "",
         "_cost": with_total(
@@ -216,7 +270,14 @@ def assess(arm, gene, phenotype, args, worker, flow_dir):
             + from_ot_tokens(gene, phenotype, ot_tokens,
                              cached=bool(ot_match.get("cached"))),
             gene, phenotype, result.cached),
+        "_timing": stage_times(result.trace, ot_seconds, wall),
     }
+
+
+def _expansion_cell(info):
+    """`synonyms:disk#key@written`, the short form of expansion_cache.describe."""
+    written = f"@{info['written']}" if info.get("written") else ""
+    return f"{info['kind']}:{info['source']}#{info.get('key') or '-'}{written}"
 
 
 def resumable(out, fingerprints, fields):
@@ -268,8 +329,8 @@ ANSWER_FIELDS = ["lit_mean", "lit_argmax", "p_established", "p_existing",
                  "p_hypothesized", "p_novel", "open_targets_verdict",
                  "open_targets_max_score", "ot_channel", "ot_tag",
                  "ot_trait", "ot_cap", "found", "read", "cached",
-                 "arm", "fingerprint", "max_date", "notes", "justification",
-                 "error"]
+                 "arm", "fingerprint", "max_date", "notes", "expansion",
+                 "justification", "error"]
 
 
 def run_bench(args, arm, worker, reader=None):
@@ -361,7 +422,23 @@ def run_bench(args, arm, worker, reader=None):
 
 def family_of(args):
     """Which family `auto` picks a disease or trait arm from."""
-    return "fulltext" if getattr(args, "fulltext", False) else "abstracts"
+    if getattr(args, "fulltext", False):
+        return "fulltext"
+    if getattr(args, "fast", False):
+        return "abstracts-fast"
+    return "abstracts"
+
+
+def note_ncbi(args):
+    """Say when PubMed is running without a key, which is the slow path."""
+    if getattr(args, "quiet", False) or getattr(args, "show_pipeline", False):
+        return
+    from .services import pubmed_service
+    if pubmed_service.NCBI_API_KEY:
+        return
+    print("pesto: no NCBI_API_KEY; PubMed is capped at "
+          f"{pubmed_service.pubmed_rate():g} requests/s "
+          "(with a key: 9/s).", file=sys.stderr)
 
 
 def download_models():
@@ -417,13 +494,19 @@ def build_parser():
                         "`abstracts` or `abstracts-trait` (PESTO as in the "
                         "paper: twenty abstracts weighed in one call). "
                         "`fulltext` and `fulltext-trait` add a Europe PMC "
-                        "search of article bodies; `titles`, `knowledge`, "
-                        "`abstracts-bare`, `abstracts-open` and "
+                        "search of article bodies; `abstracts-fast` sieves "
+                        "titles before fetching abstracts; `titles`, "
+                        "`knowledge`, `abstracts-bare`, `abstracts-open` and "
                         "`abstracts-score` are the paper's comparisons "
                         "(default: %(default)s)")
     p.add_argument("--fulltext", action="store_true",
                    help="with --arm auto, choose between `fulltext` and "
                         "`fulltext-trait` instead")
+    p.add_argument("--fast", action="store_true",
+                   help="with --arm auto, choose between `abstracts-fast` and "
+                        "`abstracts-fast-trait`: titles are sieved before "
+                        "abstracts are fetched, and Haiku bands in twenties. "
+                        "Compare verdicts to the default before relying on it")
     p.add_argument("--model", metavar="ID",
                    help="Anthropic model that reads the corpus (default: the "
                         "arm's own, claude-opus-5)")
@@ -451,6 +534,25 @@ def build_parser():
     p.add_argument("--no-cache", action="store_true",
                    help="read the literature again even if the same pipeline "
                         "has already answered this pair")
+    cache = p.add_mutually_exclusive_group()
+    cache.add_argument("--expansion-cache", action="store_true",
+                       help="ask the phenotype-only model questions (the "
+                            "synonyms, the broadened name) once per phenotype "
+                            "and reuse the answer for every gene, instead of "
+                            "once per pair. Kept on disk in "
+                            "~/.local/share/pesto/cache/expansion, keyed by "
+                            "phenotype, exact model id and prompt hash; the "
+                            "run records which answer it used. Also "
+                            "PESTO_EXPANSION_CACHE=use")
+    cache.add_argument("--no-expansion-cache", action="store_true",
+                       help="ask for every pair, even if PESTO_EXPANSION_CACHE "
+                            "is set")
+    cache.add_argument("--refresh-expansion", action="store_true",
+                       help="ask again, once per phenotype, and overwrite the "
+                            "kept answer; the rest of the batch uses the new "
+                            "one. Pairs are run again even if a saved run "
+                            "exists, since that run used the old terms, and "
+                            "the saved run is replaced")
     p.add_argument("--resume", action="store_true",
                    help="keep the rows an earlier attempt already answered "
                         "(--bench only) and ask only for the rest. Matches on "
@@ -539,9 +641,16 @@ def main(argv=None):
     logging.basicConfig(
         stream=sys.stderr, format="%(message)s",
         level=logging.INFO if args.verbose else logging.WARNING)
+    note_ncbi(args)
+    from . import expansion_cache
+    if args.refresh_expansion:
+        expansion_cache.configure(expansion_cache.REFRESH)
+    elif args.expansion_cache:
+        expansion_cache.configure(expansion_cache.USE)
+    elif args.no_expansion_cache:
+        expansion_cache.configure(expansion_cache.OFF)
 
-    from .flow import arms, run as flow_run
-    from .flow.types import Query
+    from .flow import arms
 
     def fitted(name):
         try:
@@ -576,21 +685,13 @@ def main(argv=None):
         raise SystemExit("pesto: --gene and --phenotype are required, "
                          "or pass --bench")
 
-    query = Query(args.gene, args.phenotype)
-    # The services report progress and failures on standard output. That is the
-    # channel the answer goes out on, and --json makes it a parsed one, so it is
-    # held aside and released to stderr where it belongs.
     chatter = io.StringIO()
+    t0 = time.time()
     try:
         with contextlib.redirect_stdout(chatter):
-            if auto:
-                arm = fit(arms.resolve(arms.AUTO, args.phenotype,
-                                       family=family_of(args)),
-                          args, reader, worker)
-            result = flow_run.run(arm, query, cache=not args.no_cache)
-            ot_verdict, ot_score, ot_tokens, ot_match = open_targets(
-                args.gene, args.phenotype, result.terms.get("synonyms"),
-                worker or config.DEFAULT_MODEL, args.data_dir, args)
+            arm, result, ot, ot_seconds = pair_run(
+                None if auto else arm, args.gene, args.phenotype, args,
+                worker, args.data_dir, reader=reader)
     except Exception as exc:
         sys.stderr.write(chatter.getvalue())
         if type(exc).__name__ == "AuthenticationError":
@@ -601,6 +702,9 @@ def main(argv=None):
         return 1
     if args.verbose:
         sys.stderr.write(chatter.getvalue())
+    ot_verdict, ot_score, ot_tokens, ot_match = ot
+    from .flow.timing import format_stages, stage_times
+    timing = stage_times(result.trace, ot_seconds, time.time() - t0)
 
     from .cost import from_ot_tokens, from_trace, with_total
     cost_rows = with_total(
@@ -624,8 +728,10 @@ def main(argv=None):
             "open_targets_verdict": ot_verdict,
             "open_targets_max_score": ot_score,
             "counts": result.counts, "cached": result.cached,
+            "expansion": result.expansion,
             "detail": result.verdict.detail,
             "cost": cost_rows,
+            "timing": timing,
         }, indent=2, default=str))
     elif args.quiet:
         print(f"{result.verdict.call}\t{ot_verdict}")
@@ -634,6 +740,7 @@ def main(argv=None):
         if total:
             print(f"\n  cost  ${float(total['usd']):.4f}  "
                   f"({total['input_tokens']} in / {total['output_tokens']} out)")
+        print(format_stages(timing))
     return 0
 
 

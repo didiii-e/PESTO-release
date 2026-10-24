@@ -1,0 +1,21 @@
+gene	phenotype	lit_mean	lit_argmax	p_established	p_existing	p_hypothesized	p_novel	open_targets_verdict	found	read	error
+SS18L1	amyotrophic lateral sclerosis	Existing	Existing	25	61	13	1	Existing	68	15	
+TAFAZZIN	Barth syndrome	Established	Established	97	2	1	0	Established	122	20	
+CDH11	Teebi hypertelorism syndrome 2	Established	Established	88	10	2	0	Established	59	20	
+ASPRV1	ichthyosis, lamellar, autosomal dominant	Existing	Existing	20	70	9	1	Established	54	10	
+CPSF3	neurodevelopmental disorder with microcephaly, hypotonia, nystagmus, and seizures	Existing	Existing	20	70	9	1	Established	45	20	
+PRKG2	acromesomelic dysplasia 4	Established	Established	94	5	1	0	Hypothesized	53	20	
+THUMPD1	neurodevelopmental disorder with speech delay and variable ocular anomalies	Established	Established	93	6	1	0	Established	38	12	
+PLS3	X-linked osteoporosis with fractures	Established	Established	97	3	0	0	Established	65	20	
+VANGL1	neural tube defects, susceptibility to	Established	Established	90	9	1	0	Existing	75	20	
+TMEM135	neurodevelopmental disorder	Existing	Existing	6	58	30	6	Hypothesized	23	13	
+USP44	congenital heart disease	Hypothesized	Hypothesized	1	20	68	11	Novel	14	3	
+ETS1	congenital heart disease	Existing	Existing	15	66	18	1	Hypothesized	76	20	
+SYCP2L	Weiss-Kruszka syndrome	Novel	Novel	1	2	5	92	Novel	10	7	
+PHKG2	primary ciliary dyskinesia 33	Novel	Novel	1	1	3	95	Novel	47	7	
+KCND3	46,XY sex reversal 3	Novel	Novel	1	1	3	95	Novel	67	20	
+GET4	deafness-lymphedema-leukemia syndrome	Novel	Novel	1	2	7	90	Novel	34	12	
+NFATC2	spondylometaphyseal dysplasia, 'corner fracture' type	Hypothesized	Hypothesized	4	30	48	18	Hypothesized	75	20	
+SELENBP1	neurodevelopmental disorder with spastic quadriplegia, optic atrophy, seizures, and structural brain anomalies	Hypothesized	Novel	2	10	30	58	Novel	73	20	
+CDK9	congenital myopathy 2c, severe infantile, autosomal dominant	Hypothesized	Hypothesized	2	8	55	35	Hypothesized	71	20	
+TNNT2	atrial septal defect 6	Hypothesized	Novel	1	9	40	50	Hypothesized	78	20	

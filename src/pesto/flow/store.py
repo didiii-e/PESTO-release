@@ -48,6 +48,7 @@ def save(result, runs_dir=None):
         "max_date": result.max_date,
         "terms": {k: list(v) if isinstance(v, tuple) else v
                   for k, v in result.terms.items()},
+        "expansion": result.expansion,
         "counts": result.counts,
         "verdict": {"call": result.verdict.call,
                     "distribution": (result.verdict.distribution.as_dict()
@@ -97,4 +98,5 @@ def load(query, arm, runs_dir=None):
             Step(**{k: v for k, v in s.items() if k in _STEP_FIELDS})
             for s in (d.get("trace") or []))),
         raw=d.get("raw", ""), terms=d.get("terms") or {},
+        expansion=d.get("expansion") or [],
         max_date=d.get("max_date") or "")

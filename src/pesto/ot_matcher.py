@@ -13,6 +13,7 @@ highest-scoring trait graded the same trait earns its band, and failing that
 the highest-scoring tie caps the pair at Hypothesized.
 """
 import re
+from concurrent.futures import ThreadPoolExecutor
 
 TAGGED_SHORTLIST = "tagged_shortlist"
 METHODS = (TAGGED_SHORTLIST,)
@@ -215,33 +216,51 @@ def _match_tagged(gene, phenotype, traits, model=None, temperature=0.0,
     per_trait = 128 if reasons else 64
     room = min(64000, max(4096, 2048 + per_trait * len(short)))
 
-    gate_text = ""
-    dropped_ids = []
+    gate_template = None
     if gate and short:
-        template = load_prompt("ot_tagged_gate_prompt")
-        if not template:
+        gate_template = load_prompt("ot_tagged_gate_prompt")
+        if not gate_template:
             raise RuntimeError("ot_tagged_gate_prompt.txt not found")
-        res = spend(call_llm_with_usage(
+    name = config.ot_match_prompt_name(reasons=reasons)
+    template = load_prompt(name)
+    if not template:
+        raise RuntimeError(f"{name}.txt not found")
+
+    def ask_gate():
+        return call_llm_with_usage(
+            gate_template.format(gene=gene, phenotype=phenotype,
+                                 traits=_render(short)),
+            GATE_MODEL, temperature, agent_name="ot_tagged_gate_agent",
+            max_tokens=room)
+
+    def ask_reader():
+        return call_llm_with_usage(
             template.format(gene=gene, phenotype=phenotype,
                             traits=_render(short)),
-            GATE_MODEL, temperature, agent_name="ot_tagged_gate_agent",
-            max_tokens=room), "gate")
+            model or BROAD_MODEL, temperature,
+            agent_name="ot_tagged_match_agent", max_tokens=room)
+
+    # Neither call sees the other's answer: the reader tags every shortlisted
+    # trait whether or not the sieve would drop it (the sieve is applied later,
+    # in replay_tagged). So they are asked together, and the slower reader no
+    # longer waits behind the sieve. Same prompts, same models, same tokens.
+    gate_text = ""
+    dropped_ids = []
+    if gate_template:
+        with ThreadPoolExecutor(max_workers=2) as pool:
+            gate_job = pool.submit(ask_gate)
+            read_job = pool.submit(ask_reader)
+            gate_res, read_res = gate_job.result(), read_job.result()
+        res = spend(gate_res, "gate")
         gate_text = res.get("text") or ""
         cut = _parse_gate(gate_text, len(short))
         # Never everything: a sieve that empties the list has misread the task,
         # and an empty list would be read downstream as a novel association.
         if cut and len(cut) < len(short):
             dropped_ids = [short[i].get("disease_id") for i in sorted(cut)]
-
-    name = config.ot_match_prompt_name(reasons=reasons)
-    template = load_prompt(name)
-    if not template:
-        raise RuntimeError(f"{name}.txt not found")
-    res = spend(call_llm_with_usage(
-        template.format(gene=gene, phenotype=phenotype,
-                        traits=_render(short)),
-        model or BROAD_MODEL, temperature,
-        agent_name="ot_tagged_match_agent", max_tokens=room), "read")
+    else:
+        read_res = ask_reader()
+    res = spend(read_res, "read")
     tag_text = res.get("text") or ""
     tags, why = _parse_tags(tag_text, len(short))
     # A cut-off or empty answer is a failed reading, not an answer: read as

@@ -49,6 +49,48 @@
    ],
    "fingerprint": "d1b40e2840fd"
   },
+  "abstracts-fast": {
+   "blocks": [
+    "cba813bac4dd",
+    "300de4c6305b",
+    "5a97f73e3e1c",
+    "5f7a22f857d6",
+    "32d65c01c4a2",
+    "a08ad4d16c40",
+    "7290a5cdc7bf",
+    "1fcad6eb8d44",
+    "c88575c2237f",
+    "613d3e498a21",
+    "3a17bfb6029c",
+    "e46ab153b92a",
+    "674f3fd3cafa",
+    "e19f36fea193",
+    "5290f57ef16e",
+    "2409b4c1fe43"
+   ],
+   "fingerprint": "4a05e36c3316"
+  },
+  "abstracts-fast-trait": {
+   "blocks": [
+    "8508333f90fe",
+    "300de4c6305b",
+    "5a97f73e3e1c",
+    "5f7a22f857d6",
+    "32d65c01c4a2",
+    "a08ad4d16c40",
+    "7290a5cdc7bf",
+    "1fcad6eb8d44",
+    "c88575c2237f",
+    "613d3e498a21",
+    "3a17bfb6029c",
+    "e46ab153b92a",
+    "8bde15179f02",
+    "e19f36fea193",
+    "6965453da1d0",
+    "2409b4c1fe43"
+   ],
+   "fingerprint": "94d0eea528ba"
+  },
   "abstracts-open": {
    "blocks": [
     "cba813bac4dd",
