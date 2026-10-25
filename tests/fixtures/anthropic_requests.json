@@ -1,0 +1,853 @@
+{
+ "400_is_raised_at_once": {
+  "calls": [
+   [
+    "create",
+    {
+     "extra_body": {
+      "temperature": 0.0
+     },
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-haiku-4-5"
+    }
+   ]
+  ],
+  "clients_built": [
+   {
+    "api_key_is_the_key": true,
+    "other_args": []
+   }
+  ],
+  "cost_rows": [],
+  "raised": {
+   "message": "bad request",
+   "type": "APIStatusError"
+  },
+  "sleeps": [],
+  "stdout": ""
+ },
+ "401_is_raised_at_once": {
+  "calls": [
+   [
+    "create",
+    {
+     "extra_body": {
+      "temperature": 0.0
+     },
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-haiku-4-5"
+    }
+   ]
+  ],
+  "clients_built": [
+   {
+    "api_key_is_the_key": true,
+    "other_args": []
+   }
+  ],
+  "cost_rows": [],
+  "raised": {
+   "message": "invalid x-api-key",
+   "type": "APIStatusError"
+  },
+  "sleeps": [],
+  "stdout": ""
+ },
+ "block_without_type_counts_as_text": {
+  "calls": [
+   [
+    "create",
+    {
+     "extra_body": {
+      "temperature": 0.0
+     },
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-haiku-4-5"
+    }
+   ]
+  ],
+  "clients_built": [
+   {
+    "api_key_is_the_key": true,
+    "other_args": []
+   }
+  ],
+  "cost_rows": [
+   {
+    "input_tokens": 11,
+    "model": "claude-haiku-4-5",
+    "output_tokens": 7
+   }
+  ],
+  "result": {
+   "flex": false,
+   "input_tokens": 11,
+   "output_tokens": 7,
+   "stop_reason": "end_turn",
+   "text": "plain"
+  },
+  "sleeps": [],
+  "stdout": ""
+ },
+ "call_llm_returns_text_only": "just text",
+ "default_model_when_omitted": {
+  "calls": [
+   [
+    "create",
+    {
+     "extra_body": {
+      "temperature": 0.0
+     },
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "P",
+       "role": "user"
+      }
+     ],
+     "model": "claude-haiku-4-5"
+    }
+   ]
+  ],
+  "clients_built": [
+   {
+    "api_key_is_the_key": true,
+    "other_args": []
+   }
+  ],
+  "cost_rows": [
+   {
+    "input_tokens": 11,
+    "model": "claude-haiku-4-5",
+    "output_tokens": 7
+   }
+  ],
+  "result": {
+   "flex": false,
+   "input_tokens": 11,
+   "output_tokens": 7,
+   "stop_reason": "end_turn",
+   "text": "x"
+  },
+  "sleeps": [],
+  "stdout": ""
+ },
+ "haiku_basic[sdk_takes_temperature=False]": {
+  "calls": [
+   [
+    "create",
+    {
+     "extra_body": {
+      "temperature": 0.0
+     },
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-haiku-4-5"
+    }
+   ]
+  ],
+  "clients_built": [
+   {
+    "api_key_is_the_key": true,
+    "other_args": []
+   }
+  ],
+  "cost_rows": [
+   {
+    "input_tokens": 11,
+    "model": "claude-haiku-4-5",
+    "output_tokens": 7
+   }
+  ],
+  "result": {
+   "flex": false,
+   "input_tokens": 11,
+   "output_tokens": 7,
+   "stop_reason": "end_turn",
+   "text": "hello"
+  },
+  "sleeps": [],
+  "stdout": ""
+ },
+ "haiku_basic[sdk_takes_temperature=True]": {
+  "calls": [
+   [
+    "create",
+    {
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-haiku-4-5",
+     "temperature": 0.0
+    }
+   ]
+  ],
+  "clients_built": [
+   {
+    "api_key_is_the_key": true,
+    "other_args": []
+   }
+  ],
+  "cost_rows": [
+   {
+    "input_tokens": 11,
+    "model": "claude-haiku-4-5",
+    "output_tokens": 7
+   }
+  ],
+  "result": {
+   "flex": false,
+   "input_tokens": 11,
+   "output_tokens": 7,
+   "stop_reason": "end_turn",
+   "text": "hello"
+  },
+  "sleeps": [],
+  "stdout": ""
+ },
+ "haiku_temperature_passed_through": {
+  "calls": [
+   [
+    "create",
+    {
+     "extra_body": {
+      "temperature": 0.7
+     },
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "P",
+       "role": "user"
+      }
+     ],
+     "model": "claude-haiku-4-5"
+    }
+   ]
+  ],
+  "clients_built": [
+   {
+    "api_key_is_the_key": true,
+    "other_args": []
+   }
+  ],
+  "cost_rows": [
+   {
+    "input_tokens": 11,
+    "model": "claude-haiku-4-5",
+    "output_tokens": 7
+   }
+  ],
+  "result": {
+   "flex": false,
+   "input_tokens": 11,
+   "output_tokens": 7,
+   "stop_reason": "end_turn",
+   "text": "x"
+  },
+  "sleeps": [],
+  "stdout": ""
+ },
+ "max_tokens_above_8192_is_streamed": {
+  "calls": [
+   [
+    "stream",
+    {
+     "max_tokens": 20000,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-opus-5"
+    }
+   ]
+  ],
+  "clients_built": [
+   {
+    "api_key_is_the_key": true,
+    "other_args": []
+   }
+  ],
+  "cost_rows": [
+   {
+    "input_tokens": 11,
+    "model": "claude-opus-5",
+    "output_tokens": 7
+   }
+  ],
+  "result": {
+   "flex": false,
+   "input_tokens": 11,
+   "output_tokens": 7,
+   "stop_reason": "end_turn",
+   "text": "x"
+  },
+  "sleeps": [],
+  "stdout": ""
+ },
+ "max_tokens_at_8192_is_not_streamed": {
+  "calls": [
+   [
+    "create",
+    {
+     "extra_body": {
+      "temperature": 0.0
+     },
+     "max_tokens": 8192,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-haiku-4-5"
+    }
+   ]
+  ],
+  "clients_built": [
+   {
+    "api_key_is_the_key": true,
+    "other_args": []
+   }
+  ],
+  "cost_rows": [
+   {
+    "input_tokens": 11,
+    "model": "claude-haiku-4-5",
+    "output_tokens": 7
+   }
+  ],
+  "result": {
+   "flex": false,
+   "input_tokens": 11,
+   "output_tokens": 7,
+   "stop_reason": "end_turn",
+   "text": "x"
+  },
+  "sleeps": [],
+  "stdout": ""
+ },
+ "max_tokens_default_is_4096": {
+  "calls": [
+   [
+    "create",
+    {
+     "extra_body": {
+      "temperature": 0.0
+     },
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-haiku-4-5"
+    }
+   ]
+  ],
+  "clients_built": [
+   {
+    "api_key_is_the_key": true,
+    "other_args": []
+   }
+  ],
+  "cost_rows": [
+   {
+    "input_tokens": 11,
+    "model": "claude-haiku-4-5",
+    "output_tokens": 7
+   }
+  ],
+  "result": {
+   "flex": false,
+   "input_tokens": 11,
+   "output_tokens": 7,
+   "stop_reason": "end_turn",
+   "text": "x"
+  },
+  "sleeps": [],
+  "stdout": ""
+ },
+ "max_tokens_reported_as_stop_reason": {
+  "calls": [
+   [
+    "create",
+    {
+     "max_tokens": 64,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-opus-5"
+    }
+   ]
+  ],
+  "clients_built": [
+   {
+    "api_key_is_the_key": true,
+    "other_args": []
+   }
+  ],
+  "cost_rows": [
+   {
+    "input_tokens": 11,
+    "model": "claude-opus-5",
+    "output_tokens": 7
+   }
+  ],
+  "result": {
+   "flex": false,
+   "input_tokens": 11,
+   "output_tokens": 7,
+   "stop_reason": "max_tokens",
+   "text": "cut"
+  },
+  "sleeps": [],
+  "stdout": ""
+ },
+ "missing_key": {
+  "calls": [],
+  "clients_built": [],
+  "cost_rows": [],
+  "raised": {
+   "message": "ANTHROPIC_API_KEY is not set. Get a key at console.anthropic.com, then: export ANTHROPIC_API_KEY=sk-ant-...",
+   "type": "MissingAPIKeyError"
+  },
+  "sleeps": [],
+  "stdout": ""
+ },
+ "opus_sends_no_temperature": {
+  "calls": [
+   [
+    "create",
+    {
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-opus-5"
+    }
+   ]
+  ],
+  "clients_built": [
+   {
+    "api_key_is_the_key": true,
+    "other_args": []
+   }
+  ],
+  "cost_rows": [
+   {
+    "input_tokens": 11,
+    "model": "claude-opus-5",
+    "output_tokens": 7
+   }
+  ],
+  "result": {
+   "flex": false,
+   "input_tokens": 11,
+   "output_tokens": 7,
+   "stop_reason": "end_turn",
+   "text": "x"
+  },
+  "sleeps": [],
+  "stdout": ""
+ },
+ "opus_sends_no_temperature[sdk_takes_temperature=True]": {
+  "calls": [
+   [
+    "create",
+    {
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-opus-5"
+    }
+   ]
+  ],
+  "clients_built": [
+   {
+    "api_key_is_the_key": true,
+    "other_args": []
+   }
+  ],
+  "cost_rows": [
+   {
+    "input_tokens": 11,
+    "model": "claude-opus-5",
+    "output_tokens": 7
+   }
+  ],
+  "result": {
+   "flex": false,
+   "input_tokens": 11,
+   "output_tokens": 7,
+   "stop_reason": "end_turn",
+   "text": "x"
+  },
+  "sleeps": [],
+  "stdout": ""
+ },
+ "refusal_is_reported": {
+  "calls": [
+   [
+    "create",
+    {
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-opus-5"
+    }
+   ]
+  ],
+  "clients_built": [
+   {
+    "api_key_is_the_key": true,
+    "other_args": []
+   }
+  ],
+  "cost_rows": [
+   {
+    "input_tokens": 900,
+    "model": "claude-opus-5",
+    "output_tokens": 0
+   }
+  ],
+  "result": {
+   "flex": false,
+   "input_tokens": 900,
+   "output_tokens": 0,
+   "stop_reason": "refusal",
+   "text": ""
+  },
+  "sleeps": [],
+  "stdout": "WARNING: claude-opus-5 refused to answer (900 input tokens)\n"
+ },
+ "retry_429_then_answer": {
+  "calls": [
+   [
+    "create",
+    {
+     "extra_body": {
+      "temperature": 0.0
+     },
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-haiku-4-5"
+    }
+   ],
+   [
+    "create",
+    {
+     "extra_body": {
+      "temperature": 0.0
+     },
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-haiku-4-5"
+    }
+   ]
+  ],
+  "clients_built": [
+   {
+    "api_key_is_the_key": true,
+    "other_args": []
+   }
+  ],
+  "cost_rows": [
+   {
+    "input_tokens": 11,
+    "model": "claude-haiku-4-5",
+    "output_tokens": 7
+   }
+  ],
+  "result": {
+   "flex": false,
+   "input_tokens": 11,
+   "output_tokens": 7,
+   "stop_reason": "end_turn",
+   "text": "ok"
+  },
+  "sleeps": [
+   2
+  ],
+  "stdout": "WARNING: Anthropic API returned 429. Retrying in 2s...\n"
+ },
+ "retry_500_503_529_then_answer": {
+  "calls": [
+   [
+    "create",
+    {
+     "extra_body": {
+      "temperature": 0.0
+     },
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-haiku-4-5"
+    }
+   ],
+   [
+    "create",
+    {
+     "extra_body": {
+      "temperature": 0.0
+     },
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-haiku-4-5"
+    }
+   ],
+   [
+    "create",
+    {
+     "extra_body": {
+      "temperature": 0.0
+     },
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-haiku-4-5"
+    }
+   ]
+  ],
+  "clients_built": [
+   {
+    "api_key_is_the_key": true,
+    "other_args": []
+   }
+  ],
+  "cost_rows": [
+   {
+    "input_tokens": 11,
+    "model": "claude-haiku-4-5",
+    "output_tokens": 7
+   }
+  ],
+  "result": {
+   "flex": false,
+   "input_tokens": 11,
+   "output_tokens": 7,
+   "stop_reason": "end_turn",
+   "text": "ok"
+  },
+  "sleeps": [
+   2,
+   4
+  ],
+  "stdout": "WARNING: Anthropic API returned 500. Retrying in 2s...\nWARNING: Anthropic API returned 503. Retrying in 4s...\n"
+ },
+ "thinking_block_is_not_text": {
+  "calls": [
+   [
+    "create",
+    {
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-opus-5"
+    }
+   ]
+  ],
+  "clients_built": [
+   {
+    "api_key_is_the_key": true,
+    "other_args": []
+   }
+  ],
+  "cost_rows": [
+   {
+    "input_tokens": 11,
+    "model": "claude-opus-5",
+    "output_tokens": 7
+   }
+  ],
+  "result": {
+   "flex": false,
+   "input_tokens": 11,
+   "output_tokens": 7,
+   "stop_reason": "end_turn",
+   "text": "answer two"
+  },
+  "sleeps": [],
+  "stdout": ""
+ },
+ "three_529_is_overloaded": {
+  "calls": [
+   [
+    "create",
+    {
+     "extra_body": {
+      "temperature": 0.0
+     },
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-haiku-4-5"
+    }
+   ],
+   [
+    "create",
+    {
+     "extra_body": {
+      "temperature": 0.0
+     },
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-haiku-4-5"
+    }
+   ],
+   [
+    "create",
+    {
+     "extra_body": {
+      "temperature": 0.0
+     },
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-haiku-4-5"
+    }
+   ]
+  ],
+  "clients_built": [
+   {
+    "api_key_is_the_key": true,
+    "other_args": []
+   }
+  ],
+  "cost_rows": [],
+  "raised": {
+   "message": "Anthropic API call failed after 3 attempts. Last error: overloaded",
+   "type": "LLMOverloadedError"
+  },
+  "sleeps": [
+   2,
+   4
+  ],
+  "stdout": "WARNING: Anthropic API returned 529. Retrying in 2s...\nWARNING: Anthropic API returned 529. Retrying in 4s...\n"
+ },
+ "usage_missing_counts_as_zero": {
+  "calls": [
+   [
+    "create",
+    {
+     "extra_body": {
+      "temperature": 0.0
+     },
+     "max_tokens": 4096,
+     "messages": [
+      {
+       "content": "PROMPT",
+       "role": "user"
+      }
+     ],
+     "model": "claude-haiku-4-5"
+    }
+   ]
+  ],
+  "clients_built": [
+   {
+    "api_key_is_the_key": true,
+    "other_args": []
+   }
+  ],
+  "cost_rows": [
+   {
+    "input_tokens": 0,
+    "model": "claude-haiku-4-5",
+    "output_tokens": 0
+   }
+  ],
+  "result": {
+   "flex": false,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "stop_reason": "end_turn",
+   "text": "x"
+  },
+  "sleeps": [],
+  "stdout": ""
+ }
+}
