@@ -457,7 +457,7 @@ def run_bench(args, arm, worker, reader=None):
 
     def work(r):
         gene, pheno = r["gene"], r["phenotype"]
-        chosen = arm
+        chosen, routed = arm, []
         if chosen is None:
             with contextlib.redirect_stdout(io.StringIO()):
                 chosen, routed = route(args, pheno, reader, worker)

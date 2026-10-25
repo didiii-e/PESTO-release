@@ -1041,6 +1041,62 @@ def the_router_is_in_the_record_but_not_in_any_fingerprint_or_cache_key():
     assert providers.canonical("openai:gpt-6.1-sol") == "openai:gpt-6.1-sol@medium"
 
 
+def _bench(*argv, route=None):
+    """Run the real run_bench over two pairs, with the pipeline itself stubbed.
+    Returns the router rows each pair was costed with and the rows written."""
+    import csv
+    import tempfile
+    from unittest import mock
+    from pesto.ot_shortlist import resolve_encoder  # noqa: F401  (patched below)
+    with tempfile.TemporaryDirectory() as d:
+        tsv = os.path.join(d, "pairs.tsv")
+        with open(tsv, "w") as fh:
+            fh.write("gene\tphenotype\nG1\tp1\nG2\tp2\n")
+        args = cli.build_parser().parse_args(
+            ["--bench", tsv, "--out", os.path.join(d, "out.tsv"),
+             "--data-dir", os.path.join(d, "data"), "--workers", "1", *argv])
+        seen = []
+
+        def assess(arm, gene, phenotype, args, worker, flow_dir, router_rows=()):
+            seen.append((arm.name, list(router_rows)))
+            return {"gene": gene, "phenotype": phenotype, "lit_mean": "Novel"}
+
+        arm = None if args.arm == "auto" else arms.get(args.arm)
+        with mock.patch.object(cli, "assess", assess), \
+                mock.patch("pesto.ot_shortlist.resolve_encoder", lambda name: "none"), \
+                mock.patch.object(cli, "route", route or (lambda *a, **k: 1 / 0)), \
+                contextlib.redirect_stderr(io.StringIO()):
+            code = cli.run_bench(args, arm, None, None)
+        with open(os.path.join(d, "out.tsv")) as fh:
+            written = list(csv.DictReader(fh, delimiter="\t"))
+    return code, seen, written
+
+
+@check("router")
+def a_bench_with_an_explicit_arm_never_touches_the_router():
+    # This crashed every pair with UnboundLocalError: `routed` was only bound
+    # when the arm was chosen by the router.
+    code, seen, written = _bench("--arm", "abstracts")
+    assert code == 0 and [r["error"] for r in written] == ["", ""], written
+    assert seen == [("abstracts", []), ("abstracts", [])], seen
+
+
+@check("router")
+def a_bench_on_auto_costs_each_pair_with_its_own_router_call():
+    calls = []
+
+    def route(args, phenotype, reader, worker):
+        calls.append(phenotype)
+        return arms.get("abstracts"), [{"model": "m", "input_tokens": 1, "output_tokens": 1}]
+
+    code, seen, written = _bench("--arm", "auto", "--router-model", "openai:gpt-6.1-sol@medium",
+                                 route=route)
+    assert code == 0 and [r["error"] for r in written] == ["", ""], written
+    assert sorted(calls) == ["p1", "p2"], calls
+    assert all(arm == "abstracts" and rows and rows[0]["step"] == "router"
+               for arm, rows in seen), seen
+
+
 # ------------------------------------------------------------------- runner
 def main():
     ap = argparse.ArgumentParser()
