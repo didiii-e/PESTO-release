@@ -22,6 +22,9 @@ _client = None
 _SDK_TAKES_TEMPERATURE = "temperature" in inspect.signature(
     anthropic.resources.messages.Messages.create).parameters
 
+# Models the API has refused a temperature for during this process.
+_REFUSES_TEMPERATURE = set()
+
 
 class LLMOverloadedError(Exception):
     """The API was still overloaded after every retry."""
@@ -51,7 +54,11 @@ def _call_anthropic(prompt: str, model: str, temperature: float,
     # Opus from 4.x on rejects the temperature parameter with a 400, so those
     # calls run at the provider default. Two identical Opus runs can therefore
     # answer differently; that is sampling, not drift.
-    omit_temperature = model.startswith("claude-opus-")
+    # The API can also stop taking it for a model that did (claude-haiku-4-5
+    # refuses it today), so a model that answers "temperature: Extra inputs are
+    # not permitted" is remembered and run at the provider default.
+    omit_temperature = (model.startswith("claude-opus-")
+                        or model in _REFUSES_TEMPERATURE)
 
     for attempt in range(LLM_MAX_RETRIES):
         try:
@@ -99,6 +106,13 @@ def _call_anthropic(prompt: str, model: str, temperature: float,
                     raise LLMOverloadedError(
                         f"Anthropic API call failed after {LLM_MAX_RETRIES} "
                         f"attempts. Last error: {e}")
+            elif (e.status_code == 400 and not omit_temperature
+                  and "temperature" in str(e).lower()):
+                _REFUSES_TEMPERATURE.add(model)
+                print(f"WARNING: {model} no longer accepts `temperature`; "
+                      f"its calls now run at the API default, so repeated "
+                      f"runs can differ.")
+                return _call_anthropic(prompt, model, temperature, max_tokens)
             else:
                 raise
 
