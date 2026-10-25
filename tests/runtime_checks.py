@@ -97,9 +97,176 @@ def main():
         print(f"ok    pubmed_rate {pace}/s key={bool(pubmed_service.NCBI_API_KEY)}")
 
     failed += expansion_cache_checks()
+    failed += summary_and_embedding_cache_checks()
 
     print("failed" if failed else "ok", failed)
     return 1 if failed else 0
+
+
+def summary_and_embedding_cache_checks():
+    """The esummary cache never keeps a failure; the embedding cache is
+    versioned by what the vectors depend on. No network, no model."""
+    import contextlib
+    import io
+
+    from pesto import ot_shortlist
+
+    failed = 0
+
+    def check(ok, label):
+        nonlocal failed
+        print(("ok    " if ok else "FAIL  ") + label)
+        failed += 0 if ok else 1
+
+    class Reply:
+        def __init__(self, body):
+            self.body = body
+
+        def json(self):
+            return self.body
+
+    replies = []
+    real = pubmed_service.make_api_request_with_retry
+    pubmed_service.make_api_request_with_retry = lambda url, params: replies.pop(0)
+    pubmed_service._SUMMARY_CACHE.clear()
+    try:
+        # A request that failed outright is None, and is not kept.
+        replies.append(None)
+        got = pubmed_service.summaries_for(["111", "222"])
+        check(got == {"111": None, "222": None}, "failed esummary reports missing, not empty")
+        check(not pubmed_service._SUMMARY_CACHE, "failed esummary is not cached")
+        # The same ids, asked again after the outage, come back.
+        replies.append(Reply({"result": {"111": {"title": "T1", "pubdate": "2020"},
+                                         "222": {"title": "T2", "pubdate": "2021"}}}))
+        got = pubmed_service.summaries_for(["111", "222"])
+        check(got["111"]["title"] == "T1" and got["222"]["title"] == "T2",
+              "the next request after a failure is a real one")
+        # An error body is a failure too; an id NCBI has nothing for is not kept.
+        pubmed_service._SUMMARY_CACHE.clear()
+        replies.append(Reply({"error": "rate limit"}))
+        check(pubmed_service.summaries_for(["333"]) == {"333": None},
+              "an error body is a failure")
+        replies.append(Reply({"result": {"uids": []}}))
+        check(pubmed_service.summaries_for(["333"]) == {"333": {}}
+              and "333" not in pubmed_service._SUMMARY_CACHE,
+              "an id with no record is empty and not kept")
+        # Articles whose summaries failed are dropped, as their search used to be.
+        replies.append(None)
+        with contextlib.redirect_stdout(io.StringIO()) as said:
+            out = pubmed_service.articles_with_summaries([{"pmid": "444"}])
+        check(out == [] and "Failed to fetch article summaries" in said.getvalue(),
+              "articles without summaries are dropped with an error, not left untitled")
+    finally:
+        pubmed_service.make_api_request_with_retry = real
+        pubmed_service._SUMMARY_CACHE.clear()
+
+    # The vector file is named for the model repository, pooling and length.
+    here = ot_shortlist.cache_stamp(ot_shortlist.BIOLORD)
+    saved = dict(ot_shortlist.ENCODERS)
+    try:
+        ot_shortlist.ENCODERS[ot_shortlist.BIOLORD] = "someone/else"
+        other = ot_shortlist.cache_stamp(ot_shortlist.BIOLORD)
+        other_path = ot_shortlist._cache_path(ot_shortlist.BIOLORD)
+    finally:
+        ot_shortlist.ENCODERS.update(saved)
+    check(here != other and here in ot_shortlist._cache_path(ot_shortlist.BIOLORD)
+          and other not in ot_shortlist._cache_path(ot_shortlist.BIOLORD)
+          and other in other_path,
+          "a different encoder repository is a different embedding cache file")
+    check(ot_shortlist.cache_stamp(ot_shortlist.BIOLORD)
+          != ot_shortlist.cache_stamp(ot_shortlist.SAPBERT),
+          "each encoder has its own cache file")
+
+    # The weights are read from a pinned commit, and the vector file knows which.
+    import re
+    revs = ot_shortlist.REVISIONS
+    check(set(revs) == set(ot_shortlist.ENCODERS)
+          and all(re.fullmatch(r"[0-9a-f]{40}", r) for r in revs.values()),
+          "every encoder is pinned to a full commit hash")
+    saved_revs = dict(revs)
+    try:
+        revs[ot_shortlist.BIOLORD] = "0" * 40
+        moved = ot_shortlist.cache_stamp(ot_shortlist.BIOLORD)
+    finally:
+        revs.update(saved_revs)
+    check(moved != ot_shortlist.cache_stamp(ot_shortlist.BIOLORD),
+          "another commit of the same model is a different embedding cache file")
+
+    import huggingface_hub
+    import transformers
+    seen = {}
+    real_probe = huggingface_hub.try_to_load_from_cache
+    classes = (transformers.AutoTokenizer, transformers.AutoModel)
+    # `from_pretrained` may be defined on the class or inherited; put it back
+    # exactly as it was.
+    own = {c: c.__dict__.get("from_pretrained") for c in classes}
+
+    class Stub:
+        def eval(self):
+            return self
+
+    def fake(label):
+        def load(name, **kw):
+            seen[label] = (name, kw.get("revision"))
+            return Stub()
+        return load
+
+    def probe(repo, filename, revision=None, **kw):
+        seen.setdefault("probe", set()).add(revision)
+        return None
+
+    transformers.AutoTokenizer.from_pretrained = staticmethod(fake("tok"))
+    transformers.AutoModel.from_pretrained = staticmethod(fake("model"))
+    huggingface_hub.try_to_load_from_cache = probe
+    try:
+        ot_shortlist.Encoder(ot_shortlist.BIOLORD)
+        ot_shortlist.cached(ot_shortlist.BIOLORD)
+    finally:
+        for c in classes:
+            if own[c] is not None:
+                setattr(c, "from_pretrained", own[c])
+            else:
+                delattr(c, "from_pretrained")
+        huggingface_hub.try_to_load_from_cache = real_probe
+    want = (ot_shortlist.ENCODERS[ot_shortlist.BIOLORD], revs[ot_shortlist.BIOLORD])
+    check(seen.get("tok") == want and seen.get("model") == want,
+          "tokenizer and weights are loaded at the pinned revision")
+    check(seen.get("probe") == {revs[ot_shortlist.BIOLORD]},
+          "the is-it-downloaded check looks for the pinned revision")
+
+    # The esummary cache is bounded, least recently used out.
+    asked = []
+
+    def serve(url, params):
+        ids = params["id"].split(",")
+        asked.append(ids)
+        return Reply({"result": {p: {"title": f"t{p}"} for p in ids}})
+
+    real_cap = pubmed_service.SUMMARY_CACHE_MAX
+    pubmed_service.make_api_request_with_retry = serve
+    pubmed_service.SUMMARY_CACHE_MAX = 3
+    pubmed_service._SUMMARY_CACHE.clear()
+    try:
+        pubmed_service.summaries_for(["1", "2", "3"])
+        pubmed_service.summaries_for(["1"])             # 1 is now the newest
+        check(not asked[1:], "a held record is not asked for again")
+        pubmed_service.summaries_for(["4"])             # evicts 2, the oldest
+        held = list(pubmed_service._SUMMARY_CACHE)
+        check(held == ["3", "1", "4"], f"least recently used goes first {held}")
+        pubmed_service.summaries_for(["2"])
+        check(asked[-1] == ["2"] and len(pubmed_service._SUMMARY_CACHE) == 3,
+              "an evicted id is fetched again and the cap holds")
+        # A request larger than the cap still answers every id.
+        big = [str(i) for i in range(100, 110)]
+        got = pubmed_service.summaries_for(big)
+        check(all(got[p] == {"title": f"t{p}"} for p in big)
+              and len(pubmed_service._SUMMARY_CACHE) == 3,
+              "a request larger than the cap loses no record")
+    finally:
+        pubmed_service.make_api_request_with_retry = real
+        pubmed_service.SUMMARY_CACHE_MAX = real_cap
+        pubmed_service._SUMMARY_CACHE.clear()
+    return failed
 
 
 def expansion_cache_checks():

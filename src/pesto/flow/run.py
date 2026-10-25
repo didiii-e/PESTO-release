@@ -182,6 +182,15 @@ def run(arm, query, synonyms=None, workers=6, cache=False, runs_dir=None,
                                             seconds=round(seconds, 1),
                                             note=f"{len(part)} articles"))
             corpus = corpus.merged(part)
+    from ..services import pubmed_service
+    if late and pubmed_service.MAX_PUBDATE:
+        # A fallback pass asks what the corpus holds, and under a date ceiling
+        # an article past it does not count (GeneReviews carries the series'
+        # date in PubMed's own filter, so only its summary says). Without a
+        # ceiling the summaries wait for the single pass below.
+        corpus = Corpus.of(
+            pubmed_service.articles_with_summaries(corpus.as_dicts()),
+            corpus.provided)
     for block in late:
         if not block.applies(corpus, terms):
             res.trace = res.trace.then(Step(block.kind, block.fingerprint(),

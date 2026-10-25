@@ -56,7 +56,10 @@ DEFAULT_MAX_SECONDARY = 10
 # Zero: the NCBI rate limit is enforced once, in pubmed_service, for the
 # whole client.
 DEFAULT_DELAY_MS = 0
-DEFAULT_WORKERS = 20
+# Pairs run at once in a batch. Measured on 20 pairs (paper/scripts/342, 343):
+# a pair takes 22-28 s up to 10 workers and 49 s at 20, where each pair waits
+# about 30 s in all at the shared NCBI rate gate, for ~15% more throughput.
+DEFAULT_WORKERS = 10
 DEFAULT_SEED = 42
 # Whether the phenotype-only model calls (synonyms, broadened name) are asked
 # once per phenotype and kept (`use`), or once per pair (`off`). See

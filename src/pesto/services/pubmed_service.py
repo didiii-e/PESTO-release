@@ -1,4 +1,5 @@
 """PubMed API client for searching and fetching articles."""
+import collections
 import random
 import re
 import threading
@@ -23,7 +24,11 @@ _SESSION = pooled_session()
 # esummary records, keyed by PMID. Four search passes used to each fetch
 # titles for their own id list; after the merge a PMID is asked for once.
 _SUMMARY_LOCK = threading.Lock()
-_SUMMARY_CACHE = {}
+# Least recently used first. A full record is about 6 KiB in memory, so the cap
+# bounds the cache near 60 MB however long the process (`pesto browser`) runs.
+# One pair needs a couple of hundred, so the cap costs a batch nothing it uses.
+_SUMMARY_CACHE = collections.OrderedDict()
+SUMMARY_CACHE_MAX = 10_000
 SUMMARY_CHUNK = 200
 
 # Optional publication-date ceiling for ALL PubMed esearch queries. When set
@@ -466,7 +471,8 @@ def pubmed_rate():
 
 
 def summaries_for(pmids):
-    """esummary records keyed by PMID, cached for the life of the process."""
+    """esummary records keyed by PMID, in a cache of at most SUMMARY_CACHE_MAX
+    (least recently used out). None marks an id whose request failed."""
     wanted = []
     seen = set()
     for p in pmids:
@@ -476,9 +482,18 @@ def summaries_for(pmids):
             wanted.append(p)
     if not wanted:
         return {}
+    # What is already held is taken now, and the answer is built from these
+    # references and the fresh fetch alone, so another thread evicting entries
+    # meanwhile (or a request larger than the cap) cannot lose a record.
+    held = {}
     with _SUMMARY_LOCK:
-        missing = [p for p in wanted if p not in _SUMMARY_CACHE]
-    fetched = {}
+        for p in wanted:
+            rec = _SUMMARY_CACHE.get(p)
+            if rec is not None:
+                _SUMMARY_CACHE.move_to_end(p)
+                held[p] = rec
+    missing = [p for p in wanted if p not in held]
+    fetched, failed = {}, set()
     for i in range(0, len(missing), SUMMARY_CHUNK):
         chunk = missing[i:i + SUMMARY_CHUNK]
         params = {
@@ -490,16 +505,28 @@ def summaries_for(pmids):
             params["api_key"] = NCBI_API_KEY
         resp = make_api_request_with_retry(f"{BASE_URL_NCBI}esummary.fcgi", params)
         try:
-            result = resp.json().get("result", {}) if resp is not None else {}
+            result = resp.json().get("result") if resp is not None else None
         except ValueError:
-            result = {}
+            result = None
+        if not isinstance(result, dict):
+            # The request failed, or NCBI answered with an error body. That is
+            # not an answer about these PMIDs: it is reported as missing (None)
+            # and never kept, or one bad moment would be served to every pair
+            # that follows for the life of the process.
+            failed.update(chunk)
+            continue
         for p in chunk:
             fetched[p] = result.get(p) or {}
-    if fetched:
-        with _SUMMARY_LOCK:
-            _SUMMARY_CACHE.update(fetched)
     with _SUMMARY_LOCK:
-        return {p: _SUMMARY_CACHE.get(p) or {} for p in wanted}
+        # Only a record is kept; an id NCBI had nothing for is asked again.
+        for p, rec in fetched.items():
+            if rec:
+                _SUMMARY_CACHE[p] = rec
+                _SUMMARY_CACHE.move_to_end(p)
+        while len(_SUMMARY_CACHE) > SUMMARY_CACHE_MAX:
+            _SUMMARY_CACHE.popitem(last=False)
+    return {p: None if p in failed else (held.get(p) or fetched.get(p) or {})
+            for p in wanted}
 
 
 def articles_with_summaries(articles):
@@ -507,16 +534,25 @@ def articles_with_summaries(articles):
     if not articles:
         return []
     info = summaries_for(a.get("pmid") for a in articles)
-    out = []
+    out, lost = [], 0
     for article in articles:
         pmid = str(article.get("pmid") or "")
-        rec = info.get(pmid) or {}
+        rec = info.get(pmid)
+        if rec is None and pmid:
+            # The summary request itself failed. A search whose summaries did
+            # not arrive used to return nothing at all, rather than untitled
+            # articles that title de-duplication would fold into one.
+            lost += 1
+            continue
+        rec = rec or {}
         if MAX_PUBDATE and str(rec.get("sortpubdate") or "")[:10] > MAX_PUBDATE:
             continue
         row = dict(article)
         row["title"] = rec.get("title") or article.get("title") or "No title found"
         row["pubdate"] = rec.get("pubdate") or article.get("pubdate") or "No date"
         out.append(row)
+    if lost:
+        print(f"ERROR: Failed to fetch article summaries for {lost} articles")
     return _filter_articles_by_pubdate_cap(out)
 
 

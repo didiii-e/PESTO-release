@@ -29,6 +29,7 @@ but the model weights, which HuggingFace caches.
 from __future__ import annotations
 
 import atexit
+import hashlib
 import logging
 import os
 import threading
@@ -44,8 +45,21 @@ ENCODERS = {
     BIOLORD: "FremyCompany/BioLORD-2023",
     SAPBERT: "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
 }
+# The exact commit of each repository the weights are read from. Without it,
+# `from_pretrained` follows the repository's main branch, so a later install
+# (or a cleared cache) could rank traits with different weights than the paper
+# did while every setting here read the same. BioLORD is the commit every run
+# so far used; changing a revision changes the embedding cache file name (see
+# cache_stamp), so vectors from another commit are never reused. Moving one is
+# a deliberate act: bump it, rerun tests/replay.py, and say so in the changelog.
+REVISIONS = {
+    BIOLORD: "167aab527b238a50ca65224e6319215d2ff4fc9f",
+    SAPBERT: "090663c3ae57bf35ffe4d0d468a2a88d03051a4d",
+}
 # The names a caller may pass, including the one that turns the filter off.
 CHOICES = (BIOLORD, SAPBERT, NONE)
+# Tokens kept of a trait name. Part of what a cached vector means.
+ENCODE_MAX_LENGTH = 32
 
 _LOADED = {}
 # Serialises the first load. Without it a threadpool that opens on many pairs at
@@ -90,11 +104,12 @@ class Encoder:
             ) from exc
         name = ENCODERS[key]
         self.torch = torch
-        self.tok = AutoTokenizer.from_pretrained(name)
-        self.model = AutoModel.from_pretrained(name).eval()
+        rev = REVISIONS[key]
+        self.tok = AutoTokenizer.from_pretrained(name, revision=rev)
+        self.model = AutoModel.from_pretrained(name, revision=rev).eval()
         self.pool = "cls" if key == SAPBERT else "mean"
 
-    def encode(self, texts, batch=256, max_length=32):
+    def encode(self, texts, batch=256, max_length=ENCODE_MAX_LENGTH):
         out = np.zeros((len(texts), self.model.config.hidden_size),
                        dtype=np.float32)
         with self.torch.no_grad():
@@ -126,12 +141,14 @@ def cached(key):
     """
     try:
         from huggingface_hub import try_to_load_from_cache
-        repo = ENCODERS[key]
-        weights = any(try_to_load_from_cache(repo, f) not in (None, False)
-                      for f in ("model.safetensors", "pytorch_model.bin"))
-        tokens = any(try_to_load_from_cache(repo, f) not in (None, False)
-                     for f in ("tokenizer.json", "vocab.txt"))
-        config = try_to_load_from_cache(repo, "config.json") not in (None, False)
+        repo, rev = ENCODERS[key], REVISIONS[key]
+
+        def have(f):
+            return try_to_load_from_cache(repo, f, revision=rev) not in (None, False)
+
+        weights = any(have(f) for f in ("model.safetensors", "pytorch_model.bin"))
+        tokens = any(have(f) for f in ("tokenizer.json", "vocab.txt"))
+        config = have("config.json")
         return bool(weights and tokens and config)
     except Exception:
         return False
@@ -225,10 +242,25 @@ _VECTOR_LOCK = threading.Lock()
 _SAVED = {}            # encoder key -> how many vectors the file already holds
 
 
+CACHE_SCHEMA = 1   # bump if what a stored vector means changes outside the stamp
+
+
+def cache_stamp(key):
+    """What a stored vector depends on besides the name it is for: the model
+    repository and the commit of it that is read, how it is pooled, how long a
+    name may be, and the schema. A file written under any other combination has
+    a different name and is never read, so editing ENCODERS, REVISIONS or
+    encode() cannot hand out the old vectors."""
+    pool = "cls" if key == SAPBERT else "mean"
+    blob = (f"{ENCODERS[key]}@{REVISIONS[key]}|{pool}|{ENCODE_MAX_LENGTH}"
+            f"|unit|{CACHE_SCHEMA}")
+    return hashlib.sha256(blob.encode("utf-8")).hexdigest()[:10]
+
+
 def _cache_path(key):
     from . import config
     return os.path.join(config.PROJECT_ROOT, "cache",
-                        f"ot_embeddings_{key}.npz")
+                        f"ot_embeddings_{key}_{cache_stamp(key)}.npz")
 
 
 def _known(key):
