@@ -1,0 +1,116 @@
+{
+  "recorded_at": "2026-10-25T00:49:16.614698-04:00",
+  "git": {
+    "branch": "feature/llm-provider-support",
+    "commit": "95c6ddeaac37b7e7390eac19516c302e53415911",
+    "commit_subject": "Fix: --bench with an explicit --arm crashed every pair on `routed`",
+    "working_tree_clean": true,
+    "history": [
+      "95c6dde Fix: --bench with an explicit --arm crashed every pair on `routed`",
+      "2bf9b41 Provider support: run PESTO on OpenAI models as well as Anthropic's",
+      "447e435 Fix: retry without temperature when the API refuses it for a model",
+      "275b902 Tests: pin the Anthropic request behaviour of the LLM layer"
+    ]
+  },
+  "offline_tests_before_benchmark": {
+    "tests/anthropic_requests.py": "21/21 unchanged",
+    "tests/anthropic_temperature.py": "3/3 passed",
+    "tests/llm_providers.py": "59/59 passed, 0 skipped",
+    "tests/replay.py": "137/137 unchanged"
+  },
+  "environment": {
+    "python": "3.12.5",
+    "platform": "macOS-15.1-arm64-arm-64bit",
+    "interpreter": "/Users/dinan_elsyad/venvs/pesto-providers/bin/python",
+    "anthropic_sdk": "2.3.0",
+    "openai_sdk": "3.37.0",
+    "torch": "2.4.0"
+  },
+  "pairs": {
+    "file": "pairs.tsv",
+    "n": 60,
+    "sha256": "bb2643c71bee3ab0c5f62335f23fdb0c069e39f7da81e192d0b073027b670f98",
+    "design": "15 Established, 15 Existing, 15 Hypothesized, 15 Novel (by saved consensus); 22 borderline; 14 trait-arm"
+  },
+  "families": {
+    "claude": {
+      "cli_flags": [
+        "--arm auto",
+        "--router-model opus5",
+        "--no-cache",
+        "--workers 3"
+      ],
+      "models": {
+        "reader/synonyms/router/ot_reader": "claude-opus-5",
+        "sieve/broaden/ot_gate": "claude-haiku-4-5"
+      },
+      "prices": {
+        "claude-opus-5": {
+          "usd_per_M_in": 5.0,
+          "usd_per_M_out": 25.0
+        },
+        "claude-haiku-4-5": {
+          "usd_per_M_in": 1.0,
+          "usd_per_M_out": 5.0
+        }
+      }
+    },
+    "openai": {
+      "cli_flags": [
+        "--arm auto",
+        "--model openai:gpt-6.1-sol",
+        "--model-fast openai:gpt-6-luna",
+        "--router-model openai:gpt-6.1-sol",
+        "--ot-gate-model openai:gpt-6-luna",
+        "--ot-reader-model openai:gpt-6.1-sol",
+        "--no-cache",
+        "--workers 3"
+      ],
+      "models": {
+        "reader/synonyms/router/ot_reader": "openai:gpt-6.1-sol (reasoning effort medium)",
+        "sieve/broaden/ot_gate": "openai:gpt-6-luna (reasoning effort low)"
+      },
+      "canonical": [
+        "openai:gpt-6.1-sol@medium",
+        "openai:gpt-6-luna@low"
+      ],
+      "prices": {
+        "openai:gpt-6.1-sol": {
+          "usd_per_M_in": 2.0,
+          "usd_per_M_out": 10.0
+        },
+        "openai:gpt-6-luna": {
+          "usd_per_M_in": 0.1,
+          "usd_per_M_out": 0.5
+        }
+      }
+    }
+  },
+  "max_date": {
+    "value": null,
+    "reason": "--max-date skips Open Targets entirely (cli.open_targets returns 'not run: --max-date'), and Open Targets is a required comparison axis. Both families therefore run on the current PubMed, concurrently, over the same table in the same order, and retrieval overlap is reported."
+  },
+  "stages": [
+    "E2E r1: 60 pairs x 2 families (fresh, --no-cache)",
+    "Frozen: Luna sieve on Claude pool; Sol/Opus readers on both packets; router compared on identical phenotype strings",
+    "Stability: 12 pairs x 2 extra runs per family"
+  ],
+  "budget": {
+    "expected_usd": 25,
+    "approved": true,
+    "hard_stop_usd": 40,
+    "soft_stop_usd": 34
+  },
+  "instrumentation": "~/pesto_cmp/instr.py: passive recorders (provider calls, pool, bands, trace, router, timing); no prompt/model/setting changes",
+  "frozen_tree_note": "benchmark code = commit above, tree clean at launch; instrumentation lives outside the repo",
+  "completed": {
+    "total_spend_usd": 26.02,
+    "cap_usd": 40,
+    "commit": "95c6ddeaac37b7e7390eac19516c302e53415911",
+    "reports": [
+      "report_e2e.md",
+      "report_frozen.md"
+    ],
+    "note": "no prompts/models/reasoning/logic changed during benchmark"
+  }
+}
