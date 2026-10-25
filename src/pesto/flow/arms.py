@@ -176,7 +176,12 @@ def get(name):
     return ARMS[name].validate()
 
 
-def choose(phenotype, model="opus5", family="abstracts"):
+# The model that tells a disease from a trait when the arm is `auto`. Not part
+# of any arm, so --model does not reach it.
+ROUTER_MODEL = "opus5"
+
+
+def choose(phenotype, model=ROUTER_MODEL, family="abstracts"):
     """The disease arm of a family if the name is a disease, its trait arm
     otherwise. One Opus call decides."""
     disease, trait = FAMILIES[family]
@@ -184,7 +189,7 @@ def choose(phenotype, model="opus5", family="abstracts"):
     return ARMS[disease] if kind == "disease" else ARMS[trait]
 
 
-def resolve(name, phenotype, model="opus5", family="abstracts"):
+def resolve(name, phenotype, model=ROUTER_MODEL, family="abstracts"):
     """An explicit arm, or the variant of `family` the triage call picks."""
     if name in (None, "", AUTO):
         return choose(phenotype, model, family).validate()

@@ -65,10 +65,11 @@ def _check_ncbi_key(key):
 
 
 def _use_key(key):
-    from ..services import llm_service
+    from ..services import providers
     with _KEY_LOCK:
         os.environ["ANTHROPIC_API_KEY"] = key
-        llm_service._client = None
+        # A client built on the earlier key (or on none) must not outlive it.
+        providers.get("anthropic").reset()
         _KEY_FROM_PAGE["set"] = True
 
 

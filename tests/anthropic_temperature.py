@@ -22,7 +22,7 @@ sys.path.insert(0, HERE)
 os.environ.setdefault("PESTO_PROJECT_ROOT", os.path.join(HERE, "fixtures"))
 
 import anthropic_requests as ar  # noqa: E402
-from pesto.services import llm_service  # noqa: E402
+from pesto.services.providers import anthropic_provider  # noqa: E402
 
 RESULTS = []
 
@@ -34,7 +34,7 @@ def check(fn):
 
 def refusals():
     """The set of models the API has refused a temperature for."""
-    return llm_service._REFUSES_TEMPERATURE
+    return anthropic_provider._REFUSES_TEMPERATURE
 
 
 @contextlib.contextmanager

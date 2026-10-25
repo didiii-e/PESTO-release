@@ -164,5 +164,6 @@ def _stopwatch(res):
                 input_tokens=spent["input_tokens"],
                 output_tokens=spent["output_tokens"],
                 usd=spent["usd"],
-                calls=spent["calls"]))
+                calls=spent["calls"],
+                unpriced=tuple(spent["unpriced"])))
     return _Timer

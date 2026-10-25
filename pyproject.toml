@@ -30,6 +30,12 @@ dependencies = [
     "transformers>=4.30",
 ]
 
+[project.optional-dependencies]
+# OpenAI models (`--model openai:gpt-6-luna`). Anthropic is the default and
+# needs nothing here. 2.47 is the first SDK that types every reasoning effort
+# the GPT-6 models accept; it uses the Responses API, which PESTO calls.
+openai = ["openai>=2.47"]
+
 [project.urls]
 Homepage = "https://github.com/jeremyguez/PESTO-release"
 Source = "https://github.com/jeremyguez/PESTO-release"

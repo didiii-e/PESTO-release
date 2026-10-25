@@ -28,25 +28,32 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 
 from . import config
-from .credentials import anthropic_api_key
 
 CREDENTIALS_SOURCE = ("https://github.com/jeremyguez/PESTO-release/blob/main/"
                       "src/pesto/credentials.py")
 
 KEY_HELP = """\
-No Anthropic API key found. PESTO reads the literature with Claude, so it needs
-one, from console.anthropic.com:
+No {label} API key found, and this run calls {used}.
+{why}Get a key from {key_url}:
 
-  export ANTHROPIC_API_KEY=sk-ant-...
+  export {key_env}={key_example}
+"""
 
+KEY_FOOTER = """\
 or the same line, without `export`, in a .env file you create here:
   {env_path}
 
-The key stays on this machine. PESTO never writes it to disk, never prints it
-and never stores it in a saved run; it is handed only to the official Anthropic
-client, which sends it to api.anthropic.com. The code that reads it is short:
+A key stays on this machine. PESTO never writes it to disk, never prints it
+and never stores it in a saved run; each is handed only to its vendor's
+official client, which sends it to that vendor ({hosts}) and nowhere else.
+The code that reads them is short:
   {source}
 """
+
+# Why the run calls a model, in the words a person would use for it.
+ROUTER_WHY = ("`--arm auto` asks {model} whether the phenotype is a disease or "
+              "a trait. Name another model with --router-model, or pass "
+              "`--arm abstracts` or `--arm abstracts-trait`, which ask none.\n")
 
 
 def pick_models(reader, worker):
@@ -54,12 +61,134 @@ def pick_models(reader, worker):
 
     An arm names the models its published numbers were produced by. Passing
     --model or --model-fast swaps them, and the fingerprint records that it did.
+    A bare name is an Anthropic model; `openai:NAME[@effort]` is an OpenAI one.
+    A spec that cannot run is refused here, before anything is fetched or paid for.
     """
-    if not anthropic_api_key():
-        raise SystemExit(KEY_HELP.format(
-            env_path=os.path.join(config.PROJECT_ROOT, ".env"),
-            source=CREDENTIALS_SOURCE))
+    from .services import providers
+    for flag, spec in (("--model", reader), ("--model-fast", worker)):
+        if spec:
+            try:
+                providers.validate(spec)
+            except ValueError as exc:
+                raise SystemExit(f"pesto: {flag}: {exc}")
     return reader or None, worker or None
+
+
+def needed_models(args, arm, fitted):
+    """Every model this command would call, with why: {spec: [reasons]}.
+
+    `arm` is None for `--arm auto`, in which case both arms of the family are
+    candidates and the router is called. The keys asked for are the keys of
+    these models and no others: a run on OpenAI models needs no Anthropic key
+    unless one of the calls above is Anthropic's.
+    """
+    from .flow import arms
+    needed = {}
+
+    def need(spec, why):
+        needed.setdefault(spec, []).append(why)
+
+    if arm is None:
+        need(router_model_of(args), "the `--arm auto` router")
+        for name in arms.FAMILIES[family_of(args)]:
+            for spec in fitted(name).models():
+                need(spec, "the literature arm")
+    else:
+        for spec in arm.models():
+            need(spec, "the literature arm")
+    if not getattr(args, "max_date", None):
+        gate_model, reader_model = ot_models_of(args)
+        need(reader_model, "the Open Targets reader")
+        if not getattr(args, "no_ot_gate", False) and config.OT_GATE:
+            need(gate_model, "the Open Targets gate")
+    return needed
+
+
+def ot_models_of(args):
+    """The Open Targets gate and reader this command asks for, as canonical
+    specs, or a refusal naming the flag whose value cannot run."""
+    from .services import providers
+    gate = getattr(args, "ot_gate_model", None)
+    reader = getattr(args, "ot_reader_model", None)
+    for flag, spec in (("--ot-gate-model", gate), ("--ot-reader-model", reader)):
+        if spec:
+            try:
+                providers.validate(spec)
+            except ValueError as exc:
+                raise SystemExit(f"pesto: {flag}: {exc}")
+    return config.ot_models(gate, reader)
+
+
+def providers_canonical(spec):
+    from .services import providers
+    return providers.canonical(spec)
+
+
+def router_model_of(args):
+    """The model that tells a disease from a trait under `--arm auto`: the one
+    the paper used unless --router-model names another. A refusal names the
+    flag if its value cannot run."""
+    from .flow import arms
+    from .services import providers
+    spec = getattr(args, "router_model", None)
+    if not spec:
+        return arms.ROUTER_MODEL
+    try:
+        providers.validate(spec)
+    except ValueError as exc:
+        raise SystemExit(f"pesto: --router-model: {exc}")
+    return spec
+
+
+def route(args, phenotype, reader, worker):
+    """The arm `--arm auto` picks for this phenotype, and what the router spent.
+
+    Returns (arm, usage_rows). The router is not part of any arm, so it is not
+    in an arm's fingerprint and not in the cache key of a run: a stored run is
+    valid whichever router sent the pair to its arm. Its model is recorded with
+    the result instead (`router_model` in --json, a `router` line in the cost
+    table).
+    """
+    from .cost import capturing
+    from .flow import arms
+    with capturing() as spent:
+        chosen = arms.resolve(arms.AUTO, phenotype, model=router_model_of(args),
+                              family=family_of(args))
+    return fit(chosen, args, reader, worker), spent.rows
+
+
+def router_cost_rows(args, gene, phenotype, usage_rows):
+    """The router's cost lines, when a router was asked for by name.
+
+    With the default router they are left out, as they always have been, so
+    that the cost of a default run is the figure it has always been. Naming a
+    router is a choice about cost, and the cost is then shown."""
+    from .cost import from_usage
+    if not getattr(args, "router_model", None):
+        return []
+    return from_usage(gene, phenotype, "router", usage_rows)
+
+
+def require_keys(needed):
+    """Stop, before anything is fetched or paid for, if a model this run calls
+    belongs to a provider whose key is missing. Says which, and why."""
+    from .services import providers
+    missing = providers.missing_keys(needed)
+    if not missing:
+        return
+    blocks = []
+    for provider in missing:
+        specs = sorted(s for s in needed if providers.resolve(s).provider is provider)
+        why = "".join(ROUTER_WHY.format(model=s)
+                      for s in specs if "the `--arm auto` router" in needed[s])
+        blocks.append(KEY_HELP.format(
+            label=provider.label, used=", ".join(specs), why=why,
+            key_url=provider.key_url, key_env=provider.key_env,
+            key_example=provider.key_example))
+    raise SystemExit("\n".join(blocks) + "\n" + KEY_FOOTER.format(
+        env_path=os.path.join(config.PROJECT_ROOT, ".env"),
+        hosts=", ".join(sorted({p.host for p in missing})),
+        source=CREDENTIALS_SOURCE))
 
 
 # What the Open Targets columns say when --max-date kept that branch from running.
@@ -114,6 +243,8 @@ def open_targets(gene, phenotype, synonyms, model, runs_dir, args=None):
         matcher=getattr(args, "ot_matcher", None),
         encoder=getattr(args, "ot_encoder", None),
         top_k=getattr(args, "ot_top", None),
+        gate_model=getattr(args, "ot_gate_model", None),
+        reader_model=getattr(args, "ot_reader_model", None),
         # The flags read the other way round from the parameters, so that both
         # read naturally where they are written: `--no-ot-gate` on the command
         # line, `gate=False` in the call.
@@ -174,7 +305,7 @@ def read_bench(path):
     return rows
 
 
-def assess(arm, gene, phenotype, args, worker, flow_dir):
+def assess(arm, gene, phenotype, args, worker, flow_dir, router_rows=()):
     """One pair: literature, then Open Targets. Same path as a single call."""
     from .flow import run as flow_run
     from .flow.types import Query
@@ -212,7 +343,8 @@ def assess(arm, gene, phenotype, args, worker, flow_dir):
         "justification": (result.verdict.justification or "").replace("\t", " "),
         "error": "",
         "_cost": with_total(
-            from_trace(gene, phenotype, result.trace, result.cached)
+            list(router_rows)
+            + from_trace(gene, phenotype, result.trace, result.cached)
             + from_ot_tokens(gene, phenotype, ot_tokens,
                              cached=bool(ot_match.get("cached"))),
             gene, phenotype, result.cached),
@@ -328,10 +460,10 @@ def run_bench(args, arm, worker, reader=None):
         chosen = arm
         if chosen is None:
             with contextlib.redirect_stdout(io.StringIO()):
-                chosen = fit(arms.resolve(arms.AUTO, pheno, family=family),
-                             args, reader, worker)
+                chosen, routed = route(args, pheno, reader, worker)
         try:
-            row = assess(chosen, gene, pheno, args, worker, flow_dir)
+            row = assess(chosen, gene, pheno, args, worker, flow_dir,
+                         router_rows=router_cost_rows(args, gene, pheno, routed))
         except Exception as exc:
             row = {k: "" for k in fields}
             row.update({"gene": gene, "phenotype": pheno,
@@ -421,16 +553,27 @@ def build_parser():
                         "`abstracts-bare`, `abstracts-open` and "
                         "`abstracts-score` are the paper's comparisons "
                         "(default: %(default)s)")
+    p.add_argument("--router-model", metavar="MODEL",
+                   help="with --arm auto, the model that tells a disease from "
+                        "a trait (default: claude-opus-5). Same spelling as "
+                        "--model, e.g. openai:gpt-6.1-sol@medium. Not part of "
+                        "any arm's fingerprint: it only chooses the arm. Its "
+                        "cost is shown as a `router` line in the cost table "
+                        "when it is set")
     p.add_argument("--fulltext", action="store_true",
                    help="with --arm auto, choose between `fulltext` and "
                         "`fulltext-trait` instead")
-    p.add_argument("--model", metavar="ID",
-                   help="Anthropic model that reads the corpus (default: the "
-                        "arm's own, claude-opus-5)")
-    p.add_argument("--model-fast", metavar="ID",
-                   help="Anthropic model for the cheap steps: expanding the "
+    p.add_argument("--model", metavar="MODEL",
+                   help="model that reads the corpus (default: the arm's own, "
+                        "claude-opus-5). A bare name is an Anthropic model; "
+                        "`openai:NAME[@EFFORT]` is an OpenAI one, e.g. "
+                        "openai:gpt-6.1-sol@medium. Needs that provider's "
+                        "API key. Does not change the Open Targets models")
+    p.add_argument("--model-fast", metavar="MODEL",
+                   help="model for the cheap steps: expanding the "
                         "phenotype, sieving and banding (default: the arm's "
-                        "own, claude-haiku-4-5 and claude-opus-5 for synonyms)")
+                        "own, claude-haiku-4-5 and claude-opus-5 for synonyms). "
+                        "Same spelling as --model, e.g. openai:gpt-6-luna")
     p.add_argument("--max-date", metavar="DATE",
                    help="search only articles published up to this date: "
                         "YYYY, YYYY/MM or YYYY/MM/DD (2019 means 2019/12/31), "
@@ -474,6 +617,14 @@ def build_parser():
     p.add_argument("--no-ot-gate", action="store_true",
                    help="grade every shortlisted trait, without first letting "
                         "a cheap model remove the plainly unrelated ones")
+    p.add_argument("--ot-gate-model", metavar="MODEL",
+                   help="model that sieves the shortlist (default: %s). Same "
+                        "spelling as --model. A different model is a "
+                        "different Open Targets cache entry"
+                        % config.OT_PUBLISHED_GATE_MODEL)
+    p.add_argument("--ot-reader-model", metavar="MODEL",
+                   help="model that grades each shortlisted trait (default: "
+                        "%s). Same spelling as --model" % config.OT_PUBLISHED_READER_MODEL)
     p.add_argument("--ot-reasons", action="store_true",
                    help="make the grader state why each trait got its tag. "
                         "Costs more and holds the grading up, so it is worth "
@@ -524,6 +675,9 @@ def main(argv=None):
             file=sys.stderr)
     elif args.no_date_note:
         raise SystemExit("pesto: --no-date-note only applies with --max-date")
+    if args.router_model and args.arm != "auto":
+        raise SystemExit("pesto: --router-model only applies with --arm auto "
+                         f"(this run uses --arm {args.arm}, which asks no router)")
     if (not config.TORCH_INSTALLED and not args.ot_encoder and not args.max_date
             and not os.environ.get("OT_ENCODER") and not args.show_pipeline):
         print("pesto: PyTorch is not installed, so the Open Targets branch grades "
@@ -531,10 +685,7 @@ def main(argv=None):
               "which costs up to about $0.50 a pair for well-studied genes. See "
               "'Without PyTorch' in the README.", file=sys.stderr)
     # Describing a pipeline calls nothing, so it needs no key.
-    if args.show_pipeline:
-        reader, worker = args.model, args.model_fast or args.model
-    else:
-        reader, worker = pick_models(args.model, args.model_fast or args.model)
+    reader, worker = pick_models(args.model, args.model_fast or args.model)
 
     logging.basicConfig(
         stream=sys.stderr, format="%(message)s",
@@ -560,6 +711,9 @@ def main(argv=None):
         else:
             print(arm.describe())
         return 0
+    # Now that the arm is known: a key for each provider it will call, and
+    # none for one it will not.
+    require_keys(needed_models(args, arm, fitted))
 
     if args.bench:
         if args.gene or args.phenotype:
@@ -583,19 +737,21 @@ def main(argv=None):
     chatter = io.StringIO()
     try:
         with contextlib.redirect_stdout(chatter):
+            routed = []
             if auto:
-                arm = fit(arms.resolve(arms.AUTO, args.phenotype,
-                                       family=family_of(args)),
-                          args, reader, worker)
+                arm, routed = route(args, args.phenotype, reader, worker)
             result = flow_run.run(arm, query, cache=not args.no_cache)
             ot_verdict, ot_score, ot_tokens, ot_match = open_targets(
                 args.gene, args.phenotype, result.terms.get("synonyms"),
                 worker or config.DEFAULT_MODEL, args.data_dir, args)
     except Exception as exc:
         sys.stderr.write(chatter.getvalue())
-        if type(exc).__name__ == "AuthenticationError":
-            print("pesto: the Anthropic API refused the key in ANTHROPIC_API_KEY "
-                  "(401). Check it at console.anthropic.com.", file=sys.stderr)
+        from .services import providers
+        refused = providers.auth_failure(exc)
+        if refused:
+            print(f"pesto: the {refused.label} API refused the key in "
+                  f"{refused.key_env} (401). Check it at {refused.key_url}.",
+                  file=sys.stderr)
         else:
             print(f"pesto: {type(exc).__name__}: {exc}", file=sys.stderr)
         return 1
@@ -604,7 +760,8 @@ def main(argv=None):
 
     from .cost import from_ot_tokens, from_trace, with_total
     cost_rows = with_total(
-        from_trace(args.gene, args.phenotype, result.trace, result.cached)
+        router_cost_rows(args, args.gene, args.phenotype, routed)
+        + from_trace(args.gene, args.phenotype, result.trace, result.cached)
         + from_ot_tokens(args.gene, args.phenotype, ot_tokens,
                          cached=bool(ot_match.get("cached"))),
         args.gene, args.phenotype, result.cached)
@@ -614,6 +771,8 @@ def main(argv=None):
         print(json.dumps({
             "gene": args.gene, "phenotype": args.phenotype,
             "arm": arm.name, "fingerprint": result.fingerprint,
+            "router_model": (providers_canonical(router_model_of(args))
+                             if auto else None),
             "max_date": arm.max_date or None,
             "notes": list(getattr(arm.read, "notes", ())),
             "verdict": result.verdict.call,
@@ -632,7 +791,10 @@ def main(argv=None):
     else:
         print(render(result, ot_verdict, arm, show_reasoning=True))
         if total:
-            print(f"\n  cost  ${float(total['usd']):.4f}  "
+            # An empty usd is a model with no price, not a free run.
+            spent = (f"${float(total['usd']):.4f}" if total["usd"] not in ("", None)
+                     else "unpriced (a model used has no price in config.MODEL_PRICES)")
+            print(f"\n  cost  {spent}  "
                   f"({total['input_tokens']} in / {total['output_tokens']} out)")
     return 0
 

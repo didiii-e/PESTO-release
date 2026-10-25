@@ -65,8 +65,11 @@ class capturing:
     def summary(self, declared_model=None):
         inn = sum(r["input_tokens"] for r in self.rows)
         out = sum(r["output_tokens"] for r in self.rows)
-        usd = sum(price_usd(r["model"], r["input_tokens"], r["output_tokens"])
-                  for r in self.rows)
+        priced = [(r, price_usd(r["model"], r["input_tokens"], r["output_tokens"]))
+                  for r in self.rows]
+        usd = sum(p for _, p in priced if p is not None)
+        # Models with no price are named, never charged at another model's rate.
+        unpriced = sorted({r["model"] or "(unnamed)" for r, p in priced if p is None})
         models = [r["model"] for r in self.rows if r["model"]]
         model = declared_model
         if not model and models:
@@ -74,7 +77,8 @@ class capturing:
         return {
             "input_tokens": inn,
             "output_tokens": out,
-            "usd": round(usd, 6),
+            "usd": round(usd, 6),          # the priced calls only; see unpriced
+            "unpriced": unpriced,
             "calls": len(self.rows),
             "model": model,
         }
@@ -82,12 +86,14 @@ class capturing:
 
 def row(gene, phenotype, step, model, calls, input_tokens, output_tokens,
         usd, cached):
+    """One line of the cost table. `usd` of None is an unpriced call, written as
+    an empty cell: a number there would be a claim about a price nobody gave."""
     return {
         "gene": gene, "phenotype": phenotype, "step": step,
         "model": model or "", "calls": int(calls or 0),
         "input_tokens": int(input_tokens or 0),
         "output_tokens": int(output_tokens or 0),
-        "usd": f"{float(usd or 0):.6f}",
+        "usd": "" if usd is None else f"{float(usd):.6f}",
         "cached": bool(cached),
     }
 
@@ -100,10 +106,11 @@ def from_trace(gene, phenotype, trace, cached=False):
         out = int(getattr(step, "output_tokens", 0) or 0)
         if inn == 0 and out == 0:
             continue
+        unpriced = getattr(step, "unpriced", ()) or ()
         rows.append(row(
             gene, phenotype, step.block, step.model,
             getattr(step, "calls", 0) or 0, inn, out,
-            getattr(step, "usd", 0) or 0, cached))
+            None if unpriced else (getattr(step, "usd", 0) or 0), cached))
     return rows
 
 
@@ -111,7 +118,12 @@ def from_ot_tokens(gene, phenotype, tokens, cached=False):
     """The two tagged-shortlist calls, if that matcher ran."""
     if not tokens:
         return []
-    from .ot_matcher import BROAD_MODEL, GATE_MODEL
+    from .ot_matcher import BROAD_MODEL as PUBLISHED_READER
+    from .ot_matcher import GATE_MODEL as PUBLISHED_GATE
+    # The models that gave the counts. Records written before the models were
+    # configurable carry none, and were made by the published pair.
+    GATE_MODEL = tokens.get("gate_model") or PUBLISHED_GATE
+    BROAD_MODEL = tokens.get("read_model") or PUBLISHED_READER
     out = []
     gate_in, gate_out = tokens.get("gate_in") or 0, tokens.get("gate_out") or 0
     if gate_in or gate_out:
@@ -132,15 +144,32 @@ def from_ot_tokens(gene, phenotype, tokens, cached=False):
     return out
 
 
+def from_usage(gene, phenotype, step, usage_rows, cached=False):
+    """One line per model for calls captured outside a block (`capturing().rows`),
+    such as the `--arm auto` router, priced like any other call."""
+    by_model = {}
+    for r in usage_rows or ():
+        n = by_model.setdefault(r["model"], [0, 0, 0])
+        n[0] += 1
+        n[1] += r["input_tokens"]
+        n[2] += r["output_tokens"]
+    return [row(gene, phenotype, step, model, calls, inn, out,
+                price_usd(model, inn, out), cached)
+            for model, (calls, inn, out) in sorted(by_model.items())]
+
+
 def with_total(rows, gene, phenotype, cached=False):
     if not rows:
         return [row(gene, phenotype, "total", "", 0, 0, 0, 0, cached)]
+    # One unpriced line makes the total unpriced: a sum of the other lines would
+    # read as the cost of the pair and be less than it.
+    unpriced = any(r["usd"] in ("", None) for r in rows)
     return list(rows) + [row(
         gene, phenotype, "total", "",
         sum(int(r["calls"]) for r in rows),
         sum(int(r["input_tokens"]) for r in rows),
         sum(int(r["output_tokens"]) for r in rows),
-        sum(float(r["usd"]) for r in rows),
+        None if unpriced else sum(float(r["usd"]) for r in rows),
         cached)]
 
 

@@ -153,12 +153,60 @@ or put the same line, without `export`, in `~/.local/share/pesto/.env`.
 and never stores it in a saved run. It is read in one place,
 [`src/pesto/credentials.py`](src/pesto/credentials.py), and handed only to the
 official `anthropic` client in
-[`src/pesto/services/llm_service.py`](src/pesto/services/llm_service.py), which
-sends it to `api.anthropic.com` and nowhere else. Those two files are short; read
-them to check.
+[`src/pesto/services/providers/anthropic_provider.py`](src/pesto/services/providers/anthropic_provider.py),
+which sends it to `api.anthropic.com` and nowhere else. Those two files are short;
+read them to check.
 
 An NCBI key (`NCBI_API_KEY`, optional) raises the PubMed rate limit from 3 to 10
 requests a second and is handled the same way.
+
+### Other model providers (experimental)
+
+Claude is PESTO's default and the only model it has been validated with. For
+evaluating alternatives, a model can be named with its provider: a bare name
+(`haiku`, `opus5`, `claude-opus-5`) is an Anthropic model, as it has always been,
+and `openai:NAME[@EFFORT]` is an OpenAI one, called through the OpenAI
+[Responses API](https://platform.openai.com/docs/api-reference/responses). Install
+the optional SDK and set that provider's key:
+
+```bash
+pip install "pesto-genetics[openai]"          # openai>=2.47
+export OPENAI_API_KEY=sk-...                  # or a line in the same .env file
+```
+
+| Spec | Meant for | Reasoning effort if none is written |
+|---|---|---|
+| `openai:gpt-6-luna` | the cheap, high-volume steps (`--model-fast`) | `low` |
+| `openai:gpt-6.1-sol` | the judgment-heavy reading (`--model`) | `medium` |
+
+The effort is always sent to the API explicitly and is part of the model's name,
+so it is part of every fingerprint and cache key: `openai:gpt-6.1-sol@high` is a
+different pipeline from `openai:gpt-6.1-sol`. These two are candidates to be
+benchmarked, not validated replacements for Haiku and Opus.
+
+A run asks only for the keys of the providers it calls, and says which model needs
+which. Open Targets has its own two models, `--ot-gate-model` and
+`--ot-reader-model` (default: `claude-haiku-4-5` and `claude-opus-5`, so `--model`
+does not reach them), and the models are part of that result's cache key, so
+results from different models never share an entry. `--arm auto` (the default)
+first asks Claude Opus to tell a disease from a trait; `--router-model` names
+another model for that one call, so a run with no Anthropic key can still use it:
+
+```bash
+pesto --gene DDX41 --phenotype "myelodysplastic syndrome" \
+  --model openai:gpt-6.1-sol --model-fast openai:gpt-6-luna \
+  --ot-gate-model openai:gpt-6-luna --ot-reader-model openai:gpt-6.1-sol \
+  --router-model openai:gpt-6.1-sol@medium
+```
+
+The router only chooses between `abstracts` and `abstracts-trait`, so it is not
+part of either arm's fingerprint or of a run's cache key: a stored run is valid
+whichever router sent its pair there. `--json` records the router in use, and
+naming one adds a `router` line to the cost table (the default router's
+fractions of a cent are not counted, as before). `--arm abstracts` or
+`--arm abstracts-trait` asks no router at all.
+
+The browser page runs the default Claude pipelines and needs only the Anthropic key.
 
 ## On the command line
 
@@ -185,7 +233,8 @@ pesto --bench pairs.tsv --workers 10      # writes pesto.tsv and cost.tsv beside
 | `--resume` | with `--bench`, keep the rows an earlier attempt finished |
 | `--max-date DATE` | search only articles published up to `DATE`; Open Targets is not run (see below) |
 | `--note TEXT` | add a sentence to the reading prompt, before the articles; repeat for several |
-| `--model ID`, `--model-fast ID` | use other Claude models; the fingerprint records it |
+| `--model MODEL`, `--model-fast MODEL` | use other models for the reading and the cheap steps (Claude by default; `openai:NAME[@EFFORT]` for OpenAI, see above); the fingerprint records it |
+| `--ot-gate-model MODEL`, `--ot-reader-model MODEL` | the models Open Targets uses to sieve and to grade its traits; `--model` does not change them |
 | `--ot-encoder biolord\|sapbert\|none` | how Open Targets traits are ranked; `none` reads them all |
 | `--show-pipeline` | print the blocks of the pipeline and their fingerprints, call nothing |
 
@@ -273,6 +322,15 @@ pair already answered by the same pipeline is read from the cache and costs
 nothing. With `--bench`, the cost of every pair is written to `cost.tsv` as it
 runs.
 
+Prices are PESTO's own table of list prices (`MODEL_PRICES` in
+[`src/pesto/config.py`](src/pesto/config.py)): per million tokens, Haiku $1 in /
+$5 out, Opus $5 / $25, `openai:gpt-6-luna` $0.10 / $0.50, `openai:gpt-6.1-sol`
+$2 / $10, standard tier. A model that is not in the table is **unpriced**: its
+line in `cost.tsv` has an empty `usd`, the pair's total is empty too, and the
+command line says so, rather than charging it at some other model's rate. Token
+counts are always recorded. OpenAI counts a reasoning model's thinking as output
+tokens, and so does PESTO.
+
 ## Where things are written
 
 Runs are saved under `~/.local/share/pesto` (or `$PESTO_PROJECT_ROOT`), one JSON
@@ -292,6 +350,8 @@ Free, no model calls, no network:
 
 ```bash
 python3 tests/replay.py           # fingerprints, prompts, selection rules, parsing
+python3 tests/anthropic_requests.py  # the exact requests sent to Anthropic, unchanged
+python3 tests/llm_providers.py    # model specs, keys, the OpenAI adapter, pricing (needs openai>=2.47)
 python3 tests/script_imports.py   # every paper script still imports
 ```
 

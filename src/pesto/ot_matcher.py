@@ -14,17 +14,23 @@ the highest-scoring tie caps the pair at Hypothesized.
 """
 import re
 
+from . import config
+
 TAGGED_SHORTLIST = "tagged_shortlist"
 METHODS = (TAGGED_SHORTLIST,)
 
-# The model that grades the shortlist. A cheaper model is not a free choice
-# here: read by claude-haiku, the same task scored 100% sensitivity at 52%
-# specificity on the benchmark.
-BROAD_MODEL = "claude-opus-5"
-# The sieve in front of it. Its job is only to drop what is plainly unrelated,
-# which is a judgement a cheap model makes as well as an expensive one; it is
-# told repeatedly that being unsure is a reason to keep.
-GATE_MODEL = "claude-haiku-4-5"
+# The models the published results were made with: the one that grades the
+# shortlist, and the sieve in front of it. A run may use others
+# (config.OT_READER_MODEL, config.OT_GATE_MODEL, --ot-reader-model,
+# --ot-gate-model); these are what it uses when it does not.
+#
+# A cheaper reader is not a free choice: read by claude-haiku, the same task
+# scored 100% sensitivity at 52% specificity on the benchmark. The sieve's job
+# is only to drop what is plainly unrelated, a judgement a cheap model makes as
+# well as an expensive one; it is told repeatedly that being unsure is a reason
+# to keep.
+BROAD_MODEL = config.OT_PUBLISHED_READER_MODEL
+GATE_MODEL = config.OT_PUBLISHED_GATE_MODEL
 
 
 # How each trait may relate to the reported one. Only the closer grades
@@ -181,26 +187,33 @@ def replay_tagged(record, apply_gate=None):
 
 
 def _match_tagged(gene, phenotype, traits, model=None, temperature=0.0,
-                  encoder=None, top_k=None, gate=None, reasons=None):
+                  encoder=None, top_k=None, gate=None, reasons=None,
+                  gate_model=None):
     """Shortlist, sieve, then grade every shortlisted trait one by one.
 
     The sieve is recorded, not applied before the reader: every nearest trait
     is tagged so a later change to TIES or to whether the gate counts can be
     replayed from disk without another model call.
+
+    `model` is the reader and `gate_model` the sieve; either left out is the
+    configured one. Both are model specs and may name different providers.
     """
-    from . import config, ot_shortlist
+    from . import ot_shortlist
     from .services.llm_service import call_llm_with_usage
     from .utils.helpers import load_prompt
 
     gate = config.OT_GATE if gate is None else gate
     reasons = config.OT_REASONS if reasons is None else reasons
+    gate_model, reader_model = config.ot_models(gate_model, model)
 
     short = ot_shortlist.shortlist(phenotype, traits, k=top_k, name=encoder)
     # Two calls to two models at prices six times apart, so the budget guard is
     # given their sum while the audit keeps them separate. Adding them and then
     # trying to price the total would be a guess about which model spent what.
     spent = {"input_tokens": 0, "output_tokens": 0}
-    tokens = {}
+    # Which model each count belongs to, so it is priced as that model and not
+    # as whichever one the code defaults to.
+    tokens = {"gate_model": gate_model, "read_model": reader_model}
 
     def spend(res, which):
         spent["input_tokens"] += res.get("input_tokens") or 0
@@ -224,7 +237,7 @@ def _match_tagged(gene, phenotype, traits, model=None, temperature=0.0,
         res = spend(call_llm_with_usage(
             template.format(gene=gene, phenotype=phenotype,
                             traits=_render(short)),
-            GATE_MODEL, temperature, agent_name="ot_tagged_gate_agent",
+            gate_model, temperature, agent_name="ot_tagged_gate_agent",
             max_tokens=room), "gate")
         gate_text = res.get("text") or ""
         cut = _parse_gate(gate_text, len(short))
@@ -240,7 +253,7 @@ def _match_tagged(gene, phenotype, traits, model=None, temperature=0.0,
     res = spend(call_llm_with_usage(
         template.format(gene=gene, phenotype=phenotype,
                         traits=_render(short)),
-        model or BROAD_MODEL, temperature,
+        reader_model, temperature,
         agent_name="ot_tagged_match_agent", max_tokens=room), "read")
     tag_text = res.get("text") or ""
     tags, why = _parse_tags(tag_text, len(short))
@@ -273,7 +286,7 @@ def _match_tagged(gene, phenotype, traits, model=None, temperature=0.0,
 
 
 def match(gene, phenotype, traits, method=None, model=None, temperature=0.0,
-          encoder=None, top_k=None, gate=None, reasons=None):
+          encoder=None, top_k=None, gate=None, reasons=None, gate_model=None):
     """Which trait in the answer, if any, records the reported association.
 
     `traits` are the entries the database returned, each a dict with
@@ -292,4 +305,5 @@ def match(gene, phenotype, traits, method=None, model=None, temperature=0.0,
                 "usage": None}
     return _match_tagged(gene, phenotype, traits, model=model,
                          temperature=temperature, encoder=encoder,
-                         top_k=top_k, gate=gate, reasons=reasons)
+                         top_k=top_k, gate=gate, reasons=reasons,
+                         gate_model=gate_model)

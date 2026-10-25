@@ -202,8 +202,9 @@ class Step:
     note: str = ""
     input_tokens: int = 0
     output_tokens: int = 0
-    usd: float = 0.0
+    usd: float = 0.0          # the calls that have a price; see `unpriced`
     calls: int = 0
+    unpriced: tuple = ()      # models used here that PESTO has no price for
 
 
 @dataclass(frozen=True)

@@ -65,6 +65,20 @@ DEFAULT_SEED = 42
 # claude-haiku and grades the survivors one by one with claude-opus. See
 # ot_matcher.py.
 OT_MATCHER = "tagged_shortlist"
+# The two models of that matcher, as model specs (a bare name is Anthropic; see
+# services/providers). The published ones are the defaults and are left out of
+# the cache key, so every answer cached under them stays valid; any other pair
+# enters the key, so an answer is only ever reused by the models that gave it.
+# `--ot-gate-model` and `--ot-reader-model` set them for one run.
+#   The reader grades each shortlisted trait. A cheaper model is not a free
+#   choice here: read by haiku, the same task scored 100% sensitivity at 52%
+#   specificity on the benchmark.
+#   The gate only drops what is plainly unrelated, which a cheap model judges
+#   as well as an expensive one.
+OT_PUBLISHED_GATE_MODEL = "claude-haiku-4-5"
+OT_PUBLISHED_READER_MODEL = "claude-opus-5"
+OT_GATE_MODEL = OT_PUBLISHED_GATE_MODEL
+OT_READER_MODEL = OT_PUBLISHED_READER_MODEL
 # Which embedding model ranks the answer: "biolord", "sapbert", or "none" to
 # read the whole list. See ot_shortlist.py for what the choice costs and buys.
 # An install without PyTorch cannot rank, so it reads the whole list instead;
@@ -96,55 +110,105 @@ def ot_match_prompt_name(reasons=None, prompt=None):
     return OT_MATCH_PROMPTS.get(which, OT_MATCH_PROMPTS["v7"])
 
 
+def ot_models(gate_model=None, reader_model=None):
+    """The gate and reader that will run, as canonical specs.
+
+    Raises ValueError for a spec that cannot run, so a typo fails here and not
+    after the first paid call."""
+    from .services import providers
+    return (providers.canonical(gate_model or OT_GATE_MODEL),
+            providers.canonical(reader_model or OT_READER_MODEL))
+
+
+def ot_models_version(gate_model=None, reader_model=None):
+    """What the models add to a cache key: nothing for the published pair, and
+    the spec of whichever differs otherwise. A model is named by provider and
+    reasoning effort, not just by id, because those change the answer."""
+    gate = gate_model or OT_GATE_MODEL
+    reader = reader_model or OT_READER_MODEL
+    if gate == OT_PUBLISHED_GATE_MODEL and reader == OT_PUBLISHED_READER_MODEL:
+        return ""
+    gate, reader = ot_models(gate, reader)
+    return (("" if gate == OT_PUBLISHED_GATE_MODEL else ":gate=" + gate)
+            + ("" if reader == OT_PUBLISHED_READER_MODEL else ":read=" + reader))
+
+
 def ot_agent_version(matcher=None, encoder=None, top_k=None, reasons=None,
-                     prompt=None):
+                     prompt=None, gate_model=None, reader_model=None):
     """What the Open Targets agents saw, excluding verdict rules.
 
     TIES, score bands and whether the gate is applied afterwards can be
-    replayed from a saved record. The encoder, the cut, the reasons flag
-    and which match prompt was sent change which traits were graded, so
-    those belong here.
+    replayed from a saved record. The encoder, the cut, the reasons flag,
+    which match prompt was sent and which models read it change which traits
+    were graded and how, so those belong here.
     """
     m = matcher or OT_MATCHER
     k = OT_TOP_K if top_k is None else top_k
     which = OT_MATCH_PROMPT if prompt is None else prompt
-    return "%s:%s:%d%s:%s" % (
+    return "%s:%s:%d%s:%s%s" % (
         m, (encoder or OT_ENCODER), max(k, 0),
         ":reasons" if (OT_REASONS if reasons is None else reasons) else "",
-        which)
+        which, ot_models_version(gate_model, reader_model))
 
 
 def ot_match_version(matcher=None, encoder=None, top_k=None, gate=None,
-                     reasons=None):
+                     reasons=None, gate_model=None, reader_model=None):
     """What makes two Open Targets answers comparable.
 
     A cached answer may be reused only if it was produced under the same
-    settings: the encoder, the cut and the sieve all change which traits were
-    read and therefore what the answer says.
+    settings: the encoder, the cut, the sieve and the models all change which
+    traits were read and therefore what the answer says.
     """
-    return ot_agent_version(matcher, encoder, top_k, reasons) + (
+    return ot_agent_version(matcher, encoder, top_k, reasons,
+                            gate_model=gate_model, reader_model=reader_model) + (
         ":gate" if (OT_GATE if gate is None else gate) else "")
 
 
 OT_MATCH_VERSION = ot_match_version()
 
 # --- Cost accounting ---
-# Anthropic list prices, USD per million tokens (input, output).
-PRICE_PER_MTOK_INPUT = 1.00
-PRICE_PER_MTOK_OUTPUT = 5.00
+# List prices, USD per million tokens (input, output), standard tier, for the
+# models PESTO has been given a price for. A model that is not here has no price:
+# `price_usd` says so rather than charging it as some other model.
+#
+# Keys are the model without its reasoning effort (`@low`) and, for Anthropic,
+# without the provider (`anthropic:claude-opus-5` is `claude-opus-5`). OpenAI
+# models keep `openai:` because that is how they are named everywhere else.
+# OpenAI's output price covers reasoning tokens, which its API counts in
+# `output_tokens`, so counts and prices combine the same way for both providers.
 MODEL_PRICES = {
+    # Anthropic, https://docs.anthropic.com/en/docs/about-claude/pricing
     "haiku": (1.00, 5.00),
     "claude-haiku-4-5": (1.00, 5.00),
     "opus": (5.00, 25.00),
     "opus5": (5.00, 25.00),
     "claude-opus-5": (5.00, 25.00),
+    # OpenAI, https://platform.openai.com/docs/pricing
+    "openai:gpt-6-luna": (0.10, 0.50),
+    "openai:gpt-6.1-sol": (2.00, 10.00),
 }
 
 
+def price_key(model):
+    """The name a model's price is filed under, or '' for no model."""
+    model = (model or "").strip()
+    provider, colon, rest = model.partition(":")
+    if colon and provider.lower() == "anthropic":
+        model = rest
+    elif colon and provider.lower() == "openai":
+        model = "openai:" + rest
+    return model.split("/")[-1].split("@")[0]
+
+
 def price_usd(model, input_tokens, output_tokens):
-    """List price of one call. Unknown models are charged as Haiku."""
-    key = (model or "").split("/")[-1].split("@")[0]
-    pin, pout = MODEL_PRICES.get(key, (PRICE_PER_MTOK_INPUT, PRICE_PER_MTOK_OUTPUT))
+    """List price of one call in USD, or None when the model has no price.
+
+    None is not zero: an unpriced call cost something, and a total that
+    leaves it out is not the cost of the run."""
+    prices = MODEL_PRICES.get(price_key(model))
+    if prices is None:
+        return None
+    pin, pout = prices
     return (int(input_tokens or 0) / 1e6) * pin + (int(output_tokens or 0) / 1e6) * pout
 
 # --- API Settings ---

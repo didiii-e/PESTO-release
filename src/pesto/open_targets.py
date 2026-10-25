@@ -13,7 +13,7 @@ import re
 
 import requests
 
-from . import ot_matcher
+from . import config, ot_matcher
 from .config import BASE_URL_NCBI
 from .services import pubmed_service
 from .services.pubmed_service import make_api_request_with_retry
@@ -288,7 +288,7 @@ def _result_from_record(record, gene_symbol, phenotype, runs_dir, gate=None):
 
 
 def _load_match_sidecar(path, matcher=None, encoder=None, top_k=None,
-                        reasons=None):
+                        reasons=None, gate_model=None, reader_model=None):
     if not os.path.exists(path):
         return None
     try:
@@ -296,8 +296,11 @@ def _load_match_sidecar(path, matcher=None, encoder=None, top_k=None,
             record = json.load(fh)
     except (OSError, json.JSONDecodeError):
         return None
-    from . import config
-    want = config.ot_agent_version(matcher, encoder, top_k, reasons)
+    # The models are in the version, so a record made by other models is not
+    # reused: it is read again, by these.
+    want = config.ot_agent_version(matcher, encoder, top_k, reasons,
+                                   gate_model=gate_model,
+                                   reader_model=reader_model)
     if record.get("agent_version") != want:
         return None
     if not record.get("shortlist") or not record.get("graded"):
@@ -318,9 +321,13 @@ def fetch_and_save_open_targets_traits(gene_symbol, runs_dir, phenotype,
                                        synonyms, model="claude-haiku-4-5",
                                        temperature=0.0, tracker=None,
                                        matcher=None, encoder=None, top_k=None,
-                                       gate=None, reasons=None):
+                                       gate=None, reasons=None,
+                                       gate_model=None, reader_model=None):
+    # Fails here, before anything is fetched or paid for, if a model spec is bad.
+    gate_model, reader_model = config.ot_models(gate_model, reader_model)
     sidecar = _ot_match_sidecar_path(runs_dir, gene_symbol, phenotype)
-    cached = _load_match_sidecar(sidecar, matcher, encoder, top_k, reasons)
+    cached = _load_match_sidecar(sidecar, matcher, encoder, top_k, reasons,
+                                 gate_model, reader_model)
     if cached is not None:
         print(f"INFO: Open Targets - reused {sidecar}")
         return _result_from_record(cached, gene_symbol, phenotype,
@@ -356,9 +363,10 @@ def fetch_and_save_open_targets_traits(gene_symbol, runs_dir, phenotype,
                                           "name": payload.get("name", ""),
                                           "score": payload.get("score")}
                                          for did, payload in filtered_items],
-                                        method=matcher, model=None,
+                                        method=matcher, model=reader_model,
                                         encoder=encoder, top_k=top_k,
-                                        gate=gate, reasons=reasons)
+                                        gate=gate, reasons=reasons,
+                                        gate_model=gate_model)
         labels_map = {did: did == match_detail.get("matched_id")
                       for did, _ in filtered_items}
         ot_synonym_selection_usage = match_detail.get("usage")
@@ -396,16 +404,19 @@ def fetch_and_save_open_targets_traits(gene_symbol, runs_dir, phenotype,
                     ot_articles.append(art)
             except Exception as e:
                 print(f"WARNING: Failed to fetch evidence for {t['disease_id']}: {e}")
-        from . import config
         match_public = {k: v for k, v in match_detail.items() if k != "usage"}
         record = {
             "gene": gene_symbol,
             "phenotype": phenotype,
             "ensembl_id": ensembl_id,
             "agent_version": config.ot_agent_version(
-                matcher, encoder, top_k, reasons),
+                matcher, encoder, top_k, reasons,
+                gate_model=gate_model, reader_model=reader_model),
             "ot_match_version": config.ot_match_version(
-                matcher, encoder, top_k, gate, reasons),
+                matcher, encoder, top_k, gate, reasons,
+                gate_model=gate_model, reader_model=reader_model),
+            # Spelled out for the reader of the file, whatever the defaults say.
+            "models": {"gate": gate_model, "reader": reader_model},
             "traits": [{"disease_id": t["disease_id"],
                         "name": t["name"],
                         "score": t["score"]}

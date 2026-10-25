@@ -72,8 +72,12 @@ def _execute(job, workers):
         def save_meta(**changes):
             meta.update(changes)
             meta["done"] = len(done)
-            meta["usd"] = round(sum(float(r["usd"]) for rows in costs.values()
-                                    for r in rows if r.get("step") == "total"), 4)
+            totals = [r.get("usd") for rows in costs.values()
+                      for r in rows if r.get("step") == "total"]
+            # Pairs that used a model with no price add nothing here and are
+            # counted, so the figure is never passed off as the whole cost.
+            meta["usd"] = round(sum(float(u) for u in totals if u not in ("", None)), 4)
+            meta["unpriced_pairs"] = sum(1 for u in totals if u in ("", None))
             runs.write_meta(path, meta)
 
         todo = [p for p in pairs if (p["gene"], p["phenotype"]) not in done]

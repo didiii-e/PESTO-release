@@ -155,9 +155,11 @@ def read_meta(path):
 
 
 def total_cost(path):
-    return round(sum(float(r.get("usd") or 0)
+    """The priced pairs' cost. Pairs with a model that has no price (an empty
+    usd) are left out of the sum; see unpriced_pairs."""
+    return round(sum(float(r["usd"])
                      for r in _tsv(os.path.join(path, "cost.tsv"))
-                     if r.get("step") == "total"), 4)
+                     if r.get("step") == "total" and r.get("usd") not in ("", None)), 4)
 
 
 def list_runs():
@@ -183,7 +185,9 @@ def rows(path):
     costs = {}
     for r in _tsv(os.path.join(path, "cost.tsv")):
         if r.get("step") == "total":
-            costs[(r["gene"], r["phenotype"])] = float(r.get("usd") or 0)
+            # None, like a pair not yet run, when its models have no price.
+            costs[(r["gene"], r["phenotype"])] = (
+                float(r["usd"]) if r.get("usd") not in ("", None) else None)
     out = []
     for p in read_input(path):
         key = (p["gene"], p["phenotype"])

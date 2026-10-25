@@ -1,10 +1,12 @@
 """The API keys: where they are read, and what is done with them.
 
-PESTO needs one secret, an Anthropic API key, and can use a second, an NCBI key
-that raises the PubMed rate limit from 3 to 10 requests a second. Both are read
-here and nowhere else, from either of:
+PESTO needs the API key of each model provider a run calls: an Anthropic key by
+default, an OpenAI key when a model is named `openai:...` (a run asks only for
+the keys of the providers it uses). It can also use an NCBI key that raises the
+PubMed rate limit from 3 to 10 requests a second. All are read here and nowhere
+else, from either of:
 
-  - the environment variables ANTHROPIC_API_KEY and NCBI_API_KEY;
+  - the environment variables ANTHROPIC_API_KEY, OPENAI_API_KEY and NCBI_API_KEY;
   - a .env file you wrote yourself in the PESTO data directory
     (~/.local/share/pesto/.env, or $PESTO_PROJECT_ROOT/.env when that is set).
     A variable already set in the shell wins over the file.
@@ -15,9 +17,11 @@ from the environment, and is handled exactly as below.
 
 PESTO never writes a key to disk, never prints it, and never records it in a
 saved run. The Anthropic key is handed to the official `anthropic` client in
-services/llm_service.py, which sends it to api.anthropic.com and nowhere else.
+services/providers/anthropic_provider.py, which sends it to api.anthropic.com
+and nowhere else; the OpenAI key to the official `openai` client in
+services/providers/openai_provider.py, which sends it to api.openai.com only.
 The NCBI key is sent to eutils.ncbi.nlm.nih.gov as the `api_key` parameter NCBI
-asks for, in services/pubmed_service.py. Those three files are the whole audit.
+asks for, in services/pubmed_service.py. Those files are the whole audit.
 """
 import os
 
@@ -34,9 +38,18 @@ def _load():
         _loaded = True
 
 
-def anthropic_api_key():
+def api_key(env_var):
+    """The key held in this environment variable (or in .env), or None."""
     _load()
-    return os.environ.get("ANTHROPIC_API_KEY") or None
+    return os.environ.get(env_var) or None
+
+
+def anthropic_api_key():
+    return api_key("ANTHROPIC_API_KEY")
+
+
+def openai_api_key():
+    return api_key("OPENAI_API_KEY")
 
 
 def ncbi_api_key():

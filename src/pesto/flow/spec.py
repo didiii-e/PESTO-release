@@ -141,6 +141,13 @@ class Arm:
     def but(self, name=None, **changes):
         return dataclasses.replace(self, name=name or self.name, **changes)
 
+    def models(self):
+        """Every model this arm calls, as written, so that a run can ask for
+        exactly the API keys it needs. A block with no model replays a recorded
+        answer and calls nothing."""
+        return sorted({b.params()["model"] for b in self.blocks()
+                       if b.params().get("model")})
+
     def using(self, reader=None, worker=None, max_date=None, notes=()):
         """The same arm read by a different model, over an older literature,
         or with notes added to the reading prompt.
