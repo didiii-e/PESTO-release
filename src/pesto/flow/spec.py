@@ -148,15 +148,36 @@ class Arm:
         return sorted({b.params()["model"] for b in self.blocks()
                        if b.params().get("model")})
 
-    def using(self, reader=None, worker=None, max_date=None, notes=()):
+    def using(self, reader=None, worker=None, max_date=None, notes=(),
+              reasoning=None):
         """The same arm read by a different model, over an older literature,
         or with notes added to the reading prompt.
 
         Swapping models is a change of parameter and not of architecture, so
         the arm stays the arm, and the fingerprint moves, which is the honest
         record that the numbers may too. A date ceiling and notes move it the
-        same way.
+        same way, and so does a reasoning level: `reasoning` is the default for
+        every block that calls a model, applied after the swap, and a level
+        already written in a model's spec (`openai:gpt-6.1-sol@high`) wins over
+        it. None leaves every model exactly as the arm declares it.
         """
+        if reasoning:
+            from ..services import providers
+
+            def level(block):
+                model = block.params().get("model")
+                return (block.but(model=providers.with_effort(model, reasoning))
+                        if model else block)
+            arm = self.using(reader, worker, max_date, notes)
+            return dataclasses.replace(
+                arm,
+                expand=tuple(level(b) for b in arm.expand),
+                sources=tuple(level(b) for b in arm.sources),
+                dedupe=level(arm.dedupe), hydrate=level(arm.hydrate),
+                annotate=tuple(level(b) for b in arm.annotate),
+                select=level(arm.select), read=level(arm.read),
+                judge=level(arm.judge))
+
         def swap(block, model):
             # A block whose model is None is not calling anything: that is how
             # a block says it replays a recorded synonym list. Giving it a model

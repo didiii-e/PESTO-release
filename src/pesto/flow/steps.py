@@ -554,7 +554,7 @@ class ProbabilityRead(Reader):
                 articles_list=render(corpus, self.needs, block=self.kind),
                 alias_note="".join(n.strip() + "\n" for n in self.notes),
                 dismiss_note=harness.DISMISS),
-            harness.MODELS.get(self.model, self.model), 0.0,
+            harness.resolve_model(self.model), 0.0,
             agent_name="gencc_probs") or {}
         return resp.get("text", "") or "", resp
 
@@ -628,7 +628,7 @@ class KnowledgeRead(Reader):
         resp = call_llm_with_usage(
             self.template().format(
                 gene_name=query.gene, phenotype=query.phenotype),
-            harness.MODELS.get(self.model, self.model), 0.0,
+            harness.resolve_model(self.model), 0.0,
             agent_name="knowledge_prior") or {}
         return resp.get("text", "") or "", resp
 

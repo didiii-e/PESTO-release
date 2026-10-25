@@ -24,6 +24,16 @@ BROAD_PROMPT = os.path.join(PROMPTS, "broad_term_prompt.txt")
 # The aliases, not the model ids, enter the fingerprints.
 MODELS = {"haiku": "claude-haiku-4-5", "opus": "claude-opus-5",
           "opus5": "claude-opus-5"}
+
+
+def resolve_model(spec):
+    """An arm's alias to its model id, keeping a reasoning level if one is
+    written: `opus5@high` is `claude-opus-5@high`. Anything that is not an
+    alias (`openai:gpt-6-luna@low`, a full model id) is returned as it is."""
+    name, at, level = spec.partition("@")
+    return MODELS.get(name, name) + at + level
+
+
 SPECIFIC_QUOTA, BROAD_QUOTA, SECONDARY_QUOTA, OLDEST_QUOTA = 50, 30, 10, 10
 DECOMPOSED_QUOTA = 10
 # Unfiltered name search on a famous gene ranks cytokine biology above the
@@ -56,7 +66,7 @@ def slug(gene, phenotype):
 
 
 def ask(prompt, model, agent):
-    return (call_llm_with_usage(prompt, MODELS.get(model, model), 0.0,
+    return (call_llm_with_usage(prompt, resolve_model(model), 0.0,
                                 agent_name=agent) or {}).get("text", "")
 
 

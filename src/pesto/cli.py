@@ -108,15 +108,74 @@ def ot_models_of(args):
     """The Open Targets gate and reader this command asks for, as canonical
     specs, or a refusal naming the flag whose value cannot run."""
     from .services import providers
-    gate = getattr(args, "ot_gate_model", None)
-    reader = getattr(args, "ot_reader_model", None)
-    for flag, spec in (("--ot-gate-model", gate), ("--ot-reader-model", reader)):
+    for flag, spec in (("--ot-gate-model", getattr(args, "ot_gate_model", None)),
+                       ("--ot-reader-model", getattr(args, "ot_reader_model", None))):
         if spec:
             try:
                 providers.validate(spec)
             except ValueError as exc:
                 raise SystemExit(f"pesto: {flag}: {exc}")
-    return config.ot_models(gate, reader)
+    gate, reader = ot_specs(args)
+    try:
+        return config.ot_models(gate, reader)
+    except ValueError as exc:
+        # The raw specs passed above, so only a level the flag added can fail.
+        raise SystemExit(level_refusal(args, exc))
+
+
+def ot_specs(args):
+    """The Open Targets gate and reader as this command asks for them, as
+    written (None where the published default runs). With `--reasoning` the
+    level goes on each model whose spec does not name its own, which makes
+    the default models explicit: `claude-haiku-4-5@low`, not "the default"."""
+    from .services import providers
+    gate = getattr(args, "ot_gate_model", None)
+    reader = getattr(args, "ot_reader_model", None)
+    level = getattr(args, "reasoning", None)
+    if level:
+        gate = providers.with_effort(gate or config.OT_GATE_MODEL, level)
+        reader = providers.with_effort(reader or config.OT_READER_MODEL, level)
+    return gate, reader
+
+
+def refuse_unrunnable_levels(args, needed):
+    """With `--reasoning`, every model the run will call must be able to take
+    its level. Checked before anything is fetched or paid for, and the flag is
+    named, because the models themselves may be defaults the user never wrote."""
+    level = getattr(args, "reasoning", None)
+    if not level:
+        return
+    from .services import providers
+    for spec in sorted(needed):
+        try:
+            providers.validate(spec)
+        except ValueError as exc:
+            raise SystemExit(level_refusal(args, exc, spec))
+
+
+def note_unleveled(args, needed):
+    """Say, on stderr, which models `--reasoning` did not reach because they
+    have no level to set. They run as before, and their spec records that."""
+    level = getattr(args, "reasoning", None)
+    if not level:
+        return
+    skipped = sorted(spec for spec in needed if "@" not in spec)
+    if skipped:
+        print(f"pesto: --reasoning {level} does not apply to {', '.join(skipped)}: "
+              f"it takes no reasoning level, so it runs as it always has",
+              file=sys.stderr)
+
+
+def level_refusal(args, exc, spec=None):
+    """The refusal for a model that cannot take `--reasoning`'s level."""
+    return (f"pesto: --reasoning {args.reasoning}: "
+            f"{spec + ': ' if spec else ''}{exc}. Name that model with a level "
+            f"it has (`MODEL@LEVEL`), or leave --reasoning off for it")
+
+
+def providers_levels():
+    from .services import providers
+    return providers.LEVELS
 
 
 def providers_canonical(spec):
@@ -131,13 +190,13 @@ def router_model_of(args):
     from .flow import arms
     from .services import providers
     spec = getattr(args, "router_model", None)
-    if not spec:
-        return arms.ROUTER_MODEL
-    try:
-        providers.validate(spec)
-    except ValueError as exc:
-        raise SystemExit(f"pesto: --router-model: {exc}")
-    return spec
+    if spec:
+        try:
+            providers.validate(spec)
+        except ValueError as exc:
+            raise SystemExit(f"pesto: --router-model: {exc}")
+    return providers.with_effort(spec or arms.ROUTER_MODEL,
+                                 getattr(args, "reasoning", None))
 
 
 def route(args, phenotype, reader, worker):
@@ -162,9 +221,10 @@ def router_cost_rows(args, gene, phenotype, usage_rows):
 
     With the default router they are left out, as they always have been, so
     that the cost of a default run is the figure it has always been. Naming a
-    router is a choice about cost, and the cost is then shown."""
+    router is a choice about cost, and the cost is then shown. So is a
+    reasoning level, which changes what the router spends."""
     from .cost import from_usage
-    if not getattr(args, "router_model", None):
+    if not (getattr(args, "router_model", None) or getattr(args, "reasoning", None)):
         return []
     return from_usage(gene, phenotype, "router", usage_rows)
 
@@ -222,7 +282,8 @@ def fit(arm, args, reader, worker):
     try:
         return arm.using(reader=reader, worker=worker,
                          max_date=getattr(args, "max_date", None),
-                         notes=reader_notes(args, arm))
+                         notes=reader_notes(args, arm),
+                         reasoning=getattr(args, "reasoning", None))
     except ValueError as exc:
         raise SystemExit(f"pesto: {exc}")
 
@@ -243,8 +304,8 @@ def open_targets(gene, phenotype, synonyms, model, runs_dir, args=None):
         matcher=getattr(args, "ot_matcher", None),
         encoder=getattr(args, "ot_encoder", None),
         top_k=getattr(args, "ot_top", None),
-        gate_model=getattr(args, "ot_gate_model", None),
-        reader_model=getattr(args, "ot_reader_model", None),
+        gate_model=ot_specs(args)[0],
+        reader_model=ot_specs(args)[1],
         # The flags read the other way round from the parameters, so that both
         # read naturally where they are written: `--no-ot-gate` on the command
         # line, `gate=False` in the call.
@@ -574,6 +635,19 @@ def build_parser():
                         "phenotype, sieving and banding (default: the arm's "
                         "own, claude-haiku-4-5 and claude-opus-5 for synonyms). "
                         "Same spelling as --model, e.g. openai:gpt-6-luna")
+    p.add_argument("--reasoning", metavar="LEVEL", choices=providers_levels(),
+                   help="how much every model reasons: %s. The default for "
+                        "each model the run calls (literature, router, Open "
+                        "Targets); a level written in a model's own spec "
+                        "(openai:gpt-6.1-sol@high, claude-opus-5@low) wins "
+                        "over it. OpenAI takes it as `reasoning.effort`, "
+                        "Claude as `effort`. Unset sends no level to Claude "
+                        "and each OpenAI model's own default, exactly as "
+                        "before. A model with no level to set (Claude Haiku "
+                        "4.5) is left as it was and named on stderr. `none` "
+                        "exists for OpenAI only: Claude has no off level. "
+                        "Part of the fingerprint, so a cached run is reused "
+                        "only at the same level" % ", ".join(providers_levels()))
     p.add_argument("--max-date", metavar="DATE",
                    help="search only articles published up to this date: "
                         "YYYY, YYYY/MM or YYYY/MM/DD (2019 means 2019/12/31), "
@@ -713,7 +787,10 @@ def main(argv=None):
         return 0
     # Now that the arm is known: a key for each provider it will call, and
     # none for one it will not.
-    require_keys(needed_models(args, arm, fitted))
+    needed = needed_models(args, arm, fitted)
+    refuse_unrunnable_levels(args, needed)
+    note_unleveled(args, needed)
+    require_keys(needed)
 
     if args.bench:
         if args.gene or args.phenotype:

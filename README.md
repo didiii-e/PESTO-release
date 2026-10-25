@@ -184,6 +184,32 @@ so it is part of every fingerprint and cache key: `openai:gpt-6.1-sol@high` is a
 different pipeline from `openai:gpt-6.1-sol`. These two are candidates to be
 benchmarked, not validated replacements for Haiku and Opus.
 
+**`--reasoning LEVEL`** (`none`, `low`, `medium`, `high`, `max`) sets one reasoning
+level for every model a run calls: the literature steps, the `--arm auto` router and
+the two Open Targets models. Each provider receives it in its own terms: OpenAI as
+`reasoning.effort`, Claude as `effort`. A level written in a model's own spec
+(`openai:gpt-6.1-sol@high`, `claude-opus-5@low`) wins over the flag, so one model can
+differ from the rest; `xhigh` exists for both providers and is only spelled that way.
+
+```bash
+pesto --gene DDX41 --phenotype "myelodysplastic syndrome" --reasoning high
+pesto ... --model openai:gpt-6.1-sol --reasoning medium --model-fast openai:gpt-6-luna
+```
+
+Without the flag nothing changes: Claude is sent no effort and runs at the API's own
+default, and every OpenAI model runs at its default effort above. The level is part
+of the model's name, so it is part of the fingerprint and of every cache key; a run is
+never reused at a different level. A few things are deliberate:
+
+- Claude Haiku 4.5 takes no reasoning level (the API refuses `effort` for it). The
+  flag leaves it alone, says so on stderr, and its fingerprint shows it ran without
+  one. Writing `claude-haiku-4-5@low` yourself is an error.
+- `none` exists for OpenAI only (and not for `gpt-6.1-sol`, whose lowest is `low`);
+  Claude has no off level. A model that cannot take the level stops the run before
+  anything is fetched, with the flag and the model named.
+- Raising the level makes models think longer, which is billed as output. Each level
+  gets room for it on top of the usual output cap, and the cost table counts it.
+
 A run asks only for the keys of the providers it calls, and says which model needs
 which. Open Targets has its own two models, `--ot-gate-model` and
 `--ot-reader-model` (default: `claude-haiku-4-5` and `claude-opus-5`, so `--model`

@@ -4,6 +4,14 @@ This is the call PESTO has always made, moved here unchanged: the same request,
 the same retries, the same reading of the answer. tests/anthropic_requests.py
 holds it to that. The key is read in pesto.credentials and given to the official
 client, which sends it to api.anthropic.com only.
+
+One thing can be added to that call, and only when it is asked for: a model spec
+may end in `@LEVEL` (`claude-opus-5@medium`), which sends the API's `effort`
+(`output_config.effort`), the control Anthropic documents for how much a model
+reasons. A spec without it sends no effort, so every request made before this
+existed is still the request that is made, and the model runs at the API's own
+default for it. A level is part of the canonical spec, so it is part of every
+fingerprint and cache key.
 """
 import inspect
 import time
@@ -25,6 +33,50 @@ _SDK_TAKES_TEMPERATURE = "temperature" in inspect.signature(
 # Models the API has refused a temperature for during this process.
 _REFUSES_TEMPERATURE = set()
 
+# The levels of `output_config.effort` (Anthropic's effort documentation). There
+# is no level for "no reasoning": thinking is switched off by a different
+# parameter, on some models only, so PESTO does not pretend one level covers it.
+EFFORTS = ("low", "medium", "high", "xhigh", "max")
+
+# Thinking is generated, billed and counted against max_tokens before the answer
+# ends. With an effort set, the cap is the caller's max_tokens plus this room, so
+# that a model asked to think more is not cut off before it answers. A ceiling,
+# not a spend. Without an effort nothing is added: that request is unchanged.
+THINKING_HEADROOM = {"low": 4_000, "medium": 8_000, "high": 16_000,
+                     "xhigh": 32_000, "max": 64_000}
+
+# Models the API answers "does not support the effort parameter" for (a 400,
+# seen live on claude-haiku-4-5), by id and by the alias PESTO's arms use for it.
+# PESTO's default arm reads with Opus and bands with this model, so a run-wide
+# level has to know to leave it alone.
+NO_EFFORT = ("claude-haiku-4-5", "haiku")
+
+_SDK_TAKES_OUTPUT_CONFIG = "output_config" in inspect.signature(
+    anthropic.resources.messages.Messages.create).parameters
+
+
+def parse_model(model):
+    """`claude-opus-5@high` -> ("claude-opus-5", "high"); no `@` -> (model, None).
+
+    Raises ValueError for a level Claude has no such setting for."""
+    model_id, _, option = (model or "").partition("@")
+    model_id, option = model_id.strip(), option.strip().lower()
+    if not model_id:
+        raise ValueError("a model spec needs a model id, e.g. claude-opus-5")
+    if "@" in (model or "") and not option:
+        raise ValueError(f"{model!r} has an `@` and no reasoning level after it; "
+                         f"use one of {', '.join(EFFORTS)}")
+    if option == "none":
+        raise ValueError(f"{model_id} has no reasoning-off level: Claude's effort "
+                         f"runs {', '.join(EFFORTS)}")
+    if option and model_id in NO_EFFORT:
+        raise ValueError(f"{model_id} takes no reasoning level: the API refuses "
+                         f"`effort` for it")
+    if option and option not in EFFORTS:
+        raise ValueError(f"reasoning level {option!r} is not one of "
+                         f"{', '.join(EFFORTS)} for {model_id}")
+    return model_id, (option or None)
+
 
 class AnthropicProvider(Provider):
     name = "anthropic"
@@ -38,6 +90,18 @@ class AnthropicProvider(Provider):
     def build_client(self, key):
         return anthropic.Anthropic(api_key=key)
 
+    def takes_level(self, model):
+        return parse_model(model)[0] not in NO_EFFORT
+
+    def validate_model(self, model):
+        parse_model(model)      # the id itself is the API's to judge, as always
+
+    def canonical_model(self, model):
+        """A bare spec stays itself, so every key made before levels existed
+        still matches; a level is spelled out, lower-cased."""
+        model_id, effort = parse_model(model)
+        return f"{model_id}@{effort}" if effort else model_id
+
     def check_key(self, key):
         """True if Anthropic accepts the key. Lists models: costs nothing."""
         try:
@@ -50,6 +114,10 @@ class AnthropicProvider(Provider):
             return False
 
     def complete(self, model, prompt, temperature, max_tokens=4096):
+        spec = model
+        model, effort = parse_model(spec)
+        if effort:
+            max_tokens += THINKING_HEADROOM[effort]
         client_ = self.client()
         delay = LLM_INITIAL_DELAY
 
@@ -74,6 +142,12 @@ class AnthropicProvider(Provider):
                         kwargs["temperature"] = temperature
                     else:
                         kwargs["extra_body"] = {"temperature": temperature}
+                if effort:
+                    if _SDK_TAKES_OUTPUT_CONFIG:
+                        kwargs["output_config"] = {"effort": effort}
+                    else:
+                        kwargs["extra_body"] = {**kwargs.get("extra_body", {}),
+                                                "output_config": {"effort": effort}}
                 # The SDK refuses a long non-streamed request (a large max_tokens
                 # can run past ten minutes), so those are streamed and collected.
                 if max_tokens > 8192:
@@ -116,7 +190,16 @@ class AnthropicProvider(Provider):
                     print(f"WARNING: {model} no longer accepts `temperature`; "
                           f"its calls now run at the API default, so repeated "
                           f"runs can differ.")
-                    return self.complete(model, prompt, temperature, max_tokens)
+                    return self.complete(spec, prompt, temperature,
+                                         max_tokens - (THINKING_HEADROOM[effort]
+                                                       if effort else 0))
+                elif (e.status_code == 400 and effort
+                      and "effort" in str(e).lower()):
+                    # Not dropped and not retried without it: a run that asked
+                    # for a level and got none would record one it did not have.
+                    raise RuntimeError(
+                        f"{model} does not accept a reasoning level "
+                        f"(@{effort}): {e}") from e
                 else:
                     raise
 

@@ -102,6 +102,12 @@ class Provider(ABC):
         """Raise ValueError if this provider cannot run `model`, without calling
         it. The default accepts anything: the API will say if it is wrong."""
 
+    def takes_level(self, model):
+        """Whether `model` has a reasoning level to set at all. A default level
+        (`--reasoning`) is only written onto models that do; one written in the
+        spec by hand is judged by `validate_model` and refused if it cannot."""
+        return True
+
     def canonical_model(self, model):
         """`model` written so that two spellings of the same call are one string.
 

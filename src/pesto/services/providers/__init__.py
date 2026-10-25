@@ -78,6 +78,32 @@ def canonical(spec):
     return f"{resolved.provider.name}:{model}"
 
 
+LEVELS = ("none", "low", "medium", "high", "max")
+
+
+def with_effort(spec, level):
+    """`spec` carrying the reasoning `level`, unless it already names its own.
+
+    This is how one `--reasoning LEVEL` reaches every model of a run: each
+    provider reads the `@level` its own way (OpenAI's `reasoning.effort`,
+    Claude's `output_config.effort`). A level written in the spec is a more
+    specific instruction than a default, so it is left alone. So is a model
+    with no reasoning level to set (Claude Haiku 4.5): it runs as it always
+    did, and its spec, and so its fingerprint, say so. With no level the
+    spec comes back untouched, which is what keeps every run made without the
+    flag identical to what it was. Whether the model can take the level is for
+    `validate` to say; this only writes it.
+    """
+    if not level:
+        return spec
+    if level not in LEVELS:
+        raise ValueError(f"reasoning level {level!r} is not one of {', '.join(LEVELS)}")
+    resolved = resolve(spec)            # a bad provider prefix fails here
+    if "@" in spec or not resolved.provider.takes_level(resolved.model):
+        return spec
+    return f"{spec}@{level}"
+
+
 def auth_failure(exc):
     """The provider whose SDK raised this authentication error, else None."""
     if type(exc).__name__ != "AuthenticationError":
